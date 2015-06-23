@@ -28,7 +28,7 @@ To place a request against the server you can either
 * run _curl_ 
 
 
-### client.byte
+### clienthtml.byte
 The client comes with several encoded requests that it
 places against the server.
 
