@@ -128,12 +128,12 @@ name of contacts that know Jon.
                    ?x, last,   ?last, contacts     
                   }"
 
-Running examples will be shown in the next release--after fixing some bugs.
+Running examples will be shown in the next release--after fixing some bugs in the policies.
 
 ### SPARql queries 
 The complexity of the SPARql query is determined by the application. The server can
 receive requests in json format and respond similarly.
 
-Running examples will be shoen in the next release. 
+Running examples will be shown in the next release. 
 
 
