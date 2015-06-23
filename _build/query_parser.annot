@@ -1,0 +1,5585 @@
+"query_parser.ml" 26 379 383 "query_parser.ml" 26 379 387
+type(
+  exn
+)
+ident(
+  def _eRR "query_parser.ml" 29 399 399 "query_parser.ml" 1 0 -1
+)
+"query_parser.ml" 27 390 392 "query_parser.ml" 27 390 397
+type(
+  exn
+)
+"query_parser.ml" 29 399 407 "query_parser.ml" 29 399 429
+type(
+  _menhir_env ->
+  'ttv_tail -> _menhir_state -> Config.tuple list -> 'ttv_return
+)
+ident(
+  def _menhir_goto_list_tpl_ "query_parser.ml" 29 399 399 "query_parser.ml" 1 0 -1
+)
+"query_parser.ml" 30 514 520 "query_parser.ml" 30 514 531
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 30 514 532 "query_parser.ml" 68 2403 2423
+)
+"query_parser.ml" 30 514 532 "query_parser.ml" 30 514 545
+type(
+  'ttv_tail
+)
+ident(
+  def _menhir_stack "query_parser.ml" 30 514 546 "query_parser.ml" 68 2403 2423
+)
+"query_parser.ml" 30 514 546 "query_parser.ml" 30 514 555
+type(
+  _menhir_state
+)
+ident(
+  def _menhir_s "query_parser.ml" 30 514 556 "query_parser.ml" 68 2403 2423
+)
+"query_parser.ml" 30 514 556 "query_parser.ml" 30 514 558
+type(
+  Config.tuple list
+)
+ident(
+  def _v "query_parser.ml" 31 562 566 "query_parser.ml" 68 2403 2423
+)
+"query_parser.ml" 31 562 572 "query_parser.ml" 31 562 581
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 30 514 546 "query_parser.ml" 30 514 555
+)
+"query_parser.ml" 32 587 593 "query_parser.ml" 32 587 605
+type(
+  _menhir_state
+)
+"query_parser.ml" 33 609 621 "query_parser.ml" 33 609 634
+type(
+  'a
+)
+ident(
+  def _menhir_stack "query_parser.ml" 34 664 672 "query_parser.ml" 38 861 930
+)
+"query_parser.ml" 33 609 637 "query_parser.ml" 33 609 646
+type(
+  'ttv_tail -> 'a
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 33 609 647 "query_parser.ml" 33 609 660
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 30 514 532 "query_parser.ml" 30 514 545
+)
+"query_parser.ml" 33 609 637 "query_parser.ml" 33 609 660
+type(
+  'a
+)
+"query_parser.ml" 34 664 676 "query_parser.ml" 34 664 689
+type(
+  'b
+)
+ident(
+  def _menhir_stack "query_parser.ml" 35 719 727 "query_parser.ml" 38 861 930
+)
+"query_parser.ml" 34 664 692 "query_parser.ml" 34 664 701
+type(
+  '_c -> 'b
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 34 664 702 "query_parser.ml" 34 664 715
+type(
+  '_c
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 33 609 621 "query_parser.ml" 33 609 634
+)
+"query_parser.ml" 34 664 692 "query_parser.ml" 34 664 715
+type(
+  'b
+)
+"query_parser.ml" 35 719 731 "query_parser.ml" 35 719 733
+type(
+  Config.tuple list
+)
+ident(
+  def xs "query_parser.ml" 36 742 750 "query_parser.ml" 38 861 930
+)
+"query_parser.ml" 35 719 736 "query_parser.ml" 35 719 738
+type(
+  Config.tuple list
+)
+ident(
+  int_ref _v "query_parser.ml" 30 514 556 "query_parser.ml" 30 514 558
+)
+"query_parser.ml" 36 742 755 "query_parser.ml" 36 742 768
+type(
+  'd
+)
+ident(
+  def _menhir_stack "query_parser.ml" 37 803 811 "query_parser.ml" 38 861 930
+)
+"query_parser.ml" 36 742 770 "query_parser.ml" 36 742 779
+type(
+  'e
+)
+ident(
+  def _menhir_s "query_parser.ml" 37 803 811 "query_parser.ml" 38 861 930
+)
+"query_parser.ml" 36 742 781 "query_parser.ml" 36 742 782
+type(
+  'f
+)
+ident(
+  def x "query_parser.ml" 37 803 811 "query_parser.ml" 38 861 930
+)
+"query_parser.ml" 36 742 754 "query_parser.ml" 36 742 783
+type(
+  'd * 'e * 'f
+)
+"query_parser.ml" 36 742 786 "query_parser.ml" 36 742 799
+type(
+  'd * 'e * 'f
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 34 664 676 "query_parser.ml" 34 664 689
+)
+"query_parser.ml" 37 803 815 "query_parser.ml" 37 803 817
+type(
+  Config.tuple list
+)
+ident(
+  def _v "query_parser.ml" 38 861 869 "query_parser.ml" 38 861 930
+)
+"query_parser.ml" 37 803 848 "query_parser.ml" 37 803 849
+type(
+  Config.tuple
+)
+ident(
+  int_ref x "query_parser.ml" 36 742 781 "query_parser.ml" 36 742 782
+)
+"query_parser.ml" 37 803 853 "query_parser.ml" 37 803 855
+type(
+  Config.tuple list
+)
+ident(
+  int_ref xs "query_parser.ml" 35 719 731 "query_parser.ml" 35 719 733
+)
+"query_parser.ml" 37 803 846 "query_parser.ml" 37 803 857
+type(
+  Config.tuple list
+)
+type(
+  Config.tuple list
+)
+"query_parser.ml" 38 861 869 "query_parser.ml" 38 861 891
+type(
+  _menhir_env ->
+  'ttv_tail -> _menhir_state -> Config.tuple list -> 'ttv_return
+)
+ident(
+  int_ref _menhir_goto_list_tpl_ "query_parser.ml" 29 399 407 "query_parser.ml" 29 399 429
+)
+"query_parser.ml" 38 861 892 "query_parser.ml" 38 861 903
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 30 514 520 "query_parser.ml" 30 514 531
+)
+"query_parser.ml" 38 861 904 "query_parser.ml" 38 861 917
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 36 742 755 "query_parser.ml" 36 742 768
+)
+"query_parser.ml" 38 861 918 "query_parser.ml" 38 861 927
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 36 742 770 "query_parser.ml" 36 742 779
+)
+"query_parser.ml" 38 861 928 "query_parser.ml" 38 861 930
+type(
+  Config.tuple list
+)
+ident(
+  int_ref _v "query_parser.ml" 37 803 815 "query_parser.ml" 37 803 817
+)
+"query_parser.ml" 38 861 869 "query_parser.ml" 38 861 930
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 37 803 811 "query_parser.ml" 38 861 930
+type(
+  'ttv_return
+)
+"query_parser.ml" 36 742 750 "query_parser.ml" 38 861 930
+type(
+  'ttv_return
+)
+"query_parser.ml" 35 719 727 "query_parser.ml" 38 861 930
+type(
+  'ttv_return
+)
+"query_parser.ml" 34 664 672 "query_parser.ml" 38 861 930
+type(
+  'ttv_return
+)
+"query_parser.ml" 33 609 617 "query_parser.ml" 38 861 930
+type(
+  'ttv_return
+)
+"query_parser.ml" 39 931 937 "query_parser.ml" 39 931 949
+type(
+  _menhir_state
+)
+"query_parser.ml" 40 953 965 "query_parser.ml" 40 953 978
+type(
+  'g
+)
+ident(
+  def _menhir_stack "query_parser.ml" 41 1008 1016 "query_parser.ml" 64 2183 2261
+)
+"query_parser.ml" 40 953 981 "query_parser.ml" 40 953 990
+type(
+  'ttv_tail -> 'g
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 40 953 991 "query_parser.ml" 40 953 1004
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 30 514 532 "query_parser.ml" 30 514 545
+)
+"query_parser.ml" 40 953 981 "query_parser.ml" 40 953 1004
+type(
+  'g
+)
+"query_parser.ml" 41 1008 1020 "query_parser.ml" 41 1008 1033
+type(
+  'h
+)
+ident(
+  def _menhir_stack "query_parser.ml" 42 1063 1071 "query_parser.ml" 64 2183 2261
+)
+"query_parser.ml" 41 1008 1036 "query_parser.ml" 41 1008 1045
+type(
+  '_i -> 'h
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 41 1008 1046 "query_parser.ml" 41 1008 1059
+type(
+  '_i
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 40 953 965 "query_parser.ml" 40 953 978
+)
+"query_parser.ml" 41 1008 1036 "query_parser.ml" 41 1008 1059
+type(
+  'h
+)
+"query_parser.ml" 42 1063 1075 "query_parser.ml" 42 1063 1079
+type(
+  Config.tuple list
+)
+ident(
+  def stmt "query_parser.ml" 43 1088 1096 "query_parser.ml" 64 2183 2261
+)
+"query_parser.ml" 42 1063 1082 "query_parser.ml" 42 1063 1084
+type(
+  Config.tuple list
+)
+ident(
+  int_ref _v "query_parser.ml" 30 514 556 "query_parser.ml" 30 514 558
+)
+"query_parser.ml" 43 1088 1100 "query_parser.ml" 43 1088 1102
+type(
+  Config.tuple list
+)
+ident(
+  def _v "query_parser.ml" 44 1163 1171 "query_parser.ml" 64 2183 2261
+)
+"query_parser.ml" 43 1088 1153 "query_parser.ml" 43 1088 1159
+type(
+  Config.tuple list
+)
+type(
+  Config.tuple list
+)
+ident(
+  int_ref stmt "query_parser.ml" 42 1063 1075 "query_parser.ml" 42 1063 1079
+)
+"query_parser.ml" 44 1163 1175 "query_parser.ml" 44 1163 1188
+type(
+  'j * _menhir_state * Config.tuple list
+)
+ident(
+  def _menhir_stack "query_parser.ml" 45 1225 1233 "query_parser.ml" 64 2183 2261
+)
+"query_parser.ml" 44 1163 1192 "query_parser.ml" 44 1163 1205
+type(
+  'j
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 41 1008 1020 "query_parser.ml" 41 1008 1033
+)
+"query_parser.ml" 44 1163 1207 "query_parser.ml" 44 1163 1216
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 30 514 546 "query_parser.ml" 30 514 555
+)
+"query_parser.ml" 44 1163 1218 "query_parser.ml" 44 1163 1220
+type(
+  Config.tuple list
+)
+ident(
+  int_ref _v "query_parser.ml" 43 1088 1100 "query_parser.ml" 43 1088 1102
+)
+"query_parser.ml" 44 1163 1191 "query_parser.ml" 44 1163 1221
+type(
+  'j * _menhir_state * Config.tuple list
+)
+"query_parser.ml" 45 1225 1237 "query_parser.ml" 45 1225 1250
+type(
+  'k
+)
+ident(
+  def _menhir_stack "query_parser.ml" 46 1280 1288 "query_parser.ml" 64 2183 2261
+)
+"query_parser.ml" 45 1225 1253 "query_parser.ml" 45 1225 1262
+type(
+  '_l * _menhir_state * Config.tuple list -> 'k
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 45 1225 1263 "query_parser.ml" 45 1225 1276
+type(
+  '_l * _menhir_state * Config.tuple list
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 44 1163 1175 "query_parser.ml" 44 1163 1188
+)
+"query_parser.ml" 45 1225 1253 "query_parser.ml" 45 1225 1276
+type(
+  'k
+)
+"query_parser.ml" 46 1280 1296 "query_parser.ml" 46 1280 1299
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 46 1280 1300 "query_parser.ml" 46 1280 1311
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 30 514 520 "query_parser.ml" 30 514 531
+)
+"query_parser.ml" 46 1280 1300 "query_parser.ml" 46 1280 1325
+type(
+  bool
+)
+"query_parser.ml" 46 1280 1295 "query_parser.ml" 46 1280 1326
+type(
+  bool
+)
+"query_parser.ml" 46 1280 1288 "query_parser.ml" 46 1280 1326
+type(
+  unit
+)
+"query_parser.ml" 47 1328 1340 "query_parser.ml" 47 1328 1344
+type(
+  token
+)
+ident(
+  def _tok "query_parser.ml" 48 1376 1384 "query_parser.ml" 64 2183 2261
+)
+"query_parser.ml" 47 1328 1347 "query_parser.ml" 47 1328 1358
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 30 514 520 "query_parser.ml" 30 514 531
+)
+"query_parser.ml" 47 1328 1347 "query_parser.ml" 47 1328 1372
+type(
+  token
+)
+"query_parser.ml" 48 1376 1391 "query_parser.ml" 48 1376 1395
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 47 1328 1340 "query_parser.ml" 47 1328 1344
+)
+"query_parser.ml" 49 1401 1411 "query_parser.ml" 49 1401 1414
+type(
+  token
+)
+"query_parser.ml" 50 1418 1434 "query_parser.ml" 50 1418 1447
+type(
+  'm
+)
+ident(
+  def _menhir_stack "query_parser.ml" 51 1477 1489 "query_parser.ml" 58 1885 1944
+)
+"query_parser.ml" 50 1418 1450 "query_parser.ml" 50 1418 1459
+type(
+  '_n -> 'm
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 50 1418 1460 "query_parser.ml" 50 1418 1473
+type(
+  '_n
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 45 1225 1237 "query_parser.ml" 45 1225 1250
+)
+"query_parser.ml" 50 1418 1450 "query_parser.ml" 50 1418 1473
+type(
+  'm
+)
+"query_parser.ml" 51 1477 1493 "query_parser.ml" 51 1477 1506
+type(
+  'o
+)
+ident(
+  def _menhir_stack "query_parser.ml" 52 1536 1548 "query_parser.ml" 58 1885 1944
+)
+"query_parser.ml" 51 1477 1509 "query_parser.ml" 51 1477 1518
+type(
+  '_p -> 'o
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 51 1477 1519 "query_parser.ml" 51 1477 1532
+type(
+  '_p
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 50 1418 1434 "query_parser.ml" 50 1418 1447
+)
+"query_parser.ml" 51 1477 1509 "query_parser.ml" 51 1477 1532
+type(
+  'o
+)
+"query_parser.ml" 52 1536 1553 "query_parser.ml" 52 1536 1566
+type(
+  'q
+)
+ident(
+  def _menhir_stack "query_parser.ml" 53 1593 1605 "query_parser.ml" 58 1885 1944
+)
+"query_parser.ml" 52 1536 1568 "query_parser.ml" 52 1536 1569
+type(
+  'r
+)
+"query_parser.ml" 52 1536 1571 "query_parser.ml" 52 1536 1572
+type(
+  's
+)
+ident(
+  def q "query_parser.ml" 53 1593 1605 "query_parser.ml" 58 1885 1944
+)
+"query_parser.ml" 52 1536 1552 "query_parser.ml" 52 1536 1573
+type(
+  'q * 'r * 's
+)
+"query_parser.ml" 52 1536 1576 "query_parser.ml" 52 1536 1589
+type(
+  'q * 'r * 's
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 51 1477 1493 "query_parser.ml" 51 1477 1506
+)
+"query_parser.ml" 53 1593 1609 "query_parser.ml" 53 1593 1611
+type(
+  Config.tuple list
+)
+ident(
+  def _v "query_parser.ml" 54 1678 1690 "query_parser.ml" 58 1885 1944
+)
+"query_parser.ml" 53 1593 1671 "query_parser.ml" 53 1593 1674
+type(
+  Config.tuple list
+)
+type(
+  Config.tuple list
+)
+ident(
+  int_ref q "query_parser.ml" 52 1536 1571 "query_parser.ml" 52 1536 1572
+)
+"query_parser.ml" 54 1678 1694 "query_parser.ml" 54 1678 1707
+type(
+  't
+)
+ident(
+  def _menhir_stack "query_parser.ml" 55 1737 1749 "query_parser.ml" 58 1885 1944
+)
+"query_parser.ml" 54 1678 1710 "query_parser.ml" 54 1678 1719
+type(
+  '_u -> 't
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 54 1678 1720 "query_parser.ml" 54 1678 1733
+type(
+  '_u
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 52 1536 1553 "query_parser.ml" 52 1536 1566
+)
+"query_parser.ml" 54 1678 1710 "query_parser.ml" 54 1678 1733
+type(
+  't
+)
+"query_parser.ml" 55 1737 1753 "query_parser.ml" 55 1737 1766
+type(
+  'v
+)
+ident(
+  def _menhir_stack "query_parser.ml" 56 1796 1808 "query_parser.ml" 58 1885 1944
+)
+"query_parser.ml" 55 1737 1769 "query_parser.ml" 55 1737 1778
+type(
+  '_w -> 'v
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 55 1737 1779 "query_parser.ml" 55 1737 1792
+type(
+  '_w
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 54 1678 1694 "query_parser.ml" 54 1678 1707
+)
+"query_parser.ml" 55 1737 1769 "query_parser.ml" 55 1737 1792
+type(
+  'v
+)
+"query_parser.ml" 56 1796 1812 "query_parser.ml" 56 1796 1813
+type(
+  Config.tuple list
+)
+ident(
+  def q "query_parser.ml" 57 1822 1834 "query_parser.ml" 58 1885 1944
+)
+"query_parser.ml" 56 1796 1816 "query_parser.ml" 56 1796 1818
+type(
+  Config.tuple list
+)
+ident(
+  int_ref _v "query_parser.ml" 53 1593 1609 "query_parser.ml" 53 1593 1611
+)
+"query_parser.ml" 57 1822 1838 "query_parser.ml" 57 1822 1840
+type(
+  Config.tuple list
+)
+ident(
+  def _v "query_parser.ml" 58 1885 1897 "query_parser.ml" 58 1885 1944
+)
+"query_parser.ml" 57 1822 1878 "query_parser.ml" 57 1822 1881
+type(
+  Config.tuple list
+)
+type(
+  Config.tuple list
+)
+ident(
+  int_ref q "query_parser.ml" 56 1796 1812 "query_parser.ml" 56 1796 1813
+)
+"query_parser.ml" 58 1885 1897 "query_parser.ml" 58 1885 1915
+type(
+  _menhir_env -> 'ttv_tail -> Config.tuple list -> 'ttv_return
+)
+ident(
+  int_ref _menhir_goto_parse "query_parser.ml" 211 9439 9443 "query_parser.ml" 211 9439 9461
+)
+"query_parser.ml" 58 1885 1916 "query_parser.ml" 58 1885 1927
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 30 514 520 "query_parser.ml" 30 514 531
+)
+"query_parser.ml" 58 1885 1928 "query_parser.ml" 58 1885 1941
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 55 1737 1753 "query_parser.ml" 55 1737 1766
+)
+"query_parser.ml" 58 1885 1942 "query_parser.ml" 58 1885 1944
+type(
+  Config.tuple list
+)
+ident(
+  int_ref _v "query_parser.ml" 57 1822 1838 "query_parser.ml" 57 1822 1840
+)
+"query_parser.ml" 58 1885 1897 "query_parser.ml" 58 1885 1944
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 57 1822 1834 "query_parser.ml" 58 1885 1944
+type(
+  'ttv_return
+)
+"query_parser.ml" 56 1796 1808 "query_parser.ml" 58 1885 1944
+type(
+  'ttv_return
+)
+"query_parser.ml" 55 1737 1749 "query_parser.ml" 58 1885 1944
+type(
+  'ttv_return
+)
+"query_parser.ml" 54 1678 1690 "query_parser.ml" 58 1885 1944
+type(
+  'ttv_return
+)
+"query_parser.ml" 53 1593 1605 "query_parser.ml" 58 1885 1944
+type(
+  'ttv_return
+)
+"query_parser.ml" 52 1536 1548 "query_parser.ml" 58 1885 1944
+type(
+  'ttv_return
+)
+"query_parser.ml" 51 1477 1489 "query_parser.ml" 58 1885 1944
+type(
+  'ttv_return
+)
+"query_parser.ml" 50 1418 1430 "query_parser.ml" 58 1885 1944
+type(
+  'ttv_return
+)
+"query_parser.ml" 59 1945 1955 "query_parser.ml" 59 1945 1956
+type(
+  token
+)
+"query_parser.ml" 60 1960 1980 "query_parser.ml" 60 1960 1983
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 60 1960 1984 "query_parser.ml" 60 1960 1995
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 30 514 520 "query_parser.ml" 30 514 531
+)
+"query_parser.ml" 60 1960 1984 "query_parser.ml" 60 1960 2009
+type(
+  bool
+)
+"query_parser.ml" 60 1960 1979 "query_parser.ml" 60 1960 2010
+type(
+  bool
+)
+"query_parser.ml" 60 1960 1972 "query_parser.ml" 60 1960 2010
+type(
+  unit
+)
+"query_parser.ml" 61 2012 2024 "query_parser.ml" 61 2012 2035
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 30 514 520 "query_parser.ml" 30 514 531
+)
+"query_parser.ml" 61 2012 2053 "query_parser.ml" 61 2012 2057
+type(
+  bool
+)
+"query_parser.ml" 61 2012 2024 "query_parser.ml" 61 2012 2057
+type(
+  unit
+)
+"query_parser.ml" 62 2059 2075 "query_parser.ml" 62 2059 2088
+type(
+  'x
+)
+ident(
+  def _menhir_stack "query_parser.ml" 63 2118 2130 "query_parser.ml" 64 2183 2260
+)
+"query_parser.ml" 62 2059 2091 "query_parser.ml" 62 2059 2100
+type(
+  '_y -> 'x
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 62 2059 2101 "query_parser.ml" 62 2059 2114
+type(
+  '_y
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 45 1225 1237 "query_parser.ml" 45 1225 1250
+)
+"query_parser.ml" 62 2059 2091 "query_parser.ml" 62 2059 2114
+type(
+  'x
+)
+"query_parser.ml" 63 2118 2135 "query_parser.ml" 63 2118 2148
+type(
+  'z
+)
+ident(
+  def _menhir_stack "query_parser.ml" 64 2183 2195 "query_parser.ml" 64 2183 2260
+)
+"query_parser.ml" 63 2118 2150 "query_parser.ml" 63 2118 2159
+type(
+  'a1
+)
+ident(
+  def _menhir_s "query_parser.ml" 64 2183 2195 "query_parser.ml" 64 2183 2260
+)
+"query_parser.ml" 63 2118 2161 "query_parser.ml" 63 2118 2162
+type(
+  'b1
+)
+"query_parser.ml" 63 2118 2134 "query_parser.ml" 63 2118 2163
+type(
+  'z * 'a1 * 'b1
+)
+"query_parser.ml" 63 2118 2166 "query_parser.ml" 63 2118 2179
+type(
+  'z * 'a1 * 'b1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 62 2059 2075 "query_parser.ml" 62 2059 2088
+)
+"query_parser.ml" 64 2183 2195 "query_parser.ml" 64 2183 2212
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 64 2183 2213 "query_parser.ml" 64 2183 2224
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 30 514 520 "query_parser.ml" 30 514 531
+)
+"query_parser.ml" 64 2183 2226 "query_parser.ml" 64 2183 2235
+type(
+  '_c1 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 64 2183 2236 "query_parser.ml" 64 2183 2249
+type(
+  '_c1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 63 2118 2135 "query_parser.ml" 63 2118 2148
+)
+"query_parser.ml" 64 2183 2225 "query_parser.ml" 64 2183 2250
+type(
+  'ttv_tail
+)
+"query_parser.ml" 64 2183 2251 "query_parser.ml" 64 2183 2260
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 63 2118 2150 "query_parser.ml" 63 2118 2159
+)
+"query_parser.ml" 64 2183 2195 "query_parser.ml" 64 2183 2260
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 63 2118 2130 "query_parser.ml" 64 2183 2260
+type(
+  'ttv_return
+)
+"query_parser.ml" 62 2059 2071 "query_parser.ml" 64 2183 2260
+type(
+  'ttv_return
+)
+"query_parser.ml" 61 2012 2024 "query_parser.ml" 64 2183 2260
+type(
+  'ttv_return
+)
+"query_parser.ml" 60 1960 1972 "query_parser.ml" 64 2183 2260
+type(
+  'ttv_return
+)
+"query_parser.ml" 48 1376 1384 "query_parser.ml" 64 2183 2261
+type(
+  'ttv_return
+)
+"query_parser.ml" 47 1328 1336 "query_parser.ml" 64 2183 2261
+type(
+  'ttv_return
+)
+"query_parser.ml" 46 1280 1288 "query_parser.ml" 64 2183 2261
+type(
+  'ttv_return
+)
+"query_parser.ml" 45 1225 1233 "query_parser.ml" 64 2183 2261
+type(
+  'ttv_return
+)
+"query_parser.ml" 44 1163 1171 "query_parser.ml" 64 2183 2261
+type(
+  'ttv_return
+)
+"query_parser.ml" 43 1088 1096 "query_parser.ml" 64 2183 2261
+type(
+  'ttv_return
+)
+"query_parser.ml" 42 1063 1071 "query_parser.ml" 64 2183 2261
+type(
+  'ttv_return
+)
+"query_parser.ml" 41 1008 1016 "query_parser.ml" 64 2183 2261
+type(
+  'ttv_return
+)
+"query_parser.ml" 40 953 961 "query_parser.ml" 64 2183 2261
+type(
+  'ttv_return
+)
+"query_parser.ml" 65 2262 2268 "query_parser.ml" 65 2262 2269
+type(
+  _menhir_state
+)
+"query_parser.ml" 66 2273 2281 "query_parser.ml" 66 2273 2283
+type(
+  unit
+)
+"query_parser.ml" 67 2285 2293 "query_parser.ml" 67 2285 2307
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"query_parser.ml" 67 2285 2308 "query_parser.ml" 67 2285 2325
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"query_parser.ml" 67 2285 2326 "query_parser.ml" 67 2285 2401
+type(
+  (unit, out_channel, unit) format
+)
+"query_parser.ml" 67 2285 2293 "query_parser.ml" 67 2285 2401
+call(
+  stack
+)
+type(
+  unit
+)
+"query_parser.ml" 68 2403 2418 "query_parser.ml" 68 2403 2423
+type(
+  bool
+)
+"query_parser.ml" 68 2403 2411 "query_parser.ml" 68 2403 2423
+type(
+  'ttv_return
+)
+"query_parser.ml" 67 2285 2293 "query_parser.ml" 68 2403 2423
+type(
+  'ttv_return
+)
+"query_parser.ml" 66 2273 2281 "query_parser.ml" 68 2403 2423
+type(
+  'ttv_return
+)
+"query_parser.ml" 31 562 566 "query_parser.ml" 68 2403 2423
+type(
+  'ttv_return
+)
+"query_parser.ml" 30 514 516 "query_parser.ml" 68 2403 2423
+type(
+  _menhir_env ->
+  'ttv_tail -> _menhir_state -> Config.tuple list -> 'ttv_return
+)
+type(
+  _menhir_env ->
+  'ttv_tail -> _menhir_state -> Config.tuple list -> 'ttv_return
+)
+"query_parser.ml" 70 2425 2429 "query_parser.ml" 70 2425 2446
+type(
+  _menhir_env ->
+  'ttv_tail ->
+  _menhir_state -> Config.context Config.element_type -> 'ttv_return
+)
+ident(
+  def _menhir_goto_elem "query_parser.ml" 29 399 399 "query_parser.ml" 1 0 -1
+)
+"query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 71 2548 2566 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 71 2548 2566 "query_parser.ml" 71 2548 2579
+type(
+  'ttv_tail
+)
+ident(
+  def _menhir_stack "query_parser.ml" 71 2548 2580 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 71 2548 2580 "query_parser.ml" 71 2548 2589
+type(
+  _menhir_state
+)
+ident(
+  def _menhir_s "query_parser.ml" 71 2548 2590 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 71 2548 2590 "query_parser.ml" 71 2548 2592
+type(
+  Config.context Config.element_type
+)
+ident(
+  def _v "query_parser.ml" 72 2596 2600 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 72 2596 2604 "query_parser.ml" 72 2596 2617
+type(
+  'ttv_tail * _menhir_state * Config.context Config.element_type
+)
+ident(
+  def _menhir_stack "query_parser.ml" 73 2654 2658 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 72 2596 2621 "query_parser.ml" 72 2596 2634
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 71 2548 2566 "query_parser.ml" 71 2548 2579
+)
+"query_parser.ml" 72 2596 2636 "query_parser.ml" 72 2596 2645
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 71 2548 2580 "query_parser.ml" 71 2548 2589
+)
+"query_parser.ml" 72 2596 2647 "query_parser.ml" 72 2596 2649
+type(
+  Config.context Config.element_type
+)
+ident(
+  int_ref _v "query_parser.ml" 71 2548 2590 "query_parser.ml" 71 2548 2592
+)
+"query_parser.ml" 72 2596 2620 "query_parser.ml" 72 2596 2650
+type(
+  'ttv_tail * _menhir_state * Config.context Config.element_type
+)
+"query_parser.ml" 73 2654 2664 "query_parser.ml" 73 2654 2673
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 71 2548 2580 "query_parser.ml" 71 2548 2589
+)
+"query_parser.ml" 74 2679 2685 "query_parser.ml" 74 2679 2697
+type(
+  _menhir_state
+)
+"query_parser.ml" 74 2679 2700 "query_parser.ml" 74 2679 2712
+type(
+  _menhir_state
+)
+"query_parser.ml" 74 2679 2685 "query_parser.ml" 74 2679 2712
+type(
+  _menhir_state
+)
+"query_parser.ml" 75 2716 2728 "query_parser.ml" 75 2716 2741
+type(
+  'd1
+)
+ident(
+  def _menhir_stack "query_parser.ml" 76 2771 2779 "query_parser.ml" 97 3779 3857
+)
+"query_parser.ml" 75 2716 2744 "query_parser.ml" 75 2716 2753
+type(
+  'ttv_tail * _menhir_state * Config.context Config.element_type -> 'd1
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 75 2716 2754 "query_parser.ml" 75 2716 2767
+type(
+  'ttv_tail * _menhir_state * Config.context Config.element_type
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 72 2596 2604 "query_parser.ml" 72 2596 2617
+)
+"query_parser.ml" 75 2716 2744 "query_parser.ml" 75 2716 2767
+type(
+  'd1
+)
+"query_parser.ml" 76 2771 2787 "query_parser.ml" 76 2771 2790
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 76 2771 2791 "query_parser.ml" 76 2771 2802
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 76 2771 2791 "query_parser.ml" 76 2771 2816
+type(
+  bool
+)
+"query_parser.ml" 76 2771 2786 "query_parser.ml" 76 2771 2817
+type(
+  bool
+)
+"query_parser.ml" 76 2771 2779 "query_parser.ml" 76 2771 2817
+type(
+  unit
+)
+"query_parser.ml" 77 2819 2831 "query_parser.ml" 77 2819 2835
+type(
+  token
+)
+ident(
+  def _tok "query_parser.ml" 78 2867 2875 "query_parser.ml" 97 3779 3857
+)
+"query_parser.ml" 77 2819 2838 "query_parser.ml" 77 2819 2849
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 77 2819 2838 "query_parser.ml" 77 2819 2863
+type(
+  token
+)
+"query_parser.ml" 78 2867 2882 "query_parser.ml" 78 2867 2886
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 77 2819 2831 "query_parser.ml" 77 2819 2835
+)
+"query_parser.ml" 79 2892 2902 "query_parser.ml" 79 2892 2907
+type(
+  token
+)
+"query_parser.ml" 80 2911 2927 "query_parser.ml" 80 2911 2940
+type(
+  'e1
+)
+ident(
+  def _menhir_stack "query_parser.ml" 81 2970 2982 "query_parser.ml" 91 3455 3540
+)
+"query_parser.ml" 80 2911 2943 "query_parser.ml" 80 2911 2952
+type(
+  '_f1 -> 'e1
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 80 2911 2953 "query_parser.ml" 80 2911 2966
+type(
+  '_f1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 75 2716 2728 "query_parser.ml" 75 2716 2741
+)
+"query_parser.ml" 80 2911 2943 "query_parser.ml" 80 2911 2966
+type(
+  'e1
+)
+"query_parser.ml" 81 2970 2986 "query_parser.ml" 81 2970 2997
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 82 3031 3043 "query_parser.ml" 91 3455 3540
+)
+"query_parser.ml" 81 2970 3000 "query_parser.ml" 81 2970 3015
+type(
+  _menhir_env -> _menhir_env
+)
+ident(
+  int_ref _menhir_discard "query_parser.ml" 218 9706 9710 "query_parser.ml" 218 9706 9725
+)
+"query_parser.ml" 81 2970 3016 "query_parser.ml" 81 2970 3027
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 81 2970 3000 "query_parser.ml" 81 2970 3027
+call(
+  stack
+)
+type(
+  _menhir_env
+)
+"query_parser.ml" 82 3031 3047 "query_parser.ml" 82 3031 3051
+type(
+  token
+)
+ident(
+  def _tok "query_parser.ml" 83 3083 3095 "query_parser.ml" 91 3455 3540
+)
+"query_parser.ml" 82 3031 3054 "query_parser.ml" 82 3031 3065
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 81 2970 2986 "query_parser.ml" 81 2970 2997
+)
+"query_parser.ml" 82 3031 3054 "query_parser.ml" 82 3031 3079
+type(
+  token
+)
+"query_parser.ml" 83 3083 3102 "query_parser.ml" 83 3083 3106
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 82 3031 3047 "query_parser.ml" 82 3031 3051
+)
+"query_parser.ml" 84 3112 3133 "query_parser.ml" 84 3112 3135
+type(
+  string
+)
+ident(
+  def _v "query_parser.ml" 85 3139 3155 "query_parser.ml" 85 3139 3221
+)
+"query_parser.ml" 84 3112 3126 "query_parser.ml" 84 3112 3135
+type(
+  token
+)
+"query_parser.ml" 85 3139 3155 "query_parser.ml" 85 3139 3167
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+ident(
+  int_ref _menhir_run4 "query_parser.ml" 203 9035 9039 "query_parser.ml" 203 9035 9051
+)
+"query_parser.ml" 85 3139 3168 "query_parser.ml" 85 3139 3179
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 81 2970 2986 "query_parser.ml" 81 2970 2997
+)
+"query_parser.ml" 85 3139 3181 "query_parser.ml" 85 3139 3190
+type(
+  '_g1 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 85 3139 3191 "query_parser.ml" 85 3139 3204
+type(
+  '_g1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 80 2911 2927 "query_parser.ml" 80 2911 2940
+)
+"query_parser.ml" 85 3139 3180 "query_parser.ml" 85 3139 3205
+type(
+  'ttv_tail
+)
+"query_parser.ml" 85 3139 3206 "query_parser.ml" 85 3139 3218
+type(
+  _menhir_state
+)
+"query_parser.ml" 85 3139 3219 "query_parser.ml" 85 3139 3221
+type(
+  string
+)
+ident(
+  int_ref _v "query_parser.ml" 84 3112 3133 "query_parser.ml" 84 3112 3135
+)
+"query_parser.ml" 85 3139 3155 "query_parser.ml" 85 3139 3221
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 86 3222 3240 "query_parser.ml" 86 3222 3242
+type(
+  string
+)
+ident(
+  def _v "query_parser.ml" 87 3246 3262 "query_parser.ml" 87 3246 3328
+)
+"query_parser.ml" 86 3222 3236 "query_parser.ml" 86 3222 3242
+type(
+  token
+)
+"query_parser.ml" 87 3246 3262 "query_parser.ml" 87 3246 3274
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+ident(
+  int_ref _menhir_run3 "query_parser.ml" 195 8634 8638 "query_parser.ml" 195 8634 8650
+)
+"query_parser.ml" 87 3246 3275 "query_parser.ml" 87 3246 3286
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 81 2970 2986 "query_parser.ml" 81 2970 2997
+)
+"query_parser.ml" 87 3246 3288 "query_parser.ml" 87 3246 3297
+type(
+  '_h1 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 87 3246 3298 "query_parser.ml" 87 3246 3311
+type(
+  '_h1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 80 2911 2927 "query_parser.ml" 80 2911 2940
+)
+"query_parser.ml" 87 3246 3287 "query_parser.ml" 87 3246 3312
+type(
+  'ttv_tail
+)
+"query_parser.ml" 87 3246 3313 "query_parser.ml" 87 3246 3325
+type(
+  _menhir_state
+)
+"query_parser.ml" 87 3246 3326 "query_parser.ml" 87 3246 3328
+type(
+  string
+)
+ident(
+  int_ref _v "query_parser.ml" 86 3222 3240 "query_parser.ml" 86 3222 3242
+)
+"query_parser.ml" 87 3246 3262 "query_parser.ml" 87 3246 3328
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 88 3329 3343 "query_parser.ml" 88 3329 3344
+type(
+  token
+)
+"query_parser.ml" 89 3348 3372 "query_parser.ml" 89 3348 3375
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 89 3348 3376 "query_parser.ml" 89 3348 3387
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 81 2970 2986 "query_parser.ml" 81 2970 2997
+)
+"query_parser.ml" 89 3348 3376 "query_parser.ml" 89 3348 3401
+type(
+  bool
+)
+"query_parser.ml" 89 3348 3371 "query_parser.ml" 89 3348 3402
+type(
+  bool
+)
+"query_parser.ml" 89 3348 3364 "query_parser.ml" 89 3348 3402
+type(
+  unit
+)
+"query_parser.ml" 90 3404 3420 "query_parser.ml" 90 3404 3431
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 81 2970 2986 "query_parser.ml" 81 2970 2997
+)
+"query_parser.ml" 90 3404 3449 "query_parser.ml" 90 3404 3453
+type(
+  bool
+)
+"query_parser.ml" 90 3404 3420 "query_parser.ml" 90 3404 3453
+type(
+  unit
+)
+"query_parser.ml" 91 3455 3471 "query_parser.ml" 91 3455 3488
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 91 3455 3489 "query_parser.ml" 91 3455 3500
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 81 2970 2986 "query_parser.ml" 81 2970 2997
+)
+"query_parser.ml" 91 3455 3502 "query_parser.ml" 91 3455 3511
+type(
+  '_i1 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 91 3455 3512 "query_parser.ml" 91 3455 3525
+type(
+  '_i1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 80 2911 2927 "query_parser.ml" 80 2911 2940
+)
+"query_parser.ml" 91 3455 3501 "query_parser.ml" 91 3455 3526
+type(
+  'ttv_tail
+)
+"query_parser.ml" 91 3455 3527 "query_parser.ml" 91 3455 3539
+type(
+  _menhir_state
+)
+"query_parser.ml" 91 3455 3471 "query_parser.ml" 91 3455 3539
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 90 3404 3420 "query_parser.ml" 91 3455 3539
+type(
+  'ttv_return
+)
+"query_parser.ml" 89 3348 3364 "query_parser.ml" 91 3455 3539
+type(
+  'ttv_return
+)
+"query_parser.ml" 83 3083 3095 "query_parser.ml" 91 3455 3540
+type(
+  'ttv_return
+)
+"query_parser.ml" 82 3031 3043 "query_parser.ml" 91 3455 3540
+type(
+  'ttv_return
+)
+"query_parser.ml" 81 2970 2982 "query_parser.ml" 91 3455 3540
+type(
+  'ttv_return
+)
+"query_parser.ml" 80 2911 2923 "query_parser.ml" 91 3455 3540
+type(
+  'ttv_return
+)
+"query_parser.ml" 92 3541 3551 "query_parser.ml" 92 3541 3552
+type(
+  token
+)
+"query_parser.ml" 93 3556 3576 "query_parser.ml" 93 3556 3579
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 93 3556 3580 "query_parser.ml" 93 3556 3591
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 93 3556 3580 "query_parser.ml" 93 3556 3605
+type(
+  bool
+)
+"query_parser.ml" 93 3556 3575 "query_parser.ml" 93 3556 3606
+type(
+  bool
+)
+"query_parser.ml" 93 3556 3568 "query_parser.ml" 93 3556 3606
+type(
+  unit
+)
+"query_parser.ml" 94 3608 3620 "query_parser.ml" 94 3608 3631
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 94 3608 3649 "query_parser.ml" 94 3608 3653
+type(
+  bool
+)
+"query_parser.ml" 94 3608 3620 "query_parser.ml" 94 3608 3653
+type(
+  unit
+)
+"query_parser.ml" 95 3655 3671 "query_parser.ml" 95 3655 3684
+type(
+  'j1
+)
+ident(
+  def _menhir_stack "query_parser.ml" 96 3714 3726 "query_parser.ml" 97 3779 3856
+)
+"query_parser.ml" 95 3655 3687 "query_parser.ml" 95 3655 3696
+type(
+  '_k1 -> 'j1
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 95 3655 3697 "query_parser.ml" 95 3655 3710
+type(
+  '_k1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 75 2716 2728 "query_parser.ml" 75 2716 2741
+)
+"query_parser.ml" 95 3655 3687 "query_parser.ml" 95 3655 3710
+type(
+  'j1
+)
+"query_parser.ml" 96 3714 3731 "query_parser.ml" 96 3714 3744
+type(
+  'l1
+)
+ident(
+  def _menhir_stack "query_parser.ml" 97 3779 3791 "query_parser.ml" 97 3779 3856
+)
+"query_parser.ml" 96 3714 3746 "query_parser.ml" 96 3714 3755
+type(
+  'm1
+)
+ident(
+  def _menhir_s "query_parser.ml" 97 3779 3791 "query_parser.ml" 97 3779 3856
+)
+"query_parser.ml" 96 3714 3757 "query_parser.ml" 96 3714 3758
+type(
+  'n1
+)
+"query_parser.ml" 96 3714 3730 "query_parser.ml" 96 3714 3759
+type(
+  'l1 * 'm1 * 'n1
+)
+"query_parser.ml" 96 3714 3762 "query_parser.ml" 96 3714 3775
+type(
+  'l1 * 'm1 * 'n1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 95 3655 3671 "query_parser.ml" 95 3655 3684
+)
+"query_parser.ml" 97 3779 3791 "query_parser.ml" 97 3779 3808
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 97 3779 3809 "query_parser.ml" 97 3779 3820
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 97 3779 3822 "query_parser.ml" 97 3779 3831
+type(
+  '_o1 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 97 3779 3832 "query_parser.ml" 97 3779 3845
+type(
+  '_o1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 96 3714 3731 "query_parser.ml" 96 3714 3744
+)
+"query_parser.ml" 97 3779 3821 "query_parser.ml" 97 3779 3846
+type(
+  'ttv_tail
+)
+"query_parser.ml" 97 3779 3847 "query_parser.ml" 97 3779 3856
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 96 3714 3746 "query_parser.ml" 96 3714 3755
+)
+"query_parser.ml" 97 3779 3791 "query_parser.ml" 97 3779 3856
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 96 3714 3726 "query_parser.ml" 97 3779 3856
+type(
+  'ttv_return
+)
+"query_parser.ml" 95 3655 3667 "query_parser.ml" 97 3779 3856
+type(
+  'ttv_return
+)
+"query_parser.ml" 94 3608 3620 "query_parser.ml" 97 3779 3856
+type(
+  'ttv_return
+)
+"query_parser.ml" 93 3556 3568 "query_parser.ml" 97 3779 3856
+type(
+  'ttv_return
+)
+"query_parser.ml" 78 2867 2875 "query_parser.ml" 97 3779 3857
+type(
+  'ttv_return
+)
+"query_parser.ml" 77 2819 2827 "query_parser.ml" 97 3779 3857
+type(
+  'ttv_return
+)
+"query_parser.ml" 76 2771 2779 "query_parser.ml" 97 3779 3857
+type(
+  'ttv_return
+)
+"query_parser.ml" 75 2716 2724 "query_parser.ml" 97 3779 3857
+type(
+  'ttv_return
+)
+"query_parser.ml" 98 3858 3864 "query_parser.ml" 98 3858 3876
+type(
+  _menhir_state
+)
+"query_parser.ml" 99 3880 3892 "query_parser.ml" 99 3880 3905
+type(
+  'p1
+)
+ident(
+  def _menhir_stack "query_parser.ml" 100 3935 3943 "query_parser.ml" 121 4946 5024
+)
+"query_parser.ml" 99 3880 3908 "query_parser.ml" 99 3880 3917
+type(
+  'ttv_tail * _menhir_state * Config.context Config.element_type -> 'p1
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 99 3880 3918 "query_parser.ml" 99 3880 3931
+type(
+  'ttv_tail * _menhir_state * Config.context Config.element_type
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 72 2596 2604 "query_parser.ml" 72 2596 2617
+)
+"query_parser.ml" 99 3880 3908 "query_parser.ml" 99 3880 3931
+type(
+  'p1
+)
+"query_parser.ml" 100 3935 3951 "query_parser.ml" 100 3935 3954
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 100 3935 3955 "query_parser.ml" 100 3935 3966
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 100 3935 3955 "query_parser.ml" 100 3935 3980
+type(
+  bool
+)
+"query_parser.ml" 100 3935 3950 "query_parser.ml" 100 3935 3981
+type(
+  bool
+)
+"query_parser.ml" 100 3935 3943 "query_parser.ml" 100 3935 3981
+type(
+  unit
+)
+"query_parser.ml" 101 3983 3995 "query_parser.ml" 101 3983 3999
+type(
+  token
+)
+ident(
+  def _tok "query_parser.ml" 102 4031 4039 "query_parser.ml" 121 4946 5024
+)
+"query_parser.ml" 101 3983 4002 "query_parser.ml" 101 3983 4013
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 101 3983 4002 "query_parser.ml" 101 3983 4027
+type(
+  token
+)
+"query_parser.ml" 102 4031 4046 "query_parser.ml" 102 4031 4050
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 101 3983 3995 "query_parser.ml" 101 3983 3999
+)
+"query_parser.ml" 103 4056 4066 "query_parser.ml" 103 4056 4071
+type(
+  token
+)
+"query_parser.ml" 104 4075 4091 "query_parser.ml" 104 4075 4104
+type(
+  'q1
+)
+ident(
+  def _menhir_stack "query_parser.ml" 105 4134 4146 "query_parser.ml" 115 4621 4707
+)
+"query_parser.ml" 104 4075 4107 "query_parser.ml" 104 4075 4116
+type(
+  '_r1 -> 'q1
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 104 4075 4117 "query_parser.ml" 104 4075 4130
+type(
+  '_r1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 99 3880 3892 "query_parser.ml" 99 3880 3905
+)
+"query_parser.ml" 104 4075 4107 "query_parser.ml" 104 4075 4130
+type(
+  'q1
+)
+"query_parser.ml" 105 4134 4150 "query_parser.ml" 105 4134 4161
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 106 4195 4207 "query_parser.ml" 115 4621 4707
+)
+"query_parser.ml" 105 4134 4164 "query_parser.ml" 105 4134 4179
+type(
+  _menhir_env -> _menhir_env
+)
+ident(
+  int_ref _menhir_discard "query_parser.ml" 218 9706 9710 "query_parser.ml" 218 9706 9725
+)
+"query_parser.ml" 105 4134 4180 "query_parser.ml" 105 4134 4191
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 105 4134 4164 "query_parser.ml" 105 4134 4191
+call(
+  stack
+)
+type(
+  _menhir_env
+)
+"query_parser.ml" 106 4195 4211 "query_parser.ml" 106 4195 4215
+type(
+  token
+)
+ident(
+  def _tok "query_parser.ml" 107 4247 4259 "query_parser.ml" 115 4621 4707
+)
+"query_parser.ml" 106 4195 4218 "query_parser.ml" 106 4195 4229
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 105 4134 4150 "query_parser.ml" 105 4134 4161
+)
+"query_parser.ml" 106 4195 4218 "query_parser.ml" 106 4195 4243
+type(
+  token
+)
+"query_parser.ml" 107 4247 4266 "query_parser.ml" 107 4247 4270
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 106 4195 4211 "query_parser.ml" 106 4195 4215
+)
+"query_parser.ml" 108 4276 4297 "query_parser.ml" 108 4276 4299
+type(
+  string
+)
+ident(
+  def _v "query_parser.ml" 109 4303 4319 "query_parser.ml" 109 4303 4386
+)
+"query_parser.ml" 108 4276 4290 "query_parser.ml" 108 4276 4299
+type(
+  token
+)
+"query_parser.ml" 109 4303 4319 "query_parser.ml" 109 4303 4331
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+ident(
+  int_ref _menhir_run4 "query_parser.ml" 203 9035 9039 "query_parser.ml" 203 9035 9051
+)
+"query_parser.ml" 109 4303 4332 "query_parser.ml" 109 4303 4343
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 105 4134 4150 "query_parser.ml" 105 4134 4161
+)
+"query_parser.ml" 109 4303 4345 "query_parser.ml" 109 4303 4354
+type(
+  '_s1 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 109 4303 4355 "query_parser.ml" 109 4303 4368
+type(
+  '_s1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 104 4075 4091 "query_parser.ml" 104 4075 4104
+)
+"query_parser.ml" 109 4303 4344 "query_parser.ml" 109 4303 4369
+type(
+  'ttv_tail
+)
+"query_parser.ml" 109 4303 4370 "query_parser.ml" 109 4303 4383
+type(
+  _menhir_state
+)
+"query_parser.ml" 109 4303 4384 "query_parser.ml" 109 4303 4386
+type(
+  string
+)
+ident(
+  int_ref _v "query_parser.ml" 108 4276 4297 "query_parser.ml" 108 4276 4299
+)
+"query_parser.ml" 109 4303 4319 "query_parser.ml" 109 4303 4386
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 110 4387 4405 "query_parser.ml" 110 4387 4407
+type(
+  string
+)
+ident(
+  def _v "query_parser.ml" 111 4411 4427 "query_parser.ml" 111 4411 4494
+)
+"query_parser.ml" 110 4387 4401 "query_parser.ml" 110 4387 4407
+type(
+  token
+)
+"query_parser.ml" 111 4411 4427 "query_parser.ml" 111 4411 4439
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+ident(
+  int_ref _menhir_run3 "query_parser.ml" 195 8634 8638 "query_parser.ml" 195 8634 8650
+)
+"query_parser.ml" 111 4411 4440 "query_parser.ml" 111 4411 4451
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 105 4134 4150 "query_parser.ml" 105 4134 4161
+)
+"query_parser.ml" 111 4411 4453 "query_parser.ml" 111 4411 4462
+type(
+  '_t1 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 111 4411 4463 "query_parser.ml" 111 4411 4476
+type(
+  '_t1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 104 4075 4091 "query_parser.ml" 104 4075 4104
+)
+"query_parser.ml" 111 4411 4452 "query_parser.ml" 111 4411 4477
+type(
+  'ttv_tail
+)
+"query_parser.ml" 111 4411 4478 "query_parser.ml" 111 4411 4491
+type(
+  _menhir_state
+)
+"query_parser.ml" 111 4411 4492 "query_parser.ml" 111 4411 4494
+type(
+  string
+)
+ident(
+  int_ref _v "query_parser.ml" 110 4387 4405 "query_parser.ml" 110 4387 4407
+)
+"query_parser.ml" 111 4411 4427 "query_parser.ml" 111 4411 4494
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 112 4495 4509 "query_parser.ml" 112 4495 4510
+type(
+  token
+)
+"query_parser.ml" 113 4514 4538 "query_parser.ml" 113 4514 4541
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 113 4514 4542 "query_parser.ml" 113 4514 4553
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 105 4134 4150 "query_parser.ml" 105 4134 4161
+)
+"query_parser.ml" 113 4514 4542 "query_parser.ml" 113 4514 4567
+type(
+  bool
+)
+"query_parser.ml" 113 4514 4537 "query_parser.ml" 113 4514 4568
+type(
+  bool
+)
+"query_parser.ml" 113 4514 4530 "query_parser.ml" 113 4514 4568
+type(
+  unit
+)
+"query_parser.ml" 114 4570 4586 "query_parser.ml" 114 4570 4597
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 105 4134 4150 "query_parser.ml" 105 4134 4161
+)
+"query_parser.ml" 114 4570 4615 "query_parser.ml" 114 4570 4619
+type(
+  bool
+)
+"query_parser.ml" 114 4570 4586 "query_parser.ml" 114 4570 4619
+type(
+  unit
+)
+"query_parser.ml" 115 4621 4637 "query_parser.ml" 115 4621 4654
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 115 4621 4655 "query_parser.ml" 115 4621 4666
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 105 4134 4150 "query_parser.ml" 105 4134 4161
+)
+"query_parser.ml" 115 4621 4668 "query_parser.ml" 115 4621 4677
+type(
+  '_u1 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 115 4621 4678 "query_parser.ml" 115 4621 4691
+type(
+  '_u1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 104 4075 4091 "query_parser.ml" 104 4075 4104
+)
+"query_parser.ml" 115 4621 4667 "query_parser.ml" 115 4621 4692
+type(
+  'ttv_tail
+)
+"query_parser.ml" 115 4621 4693 "query_parser.ml" 115 4621 4706
+type(
+  _menhir_state
+)
+"query_parser.ml" 115 4621 4637 "query_parser.ml" 115 4621 4706
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 114 4570 4586 "query_parser.ml" 115 4621 4706
+type(
+  'ttv_return
+)
+"query_parser.ml" 113 4514 4530 "query_parser.ml" 115 4621 4706
+type(
+  'ttv_return
+)
+"query_parser.ml" 107 4247 4259 "query_parser.ml" 115 4621 4707
+type(
+  'ttv_return
+)
+"query_parser.ml" 106 4195 4207 "query_parser.ml" 115 4621 4707
+type(
+  'ttv_return
+)
+"query_parser.ml" 105 4134 4146 "query_parser.ml" 115 4621 4707
+type(
+  'ttv_return
+)
+"query_parser.ml" 104 4075 4087 "query_parser.ml" 115 4621 4707
+type(
+  'ttv_return
+)
+"query_parser.ml" 116 4708 4718 "query_parser.ml" 116 4708 4719
+type(
+  token
+)
+"query_parser.ml" 117 4723 4743 "query_parser.ml" 117 4723 4746
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 117 4723 4747 "query_parser.ml" 117 4723 4758
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 117 4723 4747 "query_parser.ml" 117 4723 4772
+type(
+  bool
+)
+"query_parser.ml" 117 4723 4742 "query_parser.ml" 117 4723 4773
+type(
+  bool
+)
+"query_parser.ml" 117 4723 4735 "query_parser.ml" 117 4723 4773
+type(
+  unit
+)
+"query_parser.ml" 118 4775 4787 "query_parser.ml" 118 4775 4798
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 118 4775 4816 "query_parser.ml" 118 4775 4820
+type(
+  bool
+)
+"query_parser.ml" 118 4775 4787 "query_parser.ml" 118 4775 4820
+type(
+  unit
+)
+"query_parser.ml" 119 4822 4838 "query_parser.ml" 119 4822 4851
+type(
+  'v1
+)
+ident(
+  def _menhir_stack "query_parser.ml" 120 4881 4893 "query_parser.ml" 121 4946 5023
+)
+"query_parser.ml" 119 4822 4854 "query_parser.ml" 119 4822 4863
+type(
+  '_w1 -> 'v1
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 119 4822 4864 "query_parser.ml" 119 4822 4877
+type(
+  '_w1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 99 3880 3892 "query_parser.ml" 99 3880 3905
+)
+"query_parser.ml" 119 4822 4854 "query_parser.ml" 119 4822 4877
+type(
+  'v1
+)
+"query_parser.ml" 120 4881 4898 "query_parser.ml" 120 4881 4911
+type(
+  'x1
+)
+ident(
+  def _menhir_stack "query_parser.ml" 121 4946 4958 "query_parser.ml" 121 4946 5023
+)
+"query_parser.ml" 120 4881 4913 "query_parser.ml" 120 4881 4922
+type(
+  'y1
+)
+ident(
+  def _menhir_s "query_parser.ml" 121 4946 4958 "query_parser.ml" 121 4946 5023
+)
+"query_parser.ml" 120 4881 4924 "query_parser.ml" 120 4881 4925
+type(
+  'z1
+)
+"query_parser.ml" 120 4881 4897 "query_parser.ml" 120 4881 4926
+type(
+  'x1 * 'y1 * 'z1
+)
+"query_parser.ml" 120 4881 4929 "query_parser.ml" 120 4881 4942
+type(
+  'x1 * 'y1 * 'z1
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 119 4822 4838 "query_parser.ml" 119 4822 4851
+)
+"query_parser.ml" 121 4946 4958 "query_parser.ml" 121 4946 4975
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 121 4946 4976 "query_parser.ml" 121 4946 4987
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 121 4946 4989 "query_parser.ml" 121 4946 4998
+type(
+  '_a2 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 121 4946 4999 "query_parser.ml" 121 4946 5012
+type(
+  '_a2
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 120 4881 4898 "query_parser.ml" 120 4881 4911
+)
+"query_parser.ml" 121 4946 4988 "query_parser.ml" 121 4946 5013
+type(
+  'ttv_tail
+)
+"query_parser.ml" 121 4946 5014 "query_parser.ml" 121 4946 5023
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 120 4881 4913 "query_parser.ml" 120 4881 4922
+)
+"query_parser.ml" 121 4946 4958 "query_parser.ml" 121 4946 5023
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 120 4881 4893 "query_parser.ml" 121 4946 5023
+type(
+  'ttv_return
+)
+"query_parser.ml" 119 4822 4834 "query_parser.ml" 121 4946 5023
+type(
+  'ttv_return
+)
+"query_parser.ml" 118 4775 4787 "query_parser.ml" 121 4946 5023
+type(
+  'ttv_return
+)
+"query_parser.ml" 117 4723 4735 "query_parser.ml" 121 4946 5023
+type(
+  'ttv_return
+)
+"query_parser.ml" 102 4031 4039 "query_parser.ml" 121 4946 5024
+type(
+  'ttv_return
+)
+"query_parser.ml" 101 3983 3991 "query_parser.ml" 121 4946 5024
+type(
+  'ttv_return
+)
+"query_parser.ml" 100 3935 3943 "query_parser.ml" 121 4946 5024
+type(
+  'ttv_return
+)
+"query_parser.ml" 99 3880 3888 "query_parser.ml" 121 4946 5024
+type(
+  'ttv_return
+)
+"query_parser.ml" 122 5025 5031 "query_parser.ml" 122 5025 5044
+type(
+  _menhir_state
+)
+"query_parser.ml" 123 5048 5060 "query_parser.ml" 123 5048 5073
+type(
+  'b2
+)
+ident(
+  def _menhir_stack "query_parser.ml" 124 5103 5111 "query_parser.ml" 145 6114 6192
+)
+"query_parser.ml" 123 5048 5076 "query_parser.ml" 123 5048 5085
+type(
+  'ttv_tail * _menhir_state * Config.context Config.element_type -> 'b2
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 123 5048 5086 "query_parser.ml" 123 5048 5099
+type(
+  'ttv_tail * _menhir_state * Config.context Config.element_type
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 72 2596 2604 "query_parser.ml" 72 2596 2617
+)
+"query_parser.ml" 123 5048 5076 "query_parser.ml" 123 5048 5099
+type(
+  'b2
+)
+"query_parser.ml" 124 5103 5119 "query_parser.ml" 124 5103 5122
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 124 5103 5123 "query_parser.ml" 124 5103 5134
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 124 5103 5123 "query_parser.ml" 124 5103 5148
+type(
+  bool
+)
+"query_parser.ml" 124 5103 5118 "query_parser.ml" 124 5103 5149
+type(
+  bool
+)
+"query_parser.ml" 124 5103 5111 "query_parser.ml" 124 5103 5149
+type(
+  unit
+)
+"query_parser.ml" 125 5151 5163 "query_parser.ml" 125 5151 5167
+type(
+  token
+)
+ident(
+  def _tok "query_parser.ml" 126 5199 5207 "query_parser.ml" 145 6114 6192
+)
+"query_parser.ml" 125 5151 5170 "query_parser.ml" 125 5151 5181
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 125 5151 5170 "query_parser.ml" 125 5151 5195
+type(
+  token
+)
+"query_parser.ml" 126 5199 5214 "query_parser.ml" 126 5199 5218
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 125 5151 5163 "query_parser.ml" 125 5151 5167
+)
+"query_parser.ml" 127 5224 5234 "query_parser.ml" 127 5224 5239
+type(
+  token
+)
+"query_parser.ml" 128 5243 5259 "query_parser.ml" 128 5243 5272
+type(
+  'c2
+)
+ident(
+  def _menhir_stack "query_parser.ml" 129 5302 5314 "query_parser.ml" 139 5789 5875
+)
+"query_parser.ml" 128 5243 5275 "query_parser.ml" 128 5243 5284
+type(
+  '_d2 -> 'c2
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 128 5243 5285 "query_parser.ml" 128 5243 5298
+type(
+  '_d2
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 123 5048 5060 "query_parser.ml" 123 5048 5073
+)
+"query_parser.ml" 128 5243 5275 "query_parser.ml" 128 5243 5298
+type(
+  'c2
+)
+"query_parser.ml" 129 5302 5318 "query_parser.ml" 129 5302 5329
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 130 5363 5375 "query_parser.ml" 139 5789 5875
+)
+"query_parser.ml" 129 5302 5332 "query_parser.ml" 129 5302 5347
+type(
+  _menhir_env -> _menhir_env
+)
+ident(
+  int_ref _menhir_discard "query_parser.ml" 218 9706 9710 "query_parser.ml" 218 9706 9725
+)
+"query_parser.ml" 129 5302 5348 "query_parser.ml" 129 5302 5359
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 129 5302 5332 "query_parser.ml" 129 5302 5359
+call(
+  stack
+)
+type(
+  _menhir_env
+)
+"query_parser.ml" 130 5363 5379 "query_parser.ml" 130 5363 5383
+type(
+  token
+)
+ident(
+  def _tok "query_parser.ml" 131 5415 5427 "query_parser.ml" 139 5789 5875
+)
+"query_parser.ml" 130 5363 5386 "query_parser.ml" 130 5363 5397
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 129 5302 5318 "query_parser.ml" 129 5302 5329
+)
+"query_parser.ml" 130 5363 5386 "query_parser.ml" 130 5363 5411
+type(
+  token
+)
+"query_parser.ml" 131 5415 5434 "query_parser.ml" 131 5415 5438
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 130 5363 5379 "query_parser.ml" 130 5363 5383
+)
+"query_parser.ml" 132 5444 5465 "query_parser.ml" 132 5444 5467
+type(
+  string
+)
+ident(
+  def _v "query_parser.ml" 133 5471 5487 "query_parser.ml" 133 5471 5554
+)
+"query_parser.ml" 132 5444 5458 "query_parser.ml" 132 5444 5467
+type(
+  token
+)
+"query_parser.ml" 133 5471 5487 "query_parser.ml" 133 5471 5499
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+ident(
+  int_ref _menhir_run4 "query_parser.ml" 203 9035 9039 "query_parser.ml" 203 9035 9051
+)
+"query_parser.ml" 133 5471 5500 "query_parser.ml" 133 5471 5511
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 129 5302 5318 "query_parser.ml" 129 5302 5329
+)
+"query_parser.ml" 133 5471 5513 "query_parser.ml" 133 5471 5522
+type(
+  '_e2 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 133 5471 5523 "query_parser.ml" 133 5471 5536
+type(
+  '_e2
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 128 5243 5259 "query_parser.ml" 128 5243 5272
+)
+"query_parser.ml" 133 5471 5512 "query_parser.ml" 133 5471 5537
+type(
+  'ttv_tail
+)
+"query_parser.ml" 133 5471 5538 "query_parser.ml" 133 5471 5551
+type(
+  _menhir_state
+)
+"query_parser.ml" 133 5471 5552 "query_parser.ml" 133 5471 5554
+type(
+  string
+)
+ident(
+  int_ref _v "query_parser.ml" 132 5444 5465 "query_parser.ml" 132 5444 5467
+)
+"query_parser.ml" 133 5471 5487 "query_parser.ml" 133 5471 5554
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 134 5555 5573 "query_parser.ml" 134 5555 5575
+type(
+  string
+)
+ident(
+  def _v "query_parser.ml" 135 5579 5595 "query_parser.ml" 135 5579 5662
+)
+"query_parser.ml" 134 5555 5569 "query_parser.ml" 134 5555 5575
+type(
+  token
+)
+"query_parser.ml" 135 5579 5595 "query_parser.ml" 135 5579 5607
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+ident(
+  int_ref _menhir_run3 "query_parser.ml" 195 8634 8638 "query_parser.ml" 195 8634 8650
+)
+"query_parser.ml" 135 5579 5608 "query_parser.ml" 135 5579 5619
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 129 5302 5318 "query_parser.ml" 129 5302 5329
+)
+"query_parser.ml" 135 5579 5621 "query_parser.ml" 135 5579 5630
+type(
+  '_f2 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 135 5579 5631 "query_parser.ml" 135 5579 5644
+type(
+  '_f2
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 128 5243 5259 "query_parser.ml" 128 5243 5272
+)
+"query_parser.ml" 135 5579 5620 "query_parser.ml" 135 5579 5645
+type(
+  'ttv_tail
+)
+"query_parser.ml" 135 5579 5646 "query_parser.ml" 135 5579 5659
+type(
+  _menhir_state
+)
+"query_parser.ml" 135 5579 5660 "query_parser.ml" 135 5579 5662
+type(
+  string
+)
+ident(
+  int_ref _v "query_parser.ml" 134 5555 5573 "query_parser.ml" 134 5555 5575
+)
+"query_parser.ml" 135 5579 5595 "query_parser.ml" 135 5579 5662
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 136 5663 5677 "query_parser.ml" 136 5663 5678
+type(
+  token
+)
+"query_parser.ml" 137 5682 5706 "query_parser.ml" 137 5682 5709
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 137 5682 5710 "query_parser.ml" 137 5682 5721
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 129 5302 5318 "query_parser.ml" 129 5302 5329
+)
+"query_parser.ml" 137 5682 5710 "query_parser.ml" 137 5682 5735
+type(
+  bool
+)
+"query_parser.ml" 137 5682 5705 "query_parser.ml" 137 5682 5736
+type(
+  bool
+)
+"query_parser.ml" 137 5682 5698 "query_parser.ml" 137 5682 5736
+type(
+  unit
+)
+"query_parser.ml" 138 5738 5754 "query_parser.ml" 138 5738 5765
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 129 5302 5318 "query_parser.ml" 129 5302 5329
+)
+"query_parser.ml" 138 5738 5783 "query_parser.ml" 138 5738 5787
+type(
+  bool
+)
+"query_parser.ml" 138 5738 5754 "query_parser.ml" 138 5738 5787
+type(
+  unit
+)
+"query_parser.ml" 139 5789 5805 "query_parser.ml" 139 5789 5822
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 139 5789 5823 "query_parser.ml" 139 5789 5834
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 129 5302 5318 "query_parser.ml" 129 5302 5329
+)
+"query_parser.ml" 139 5789 5836 "query_parser.ml" 139 5789 5845
+type(
+  '_g2 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 139 5789 5846 "query_parser.ml" 139 5789 5859
+type(
+  '_g2
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 128 5243 5259 "query_parser.ml" 128 5243 5272
+)
+"query_parser.ml" 139 5789 5835 "query_parser.ml" 139 5789 5860
+type(
+  'ttv_tail
+)
+"query_parser.ml" 139 5789 5861 "query_parser.ml" 139 5789 5874
+type(
+  _menhir_state
+)
+"query_parser.ml" 139 5789 5805 "query_parser.ml" 139 5789 5874
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 138 5738 5754 "query_parser.ml" 139 5789 5874
+type(
+  'ttv_return
+)
+"query_parser.ml" 137 5682 5698 "query_parser.ml" 139 5789 5874
+type(
+  'ttv_return
+)
+"query_parser.ml" 131 5415 5427 "query_parser.ml" 139 5789 5875
+type(
+  'ttv_return
+)
+"query_parser.ml" 130 5363 5375 "query_parser.ml" 139 5789 5875
+type(
+  'ttv_return
+)
+"query_parser.ml" 129 5302 5314 "query_parser.ml" 139 5789 5875
+type(
+  'ttv_return
+)
+"query_parser.ml" 128 5243 5255 "query_parser.ml" 139 5789 5875
+type(
+  'ttv_return
+)
+"query_parser.ml" 140 5876 5886 "query_parser.ml" 140 5876 5887
+type(
+  token
+)
+"query_parser.ml" 141 5891 5911 "query_parser.ml" 141 5891 5914
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 141 5891 5915 "query_parser.ml" 141 5891 5926
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 141 5891 5915 "query_parser.ml" 141 5891 5940
+type(
+  bool
+)
+"query_parser.ml" 141 5891 5910 "query_parser.ml" 141 5891 5941
+type(
+  bool
+)
+"query_parser.ml" 141 5891 5903 "query_parser.ml" 141 5891 5941
+type(
+  unit
+)
+"query_parser.ml" 142 5943 5955 "query_parser.ml" 142 5943 5966
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 142 5943 5984 "query_parser.ml" 142 5943 5988
+type(
+  bool
+)
+"query_parser.ml" 142 5943 5955 "query_parser.ml" 142 5943 5988
+type(
+  unit
+)
+"query_parser.ml" 143 5990 6006 "query_parser.ml" 143 5990 6019
+type(
+  'h2
+)
+ident(
+  def _menhir_stack "query_parser.ml" 144 6049 6061 "query_parser.ml" 145 6114 6191
+)
+"query_parser.ml" 143 5990 6022 "query_parser.ml" 143 5990 6031
+type(
+  '_i2 -> 'h2
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 143 5990 6032 "query_parser.ml" 143 5990 6045
+type(
+  '_i2
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 123 5048 5060 "query_parser.ml" 123 5048 5073
+)
+"query_parser.ml" 143 5990 6022 "query_parser.ml" 143 5990 6045
+type(
+  'h2
+)
+"query_parser.ml" 144 6049 6066 "query_parser.ml" 144 6049 6079
+type(
+  'j2
+)
+ident(
+  def _menhir_stack "query_parser.ml" 145 6114 6126 "query_parser.ml" 145 6114 6191
+)
+"query_parser.ml" 144 6049 6081 "query_parser.ml" 144 6049 6090
+type(
+  'k2
+)
+ident(
+  def _menhir_s "query_parser.ml" 145 6114 6126 "query_parser.ml" 145 6114 6191
+)
+"query_parser.ml" 144 6049 6092 "query_parser.ml" 144 6049 6093
+type(
+  'l2
+)
+"query_parser.ml" 144 6049 6065 "query_parser.ml" 144 6049 6094
+type(
+  'j2 * 'k2 * 'l2
+)
+"query_parser.ml" 144 6049 6097 "query_parser.ml" 144 6049 6110
+type(
+  'j2 * 'k2 * 'l2
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 143 5990 6006 "query_parser.ml" 143 5990 6019
+)
+"query_parser.ml" 145 6114 6126 "query_parser.ml" 145 6114 6143
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 145 6114 6144 "query_parser.ml" 145 6114 6155
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 145 6114 6157 "query_parser.ml" 145 6114 6166
+type(
+  '_m2 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 145 6114 6167 "query_parser.ml" 145 6114 6180
+type(
+  '_m2
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 144 6049 6066 "query_parser.ml" 144 6049 6079
+)
+"query_parser.ml" 145 6114 6156 "query_parser.ml" 145 6114 6181
+type(
+  'ttv_tail
+)
+"query_parser.ml" 145 6114 6182 "query_parser.ml" 145 6114 6191
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 144 6049 6081 "query_parser.ml" 144 6049 6090
+)
+"query_parser.ml" 145 6114 6126 "query_parser.ml" 145 6114 6191
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 144 6049 6061 "query_parser.ml" 145 6114 6191
+type(
+  'ttv_return
+)
+"query_parser.ml" 143 5990 6002 "query_parser.ml" 145 6114 6191
+type(
+  'ttv_return
+)
+"query_parser.ml" 142 5943 5955 "query_parser.ml" 145 6114 6191
+type(
+  'ttv_return
+)
+"query_parser.ml" 141 5891 5903 "query_parser.ml" 145 6114 6191
+type(
+  'ttv_return
+)
+"query_parser.ml" 126 5199 5207 "query_parser.ml" 145 6114 6192
+type(
+  'ttv_return
+)
+"query_parser.ml" 125 5151 5159 "query_parser.ml" 145 6114 6192
+type(
+  'ttv_return
+)
+"query_parser.ml" 124 5103 5111 "query_parser.ml" 145 6114 6192
+type(
+  'ttv_return
+)
+"query_parser.ml" 123 5048 5056 "query_parser.ml" 145 6114 6192
+type(
+  'ttv_return
+)
+"query_parser.ml" 146 6193 6199 "query_parser.ml" 146 6193 6212
+type(
+  _menhir_state
+)
+"query_parser.ml" 147 6216 6228 "query_parser.ml" 147 6216 6241
+type(
+  'n2
+)
+ident(
+  def _menhir_stack "query_parser.ml" 148 6271 6279 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 147 6216 6244 "query_parser.ml" 147 6216 6253
+type(
+  'ttv_tail * _menhir_state * Config.context Config.element_type -> 'n2
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 147 6216 6254 "query_parser.ml" 147 6216 6267
+type(
+  'ttv_tail * _menhir_state * Config.context Config.element_type
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 72 2596 2604 "query_parser.ml" 72 2596 2617
+)
+"query_parser.ml" 147 6216 6244 "query_parser.ml" 147 6216 6267
+type(
+  'n2
+)
+"query_parser.ml" 148 6271 6283 "query_parser.ml" 148 6271 6296
+type(
+  'o2
+)
+ident(
+  def _menhir_stack "query_parser.ml" 149 6326 6334 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 148 6271 6299 "query_parser.ml" 148 6271 6308
+type(
+  '_p2 -> 'o2
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 148 6271 6309 "query_parser.ml" 148 6271 6322
+type(
+  '_p2
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 147 6216 6228 "query_parser.ml" 147 6216 6241
+)
+"query_parser.ml" 148 6271 6299 "query_parser.ml" 148 6271 6322
+type(
+  'o2
+)
+"query_parser.ml" 149 6326 6342 "query_parser.ml" 149 6326 6355
+type(
+  'q2
+)
+ident(
+  def _menhir_stack "query_parser.ml" 150 6411 6419 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 149 6326 6357 "query_parser.ml" 149 6326 6366
+type(
+  'r2
+)
+ident(
+  def _menhir_s "query_parser.ml" 150 6411 6419 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 149 6326 6368 "query_parser.ml" 149 6326 6369
+type(
+  's2
+)
+ident(
+  def s "query_parser.ml" 150 6411 6419 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 149 6326 6341 "query_parser.ml" 149 6326 6370
+type(
+  'q2 * 'r2 * 's2
+)
+"query_parser.ml" 149 6326 6372 "query_parser.ml" 149 6326 6373
+type(
+  't2
+)
+"query_parser.ml" 149 6326 6375 "query_parser.ml" 149 6326 6376
+type(
+  'u2
+)
+ident(
+  def p "query_parser.ml" 150 6411 6419 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 149 6326 6340 "query_parser.ml" 149 6326 6377
+type(
+  ('q2 * 'r2 * 's2) * 't2 * 'u2
+)
+"query_parser.ml" 149 6326 6379 "query_parser.ml" 149 6326 6380
+type(
+  'v2
+)
+"query_parser.ml" 149 6326 6382 "query_parser.ml" 149 6326 6383
+type(
+  'w2
+)
+ident(
+  def o "query_parser.ml" 150 6411 6419 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 149 6326 6339 "query_parser.ml" 149 6326 6384
+type(
+  (('q2 * 'r2 * 's2) * 't2 * 'u2) * 'v2 * 'w2
+)
+"query_parser.ml" 149 6326 6386 "query_parser.ml" 149 6326 6387
+type(
+  'x2
+)
+"query_parser.ml" 149 6326 6389 "query_parser.ml" 149 6326 6390
+type(
+  'y2
+)
+ident(
+  def c "query_parser.ml" 150 6411 6419 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 149 6326 6338 "query_parser.ml" 149 6326 6391
+type(
+  ((('q2 * 'r2 * 's2) * 't2 * 'u2) * 'v2 * 'w2) * 'x2 * 'y2
+)
+"query_parser.ml" 149 6326 6394 "query_parser.ml" 149 6326 6407
+type(
+  ((('q2 * 'r2 * 's2) * 't2 * 'u2) * 'v2 * 'w2) * 'x2 * 'y2
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 148 6271 6283 "query_parser.ml" 148 6271 6296
+)
+"query_parser.ml" 150 6411 6423 "query_parser.ml" 150 6411 6425
+type(
+  Config.tuple
+)
+ident(
+  def _v "query_parser.ml" 151 6562 6570 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 150 6411 6461 "query_parser.ml" 150 6411 6462
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref s "query_parser.ml" 149 6326 6368 "query_parser.ml" 149 6326 6369
+)
+"query_parser.ml" 150 6411 6478 "query_parser.ml" 150 6411 6479
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref p "query_parser.ml" 149 6326 6375 "query_parser.ml" 149 6326 6376
+)
+"query_parser.ml" 150 6411 6494 "query_parser.ml" 150 6411 6495
+type(
+  Config.obj_t Config.element_type
+)
+ident(
+  int_ref o "query_parser.ml" 149 6326 6382 "query_parser.ml" 149 6326 6383
+)
+"query_parser.ml" 150 6411 6511 "query_parser.ml" 150 6411 6512
+type(
+  Config.context Config.element_type
+)
+ident(
+  int_ref c "query_parser.ml" 149 6326 6389 "query_parser.ml" 149 6326 6390
+)
+"query_parser.ml" 150 6411 6532 "query_parser.ml" 150 6411 6536
+type(
+  Config.timestamp Config.element_type option
+)
+"query_parser.ml" 150 6411 6552 "query_parser.ml" 150 6411 6556
+type(
+  Config.signature Config.element_type option
+)
+"query_parser.ml" 150 6411 6445 "query_parser.ml" 150 6411 6558
+type(
+  Config.tuple
+)
+type(
+  Config.tuple
+)
+"query_parser.ml" 151 6562 6574 "query_parser.ml" 151 6562 6587
+type(
+  'z2 * 'a3 * Config.tuple
+)
+ident(
+  def _menhir_stack "query_parser.ml" 152 6624 6632 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 151 6562 6591 "query_parser.ml" 151 6562 6604
+type(
+  'z2
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 149 6326 6342 "query_parser.ml" 149 6326 6355
+)
+"query_parser.ml" 151 6562 6606 "query_parser.ml" 151 6562 6615
+type(
+  'a3
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 149 6326 6357 "query_parser.ml" 149 6326 6366
+)
+"query_parser.ml" 151 6562 6617 "query_parser.ml" 151 6562 6619
+type(
+  Config.tuple
+)
+ident(
+  int_ref _v "query_parser.ml" 150 6411 6423 "query_parser.ml" 150 6411 6425
+)
+"query_parser.ml" 151 6562 6590 "query_parser.ml" 151 6562 6620
+type(
+  'z2 * 'a3 * Config.tuple
+)
+"query_parser.ml" 152 6624 6636 "query_parser.ml" 152 6624 6649
+type(
+  'b3
+)
+ident(
+  def _menhir_stack "query_parser.ml" 153 6679 6687 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 152 6624 6652 "query_parser.ml" 152 6624 6661
+type(
+  '_c3 * '_d3 * Config.tuple -> 'b3
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 152 6624 6662 "query_parser.ml" 152 6624 6675
+type(
+  '_c3 * '_d3 * Config.tuple
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 151 6562 6574 "query_parser.ml" 151 6562 6587
+)
+"query_parser.ml" 152 6624 6652 "query_parser.ml" 152 6624 6675
+type(
+  'b3
+)
+"query_parser.ml" 153 6679 6695 "query_parser.ml" 153 6679 6698
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 153 6679 6699 "query_parser.ml" 153 6679 6710
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 153 6679 6699 "query_parser.ml" 153 6679 6724
+type(
+  bool
+)
+"query_parser.ml" 153 6679 6694 "query_parser.ml" 153 6679 6725
+type(
+  bool
+)
+"query_parser.ml" 153 6679 6687 "query_parser.ml" 153 6679 6725
+type(
+  unit
+)
+"query_parser.ml" 154 6727 6739 "query_parser.ml" 154 6727 6743
+type(
+  token
+)
+ident(
+  def _tok "query_parser.ml" 155 6775 6783 "query_parser.ml" 165 7210 7290
+)
+"query_parser.ml" 154 6727 6746 "query_parser.ml" 154 6727 6757
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 154 6727 6746 "query_parser.ml" 154 6727 6771
+type(
+  token
+)
+"query_parser.ml" 155 6775 6789 "query_parser.ml" 155 6775 6793
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 154 6727 6739 "query_parser.ml" 154 6727 6743
+)
+"query_parser.ml" 156 6799 6816 "query_parser.ml" 156 6799 6818
+type(
+  string
+)
+ident(
+  def _v "query_parser.ml" 157 6822 6834 "query_parser.ml" 157 6822 6900
+)
+"query_parser.ml" 156 6799 6809 "query_parser.ml" 156 6799 6818
+type(
+  token
+)
+"query_parser.ml" 157 6822 6834 "query_parser.ml" 157 6822 6846
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+ident(
+  int_ref _menhir_run4 "query_parser.ml" 203 9035 9039 "query_parser.ml" 203 9035 9051
+)
+"query_parser.ml" 157 6822 6847 "query_parser.ml" 157 6822 6858
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 157 6822 6860 "query_parser.ml" 157 6822 6869
+type(
+  '_e3 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 157 6822 6870 "query_parser.ml" 157 6822 6883
+type(
+  '_e3
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 152 6624 6636 "query_parser.ml" 152 6624 6649
+)
+"query_parser.ml" 157 6822 6859 "query_parser.ml" 157 6822 6884
+type(
+  'ttv_tail
+)
+"query_parser.ml" 157 6822 6885 "query_parser.ml" 157 6822 6897
+type(
+  _menhir_state
+)
+"query_parser.ml" 157 6822 6898 "query_parser.ml" 157 6822 6900
+type(
+  string
+)
+ident(
+  int_ref _v "query_parser.ml" 156 6799 6816 "query_parser.ml" 156 6799 6818
+)
+"query_parser.ml" 157 6822 6834 "query_parser.ml" 157 6822 6900
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 158 6901 6915 "query_parser.ml" 158 6901 6917
+type(
+  string
+)
+ident(
+  def _v "query_parser.ml" 159 6921 6933 "query_parser.ml" 159 6921 6999
+)
+"query_parser.ml" 158 6901 6911 "query_parser.ml" 158 6901 6917
+type(
+  token
+)
+"query_parser.ml" 159 6921 6933 "query_parser.ml" 159 6921 6945
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+ident(
+  int_ref _menhir_run3 "query_parser.ml" 195 8634 8638 "query_parser.ml" 195 8634 8650
+)
+"query_parser.ml" 159 6921 6946 "query_parser.ml" 159 6921 6957
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 159 6921 6959 "query_parser.ml" 159 6921 6968
+type(
+  '_f3 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 159 6921 6969 "query_parser.ml" 159 6921 6982
+type(
+  '_f3
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 152 6624 6636 "query_parser.ml" 152 6624 6649
+)
+"query_parser.ml" 159 6921 6958 "query_parser.ml" 159 6921 6983
+type(
+  'ttv_tail
+)
+"query_parser.ml" 159 6921 6984 "query_parser.ml" 159 6921 6996
+type(
+  _menhir_state
+)
+"query_parser.ml" 159 6921 6997 "query_parser.ml" 159 6921 6999
+type(
+  string
+)
+ident(
+  int_ref _v "query_parser.ml" 158 6901 6915 "query_parser.ml" 158 6901 6917
+)
+"query_parser.ml" 159 6921 6933 "query_parser.ml" 159 6921 6999
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 160 7000 7010 "query_parser.ml" 160 7000 7013
+type(
+  token
+)
+"query_parser.ml" 161 7017 7029 "query_parser.ml" 161 7017 7044
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_reduce3 "query_parser.ml" 190 8392 8396 "query_parser.ml" 190 8392 8411
+)
+"query_parser.ml" 161 7017 7045 "query_parser.ml" 161 7017 7056
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 161 7017 7058 "query_parser.ml" 161 7017 7067
+type(
+  '_g3 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 161 7017 7068 "query_parser.ml" 161 7017 7081
+type(
+  '_g3
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 152 6624 6636 "query_parser.ml" 152 6624 6649
+)
+"query_parser.ml" 161 7017 7057 "query_parser.ml" 161 7017 7082
+type(
+  'ttv_tail
+)
+"query_parser.ml" 161 7017 7083 "query_parser.ml" 161 7017 7095
+type(
+  _menhir_state
+)
+"query_parser.ml" 161 7017 7029 "query_parser.ml" 161 7017 7095
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 162 7096 7106 "query_parser.ml" 162 7096 7107
+type(
+  token
+)
+"query_parser.ml" 163 7111 7131 "query_parser.ml" 163 7111 7134
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 163 7111 7135 "query_parser.ml" 163 7111 7146
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 163 7111 7135 "query_parser.ml" 163 7111 7160
+type(
+  bool
+)
+"query_parser.ml" 163 7111 7130 "query_parser.ml" 163 7111 7161
+type(
+  bool
+)
+"query_parser.ml" 163 7111 7123 "query_parser.ml" 163 7111 7161
+type(
+  unit
+)
+"query_parser.ml" 164 7163 7175 "query_parser.ml" 164 7163 7186
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 164 7163 7204 "query_parser.ml" 164 7163 7208
+type(
+  bool
+)
+"query_parser.ml" 164 7163 7175 "query_parser.ml" 164 7163 7208
+type(
+  unit
+)
+"query_parser.ml" 165 7210 7222 "query_parser.ml" 165 7210 7239
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 165 7210 7240 "query_parser.ml" 165 7210 7251
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 71 2548 2554 "query_parser.ml" 71 2548 2565
+)
+"query_parser.ml" 165 7210 7253 "query_parser.ml" 165 7210 7262
+type(
+  '_h3 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 165 7210 7263 "query_parser.ml" 165 7210 7276
+type(
+  '_h3
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 152 6624 6636 "query_parser.ml" 152 6624 6649
+)
+"query_parser.ml" 165 7210 7252 "query_parser.ml" 165 7210 7277
+type(
+  'ttv_tail
+)
+"query_parser.ml" 165 7210 7278 "query_parser.ml" 165 7210 7290
+type(
+  _menhir_state
+)
+"query_parser.ml" 165 7210 7222 "query_parser.ml" 165 7210 7290
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 164 7163 7175 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 163 7111 7123 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 155 6775 6783 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 154 6727 6735 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 153 6679 6687 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 152 6624 6632 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 151 6562 6570 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 150 6411 6419 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 149 6326 6334 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 148 6271 6279 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 147 6216 6224 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 73 2654 2658 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 72 2596 2600 "query_parser.ml" 165 7210 7290
+type(
+  'ttv_return
+)
+"query_parser.ml" 71 2548 2550 "query_parser.ml" 165 7210 7290
+type(
+  _menhir_env ->
+  'ttv_tail ->
+  _menhir_state -> Config.context Config.element_type -> 'ttv_return
+)
+type(
+  _menhir_env ->
+  'ttv_tail ->
+  _menhir_state -> Config.context Config.element_type -> 'ttv_return
+)
+"query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  def _menhir_errorcase "query_parser.ml" 29 399 399 "query_parser.ml" 1 0 -1
+)
+"query_parser.ml" 168 7375 7381 "query_parser.ml" 168 7375 7392
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 168 7375 7393 "query_parser.ml" 188 8372 8390
+)
+"query_parser.ml" 168 7375 7393 "query_parser.ml" 168 7375 7406
+type(
+  'ttv_tail
+)
+ident(
+  def _menhir_stack "query_parser.ml" 168 7375 7407 "query_parser.ml" 188 8372 8390
+)
+"query_parser.ml" 168 7375 7407 "query_parser.ml" 168 7375 7416
+type(
+  _menhir_state
+)
+ident(
+  def _menhir_s "query_parser.ml" 169 7420 7424 "query_parser.ml" 188 8372 8390
+)
+"query_parser.ml" 169 7420 7430 "query_parser.ml" 169 7420 7439
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 168 7375 7407 "query_parser.ml" 168 7375 7416
+)
+"query_parser.ml" 170 7445 7451 "query_parser.ml" 170 7445 7464
+type(
+  _menhir_state
+)
+"query_parser.ml" 171 7468 7480 "query_parser.ml" 171 7468 7493
+type(
+  'i3
+)
+ident(
+  def _menhir_stack "query_parser.ml" 172 7523 7531 "query_parser.ml" 173 7584 7657
+)
+"query_parser.ml" 171 7468 7496 "query_parser.ml" 171 7468 7505
+type(
+  'ttv_tail -> 'i3
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 171 7468 7506 "query_parser.ml" 171 7468 7519
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 168 7375 7393 "query_parser.ml" 168 7375 7406
+)
+"query_parser.ml" 171 7468 7496 "query_parser.ml" 171 7468 7519
+type(
+  'i3
+)
+"query_parser.ml" 172 7523 7536 "query_parser.ml" 172 7523 7549
+type(
+  'j3
+)
+ident(
+  def _menhir_stack "query_parser.ml" 173 7584 7592 "query_parser.ml" 173 7584 7657
+)
+"query_parser.ml" 172 7523 7551 "query_parser.ml" 172 7523 7560
+type(
+  'k3
+)
+ident(
+  def _menhir_s "query_parser.ml" 173 7584 7592 "query_parser.ml" 173 7584 7657
+)
+"query_parser.ml" 172 7523 7562 "query_parser.ml" 172 7523 7563
+type(
+  'l3
+)
+"query_parser.ml" 172 7523 7535 "query_parser.ml" 172 7523 7564
+type(
+  'j3 * 'k3 * 'l3
+)
+"query_parser.ml" 172 7523 7567 "query_parser.ml" 172 7523 7580
+type(
+  'j3 * 'k3 * 'l3
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 171 7468 7480 "query_parser.ml" 171 7468 7493
+)
+"query_parser.ml" 173 7584 7592 "query_parser.ml" 173 7584 7609
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 173 7584 7610 "query_parser.ml" 173 7584 7621
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 168 7375 7381 "query_parser.ml" 168 7375 7392
+)
+"query_parser.ml" 173 7584 7623 "query_parser.ml" 173 7584 7632
+type(
+  '_m3 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 173 7584 7633 "query_parser.ml" 173 7584 7646
+type(
+  '_m3
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 172 7523 7536 "query_parser.ml" 172 7523 7549
+)
+"query_parser.ml" 173 7584 7622 "query_parser.ml" 173 7584 7647
+type(
+  'ttv_tail
+)
+"query_parser.ml" 173 7584 7648 "query_parser.ml" 173 7584 7657
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 172 7523 7551 "query_parser.ml" 172 7523 7560
+)
+"query_parser.ml" 173 7584 7592 "query_parser.ml" 173 7584 7657
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 172 7523 7531 "query_parser.ml" 173 7584 7657
+type(
+  'ttv_return
+)
+"query_parser.ml" 171 7468 7476 "query_parser.ml" 173 7584 7657
+type(
+  'ttv_return
+)
+"query_parser.ml" 174 7658 7664 "query_parser.ml" 174 7658 7677
+type(
+  _menhir_state
+)
+"query_parser.ml" 175 7681 7693 "query_parser.ml" 175 7681 7706
+type(
+  'n3
+)
+ident(
+  def _menhir_stack "query_parser.ml" 176 7736 7744 "query_parser.ml" 177 7797 7870
+)
+"query_parser.ml" 175 7681 7709 "query_parser.ml" 175 7681 7718
+type(
+  'ttv_tail -> 'n3
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 175 7681 7719 "query_parser.ml" 175 7681 7732
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 168 7375 7393 "query_parser.ml" 168 7375 7406
+)
+"query_parser.ml" 175 7681 7709 "query_parser.ml" 175 7681 7732
+type(
+  'n3
+)
+"query_parser.ml" 176 7736 7749 "query_parser.ml" 176 7736 7762
+type(
+  'o3
+)
+ident(
+  def _menhir_stack "query_parser.ml" 177 7797 7805 "query_parser.ml" 177 7797 7870
+)
+"query_parser.ml" 176 7736 7764 "query_parser.ml" 176 7736 7773
+type(
+  'p3
+)
+ident(
+  def _menhir_s "query_parser.ml" 177 7797 7805 "query_parser.ml" 177 7797 7870
+)
+"query_parser.ml" 176 7736 7775 "query_parser.ml" 176 7736 7776
+type(
+  'q3
+)
+"query_parser.ml" 176 7736 7748 "query_parser.ml" 176 7736 7777
+type(
+  'o3 * 'p3 * 'q3
+)
+"query_parser.ml" 176 7736 7780 "query_parser.ml" 176 7736 7793
+type(
+  'o3 * 'p3 * 'q3
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 175 7681 7693 "query_parser.ml" 175 7681 7706
+)
+"query_parser.ml" 177 7797 7805 "query_parser.ml" 177 7797 7822
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 177 7797 7823 "query_parser.ml" 177 7797 7834
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 168 7375 7381 "query_parser.ml" 168 7375 7392
+)
+"query_parser.ml" 177 7797 7836 "query_parser.ml" 177 7797 7845
+type(
+  '_r3 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 177 7797 7846 "query_parser.ml" 177 7797 7859
+type(
+  '_r3
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 176 7736 7749 "query_parser.ml" 176 7736 7762
+)
+"query_parser.ml" 177 7797 7835 "query_parser.ml" 177 7797 7860
+type(
+  'ttv_tail
+)
+"query_parser.ml" 177 7797 7861 "query_parser.ml" 177 7797 7870
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 176 7736 7764 "query_parser.ml" 176 7736 7773
+)
+"query_parser.ml" 177 7797 7805 "query_parser.ml" 177 7797 7870
+type(
+  'ttv_return
+)
+"query_parser.ml" 176 7736 7744 "query_parser.ml" 177 7797 7870
+type(
+  'ttv_return
+)
+"query_parser.ml" 175 7681 7689 "query_parser.ml" 177 7797 7870
+type(
+  'ttv_return
+)
+"query_parser.ml" 178 7871 7877 "query_parser.ml" 178 7871 7889
+type(
+  _menhir_state
+)
+"query_parser.ml" 179 7893 7905 "query_parser.ml" 179 7893 7918
+type(
+  's3
+)
+ident(
+  def _menhir_stack "query_parser.ml" 180 7948 7956 "query_parser.ml" 181 8009 8082
+)
+"query_parser.ml" 179 7893 7921 "query_parser.ml" 179 7893 7930
+type(
+  'ttv_tail -> 's3
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 179 7893 7931 "query_parser.ml" 179 7893 7944
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 168 7375 7393 "query_parser.ml" 168 7375 7406
+)
+"query_parser.ml" 179 7893 7921 "query_parser.ml" 179 7893 7944
+type(
+  's3
+)
+"query_parser.ml" 180 7948 7961 "query_parser.ml" 180 7948 7974
+type(
+  't3
+)
+ident(
+  def _menhir_stack "query_parser.ml" 181 8009 8017 "query_parser.ml" 181 8009 8082
+)
+"query_parser.ml" 180 7948 7976 "query_parser.ml" 180 7948 7985
+type(
+  'u3
+)
+ident(
+  def _menhir_s "query_parser.ml" 181 8009 8017 "query_parser.ml" 181 8009 8082
+)
+"query_parser.ml" 180 7948 7987 "query_parser.ml" 180 7948 7988
+type(
+  'v3
+)
+"query_parser.ml" 180 7948 7960 "query_parser.ml" 180 7948 7989
+type(
+  't3 * 'u3 * 'v3
+)
+"query_parser.ml" 180 7948 7992 "query_parser.ml" 180 7948 8005
+type(
+  't3 * 'u3 * 'v3
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 179 7893 7905 "query_parser.ml" 179 7893 7918
+)
+"query_parser.ml" 181 8009 8017 "query_parser.ml" 181 8009 8034
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 181 8009 8035 "query_parser.ml" 181 8009 8046
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 168 7375 7381 "query_parser.ml" 168 7375 7392
+)
+"query_parser.ml" 181 8009 8048 "query_parser.ml" 181 8009 8057
+type(
+  '_w3 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 181 8009 8058 "query_parser.ml" 181 8009 8071
+type(
+  '_w3
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 180 7948 7961 "query_parser.ml" 180 7948 7974
+)
+"query_parser.ml" 181 8009 8047 "query_parser.ml" 181 8009 8072
+type(
+  'ttv_tail
+)
+"query_parser.ml" 181 8009 8073 "query_parser.ml" 181 8009 8082
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 180 7948 7976 "query_parser.ml" 180 7948 7985
+)
+"query_parser.ml" 181 8009 8017 "query_parser.ml" 181 8009 8082
+type(
+  'ttv_return
+)
+"query_parser.ml" 180 7948 7956 "query_parser.ml" 181 8009 8082
+type(
+  'ttv_return
+)
+"query_parser.ml" 179 7893 7901 "query_parser.ml" 181 8009 8082
+type(
+  'ttv_return
+)
+"query_parser.ml" 182 8083 8089 "query_parser.ml" 182 8083 8101
+type(
+  _menhir_state
+)
+"query_parser.ml" 183 8105 8117 "query_parser.ml" 183 8105 8130
+type(
+  'x3
+)
+ident(
+  def _menhir_stack "query_parser.ml" 184 8160 8168 "query_parser.ml" 185 8221 8294
+)
+"query_parser.ml" 183 8105 8133 "query_parser.ml" 183 8105 8142
+type(
+  'ttv_tail -> 'x3
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 183 8105 8143 "query_parser.ml" 183 8105 8156
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 168 7375 7393 "query_parser.ml" 168 7375 7406
+)
+"query_parser.ml" 183 8105 8133 "query_parser.ml" 183 8105 8156
+type(
+  'x3
+)
+"query_parser.ml" 184 8160 8173 "query_parser.ml" 184 8160 8186
+type(
+  'y3
+)
+ident(
+  def _menhir_stack "query_parser.ml" 185 8221 8229 "query_parser.ml" 185 8221 8294
+)
+"query_parser.ml" 184 8160 8188 "query_parser.ml" 184 8160 8197
+type(
+  'z3
+)
+ident(
+  def _menhir_s "query_parser.ml" 185 8221 8229 "query_parser.ml" 185 8221 8294
+)
+"query_parser.ml" 184 8160 8199 "query_parser.ml" 184 8160 8200
+type(
+  'a4
+)
+"query_parser.ml" 184 8160 8172 "query_parser.ml" 184 8160 8201
+type(
+  'y3 * 'z3 * 'a4
+)
+"query_parser.ml" 184 8160 8204 "query_parser.ml" 184 8160 8217
+type(
+  'y3 * 'z3 * 'a4
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 183 8105 8117 "query_parser.ml" 183 8105 8130
+)
+"query_parser.ml" 185 8221 8229 "query_parser.ml" 185 8221 8246
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 185 8221 8247 "query_parser.ml" 185 8221 8258
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 168 7375 7381 "query_parser.ml" 168 7375 7392
+)
+"query_parser.ml" 185 8221 8260 "query_parser.ml" 185 8221 8269
+type(
+  '_b4 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 185 8221 8270 "query_parser.ml" 185 8221 8283
+type(
+  '_b4
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 184 8160 8173 "query_parser.ml" 184 8160 8186
+)
+"query_parser.ml" 185 8221 8259 "query_parser.ml" 185 8221 8284
+type(
+  'ttv_tail
+)
+"query_parser.ml" 185 8221 8285 "query_parser.ml" 185 8221 8294
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 184 8160 8188 "query_parser.ml" 184 8160 8197
+)
+"query_parser.ml" 185 8221 8229 "query_parser.ml" 185 8221 8294
+type(
+  'ttv_return
+)
+"query_parser.ml" 184 8160 8168 "query_parser.ml" 185 8221 8294
+type(
+  'ttv_return
+)
+"query_parser.ml" 183 8105 8113 "query_parser.ml" 185 8221 8294
+type(
+  'ttv_return
+)
+"query_parser.ml" 186 8295 8301 "query_parser.ml" 186 8295 8313
+type(
+  _menhir_state
+)
+"query_parser.ml" 187 8317 8329 "query_parser.ml" 187 8317 8342
+type(
+  'c4
+)
+ident(
+  def _menhir_stack "query_parser.ml" 188 8372 8380 "query_parser.ml" 188 8372 8390
+)
+"query_parser.ml" 187 8317 8345 "query_parser.ml" 187 8317 8354
+type(
+  'ttv_tail -> 'c4
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 187 8317 8355 "query_parser.ml" 187 8317 8368
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 168 7375 7393 "query_parser.ml" 168 7375 7406
+)
+"query_parser.ml" 187 8317 8345 "query_parser.ml" 187 8317 8368
+type(
+  'c4
+)
+"query_parser.ml" 188 8372 8380 "query_parser.ml" 188 8372 8385
+type(
+  exn -> 'ttv_return
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"query_parser.ml" 188 8372 8386 "query_parser.ml" 188 8372 8390
+type(
+  exn
+)
+ident(
+  int_ref _eRR "query_parser.ml" 26 379 383 "query_parser.ml" 26 379 387
+)
+"query_parser.ml" 188 8372 8380 "query_parser.ml" 188 8372 8390
+type(
+  'ttv_return
+)
+"query_parser.ml" 187 8317 8325 "query_parser.ml" 188 8372 8390
+type(
+  'ttv_return
+)
+"query_parser.ml" 169 7420 7424 "query_parser.ml" 188 8372 8390
+type(
+  'ttv_return
+)
+"query_parser.ml" 168 7375 7377 "query_parser.ml" 188 8372 8390
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+"query_parser.ml" 190 8392 8396 "query_parser.ml" 190 8392 8411
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  def _menhir_reduce3 "query_parser.ml" 29 399 399 "query_parser.ml" 1 0 -1
+)
+"query_parser.ml" 191 8473 8479 "query_parser.ml" 191 8473 8490
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 191 8473 8491 "query_parser.ml" 193 8567 8632
+)
+"query_parser.ml" 191 8473 8491 "query_parser.ml" 191 8473 8504
+type(
+  'ttv_tail
+)
+ident(
+  def _menhir_stack "query_parser.ml" 191 8473 8505 "query_parser.ml" 193 8567 8632
+)
+"query_parser.ml" 191 8473 8505 "query_parser.ml" 191 8473 8514
+type(
+  _menhir_state
+)
+ident(
+  def _menhir_s "query_parser.ml" 192 8518 8522 "query_parser.ml" 193 8567 8632
+)
+"query_parser.ml" 192 8518 8526 "query_parser.ml" 192 8518 8528
+type(
+  Config.tuple list
+)
+ident(
+  def _v "query_parser.ml" 193 8567 8571 "query_parser.ml" 193 8567 8632
+)
+"query_parser.ml" 192 8518 8557 "query_parser.ml" 192 8518 8563
+type(
+  Config.tuple list
+)
+type(
+  Config.tuple list
+)
+"query_parser.ml" 193 8567 8571 "query_parser.ml" 193 8567 8593
+type(
+  _menhir_env ->
+  'ttv_tail -> _menhir_state -> Config.tuple list -> 'ttv_return
+)
+ident(
+  int_ref _menhir_goto_list_tpl_ "query_parser.ml" 29 399 407 "query_parser.ml" 29 399 429
+)
+"query_parser.ml" 193 8567 8594 "query_parser.ml" 193 8567 8605
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 191 8473 8479 "query_parser.ml" 191 8473 8490
+)
+"query_parser.ml" 193 8567 8606 "query_parser.ml" 193 8567 8619
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 191 8473 8491 "query_parser.ml" 191 8473 8504
+)
+"query_parser.ml" 193 8567 8620 "query_parser.ml" 193 8567 8629
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 191 8473 8505 "query_parser.ml" 191 8473 8514
+)
+"query_parser.ml" 193 8567 8630 "query_parser.ml" 193 8567 8632
+type(
+  Config.tuple list
+)
+ident(
+  int_ref _v "query_parser.ml" 192 8518 8526 "query_parser.ml" 192 8518 8528
+)
+"query_parser.ml" 193 8567 8571 "query_parser.ml" 193 8567 8632
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 192 8518 8522 "query_parser.ml" 193 8567 8632
+type(
+  'ttv_return
+)
+"query_parser.ml" 191 8473 8475 "query_parser.ml" 193 8567 8632
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+"query_parser.ml" 195 8634 8638 "query_parser.ml" 195 8634 8650
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+ident(
+  def _menhir_run3 "query_parser.ml" 29 399 399 "query_parser.ml" 1 0 -1
+)
+"query_parser.ml" 196 8724 8730 "query_parser.ml" 196 8724 8741
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 196 8724 8742 "query_parser.ml" 201 8973 9033
+)
+"query_parser.ml" 196 8724 8742 "query_parser.ml" 196 8724 8755
+type(
+  'ttv_tail
+)
+ident(
+  def _menhir_stack "query_parser.ml" 196 8724 8756 "query_parser.ml" 201 8973 9033
+)
+"query_parser.ml" 196 8724 8756 "query_parser.ml" 196 8724 8765
+type(
+  _menhir_state
+)
+ident(
+  def _menhir_s "query_parser.ml" 196 8724 8766 "query_parser.ml" 201 8973 9033
+)
+"query_parser.ml" 196 8724 8766 "query_parser.ml" 196 8724 8768
+type(
+  string
+)
+ident(
+  def _v "query_parser.ml" 197 8772 8776 "query_parser.ml" 201 8973 9033
+)
+"query_parser.ml" 197 8772 8780 "query_parser.ml" 197 8772 8791
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 198 8825 8829 "query_parser.ml" 201 8973 9033
+)
+"query_parser.ml" 197 8772 8794 "query_parser.ml" 197 8772 8809
+type(
+  _menhir_env -> _menhir_env
+)
+ident(
+  int_ref _menhir_discard "query_parser.ml" 218 9706 9710 "query_parser.ml" 218 9706 9725
+)
+"query_parser.ml" 197 8772 8810 "query_parser.ml" 197 8772 8821
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 196 8724 8730 "query_parser.ml" 196 8724 8741
+)
+"query_parser.ml" 197 8772 8794 "query_parser.ml" 197 8772 8821
+call(
+  stack
+)
+type(
+  _menhir_env
+)
+"query_parser.ml" 198 8825 8833 "query_parser.ml" 198 8825 8846
+type(
+  'd4
+)
+ident(
+  def _menhir_stack "query_parser.ml" 199 8876 8880 "query_parser.ml" 201 8973 9033
+)
+"query_parser.ml" 198 8825 8849 "query_parser.ml" 198 8825 8858
+type(
+  'ttv_tail -> 'd4
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 198 8825 8859 "query_parser.ml" 198 8825 8872
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 196 8724 8742 "query_parser.ml" 196 8724 8755
+)
+"query_parser.ml" 198 8825 8849 "query_parser.ml" 198 8825 8872
+type(
+  'd4
+)
+"query_parser.ml" 199 8876 8884 "query_parser.ml" 199 8876 8885
+type(
+  string
+)
+ident(
+  def v "query_parser.ml" 200 8894 8898 "query_parser.ml" 201 8973 9033
+)
+"query_parser.ml" 199 8876 8888 "query_parser.ml" 199 8876 8890
+type(
+  string
+)
+ident(
+  int_ref _v "query_parser.ml" 196 8724 8766 "query_parser.ml" 196 8724 8768
+)
+"query_parser.ml" 200 8894 8902 "query_parser.ml" 200 8894 8904
+type(
+  Config.context Config.element_type
+)
+ident(
+  def _v "query_parser.ml" 201 8973 8977 "query_parser.ml" 201 8973 9033
+)
+"query_parser.ml" 200 8894 8967 "query_parser.ml" 200 8894 8968
+type(
+  string
+)
+ident(
+  int_ref v "query_parser.ml" 199 8876 8884 "query_parser.ml" 199 8876 8885
+)
+"query_parser.ml" 200 8894 8957 "query_parser.ml" 200 8894 8969
+type(
+  Config.context Config.element_type
+)
+type(
+  Config.context Config.element_type
+)
+"query_parser.ml" 201 8973 8977 "query_parser.ml" 201 8973 8994
+type(
+  _menhir_env ->
+  'ttv_tail ->
+  _menhir_state -> Config.context Config.element_type -> 'ttv_return
+)
+ident(
+  int_ref _menhir_goto_elem "query_parser.ml" 70 2425 2429 "query_parser.ml" 70 2425 2446
+)
+"query_parser.ml" 201 8973 8995 "query_parser.ml" 201 8973 9006
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 197 8772 8780 "query_parser.ml" 197 8772 8791
+)
+"query_parser.ml" 201 8973 9007 "query_parser.ml" 201 8973 9020
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 198 8825 8833 "query_parser.ml" 198 8825 8846
+)
+"query_parser.ml" 201 8973 9021 "query_parser.ml" 201 8973 9030
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 196 8724 8756 "query_parser.ml" 196 8724 8765
+)
+"query_parser.ml" 201 8973 9031 "query_parser.ml" 201 8973 9033
+type(
+  Config.context Config.element_type
+)
+ident(
+  int_ref _v "query_parser.ml" 200 8894 8902 "query_parser.ml" 200 8894 8904
+)
+"query_parser.ml" 201 8973 8977 "query_parser.ml" 201 8973 9033
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 200 8894 8898 "query_parser.ml" 201 8973 9033
+type(
+  'ttv_return
+)
+"query_parser.ml" 199 8876 8880 "query_parser.ml" 201 8973 9033
+type(
+  'ttv_return
+)
+"query_parser.ml" 198 8825 8829 "query_parser.ml" 201 8973 9033
+type(
+  'ttv_return
+)
+"query_parser.ml" 197 8772 8776 "query_parser.ml" 201 8973 9033
+type(
+  'ttv_return
+)
+"query_parser.ml" 196 8724 8726 "query_parser.ml" 201 8973 9033
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+"query_parser.ml" 203 9035 9039 "query_parser.ml" 203 9035 9051
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+ident(
+  def _menhir_run4 "query_parser.ml" 29 399 399 "query_parser.ml" 1 0 -1
+)
+"query_parser.ml" 204 9125 9131 "query_parser.ml" 204 9125 9142
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 204 9125 9143 "query_parser.ml" 209 9377 9437
+)
+"query_parser.ml" 204 9125 9143 "query_parser.ml" 204 9125 9156
+type(
+  'ttv_tail
+)
+ident(
+  def _menhir_stack "query_parser.ml" 204 9125 9157 "query_parser.ml" 209 9377 9437
+)
+"query_parser.ml" 204 9125 9157 "query_parser.ml" 204 9125 9166
+type(
+  _menhir_state
+)
+ident(
+  def _menhir_s "query_parser.ml" 204 9125 9167 "query_parser.ml" 209 9377 9437
+)
+"query_parser.ml" 204 9125 9167 "query_parser.ml" 204 9125 9169
+type(
+  Config.context
+)
+ident(
+  def _v "query_parser.ml" 205 9173 9177 "query_parser.ml" 209 9377 9437
+)
+"query_parser.ml" 205 9173 9181 "query_parser.ml" 205 9173 9192
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 206 9226 9230 "query_parser.ml" 209 9377 9437
+)
+"query_parser.ml" 205 9173 9195 "query_parser.ml" 205 9173 9210
+type(
+  _menhir_env -> _menhir_env
+)
+ident(
+  int_ref _menhir_discard "query_parser.ml" 218 9706 9710 "query_parser.ml" 218 9706 9725
+)
+"query_parser.ml" 205 9173 9211 "query_parser.ml" 205 9173 9222
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 204 9125 9131 "query_parser.ml" 204 9125 9142
+)
+"query_parser.ml" 205 9173 9195 "query_parser.ml" 205 9173 9222
+call(
+  stack
+)
+type(
+  _menhir_env
+)
+"query_parser.ml" 206 9226 9234 "query_parser.ml" 206 9226 9247
+type(
+  'e4
+)
+ident(
+  def _menhir_stack "query_parser.ml" 207 9277 9281 "query_parser.ml" 209 9377 9437
+)
+"query_parser.ml" 206 9226 9250 "query_parser.ml" 206 9226 9259
+type(
+  'ttv_tail -> 'e4
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 206 9226 9260 "query_parser.ml" 206 9226 9273
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 204 9125 9143 "query_parser.ml" 204 9125 9156
+)
+"query_parser.ml" 206 9226 9250 "query_parser.ml" 206 9226 9273
+type(
+  'e4
+)
+"query_parser.ml" 207 9277 9285 "query_parser.ml" 207 9277 9286
+type(
+  Config.context
+)
+ident(
+  def c "query_parser.ml" 208 9295 9299 "query_parser.ml" 209 9377 9437
+)
+"query_parser.ml" 207 9277 9289 "query_parser.ml" 207 9277 9291
+type(
+  Config.context
+)
+ident(
+  int_ref _v "query_parser.ml" 204 9125 9167 "query_parser.ml" 204 9125 9169
+)
+"query_parser.ml" 208 9295 9303 "query_parser.ml" 208 9295 9305
+type(
+  Config.context Config.element_type
+)
+ident(
+  def _v "query_parser.ml" 209 9377 9381 "query_parser.ml" 209 9377 9437
+)
+"query_parser.ml" 208 9295 9371 "query_parser.ml" 208 9295 9372
+type(
+  Config.context
+)
+ident(
+  int_ref c "query_parser.ml" 207 9277 9285 "query_parser.ml" 207 9277 9286
+)
+"query_parser.ml" 208 9295 9361 "query_parser.ml" 208 9295 9373
+type(
+  Config.context Config.element_type
+)
+type(
+  Config.context Config.element_type
+)
+"query_parser.ml" 209 9377 9381 "query_parser.ml" 209 9377 9398
+type(
+  _menhir_env ->
+  'ttv_tail ->
+  _menhir_state -> Config.context Config.element_type -> 'ttv_return
+)
+ident(
+  int_ref _menhir_goto_elem "query_parser.ml" 70 2425 2429 "query_parser.ml" 70 2425 2446
+)
+"query_parser.ml" 209 9377 9399 "query_parser.ml" 209 9377 9410
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 205 9173 9181 "query_parser.ml" 205 9173 9192
+)
+"query_parser.ml" 209 9377 9411 "query_parser.ml" 209 9377 9424
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 206 9226 9234 "query_parser.ml" 206 9226 9247
+)
+"query_parser.ml" 209 9377 9425 "query_parser.ml" 209 9377 9434
+type(
+  _menhir_state
+)
+ident(
+  int_ref _menhir_s "query_parser.ml" 204 9125 9157 "query_parser.ml" 204 9125 9166
+)
+"query_parser.ml" 209 9377 9435 "query_parser.ml" 209 9377 9437
+type(
+  Config.context Config.element_type
+)
+ident(
+  int_ref _v "query_parser.ml" 208 9295 9303 "query_parser.ml" 208 9295 9305
+)
+"query_parser.ml" 209 9377 9381 "query_parser.ml" 209 9377 9437
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 208 9295 9299 "query_parser.ml" 209 9377 9437
+type(
+  'ttv_return
+)
+"query_parser.ml" 207 9277 9281 "query_parser.ml" 209 9377 9437
+type(
+  'ttv_return
+)
+"query_parser.ml" 206 9226 9230 "query_parser.ml" 209 9377 9437
+type(
+  'ttv_return
+)
+"query_parser.ml" 205 9173 9177 "query_parser.ml" 209 9377 9437
+type(
+  'ttv_return
+)
+"query_parser.ml" 204 9125 9127 "query_parser.ml" 209 9377 9437
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> Config.context -> 'ttv_return
+)
+"query_parser.ml" 211 9439 9443 "query_parser.ml" 211 9439 9461
+type(
+  _menhir_env -> 'ttv_tail -> Config.tuple list -> 'ttv_return
+)
+ident(
+  def _menhir_goto_parse "query_parser.ml" 29 399 399 "query_parser.ml" 1 0 -1
+)
+"query_parser.ml" 212 9529 9535 "query_parser.ml" 212 9529 9546
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 212 9529 9547 "query_parser.ml" 216 9688 9704
+)
+"query_parser.ml" 212 9529 9547 "query_parser.ml" 212 9529 9560
+type(
+  'ttv_tail
+)
+ident(
+  def _menhir_stack "query_parser.ml" 212 9529 9561 "query_parser.ml" 216 9688 9704
+)
+"query_parser.ml" 212 9529 9561 "query_parser.ml" 212 9529 9563
+type(
+  Config.tuple list
+)
+ident(
+  def _v "query_parser.ml" 213 9567 9571 "query_parser.ml" 216 9688 9704
+)
+"query_parser.ml" 213 9567 9575 "query_parser.ml" 213 9567 9588
+type(
+  'f4
+)
+ident(
+  def _menhir_stack "query_parser.ml" 214 9618 9622 "query_parser.ml" 216 9688 9704
+)
+"query_parser.ml" 213 9567 9591 "query_parser.ml" 213 9567 9600
+type(
+  'ttv_tail -> 'f4
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 213 9567 9601 "query_parser.ml" 213 9567 9614
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 212 9529 9547 "query_parser.ml" 212 9529 9560
+)
+"query_parser.ml" 213 9567 9591 "query_parser.ml" 213 9567 9614
+type(
+  'f4
+)
+"query_parser.ml" 214 9618 9626 "query_parser.ml" 214 9618 9639
+type(
+  'g4
+)
+ident(
+  def _menhir_stack "query_parser.ml" 215 9669 9673 "query_parser.ml" 216 9688 9704
+)
+"query_parser.ml" 214 9618 9642 "query_parser.ml" 214 9618 9651
+type(
+  '_h4 -> 'g4
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 214 9618 9652 "query_parser.ml" 214 9618 9665
+type(
+  '_h4
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 213 9567 9575 "query_parser.ml" 213 9567 9588
+)
+"query_parser.ml" 214 9618 9642 "query_parser.ml" 214 9618 9665
+type(
+  'g4
+)
+"query_parser.ml" 215 9669 9677 "query_parser.ml" 215 9669 9679
+type(
+  Config.tuple list
+)
+ident(
+  def _1 "query_parser.ml" 216 9688 9692 "query_parser.ml" 216 9688 9704
+)
+"query_parser.ml" 215 9669 9682 "query_parser.ml" 215 9669 9684
+type(
+  Config.tuple list
+)
+ident(
+  int_ref _v "query_parser.ml" 212 9529 9561 "query_parser.ml" 212 9529 9563
+)
+"query_parser.ml" 216 9688 9692 "query_parser.ml" 216 9688 9701
+type(
+  Config.tuple list -> 'ttv_return
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 216 9688 9702 "query_parser.ml" 216 9688 9704
+type(
+  Config.tuple list
+)
+ident(
+  int_ref _1 "query_parser.ml" 215 9669 9677 "query_parser.ml" 215 9669 9679
+)
+"query_parser.ml" 216 9688 9692 "query_parser.ml" 216 9688 9704
+type(
+  'ttv_return
+)
+"query_parser.ml" 215 9669 9673 "query_parser.ml" 216 9688 9704
+type(
+  'ttv_return
+)
+"query_parser.ml" 214 9618 9622 "query_parser.ml" 216 9688 9704
+type(
+  'ttv_return
+)
+"query_parser.ml" 213 9567 9571 "query_parser.ml" 216 9688 9704
+type(
+  'ttv_return
+)
+"query_parser.ml" 212 9529 9531 "query_parser.ml" 216 9688 9704
+type(
+  _menhir_env -> 'ttv_tail -> Config.tuple list -> 'ttv_return
+)
+type(
+  _menhir_env -> 'ttv_tail -> Config.tuple list -> 'ttv_return
+)
+"query_parser.ml" 218 9706 9710 "query_parser.ml" 218 9706 9725
+type(
+  _menhir_env -> _menhir_env
+)
+ident(
+  def _menhir_discard "query_parser.ml" 29 399 399 "query_parser.ml" 1 0 -1
+)
+"query_parser.ml" 219 9757 9763 "query_parser.ml" 219 9757 9774
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 220 9778 9782 "query_parser.ml" 228 10024 10031
+)
+"query_parser.ml" 220 9778 9786 "query_parser.ml" 220 9778 9791
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+  def lexer "query_parser.ml" 221 9823 9827 "query_parser.ml" 228 10024 10031
+)
+"query_parser.ml" 220 9778 9794 "query_parser.ml" 220 9778 9805
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 219 9757 9763 "query_parser.ml" 219 9757 9774
+)
+"query_parser.ml" 220 9778 9794 "query_parser.ml" 220 9778 9819
+type(
+  Lexing.lexbuf -> token
+)
+"query_parser.ml" 221 9823 9831 "query_parser.ml" 221 9823 9837
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "query_parser.ml" 222 9870 9874 "query_parser.ml" 228 10024 10031
+)
+"query_parser.ml" 221 9823 9840 "query_parser.ml" 221 9823 9851
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 219 9757 9763 "query_parser.ml" 219 9757 9774
+)
+"query_parser.ml" 221 9823 9840 "query_parser.ml" 221 9823 9866
+type(
+  Lexing.lexbuf
+)
+"query_parser.ml" 222 9870 9878 "query_parser.ml" 222 9870 9882
+type(
+  token
+)
+ident(
+  def _tok "query_parser.ml" 223 9901 9905 "query_parser.ml" 228 10024 10031
+)
+"query_parser.ml" 222 9870 9885 "query_parser.ml" 222 9870 9890
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+  int_ref lexer "query_parser.ml" 220 9778 9786 "query_parser.ml" 220 9778 9791
+)
+"query_parser.ml" 222 9870 9891 "query_parser.ml" 222 9870 9897
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "query_parser.ml" 221 9823 9831 "query_parser.ml" 221 9823 9837
+)
+"query_parser.ml" 222 9870 9885 "query_parser.ml" 222 9870 9897
+call(
+  stack
+)
+type(
+  token
+)
+"query_parser.ml" 224 9907 9929 "query_parser.ml" 224 9907 9934
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+  int_ref lexer "query_parser.ml" 220 9778 9786 "query_parser.ml" 220 9778 9791
+)
+"query_parser.ml" 225 9936 9959 "query_parser.ml" 225 9936 9965
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "query_parser.ml" 221 9823 9831 "query_parser.ml" 221 9823 9837
+)
+"query_parser.ml" 226 9967 9989 "query_parser.ml" 226 9967 9993
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 222 9870 9878 "query_parser.ml" 222 9870 9882
+)
+"query_parser.ml" 227 9995 10017 "query_parser.ml" 227 9995 10022
+type(
+  bool
+)
+"query_parser.ml" 223 9901 9905 "query_parser.ml" 228 10024 10031
+type(
+  _menhir_env
+)
+"query_parser.ml" 222 9870 9874 "query_parser.ml" 228 10024 10031
+type(
+  _menhir_env
+)
+"query_parser.ml" 221 9823 9827 "query_parser.ml" 228 10024 10031
+type(
+  _menhir_env
+)
+"query_parser.ml" 220 9778 9782 "query_parser.ml" 228 10024 10031
+type(
+  _menhir_env
+)
+"query_parser.ml" 219 9757 9759 "query_parser.ml" 228 10024 10031
+type(
+  _menhir_env -> _menhir_env
+)
+type(
+  _menhir_env -> _menhir_env
+)
+"query_parser.ml" 230 10033 10037 "query_parser.ml" 230 10033 10042
+type(
+  (Lexing.lexbuf -> token) -> Lexing.lexbuf -> Config.tuple list
+)
+ident(
+  def parse "query_parser.ml" 29 399 399 "query_parser.ml" 1 0 -1
+)
+"query_parser.ml" 231 10112 10118 "query_parser.ml" 231 10112 10123
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+  def lexer "query_parser.ml" 231 10112 10124 "query_parser.ml" 277 12013 12032
+)
+"query_parser.ml" 231 10112 10124 "query_parser.ml" 231 10112 10130
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "query_parser.ml" 232 10134 10138 "query_parser.ml" 277 12013 12032
+)
+"query_parser.ml" 232 10134 10142 "query_parser.ml" 232 10134 10153
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 239 10317 10321 "query_parser.ml" 277 12013 12032
+)
+"query_parser.ml" 232 10134 10160 "query_parser.ml" 232 10134 10164
+type(
+  'i4
+)
+ident(
+  def _tok "query_parser.ml" 233 10183 10187 "query_parser.ml" 238 10306 10313
+)
+"query_parser.ml" 232 10134 10167 "query_parser.ml" 232 10134 10176
+type(
+  unit -> 'i4
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 232 10134 10177 "query_parser.ml" 232 10134 10179
+type(
+  unit
+)
+"query_parser.ml" 232 10134 10167 "query_parser.ml" 232 10134 10179
+type(
+  'i4
+)
+"query_parser.ml" 234 10189 10211 "query_parser.ml" 234 10189 10216
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+  int_ref lexer "query_parser.ml" 231 10112 10118 "query_parser.ml" 231 10112 10123
+)
+"query_parser.ml" 235 10218 10241 "query_parser.ml" 235 10218 10247
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "query_parser.ml" 231 10112 10124 "query_parser.ml" 231 10112 10130
+)
+"query_parser.ml" 236 10249 10271 "query_parser.ml" 236 10249 10275
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 232 10134 10160 "query_parser.ml" 232 10134 10164
+)
+"query_parser.ml" 237 10277 10299 "query_parser.ml" 237 10277 10304
+type(
+  bool
+)
+"query_parser.ml" 233 10183 10187 "query_parser.ml" 238 10306 10313
+type(
+  _menhir_env
+)
+"query_parser.ml" 232 10134 10156 "query_parser.ml" 238 10306 10313
+type(
+  _menhir_env
+)
+"query_parser.ml" 239 10317 10321 "query_parser.ml" 239 10317 10330
+type(
+  'ttv_return -> Config.tuple list
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 239 10317 10336 "query_parser.ml" 239 10317 10349
+type(
+  unit
+)
+ident(
+  def _menhir_stack "query_parser.ml" 240 10358 10362 "query_parser.ml" 277 12013 12031
+)
+"query_parser.ml" 239 10317 10352 "query_parser.ml" 239 10317 10354
+type(
+  unit
+)
+"query_parser.ml" 240 10358 10366 "query_parser.ml" 240 10358 10377
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 241 10411 10415 "query_parser.ml" 277 12013 12031
+)
+"query_parser.ml" 240 10358 10380 "query_parser.ml" 240 10358 10395
+type(
+  _menhir_env -> _menhir_env
+)
+ident(
+  int_ref _menhir_discard "query_parser.ml" 218 9706 9710 "query_parser.ml" 218 9706 9725
+)
+"query_parser.ml" 240 10358 10396 "query_parser.ml" 240 10358 10407
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 232 10134 10142 "query_parser.ml" 232 10134 10153
+)
+"query_parser.ml" 240 10358 10380 "query_parser.ml" 240 10358 10407
+call(
+  stack
+)
+type(
+  _menhir_env
+)
+"query_parser.ml" 241 10411 10419 "query_parser.ml" 241 10411 10423
+type(
+  token
+)
+ident(
+  def _tok "query_parser.ml" 242 10455 10459 "query_parser.ml" 277 12013 12031
+)
+"query_parser.ml" 241 10411 10426 "query_parser.ml" 241 10411 10437
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 240 10358 10366 "query_parser.ml" 240 10358 10377
+)
+"query_parser.ml" 241 10411 10426 "query_parser.ml" 241 10411 10451
+type(
+  token
+)
+"query_parser.ml" 242 10455 10465 "query_parser.ml" 242 10455 10469
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 241 10411 10419 "query_parser.ml" 241 10411 10423
+)
+"query_parser.ml" 243 10475 10481 "query_parser.ml" 243 10475 10484
+type(
+  token
+)
+"query_parser.ml" 244 10488 10500 "query_parser.ml" 244 10488 10513
+type(
+  'j4
+)
+ident(
+  def _menhir_stack "query_parser.ml" 245 10543 10551 "query_parser.ml" 247 10652 10707
+)
+"query_parser.ml" 244 10488 10516 "query_parser.ml" 244 10488 10525
+type(
+  unit -> 'j4
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 244 10488 10526 "query_parser.ml" 244 10488 10539
+type(
+  unit
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 239 10317 10336 "query_parser.ml" 239 10317 10349
+)
+"query_parser.ml" 244 10488 10516 "query_parser.ml" 244 10488 10539
+type(
+  'j4
+)
+"query_parser.ml" 245 10543 10555 "query_parser.ml" 245 10543 10568
+type(
+  'k4
+)
+ident(
+  def _menhir_stack "query_parser.ml" 246 10598 10606 "query_parser.ml" 247 10652 10707
+)
+"query_parser.ml" 245 10543 10571 "query_parser.ml" 245 10543 10580
+type(
+  '_l4 -> 'k4
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 245 10543 10581 "query_parser.ml" 245 10543 10594
+type(
+  '_l4
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 244 10488 10500 "query_parser.ml" 244 10488 10513
+)
+"query_parser.ml" 245 10543 10571 "query_parser.ml" 245 10543 10594
+type(
+  'k4
+)
+"query_parser.ml" 246 10598 10610 "query_parser.ml" 246 10598 10612
+type(
+  Config.tuple list
+)
+ident(
+  def _v "query_parser.ml" 247 10652 10660 "query_parser.ml" 247 10652 10707
+)
+"query_parser.ml" 246 10598 10644 "query_parser.ml" 246 10598 10648
+type(
+  Config.tuple list
+)
+type(
+  Config.tuple list
+)
+"query_parser.ml" 247 10652 10660 "query_parser.ml" 247 10652 10678
+type(
+  _menhir_env -> 'ttv_tail -> Config.tuple list -> 'ttv_return
+)
+ident(
+  int_ref _menhir_goto_parse "query_parser.ml" 211 9439 9443 "query_parser.ml" 211 9439 9461
+)
+"query_parser.ml" 247 10652 10679 "query_parser.ml" 247 10652 10690
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 240 10358 10366 "query_parser.ml" 240 10358 10377
+)
+"query_parser.ml" 247 10652 10691 "query_parser.ml" 247 10652 10704
+type(
+  'ttv_tail
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 245 10543 10555 "query_parser.ml" 245 10543 10568
+)
+"query_parser.ml" 247 10652 10705 "query_parser.ml" 247 10652 10707
+type(
+  Config.tuple list
+)
+ident(
+  int_ref _v "query_parser.ml" 246 10598 10610 "query_parser.ml" 246 10598 10612
+)
+"query_parser.ml" 247 10652 10660 "query_parser.ml" 247 10652 10707
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 246 10598 10606 "query_parser.ml" 247 10652 10707
+type(
+  'ttv_return
+)
+"query_parser.ml" 245 10543 10551 "query_parser.ml" 247 10652 10707
+type(
+  'ttv_return
+)
+"query_parser.ml" 244 10488 10496 "query_parser.ml" 247 10652 10707
+type(
+  'ttv_return
+)
+"query_parser.ml" 248 10708 10714 "query_parser.ml" 248 10708 10717
+type(
+  token
+)
+"query_parser.ml" 249 10721 10733 "query_parser.ml" 249 10721 10746
+type(
+  'm4
+)
+ident(
+  def _menhir_stack "query_parser.ml" 250 10776 10784 "query_parser.ml" 272 11832 11855
+)
+"query_parser.ml" 249 10721 10749 "query_parser.ml" 249 10721 10758
+type(
+  unit -> 'm4
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 249 10721 10759 "query_parser.ml" 249 10721 10772
+type(
+  unit
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 239 10317 10336 "query_parser.ml" 239 10317 10349
+)
+"query_parser.ml" 249 10721 10749 "query_parser.ml" 249 10721 10772
+type(
+  'm4
+)
+"query_parser.ml" 250 10776 10788 "query_parser.ml" 250 10776 10799
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 251 10833 10841 "query_parser.ml" 272 11832 11855
+)
+"query_parser.ml" 250 10776 10802 "query_parser.ml" 250 10776 10817
+type(
+  _menhir_env -> _menhir_env
+)
+ident(
+  int_ref _menhir_discard "query_parser.ml" 218 9706 9710 "query_parser.ml" 218 9706 9725
+)
+"query_parser.ml" 250 10776 10818 "query_parser.ml" 250 10776 10829
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 240 10358 10366 "query_parser.ml" 240 10358 10377
+)
+"query_parser.ml" 250 10776 10802 "query_parser.ml" 250 10776 10829
+call(
+  stack
+)
+type(
+  _menhir_env
+)
+"query_parser.ml" 251 10833 10845 "query_parser.ml" 251 10833 10849
+type(
+  token
+)
+ident(
+  def _tok "query_parser.ml" 252 10881 10889 "query_parser.ml" 272 11832 11855
+)
+"query_parser.ml" 251 10833 10852 "query_parser.ml" 251 10833 10863
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 250 10776 10788 "query_parser.ml" 250 10776 10799
+)
+"query_parser.ml" 251 10833 10852 "query_parser.ml" 251 10833 10877
+type(
+  token
+)
+"query_parser.ml" 252 10881 10896 "query_parser.ml" 252 10881 10900
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 251 10833 10845 "query_parser.ml" 251 10833 10849
+)
+"query_parser.ml" 253 10906 10916 "query_parser.ml" 253 10906 10921
+type(
+  token
+)
+"query_parser.ml" 254 10925 10941 "query_parser.ml" 254 10925 10954
+type(
+  'n4
+)
+ident(
+  def _menhir_stack "query_parser.ml" 255 10984 10996 "query_parser.ml" 267 11573 11658
+)
+"query_parser.ml" 254 10925 10957 "query_parser.ml" 254 10925 10966
+type(
+  '_o4 -> 'n4
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 254 10925 10967 "query_parser.ml" 254 10925 10980
+type(
+  '_o4
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 249 10721 10733 "query_parser.ml" 249 10721 10746
+)
+"query_parser.ml" 254 10925 10957 "query_parser.ml" 254 10925 10980
+type(
+  'n4
+)
+"query_parser.ml" 255 10984 11000 "query_parser.ml" 255 10984 11011
+type(
+  _menhir_env
+)
+ident(
+  def _menhir_env "query_parser.ml" 256 11045 11057 "query_parser.ml" 267 11573 11658
+)
+"query_parser.ml" 255 10984 11014 "query_parser.ml" 255 10984 11029
+type(
+  _menhir_env -> _menhir_env
+)
+ident(
+  int_ref _menhir_discard "query_parser.ml" 218 9706 9710 "query_parser.ml" 218 9706 9725
+)
+"query_parser.ml" 255 10984 11030 "query_parser.ml" 255 10984 11041
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 250 10776 10788 "query_parser.ml" 250 10776 10799
+)
+"query_parser.ml" 255 10984 11014 "query_parser.ml" 255 10984 11041
+call(
+  stack
+)
+type(
+  _menhir_env
+)
+"query_parser.ml" 256 11045 11061 "query_parser.ml" 256 11045 11065
+type(
+  token
+)
+ident(
+  def _tok "query_parser.ml" 257 11097 11109 "query_parser.ml" 267 11573 11658
+)
+"query_parser.ml" 256 11045 11068 "query_parser.ml" 256 11045 11079
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 255 10984 11000 "query_parser.ml" 255 10984 11011
+)
+"query_parser.ml" 256 11045 11068 "query_parser.ml" 256 11045 11093
+type(
+  token
+)
+"query_parser.ml" 257 11097 11116 "query_parser.ml" 257 11097 11120
+type(
+  token
+)
+ident(
+  int_ref _tok "query_parser.ml" 256 11045 11061 "query_parser.ml" 256 11045 11065
+)
+"query_parser.ml" 258 11126 11147 "query_parser.ml" 258 11126 11149
+type(
+  string
+)
+ident(
+  def _v "query_parser.ml" 259 11153 11169 "query_parser.ml" 259 11153 11235
+)
+"query_parser.ml" 258 11126 11140 "query_parser.ml" 258 11126 11149
+type(
+  token
+)
+"query_parser.ml" 259 11153 11169 "query_parser.ml" 259 11153 11181
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+ident(
+  int_ref _menhir_run4 "query_parser.ml" 203 9035 9039 "query_parser.ml" 203 9035 9051
+)
+"query_parser.ml" 259 11153 11182 "query_parser.ml" 259 11153 11193
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 255 10984 11000 "query_parser.ml" 255 10984 11011
+)
+"query_parser.ml" 259 11153 11195 "query_parser.ml" 259 11153 11204
+type(
+  '_p4 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 259 11153 11205 "query_parser.ml" 259 11153 11218
+type(
+  '_p4
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 254 10925 10941 "query_parser.ml" 254 10925 10954
+)
+"query_parser.ml" 259 11153 11194 "query_parser.ml" 259 11153 11219
+type(
+  'ttv_tail
+)
+"query_parser.ml" 259 11153 11220 "query_parser.ml" 259 11153 11232
+type(
+  _menhir_state
+)
+"query_parser.ml" 259 11153 11233 "query_parser.ml" 259 11153 11235
+type(
+  string
+)
+ident(
+  int_ref _v "query_parser.ml" 258 11126 11147 "query_parser.ml" 258 11126 11149
+)
+"query_parser.ml" 259 11153 11169 "query_parser.ml" 259 11153 11235
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 260 11236 11254 "query_parser.ml" 260 11236 11256
+type(
+  string
+)
+ident(
+  def _v "query_parser.ml" 261 11260 11276 "query_parser.ml" 261 11260 11342
+)
+"query_parser.ml" 260 11236 11250 "query_parser.ml" 260 11236 11256
+type(
+  token
+)
+"query_parser.ml" 261 11260 11276 "query_parser.ml" 261 11260 11288
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> string -> 'ttv_return
+)
+ident(
+  int_ref _menhir_run3 "query_parser.ml" 195 8634 8638 "query_parser.ml" 195 8634 8650
+)
+"query_parser.ml" 261 11260 11289 "query_parser.ml" 261 11260 11300
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 255 10984 11000 "query_parser.ml" 255 10984 11011
+)
+"query_parser.ml" 261 11260 11302 "query_parser.ml" 261 11260 11311
+type(
+  '_q4 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 261 11260 11312 "query_parser.ml" 261 11260 11325
+type(
+  '_q4
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 254 10925 10941 "query_parser.ml" 254 10925 10954
+)
+"query_parser.ml" 261 11260 11301 "query_parser.ml" 261 11260 11326
+type(
+  'ttv_tail
+)
+"query_parser.ml" 261 11260 11327 "query_parser.ml" 261 11260 11339
+type(
+  _menhir_state
+)
+"query_parser.ml" 261 11260 11340 "query_parser.ml" 261 11260 11342
+type(
+  string
+)
+ident(
+  int_ref _v "query_parser.ml" 260 11236 11254 "query_parser.ml" 260 11236 11256
+)
+"query_parser.ml" 261 11260 11276 "query_parser.ml" 261 11260 11342
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 262 11343 11357 "query_parser.ml" 262 11343 11360
+type(
+  token
+)
+"query_parser.ml" 263 11364 11380 "query_parser.ml" 263 11364 11395
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_reduce3 "query_parser.ml" 190 8392 8396 "query_parser.ml" 190 8392 8411
+)
+"query_parser.ml" 263 11364 11396 "query_parser.ml" 263 11364 11407
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 255 10984 11000 "query_parser.ml" 255 10984 11011
+)
+"query_parser.ml" 263 11364 11409 "query_parser.ml" 263 11364 11418
+type(
+  '_r4 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 263 11364 11419 "query_parser.ml" 263 11364 11432
+type(
+  '_r4
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 254 10925 10941 "query_parser.ml" 254 10925 10954
+)
+"query_parser.ml" 263 11364 11408 "query_parser.ml" 263 11364 11433
+type(
+  'ttv_tail
+)
+"query_parser.ml" 263 11364 11434 "query_parser.ml" 263 11364 11446
+type(
+  _menhir_state
+)
+"query_parser.ml" 263 11364 11380 "query_parser.ml" 263 11364 11446
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 264 11447 11461 "query_parser.ml" 264 11447 11462
+type(
+  token
+)
+"query_parser.ml" 265 11466 11490 "query_parser.ml" 265 11466 11493
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 265 11466 11494 "query_parser.ml" 265 11466 11505
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 255 10984 11000 "query_parser.ml" 255 10984 11011
+)
+"query_parser.ml" 265 11466 11494 "query_parser.ml" 265 11466 11519
+type(
+  bool
+)
+"query_parser.ml" 265 11466 11489 "query_parser.ml" 265 11466 11520
+type(
+  bool
+)
+"query_parser.ml" 265 11466 11482 "query_parser.ml" 265 11466 11520
+type(
+  unit
+)
+"query_parser.ml" 266 11522 11538 "query_parser.ml" 266 11522 11549
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 255 10984 11000 "query_parser.ml" 255 10984 11011
+)
+"query_parser.ml" 266 11522 11567 "query_parser.ml" 266 11522 11571
+type(
+  bool
+)
+"query_parser.ml" 266 11522 11538 "query_parser.ml" 266 11522 11571
+type(
+  unit
+)
+"query_parser.ml" 267 11573 11589 "query_parser.ml" 267 11573 11606
+type(
+  _menhir_env -> 'ttv_tail -> _menhir_state -> 'ttv_return
+)
+ident(
+  int_ref _menhir_errorcase "query_parser.ml" 167 7292 7296 "query_parser.ml" 167 7292 7313
+)
+"query_parser.ml" 267 11573 11607 "query_parser.ml" 267 11573 11618
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 255 10984 11000 "query_parser.ml" 255 10984 11011
+)
+"query_parser.ml" 267 11573 11620 "query_parser.ml" 267 11573 11629
+type(
+  '_s4 -> 'ttv_tail
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 267 11573 11630 "query_parser.ml" 267 11573 11643
+type(
+  '_s4
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 254 10925 10941 "query_parser.ml" 254 10925 10954
+)
+"query_parser.ml" 267 11573 11619 "query_parser.ml" 267 11573 11644
+type(
+  'ttv_tail
+)
+"query_parser.ml" 267 11573 11645 "query_parser.ml" 267 11573 11657
+type(
+  _menhir_state
+)
+"query_parser.ml" 267 11573 11589 "query_parser.ml" 267 11573 11657
+call(
+  tail
+)
+type(
+  'ttv_return
+)
+"query_parser.ml" 266 11522 11538 "query_parser.ml" 267 11573 11657
+type(
+  'ttv_return
+)
+"query_parser.ml" 265 11466 11482 "query_parser.ml" 267 11573 11657
+type(
+  'ttv_return
+)
+"query_parser.ml" 257 11097 11109 "query_parser.ml" 267 11573 11658
+type(
+  'ttv_return
+)
+"query_parser.ml" 256 11045 11057 "query_parser.ml" 267 11573 11658
+type(
+  'ttv_return
+)
+"query_parser.ml" 255 10984 10996 "query_parser.ml" 267 11573 11658
+type(
+  'ttv_return
+)
+"query_parser.ml" 254 10925 10937 "query_parser.ml" 267 11573 11658
+type(
+  'ttv_return
+)
+"query_parser.ml" 268 11659 11669 "query_parser.ml" 268 11659 11670
+type(
+  token
+)
+"query_parser.ml" 269 11674 11694 "query_parser.ml" 269 11674 11697
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 269 11674 11698 "query_parser.ml" 269 11674 11709
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 250 10776 10788 "query_parser.ml" 250 10776 10799
+)
+"query_parser.ml" 269 11674 11698 "query_parser.ml" 269 11674 11723
+type(
+  bool
+)
+"query_parser.ml" 269 11674 11693 "query_parser.ml" 269 11674 11724
+type(
+  bool
+)
+"query_parser.ml" 269 11674 11686 "query_parser.ml" 269 11674 11724
+type(
+  unit
+)
+"query_parser.ml" 270 11726 11738 "query_parser.ml" 270 11726 11749
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 250 10776 10788 "query_parser.ml" 250 10776 10799
+)
+"query_parser.ml" 270 11726 11767 "query_parser.ml" 270 11726 11771
+type(
+  bool
+)
+"query_parser.ml" 270 11726 11738 "query_parser.ml" 270 11726 11771
+type(
+  unit
+)
+"query_parser.ml" 271 11773 11789 "query_parser.ml" 271 11773 11802
+type(
+  't4
+)
+ident(
+  def _menhir_stack "query_parser.ml" 272 11832 11844 "query_parser.ml" 272 11832 11854
+)
+"query_parser.ml" 271 11773 11805 "query_parser.ml" 271 11773 11814
+type(
+  '_u4 -> 't4
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 271 11773 11815 "query_parser.ml" 271 11773 11828
+type(
+  '_u4
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 249 10721 10733 "query_parser.ml" 249 10721 10746
+)
+"query_parser.ml" 271 11773 11805 "query_parser.ml" 271 11773 11828
+type(
+  't4
+)
+"query_parser.ml" 272 11832 11844 "query_parser.ml" 272 11832 11849
+type(
+  exn -> 'ttv_return
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"query_parser.ml" 272 11832 11850 "query_parser.ml" 272 11832 11854
+type(
+  exn
+)
+ident(
+  int_ref _eRR "query_parser.ml" 26 379 383 "query_parser.ml" 26 379 387
+)
+"query_parser.ml" 272 11832 11844 "query_parser.ml" 272 11832 11854
+type(
+  'ttv_return
+)
+"query_parser.ml" 271 11773 11785 "query_parser.ml" 272 11832 11854
+type(
+  'ttv_return
+)
+"query_parser.ml" 270 11726 11738 "query_parser.ml" 272 11832 11854
+type(
+  'ttv_return
+)
+"query_parser.ml" 269 11674 11686 "query_parser.ml" 272 11832 11854
+type(
+  'ttv_return
+)
+"query_parser.ml" 252 10881 10889 "query_parser.ml" 272 11832 11855
+type(
+  'ttv_return
+)
+"query_parser.ml" 251 10833 10841 "query_parser.ml" 272 11832 11855
+type(
+  'ttv_return
+)
+"query_parser.ml" 250 10776 10784 "query_parser.ml" 272 11832 11855
+type(
+  'ttv_return
+)
+"query_parser.ml" 249 10721 10729 "query_parser.ml" 272 11832 11855
+type(
+  'ttv_return
+)
+"query_parser.ml" 273 11856 11862 "query_parser.ml" 273 11856 11863
+type(
+  token
+)
+"query_parser.ml" 274 11867 11883 "query_parser.ml" 274 11867 11886
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"query_parser.ml" 274 11867 11887 "query_parser.ml" 274 11867 11898
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 240 10358 10366 "query_parser.ml" 240 10358 10377
+)
+"query_parser.ml" 274 11867 11887 "query_parser.ml" 274 11867 11912
+type(
+  bool
+)
+"query_parser.ml" 274 11867 11882 "query_parser.ml" 274 11867 11913
+type(
+  bool
+)
+"query_parser.ml" 274 11867 11875 "query_parser.ml" 274 11867 11913
+type(
+  unit
+)
+"query_parser.ml" 275 11915 11923 "query_parser.ml" 275 11915 11934
+type(
+  _menhir_env
+)
+ident(
+  int_ref _menhir_env "query_parser.ml" 240 10358 10366 "query_parser.ml" 240 10358 10377
+)
+"query_parser.ml" 275 11915 11952 "query_parser.ml" 275 11915 11956
+type(
+  bool
+)
+"query_parser.ml" 275 11915 11923 "query_parser.ml" 275 11915 11956
+type(
+  unit
+)
+"query_parser.ml" 276 11958 11970 "query_parser.ml" 276 11958 11983
+type(
+  'v4
+)
+ident(
+  def _menhir_stack "query_parser.ml" 277 12013 12021 "query_parser.ml" 277 12013 12031
+)
+"query_parser.ml" 276 11958 11986 "query_parser.ml" 276 11958 11995
+type(
+  unit -> 'v4
+)
+ident(
+  ext_ref Obj.magic
+)
+"query_parser.ml" 276 11958 11996 "query_parser.ml" 276 11958 12009
+type(
+  unit
+)
+ident(
+  int_ref _menhir_stack "query_parser.ml" 239 10317 10336 "query_parser.ml" 239 10317 10349
+)
+"query_parser.ml" 276 11958 11986 "query_parser.ml" 276 11958 12009
+type(
+  'v4
+)
+"query_parser.ml" 277 12013 12021 "query_parser.ml" 277 12013 12026
+type(
+  exn -> 'ttv_return
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"query_parser.ml" 277 12013 12027 "query_parser.ml" 277 12013 12031
+type(
+  exn
+)
+ident(
+  int_ref _eRR "query_parser.ml" 26 379 383 "query_parser.ml" 26 379 387
+)
+"query_parser.ml" 277 12013 12021 "query_parser.ml" 277 12013 12031
+type(
+  'ttv_return
+)
+"query_parser.ml" 276 11958 11966 "query_parser.ml" 277 12013 12031
+type(
+  'ttv_return
+)
+"query_parser.ml" 275 11915 11923 "query_parser.ml" 277 12013 12031
+type(
+  'ttv_return
+)
+"query_parser.ml" 274 11867 11875 "query_parser.ml" 277 12013 12031
+type(
+  'ttv_return
+)
+"query_parser.ml" 242 10455 10459 "query_parser.ml" 277 12013 12031
+type(
+  'ttv_return
+)
+"query_parser.ml" 241 10411 10415 "query_parser.ml" 277 12013 12031
+type(
+  'ttv_return
+)
+"query_parser.ml" 240 10358 10362 "query_parser.ml" 277 12013 12031
+type(
+  'ttv_return
+)
+"query_parser.ml" 239 10317 10331 "query_parser.ml" 277 12013 12032
+type(
+  'ttv_return
+)
+"query_parser.ml" 239 10317 10321 "query_parser.ml" 277 12013 12032
+type(
+  Config.tuple list
+)
+"query_parser.ml" 232 10134 10138 "query_parser.ml" 277 12013 12032
+type(
+  Config.tuple list
+)
+"query_parser.ml" 231 10112 10114 "query_parser.ml" 277 12013 12032
+type(
+  (Lexing.lexbuf -> token) -> Lexing.lexbuf -> Config.tuple list
+)
+type(
+  (Lexing.lexbuf -> token) -> Lexing.lexbuf -> Config.tuple list
+)

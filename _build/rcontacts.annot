@@ -1,0 +1,1428 @@
+"rcontacts.ml" 31 1056 1060 "rcontacts.ml" 31 1056 1062
+type(
+  string
+)
+ident(
+  def q2 "rcontacts.ml" 39 1211 1211 "rcontacts.ml" 1 0 -1
+)
+"rcontacts.ml" 32 1065 1067 "rcontacts.ml" 36 1143 1146
+type(
+  string
+)
+"rcontacts.ml" 39 1211 1215 "rcontacts.ml" 39 1211 1217
+type(
+  string
+)
+ident(
+  def q1 "rcontacts.ml" 48 1344 1344 "rcontacts.ml" 1 0 -1
+)
+"rcontacts.ml" 40 1220 1222 "rcontacts.ml" 45 1336 1339
+type(
+  string
+)
+"rcontacts.ml" 48 1344 1348 "rcontacts.ml" 48 1344 1356
+type(
+  Config.tuple list list
+)
+ident(
+  def contacts "rcontacts.ml" 74 2095 2095 "rcontacts.ml" 1 0 -1
+)
+"rcontacts.ml" 48 1344 1358 "rcontacts.ml" 48 1344 1366
+type(
+  (string -> Config.tuple list) -> string list -> Config.tuple list list
+)
+ident(
+  ext_ref List.map
+)
+"rcontacts.ml" 48 1344 1372 "rcontacts.ml" 48 1344 1375
+type(
+  string
+)
+ident(
+  def str "rcontacts.ml" 48 1344 1379 "rcontacts.ml" 48 1344 1402
+)
+"rcontacts.ml" 48 1344 1379 "rcontacts.ml" 48 1344 1398
+type(
+  string -> Config.tuple list
+)
+ident(
+  ext_ref Helper.to_tuple_lst
+)
+"rcontacts.ml" 48 1344 1399 "rcontacts.ml" 48 1344 1402
+type(
+  string
+)
+ident(
+  int_ref str "rcontacts.ml" 48 1344 1372 "rcontacts.ml" 48 1344 1375
+)
+"rcontacts.ml" 48 1344 1379 "rcontacts.ml" 48 1344 1402
+call(
+  tail
+)
+type(
+  Config.tuple list
+)
+"rcontacts.ml" 48 1344 1367 "rcontacts.ml" 48 1344 1403
+type(
+  string -> Config.tuple list
+)
+"rcontacts.ml" 48 1344 1404 "rcontacts.ml" 48 1344 1425
+type(
+  string list
+)
+ident(
+  ext_ref Contactsdata.contacts
+)
+"rcontacts.ml" 48 1344 1358 "rcontacts.ml" 48 1344 1425
+call(
+  stack
+)
+type(
+  Config.tuple list list
+)
+"rcontacts.ml" 74 2095 2099 "rcontacts.ml" 74 2095 2124
+type(
+  Config.obj_t -> string
+)
+ident(
+  def getContactDataByFirstName "rcontacts.ml" 94 2947 2947 "rcontacts.ml" 1 0 -1
+)
+"rcontacts.ml" 74 2095 2125 "rcontacts.ml" 74 2095 2134
+type(
+  Config.obj_t
+)
+ident(
+  def firstName "rcontacts.ml" 75 2137 2139 "rcontacts.ml" 85 2689 2757
+)
+"rcontacts.ml" 75 2137 2145 "rcontacts.ml" 75 2137 2154
+type(
+  Config.obj_t
+)
+ident(
+  int_ref firstName "rcontacts.ml" 74 2095 2125 "rcontacts.ml" 74 2095 2134
+)
+"rcontacts.ml" 76 2160 2164 "rcontacts.ml" 76 2160 2166
+type(
+  Config.obj_t
+)
+"rcontacts.ml" 76 2160 2171 "rcontacts.ml" 76 2160 2206
+type(
+  Config.tuple list list -> string
+)
+ident(
+  ext_ref Htmlhelper.listoftuples_to_html_str
+)
+"rcontacts.ml" 76 2160 2207 "rcontacts.ml" 76 2160 2215
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref contacts "rcontacts.ml" 48 1344 1348 "rcontacts.ml" 48 1344 1356
+)
+"rcontacts.ml" 76 2160 2171 "rcontacts.ml" 76 2160 2215
+call(
+  tail
+)
+type(
+  string
+)
+"rcontacts.ml" 77 2217 2221 "rcontacts.ml" 77 2217 2222
+type(
+  Config.obj_t
+)
+"rcontacts.ml" 78 2228 2236 "rcontacts.ml" 78 2228 2239
+type(
+  string
+)
+ident(
+  def qry "rcontacts.ml" 82 2493 2497 "rcontacts.ml" 85 2689 2757
+)
+"rcontacts.ml" 78 2228 2242 "rcontacts.ml" 78 2228 2267
+type(
+  Config.tuple list -> string
+)
+ident(
+  ext_ref Contactshelper.makeMapQry
+)
+"rcontacts.ml" 78 2228 2269 "rcontacts.ml" 78 2228 2306
+type(
+  Config.t -> Config.obj_t -> Config.tuple
+)
+ident(
+  ext_ref Contactshelper.make_fn_last_email_qry
+)
+"rcontacts.ml" 78 2228 2307 "rcontacts.ml" 78 2228 2311
+type(
+  Config.t
+)
+"rcontacts.ml" 78 2228 2312 "rcontacts.ml" 78 2228 2321
+type(
+  Config.obj_t
+)
+ident(
+  int_ref firstName "rcontacts.ml" 74 2095 2125 "rcontacts.ml" 74 2095 2134
+)
+"rcontacts.ml" 78 2228 2269 "rcontacts.ml" 78 2228 2321
+call(
+  stack
+)
+type(
+  Config.tuple
+)
+"rcontacts.ml" 79 2323 2338 "rcontacts.ml" 79 2323 2357
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_fn
+)
+"rcontacts.ml" 79 2323 2363 "rcontacts.ml" 79 2323 2384
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_last
+)
+"rcontacts.ml" 80 2386 2401 "rcontacts.ml" 80 2386 2423
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_email
+)
+"rcontacts.ml" 80 2386 2426 "rcontacts.ml" 80 2386 2448
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_title
+)
+"rcontacts.ml" 81 2450 2465 "rcontacts.ml" 81 2450 2488
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_mobile
+)
+"rcontacts.ml" 78 2228 2268 "rcontacts.ml" 81 2450 2489
+type(
+  Config.tuple list
+)
+"rcontacts.ml" 78 2228 2242 "rcontacts.ml" 81 2450 2489
+call(
+  stack
+)
+type(
+  string
+)
+"rcontacts.ml" 82 2493 2501 "rcontacts.ml" 82 2493 2508
+type(
+  Rete.rete_dataflow
+)
+ident(
+  def results "rcontacts.ml" 84 2618 2622 "rcontacts.ml" 85 2689 2757
+)
+"rcontacts.ml" 82 2493 2511 "rcontacts.ml" 82 2493 2524
+type(
+  string -> Config.tuple list -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.exec_qry
+)
+"rcontacts.ml" 82 2493 2525 "rcontacts.ml" 82 2493 2549
+type(
+  string
+)
+ident(
+  ext_ref Contactsdata.defaultPlcy
+)
+"rcontacts.ml" 82 2493 2551 "rcontacts.ml" 82 2493 2563
+type(
+  Config.tuple list list -> Config.tuple list
+)
+ident(
+  ext_ref List.flatten
+)
+"rcontacts.ml" 82 2493 2564 "rcontacts.ml" 82 2493 2572
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref contacts "rcontacts.ml" 48 1344 1348 "rcontacts.ml" 48 1344 1356
+)
+"rcontacts.ml" 82 2493 2550 "rcontacts.ml" 82 2493 2573
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"rcontacts.ml" 82 2493 2510 "rcontacts.ml" 82 2493 2574
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"rcontacts.ml" 83 2576 2593 "rcontacts.ml" 83 2576 2595
+type(
+  Rete.rete_dataflow ->
+  (Rete.rete_dataflow -> Rete.rete_dataflow) -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"rcontacts.ml" 83 2576 2597 "rcontacts.ml" 83 2576 2609
+type(
+  string -> Rete.rete_dataflow -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.exec_bm
+)
+"rcontacts.ml" 83 2576 2610 "rcontacts.ml" 83 2576 2613
+type(
+  string
+)
+ident(
+  int_ref qry "rcontacts.ml" 78 2228 2236 "rcontacts.ml" 78 2228 2239
+)
+"rcontacts.ml" 83 2576 2596 "rcontacts.ml" 83 2576 2614
+type(
+  Rete.rete_dataflow -> Rete.rete_dataflow
+)
+"rcontacts.ml" 82 2493 2510 "rcontacts.ml" 83 2576 2614
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"rcontacts.ml" 84 2618 2626 "rcontacts.ml" 84 2618 2631
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  def r_map "rcontacts.ml" 85 2689 2693 "rcontacts.ml" 85 2689 2757
+)
+"rcontacts.ml" 84 2618 2633 "rcontacts.ml" 84 2618 2649
+type(
+  Rete.rete_dataflow ->
+  Helper.StringMap.key list ->
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  ext_ref Rete.get_res_map
+)
+"rcontacts.ml" 84 2618 2650 "rcontacts.ml" 84 2618 2657
+type(
+  Rete.rete_dataflow
+)
+ident(
+  int_ref results "rcontacts.ml" 82 2493 2501 "rcontacts.ml" 82 2493 2508
+)
+"rcontacts.ml" 84 2618 2658 "rcontacts.ml" 84 2618 2685
+type(
+  Helper.StringMap.key list
+)
+ident(
+  ext_ref Contactsdata.varsLstDefault
+)
+"rcontacts.ml" 84 2618 2633 "rcontacts.ml" 84 2618 2685
+call(
+  stack
+)
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rcontacts.ml" 85 2689 2693 "rcontacts.ml" 85 2689 2723
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list -> string
+)
+ident(
+  ext_ref Htmlhelper.mapLstToHtml_ul_Str
+)
+"rcontacts.ml" 85 2689 2725 "rcontacts.ml" 85 2689 2750
+type(
+  Config.t Config.element_type list Helper.StringMap.t ->
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+ident(
+  ext_ref Helper.StringMap.bindings
+)
+"rcontacts.ml" 85 2689 2751 "rcontacts.ml" 85 2689 2756
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  int_ref r_map "rcontacts.ml" 84 2618 2626 "rcontacts.ml" 84 2618 2631
+)
+"rcontacts.ml" 85 2689 2724 "rcontacts.ml" 85 2689 2757
+call(
+  stack
+)
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rcontacts.ml" 85 2689 2693 "rcontacts.ml" 85 2689 2757
+call(
+  tail
+)
+type(
+  string
+)
+"rcontacts.ml" 84 2618 2622 "rcontacts.ml" 85 2689 2757
+type(
+  string
+)
+"rcontacts.ml" 82 2493 2497 "rcontacts.ml" 85 2689 2757
+type(
+  string
+)
+"rcontacts.ml" 78 2228 2232 "rcontacts.ml" 85 2689 2757
+type(
+  string
+)
+"rcontacts.ml" 75 2137 2139 "rcontacts.ml" 85 2689 2757
+type(
+  string
+)
+"rcontacts.ml" 94 2947 2951 "rcontacts.ml" 94 2947 2975
+type(
+  Config.obj_t -> string
+)
+ident(
+  def getContactDataByLastName "rcontacts.ml" 108 3626 3626 "rcontacts.ml" 1 0 -1
+)
+"rcontacts.ml" 94 2947 2976 "rcontacts.ml" 94 2947 2984
+type(
+  Config.obj_t
+)
+ident(
+  def lastName "rcontacts.ml" 95 2987 2989 "rcontacts.ml" 105 3555 3623
+)
+"rcontacts.ml" 95 2987 2995 "rcontacts.ml" 95 2987 3003
+type(
+  Config.obj_t
+)
+ident(
+  int_ref lastName "rcontacts.ml" 94 2947 2976 "rcontacts.ml" 94 2947 2984
+)
+"rcontacts.ml" 96 3009 3013 "rcontacts.ml" 96 3009 3015
+type(
+  Config.obj_t
+)
+"rcontacts.ml" 96 3009 3020 "rcontacts.ml" 96 3009 3055
+type(
+  Config.tuple list list -> string
+)
+ident(
+  ext_ref Htmlhelper.listoftuples_to_html_str
+)
+"rcontacts.ml" 96 3009 3056 "rcontacts.ml" 96 3009 3064
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref contacts "rcontacts.ml" 48 1344 1348 "rcontacts.ml" 48 1344 1356
+)
+"rcontacts.ml" 96 3009 3020 "rcontacts.ml" 96 3009 3064
+call(
+  tail
+)
+type(
+  string
+)
+"rcontacts.ml" 97 3066 3070 "rcontacts.ml" 97 3066 3071
+type(
+  Config.obj_t
+)
+"rcontacts.ml" 98 3077 3085 "rcontacts.ml" 98 3077 3088
+type(
+  string
+)
+ident(
+  def qry "rcontacts.ml" 102 3343 3347 "rcontacts.ml" 105 3555 3623
+)
+"rcontacts.ml" 98 3077 3091 "rcontacts.ml" 98 3077 3116
+type(
+  Config.tuple list -> string
+)
+ident(
+  ext_ref Contactshelper.makeMapQry
+)
+"rcontacts.ml" 98 3077 3118 "rcontacts.ml" 98 3077 3155
+type(
+  Config.t -> Config.obj_t -> Config.tuple
+)
+ident(
+  ext_ref Contactshelper.make_fn_last_email_qry
+)
+"rcontacts.ml" 98 3077 3156 "rcontacts.ml" 98 3077 3162
+type(
+  Config.t
+)
+"rcontacts.ml" 98 3077 3163 "rcontacts.ml" 98 3077 3171
+type(
+  Config.obj_t
+)
+ident(
+  int_ref lastName "rcontacts.ml" 94 2947 2976 "rcontacts.ml" 94 2947 2984
+)
+"rcontacts.ml" 98 3077 3118 "rcontacts.ml" 98 3077 3171
+call(
+  stack
+)
+type(
+  Config.tuple
+)
+"rcontacts.ml" 99 3173 3188 "rcontacts.ml" 99 3173 3207
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_fn
+)
+"rcontacts.ml" 99 3173 3213 "rcontacts.ml" 99 3173 3234
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_last
+)
+"rcontacts.ml" 100 3236 3251 "rcontacts.ml" 100 3236 3273
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_email
+)
+"rcontacts.ml" 100 3236 3276 "rcontacts.ml" 100 3236 3298
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_title
+)
+"rcontacts.ml" 101 3300 3315 "rcontacts.ml" 101 3300 3338
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_mobile
+)
+"rcontacts.ml" 98 3077 3117 "rcontacts.ml" 101 3300 3339
+type(
+  Config.tuple list
+)
+"rcontacts.ml" 98 3077 3091 "rcontacts.ml" 101 3300 3339
+call(
+  stack
+)
+type(
+  string
+)
+"rcontacts.ml" 102 3343 3351 "rcontacts.ml" 102 3343 3358
+type(
+  Rete.rete_dataflow
+)
+ident(
+  def results "rcontacts.ml" 104 3484 3488 "rcontacts.ml" 105 3555 3623
+)
+"rcontacts.ml" 102 3343 3361 "rcontacts.ml" 102 3343 3374
+type(
+  string -> Config.tuple list -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.exec_qry
+)
+"rcontacts.ml" 102 3343 3375 "rcontacts.ml" 102 3343 3399
+type(
+  string
+)
+ident(
+  ext_ref Contactsdata.defaultPlcy
+)
+"rcontacts.ml" 102 3343 3401 "rcontacts.ml" 102 3343 3413
+type(
+  Config.tuple list list -> Config.tuple list
+)
+ident(
+  ext_ref List.flatten
+)
+"rcontacts.ml" 102 3343 3414 "rcontacts.ml" 102 3343 3438
+type(
+  Config.tuple list list
+)
+ident(
+  ext_ref Contactsdata.yancontacts
+)
+"rcontacts.ml" 102 3343 3400 "rcontacts.ml" 102 3343 3439
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"rcontacts.ml" 102 3343 3360 "rcontacts.ml" 102 3343 3440
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"rcontacts.ml" 103 3442 3459 "rcontacts.ml" 103 3442 3461
+type(
+  Rete.rete_dataflow ->
+  (Rete.rete_dataflow -> Rete.rete_dataflow) -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"rcontacts.ml" 103 3442 3463 "rcontacts.ml" 103 3442 3475
+type(
+  string -> Rete.rete_dataflow -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.exec_bm
+)
+"rcontacts.ml" 103 3442 3476 "rcontacts.ml" 103 3442 3479
+type(
+  string
+)
+ident(
+  int_ref qry "rcontacts.ml" 98 3077 3085 "rcontacts.ml" 98 3077 3088
+)
+"rcontacts.ml" 103 3442 3462 "rcontacts.ml" 103 3442 3480
+type(
+  Rete.rete_dataflow -> Rete.rete_dataflow
+)
+"rcontacts.ml" 102 3343 3360 "rcontacts.ml" 103 3442 3480
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"rcontacts.ml" 104 3484 3492 "rcontacts.ml" 104 3484 3497
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  def r_map "rcontacts.ml" 105 3555 3559 "rcontacts.ml" 105 3555 3623
+)
+"rcontacts.ml" 104 3484 3499 "rcontacts.ml" 104 3484 3515
+type(
+  Rete.rete_dataflow ->
+  Helper.StringMap.key list ->
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  ext_ref Rete.get_res_map
+)
+"rcontacts.ml" 104 3484 3516 "rcontacts.ml" 104 3484 3523
+type(
+  Rete.rete_dataflow
+)
+ident(
+  int_ref results "rcontacts.ml" 102 3343 3351 "rcontacts.ml" 102 3343 3358
+)
+"rcontacts.ml" 104 3484 3524 "rcontacts.ml" 104 3484 3551
+type(
+  Helper.StringMap.key list
+)
+ident(
+  ext_ref Contactsdata.varsLstDefault
+)
+"rcontacts.ml" 104 3484 3499 "rcontacts.ml" 104 3484 3551
+call(
+  stack
+)
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rcontacts.ml" 105 3555 3559 "rcontacts.ml" 105 3555 3589
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list -> string
+)
+ident(
+  ext_ref Htmlhelper.mapLstToHtml_ul_Str
+)
+"rcontacts.ml" 105 3555 3591 "rcontacts.ml" 105 3555 3616
+type(
+  Config.t Config.element_type list Helper.StringMap.t ->
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+ident(
+  ext_ref Helper.StringMap.bindings
+)
+"rcontacts.ml" 105 3555 3617 "rcontacts.ml" 105 3555 3622
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  int_ref r_map "rcontacts.ml" 104 3484 3492 "rcontacts.ml" 104 3484 3497
+)
+"rcontacts.ml" 105 3555 3590 "rcontacts.ml" 105 3555 3623
+call(
+  stack
+)
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rcontacts.ml" 105 3555 3559 "rcontacts.ml" 105 3555 3623
+call(
+  tail
+)
+type(
+  string
+)
+"rcontacts.ml" 104 3484 3488 "rcontacts.ml" 105 3555 3623
+type(
+  string
+)
+"rcontacts.ml" 102 3343 3347 "rcontacts.ml" 105 3555 3623
+type(
+  string
+)
+"rcontacts.ml" 98 3077 3081 "rcontacts.ml" 105 3555 3623
+type(
+  string
+)
+"rcontacts.ml" 95 2987 2989 "rcontacts.ml" 105 3555 3623
+type(
+  string
+)
+"rcontacts.ml" 108 3626 3630 "rcontacts.ml" 108 3626 3659
+type(
+  string -> Config.obj_t -> string
+)
+ident(
+  def getContactDataByFirstNamePlcy "rcontacts.ml" 127 4572 4572 "rcontacts.ml" 1 0 -1
+)
+"rcontacts.ml" 108 3626 3660 "rcontacts.ml" 108 3626 3673
+type(
+  string
+)
+ident(
+  def requestorName "rcontacts.ml" 108 3626 3674 "rcontacts.ml" 124 4501 4569
+)
+"rcontacts.ml" 108 3626 3674 "rcontacts.ml" 108 3626 3683
+type(
+  Config.obj_t
+)
+ident(
+  def firstName "rcontacts.ml" 109 3686 3688 "rcontacts.ml" 124 4501 4569
+)
+"rcontacts.ml" 109 3686 3694 "rcontacts.ml" 109 3686 3703
+type(
+  Config.obj_t
+)
+ident(
+  int_ref firstName "rcontacts.ml" 108 3626 3674 "rcontacts.ml" 108 3626 3683
+)
+"rcontacts.ml" 110 3709 3713 "rcontacts.ml" 110 3709 3715
+type(
+  Config.obj_t
+)
+"rcontacts.ml" 110 3709 3720 "rcontacts.ml" 110 3709 3755
+type(
+  Config.tuple list list -> string
+)
+ident(
+  ext_ref Htmlhelper.listoftuples_to_html_str
+)
+"rcontacts.ml" 110 3709 3756 "rcontacts.ml" 110 3709 3764
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref contacts "rcontacts.ml" 48 1344 1348 "rcontacts.ml" 48 1344 1356
+)
+"rcontacts.ml" 110 3709 3720 "rcontacts.ml" 110 3709 3764
+call(
+  tail
+)
+type(
+  string
+)
+"rcontacts.ml" 111 3766 3770 "rcontacts.ml" 111 3766 3771
+type(
+  Config.obj_t
+)
+"rcontacts.ml" 112 3777 3785 "rcontacts.ml" 112 3777 3788
+type(
+  string
+)
+ident(
+  def qry "rcontacts.ml" 116 4042 4046 "rcontacts.ml" 124 4501 4569
+)
+"rcontacts.ml" 112 3777 3791 "rcontacts.ml" 112 3777 3816
+type(
+  Config.tuple list -> string
+)
+ident(
+  ext_ref Contactshelper.makeMapQry
+)
+"rcontacts.ml" 112 3777 3818 "rcontacts.ml" 112 3777 3855
+type(
+  Config.t -> Config.obj_t -> Config.tuple
+)
+ident(
+  ext_ref Contactshelper.make_fn_last_email_qry
+)
+"rcontacts.ml" 112 3777 3856 "rcontacts.ml" 112 3777 3860
+type(
+  Config.t
+)
+"rcontacts.ml" 112 3777 3861 "rcontacts.ml" 112 3777 3870
+type(
+  Config.obj_t
+)
+ident(
+  int_ref firstName "rcontacts.ml" 108 3626 3674 "rcontacts.ml" 108 3626 3683
+)
+"rcontacts.ml" 112 3777 3818 "rcontacts.ml" 112 3777 3870
+call(
+  stack
+)
+type(
+  Config.tuple
+)
+"rcontacts.ml" 113 3872 3887 "rcontacts.ml" 113 3872 3906
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_fn
+)
+"rcontacts.ml" 113 3872 3912 "rcontacts.ml" 113 3872 3933
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_last
+)
+"rcontacts.ml" 114 3935 3950 "rcontacts.ml" 114 3935 3972
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_email
+)
+"rcontacts.ml" 114 3935 3975 "rcontacts.ml" 114 3935 3997
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_title
+)
+"rcontacts.ml" 115 3999 4014 "rcontacts.ml" 115 3999 4037
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_mobile
+)
+"rcontacts.ml" 112 3777 3817 "rcontacts.ml" 115 3999 4038
+type(
+  Config.tuple list
+)
+"rcontacts.ml" 112 3777 3791 "rcontacts.ml" 115 3999 4038
+call(
+  stack
+)
+type(
+  string
+)
+"rcontacts.ml" 116 4042 4050 "rcontacts.ml" 116 4042 4061
+type(
+  string
+)
+ident(
+  def applyPolicy "rcontacts.ml" 121 4318 4322 "rcontacts.ml" 124 4501 4569
+)
+"rcontacts.ml" 116 4042 4069 "rcontacts.ml" 116 4042 4082
+type(
+  string
+)
+ident(
+  int_ref requestorName "rcontacts.ml" 108 3626 3660 "rcontacts.ml" 108 3626 3673
+)
+"rcontacts.ml" 117 4088 4095 "rcontacts.ml" 117 4088 4100
+type(
+  string
+)
+"rcontacts.ml" 117 4088 4104 "rcontacts.ml" 117 4088 4124
+type(
+  string
+)
+ident(
+  ext_ref Contactsdata.jonPlcy
+)
+"rcontacts.ml" 118 4128 4135 "rcontacts.ml" 118 4128 4141
+type(
+  string
+)
+"rcontacts.ml" 118 4128 4144 "rcontacts.ml" 118 4128 4150
+type(
+  string
+)
+"rcontacts.ml" 118 4128 4135 "rcontacts.ml" 118 4128 4150
+type(
+  string
+)
+"rcontacts.ml" 118 4128 4153 "rcontacts.ml" 118 4128 4161
+type(
+  string
+)
+"rcontacts.ml" 118 4128 4135 "rcontacts.ml" 118 4128 4161
+type(
+  string
+)
+"rcontacts.ml" 118 4128 4164 "rcontacts.ml" 118 4128 4173
+type(
+  string
+)
+"rcontacts.ml" 118 4128 4135 "rcontacts.ml" 118 4128 4173
+type(
+  string
+)
+"rcontacts.ml" 118 4128 4177 "rcontacts.ml" 118 4128 4201
+type(
+  string
+)
+ident(
+  ext_ref Contactsdata.defaultPlcy
+)
+"rcontacts.ml" 119 4203 4210 "rcontacts.ml" 119 4203 4211
+type(
+  string
+)
+"rcontacts.ml" 119 4203 4220 "rcontacts.ml" 119 4203 4225
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"rcontacts.ml" 119 4203 4246 "rcontacts.ml" 119 4203 4308
+type(
+  string
+)
+"rcontacts.ml" 119 4203 4226 "rcontacts.ml" 119 4203 4309
+type(
+  exn
+)
+"rcontacts.ml" 119 4203 4220 "rcontacts.ml" 119 4203 4309
+type(
+  string
+)
+"rcontacts.ml" 116 4042 4063 "rcontacts.ml" 119 4203 4309
+type(
+  string
+)
+"rcontacts.ml" 121 4318 4326 "rcontacts.ml" 121 4318 4333
+type(
+  Rete.rete_dataflow
+)
+ident(
+  def results "rcontacts.ml" 123 4430 4434 "rcontacts.ml" 124 4501 4569
+)
+"rcontacts.ml" 121 4318 4336 "rcontacts.ml" 121 4318 4349
+type(
+  string -> Config.tuple list -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.exec_qry
+)
+"rcontacts.ml" 121 4318 4350 "rcontacts.ml" 121 4318 4361
+type(
+  string
+)
+ident(
+  int_ref applyPolicy "rcontacts.ml" 116 4042 4050 "rcontacts.ml" 116 4042 4061
+)
+"rcontacts.ml" 121 4318 4363 "rcontacts.ml" 121 4318 4375
+type(
+  Config.tuple list list -> Config.tuple list
+)
+ident(
+  ext_ref List.flatten
+)
+"rcontacts.ml" 121 4318 4376 "rcontacts.ml" 121 4318 4384
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref contacts "rcontacts.ml" 48 1344 1348 "rcontacts.ml" 48 1344 1356
+)
+"rcontacts.ml" 121 4318 4362 "rcontacts.ml" 121 4318 4385
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"rcontacts.ml" 121 4318 4335 "rcontacts.ml" 121 4318 4386
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"rcontacts.ml" 122 4388 4405 "rcontacts.ml" 122 4388 4407
+type(
+  Rete.rete_dataflow ->
+  (Rete.rete_dataflow -> Rete.rete_dataflow) -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"rcontacts.ml" 122 4388 4409 "rcontacts.ml" 122 4388 4421
+type(
+  string -> Rete.rete_dataflow -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.exec_bm
+)
+"rcontacts.ml" 122 4388 4422 "rcontacts.ml" 122 4388 4425
+type(
+  string
+)
+ident(
+  int_ref qry "rcontacts.ml" 112 3777 3785 "rcontacts.ml" 112 3777 3788
+)
+"rcontacts.ml" 122 4388 4408 "rcontacts.ml" 122 4388 4426
+type(
+  Rete.rete_dataflow -> Rete.rete_dataflow
+)
+"rcontacts.ml" 121 4318 4335 "rcontacts.ml" 122 4388 4426
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"rcontacts.ml" 123 4430 4438 "rcontacts.ml" 123 4430 4443
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  def r_map "rcontacts.ml" 124 4501 4505 "rcontacts.ml" 124 4501 4569
+)
+"rcontacts.ml" 123 4430 4445 "rcontacts.ml" 123 4430 4461
+type(
+  Rete.rete_dataflow ->
+  Helper.StringMap.key list ->
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  ext_ref Rete.get_res_map
+)
+"rcontacts.ml" 123 4430 4462 "rcontacts.ml" 123 4430 4469
+type(
+  Rete.rete_dataflow
+)
+ident(
+  int_ref results "rcontacts.ml" 121 4318 4326 "rcontacts.ml" 121 4318 4333
+)
+"rcontacts.ml" 123 4430 4470 "rcontacts.ml" 123 4430 4497
+type(
+  Helper.StringMap.key list
+)
+ident(
+  ext_ref Contactsdata.varsLstDefault
+)
+"rcontacts.ml" 123 4430 4445 "rcontacts.ml" 123 4430 4497
+call(
+  stack
+)
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rcontacts.ml" 124 4501 4505 "rcontacts.ml" 124 4501 4535
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list -> string
+)
+ident(
+  ext_ref Htmlhelper.mapLstToHtml_ul_Str
+)
+"rcontacts.ml" 124 4501 4537 "rcontacts.ml" 124 4501 4562
+type(
+  Config.t Config.element_type list Helper.StringMap.t ->
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+ident(
+  ext_ref Helper.StringMap.bindings
+)
+"rcontacts.ml" 124 4501 4563 "rcontacts.ml" 124 4501 4568
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  int_ref r_map "rcontacts.ml" 123 4430 4438 "rcontacts.ml" 123 4430 4443
+)
+"rcontacts.ml" 124 4501 4536 "rcontacts.ml" 124 4501 4569
+call(
+  stack
+)
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rcontacts.ml" 124 4501 4505 "rcontacts.ml" 124 4501 4569
+call(
+  tail
+)
+type(
+  string
+)
+"rcontacts.ml" 123 4430 4434 "rcontacts.ml" 124 4501 4569
+type(
+  string
+)
+"rcontacts.ml" 121 4318 4322 "rcontacts.ml" 124 4501 4569
+type(
+  string
+)
+"rcontacts.ml" 116 4042 4046 "rcontacts.ml" 124 4501 4569
+type(
+  string
+)
+"rcontacts.ml" 112 3777 3781 "rcontacts.ml" 124 4501 4569
+type(
+  string
+)
+"rcontacts.ml" 109 3686 3688 "rcontacts.ml" 124 4501 4569
+type(
+  string
+)
+"rcontacts.ml" 127 4572 4576 "rcontacts.ml" 127 4572 4597
+type(
+  Config.obj_t -> string
+)
+ident(
+  def getContactDataByEmail "rcontacts.ml" 145 5255 5255 "rcontacts.ml" 1 0 -1
+)
+"rcontacts.ml" 127 4572 4598 "rcontacts.ml" 127 4572 4603
+type(
+  Config.obj_t
+)
+ident(
+  def email "rcontacts.ml" 128 4606 4608 "rcontacts.ml" 138 5153 5221
+)
+"rcontacts.ml" 128 4606 4614 "rcontacts.ml" 128 4606 4619
+type(
+  Config.obj_t
+)
+ident(
+  int_ref email "rcontacts.ml" 127 4572 4598 "rcontacts.ml" 127 4572 4603
+)
+"rcontacts.ml" 129 4625 4629 "rcontacts.ml" 129 4625 4631
+type(
+  Config.obj_t
+)
+"rcontacts.ml" 129 4625 4636 "rcontacts.ml" 129 4625 4671
+type(
+  Config.tuple list list -> string
+)
+ident(
+  ext_ref Htmlhelper.listoftuples_to_html_str
+)
+"rcontacts.ml" 129 4625 4672 "rcontacts.ml" 129 4625 4680
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref contacts "rcontacts.ml" 48 1344 1348 "rcontacts.ml" 48 1344 1356
+)
+"rcontacts.ml" 129 4625 4636 "rcontacts.ml" 129 4625 4680
+call(
+  tail
+)
+type(
+  string
+)
+"rcontacts.ml" 130 4682 4686 "rcontacts.ml" 130 4682 4687
+type(
+  Config.obj_t
+)
+"rcontacts.ml" 131 4693 4701 "rcontacts.ml" 131 4693 4704
+type(
+  string
+)
+ident(
+  def qry "rcontacts.ml" 135 4957 4961 "rcontacts.ml" 138 5153 5221
+)
+"rcontacts.ml" 131 4693 4707 "rcontacts.ml" 131 4693 4732
+type(
+  Config.tuple list -> string
+)
+ident(
+  ext_ref Contactshelper.makeMapQry
+)
+"rcontacts.ml" 131 4693 4734 "rcontacts.ml" 131 4693 4771
+type(
+  Config.t -> Config.obj_t -> Config.tuple
+)
+ident(
+  ext_ref Contactshelper.make_fn_last_email_qry
+)
+"rcontacts.ml" 131 4693 4772 "rcontacts.ml" 131 4693 4779
+type(
+  Config.t
+)
+"rcontacts.ml" 131 4693 4780 "rcontacts.ml" 131 4693 4785
+type(
+  Config.obj_t
+)
+ident(
+  int_ref email "rcontacts.ml" 127 4572 4598 "rcontacts.ml" 127 4572 4603
+)
+"rcontacts.ml" 131 4693 4734 "rcontacts.ml" 131 4693 4785
+call(
+  stack
+)
+type(
+  Config.tuple
+)
+"rcontacts.ml" 132 4787 4802 "rcontacts.ml" 132 4787 4821
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_fn
+)
+"rcontacts.ml" 132 4787 4827 "rcontacts.ml" 132 4787 4848
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_last
+)
+"rcontacts.ml" 133 4850 4865 "rcontacts.ml" 133 4850 4887
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_email
+)
+"rcontacts.ml" 133 4850 4890 "rcontacts.ml" 133 4850 4912
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_title
+)
+"rcontacts.ml" 134 4914 4929 "rcontacts.ml" 134 4914 4952
+type(
+  Config.tuple
+)
+ident(
+  ext_ref Contactsdata.qry_mobile
+)
+"rcontacts.ml" 131 4693 4733 "rcontacts.ml" 134 4914 4953
+type(
+  Config.tuple list
+)
+"rcontacts.ml" 131 4693 4707 "rcontacts.ml" 134 4914 4953
+call(
+  stack
+)
+type(
+  string
+)
+"rcontacts.ml" 135 4957 4965 "rcontacts.ml" 135 4957 4972
+type(
+  Rete.rete_dataflow
+)
+ident(
+  def results "rcontacts.ml" 137 5082 5086 "rcontacts.ml" 138 5153 5221
+)
+"rcontacts.ml" 135 4957 4975 "rcontacts.ml" 135 4957 4988
+type(
+  string -> Config.tuple list -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.exec_qry
+)
+"rcontacts.ml" 135 4957 4989 "rcontacts.ml" 135 4957 5013
+type(
+  string
+)
+ident(
+  ext_ref Contactsdata.defaultPlcy
+)
+"rcontacts.ml" 135 4957 5015 "rcontacts.ml" 135 4957 5027
+type(
+  Config.tuple list list -> Config.tuple list
+)
+ident(
+  ext_ref List.flatten
+)
+"rcontacts.ml" 135 4957 5028 "rcontacts.ml" 135 4957 5036
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref contacts "rcontacts.ml" 48 1344 1348 "rcontacts.ml" 48 1344 1356
+)
+"rcontacts.ml" 135 4957 5014 "rcontacts.ml" 135 4957 5037
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"rcontacts.ml" 135 4957 4974 "rcontacts.ml" 135 4957 5038
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"rcontacts.ml" 136 5040 5057 "rcontacts.ml" 136 5040 5059
+type(
+  Rete.rete_dataflow ->
+  (Rete.rete_dataflow -> Rete.rete_dataflow) -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"rcontacts.ml" 136 5040 5061 "rcontacts.ml" 136 5040 5073
+type(
+  string -> Rete.rete_dataflow -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.exec_bm
+)
+"rcontacts.ml" 136 5040 5074 "rcontacts.ml" 136 5040 5077
+type(
+  string
+)
+ident(
+  int_ref qry "rcontacts.ml" 131 4693 4701 "rcontacts.ml" 131 4693 4704
+)
+"rcontacts.ml" 136 5040 5060 "rcontacts.ml" 136 5040 5078
+type(
+  Rete.rete_dataflow -> Rete.rete_dataflow
+)
+"rcontacts.ml" 135 4957 4974 "rcontacts.ml" 136 5040 5078
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"rcontacts.ml" 137 5082 5090 "rcontacts.ml" 137 5082 5095
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  def r_map "rcontacts.ml" 138 5153 5157 "rcontacts.ml" 138 5153 5221
+)
+"rcontacts.ml" 137 5082 5097 "rcontacts.ml" 137 5082 5113
+type(
+  Rete.rete_dataflow ->
+  Helper.StringMap.key list ->
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  ext_ref Rete.get_res_map
+)
+"rcontacts.ml" 137 5082 5114 "rcontacts.ml" 137 5082 5121
+type(
+  Rete.rete_dataflow
+)
+ident(
+  int_ref results "rcontacts.ml" 135 4957 4965 "rcontacts.ml" 135 4957 4972
+)
+"rcontacts.ml" 137 5082 5122 "rcontacts.ml" 137 5082 5149
+type(
+  Helper.StringMap.key list
+)
+ident(
+  ext_ref Contactsdata.varsLstDefault
+)
+"rcontacts.ml" 137 5082 5097 "rcontacts.ml" 137 5082 5149
+call(
+  stack
+)
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rcontacts.ml" 138 5153 5157 "rcontacts.ml" 138 5153 5187
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list -> string
+)
+ident(
+  ext_ref Htmlhelper.mapLstToHtml_ul_Str
+)
+"rcontacts.ml" 138 5153 5189 "rcontacts.ml" 138 5153 5214
+type(
+  Config.t Config.element_type list Helper.StringMap.t ->
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+ident(
+  ext_ref Helper.StringMap.bindings
+)
+"rcontacts.ml" 138 5153 5215 "rcontacts.ml" 138 5153 5220
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  int_ref r_map "rcontacts.ml" 137 5082 5090 "rcontacts.ml" 137 5082 5095
+)
+"rcontacts.ml" 138 5153 5188 "rcontacts.ml" 138 5153 5221
+call(
+  stack
+)
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rcontacts.ml" 138 5153 5157 "rcontacts.ml" 138 5153 5221
+call(
+  tail
+)
+type(
+  string
+)
+"rcontacts.ml" 137 5082 5086 "rcontacts.ml" 138 5153 5221
+type(
+  string
+)
+"rcontacts.ml" 135 4957 4961 "rcontacts.ml" 138 5153 5221
+type(
+  string
+)
+"rcontacts.ml" 131 4693 4697 "rcontacts.ml" 138 5153 5221
+type(
+  string
+)
+"rcontacts.ml" 128 4606 4608 "rcontacts.ml" 138 5153 5221
+type(
+  string
+)
+"rcontacts.ml" 145 5255 5259 "rcontacts.ml" 145 5255 5268
+type(
+  string -> string
+)
+ident(
+  def bounceStr "rcontacts.ml" 145 5255 5289 "rcontacts.ml" 1 0 -1
+)
+"rcontacts.ml" 145 5255 5270 "rcontacts.ml" 145 5255 5271
+type(
+  string
+)
+ident(
+  def s "rcontacts.ml" 145 5255 5279 "rcontacts.ml" 145 5255 5289
+)
+"rcontacts.ml" 145 5255 5288 "rcontacts.ml" 145 5255 5289
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref s "rcontacts.ml" 145 5255 5270 "rcontacts.ml" 145 5255 5271
+)

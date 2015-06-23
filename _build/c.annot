@@ -1,0 +1,564 @@
+"c.ml" 61 1583 1587 "c.ml" 61 1583 1597
+type(
+  string -> string -> string -> Uri.t
+)
+ident(
+  def jsonStrQry "c.ml" 69 1847 1847 "c.ml" 1 0 -1
+)
+"c.ml" 61 1583 1598 "c.ml" 61 1583 1605
+type(
+  string
+)
+ident(
+  def strPath "c.ml" 61 1583 1606 "c.ml" 63 1687 1734
+)
+"c.ml" 61 1583 1606 "c.ml" 61 1583 1609
+type(
+  string
+)
+ident(
+  def qry "c.ml" 61 1583 1610 "c.ml" 63 1687 1734
+)
+"c.ml" 61 1583 1610 "c.ml" 61 1583 1616
+type(
+  string
+)
+ident(
+  def qryPar "c.ml" 62 1618 1620 "c.ml" 63 1687 1734
+)
+"c.ml" 62 1618 1624 "c.ml" 62 1618 1632
+type(
+  Uri.t
+)
+ident(
+  def base_uri "c.ml" 63 1687 1690 "c.ml" 63 1687 1734
+)
+"c.ml" 62 1618 1635 "c.ml" 62 1618 1648
+type(
+  string -> Uri.t
+)
+ident(
+  ext_ref Uri.of_string
+)
+"c.ml" 62 1618 1650 "c.ml" 62 1618 1674
+type(
+  string
+)
+"c.ml" 62 1618 1674 "c.ml" 62 1618 1675
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"c.ml" 62 1618 1675 "c.ml" 62 1618 1682
+type(
+  string
+)
+ident(
+  int_ref strPath "c.ml" 61 1583 1598 "c.ml" 61 1583 1605
+)
+"c.ml" 62 1618 1649 "c.ml" 62 1618 1683
+call(
+  stack
+)
+type(
+  string
+)
+"c.ml" 62 1618 1635 "c.ml" 62 1618 1683
+call(
+  stack
+)
+type(
+  Uri.t
+)
+"c.ml" 63 1687 1690 "c.ml" 63 1687 1709
+type(
+  Uri.t -> string * string list -> Uri.t
+)
+ident(
+  ext_ref Uri.add_query_param
+)
+"c.ml" 63 1687 1710 "c.ml" 63 1687 1718
+type(
+  Uri.t
+)
+ident(
+  int_ref base_uri "c.ml" 62 1618 1624 "c.ml" 62 1618 1632
+)
+"c.ml" 63 1687 1720 "c.ml" 63 1687 1723
+type(
+  string
+)
+ident(
+  int_ref qry "c.ml" 61 1583 1606 "c.ml" 61 1583 1609
+)
+"c.ml" 63 1687 1726 "c.ml" 63 1687 1732
+type(
+  string
+)
+ident(
+  int_ref qryPar "c.ml" 61 1583 1610 "c.ml" 61 1583 1616
+)
+"c.ml" 63 1687 1725 "c.ml" 63 1687 1733
+type(
+  string list
+)
+"c.ml" 63 1687 1719 "c.ml" 63 1687 1734
+type(
+  string * string list
+)
+"c.ml" 63 1687 1690 "c.ml" 63 1687 1734
+call(
+  tail
+)
+type(
+  Uri.t
+)
+"c.ml" 62 1618 1620 "c.ml" 63 1687 1734
+type(
+  Uri.t
+)
+"c.ml" 69 1847 1851 "c.ml" 69 1847 1865
+type(
+  string -> string -> string -> string -> unit Async_kernel.Deferred.t
+)
+ident(
+  def getContactData "c.ml" 78 2124 2124 "c.ml" 1 0 -1
+)
+"c.ml" 69 1847 1866 "c.ml" 69 1847 1873
+type(
+  string
+)
+ident(
+  def testAim "c.ml" 69 1847 1874 "c.ml" 74 2098 2119
+)
+"c.ml" 69 1847 1874 "c.ml" 69 1847 1881
+type(
+  string
+)
+ident(
+  def strPath "c.ml" 69 1847 1882 "c.ml" 74 2098 2119
+)
+"c.ml" 69 1847 1882 "c.ml" 69 1847 1885
+type(
+  string
+)
+ident(
+  def qry "c.ml" 69 1847 1886 "c.ml" 74 2098 2119
+)
+"c.ml" 69 1847 1886 "c.ml" 69 1847 1892
+type(
+  string
+)
+ident(
+  def qryPar "c.ml" 70 1894 1896 "c.ml" 74 2098 2119
+)
+"c.ml" 70 1894 1896 "c.ml" 70 1894 1919
+type(
+  ?interrupt:unit Async.Std.Deferred.t ->
+  ?headers:Cohttp.Header.t ->
+  Uri.t ->
+  (Cohttp_async.Response.t * Cohttp_async.Body.t) Async.Std.Deferred.t
+)
+ident(
+  ext_ref Cohttp_async.Client.get
+)
+"c.ml" 70 1894 1921 "c.ml" 70 1894 1931
+type(
+  string -> string -> string -> Uri.t
+)
+ident(
+  int_ref jsonStrQry "c.ml" 61 1583 1587 "c.ml" 61 1583 1597
+)
+"c.ml" 70 1894 1932 "c.ml" 70 1894 1939
+type(
+  string
+)
+ident(
+  int_ref strPath "c.ml" 69 1847 1874 "c.ml" 69 1847 1881
+)
+"c.ml" 70 1894 1940 "c.ml" 70 1894 1943
+type(
+  string
+)
+ident(
+  int_ref qry "c.ml" 69 1847 1882 "c.ml" 69 1847 1885
+)
+"c.ml" 70 1894 1944 "c.ml" 70 1894 1950
+type(
+  string
+)
+ident(
+  int_ref qryPar "c.ml" 69 1847 1886 "c.ml" 69 1847 1892
+)
+"c.ml" 70 1894 1920 "c.ml" 70 1894 1951
+call(
+  stack
+)
+type(
+  Uri.t
+)
+"c.ml" 70 1894 1896 "c.ml" 70 1894 1951
+call(
+  stack
+)
+type(
+  (Cohttp_async.Response.t * Cohttp_async.Body.t) Async.Std.Deferred.t
+)
+"c.ml" 71 1954 1956 "c.ml" 71 1954 1959
+type(
+  (Cohttp_async.Response.t * Cohttp_async.Body.t) Async_kernel.Deferred.t ->
+  (Cohttp_async.Response.t * Cohttp_async.Body.t ->
+   unit Async_kernel.Deferred.t) ->
+  unit Async_kernel.Deferred.t
+)
+ident(
+  ext_ref Async.Std.( >>= )
+)
+"c.ml" 71 1954 1965 "c.ml" 71 1954 1966
+type(
+  Cohttp_async.Response.t
+)
+"c.ml" 71 1954 1968 "c.ml" 71 1954 1972
+type(
+  Cohttp_async.Body.t
+)
+ident(
+  def body "c.ml" 72 1977 1979 "c.ml" 74 2098 2119
+)
+"c.ml" 71 1954 1964 "c.ml" 71 1954 1973
+type(
+  Cohttp_async.Response.t * Cohttp_async.Body.t
+)
+"c.ml" 72 1977 1979 "c.ml" 72 1977 2006
+type(
+  Cohttp_async.Body.t -> string Async.Std.Deferred.t
+)
+ident(
+  ext_ref Cohttp_async.Body.to_string
+)
+"c.ml" 72 1977 2007 "c.ml" 72 1977 2011
+type(
+  Cohttp_async.Body.t
+)
+ident(
+  int_ref body "c.ml" 71 1954 1968 "c.ml" 71 1954 1972
+)
+"c.ml" 72 1977 1979 "c.ml" 72 1977 2011
+call(
+  stack
+)
+type(
+  string Async.Std.Deferred.t
+)
+"c.ml" 73 2013 2015 "c.ml" 73 2013 2018
+type(
+  string Async_kernel.Deferred.t ->
+  (string -> unit) -> unit Async_kernel.Deferred.t
+)
+ident(
+  ext_ref Async.Std.( >>| )
+)
+"c.ml" 73 2013 2023 "c.ml" 73 2013 2030
+type(
+  string
+)
+ident(
+  def jsonStr "c.ml" 73 2013 2034 "c.ml" 74 2098 2119
+)
+"c.ml" 73 2013 2034 "c.ml" 73 2013 2046
+type(
+  string -> unit
+)
+ident(
+  ext_ref Async.Std.print_string
+)
+"c.ml" 73 2013 2047 "c.ml" 73 2013 2054
+type(
+  string
+)
+ident(
+  int_ref testAim "c.ml" 69 1847 1866 "c.ml" 69 1847 1873
+)
+"c.ml" 73 2013 2055 "c.ml" 73 2013 2056
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"c.ml" 73 2013 2056 "c.ml" 73 2013 2078
+type(
+  string
+)
+"c.ml" 73 2013 2079 "c.ml" 73 2013 2080
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"c.ml" 73 2013 2081 "c.ml" 73 2013 2088
+type(
+  string
+)
+ident(
+  int_ref jsonStr "c.ml" 73 2013 2023 "c.ml" 73 2013 2030
+)
+"c.ml" 73 2013 2089 "c.ml" 73 2013 2090
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"c.ml" 73 2013 2091 "c.ml" 73 2013 2095
+type(
+  string
+)
+"c.ml" 73 2013 2081 "c.ml" 73 2013 2095
+call(
+  stack
+)
+type(
+  string
+)
+"c.ml" 73 2013 2056 "c.ml" 73 2013 2095
+call(
+  stack
+)
+type(
+  string
+)
+"c.ml" 73 2013 2046 "c.ml" 73 2013 2096
+call(
+  stack
+)
+type(
+  string
+)
+"c.ml" 73 2013 2034 "c.ml" 73 2013 2096
+call(
+  stack
+)
+type(
+  unit
+)
+"c.ml" 74 2098 2104 "c.ml" 74 2098 2117
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Async.Std.print_newline
+)
+"c.ml" 74 2098 2117 "c.ml" 74 2098 2119
+type(
+  unit
+)
+"c.ml" 74 2098 2104 "c.ml" 74 2098 2119
+call(
+  tail
+)
+type(
+  unit
+)
+"c.ml" 73 2013 2034 "c.ml" 74 2098 2119
+type(
+  unit
+)
+"c.ml" 73 2013 2019 "c.ml" 74 2098 2119
+type(
+  string -> unit
+)
+"c.ml" 72 1977 1979 "c.ml" 74 2098 2119
+call(
+  tail
+)
+type(
+  unit Async_kernel.Deferred.t
+)
+"c.ml" 71 1954 1960 "c.ml" 74 2098 2119
+type(
+  Cohttp_async.Response.t * Cohttp_async.Body.t ->
+  unit Async_kernel.Deferred.t
+)
+"c.ml" 70 1894 1896 "c.ml" 74 2098 2119
+call(
+  tail
+)
+type(
+  unit Async_kernel.Deferred.t
+)
+"c.ml" 78 2124 2128 "c.ml" 78 2124 2130
+type(
+  unit
+)
+"c.ml" 83 2207 2209 "c.ml" 83 2207 2223
+type(
+  string -> string -> string -> string -> unit Async_kernel.Deferred.t
+)
+ident(
+  int_ref getContactData "c.ml" 69 1847 1851 "c.ml" 69 1847 1865
+)
+"c.ml" 83 2207 2224 "c.ml" 83 2207 2255
+type(
+  string
+)
+"c.ml" 84 2257 2275 "c.ml" 84 2257 2296
+type(
+  string
+)
+"c.ml" 85 2297 2315 "c.ml" 85 2297 2320
+type(
+  string
+)
+"c.ml" 86 2321 2339 "c.ml" 86 2321 2364
+type(
+  string
+)
+"c.ml" 83 2207 2209 "c.ml" 86 2321 2364
+call(
+  stack
+)
+type(
+  unit Async_kernel.Deferred.t
+)
+"c.ml" 88 2367 2369 "c.ml" 88 2367 2383
+type(
+  string -> string -> string -> string -> unit Async_kernel.Deferred.t
+)
+ident(
+  int_ref getContactData "c.ml" 69 1847 1851 "c.ml" 69 1847 1865
+)
+"c.ml" 88 2367 2384 "c.ml" 88 2367 2442
+type(
+  string
+)
+"c.ml" 89 2444 2462 "c.ml" 89 2444 2489
+type(
+  string
+)
+"c.ml" 90 2490 2508 "c.ml" 90 2490 2519
+type(
+  string
+)
+"c.ml" 91 2520 2538 "c.ml" 91 2520 2540
+type(
+  string
+)
+"c.ml" 88 2367 2369 "c.ml" 91 2520 2540
+call(
+  stack
+)
+type(
+  unit Async_kernel.Deferred.t
+)
+"c.ml" 93 2543 2545 "c.ml" 93 2543 2559
+type(
+  string -> string -> string -> string -> unit Async_kernel.Deferred.t
+)
+ident(
+  int_ref getContactData "c.ml" 69 1847 1851 "c.ml" 69 1847 1865
+)
+"c.ml" 93 2543 2560 "c.ml" 93 2543 2612
+type(
+  string
+)
+"c.ml" 94 2614 2632 "c.ml" 94 2614 2659
+type(
+  string
+)
+"c.ml" 95 2660 2678 "c.ml" 95 2660 2689
+type(
+  string
+)
+"c.ml" 96 2690 2708 "c.ml" 96 2690 2716
+type(
+  string
+)
+"c.ml" 93 2543 2545 "c.ml" 96 2690 2716
+call(
+  stack
+)
+type(
+  unit Async_kernel.Deferred.t
+)
+"c.ml" 98 2719 2721 "c.ml" 98 2719 2735
+type(
+  string -> string -> string -> string -> unit Async_kernel.Deferred.t
+)
+ident(
+  int_ref getContactData "c.ml" 69 1847 1851 "c.ml" 69 1847 1865
+)
+"c.ml" 98 2719 2736 "c.ml" 98 2719 2791
+type(
+  string
+)
+"c.ml" 99 2793 2811 "c.ml" 99 2793 2837
+type(
+  string
+)
+"c.ml" 100 2838 2856 "c.ml" 100 2838 2866
+type(
+  string
+)
+"c.ml" 101 2867 2885 "c.ml" 101 2867 2896
+type(
+  string
+)
+"c.ml" 98 2719 2721 "c.ml" 101 2867 2896
+call(
+  stack
+)
+type(
+  unit Async_kernel.Deferred.t
+)
+"c.ml" 110 3142 3144 "c.ml" 110 3142 3157
+type(
+  Core.Std.never_returns -> unit
+)
+ident(
+  ext_ref Core.Std.never_returns
+)
+"c.ml" 110 3142 3159 "c.ml" 110 3142 3171
+type(
+  ?raise_unhandled_exn:bool -> unit -> Core.Std.never_returns
+)
+ident(
+  ext_ref Async.Std.Scheduler.go
+)
+"c.ml" 110 3142 3171 "c.ml" 110 3142 3173
+type(
+  unit
+)
+"c.ml" 110 3142 3158 "c.ml" 110 3142 3174
+call(
+  stack
+)
+type(
+  Core.Std.never_returns
+)
+"c.ml" 110 3142 3144 "c.ml" 110 3142 3174
+call(
+  stack
+)
+type(
+  unit
+)
+"c.ml" 98 2719 2721 "c.ml" 110 3142 3174
+type(
+  unit
+)
+"c.ml" 93 2543 2545 "c.ml" 110 3142 3174
+type(
+  unit
+)
+"c.ml" 88 2367 2369 "c.ml" 110 3142 3174
+type(
+  unit
+)
+"c.ml" 83 2207 2209 "c.ml" 110 3142 3174
+type(
+  unit
+)

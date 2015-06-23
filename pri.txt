@@ -1,0 +1,68 @@
+
+
+19 Jun 2015: output from Yan's default poli, qry and var
+
+bash-3.2$ contacts.byte > prt.txt
+bash-3.2$ more prt.txt
+< a fn Jon >
+< a last Crowcroft >
+< a email jon.crowcroft@cl.cam.ac.uk >
+< a twitter @tforcworc >
+< a mobile  617-000-0001 >
+< a title Professor >
+< a image jon.jpg >
+< a knows c >
+< a knows d >
+< a knows e >
+--
+< b fn Amir >
+< b last Chaudhry >
+< b email amir.chaudhry@cl.cam.ac.uk >
+< b twitter @amirmc >
+< b image amir.jpg >
+< b title Postdoc >
+< b knows a >
+< b knows c >
+< b knows d >
+--
+< c fn Anil >
+< c last Madhavapeddy >
+< c email anil@recoil.org >
+< c image anil.jpg >
+< c twitter @avsm >
+< c email anil.madhavapeddy@recoil.org >
+< c title Lecturer >
+--
+< d fn Carlos >
+< d last Molina-jimenez >
+< d image carlos.jpg >
+< d email cm770@cam.ac.uk >
+< d title Postdoc >
+< d twitter @carlos >
+< d knows a >
+< d knows c >
+--
+< e fn Richard >
+< e last Mortier >
+< e email richard.mortier@nottingham.ac.uk >
+< e image mort.png >
+< e twitter @mort__ >
+< e title Lecturer >
+< e knows c >
+< e knows d >
+--
+?email
+richard.mortier@nottingham.ac.uk
+cm770@cam.ac.uk
+anil@recoil.org
+anil.madhavapeddy@recoil.org
+?name
+Anil
+Carlos
+Richard
+?y
+c
+c
+d
+e
+bash-3.2$ 

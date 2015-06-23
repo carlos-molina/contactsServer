@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: cloudlaw.aux
+The style file: splncs.bst
+Database file #1: bibliography.bib
+Reallocated field_info (elt_size=4) to 10014 items from 1666447315848.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated field_info (elt_size=4) to 15028 items from 1773821503262.
+Reallocated field_info (elt_size=4) to 20042 items from 1773821508276.
+Warning--empty publisher in carter2009
+Warning--empty author in SamKnows2014
+Warning--empty title in SamKnows2014
+Warning--empty title in Lacuesta2009
+Warning--empty title in Kozhipurath2012
+Warning--empty author in RDpolicy2014
+Warning--there's a month but no year in RDMNcl2013
+Warning--there's a month but no year in RESNcl2013
+Warning--there's a month but no year in RDNcl2013
+Warning--there's a month but no year in OpenAccessNcl2013
+Warning--there's a month but no year in DCCHome
+Warning--there's a month but no year in NYUdatapolicy
+Warning--there's a month but no year in NYUresearchdatapolicy
+Warning--empty author in IEEEStd830-1998
+Warning--empty publisher in Rodriguez2011
+Warning--empty author in tutorial2012
+Warning--empty author in Wolfgang2008
+Warning--empty booktitle in Wolfgang2008
+Warning--empty publisher in Frost1900
+Warning--empty publisher in Danthine1982
+You've used 753 entries,
+            2087 wiz_defined-function locations,
+            4558 strings with 125625 characters,
+and the built_in function-call counts, 201302 in all, are:
+= -- 20209
+> -- 6793
+< -- 411
++ -- 2600
+- -- 1847
+* -- 12668
+:= -- 26410
+add.period$ -- 971
+call.type$ -- 753
+change.case$ -- 710
+chr.to.int$ -- 0
+cite$ -- 773
+duplicate$ -- 11030
+empty$ -- 21320
+format.name$ -- 1847
+if$ -- 49841
+int.to.chr$ -- 0
+int.to.str$ -- 753
+missing$ -- 638
+newline$ -- 3725
+num.names$ -- 780
+pop$ -- 3378
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 7268
+stack$ -- 0
+substring$ -- 10343
+swap$ -- 4998
+text.length$ -- 411
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 20
+while$ -- 1844
+width$ -- 756
+write$ -- 8204
+(There were 20 warnings)

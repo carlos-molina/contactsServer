@@ -1,0 +1,3664 @@
+"contactshelper.ml" 51 1566 1570 "contactshelper.ml" 51 1566 1592
+type(
+  Config.t -> Config.obj_t -> Config.tuple
+)
+ident(
+  def make_fn_last_email_qry "contactshelper.ml" 68 1978 1978 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 51 1566 1593 "contactshelper.ml" 51 1566 1600
+type(
+  Config.t
+)
+ident(
+  def predVal "contactshelper.ml" 51 1566 1601 "contactshelper.ml" 59 1740 1742
+)
+"contactshelper.ml" 51 1566 1601 "contactshelper.ml" 51 1566 1603
+type(
+  Config.obj_t
+)
+ident(
+  def fn "contactshelper.ml" 52 1606 1607 "contactshelper.ml" 59 1740 1742
+)
+"contactshelper.ml" 53 1609 1626 "contactshelper.ml" 53 1609 1630
+type(
+  string
+)
+"contactshelper.ml" 53 1609 1617 "contactshelper.ml" 53 1609 1630
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 54 1632 1649 "contactshelper.ml" 54 1632 1656
+type(
+  Config.t
+)
+ident(
+  int_ref predVal "contactshelper.ml" 51 1566 1593 "contactshelper.ml" 51 1566 1600
+)
+"contactshelper.ml" 54 1632 1640 "contactshelper.ml" 54 1632 1656
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 55 1658 1675 "contactshelper.ml" 55 1658 1677
+type(
+  Config.obj_t
+)
+ident(
+  int_ref fn "contactshelper.ml" 51 1566 1601 "contactshelper.ml" 51 1566 1603
+)
+"contactshelper.ml" 55 1658 1666 "contactshelper.ml" 55 1658 1677
+type(
+  Config.obj_t Config.element_type
+)
+"contactshelper.ml" 56 1679 1696 "contactshelper.ml" 56 1679 1706
+type(
+  Config.context
+)
+"contactshelper.ml" 56 1679 1687 "contactshelper.ml" 56 1679 1706
+type(
+  Config.context Config.element_type
+)
+"contactshelper.ml" 57 1708 1720 "contactshelper.ml" 57 1708 1724
+type(
+  Config.timestamp Config.element_type option
+)
+"contactshelper.ml" 58 1726 1734 "contactshelper.ml" 58 1726 1738
+type(
+  Config.signature Config.element_type option
+)
+"contactshelper.ml" 52 1606 1607 "contactshelper.ml" 59 1740 1742
+type(
+  Config.tuple
+)
+"contactshelper.ml" 68 1978 1982 "contactshelper.ml" 68 1978 1993
+type(
+  Config.obj_t -> Config.tuple
+)
+ident(
+  def make_fn_qry "contactshelper.ml" 85 2393 2393 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 68 1978 1994 "contactshelper.ml" 68 1978 1996
+type(
+  Config.obj_t
+)
+ident(
+  def fn "contactshelper.ml" 69 2030 2031 "contactshelper.ml" 76 2161 2163
+)
+"contactshelper.ml" 70 2033 2050 "contactshelper.ml" 70 2033 2054
+type(
+  string
+)
+"contactshelper.ml" 70 2033 2041 "contactshelper.ml" 70 2033 2054
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 71 2056 2073 "contactshelper.ml" 71 2056 2077
+type(
+  Config.t
+)
+"contactshelper.ml" 71 2056 2064 "contactshelper.ml" 71 2056 2077
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 72 2079 2096 "contactshelper.ml" 72 2079 2098
+type(
+  Config.obj_t
+)
+ident(
+  int_ref fn "contactshelper.ml" 68 1978 1994 "contactshelper.ml" 68 1978 1996
+)
+"contactshelper.ml" 72 2079 2087 "contactshelper.ml" 72 2079 2098
+type(
+  Config.obj_t Config.element_type
+)
+"contactshelper.ml" 73 2100 2117 "contactshelper.ml" 73 2100 2127
+type(
+  Config.context
+)
+"contactshelper.ml" 73 2100 2108 "contactshelper.ml" 73 2100 2127
+type(
+  Config.context Config.element_type
+)
+"contactshelper.ml" 74 2129 2141 "contactshelper.ml" 74 2129 2145
+type(
+  Config.timestamp Config.element_type option
+)
+"contactshelper.ml" 75 2147 2155 "contactshelper.ml" 75 2147 2159
+type(
+  Config.signature Config.element_type option
+)
+"contactshelper.ml" 69 2030 2031 "contactshelper.ml" 76 2161 2163
+type(
+  Config.tuple
+)
+"contactshelper.ml" 85 2393 2397 "contactshelper.ml" 85 2393 2410
+type(
+  Config.obj_t -> Config.tuple
+)
+ident(
+  def make_last_qry "contactshelper.ml" 102 2810 2810 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 85 2393 2411 "contactshelper.ml" 85 2393 2415
+type(
+  Config.obj_t
+)
+ident(
+  def last "contactshelper.ml" 86 2447 2448 "contactshelper.ml" 93 2582 2584
+)
+"contactshelper.ml" 87 2450 2467 "contactshelper.ml" 87 2450 2471
+type(
+  string
+)
+"contactshelper.ml" 87 2450 2458 "contactshelper.ml" 87 2450 2471
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 88 2473 2490 "contactshelper.ml" 88 2473 2496
+type(
+  Config.t
+)
+"contactshelper.ml" 88 2473 2481 "contactshelper.ml" 88 2473 2496
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 89 2498 2515 "contactshelper.ml" 89 2498 2519
+type(
+  Config.obj_t
+)
+ident(
+  int_ref last "contactshelper.ml" 85 2393 2411 "contactshelper.ml" 85 2393 2415
+)
+"contactshelper.ml" 89 2498 2506 "contactshelper.ml" 89 2498 2519
+type(
+  Config.obj_t Config.element_type
+)
+"contactshelper.ml" 90 2521 2538 "contactshelper.ml" 90 2521 2548
+type(
+  Config.context
+)
+"contactshelper.ml" 90 2521 2529 "contactshelper.ml" 90 2521 2548
+type(
+  Config.context Config.element_type
+)
+"contactshelper.ml" 91 2550 2562 "contactshelper.ml" 91 2550 2566
+type(
+  Config.timestamp Config.element_type option
+)
+"contactshelper.ml" 92 2568 2576 "contactshelper.ml" 92 2568 2580
+type(
+  Config.signature Config.element_type option
+)
+"contactshelper.ml" 86 2447 2448 "contactshelper.ml" 93 2582 2584
+type(
+  Config.tuple
+)
+"contactshelper.ml" 102 2810 2814 "contactshelper.ml" 102 2810 2828
+type(
+  Config.obj_t -> Config.tuple
+)
+ident(
+  def make_email_qry "contactshelper.ml" 119 3245 3245 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 102 2810 2829 "contactshelper.ml" 102 2810 2834
+type(
+  Config.obj_t
+)
+ident(
+  def email "contactshelper.ml" 103 2866 2867 "contactshelper.ml" 110 3003 3005
+)
+"contactshelper.ml" 104 2869 2886 "contactshelper.ml" 104 2869 2890
+type(
+  string
+)
+"contactshelper.ml" 104 2869 2877 "contactshelper.ml" 104 2869 2890
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 105 2892 2909 "contactshelper.ml" 105 2892 2916
+type(
+  Config.t
+)
+"contactshelper.ml" 105 2892 2900 "contactshelper.ml" 105 2892 2916
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 106 2918 2935 "contactshelper.ml" 106 2918 2940
+type(
+  Config.obj_t
+)
+ident(
+  int_ref email "contactshelper.ml" 102 2810 2829 "contactshelper.ml" 102 2810 2834
+)
+"contactshelper.ml" 106 2918 2926 "contactshelper.ml" 106 2918 2940
+type(
+  Config.obj_t Config.element_type
+)
+"contactshelper.ml" 107 2942 2959 "contactshelper.ml" 107 2942 2969
+type(
+  Config.context
+)
+"contactshelper.ml" 107 2942 2950 "contactshelper.ml" 107 2942 2969
+type(
+  Config.context Config.element_type
+)
+"contactshelper.ml" 108 2971 2983 "contactshelper.ml" 108 2971 2987
+type(
+  Config.timestamp Config.element_type option
+)
+"contactshelper.ml" 109 2989 2997 "contactshelper.ml" 109 2989 3001
+type(
+  Config.signature Config.element_type option
+)
+"contactshelper.ml" 103 2866 2867 "contactshelper.ml" 110 3003 3005
+type(
+  Config.tuple
+)
+"contactshelper.ml" 119 3245 3249 "contactshelper.ml" 119 3245 3259
+type(
+  Config.tuple list -> string
+)
+ident(
+  def tupleToStr "contactshelper.ml" 132 3624 3625 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 119 3245 3260 "contactshelper.ml" 119 3245 3265
+type(
+  Config.tuple list
+)
+ident(
+  def tuple "contactshelper.ml" 120 3267 3269 "contactshelper.ml" 123 3417 3435
+)
+"contactshelper.ml" 120 3267 3277 "contactshelper.ml" 120 3267 3281
+type(
+  string -> Config.tuple list -> string
+)
+ident(
+  def help "contactshelper.ml" 120 3267 3269 "contactshelper.ml" 123 3417 3435
+)
+"contactshelper.ml" 120 3267 3282 "contactshelper.ml" 120 3267 3285
+type(
+  string
+)
+ident(
+  def str "contactshelper.ml" 120 3267 3286 "contactshelper.ml" 122 3359 3415
+)
+"contactshelper.ml" 120 3267 3286 "contactshelper.ml" 120 3267 3291
+type(
+  Config.tuple list
+)
+ident(
+  def tuple "contactshelper.ml" 120 3267 3293 "contactshelper.ml" 122 3359 3415
+)
+"contactshelper.ml" 120 3267 3299 "contactshelper.ml" 120 3267 3304
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuple "contactshelper.ml" 120 3267 3286 "contactshelper.ml" 120 3267 3291
+)
+"contactshelper.ml" 121 3310 3314 "contactshelper.ml" 121 3310 3316
+type(
+  Config.tuple list
+)
+"contactshelper.ml" 121 3310 3325 "contactshelper.ml" 121 3310 3328
+type(
+  string
+)
+ident(
+  int_ref str "contactshelper.ml" 120 3267 3282 "contactshelper.ml" 120 3267 3285
+)
+"contactshelper.ml" 121 3310 3328 "contactshelper.ml" 121 3310 3329
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 121 3310 3329 "contactshelper.ml" 121 3310 3358
+type(
+  string
+)
+"contactshelper.ml" 121 3310 3325 "contactshelper.ml" 121 3310 3358
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 122 3359 3363 "contactshelper.ml" 122 3359 3364
+type(
+  Config.tuple
+)
+ident(
+  def h "contactshelper.ml" 122 3359 3374 "contactshelper.ml" 122 3359 3415
+)
+"contactshelper.ml" 122 3359 3366 "contactshelper.ml" 122 3359 3370
+type(
+  Config.tuple list
+)
+ident(
+  def rest "contactshelper.ml" 122 3359 3374 "contactshelper.ml" 122 3359 3415
+)
+"contactshelper.ml" 122 3359 3363 "contactshelper.ml" 122 3359 3370
+type(
+  Config.tuple list
+)
+"contactshelper.ml" 122 3359 3374 "contactshelper.ml" 122 3359 3378
+type(
+  string -> Config.tuple list -> string
+)
+ident(
+  int_ref help "contactshelper.ml" 120 3267 3277 "contactshelper.ml" 120 3267 3281
+)
+"contactshelper.ml" 122 3359 3380 "contactshelper.ml" 122 3359 3383
+type(
+  string
+)
+ident(
+  int_ref str "contactshelper.ml" 120 3267 3282 "contactshelper.ml" 120 3267 3285
+)
+"contactshelper.ml" 122 3359 3383 "contactshelper.ml" 122 3359 3384
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 122 3359 3385 "contactshelper.ml" 122 3359 3401
+type(
+  Config.tuple -> string
+)
+ident(
+  ext_ref Helper.to_string
+)
+"contactshelper.ml" 122 3359 3402 "contactshelper.ml" 122 3359 3403
+type(
+  Config.tuple
+)
+ident(
+  int_ref h "contactshelper.ml" 122 3359 3363 "contactshelper.ml" 122 3359 3364
+)
+"contactshelper.ml" 122 3359 3384 "contactshelper.ml" 122 3359 3404
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 122 3359 3404 "contactshelper.ml" 122 3359 3405
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 122 3359 3405 "contactshelper.ml" 122 3359 3409
+type(
+  string
+)
+"contactshelper.ml" 122 3359 3384 "contactshelper.ml" 122 3359 3409
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 122 3359 3379 "contactshelper.ml" 122 3359 3410
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 122 3359 3411 "contactshelper.ml" 122 3359 3415
+type(
+  Config.tuple list
+)
+ident(
+  int_ref rest "contactshelper.ml" 122 3359 3366 "contactshelper.ml" 122 3359 3370
+)
+"contactshelper.ml" 122 3359 3374 "contactshelper.ml" 122 3359 3415
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 120 3267 3293 "contactshelper.ml" 122 3359 3415
+type(
+  string
+)
+"contactshelper.ml" 123 3417 3422 "contactshelper.ml" 123 3417 3426
+type(
+  string -> Config.tuple list -> string
+)
+ident(
+  int_ref help "contactshelper.ml" 120 3267 3277 "contactshelper.ml" 120 3267 3281
+)
+"contactshelper.ml" 123 3417 3427 "contactshelper.ml" 123 3417 3429
+type(
+  string
+)
+"contactshelper.ml" 123 3417 3430 "contactshelper.ml" 123 3417 3435
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuple "contactshelper.ml" 119 3245 3260 "contactshelper.ml" 119 3245 3265
+)
+"contactshelper.ml" 123 3417 3422 "contactshelper.ml" 123 3417 3435
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 120 3267 3269 "contactshelper.ml" 123 3417 3435
+type(
+  string
+)
+"contactshelper.ml" 132 3624 3629 "contactshelper.ml" 132 3624 3645
+type(
+  Config.tuple list list -> int
+)
+ident(
+  def lengthofTupleLst "contactshelper.ml" 143 3996 3997 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 132 3624 3646 "contactshelper.ml" 132 3624 3654
+type(
+  Config.tuple list list
+)
+ident(
+  def tupleLst "contactshelper.ml" 133 3658 3662 "contactshelper.ml" 134 3716 3735
+)
+"contactshelper.ml" 133 3658 3666 "contactshelper.ml" 133 3658 3669
+type(
+  string list
+)
+ident(
+  def lst "contactshelper.ml" 134 3716 3720 "contactshelper.ml" 134 3716 3735
+)
+"contactshelper.ml" 133 3658 3671 "contactshelper.ml" 133 3658 3679
+type(
+  (Config.tuple list -> string) -> Config.tuple list list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"contactshelper.ml" 133 3658 3685 "contactshelper.ml" 133 3658 3686
+type(
+  Config.tuple list
+)
+ident(
+  def t "contactshelper.ml" 133 3658 3690 "contactshelper.ml" 133 3658 3702
+)
+"contactshelper.ml" 133 3658 3690 "contactshelper.ml" 133 3658 3700
+type(
+  Config.tuple list -> string
+)
+ident(
+  int_ref tupleToStr "contactshelper.ml" 119 3245 3249 "contactshelper.ml" 119 3245 3259
+)
+"contactshelper.ml" 133 3658 3701 "contactshelper.ml" 133 3658 3702
+type(
+  Config.tuple list
+)
+ident(
+  int_ref t "contactshelper.ml" 133 3658 3685 "contactshelper.ml" 133 3658 3686
+)
+"contactshelper.ml" 133 3658 3690 "contactshelper.ml" 133 3658 3702
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 133 3658 3680 "contactshelper.ml" 133 3658 3703
+type(
+  Config.tuple list -> string
+)
+"contactshelper.ml" 133 3658 3704 "contactshelper.ml" 133 3658 3712
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref tupleLst "contactshelper.ml" 132 3624 3646 "contactshelper.ml" 132 3624 3654
+)
+"contactshelper.ml" 133 3658 3671 "contactshelper.ml" 133 3658 3712
+call(
+  stack
+)
+type(
+  string list
+)
+"contactshelper.ml" 134 3716 3720 "contactshelper.ml" 134 3716 3731
+type(
+  string list -> int
+)
+ident(
+  ext_ref List.length
+)
+"contactshelper.ml" 134 3716 3732 "contactshelper.ml" 134 3716 3735
+type(
+  string list
+)
+ident(
+  int_ref lst "contactshelper.ml" 133 3658 3666 "contactshelper.ml" 133 3658 3669
+)
+"contactshelper.ml" 134 3716 3720 "contactshelper.ml" 134 3716 3735
+call(
+  tail
+)
+type(
+  int
+)
+"contactshelper.ml" 133 3658 3662 "contactshelper.ml" 134 3716 3735
+type(
+  int
+)
+"contactshelper.ml" 143 3996 4001 "contactshelper.ml" 143 3996 4024
+type(
+  string list -> string
+)
+ident(
+  def listofStrToStr_5Jun2015 "contactshelper.ml" 156 4428 4429 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 143 3996 4025 "contactshelper.ml" 143 3996 4028
+type(
+  string list
+)
+ident(
+  def lst "contactshelper.ml" 144 4031 4036 "contactshelper.ml" 147 4154 4173
+)
+"contactshelper.ml" 144 4031 4044 "contactshelper.ml" 144 4031 4048
+type(
+  string -> string list -> string
+)
+ident(
+  def help "contactshelper.ml" 144 4031 4036 "contactshelper.ml" 147 4154 4173
+)
+"contactshelper.ml" 144 4031 4049 "contactshelper.ml" 144 4031 4052
+type(
+  string
+)
+ident(
+  def str "contactshelper.ml" 144 4031 4053 "contactshelper.ml" 146 4117 4152
+)
+"contactshelper.ml" 144 4031 4053 "contactshelper.ml" 144 4031 4056
+type(
+  string list
+)
+ident(
+  def lst "contactshelper.ml" 144 4031 4058 "contactshelper.ml" 146 4117 4152
+)
+"contactshelper.ml" 144 4031 4064 "contactshelper.ml" 144 4031 4067
+type(
+  string list
+)
+ident(
+  int_ref lst "contactshelper.ml" 144 4031 4053 "contactshelper.ml" 144 4031 4056
+)
+"contactshelper.ml" 145 4073 4080 "contactshelper.ml" 145 4073 4082
+type(
+  string list
+)
+"contactshelper.ml" 145 4073 4091 "contactshelper.ml" 145 4073 4094
+type(
+  string
+)
+ident(
+  int_ref str "contactshelper.ml" 144 4031 4049 "contactshelper.ml" 144 4031 4052
+)
+"contactshelper.ml" 145 4073 4094 "contactshelper.ml" 145 4073 4095
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 145 4073 4095 "contactshelper.ml" 145 4073 4116
+type(
+  string
+)
+"contactshelper.ml" 145 4073 4091 "contactshelper.ml" 145 4073 4116
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 146 4117 4124 "contactshelper.ml" 146 4117 4125
+type(
+  string
+)
+ident(
+  def h "contactshelper.ml" 146 4117 4135 "contactshelper.ml" 146 4117 4152
+)
+"contactshelper.ml" 146 4117 4127 "contactshelper.ml" 146 4117 4131
+type(
+  string list
+)
+ident(
+  def rest "contactshelper.ml" 146 4117 4135 "contactshelper.ml" 146 4117 4152
+)
+"contactshelper.ml" 146 4117 4124 "contactshelper.ml" 146 4117 4131
+type(
+  string list
+)
+"contactshelper.ml" 146 4117 4135 "contactshelper.ml" 146 4117 4139
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref help "contactshelper.ml" 144 4031 4044 "contactshelper.ml" 144 4031 4048
+)
+"contactshelper.ml" 146 4117 4141 "contactshelper.ml" 146 4117 4144
+type(
+  string
+)
+ident(
+  int_ref str "contactshelper.ml" 144 4031 4049 "contactshelper.ml" 144 4031 4052
+)
+"contactshelper.ml" 146 4117 4144 "contactshelper.ml" 146 4117 4145
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 146 4117 4145 "contactshelper.ml" 146 4117 4146
+type(
+  string
+)
+ident(
+  int_ref h "contactshelper.ml" 146 4117 4124 "contactshelper.ml" 146 4117 4125
+)
+"contactshelper.ml" 146 4117 4140 "contactshelper.ml" 146 4117 4147
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 146 4117 4148 "contactshelper.ml" 146 4117 4152
+type(
+  string list
+)
+ident(
+  int_ref rest "contactshelper.ml" 146 4117 4127 "contactshelper.ml" 146 4117 4131
+)
+"contactshelper.ml" 146 4117 4135 "contactshelper.ml" 146 4117 4152
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 144 4031 4058 "contactshelper.ml" 146 4117 4152
+type(
+  string
+)
+"contactshelper.ml" 147 4154 4162 "contactshelper.ml" 147 4154 4166
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref help "contactshelper.ml" 144 4031 4044 "contactshelper.ml" 144 4031 4048
+)
+"contactshelper.ml" 147 4154 4167 "contactshelper.ml" 147 4154 4169
+type(
+  string
+)
+"contactshelper.ml" 147 4154 4170 "contactshelper.ml" 147 4154 4173
+type(
+  string list
+)
+ident(
+  int_ref lst "contactshelper.ml" 143 3996 4025 "contactshelper.ml" 143 3996 4028
+)
+"contactshelper.ml" 147 4154 4162 "contactshelper.ml" 147 4154 4173
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 144 4031 4036 "contactshelper.ml" 147 4154 4173
+type(
+  string
+)
+"contactshelper.ml" 156 4428 4433 "contactshelper.ml" 156 4428 4447
+type(
+  string list -> string
+)
+ident(
+  def listofStrToStr "contactshelper.ml" 169 4753 4754 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 156 4428 4448 "contactshelper.ml" 156 4428 4451
+type(
+  string list
+)
+ident(
+  def lst "contactshelper.ml" 157 4454 4459 "contactshelper.ml" 160 4555 4574
+)
+"contactshelper.ml" 157 4454 4467 "contactshelper.ml" 157 4454 4471
+type(
+  string -> string list -> string
+)
+ident(
+  def help "contactshelper.ml" 157 4454 4459 "contactshelper.ml" 160 4555 4574
+)
+"contactshelper.ml" 157 4454 4472 "contactshelper.ml" 157 4454 4475
+type(
+  string
+)
+ident(
+  def str "contactshelper.ml" 157 4454 4476 "contactshelper.ml" 159 4518 4553
+)
+"contactshelper.ml" 157 4454 4476 "contactshelper.ml" 157 4454 4479
+type(
+  string list
+)
+ident(
+  def lst "contactshelper.ml" 157 4454 4481 "contactshelper.ml" 159 4518 4553
+)
+"contactshelper.ml" 157 4454 4487 "contactshelper.ml" 157 4454 4490
+type(
+  string list
+)
+ident(
+  int_ref lst "contactshelper.ml" 157 4454 4476 "contactshelper.ml" 157 4454 4479
+)
+"contactshelper.ml" 158 4496 4503 "contactshelper.ml" 158 4496 4505
+type(
+  string list
+)
+"contactshelper.ml" 158 4496 4514 "contactshelper.ml" 158 4496 4517
+type(
+  string
+)
+ident(
+  int_ref str "contactshelper.ml" 157 4454 4472 "contactshelper.ml" 157 4454 4475
+)
+"contactshelper.ml" 159 4518 4525 "contactshelper.ml" 159 4518 4526
+type(
+  string
+)
+ident(
+  def h "contactshelper.ml" 159 4518 4536 "contactshelper.ml" 159 4518 4553
+)
+"contactshelper.ml" 159 4518 4528 "contactshelper.ml" 159 4518 4532
+type(
+  string list
+)
+ident(
+  def rest "contactshelper.ml" 159 4518 4536 "contactshelper.ml" 159 4518 4553
+)
+"contactshelper.ml" 159 4518 4525 "contactshelper.ml" 159 4518 4532
+type(
+  string list
+)
+"contactshelper.ml" 159 4518 4536 "contactshelper.ml" 159 4518 4540
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref help "contactshelper.ml" 157 4454 4467 "contactshelper.ml" 157 4454 4471
+)
+"contactshelper.ml" 159 4518 4542 "contactshelper.ml" 159 4518 4545
+type(
+  string
+)
+ident(
+  int_ref str "contactshelper.ml" 157 4454 4472 "contactshelper.ml" 157 4454 4475
+)
+"contactshelper.ml" 159 4518 4545 "contactshelper.ml" 159 4518 4546
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 159 4518 4546 "contactshelper.ml" 159 4518 4547
+type(
+  string
+)
+ident(
+  int_ref h "contactshelper.ml" 159 4518 4525 "contactshelper.ml" 159 4518 4526
+)
+"contactshelper.ml" 159 4518 4541 "contactshelper.ml" 159 4518 4548
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 159 4518 4549 "contactshelper.ml" 159 4518 4553
+type(
+  string list
+)
+ident(
+  int_ref rest "contactshelper.ml" 159 4518 4528 "contactshelper.ml" 159 4518 4532
+)
+"contactshelper.ml" 159 4518 4536 "contactshelper.ml" 159 4518 4553
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 157 4454 4481 "contactshelper.ml" 159 4518 4553
+type(
+  string
+)
+"contactshelper.ml" 160 4555 4563 "contactshelper.ml" 160 4555 4567
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref help "contactshelper.ml" 157 4454 4467 "contactshelper.ml" 157 4454 4471
+)
+"contactshelper.ml" 160 4555 4568 "contactshelper.ml" 160 4555 4570
+type(
+  string
+)
+"contactshelper.ml" 160 4555 4571 "contactshelper.ml" 160 4555 4574
+type(
+  string list
+)
+ident(
+  int_ref lst "contactshelper.ml" 156 4428 4448 "contactshelper.ml" 156 4428 4451
+)
+"contactshelper.ml" 160 4555 4563 "contactshelper.ml" 160 4555 4574
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 157 4454 4459 "contactshelper.ml" 160 4555 4574
+type(
+  string
+)
+"contactshelper.ml" 169 4753 4758 "contactshelper.ml" 169 4753 4777
+type(
+  Config.tuple list list -> string
+)
+ident(
+  def listoftuples_to_str "contactshelper.ml" 181 5101 5102 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 169 4753 4778 "contactshelper.ml" 169 4753 4784
+type(
+  Config.tuple list list
+)
+ident(
+  def tuples "contactshelper.ml" 170 4787 4791 "contactshelper.ml" 171 4843 4865
+)
+"contactshelper.ml" 170 4787 4795 "contactshelper.ml" 170 4787 4798
+type(
+  string list
+)
+ident(
+  def lst "contactshelper.ml" 171 4843 4847 "contactshelper.ml" 171 4843 4865
+)
+"contactshelper.ml" 170 4787 4800 "contactshelper.ml" 170 4787 4808
+type(
+  (Config.tuple list -> string) -> Config.tuple list list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"contactshelper.ml" 170 4787 4814 "contactshelper.ml" 170 4787 4815
+type(
+  Config.tuple list
+)
+ident(
+  def t "contactshelper.ml" 170 4787 4819 "contactshelper.ml" 170 4787 4831
+)
+"contactshelper.ml" 170 4787 4819 "contactshelper.ml" 170 4787 4829
+type(
+  Config.tuple list -> string
+)
+ident(
+  int_ref tupleToStr "contactshelper.ml" 119 3245 3249 "contactshelper.ml" 119 3245 3259
+)
+"contactshelper.ml" 170 4787 4830 "contactshelper.ml" 170 4787 4831
+type(
+  Config.tuple list
+)
+ident(
+  int_ref t "contactshelper.ml" 170 4787 4814 "contactshelper.ml" 170 4787 4815
+)
+"contactshelper.ml" 170 4787 4819 "contactshelper.ml" 170 4787 4831
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 170 4787 4809 "contactshelper.ml" 170 4787 4832
+type(
+  Config.tuple list -> string
+)
+"contactshelper.ml" 170 4787 4833 "contactshelper.ml" 170 4787 4839
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref tuples "contactshelper.ml" 169 4753 4778 "contactshelper.ml" 169 4753 4784
+)
+"contactshelper.ml" 170 4787 4800 "contactshelper.ml" 170 4787 4839
+call(
+  stack
+)
+type(
+  string list
+)
+"contactshelper.ml" 171 4843 4847 "contactshelper.ml" 171 4843 4861
+type(
+  string list -> string
+)
+ident(
+  int_ref listofStrToStr "contactshelper.ml" 156 4428 4433 "contactshelper.ml" 156 4428 4447
+)
+"contactshelper.ml" 171 4843 4862 "contactshelper.ml" 171 4843 4865
+type(
+  string list
+)
+ident(
+  int_ref lst "contactshelper.ml" 170 4787 4795 "contactshelper.ml" 170 4787 4798
+)
+"contactshelper.ml" 171 4843 4847 "contactshelper.ml" 171 4843 4865
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 170 4787 4791 "contactshelper.ml" 171 4843 4865
+type(
+  string
+)
+"contactshelper.ml" 181 5101 5106 "contactshelper.ml" 181 5101 5116
+type(
+  string -> string -> string -> string -> string
+)
+ident(
+  def _makeQuery "contactshelper.ml" 190 5426 5427 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 181 5101 5117 "contactshelper.ml" 181 5101 5121
+type(
+  string
+)
+ident(
+  def subj "contactshelper.ml" 181 5101 5122 "contactshelper.ml" 182 5143 5210
+)
+"contactshelper.ml" 181 5101 5122 "contactshelper.ml" 181 5101 5126
+type(
+  string
+)
+ident(
+  def pred "contactshelper.ml" 181 5101 5127 "contactshelper.ml" 182 5143 5210
+)
+"contactshelper.ml" 181 5101 5127 "contactshelper.ml" 181 5101 5133
+type(
+  string
+)
+ident(
+  def qryvar "contactshelper.ml" 181 5101 5134 "contactshelper.ml" 182 5143 5210
+)
+"contactshelper.ml" 181 5101 5134 "contactshelper.ml" 181 5101 5141
+type(
+  string
+)
+ident(
+  def context "contactshelper.ml" 182 5143 5147 "contactshelper.ml" 182 5143 5210
+)
+"contactshelper.ml" 182 5143 5147 "contactshelper.ml" 182 5143 5153
+type(
+  string
+)
+"contactshelper.ml" 182 5143 5154 "contactshelper.ml" 182 5143 5155
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 182 5143 5156 "contactshelper.ml" 182 5143 5160
+type(
+  string
+)
+ident(
+  int_ref subj "contactshelper.ml" 181 5101 5117 "contactshelper.ml" 181 5101 5121
+)
+"contactshelper.ml" 182 5143 5161 "contactshelper.ml" 182 5143 5162
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 182 5143 5163 "contactshelper.ml" 182 5143 5166
+type(
+  string
+)
+"contactshelper.ml" 182 5143 5167 "contactshelper.ml" 182 5143 5168
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 182 5143 5169 "contactshelper.ml" 182 5143 5173
+type(
+  string
+)
+ident(
+  int_ref pred "contactshelper.ml" 181 5101 5122 "contactshelper.ml" 181 5101 5126
+)
+"contactshelper.ml" 182 5143 5174 "contactshelper.ml" 182 5143 5175
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 182 5143 5176 "contactshelper.ml" 182 5143 5179
+type(
+  string
+)
+"contactshelper.ml" 182 5143 5180 "contactshelper.ml" 182 5143 5181
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 182 5143 5182 "contactshelper.ml" 182 5143 5188
+type(
+  string
+)
+ident(
+  int_ref qryvar "contactshelper.ml" 181 5101 5127 "contactshelper.ml" 181 5101 5133
+)
+"contactshelper.ml" 182 5143 5189 "contactshelper.ml" 182 5143 5190
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 182 5143 5191 "contactshelper.ml" 182 5143 5194
+type(
+  string
+)
+"contactshelper.ml" 182 5143 5195 "contactshelper.ml" 182 5143 5196
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 182 5143 5197 "contactshelper.ml" 182 5143 5204
+type(
+  string
+)
+ident(
+  int_ref context "contactshelper.ml" 181 5101 5134 "contactshelper.ml" 181 5101 5141
+)
+"contactshelper.ml" 182 5143 5205 "contactshelper.ml" 182 5143 5206
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 182 5143 5207 "contactshelper.ml" 182 5143 5210
+type(
+  string
+)
+"contactshelper.ml" 182 5143 5197 "contactshelper.ml" 182 5143 5210
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 182 5143 5191 "contactshelper.ml" 182 5143 5210
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 182 5143 5182 "contactshelper.ml" 182 5143 5210
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 182 5143 5176 "contactshelper.ml" 182 5143 5210
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 182 5143 5169 "contactshelper.ml" 182 5143 5210
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 182 5143 5163 "contactshelper.ml" 182 5143 5210
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 182 5143 5156 "contactshelper.ml" 182 5143 5210
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 182 5143 5147 "contactshelper.ml" 182 5143 5210
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 190 5426 5431 "contactshelper.ml" 190 5426 5444
+type(
+  string -> string -> string -> string -> string
+)
+ident(
+  def makeSimpleQry "contactshelper.ml" 201 5722 5722 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 190 5426 5445 "contactshelper.ml" 190 5426 5449
+type(
+  string
+)
+ident(
+  def subj "contactshelper.ml" 190 5426 5450 "contactshelper.ml" 191 5471 5538
+)
+"contactshelper.ml" 190 5426 5450 "contactshelper.ml" 190 5426 5454
+type(
+  string
+)
+ident(
+  def pred "contactshelper.ml" 190 5426 5455 "contactshelper.ml" 191 5471 5538
+)
+"contactshelper.ml" 190 5426 5455 "contactshelper.ml" 190 5426 5461
+type(
+  string
+)
+ident(
+  def qryvar "contactshelper.ml" 190 5426 5462 "contactshelper.ml" 191 5471 5538
+)
+"contactshelper.ml" 190 5426 5462 "contactshelper.ml" 190 5426 5469
+type(
+  string
+)
+ident(
+  def context "contactshelper.ml" 191 5471 5475 "contactshelper.ml" 191 5471 5538
+)
+"contactshelper.ml" 191 5471 5475 "contactshelper.ml" 191 5471 5481
+type(
+  string
+)
+"contactshelper.ml" 191 5471 5482 "contactshelper.ml" 191 5471 5483
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 191 5471 5484 "contactshelper.ml" 191 5471 5488
+type(
+  string
+)
+ident(
+  int_ref subj "contactshelper.ml" 190 5426 5445 "contactshelper.ml" 190 5426 5449
+)
+"contactshelper.ml" 191 5471 5489 "contactshelper.ml" 191 5471 5490
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 191 5471 5491 "contactshelper.ml" 191 5471 5494
+type(
+  string
+)
+"contactshelper.ml" 191 5471 5495 "contactshelper.ml" 191 5471 5496
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 191 5471 5497 "contactshelper.ml" 191 5471 5501
+type(
+  string
+)
+ident(
+  int_ref pred "contactshelper.ml" 190 5426 5450 "contactshelper.ml" 190 5426 5454
+)
+"contactshelper.ml" 191 5471 5502 "contactshelper.ml" 191 5471 5503
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 191 5471 5504 "contactshelper.ml" 191 5471 5507
+type(
+  string
+)
+"contactshelper.ml" 191 5471 5508 "contactshelper.ml" 191 5471 5509
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 191 5471 5510 "contactshelper.ml" 191 5471 5516
+type(
+  string
+)
+ident(
+  int_ref qryvar "contactshelper.ml" 190 5426 5455 "contactshelper.ml" 190 5426 5461
+)
+"contactshelper.ml" 191 5471 5517 "contactshelper.ml" 191 5471 5518
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 191 5471 5519 "contactshelper.ml" 191 5471 5522
+type(
+  string
+)
+"contactshelper.ml" 191 5471 5523 "contactshelper.ml" 191 5471 5524
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 191 5471 5525 "contactshelper.ml" 191 5471 5532
+type(
+  string
+)
+ident(
+  int_ref context "contactshelper.ml" 190 5426 5462 "contactshelper.ml" 190 5426 5469
+)
+"contactshelper.ml" 191 5471 5533 "contactshelper.ml" 191 5471 5534
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 191 5471 5535 "contactshelper.ml" 191 5471 5538
+type(
+  string
+)
+"contactshelper.ml" 191 5471 5525 "contactshelper.ml" 191 5471 5538
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 191 5471 5519 "contactshelper.ml" 191 5471 5538
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 191 5471 5510 "contactshelper.ml" 191 5471 5538
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 191 5471 5504 "contactshelper.ml" 191 5471 5538
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 191 5471 5497 "contactshelper.ml" 191 5471 5538
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 191 5471 5491 "contactshelper.ml" 191 5471 5538
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 191 5471 5484 "contactshelper.ml" 191 5471 5538
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 191 5471 5475 "contactshelper.ml" 191 5471 5538
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 201 5722 5726 "contactshelper.ml" 201 5722 5739
+type(
+  string Config.element_type -> string
+)
+ident(
+  def constStrToStr "contactshelper.ml" 213 6128 6128 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 201 5722 5740 "contactshelper.ml" 201 5722 5748
+type(
+  string Config.element_type
+)
+ident(
+  def constStr "contactshelper.ml" 201 5722 5750 "contactshelper.ml" 203 5805 5846
+)
+"contactshelper.ml" 201 5722 5756 "contactshelper.ml" 201 5722 5764
+type(
+  string Config.element_type
+)
+ident(
+  int_ref constStr "contactshelper.ml" 201 5722 5740 "contactshelper.ml" 201 5722 5748
+)
+"contactshelper.ml" 202 5770 5785 "contactshelper.ml" 202 5770 5790
+type(
+  string
+)
+ident(
+  def value "contactshelper.ml" 202 5770 5794 "contactshelper.ml" 202 5770 5804
+)
+"contactshelper.ml" 202 5770 5776 "contactshelper.ml" 202 5770 5790
+type(
+  string Config.element_type
+)
+"contactshelper.ml" 202 5770 5794 "contactshelper.ml" 202 5770 5798
+type(
+  string
+)
+"contactshelper.ml" 202 5770 5798 "contactshelper.ml" 202 5770 5799
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 202 5770 5799 "contactshelper.ml" 202 5770 5804
+type(
+  string
+)
+ident(
+  int_ref value "contactshelper.ml" 202 5770 5785 "contactshelper.ml" 202 5770 5790
+)
+"contactshelper.ml" 202 5770 5794 "contactshelper.ml" 202 5770 5804
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 203 5805 5811 "contactshelper.ml" 203 5805 5812
+type(
+  string Config.element_type
+)
+"contactshelper.ml" 203 5805 5829 "contactshelper.ml" 203 5805 5834
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"contactshelper.ml" 203 5805 5835 "contactshelper.ml" 203 5805 5846
+type(
+  exn
+)
+"contactshelper.ml" 203 5805 5829 "contactshelper.ml" 203 5805 5846
+type(
+  string
+)
+"contactshelper.ml" 201 5722 5750 "contactshelper.ml" 203 5805 5846
+type(
+  string
+)
+"contactshelper.ml" 213 6128 6132 "contactshelper.ml" 213 6128 6148
+type(
+  string -> string Config.element_type list -> string list
+)
+ident(
+  def tupleLstToStrLst "contactshelper.ml" 224 6490 6490 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 213 6128 6149 "contactshelper.ml" 213 6128 6152
+type(
+  string
+)
+ident(
+  def var "contactshelper.ml" 213 6128 6153 "contactshelper.ml" 215 6205 6226
+)
+"contactshelper.ml" 213 6128 6153 "contactshelper.ml" 213 6128 6156
+type(
+  string Config.element_type list
+)
+ident(
+  def lst "contactshelper.ml" 214 6159 6163 "contactshelper.ml" 215 6205 6226
+)
+"contactshelper.ml" 214 6159 6167 "contactshelper.ml" 214 6159 6173
+type(
+  string list
+)
+ident(
+  def resLst "contactshelper.ml" 215 6205 6209 "contactshelper.ml" 215 6205 6226
+)
+"contactshelper.ml" 214 6159 6175 "contactshelper.ml" 214 6159 6183
+type(
+  (string Config.element_type -> string) ->
+  string Config.element_type list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"contactshelper.ml" 214 6159 6184 "contactshelper.ml" 214 6159 6197
+type(
+  string Config.element_type -> string
+)
+ident(
+  int_ref constStrToStr "contactshelper.ml" 201 5722 5726 "contactshelper.ml" 201 5722 5739
+)
+"contactshelper.ml" 214 6159 6198 "contactshelper.ml" 214 6159 6201
+type(
+  string Config.element_type list
+)
+ident(
+  int_ref lst "contactshelper.ml" 213 6128 6153 "contactshelper.ml" 213 6128 6156
+)
+"contactshelper.ml" 214 6159 6175 "contactshelper.ml" 214 6159 6201
+call(
+  stack
+)
+type(
+  string list
+)
+"contactshelper.ml" 215 6205 6210 "contactshelper.ml" 215 6205 6213
+type(
+  string
+)
+ident(
+  int_ref var "contactshelper.ml" 213 6128 6149 "contactshelper.ml" 213 6128 6152
+)
+"contactshelper.ml" 215 6205 6213 "contactshelper.ml" 215 6205 6214
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 215 6205 6214 "contactshelper.ml" 215 6205 6217
+type(
+  string
+)
+"contactshelper.ml" 215 6205 6209 "contactshelper.ml" 215 6205 6218
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 215 6205 6220 "contactshelper.ml" 215 6205 6226
+type(
+  string list
+)
+ident(
+  int_ref resLst "contactshelper.ml" 214 6159 6167 "contactshelper.ml" 214 6159 6173
+)
+"contactshelper.ml" 215 6205 6209 "contactshelper.ml" 215 6205 6226
+type(
+  string list
+)
+"contactshelper.ml" 214 6159 6163 "contactshelper.ml" 215 6205 6226
+type(
+  string list
+)
+"contactshelper.ml" 224 6490 6494 "contactshelper.ml" 224 6490 6504
+type(
+  string -> string Config.element_type list -> string
+)
+ident(
+  def tupleToStr "contactshelper.ml" 229 6601 6601 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 224 6490 6505 "contactshelper.ml" 224 6490 6508
+type(
+  string
+)
+ident(
+  def var "contactshelper.ml" 224 6490 6509 "contactshelper.ml" 226 6561 6598
+)
+"contactshelper.ml" 224 6490 6509 "contactshelper.ml" 224 6490 6512
+type(
+  string Config.element_type list
+)
+ident(
+  def lst "contactshelper.ml" 225 6515 6519 "contactshelper.ml" 226 6561 6598
+)
+"contactshelper.ml" 225 6515 6523 "contactshelper.ml" 225 6515 6529
+type(
+  string list
+)
+ident(
+  def resLst "contactshelper.ml" 226 6561 6565 "contactshelper.ml" 226 6561 6598
+)
+"contactshelper.ml" 225 6515 6531 "contactshelper.ml" 225 6515 6539
+type(
+  (string Config.element_type -> string) ->
+  string Config.element_type list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"contactshelper.ml" 225 6515 6540 "contactshelper.ml" 225 6515 6553
+type(
+  string Config.element_type -> string
+)
+ident(
+  int_ref constStrToStr "contactshelper.ml" 201 5722 5726 "contactshelper.ml" 201 5722 5739
+)
+"contactshelper.ml" 225 6515 6554 "contactshelper.ml" 225 6515 6557
+type(
+  string Config.element_type list
+)
+ident(
+  int_ref lst "contactshelper.ml" 224 6490 6509 "contactshelper.ml" 224 6490 6512
+)
+"contactshelper.ml" 225 6515 6531 "contactshelper.ml" 225 6515 6557
+call(
+  stack
+)
+type(
+  string list
+)
+"contactshelper.ml" 226 6561 6565 "contactshelper.ml" 226 6561 6579
+type(
+  string list -> string
+)
+ident(
+  int_ref listofStrToStr "contactshelper.ml" 156 4428 4433 "contactshelper.ml" 156 4428 4447
+)
+"contactshelper.ml" 226 6561 6581 "contactshelper.ml" 226 6561 6584
+type(
+  string
+)
+ident(
+  int_ref var "contactshelper.ml" 224 6490 6505 "contactshelper.ml" 224 6490 6508
+)
+"contactshelper.ml" 226 6561 6584 "contactshelper.ml" 226 6561 6585
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 226 6561 6585 "contactshelper.ml" 226 6561 6588
+type(
+  string
+)
+"contactshelper.ml" 226 6561 6580 "contactshelper.ml" 226 6561 6589
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 226 6561 6591 "contactshelper.ml" 226 6561 6597
+type(
+  string list
+)
+ident(
+  int_ref resLst "contactshelper.ml" 225 6515 6523 "contactshelper.ml" 225 6515 6529
+)
+"contactshelper.ml" 226 6561 6579 "contactshelper.ml" 226 6561 6598
+type(
+  string list
+)
+"contactshelper.ml" 226 6561 6565 "contactshelper.ml" 226 6561 6598
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 225 6515 6519 "contactshelper.ml" 226 6561 6598
+type(
+  string
+)
+"contactshelper.ml" 229 6601 6605 "contactshelper.ml" 229 6601 6618
+type(
+  string * string Config.element_type list -> string
+)
+ident(
+  def tupleToString "contactshelper.ml" 234 6704 6704 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 229 6601 6619 "contactshelper.ml" 229 6601 6624
+type(
+  string * string Config.element_type list
+)
+ident(
+  def tuple "contactshelper.ml" 230 6626 6630 "contactshelper.ml" 232 6680 6702
+)
+"contactshelper.ml" 230 6626 6634 "contactshelper.ml" 230 6626 6637
+type(
+  string
+)
+ident(
+  def var "contactshelper.ml" 231 6653 6657 "contactshelper.ml" 232 6680 6702
+)
+"contactshelper.ml" 230 6626 6639 "contactshelper.ml" 230 6626 6642
+type(
+  string * string Config.element_type list -> string
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"contactshelper.ml" 230 6626 6642 "contactshelper.ml" 230 6626 6649
+type(
+  string * string Config.element_type list
+)
+ident(
+  int_ref tuple "contactshelper.ml" 229 6601 6619 "contactshelper.ml" 229 6601 6624
+)
+"contactshelper.ml" 230 6626 6639 "contactshelper.ml" 230 6626 6649
+type(
+  string
+)
+"contactshelper.ml" 231 6653 6661 "contactshelper.ml" 231 6653 6664
+type(
+  string Config.element_type list
+)
+ident(
+  def lst "contactshelper.ml" 232 6680 6684 "contactshelper.ml" 232 6680 6702
+)
+"contactshelper.ml" 231 6653 6666 "contactshelper.ml" 231 6653 6669
+type(
+  string * string Config.element_type list -> string Config.element_type list
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"contactshelper.ml" 231 6653 6669 "contactshelper.ml" 231 6653 6676
+type(
+  string * string Config.element_type list
+)
+ident(
+  int_ref tuple "contactshelper.ml" 229 6601 6619 "contactshelper.ml" 229 6601 6624
+)
+"contactshelper.ml" 231 6653 6666 "contactshelper.ml" 231 6653 6676
+type(
+  string Config.element_type list
+)
+"contactshelper.ml" 232 6680 6684 "contactshelper.ml" 232 6680 6694
+type(
+  string -> string Config.element_type list -> string
+)
+ident(
+  int_ref tupleToStr "contactshelper.ml" 224 6490 6494 "contactshelper.ml" 224 6490 6504
+)
+"contactshelper.ml" 232 6680 6695 "contactshelper.ml" 232 6680 6698
+type(
+  string
+)
+ident(
+  int_ref var "contactshelper.ml" 230 6626 6634 "contactshelper.ml" 230 6626 6637
+)
+"contactshelper.ml" 232 6680 6699 "contactshelper.ml" 232 6680 6702
+type(
+  string Config.element_type list
+)
+ident(
+  int_ref lst "contactshelper.ml" 231 6653 6661 "contactshelper.ml" 231 6653 6664
+)
+"contactshelper.ml" 232 6680 6684 "contactshelper.ml" 232 6680 6702
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 231 6653 6657 "contactshelper.ml" 232 6680 6702
+type(
+  string
+)
+"contactshelper.ml" 230 6626 6630 "contactshelper.ml" 232 6680 6702
+type(
+  string
+)
+"contactshelper.ml" 234 6704 6708 "contactshelper.ml" 234 6704 6719
+type(
+  (string * string Config.element_type list) list -> string
+)
+ident(
+  def mapLstToStr "contactshelper.ml" 240 6912 6912 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 234 6704 6720 "contactshelper.ml" 234 6704 6726
+type(
+  (string * string Config.element_type list) list
+)
+ident(
+  def mapLst "contactshelper.ml" 234 6704 6729 "contactshelper.ml" 234 6704 6775
+)
+"contactshelper.ml" 234 6704 6729 "contactshelper.ml" 234 6704 6743
+type(
+  string list -> string
+)
+ident(
+  int_ref listofStrToStr "contactshelper.ml" 156 4428 4433 "contactshelper.ml" 156 4428 4447
+)
+"contactshelper.ml" 234 6704 6745 "contactshelper.ml" 234 6704 6753
+type(
+  (string * string Config.element_type list -> string) ->
+  (string * string Config.element_type list) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"contactshelper.ml" 234 6704 6754 "contactshelper.ml" 234 6704 6767
+type(
+  string * string Config.element_type list -> string
+)
+ident(
+  int_ref tupleToString "contactshelper.ml" 229 6601 6605 "contactshelper.ml" 229 6601 6618
+)
+"contactshelper.ml" 234 6704 6768 "contactshelper.ml" 234 6704 6774
+type(
+  (string * string Config.element_type list) list
+)
+ident(
+  int_ref mapLst "contactshelper.ml" 234 6704 6720 "contactshelper.ml" 234 6704 6726
+)
+"contactshelper.ml" 234 6704 6744 "contactshelper.ml" 234 6704 6775
+call(
+  stack
+)
+type(
+  string list
+)
+"contactshelper.ml" 234 6704 6729 "contactshelper.ml" 234 6704 6775
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+type(
+  string Config.element_type -> string
+)
+ident(
+  def val_to_string "contactshelper.ml" 256 7278 7278 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 241 6941 6956 "contactshelper.ml" 241 6941 6957
+type(
+  string
+)
+ident(
+  def x "contactshelper.ml" 241 6941 6961 "contactshelper.ml" 241 6941 6962
+)
+"contactshelper.ml" 241 6941 6947 "contactshelper.ml" 241 6941 6957
+type(
+  string Config.element_type
+)
+"contactshelper.ml" 241 6941 6961 "contactshelper.ml" 241 6941 6962
+type(
+  string
+)
+ident(
+  int_ref x "contactshelper.ml" 241 6941 6956 "contactshelper.ml" 241 6941 6957
+)
+"contactshelper.ml" 242 6963 6978 "contactshelper.ml" 242 6963 6979
+type(
+  string
+)
+ident(
+  def x "contactshelper.ml" 242 6963 6983 "contactshelper.ml" 242 6963 6984
+)
+"contactshelper.ml" 242 6963 6969 "contactshelper.ml" 242 6963 6979
+type(
+  string Config.element_type
+)
+"contactshelper.ml" 242 6963 6983 "contactshelper.ml" 242 6963 6984
+type(
+  string
+)
+ident(
+  int_ref x "contactshelper.ml" 242 6963 6978 "contactshelper.ml" 242 6963 6979
+)
+"contactshelper.ml" 240 6912 6932 "contactshelper.ml" 242 6963 6984
+type(
+  string Config.element_type -> string
+)
+"contactshelper.ml" 256 7278 7282 "contactshelper.ml" 256 7278 7295
+type(
+  Config.tuple -> string
+)
+ident(
+  def qry_to_string "contactshelper.ml" 290 8340 8340 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 256 7278 7296 "contactshelper.ml" 256 7278 7299
+type(
+  Config.tuple
+)
+ident(
+  def qry "contactshelper.ml" 257 7301 7302 "contactshelper.ml" 261 7469 7513
+)
+"contactshelper.ml" 257 7301 7306 "contactshelper.ml" 257 7301 7308
+type(
+  Config.t
+)
+ident(
+  def sb "contactshelper.ml" 258 7343 7344 "contactshelper.ml" 261 7469 7513
+)
+"contactshelper.ml" 257 7301 7311 "contactshelper.ml" 257 7301 7324
+type(
+  Config.t Config.element_type -> Config.t
+)
+ident(
+  int_ref val_to_string "contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+)
+"contactshelper.ml" 257 7301 7325 "contactshelper.ml" 257 7301 7328
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "contactshelper.ml" 256 7278 7296 "contactshelper.ml" 256 7278 7299
+)
+"contactshelper.ml" 257 7301 7325 "contactshelper.ml" 257 7301 7333
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 257 7301 7310 "contactshelper.ml" 257 7301 7334
+call(
+  stack
+)
+type(
+  Config.t
+)
+"contactshelper.ml" 258 7343 7348 "contactshelper.ml" 258 7343 7350
+type(
+  Config.t
+)
+ident(
+  def pr "contactshelper.ml" 259 7385 7386 "contactshelper.ml" 261 7469 7513
+)
+"contactshelper.ml" 258 7343 7353 "contactshelper.ml" 258 7343 7366
+type(
+  Config.t Config.element_type -> Config.t
+)
+ident(
+  int_ref val_to_string "contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+)
+"contactshelper.ml" 258 7343 7367 "contactshelper.ml" 258 7343 7370
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "contactshelper.ml" 256 7278 7296 "contactshelper.ml" 256 7278 7299
+)
+"contactshelper.ml" 258 7343 7367 "contactshelper.ml" 258 7343 7375
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 258 7343 7352 "contactshelper.ml" 258 7343 7376
+call(
+  stack
+)
+type(
+  Config.t
+)
+"contactshelper.ml" 259 7385 7390 "contactshelper.ml" 259 7385 7392
+type(
+  Config.obj_t
+)
+ident(
+  def ob "contactshelper.ml" 260 7427 7428 "contactshelper.ml" 261 7469 7513
+)
+"contactshelper.ml" 259 7385 7395 "contactshelper.ml" 259 7385 7408
+type(
+  Config.obj_t Config.element_type -> Config.obj_t
+)
+ident(
+  int_ref val_to_string "contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+)
+"contactshelper.ml" 259 7385 7409 "contactshelper.ml" 259 7385 7412
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "contactshelper.ml" 256 7278 7296 "contactshelper.ml" 256 7278 7299
+)
+"contactshelper.ml" 259 7385 7409 "contactshelper.ml" 259 7385 7416
+type(
+  Config.obj_t Config.element_type
+)
+"contactshelper.ml" 259 7385 7394 "contactshelper.ml" 259 7385 7417
+call(
+  stack
+)
+type(
+  Config.obj_t
+)
+"contactshelper.ml" 260 7427 7432 "contactshelper.ml" 260 7427 7434
+type(
+  Config.context
+)
+ident(
+  def ct "contactshelper.ml" 261 7469 7470 "contactshelper.ml" 261 7469 7513
+)
+"contactshelper.ml" 260 7427 7437 "contactshelper.ml" 260 7427 7450
+type(
+  Config.context Config.element_type -> Config.context
+)
+ident(
+  int_ref val_to_string "contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+)
+"contactshelper.ml" 260 7427 7451 "contactshelper.ml" 260 7427 7454
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "contactshelper.ml" 256 7278 7296 "contactshelper.ml" 256 7278 7299
+)
+"contactshelper.ml" 260 7427 7451 "contactshelper.ml" 260 7427 7459
+type(
+  Config.context Config.element_type
+)
+"contactshelper.ml" 260 7427 7436 "contactshelper.ml" 260 7427 7460
+call(
+  stack
+)
+type(
+  Config.context
+)
+"contactshelper.ml" 261 7469 7470 "contactshelper.ml" 261 7469 7472
+type(
+  Config.t
+)
+ident(
+  int_ref sb "contactshelper.ml" 257 7301 7306 "contactshelper.ml" 257 7301 7308
+)
+"contactshelper.ml" 261 7469 7472 "contactshelper.ml" 261 7469 7473
+type(
+  Config.t -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 261 7469 7473 "contactshelper.ml" 261 7469 7477
+type(
+  string
+)
+"contactshelper.ml" 261 7469 7479 "contactshelper.ml" 261 7469 7480
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 261 7469 7482 "contactshelper.ml" 261 7469 7484
+type(
+  Config.t
+)
+ident(
+  int_ref pr "contactshelper.ml" 258 7343 7348 "contactshelper.ml" 258 7343 7350
+)
+"contactshelper.ml" 261 7469 7484 "contactshelper.ml" 261 7469 7485
+type(
+  Config.t -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 261 7469 7485 "contactshelper.ml" 261 7469 7489
+type(
+  string
+)
+"contactshelper.ml" 261 7469 7491 "contactshelper.ml" 261 7469 7492
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 261 7469 7494 "contactshelper.ml" 261 7469 7496
+type(
+  Config.obj_t
+)
+ident(
+  int_ref ob "contactshelper.ml" 259 7385 7390 "contactshelper.ml" 259 7385 7392
+)
+"contactshelper.ml" 261 7469 7496 "contactshelper.ml" 261 7469 7497
+type(
+  Config.obj_t -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 261 7469 7497 "contactshelper.ml" 261 7469 7501
+type(
+  string
+)
+"contactshelper.ml" 261 7469 7503 "contactshelper.ml" 261 7469 7504
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 261 7469 7506 "contactshelper.ml" 261 7469 7508
+type(
+  Config.context
+)
+ident(
+  int_ref ct "contactshelper.ml" 260 7427 7432 "contactshelper.ml" 260 7427 7434
+)
+"contactshelper.ml" 261 7469 7508 "contactshelper.ml" 261 7469 7509
+type(
+  Config.context -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 261 7469 7509 "contactshelper.ml" 261 7469 7513
+type(
+  string
+)
+"contactshelper.ml" 261 7469 7506 "contactshelper.ml" 261 7469 7513
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 261 7469 7497 "contactshelper.ml" 261 7469 7513
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 261 7469 7494 "contactshelper.ml" 261 7469 7513
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 261 7469 7485 "contactshelper.ml" 261 7469 7513
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 261 7469 7482 "contactshelper.ml" 261 7469 7513
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 261 7469 7473 "contactshelper.ml" 261 7469 7513
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 261 7469 7470 "contactshelper.ml" 261 7469 7513
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 260 7427 7428 "contactshelper.ml" 261 7469 7513
+type(
+  string
+)
+"contactshelper.ml" 259 7385 7386 "contactshelper.ml" 261 7469 7513
+type(
+  string
+)
+"contactshelper.ml" 258 7343 7344 "contactshelper.ml" 261 7469 7513
+type(
+  string
+)
+"contactshelper.ml" 257 7301 7302 "contactshelper.ml" 261 7469 7513
+type(
+  string
+)
+"contactshelper.ml" 290 8340 8344 "contactshelper.ml" 290 8340 8357
+type(
+  Config.tuple -> string
+)
+ident(
+  def tup_to_string "contactshelper.ml" 297 8582 8582 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 290 8340 8358 "contactshelper.ml" 290 8340 8361
+type(
+  Config.tuple
+)
+ident(
+  def tup "contactshelper.ml" 291 8363 8364 "contactshelper.ml" 295 8531 8580
+)
+"contactshelper.ml" 291 8363 8368 "contactshelper.ml" 291 8363 8370
+type(
+  Config.t
+)
+ident(
+  def sb "contactshelper.ml" 292 8405 8406 "contactshelper.ml" 295 8531 8580
+)
+"contactshelper.ml" 291 8363 8373 "contactshelper.ml" 291 8363 8386
+type(
+  Config.t Config.element_type -> Config.t
+)
+ident(
+  int_ref val_to_string "contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+)
+"contactshelper.ml" 291 8363 8387 "contactshelper.ml" 291 8363 8390
+type(
+  Config.tuple
+)
+ident(
+  int_ref tup "contactshelper.ml" 290 8340 8358 "contactshelper.ml" 290 8340 8361
+)
+"contactshelper.ml" 291 8363 8387 "contactshelper.ml" 291 8363 8395
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 291 8363 8372 "contactshelper.ml" 291 8363 8396
+call(
+  stack
+)
+type(
+  Config.t
+)
+"contactshelper.ml" 292 8405 8410 "contactshelper.ml" 292 8405 8412
+type(
+  Config.t
+)
+ident(
+  def pr "contactshelper.ml" 293 8447 8448 "contactshelper.ml" 295 8531 8580
+)
+"contactshelper.ml" 292 8405 8415 "contactshelper.ml" 292 8405 8428
+type(
+  Config.t Config.element_type -> Config.t
+)
+ident(
+  int_ref val_to_string "contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+)
+"contactshelper.ml" 292 8405 8429 "contactshelper.ml" 292 8405 8432
+type(
+  Config.tuple
+)
+ident(
+  int_ref tup "contactshelper.ml" 290 8340 8358 "contactshelper.ml" 290 8340 8361
+)
+"contactshelper.ml" 292 8405 8429 "contactshelper.ml" 292 8405 8437
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 292 8405 8414 "contactshelper.ml" 292 8405 8438
+call(
+  stack
+)
+type(
+  Config.t
+)
+"contactshelper.ml" 293 8447 8452 "contactshelper.ml" 293 8447 8454
+type(
+  Config.obj_t
+)
+ident(
+  def ob "contactshelper.ml" 294 8489 8490 "contactshelper.ml" 295 8531 8580
+)
+"contactshelper.ml" 293 8447 8457 "contactshelper.ml" 293 8447 8470
+type(
+  Config.obj_t Config.element_type -> Config.obj_t
+)
+ident(
+  int_ref val_to_string "contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+)
+"contactshelper.ml" 293 8447 8471 "contactshelper.ml" 293 8447 8474
+type(
+  Config.tuple
+)
+ident(
+  int_ref tup "contactshelper.ml" 290 8340 8358 "contactshelper.ml" 290 8340 8361
+)
+"contactshelper.ml" 293 8447 8471 "contactshelper.ml" 293 8447 8478
+type(
+  Config.obj_t Config.element_type
+)
+"contactshelper.ml" 293 8447 8456 "contactshelper.ml" 293 8447 8479
+call(
+  stack
+)
+type(
+  Config.obj_t
+)
+"contactshelper.ml" 294 8489 8494 "contactshelper.ml" 294 8489 8496
+type(
+  Config.context
+)
+ident(
+  def ct "contactshelper.ml" 295 8531 8532 "contactshelper.ml" 295 8531 8580
+)
+"contactshelper.ml" 294 8489 8499 "contactshelper.ml" 294 8489 8512
+type(
+  Config.context Config.element_type -> Config.context
+)
+ident(
+  int_ref val_to_string "contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+)
+"contactshelper.ml" 294 8489 8513 "contactshelper.ml" 294 8489 8516
+type(
+  Config.tuple
+)
+ident(
+  int_ref tup "contactshelper.ml" 290 8340 8358 "contactshelper.ml" 290 8340 8361
+)
+"contactshelper.ml" 294 8489 8513 "contactshelper.ml" 294 8489 8521
+type(
+  Config.context Config.element_type
+)
+"contactshelper.ml" 294 8489 8498 "contactshelper.ml" 294 8489 8522
+call(
+  stack
+)
+type(
+  Config.context
+)
+"contactshelper.ml" 295 8531 8532 "contactshelper.ml" 295 8531 8535
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8535 "contactshelper.ml" 295 8531 8536
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 295 8531 8536 "contactshelper.ml" 295 8531 8538
+type(
+  Config.t
+)
+ident(
+  int_ref sb "contactshelper.ml" 291 8363 8368 "contactshelper.ml" 291 8363 8370
+)
+"contactshelper.ml" 295 8531 8538 "contactshelper.ml" 295 8531 8539
+type(
+  Config.t -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 295 8531 8539 "contactshelper.ml" 295 8531 8542
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8544 "contactshelper.ml" 295 8531 8545
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 295 8531 8547 "contactshelper.ml" 295 8531 8549
+type(
+  Config.t
+)
+ident(
+  int_ref pr "contactshelper.ml" 292 8405 8410 "contactshelper.ml" 292 8405 8412
+)
+"contactshelper.ml" 295 8531 8549 "contactshelper.ml" 295 8531 8550
+type(
+  Config.t -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 295 8531 8550 "contactshelper.ml" 295 8531 8553
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8555 "contactshelper.ml" 295 8531 8556
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 295 8531 8558 "contactshelper.ml" 295 8531 8560
+type(
+  Config.obj_t
+)
+ident(
+  int_ref ob "contactshelper.ml" 293 8447 8452 "contactshelper.ml" 293 8447 8454
+)
+"contactshelper.ml" 295 8531 8560 "contactshelper.ml" 295 8531 8561
+type(
+  Config.obj_t -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 295 8531 8561 "contactshelper.ml" 295 8531 8564
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8566 "contactshelper.ml" 295 8531 8567
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 295 8531 8569 "contactshelper.ml" 295 8531 8571
+type(
+  Config.context
+)
+ident(
+  int_ref ct "contactshelper.ml" 294 8489 8494 "contactshelper.ml" 294 8489 8496
+)
+"contactshelper.ml" 295 8531 8571 "contactshelper.ml" 295 8531 8572
+type(
+  Config.context -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 295 8531 8572 "contactshelper.ml" 295 8531 8575
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8575 "contactshelper.ml" 295 8531 8576
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 295 8531 8576 "contactshelper.ml" 295 8531 8580
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8572 "contactshelper.ml" 295 8531 8580
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8569 "contactshelper.ml" 295 8531 8580
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8561 "contactshelper.ml" 295 8531 8580
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8558 "contactshelper.ml" 295 8531 8580
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8550 "contactshelper.ml" 295 8531 8580
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8547 "contactshelper.ml" 295 8531 8580
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8539 "contactshelper.ml" 295 8531 8580
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8536 "contactshelper.ml" 295 8531 8580
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 295 8531 8532 "contactshelper.ml" 295 8531 8580
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 294 8489 8490 "contactshelper.ml" 295 8531 8580
+type(
+  string
+)
+"contactshelper.ml" 293 8447 8448 "contactshelper.ml" 295 8531 8580
+type(
+  string
+)
+"contactshelper.ml" 292 8405 8406 "contactshelper.ml" 295 8531 8580
+type(
+  string
+)
+"contactshelper.ml" 291 8363 8364 "contactshelper.ml" 295 8531 8580
+type(
+  string
+)
+"contactshelper.ml" 297 8582 8586 "contactshelper.ml" 297 8582 8606
+type(
+  Config.tuple list -> string
+)
+ident(
+  def makeStrOfContactData "contactshelper.ml" 302 8740 8740 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 297 8582 8607 "contactshelper.ml" 297 8582 8613
+type(
+  Config.tuple list
+)
+ident(
+  def tupLst "contactshelper.ml" 298 8615 8619 "contactshelper.ml" 300 8720 8738
+)
+"contactshelper.ml" 298 8615 8623 "contactshelper.ml" 298 8615 8626
+type(
+  string list
+)
+ident(
+  def lst "contactshelper.ml" 299 8678 8682 "contactshelper.ml" 300 8720 8738
+)
+"contactshelper.ml" 298 8615 8628 "contactshelper.ml" 298 8615 8636
+type(
+  (Config.tuple -> string) -> Config.tuple list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"contactshelper.ml" 298 8615 8642 "contactshelper.ml" 298 8615 8645
+type(
+  Config.tuple
+)
+ident(
+  def tup "contactshelper.ml" 298 8615 8649 "contactshelper.ml" 298 8615 8666
+)
+"contactshelper.ml" 298 8615 8649 "contactshelper.ml" 298 8615 8662
+type(
+  Config.tuple -> string
+)
+ident(
+  int_ref tup_to_string "contactshelper.ml" 290 8340 8344 "contactshelper.ml" 290 8340 8357
+)
+"contactshelper.ml" 298 8615 8663 "contactshelper.ml" 298 8615 8666
+type(
+  Config.tuple
+)
+ident(
+  int_ref tup "contactshelper.ml" 298 8615 8642 "contactshelper.ml" 298 8615 8645
+)
+"contactshelper.ml" 298 8615 8649 "contactshelper.ml" 298 8615 8666
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 298 8615 8637 "contactshelper.ml" 298 8615 8667
+type(
+  Config.tuple -> string
+)
+"contactshelper.ml" 298 8615 8668 "contactshelper.ml" 298 8615 8674
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tupLst "contactshelper.ml" 297 8582 8607 "contactshelper.ml" 297 8582 8613
+)
+"contactshelper.ml" 298 8615 8628 "contactshelper.ml" 298 8615 8674
+call(
+  stack
+)
+type(
+  string list
+)
+"contactshelper.ml" 299 8678 8686 "contactshelper.ml" 299 8678 8689
+type(
+  string
+)
+ident(
+  def str "contactshelper.ml" 300 8720 8724 "contactshelper.ml" 300 8720 8738
+)
+"contactshelper.ml" 299 8678 8691 "contactshelper.ml" 299 8678 8705
+type(
+  (string -> string -> string) -> string -> string list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"contactshelper.ml" 299 8678 8706 "contactshelper.ml" 299 8678 8709
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 299 8678 8710 "contactshelper.ml" 299 8678 8712
+type(
+  string
+)
+"contactshelper.ml" 299 8678 8713 "contactshelper.ml" 299 8678 8716
+type(
+  string list
+)
+ident(
+  int_ref lst "contactshelper.ml" 298 8615 8623 "contactshelper.ml" 298 8615 8626
+)
+"contactshelper.ml" 299 8678 8691 "contactshelper.ml" 299 8678 8716
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 300 8720 8724 "contactshelper.ml" 300 8720 8727
+type(
+  string
+)
+"contactshelper.ml" 300 8720 8727 "contactshelper.ml" 300 8720 8728
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 300 8720 8729 "contactshelper.ml" 300 8720 8732
+type(
+  string
+)
+ident(
+  int_ref str "contactshelper.ml" 299 8678 8686 "contactshelper.ml" 299 8678 8689
+)
+"contactshelper.ml" 300 8720 8733 "contactshelper.ml" 300 8720 8734
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 300 8720 8735 "contactshelper.ml" 300 8720 8738
+type(
+  string
+)
+"contactshelper.ml" 300 8720 8729 "contactshelper.ml" 300 8720 8738
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 300 8720 8724 "contactshelper.ml" 300 8720 8738
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 299 8678 8682 "contactshelper.ml" 300 8720 8738
+type(
+  string
+)
+"contactshelper.ml" 298 8615 8619 "contactshelper.ml" 300 8720 8738
+type(
+  string
+)
+"contactshelper.ml" 302 8740 8744 "contactshelper.ml" 302 8740 8759
+type(
+  Config.tuple -> string
+)
+ident(
+  def tup_to_str_long "contactshelper.ml" 315 9106 9106 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 302 8740 8760 "contactshelper.ml" 302 8740 8763
+type(
+  Config.tuple
+)
+ident(
+  def tup "contactshelper.ml" 303 8765 8766 "contactshelper.ml" 312 9079 9103
+)
+"contactshelper.ml" 303 8765 8770 "contactshelper.ml" 303 8765 8772
+type(
+  Config.t
+)
+ident(
+  def sb "contactshelper.ml" 304 8807 8808 "contactshelper.ml" 312 9079 9103
+)
+"contactshelper.ml" 303 8765 8775 "contactshelper.ml" 303 8765 8788
+type(
+  Config.t Config.element_type -> Config.t
+)
+ident(
+  int_ref val_to_string "contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+)
+"contactshelper.ml" 303 8765 8789 "contactshelper.ml" 303 8765 8792
+type(
+  Config.tuple
+)
+ident(
+  int_ref tup "contactshelper.ml" 302 8740 8760 "contactshelper.ml" 302 8740 8763
+)
+"contactshelper.ml" 303 8765 8789 "contactshelper.ml" 303 8765 8797
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 303 8765 8774 "contactshelper.ml" 303 8765 8798
+call(
+  stack
+)
+type(
+  Config.t
+)
+"contactshelper.ml" 304 8807 8812 "contactshelper.ml" 304 8807 8814
+type(
+  Config.t
+)
+ident(
+  def pr "contactshelper.ml" 305 8849 8850 "contactshelper.ml" 312 9079 9103
+)
+"contactshelper.ml" 304 8807 8817 "contactshelper.ml" 304 8807 8830
+type(
+  Config.t Config.element_type -> Config.t
+)
+ident(
+  int_ref val_to_string "contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+)
+"contactshelper.ml" 304 8807 8831 "contactshelper.ml" 304 8807 8834
+type(
+  Config.tuple
+)
+ident(
+  int_ref tup "contactshelper.ml" 302 8740 8760 "contactshelper.ml" 302 8740 8763
+)
+"contactshelper.ml" 304 8807 8831 "contactshelper.ml" 304 8807 8839
+type(
+  Config.t Config.element_type
+)
+"contactshelper.ml" 304 8807 8816 "contactshelper.ml" 304 8807 8840
+call(
+  stack
+)
+type(
+  Config.t
+)
+"contactshelper.ml" 305 8849 8854 "contactshelper.ml" 305 8849 8856
+type(
+  Config.obj_t
+)
+ident(
+  def ob "contactshelper.ml" 306 8891 8892 "contactshelper.ml" 312 9079 9103
+)
+"contactshelper.ml" 305 8849 8859 "contactshelper.ml" 305 8849 8872
+type(
+  Config.obj_t Config.element_type -> Config.obj_t
+)
+ident(
+  int_ref val_to_string "contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+)
+"contactshelper.ml" 305 8849 8873 "contactshelper.ml" 305 8849 8876
+type(
+  Config.tuple
+)
+ident(
+  int_ref tup "contactshelper.ml" 302 8740 8760 "contactshelper.ml" 302 8740 8763
+)
+"contactshelper.ml" 305 8849 8873 "contactshelper.ml" 305 8849 8880
+type(
+  Config.obj_t Config.element_type
+)
+"contactshelper.ml" 305 8849 8858 "contactshelper.ml" 305 8849 8881
+call(
+  stack
+)
+type(
+  Config.obj_t
+)
+"contactshelper.ml" 306 8891 8896 "contactshelper.ml" 306 8891 8898
+type(
+  Config.context
+)
+ident(
+  def ct "contactshelper.ml" 307 8933 8934 "contactshelper.ml" 312 9079 9103
+)
+"contactshelper.ml" 306 8891 8901 "contactshelper.ml" 306 8891 8914
+type(
+  Config.context Config.element_type -> Config.context
+)
+ident(
+  int_ref val_to_string "contactshelper.ml" 240 6912 6916 "contactshelper.ml" 240 6912 6929
+)
+"contactshelper.ml" 306 8891 8915 "contactshelper.ml" 306 8891 8918
+type(
+  Config.tuple
+)
+ident(
+  int_ref tup "contactshelper.ml" 302 8740 8760 "contactshelper.ml" 302 8740 8763
+)
+"contactshelper.ml" 306 8891 8915 "contactshelper.ml" 306 8891 8923
+type(
+  Config.context Config.element_type
+)
+"contactshelper.ml" 306 8891 8900 "contactshelper.ml" 306 8891 8924
+call(
+  stack
+)
+type(
+  Config.context
+)
+"contactshelper.ml" 307 8933 8934 "contactshelper.ml" 307 8933 8951
+type(
+  string
+)
+"contactshelper.ml" 307 8933 8952 "contactshelper.ml" 307 8933 8953
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 307 8933 8953 "contactshelper.ml" 307 8933 8955
+type(
+  Config.t
+)
+ident(
+  int_ref sb "contactshelper.ml" 303 8765 8770 "contactshelper.ml" 303 8765 8772
+)
+"contactshelper.ml" 307 8933 8955 "contactshelper.ml" 307 8933 8956
+type(
+  Config.t -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 307 8933 8956 "contactshelper.ml" 307 8933 8961
+type(
+  string
+)
+"contactshelper.ml" 307 8933 8961 "contactshelper.ml" 307 8933 8962
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 308 8963 8964 "contactshelper.ml" 308 8963 8981
+type(
+  string
+)
+"contactshelper.ml" 308 8963 8982 "contactshelper.ml" 308 8963 8983
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 308 8963 8983 "contactshelper.ml" 308 8963 8985
+type(
+  Config.t
+)
+ident(
+  int_ref pr "contactshelper.ml" 304 8807 8812 "contactshelper.ml" 304 8807 8814
+)
+"contactshelper.ml" 308 8963 8985 "contactshelper.ml" 308 8963 8986
+type(
+  Config.t -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 308 8963 8986 "contactshelper.ml" 308 8963 8991
+type(
+  string
+)
+"contactshelper.ml" 308 8963 8991 "contactshelper.ml" 308 8963 8992
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 309 8993 8994 "contactshelper.ml" 309 8993 9011
+type(
+  string
+)
+"contactshelper.ml" 309 8993 9012 "contactshelper.ml" 309 8993 9013
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 309 8993 9013 "contactshelper.ml" 309 8993 9015
+type(
+  Config.obj_t
+)
+ident(
+  int_ref ob "contactshelper.ml" 305 8849 8854 "contactshelper.ml" 305 8849 8856
+)
+"contactshelper.ml" 309 8993 9015 "contactshelper.ml" 309 8993 9016
+type(
+  Config.obj_t -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 309 8993 9016 "contactshelper.ml" 309 8993 9021
+type(
+  string
+)
+"contactshelper.ml" 309 8993 9021 "contactshelper.ml" 309 8993 9022
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 310 9023 9024 "contactshelper.ml" 310 9023 9041
+type(
+  string
+)
+"contactshelper.ml" 310 9023 9042 "contactshelper.ml" 310 9023 9043
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 310 9023 9043 "contactshelper.ml" 310 9023 9045
+type(
+  Config.context
+)
+ident(
+  int_ref ct "contactshelper.ml" 306 8891 8896 "contactshelper.ml" 306 8891 8898
+)
+"contactshelper.ml" 310 9023 9045 "contactshelper.ml" 310 9023 9046
+type(
+  Config.context -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 310 9023 9046 "contactshelper.ml" 310 9023 9051
+type(
+  string
+)
+"contactshelper.ml" 310 9023 9051 "contactshelper.ml" 310 9023 9052
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 311 9053 9054 "contactshelper.ml" 311 9053 9070
+type(
+  string
+)
+"contactshelper.ml" 311 9053 9071 "contactshelper.ml" 311 9053 9072
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 311 9053 9072 "contactshelper.ml" 311 9053 9077
+type(
+  string
+)
+"contactshelper.ml" 311 9053 9077 "contactshelper.ml" 311 9053 9078
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 312 9079 9080 "contactshelper.ml" 312 9079 9096
+type(
+  string
+)
+"contactshelper.ml" 312 9079 9097 "contactshelper.ml" 312 9079 9098
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 312 9079 9098 "contactshelper.ml" 312 9079 9103
+type(
+  string
+)
+"contactshelper.ml" 312 9079 9080 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 311 9053 9072 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 311 9053 9054 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 310 9023 9046 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 310 9023 9043 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 310 9023 9024 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 309 8993 9016 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 309 8993 9013 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 309 8993 8994 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 308 8963 8986 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 308 8963 8983 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 308 8963 8964 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 307 8933 8956 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 307 8933 8953 "contactshelper.ml" 312 9079 9103
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 307 8933 8934 "contactshelper.ml" 312 9079 9103
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 306 8891 8892 "contactshelper.ml" 312 9079 9103
+type(
+  string
+)
+"contactshelper.ml" 305 8849 8850 "contactshelper.ml" 312 9079 9103
+type(
+  string
+)
+"contactshelper.ml" 304 8807 8808 "contactshelper.ml" 312 9079 9103
+type(
+  string
+)
+"contactshelper.ml" 303 8765 8766 "contactshelper.ml" 312 9079 9103
+type(
+  string
+)
+"contactshelper.ml" 315 9106 9110 "contactshelper.ml" 315 9106 9124
+type(
+  Config.tuple list -> string
+)
+ident(
+  def prtQryResponse "contactshelper.ml" 333 9541 9541 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 315 9106 9125 "contactshelper.ml" 315 9106 9131
+type(
+  Config.tuple list
+)
+ident(
+  def rspLst "contactshelper.ml" 316 9134 9135 "contactshelper.ml" 321 9343 9357
+)
+"contactshelper.ml" 316 9134 9135 "contactshelper.ml" 316 9134 9147
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"contactshelper.ml" 316 9134 9147 "contactshelper.ml" 316 9134 9172
+type(
+  string
+)
+"contactshelper.ml" 316 9134 9135 "contactshelper.ml" 316 9134 9172
+call(
+  stack
+)
+type(
+  unit
+)
+"contactshelper.ml" 317 9174 9179 "contactshelper.ml" 317 9174 9185
+type(
+  string list
+)
+ident(
+  def strLst "contactshelper.ml" 318 9239 9240 "contactshelper.ml" 321 9343 9357
+)
+"contactshelper.ml" 317 9174 9187 "contactshelper.ml" 317 9174 9195
+type(
+  (Config.tuple -> string) -> Config.tuple list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"contactshelper.ml" 317 9174 9201 "contactshelper.ml" 317 9174 9204
+type(
+  Config.tuple
+)
+ident(
+  def tup "contactshelper.ml" 317 9174 9208 "contactshelper.ml" 317 9174 9227
+)
+"contactshelper.ml" 317 9174 9208 "contactshelper.ml" 317 9174 9223
+type(
+  Config.tuple -> string
+)
+ident(
+  int_ref tup_to_str_long "contactshelper.ml" 302 8740 8744 "contactshelper.ml" 302 8740 8759
+)
+"contactshelper.ml" 317 9174 9224 "contactshelper.ml" 317 9174 9227
+type(
+  Config.tuple
+)
+ident(
+  int_ref tup "contactshelper.ml" 317 9174 9201 "contactshelper.ml" 317 9174 9204
+)
+"contactshelper.ml" 317 9174 9208 "contactshelper.ml" 317 9174 9227
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 317 9174 9196 "contactshelper.ml" 317 9174 9228
+type(
+  Config.tuple -> string
+)
+"contactshelper.ml" 317 9174 9229 "contactshelper.ml" 317 9174 9235
+type(
+  Config.tuple list
+)
+ident(
+  int_ref rspLst "contactshelper.ml" 315 9106 9125 "contactshelper.ml" 315 9106 9131
+)
+"contactshelper.ml" 317 9174 9187 "contactshelper.ml" 317 9174 9235
+call(
+  stack
+)
+type(
+  string list
+)
+"contactshelper.ml" 318 9239 9248 "contactshelper.ml" 318 9239 9254
+type(
+  string list -> string
+)
+ident(
+  def prtTup "contactshelper.ml" 318 9239 9240 "contactshelper.ml" 321 9343 9357
+)
+"contactshelper.ml" 318 9239 9255 "contactshelper.ml" 318 9239 9258
+type(
+  string list
+)
+ident(
+  def lst "contactshelper.ml" 318 9239 9260 "contactshelper.ml" 320 9296 9338
+)
+"contactshelper.ml" 318 9239 9266 "contactshelper.ml" 318 9239 9269
+type(
+  string list
+)
+ident(
+  int_ref lst "contactshelper.ml" 318 9239 9255 "contactshelper.ml" 318 9239 9258
+)
+"contactshelper.ml" 319 9275 9279 "contactshelper.ml" 319 9275 9281
+type(
+  string list
+)
+"contactshelper.ml" 319 9275 9291 "contactshelper.ml" 319 9275 9295
+type(
+  string
+)
+"contactshelper.ml" 320 9296 9300 "contactshelper.ml" 320 9296 9301
+type(
+  string
+)
+ident(
+  def h "contactshelper.ml" 320 9296 9311 "contactshelper.ml" 320 9296 9338
+)
+"contactshelper.ml" 320 9296 9303 "contactshelper.ml" 320 9296 9307
+type(
+  string list
+)
+ident(
+  def rest "contactshelper.ml" 320 9296 9311 "contactshelper.ml" 320 9296 9338
+)
+"contactshelper.ml" 320 9296 9300 "contactshelper.ml" 320 9296 9307
+type(
+  string list
+)
+"contactshelper.ml" 320 9296 9311 "contactshelper.ml" 320 9296 9323
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"contactshelper.ml" 320 9296 9324 "contactshelper.ml" 320 9296 9325
+type(
+  string
+)
+ident(
+  int_ref h "contactshelper.ml" 320 9296 9300 "contactshelper.ml" 320 9296 9301
+)
+"contactshelper.ml" 320 9296 9311 "contactshelper.ml" 320 9296 9325
+call(
+  stack
+)
+type(
+  unit
+)
+"contactshelper.ml" 320 9296 9327 "contactshelper.ml" 320 9296 9333
+type(
+  string list -> string
+)
+ident(
+  int_ref prtTup "contactshelper.ml" 318 9239 9248 "contactshelper.ml" 318 9239 9254
+)
+"contactshelper.ml" 320 9296 9334 "contactshelper.ml" 320 9296 9338
+type(
+  string list
+)
+ident(
+  int_ref rest "contactshelper.ml" 320 9296 9303 "contactshelper.ml" 320 9296 9307
+)
+"contactshelper.ml" 320 9296 9327 "contactshelper.ml" 320 9296 9338
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 320 9296 9311 "contactshelper.ml" 320 9296 9338
+type(
+  string
+)
+"contactshelper.ml" 318 9239 9260 "contactshelper.ml" 320 9296 9338
+type(
+  string
+)
+"contactshelper.ml" 321 9343 9344 "contactshelper.ml" 321 9343 9350
+type(
+  string list -> string
+)
+ident(
+  int_ref prtTup "contactshelper.ml" 318 9239 9248 "contactshelper.ml" 318 9239 9254
+)
+"contactshelper.ml" 321 9343 9351 "contactshelper.ml" 321 9343 9357
+type(
+  string list
+)
+ident(
+  int_ref strLst "contactshelper.ml" 317 9174 9179 "contactshelper.ml" 317 9174 9185
+)
+"contactshelper.ml" 321 9343 9344 "contactshelper.ml" 321 9343 9357
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 318 9239 9240 "contactshelper.ml" 321 9343 9357
+type(
+  string
+)
+"contactshelper.ml" 317 9174 9175 "contactshelper.ml" 321 9343 9357
+type(
+  string
+)
+"contactshelper.ml" 316 9134 9135 "contactshelper.ml" 321 9343 9357
+type(
+  string
+)
+"contactshelper.ml" 333 9541 9545 "contactshelper.ml" 333 9541 9555
+type(
+  Config.tuple list -> string
+)
+ident(
+  def makeMapQry "contactshelper.ml" 347 9948 9948 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 333 9541 9556 "contactshelper.ml" 333 9541 9562
+type(
+  Config.tuple list
+)
+ident(
+  def qryLst "contactshelper.ml" 334 9564 9568 "contactshelper.ml" 336 9669 9698
+)
+"contactshelper.ml" 334 9564 9572 "contactshelper.ml" 334 9564 9575
+type(
+  string list
+)
+ident(
+  def lst "contactshelper.ml" 335 9627 9631 "contactshelper.ml" 336 9669 9698
+)
+"contactshelper.ml" 334 9564 9577 "contactshelper.ml" 334 9564 9585
+type(
+  (Config.tuple -> string) -> Config.tuple list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"contactshelper.ml" 334 9564 9591 "contactshelper.ml" 334 9564 9594
+type(
+  Config.tuple
+)
+ident(
+  def qry "contactshelper.ml" 334 9564 9598 "contactshelper.ml" 334 9564 9615
+)
+"contactshelper.ml" 334 9564 9598 "contactshelper.ml" 334 9564 9611
+type(
+  Config.tuple -> string
+)
+ident(
+  int_ref qry_to_string "contactshelper.ml" 256 7278 7282 "contactshelper.ml" 256 7278 7295
+)
+"contactshelper.ml" 334 9564 9612 "contactshelper.ml" 334 9564 9615
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "contactshelper.ml" 334 9564 9591 "contactshelper.ml" 334 9564 9594
+)
+"contactshelper.ml" 334 9564 9598 "contactshelper.ml" 334 9564 9615
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 334 9564 9586 "contactshelper.ml" 334 9564 9616
+type(
+  Config.tuple -> string
+)
+"contactshelper.ml" 334 9564 9617 "contactshelper.ml" 334 9564 9623
+type(
+  Config.tuple list
+)
+ident(
+  int_ref qryLst "contactshelper.ml" 333 9541 9556 "contactshelper.ml" 333 9541 9562
+)
+"contactshelper.ml" 334 9564 9577 "contactshelper.ml" 334 9564 9623
+call(
+  stack
+)
+type(
+  string list
+)
+"contactshelper.ml" 335 9627 9635 "contactshelper.ml" 335 9627 9638
+type(
+  string
+)
+ident(
+  def str "contactshelper.ml" 336 9669 9673 "contactshelper.ml" 336 9669 9698
+)
+"contactshelper.ml" 335 9627 9640 "contactshelper.ml" 335 9627 9654
+type(
+  (string -> string -> string) -> string -> string list -> string
+)
+ident(
+  ext_ref List.fold_left
+)
+"contactshelper.ml" 335 9627 9655 "contactshelper.ml" 335 9627 9658
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 335 9627 9659 "contactshelper.ml" 335 9627 9661
+type(
+  string
+)
+"contactshelper.ml" 335 9627 9662 "contactshelper.ml" 335 9627 9665
+type(
+  string list
+)
+ident(
+  int_ref lst "contactshelper.ml" 334 9564 9572 "contactshelper.ml" 334 9564 9575
+)
+"contactshelper.ml" 335 9627 9640 "contactshelper.ml" 335 9627 9665
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 336 9669 9673 "contactshelper.ml" 336 9669 9686
+type(
+  string
+)
+"contactshelper.ml" 336 9669 9687 "contactshelper.ml" 336 9669 9688
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 336 9669 9689 "contactshelper.ml" 336 9669 9692
+type(
+  string
+)
+ident(
+  int_ref str "contactshelper.ml" 335 9627 9635 "contactshelper.ml" 335 9627 9638
+)
+"contactshelper.ml" 336 9669 9693 "contactshelper.ml" 336 9669 9694
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 336 9669 9695 "contactshelper.ml" 336 9669 9698
+type(
+  string
+)
+"contactshelper.ml" 336 9669 9689 "contactshelper.ml" 336 9669 9698
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 336 9669 9673 "contactshelper.ml" 336 9669 9698
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 335 9627 9631 "contactshelper.ml" 336 9669 9698
+type(
+  string
+)
+"contactshelper.ml" 334 9564 9568 "contactshelper.ml" 336 9669 9698
+type(
+  string
+)
+"contactshelper.ml" 347 9948 9952 "contactshelper.ml" 347 9948 9967
+type(
+  string -> string Config.element_type list -> string
+)
+ident(
+  def valuesToStr_var "contactshelper.ml" 354 10116 10143 "contactshelper.ml" 1 0 -1
+)
+"contactshelper.ml" 347 9948 9968 "contactshelper.ml" 347 9948 9971
+type(
+  string
+)
+ident(
+  def var "contactshelper.ml" 347 9948 9972 "contactshelper.ml" 354 10116 10143
+)
+"contactshelper.ml" 347 9948 9972 "contactshelper.ml" 347 9948 9978
+type(
+  string Config.element_type list
+)
+ident(
+  def values "contactshelper.ml" 348 9981 9983 "contactshelper.ml" 354 10116 10143
+)
+"contactshelper.ml" 348 9981 9987 "contactshelper.ml" 348 9981 9990
+type(
+  string list
+)
+ident(
+  def lst "contactshelper.ml" 354 10116 10119 "contactshelper.ml" 354 10116 10143
+)
+"contactshelper.ml" 348 9981 9992 "contactshelper.ml" 348 9981 10000
+type(
+  (string Config.element_type -> string) ->
+  string Config.element_type list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"contactshelper.ml" 349 10001 10011 "contactshelper.ml" 349 10001 10013
+type(
+  string Config.element_type
+)
+ident(
+  def vl "contactshelper.ml" 350 10017 10025 "contactshelper.ml" 352 10066 10098
+)
+"contactshelper.ml" 350 10017 10031 "contactshelper.ml" 350 10017 10033
+type(
+  string Config.element_type
+)
+ident(
+  int_ref vl "contactshelper.ml" 349 10001 10011 "contactshelper.ml" 349 10001 10013
+)
+"contactshelper.ml" 351 10039 10058 "contactshelper.ml" 351 10039 10059
+type(
+  string
+)
+ident(
+  def x "contactshelper.ml" 351 10039 10064 "contactshelper.ml" 351 10039 10065
+)
+"contactshelper.ml" 351 10039 10049 "contactshelper.ml" 351 10039 10059
+type(
+  string Config.element_type
+)
+"contactshelper.ml" 351 10039 10064 "contactshelper.ml" 351 10039 10065
+type(
+  string
+)
+ident(
+  int_ref x "contactshelper.ml" 351 10039 10058 "contactshelper.ml" 351 10039 10059
+)
+"contactshelper.ml" 352 10066 10076 "contactshelper.ml" 352 10066 10077
+type(
+  string Config.element_type
+)
+"contactshelper.ml" 352 10066 10081 "contactshelper.ml" 352 10066 10086
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"contactshelper.ml" 352 10066 10087 "contactshelper.ml" 352 10066 10098
+type(
+  exn
+)
+"contactshelper.ml" 352 10066 10081 "contactshelper.ml" 352 10066 10098
+type(
+  string
+)
+"contactshelper.ml" 350 10017 10025 "contactshelper.ml" 352 10066 10098
+type(
+  string
+)
+"contactshelper.ml" 349 10001 10006 "contactshelper.ml" 352 10066 10099
+type(
+  string Config.element_type -> string
+)
+"contactshelper.ml" 353 10100 10105 "contactshelper.ml" 353 10100 10111
+type(
+  string Config.element_type list
+)
+ident(
+  int_ref values "contactshelper.ml" 347 9948 9972 "contactshelper.ml" 347 9948 9978
+)
+"contactshelper.ml" 348 9981 9992 "contactshelper.ml" 353 10100 10111
+call(
+  stack
+)
+type(
+  string list
+)
+"contactshelper.ml" 354 10116 10119 "contactshelper.ml" 354 10116 10122
+type(
+  string
+)
+ident(
+  int_ref var "contactshelper.ml" 347 9948 9968 "contactshelper.ml" 347 9948 9971
+)
+"contactshelper.ml" 354 10116 10122 "contactshelper.ml" 354 10116 10123
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 354 10116 10123 "contactshelper.ml" 354 10116 10129
+type(
+  string
+)
+"contactshelper.ml" 354 10116 10129 "contactshelper.ml" 354 10116 10130
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"contactshelper.ml" 354 10116 10131 "contactshelper.ml" 354 10116 10138
+type(
+  string list -> string
+)
+ident(
+  ext_ref List.hd
+)
+"contactshelper.ml" 354 10116 10139 "contactshelper.ml" 354 10116 10142
+type(
+  string list
+)
+ident(
+  int_ref lst "contactshelper.ml" 348 9981 9987 "contactshelper.ml" 348 9981 9990
+)
+"contactshelper.ml" 354 10116 10130 "contactshelper.ml" 354 10116 10143
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 354 10116 10123 "contactshelper.ml" 354 10116 10143
+call(
+  stack
+)
+type(
+  string
+)
+"contactshelper.ml" 354 10116 10119 "contactshelper.ml" 354 10116 10143
+call(
+  tail
+)
+type(
+  string
+)
+"contactshelper.ml" 348 9981 9983 "contactshelper.ml" 354 10116 10143
+type(
+  string
+)

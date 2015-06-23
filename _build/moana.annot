@@ -1,0 +1,242 @@
+"moana.ml" 72 2138 2144 "moana.ml" 72 2138 2148
+type(
+  ?query:Config.tuple list -> Config.tuple list -> S.t
+)
+ident(
+  def init "moana.ml" 74 2171 2173 "moana.ml" 94 2771 2774
+)
+"moana.ml" 72 2138 2151 "moana.ml" 72 2138 2157
+type(
+  ?query:Config.tuple list -> Config.tuple list -> S.t
+)
+ident(
+  int_ref S.init "moana.ml" 32 937 943 "moana.ml" 32 937 1004
+)
+"moana.ml" 74 2171 2177 "moana.ml" 74 2171 2180
+type(
+  S.t -> Config.tuple -> S.t
+)
+ident(
+  def add "moana.ml" 80 2327 2329 "moana.ml" 94 2771 2774
+)
+"moana.ml" 74 2171 2181 "moana.ml" 74 2171 2182
+type(
+  S.t
+)
+ident(
+  def g "moana.ml" 74 2171 2183 "moana.ml" 77 2288 2306
+)
+"moana.ml" 74 2171 2184 "moana.ml" 74 2171 2189
+type(
+  Config.tuple
+)
+ident(
+  def tuple "moana.ml" 75 2208 2213 "moana.ml" 77 2288 2306
+)
+"moana.ml" 75 2208 2217 "moana.ml" 75 2208 2218
+type(
+  string
+)
+ident(
+  def s "moana.ml" 76 2266 2271 "moana.ml" 77 2288 2306
+)
+"moana.ml" 75 2208 2221 "moana.ml" 75 2208 2235
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"moana.ml" 75 2208 2236 "moana.ml" 75 2208 2255
+type(
+  (string -> string, unit, string) format
+)
+"moana.ml" 75 2208 2256 "moana.ml" 75 2208 2262
+type(
+  string
+)
+ident(
+  int_ref S.name "moana.ml" 29 895 901 "moana.ml" 29 895 918
+)
+"moana.ml" 75 2208 2221 "moana.ml" 75 2208 2262
+call(
+  stack
+)
+type(
+  string
+)
+"moana.ml" 76 2266 2271 "moana.ml" 76 2266 2284
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"moana.ml" 76 2266 2285 "moana.ml" 76 2266 2286
+type(
+  string
+)
+ident(
+  int_ref s "moana.ml" 75 2208 2217 "moana.ml" 75 2208 2218
+)
+"moana.ml" 76 2266 2271 "moana.ml" 76 2266 2286
+call(
+  stack
+)
+type(
+  unit
+)
+"moana.ml" 77 2288 2293 "moana.ml" 77 2288 2298
+type(
+  S.t -> Config.tuple -> S.t
+)
+ident(
+  int_ref S.add "moana.ml" 33 1005 1011 "moana.ml" 33 1005 1043
+)
+"moana.ml" 77 2288 2299 "moana.ml" 77 2288 2300
+type(
+  S.t
+)
+ident(
+  int_ref g "moana.ml" 74 2171 2181 "moana.ml" 74 2171 2182
+)
+"moana.ml" 77 2288 2301 "moana.ml" 77 2288 2306
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "moana.ml" 74 2171 2184 "moana.ml" 74 2171 2189
+)
+"moana.ml" 77 2288 2293 "moana.ml" 77 2288 2306
+call(
+  tail
+)
+type(
+  S.t
+)
+"moana.ml" 76 2266 2271 "moana.ml" 77 2288 2306
+type(
+  S.t
+)
+"moana.ml" 75 2208 2213 "moana.ml" 77 2288 2306
+type(
+  S.t
+)
+"moana.ml" 80 2327 2333 "moana.ml" 80 2327 2336
+type(
+  S.t -> Config.tuple list -> S.t
+)
+ident(
+  def map "moana.ml" 82 2435 2437 "moana.ml" 94 2771 2774
+)
+"moana.ml" 80 2327 2337 "moana.ml" 80 2327 2338
+type(
+  S.t
+)
+ident(
+  def g "moana.ml" 80 2327 2339 "moana.ml" 80 2327 2431
+)
+"moana.ml" 80 2327 2340 "moana.ml" 80 2327 2345
+type(
+  Config.tuple list
+)
+ident(
+  def query "moana.ml" 80 2327 2369 "moana.ml" 80 2327 2431
+)
+"moana.ml" 80 2327 2369 "moana.ml" 80 2327 2376
+type(
+  S.t -> Config.tuple list -> Helper.TupleSet.elt list list
+)
+ident(
+  int_ref S.query "moana.ml" 37 1217 1223 "moana.ml" 37 1217 1284
+)
+"moana.ml" 80 2327 2377 "moana.ml" 80 2327 2378
+type(
+  S.t
+)
+ident(
+  int_ref g "moana.ml" 80 2327 2337 "moana.ml" 80 2327 2338
+)
+"moana.ml" 80 2327 2379 "moana.ml" 80 2327 2384
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query "moana.ml" 80 2327 2340 "moana.ml" 80 2327 2345
+)
+"moana.ml" 80 2327 2369 "moana.ml" 80 2327 2384
+call(
+  stack
+)
+type(
+  Helper.TupleSet.elt list list
+)
+"moana.ml" 80 2327 2385 "moana.ml" 80 2327 2387
+type(
+  Helper.TupleSet.elt list list ->
+  (Helper.TupleSet.elt list list -> Helper.TupleSet.elt list) ->
+  Helper.TupleSet.elt list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"moana.ml" 80 2327 2389 "moana.ml" 80 2327 2414
+type(
+  Helper.TupleSet.elt list list -> Helper.TupleSet.elt list
+)
+ident(
+  ext_ref Helper.flatten_tuple_list
+)
+"moana.ml" 80 2327 2369 "moana.ml" 80 2327 2414
+call(
+  stack
+)
+type(
+  Helper.TupleSet.elt list
+)
+"moana.ml" 80 2327 2415 "moana.ml" 80 2327 2417
+type(
+  Helper.TupleSet.elt list -> (Helper.TupleSet.elt list -> S.t) -> S.t
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"moana.ml" 80 2327 2418 "moana.ml" 80 2327 2424
+type(
+  ?query:Config.tuple list -> Helper.TupleSet.elt list -> S.t
+)
+ident(
+  int_ref S.init "moana.ml" 32 937 943 "moana.ml" 32 937 1004
+)
+"moana.ml" 80 2327 2426 "moana.ml" 80 2327 2431
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query "moana.ml" 80 2327 2340 "moana.ml" 80 2327 2345
+)
+"moana.ml" 80 2327 2418 "moana.ml" 80 2327 2431
+type(
+  Helper.TupleSet.elt list -> S.t
+)
+"moana.ml" 80 2327 2369 "moana.ml" 80 2327 2431
+call(
+  tail
+)
+type(
+  S.t
+)
+"moana.ml" 82 2435 2441 "moana.ml" 82 2435 2448
+type(
+  S.t -> Config.tuple list
+)
+ident(
+  def to_list "moana.ml" 82 2435 2460 "moana.ml" 94 2771 2774
+)
+"moana.ml" 82 2435 2451 "moana.ml" 82 2435 2460
+type(
+  S.t -> Config.tuple list
+)
+ident(
+  int_ref S.to_list "moana.ml" 40 1343 1349 "moana.ml" 40 1343 1384
+)

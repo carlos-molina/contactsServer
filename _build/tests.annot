@@ -1,0 +1,6737 @@
+"tests.ml" 21 967 971 "tests.ml" 21 967 973
+type(
+  Config.tuple
+)
+ident(
+  def t1 "tests.ml" 31 1135 1135 "tests.ml" 1 0 -1
+)
+"tests.ml" 23 980 1000 "tests.ml" 23 980 1003
+type(
+  Config.t
+)
+"tests.ml" 23 980 991 "tests.ml" 23 980 1003
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 24 1005 1025 "tests.ml" 24 1005 1031
+type(
+  Config.t
+)
+"tests.ml" 24 1005 1016 "tests.ml" 24 1005 1031
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 25 1033 1052 "tests.ml" 25 1033 1057
+type(
+  Config.obj_t
+)
+"tests.ml" 25 1033 1043 "tests.ml" 25 1033 1057
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 26 1059 1079 "tests.ml" 26 1059 1088
+type(
+  Config.context
+)
+"tests.ml" 26 1059 1070 "tests.ml" 26 1059 1088
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 27 1090 1105 "tests.ml" 27 1090 1109
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 28 1111 1122 "tests.ml" 28 1111 1126
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 22 976 978 "tests.ml" 29 1128 1131
+type(
+  Config.tuple
+)
+"tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+type(
+  Config.tuple
+)
+ident(
+  def t2 "tests.ml" 41 1305 1305 "tests.ml" 1 0 -1
+)
+"tests.ml" 33 1148 1168 "tests.ml" 33 1148 1171
+type(
+  Config.t
+)
+"tests.ml" 33 1148 1159 "tests.ml" 33 1148 1171
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 34 1173 1193 "tests.ml" 34 1173 1203
+type(
+  Config.t
+)
+"tests.ml" 34 1173 1184 "tests.ml" 34 1173 1203
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 35 1205 1224 "tests.ml" 35 1205 1227
+type(
+  Config.obj_t
+)
+"tests.ml" 35 1205 1215 "tests.ml" 35 1205 1227
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 36 1229 1249 "tests.ml" 36 1229 1258
+type(
+  Config.context
+)
+"tests.ml" 36 1229 1240 "tests.ml" 36 1229 1258
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 37 1260 1275 "tests.ml" 37 1260 1279
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 38 1281 1292 "tests.ml" 38 1281 1296
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 32 1144 1146 "tests.ml" 39 1298 1301
+type(
+  Config.tuple
+)
+"tests.ml" 41 1305 1309 "tests.ml" 41 1305 1311
+type(
+  Config.tuple
+)
+ident(
+  def t3 "tests.ml" 51 1475 1475 "tests.ml" 1 0 -1
+)
+"tests.ml" 43 1318 1338 "tests.ml" 43 1318 1341
+type(
+  Config.t
+)
+"tests.ml" 43 1318 1329 "tests.ml" 43 1318 1341
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 44 1343 1363 "tests.ml" 44 1343 1369
+type(
+  Config.t
+)
+"tests.ml" 44 1343 1354 "tests.ml" 44 1343 1369
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 45 1371 1390 "tests.ml" 45 1371 1397
+type(
+  Config.obj_t
+)
+"tests.ml" 45 1371 1381 "tests.ml" 45 1371 1397
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 46 1399 1419 "tests.ml" 46 1399 1428
+type(
+  Config.context
+)
+"tests.ml" 46 1399 1410 "tests.ml" 46 1399 1428
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 47 1430 1445 "tests.ml" 47 1430 1449
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 48 1451 1462 "tests.ml" 48 1451 1466
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 42 1314 1316 "tests.ml" 49 1468 1471
+type(
+  Config.tuple
+)
+"tests.ml" 51 1475 1479 "tests.ml" 51 1475 1481
+type(
+  Config.tuple
+)
+ident(
+  def t4 "tests.ml" 61 1645 1645 "tests.ml" 1 0 -1
+)
+"tests.ml" 53 1488 1508 "tests.ml" 53 1488 1511
+type(
+  Config.t
+)
+"tests.ml" 53 1488 1499 "tests.ml" 53 1488 1511
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 54 1513 1533 "tests.ml" 54 1513 1543
+type(
+  Config.t
+)
+"tests.ml" 54 1513 1524 "tests.ml" 54 1513 1543
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 55 1545 1564 "tests.ml" 55 1545 1567
+type(
+  Config.obj_t
+)
+"tests.ml" 55 1545 1555 "tests.ml" 55 1545 1567
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 56 1569 1589 "tests.ml" 56 1569 1598
+type(
+  Config.context
+)
+"tests.ml" 56 1569 1580 "tests.ml" 56 1569 1598
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 57 1600 1615 "tests.ml" 57 1600 1619
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 58 1621 1632 "tests.ml" 58 1621 1636
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 52 1484 1486 "tests.ml" 59 1638 1641
+type(
+  Config.tuple
+)
+"tests.ml" 61 1645 1649 "tests.ml" 61 1645 1651
+type(
+  Config.tuple
+)
+ident(
+  def t5 "tests.ml" 71 1815 1815 "tests.ml" 1 0 -1
+)
+"tests.ml" 63 1658 1678 "tests.ml" 63 1658 1681
+type(
+  Config.t
+)
+"tests.ml" 63 1658 1669 "tests.ml" 63 1658 1681
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 64 1683 1703 "tests.ml" 64 1683 1709
+type(
+  Config.t
+)
+"tests.ml" 64 1683 1694 "tests.ml" 64 1683 1709
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 65 1711 1730 "tests.ml" 65 1711 1737
+type(
+  Config.obj_t
+)
+"tests.ml" 65 1711 1721 "tests.ml" 65 1711 1737
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 66 1739 1759 "tests.ml" 66 1739 1768
+type(
+  Config.context
+)
+"tests.ml" 66 1739 1750 "tests.ml" 66 1739 1768
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 67 1770 1785 "tests.ml" 67 1770 1789
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 68 1791 1802 "tests.ml" 68 1791 1806
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 62 1654 1656 "tests.ml" 69 1808 1811
+type(
+  Config.tuple
+)
+"tests.ml" 71 1815 1819 "tests.ml" 71 1815 1821
+type(
+  Config.tuple
+)
+ident(
+  def t6 "tests.ml" 81 1986 1986 "tests.ml" 1 0 -1
+)
+"tests.ml" 73 1828 1848 "tests.ml" 73 1828 1852
+type(
+  Config.t
+)
+"tests.ml" 73 1828 1839 "tests.ml" 73 1828 1852
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 74 1854 1874 "tests.ml" 74 1854 1880
+type(
+  Config.t
+)
+"tests.ml" 74 1854 1865 "tests.ml" 74 1854 1880
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 75 1882 1901 "tests.ml" 75 1882 1908
+type(
+  Config.obj_t
+)
+"tests.ml" 75 1882 1892 "tests.ml" 75 1882 1908
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 76 1910 1930 "tests.ml" 76 1910 1939
+type(
+  Config.context
+)
+"tests.ml" 76 1910 1921 "tests.ml" 76 1910 1939
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 77 1941 1956 "tests.ml" 77 1941 1960
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 78 1962 1973 "tests.ml" 78 1962 1977
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 72 1824 1826 "tests.ml" 79 1979 1982
+type(
+  Config.tuple
+)
+"tests.ml" 81 1986 1990 "tests.ml" 81 1986 1992
+type(
+  Config.tuple
+)
+ident(
+  def t7 "tests.ml" 91 2160 2160 "tests.ml" 1 0 -1
+)
+"tests.ml" 83 1999 2019 "tests.ml" 83 1999 2022
+type(
+  Config.t
+)
+"tests.ml" 83 1999 2010 "tests.ml" 83 1999 2022
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 84 2024 2044 "tests.ml" 84 2024 2054
+type(
+  Config.t
+)
+"tests.ml" 84 2024 2035 "tests.ml" 84 2024 2054
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 85 2056 2075 "tests.ml" 85 2056 2082
+type(
+  Config.obj_t
+)
+"tests.ml" 85 2056 2066 "tests.ml" 85 2056 2082
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 86 2084 2104 "tests.ml" 86 2084 2113
+type(
+  Config.context
+)
+"tests.ml" 86 2084 2095 "tests.ml" 86 2084 2113
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 87 2115 2130 "tests.ml" 87 2115 2134
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 88 2136 2147 "tests.ml" 88 2136 2151
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 82 1995 1997 "tests.ml" 89 2153 2156
+type(
+  Config.tuple
+)
+"tests.ml" 91 2160 2164 "tests.ml" 91 2160 2166
+type(
+  Config.tuple
+)
+ident(
+  def t8 "tests.ml" 101 2333 2333 "tests.ml" 1 0 -1
+)
+"tests.ml" 93 2173 2193 "tests.ml" 93 2173 2197
+type(
+  Config.t
+)
+"tests.ml" 93 2173 2184 "tests.ml" 93 2173 2197
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 94 2199 2219 "tests.ml" 94 2199 2229
+type(
+  Config.t
+)
+"tests.ml" 94 2199 2210 "tests.ml" 94 2199 2229
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 95 2231 2250 "tests.ml" 95 2231 2255
+type(
+  Config.obj_t
+)
+"tests.ml" 95 2231 2241 "tests.ml" 95 2231 2255
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 96 2257 2277 "tests.ml" 96 2257 2286
+type(
+  Config.context
+)
+"tests.ml" 96 2257 2268 "tests.ml" 96 2257 2286
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 97 2288 2303 "tests.ml" 97 2288 2307
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 98 2309 2320 "tests.ml" 98 2309 2324
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 92 2169 2171 "tests.ml" 99 2326 2329
+type(
+  Config.tuple
+)
+"tests.ml" 101 2333 2337 "tests.ml" 101 2333 2339
+type(
+  Config.tuple
+)
+ident(
+  def t9 "tests.ml" 111 2505 2505 "tests.ml" 1 0 -1
+)
+"tests.ml" 103 2346 2366 "tests.ml" 103 2346 2369
+type(
+  Config.t
+)
+"tests.ml" 103 2346 2357 "tests.ml" 103 2346 2369
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 104 2371 2391 "tests.ml" 104 2371 2401
+type(
+  Config.t
+)
+"tests.ml" 104 2371 2382 "tests.ml" 104 2371 2401
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 105 2403 2422 "tests.ml" 105 2403 2427
+type(
+  Config.obj_t
+)
+"tests.ml" 105 2403 2413 "tests.ml" 105 2403 2427
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 106 2429 2449 "tests.ml" 106 2429 2458
+type(
+  Config.context
+)
+"tests.ml" 106 2429 2440 "tests.ml" 106 2429 2458
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 107 2460 2475 "tests.ml" 107 2460 2479
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 108 2481 2492 "tests.ml" 108 2481 2496
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 102 2342 2344 "tests.ml" 109 2498 2501
+type(
+  Config.tuple
+)
+"tests.ml" 111 2505 2509 "tests.ml" 111 2505 2512
+type(
+  Config.tuple
+)
+ident(
+  def t10 "tests.ml" 121 2677 2677 "tests.ml" 1 0 -1
+)
+"tests.ml" 113 2519 2539 "tests.ml" 113 2519 2542
+type(
+  Config.t
+)
+"tests.ml" 113 2519 2530 "tests.ml" 113 2519 2542
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 114 2544 2564 "tests.ml" 114 2544 2575
+type(
+  Config.t
+)
+"tests.ml" 114 2544 2555 "tests.ml" 114 2544 2575
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 115 2577 2596 "tests.ml" 115 2577 2599
+type(
+  Config.obj_t
+)
+"tests.ml" 115 2577 2587 "tests.ml" 115 2577 2599
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 116 2601 2621 "tests.ml" 116 2601 2630
+type(
+  Config.context
+)
+"tests.ml" 116 2601 2612 "tests.ml" 116 2601 2630
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 117 2632 2647 "tests.ml" 117 2632 2651
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 118 2653 2664 "tests.ml" 118 2653 2668
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 112 2515 2517 "tests.ml" 119 2670 2673
+type(
+  Config.tuple
+)
+"tests.ml" 121 2677 2681 "tests.ml" 121 2677 2684
+type(
+  Config.tuple
+)
+ident(
+  def t11 "tests.ml" 131 2849 2849 "tests.ml" 1 0 -1
+)
+"tests.ml" 123 2691 2711 "tests.ml" 123 2691 2714
+type(
+  Config.t
+)
+"tests.ml" 123 2691 2702 "tests.ml" 123 2691 2714
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 124 2716 2736 "tests.ml" 124 2716 2747
+type(
+  Config.t
+)
+"tests.ml" 124 2716 2727 "tests.ml" 124 2716 2747
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 125 2749 2768 "tests.ml" 125 2749 2771
+type(
+  Config.obj_t
+)
+"tests.ml" 125 2749 2759 "tests.ml" 125 2749 2771
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 126 2773 2793 "tests.ml" 126 2773 2802
+type(
+  Config.context
+)
+"tests.ml" 126 2773 2784 "tests.ml" 126 2773 2802
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 127 2804 2819 "tests.ml" 127 2804 2823
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 128 2825 2836 "tests.ml" 128 2825 2840
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 122 2687 2689 "tests.ml" 129 2842 2845
+type(
+  Config.tuple
+)
+"tests.ml" 131 2849 2853 "tests.ml" 131 2849 2856
+type(
+  Config.tuple
+)
+ident(
+  def t12 "tests.ml" 141 3018 3018 "tests.ml" 1 0 -1
+)
+"tests.ml" 133 2863 2883 "tests.ml" 133 2863 2886
+type(
+  Config.t
+)
+"tests.ml" 133 2863 2874 "tests.ml" 133 2863 2886
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 134 2888 2908 "tests.ml" 134 2888 2914
+type(
+  Config.t
+)
+"tests.ml" 134 2888 2899 "tests.ml" 134 2888 2914
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 135 2916 2935 "tests.ml" 135 2916 2940
+type(
+  Config.obj_t
+)
+"tests.ml" 135 2916 2926 "tests.ml" 135 2916 2940
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 136 2942 2962 "tests.ml" 136 2942 2971
+type(
+  Config.context
+)
+"tests.ml" 136 2942 2953 "tests.ml" 136 2942 2971
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 137 2973 2988 "tests.ml" 137 2973 2992
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 138 2994 3005 "tests.ml" 138 2994 3009
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 132 2859 2861 "tests.ml" 139 3011 3014
+type(
+  Config.tuple
+)
+"tests.ml" 141 3018 3022 "tests.ml" 141 3018 3025
+type(
+  Config.tuple
+)
+ident(
+  def t13 "tests.ml" 151 3190 3190 "tests.ml" 1 0 -1
+)
+"tests.ml" 143 3032 3052 "tests.ml" 143 3032 3055
+type(
+  Config.t
+)
+"tests.ml" 143 3032 3043 "tests.ml" 143 3032 3055
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 144 3057 3077 "tests.ml" 144 3057 3087
+type(
+  Config.t
+)
+"tests.ml" 144 3057 3068 "tests.ml" 144 3057 3087
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 145 3089 3108 "tests.ml" 145 3089 3112
+type(
+  Config.obj_t
+)
+"tests.ml" 145 3089 3099 "tests.ml" 145 3089 3112
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 146 3114 3134 "tests.ml" 146 3114 3143
+type(
+  Config.context
+)
+"tests.ml" 146 3114 3125 "tests.ml" 146 3114 3143
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 147 3145 3160 "tests.ml" 147 3145 3164
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 148 3166 3177 "tests.ml" 148 3166 3181
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 142 3028 3030 "tests.ml" 149 3183 3186
+type(
+  Config.tuple
+)
+"tests.ml" 151 3190 3194 "tests.ml" 151 3190 3197
+type(
+  Config.tuple
+)
+ident(
+  def t14 "tests.ml" 161 3362 3362 "tests.ml" 1 0 -1
+)
+"tests.ml" 153 3204 3224 "tests.ml" 153 3204 3228
+type(
+  Config.t
+)
+"tests.ml" 153 3204 3215 "tests.ml" 153 3204 3228
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 154 3230 3250 "tests.ml" 154 3230 3256
+type(
+  Config.t
+)
+"tests.ml" 154 3230 3241 "tests.ml" 154 3230 3256
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 155 3258 3277 "tests.ml" 155 3258 3284
+type(
+  Config.obj_t
+)
+"tests.ml" 155 3258 3268 "tests.ml" 155 3258 3284
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 156 3286 3306 "tests.ml" 156 3286 3315
+type(
+  Config.context
+)
+"tests.ml" 156 3286 3297 "tests.ml" 156 3286 3315
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 157 3317 3332 "tests.ml" 157 3317 3336
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 158 3338 3349 "tests.ml" 158 3338 3353
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 152 3200 3202 "tests.ml" 159 3355 3358
+type(
+  Config.tuple
+)
+"tests.ml" 161 3362 3366 "tests.ml" 161 3362 3369
+type(
+  Config.tuple
+)
+ident(
+  def t15 "tests.ml" 171 3538 3538 "tests.ml" 1 0 -1
+)
+"tests.ml" 163 3376 3396 "tests.ml" 163 3376 3400
+type(
+  Config.t
+)
+"tests.ml" 163 3376 3387 "tests.ml" 163 3376 3400
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 164 3402 3422 "tests.ml" 164 3402 3432
+type(
+  Config.t
+)
+"tests.ml" 164 3402 3413 "tests.ml" 164 3402 3432
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 165 3434 3453 "tests.ml" 165 3434 3460
+type(
+  Config.obj_t
+)
+"tests.ml" 165 3434 3444 "tests.ml" 165 3434 3460
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 166 3462 3482 "tests.ml" 166 3462 3491
+type(
+  Config.context
+)
+"tests.ml" 166 3462 3473 "tests.ml" 166 3462 3491
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 167 3493 3508 "tests.ml" 167 3493 3512
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 168 3514 3525 "tests.ml" 168 3514 3529
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 162 3372 3374 "tests.ml" 169 3531 3534
+type(
+  Config.tuple
+)
+"tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "tests.ml" 175 3698 3698 "tests.ml" 1 0 -1
+)
+"tests.ml" 171 3538 3553 "tests.ml" 171 3538 3555
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 171 3538 3557 "tests.ml" 171 3538 3559
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+)
+"tests.ml" 171 3538 3561 "tests.ml" 171 3538 3563
+type(
+  Config.tuple
+)
+ident(
+  int_ref t3 "tests.ml" 41 1305 1309 "tests.ml" 41 1305 1311
+)
+"tests.ml" 171 3538 3565 "tests.ml" 171 3538 3567
+type(
+  Config.tuple
+)
+ident(
+  int_ref t4 "tests.ml" 51 1475 1479 "tests.ml" 51 1475 1481
+)
+"tests.ml" 171 3538 3569 "tests.ml" 171 3538 3571
+type(
+  Config.tuple
+)
+ident(
+  int_ref t5 "tests.ml" 61 1645 1649 "tests.ml" 61 1645 1651
+)
+"tests.ml" 171 3538 3573 "tests.ml" 171 3538 3575
+type(
+  Config.tuple
+)
+ident(
+  int_ref t6 "tests.ml" 71 1815 1819 "tests.ml" 71 1815 1821
+)
+"tests.ml" 171 3538 3577 "tests.ml" 171 3538 3579
+type(
+  Config.tuple
+)
+ident(
+  int_ref t7 "tests.ml" 81 1986 1990 "tests.ml" 81 1986 1992
+)
+"tests.ml" 171 3538 3581 "tests.ml" 171 3538 3583
+type(
+  Config.tuple
+)
+ident(
+  int_ref t8 "tests.ml" 91 2160 2164 "tests.ml" 91 2160 2166
+)
+"tests.ml" 171 3538 3585 "tests.ml" 171 3538 3587
+type(
+  Config.tuple
+)
+ident(
+  int_ref t9 "tests.ml" 101 2333 2337 "tests.ml" 101 2333 2339
+)
+"tests.ml" 171 3538 3589 "tests.ml" 171 3538 3592
+type(
+  Config.tuple
+)
+ident(
+  int_ref t10 "tests.ml" 111 2505 2509 "tests.ml" 111 2505 2512
+)
+"tests.ml" 171 3538 3594 "tests.ml" 171 3538 3597
+type(
+  Config.tuple
+)
+ident(
+  int_ref t11 "tests.ml" 121 2677 2681 "tests.ml" 121 2677 2684
+)
+"tests.ml" 171 3538 3551 "tests.ml" 171 3538 3599
+type(
+  Config.tuple list
+)
+"tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+type(
+  Config.tuple
+)
+ident(
+  def q1 "tests.ml" 185 3867 3867 "tests.ml" 1 0 -1
+)
+"tests.ml" 177 3711 3731 "tests.ml" 177 3711 3735
+type(
+  string
+)
+"tests.ml" 177 3711 3722 "tests.ml" 177 3711 3735
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 178 3737 3757 "tests.ml" 178 3737 3763
+type(
+  Config.t
+)
+"tests.ml" 178 3737 3748 "tests.ml" 178 3737 3763
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 179 3765 3784 "tests.ml" 179 3765 3789
+type(
+  Config.obj_t
+)
+"tests.ml" 179 3765 3775 "tests.ml" 179 3765 3789
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 180 3791 3811 "tests.ml" 180 3791 3820
+type(
+  Config.context
+)
+"tests.ml" 180 3791 3802 "tests.ml" 180 3791 3820
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 181 3822 3837 "tests.ml" 181 3822 3841
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 182 3843 3854 "tests.ml" 182 3843 3858
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 176 3707 3709 "tests.ml" 183 3860 3863
+type(
+  Config.tuple
+)
+"tests.ml" 185 3867 3871 "tests.ml" 185 3867 3873
+type(
+  Config.tuple
+)
+ident(
+  def q2 "tests.ml" 195 4040 4040 "tests.ml" 1 0 -1
+)
+"tests.ml" 187 3880 3900 "tests.ml" 187 3880 3904
+type(
+  string
+)
+"tests.ml" 187 3880 3891 "tests.ml" 187 3880 3904
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 188 3906 3926 "tests.ml" 188 3906 3936
+type(
+  Config.t
+)
+"tests.ml" 188 3906 3917 "tests.ml" 188 3906 3936
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 189 3938 3957 "tests.ml" 189 3938 3962
+type(
+  Config.obj_t
+)
+"tests.ml" 189 3938 3948 "tests.ml" 189 3938 3962
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 190 3964 3984 "tests.ml" 190 3964 3993
+type(
+  Config.context
+)
+"tests.ml" 190 3964 3975 "tests.ml" 190 3964 3993
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 191 3995 4010 "tests.ml" 191 3995 4014
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 192 4016 4027 "tests.ml" 192 4016 4031
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 186 3876 3878 "tests.ml" 193 4033 4036
+type(
+  Config.tuple
+)
+"tests.ml" 195 4040 4044 "tests.ml" 195 4040 4046
+type(
+  Config.tuple
+)
+ident(
+  def q3 "tests.ml" 205 4212 4212 "tests.ml" 1 0 -1
+)
+"tests.ml" 197 4053 4073 "tests.ml" 197 4053 4077
+type(
+  string
+)
+"tests.ml" 197 4053 4064 "tests.ml" 197 4053 4077
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 198 4079 4099 "tests.ml" 198 4079 4109
+type(
+  Config.t
+)
+"tests.ml" 198 4079 4090 "tests.ml" 198 4079 4109
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 199 4111 4130 "tests.ml" 199 4111 4134
+type(
+  string
+)
+"tests.ml" 199 4111 4121 "tests.ml" 199 4111 4134
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 200 4136 4156 "tests.ml" 200 4136 4165
+type(
+  Config.context
+)
+"tests.ml" 200 4136 4147 "tests.ml" 200 4136 4165
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 201 4167 4182 "tests.ml" 201 4167 4186
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 202 4188 4199 "tests.ml" 202 4188 4203
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 196 4049 4051 "tests.ml" 203 4205 4208
+type(
+  Config.tuple
+)
+"tests.ml" 205 4212 4216 "tests.ml" 205 4212 4218
+type(
+  Config.tuple
+)
+ident(
+  def q4 "tests.ml" 215 4383 4383 "tests.ml" 1 0 -1
+)
+"tests.ml" 207 4225 4245 "tests.ml" 207 4225 4249
+type(
+  string
+)
+"tests.ml" 207 4225 4236 "tests.ml" 207 4225 4249
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 208 4251 4271 "tests.ml" 208 4251 4277
+type(
+  Config.t
+)
+"tests.ml" 208 4251 4262 "tests.ml" 208 4251 4277
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 209 4279 4298 "tests.ml" 209 4279 4305
+type(
+  Config.obj_t
+)
+"tests.ml" 209 4279 4289 "tests.ml" 209 4279 4305
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 210 4307 4327 "tests.ml" 210 4307 4336
+type(
+  Config.context
+)
+"tests.ml" 210 4307 4318 "tests.ml" 210 4307 4336
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 211 4338 4353 "tests.ml" 211 4338 4357
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 212 4359 4370 "tests.ml" 212 4359 4374
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 206 4221 4223 "tests.ml" 213 4376 4379
+type(
+  Config.tuple
+)
+"tests.ml" 215 4383 4387 "tests.ml" 215 4383 4389
+type(
+  Config.tuple
+)
+ident(
+  def q5 "tests.ml" 225 4558 4558 "tests.ml" 1 0 -1
+)
+"tests.ml" 217 4396 4416 "tests.ml" 217 4396 4420
+type(
+  string
+)
+"tests.ml" 217 4396 4407 "tests.ml" 217 4396 4420
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 218 4422 4442 "tests.ml" 218 4422 4452
+type(
+  Config.t
+)
+"tests.ml" 218 4422 4433 "tests.ml" 218 4422 4452
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 219 4454 4473 "tests.ml" 219 4454 4480
+type(
+  Config.obj_t
+)
+"tests.ml" 219 4454 4464 "tests.ml" 219 4454 4480
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 220 4482 4502 "tests.ml" 220 4482 4511
+type(
+  Config.context
+)
+"tests.ml" 220 4482 4493 "tests.ml" 220 4482 4511
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 221 4513 4528 "tests.ml" 221 4513 4532
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 222 4534 4545 "tests.ml" 222 4534 4549
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 216 4392 4394 "tests.ml" 223 4551 4554
+type(
+  Config.tuple
+)
+"tests.ml" 225 4558 4562 "tests.ml" 225 4558 4565
+type(
+  Config.tuple
+)
+ident(
+  def q5' "tests.ml" 235 4731 4731 "tests.ml" 1 0 -1
+)
+"tests.ml" 227 4572 4592 "tests.ml" 227 4572 4596
+type(
+  string
+)
+"tests.ml" 227 4572 4583 "tests.ml" 227 4572 4596
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 228 4598 4618 "tests.ml" 228 4598 4628
+type(
+  Config.t
+)
+"tests.ml" 228 4598 4609 "tests.ml" 228 4598 4628
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 229 4630 4649 "tests.ml" 229 4630 4653
+type(
+  string
+)
+"tests.ml" 229 4630 4640 "tests.ml" 229 4630 4653
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 230 4655 4675 "tests.ml" 230 4655 4684
+type(
+  Config.context
+)
+"tests.ml" 230 4655 4666 "tests.ml" 230 4655 4684
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 231 4686 4701 "tests.ml" 231 4686 4705
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 232 4707 4718 "tests.ml" 232 4707 4722
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 226 4568 4570 "tests.ml" 233 4724 4727
+type(
+  Config.tuple
+)
+"tests.ml" 235 4731 4735 "tests.ml" 235 4731 4737
+type(
+  Config.tuple
+)
+ident(
+  def q6 "tests.ml" 245 4904 4904 "tests.ml" 1 0 -1
+)
+"tests.ml" 237 4744 4764 "tests.ml" 237 4744 4768
+type(
+  string
+)
+"tests.ml" 237 4744 4755 "tests.ml" 237 4744 4768
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 238 4770 4790 "tests.ml" 238 4770 4801
+type(
+  Config.t
+)
+"tests.ml" 238 4770 4781 "tests.ml" 238 4770 4801
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 239 4803 4822 "tests.ml" 239 4803 4826
+type(
+  string
+)
+"tests.ml" 239 4803 4813 "tests.ml" 239 4803 4826
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 240 4828 4848 "tests.ml" 240 4828 4857
+type(
+  Config.context
+)
+"tests.ml" 240 4828 4839 "tests.ml" 240 4828 4857
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 241 4859 4874 "tests.ml" 241 4859 4878
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 242 4880 4891 "tests.ml" 242 4880 4895
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 236 4740 4742 "tests.ml" 243 4897 4900
+type(
+  Config.tuple
+)
+"tests.ml" 245 4904 4908 "tests.ml" 245 4904 4910
+type(
+  Config.tuple
+)
+ident(
+  def q7 "tests.ml" 256 5139 5139 "tests.ml" 1 0 -1
+)
+"tests.ml" 247 4917 4937 "tests.ml" 247 4917 4941
+type(
+  string
+)
+"tests.ml" 247 4917 4928 "tests.ml" 247 4917 4941
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 248 4943 4963 "tests.ml" 248 4943 4974
+type(
+  Config.t
+)
+"tests.ml" 248 4943 4954 "tests.ml" 248 4943 4974
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 249 4976 4995 "tests.ml" 249 4976 4999
+type(
+  string
+)
+"tests.ml" 249 4976 4986 "tests.ml" 249 4976 4999
+type(
+  Config.obj_t Config.element_type
+)
+"tests.ml" 250 5001 5021 "tests.ml" 250 5001 5030
+type(
+  Config.context
+)
+"tests.ml" 250 5001 5012 "tests.ml" 250 5001 5030
+type(
+  Config.context Config.element_type
+)
+"tests.ml" 251 5032 5047 "tests.ml" 251 5032 5051
+type(
+  Config.timestamp Config.element_type option
+)
+"tests.ml" 252 5053 5064 "tests.ml" 252 5053 5068
+type(
+  Config.signature Config.element_type option
+)
+"tests.ml" 246 4913 4915 "tests.ml" 253 5070 5073
+type(
+  Config.tuple
+)
+"tests.ml" 256 5139 5147 "tests.ml" 256 5139 5160
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"tests.ml" 256 5139 5161 "tests.ml" 256 5139 5185
+type(
+  string
+)
+"tests.ml" 256 5139 5147 "tests.ml" 256 5139 5185
+call(
+  stack
+)
+type(
+  unit
+)
+"tests.ml" 266 5275 5279 "tests.ml" 266 5275 5284
+type(
+  'a -> unit
+)
+ident(
+  def test0 "tests.ml" 283 5662 5662 "tests.ml" 1 0 -1
+)
+"tests.ml" 266 5275 5285 "tests.ml" 266 5275 5286
+type(
+  'a
+)
+"tests.ml" 267 5289 5295 "tests.ml" 267 5289 5297
+type(
+  Moana_lists.S.t
+)
+ident(
+  def db "tests.ml" 268 5329 5331 "tests.ml" 269 5388 5462
+)
+"tests.ml" 267 5289 5300 "tests.ml" 267 5289 5318
+type(
+  ?query:Config.tuple list -> Config.tuple list -> Moana_lists.S.t
+)
+ident(
+  ext_ref Moana_lists.S.init
+)
+"tests.ml" 267 5289 5319 "tests.ml" 267 5289 5325
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 267 5289 5300 "tests.ml" 267 5289 5325
+call(
+  stack
+)
+type(
+  Moana_lists.S.t
+)
+"tests.ml" 268 5329 5335 "tests.ml" 268 5329 5340
+type(
+  Config.tuple list
+)
+ident(
+  def query "tests.ml" 269 5388 5390 "tests.ml" 269 5388 5462
+)
+"tests.ml" 268 5329 5345 "tests.ml" 268 5329 5347
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 268 5329 5349 "tests.ml" 268 5329 5351
+type(
+  Config.tuple
+)
+ident(
+  int_ref q2 "tests.ml" 185 3867 3871 "tests.ml" 185 3867 3873
+)
+"tests.ml" 268 5329 5343 "tests.ml" 268 5329 5353
+type(
+  Config.tuple list
+)
+"tests.ml" 268 5329 5358 "tests.ml" 268 5329 5367
+type(
+  Config.tuple list list
+)
+ident(
+  def q_exp_res "tests.ml" 269 5388 5390 "tests.ml" 269 5388 5462
+)
+"tests.ml" 268 5329 5374 "tests.ml" 268 5329 5376
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 268 5329 5378 "tests.ml" 268 5329 5380
+type(
+  Config.tuple
+)
+ident(
+  int_ref t9 "tests.ml" 101 2333 2337 "tests.ml" 101 2333 2339
+)
+"tests.ml" 268 5329 5372 "tests.ml" 268 5329 5382
+type(
+  Config.tuple list
+)
+"tests.ml" 268 5329 5370 "tests.ml" 268 5329 5384
+type(
+  Config.tuple list list
+)
+"tests.ml" 269 5388 5394 "tests.ml" 269 5388 5399
+type(
+  Config.tuple list list
+)
+ident(
+  def res_q "tests.ml" 269 5388 5434 "tests.ml" 269 5388 5462
+)
+"tests.ml" 269 5388 5402 "tests.ml" 269 5388 5421
+type(
+  Moana_lists.S.t -> Config.tuple list -> Config.tuple list list
+)
+ident(
+  ext_ref Moana_lists.S.query
+)
+"tests.ml" 269 5388 5422 "tests.ml" 269 5388 5424
+type(
+  Moana_lists.S.t
+)
+ident(
+  int_ref db "tests.ml" 267 5289 5295 "tests.ml" 267 5289 5297
+)
+"tests.ml" 269 5388 5425 "tests.ml" 269 5388 5430
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query "tests.ml" 268 5329 5335 "tests.ml" 268 5329 5340
+)
+"tests.ml" 269 5388 5402 "tests.ml" 269 5388 5430
+call(
+  stack
+)
+type(
+  Config.tuple list list
+)
+"tests.ml" 269 5388 5434 "tests.ml" 269 5388 5446
+type(
+  ?cmp:(Config.tuple list list -> Config.tuple list list -> bool) ->
+  ?printer:(Config.tuple list list -> string) ->
+  ?pp_diff:(Format.formatter ->
+            Config.tuple list list * Config.tuple list list -> unit) ->
+  ?msg:string -> Config.tuple list list -> Config.tuple list list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 269 5388 5447 "tests.ml" 269 5388 5456
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref q_exp_res "tests.ml" 268 5329 5358 "tests.ml" 268 5329 5367
+)
+"tests.ml" 269 5388 5457 "tests.ml" 269 5388 5462
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref res_q "tests.ml" 269 5388 5394 "tests.ml" 269 5388 5399
+)
+"tests.ml" 269 5388 5434 "tests.ml" 269 5388 5462
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 269 5388 5390 "tests.ml" 269 5388 5462
+type(
+  unit
+)
+"tests.ml" 268 5329 5331 "tests.ml" 269 5388 5462
+type(
+  unit
+)
+"tests.ml" 267 5289 5291 "tests.ml" 269 5388 5462
+type(
+  unit
+)
+"tests.ml" 283 5662 5666 "tests.ml" 283 5662 5671
+type(
+  'a -> unit
+)
+ident(
+  def test1 "tests.ml" 297 6028 6028 "tests.ml" 1 0 -1
+)
+"tests.ml" 283 5662 5672 "tests.ml" 283 5662 5673
+type(
+  'a
+)
+"tests.ml" 284 5676 5682 "tests.ml" 284 5676 5687
+type(
+  Config.tuple list
+)
+ident(
+  def query "tests.ml" 285 5751 5753 "tests.ml" 285 5751 5823
+)
+"tests.ml" 284 5676 5692 "tests.ml" 284 5676 5694
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 284 5676 5696 "tests.ml" 284 5676 5698
+type(
+  Config.tuple
+)
+ident(
+  int_ref q3 "tests.ml" 195 4040 4044 "tests.ml" 195 4040 4046
+)
+"tests.ml" 284 5676 5700 "tests.ml" 284 5676 5702
+type(
+  Config.tuple
+)
+ident(
+  int_ref q4 "tests.ml" 205 4212 4216 "tests.ml" 205 4212 4218
+)
+"tests.ml" 284 5676 5704 "tests.ml" 284 5676 5706
+type(
+  Config.tuple
+)
+ident(
+  int_ref q5 "tests.ml" 215 4383 4387 "tests.ml" 215 4383 4389
+)
+"tests.ml" 284 5676 5690 "tests.ml" 284 5676 5708
+type(
+  Config.tuple list
+)
+"tests.ml" 284 5676 5713 "tests.ml" 284 5676 5722
+type(
+  Config.tuple list list
+)
+ident(
+  def q_exp_res "tests.ml" 285 5751 5753 "tests.ml" 285 5751 5823
+)
+"tests.ml" 284 5676 5729 "tests.ml" 284 5676 5731
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 284 5676 5733 "tests.ml" 284 5676 5735
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+)
+"tests.ml" 284 5676 5737 "tests.ml" 284 5676 5739
+type(
+  Config.tuple
+)
+ident(
+  int_ref t5 "tests.ml" 61 1645 1649 "tests.ml" 61 1645 1651
+)
+"tests.ml" 284 5676 5741 "tests.ml" 284 5676 5743
+type(
+  Config.tuple
+)
+ident(
+  int_ref t7 "tests.ml" 81 1986 1990 "tests.ml" 81 1986 1992
+)
+"tests.ml" 284 5676 5727 "tests.ml" 284 5676 5745
+type(
+  Config.tuple list
+)
+"tests.ml" 284 5676 5725 "tests.ml" 284 5676 5747
+type(
+  Config.tuple list list
+)
+"tests.ml" 285 5751 5757 "tests.ml" 285 5751 5762
+type(
+  Config.tuple list list
+)
+ident(
+  def res_q "tests.ml" 285 5751 5795 "tests.ml" 285 5751 5823
+)
+"tests.ml" 285 5751 5765 "tests.ml" 285 5751 5778
+type(
+  Config.tuple list -> Config.tuple list -> Config.tuple list list
+)
+ident(
+  ext_ref Config.execute_query
+)
+"tests.ml" 285 5751 5779 "tests.ml" 285 5751 5785
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 285 5751 5786 "tests.ml" 285 5751 5791
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query "tests.ml" 284 5676 5682 "tests.ml" 284 5676 5687
+)
+"tests.ml" 285 5751 5765 "tests.ml" 285 5751 5791
+call(
+  stack
+)
+type(
+  Config.tuple list list
+)
+"tests.ml" 285 5751 5795 "tests.ml" 285 5751 5807
+type(
+  ?cmp:(Config.tuple list list -> Config.tuple list list -> bool) ->
+  ?printer:(Config.tuple list list -> string) ->
+  ?pp_diff:(Format.formatter ->
+            Config.tuple list list * Config.tuple list list -> unit) ->
+  ?msg:string -> Config.tuple list list -> Config.tuple list list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 285 5751 5808 "tests.ml" 285 5751 5817
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref q_exp_res "tests.ml" 284 5676 5713 "tests.ml" 284 5676 5722
+)
+"tests.ml" 285 5751 5818 "tests.ml" 285 5751 5823
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref res_q "tests.ml" 285 5751 5757 "tests.ml" 285 5751 5762
+)
+"tests.ml" 285 5751 5795 "tests.ml" 285 5751 5823
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 285 5751 5753 "tests.ml" 285 5751 5823
+type(
+  unit
+)
+"tests.ml" 284 5676 5678 "tests.ml" 285 5751 5823
+type(
+  unit
+)
+"tests.ml" 297 6028 6032 "tests.ml" 297 6028 6037
+type(
+  'a -> unit
+)
+ident(
+  def test2 "tests.ml" 311 6366 6366 "tests.ml" 1 0 -1
+)
+"tests.ml" 297 6028 6038 "tests.ml" 297 6028 6039
+type(
+  'a
+)
+"tests.ml" 298 6042 6048 "tests.ml" 298 6042 6053
+type(
+  Config.tuple list
+)
+ident(
+  def query "tests.ml" 299 6117 6119 "tests.ml" 299 6117 6189
+)
+"tests.ml" 298 6042 6058 "tests.ml" 298 6042 6060
+type(
+  Config.tuple
+)
+ident(
+  int_ref q5 "tests.ml" 215 4383 4387 "tests.ml" 215 4383 4389
+)
+"tests.ml" 298 6042 6062 "tests.ml" 298 6042 6064
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 298 6042 6066 "tests.ml" 298 6042 6068
+type(
+  Config.tuple
+)
+ident(
+  int_ref q3 "tests.ml" 195 4040 4044 "tests.ml" 195 4040 4046
+)
+"tests.ml" 298 6042 6070 "tests.ml" 298 6042 6072
+type(
+  Config.tuple
+)
+ident(
+  int_ref q4 "tests.ml" 205 4212 4216 "tests.ml" 205 4212 4218
+)
+"tests.ml" 298 6042 6056 "tests.ml" 298 6042 6074
+type(
+  Config.tuple list
+)
+"tests.ml" 298 6042 6079 "tests.ml" 298 6042 6088
+type(
+  Config.tuple list list
+)
+ident(
+  def q_exp_res "tests.ml" 299 6117 6119 "tests.ml" 299 6117 6189
+)
+"tests.ml" 298 6042 6095 "tests.ml" 298 6042 6097
+type(
+  Config.tuple
+)
+ident(
+  int_ref t7 "tests.ml" 81 1986 1990 "tests.ml" 81 1986 1992
+)
+"tests.ml" 298 6042 6099 "tests.ml" 298 6042 6101
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 298 6042 6103 "tests.ml" 298 6042 6105
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+)
+"tests.ml" 298 6042 6107 "tests.ml" 298 6042 6109
+type(
+  Config.tuple
+)
+ident(
+  int_ref t5 "tests.ml" 61 1645 1649 "tests.ml" 61 1645 1651
+)
+"tests.ml" 298 6042 6093 "tests.ml" 298 6042 6111
+type(
+  Config.tuple list
+)
+"tests.ml" 298 6042 6091 "tests.ml" 298 6042 6113
+type(
+  Config.tuple list list
+)
+"tests.ml" 299 6117 6123 "tests.ml" 299 6117 6128
+type(
+  Config.tuple list list
+)
+ident(
+  def res_q "tests.ml" 299 6117 6161 "tests.ml" 299 6117 6189
+)
+"tests.ml" 299 6117 6131 "tests.ml" 299 6117 6144
+type(
+  Config.tuple list -> Config.tuple list -> Config.tuple list list
+)
+ident(
+  ext_ref Config.execute_query
+)
+"tests.ml" 299 6117 6145 "tests.ml" 299 6117 6151
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 299 6117 6152 "tests.ml" 299 6117 6157
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query "tests.ml" 298 6042 6048 "tests.ml" 298 6042 6053
+)
+"tests.ml" 299 6117 6131 "tests.ml" 299 6117 6157
+call(
+  stack
+)
+type(
+  Config.tuple list list
+)
+"tests.ml" 299 6117 6161 "tests.ml" 299 6117 6173
+type(
+  ?cmp:(Config.tuple list list -> Config.tuple list list -> bool) ->
+  ?printer:(Config.tuple list list -> string) ->
+  ?pp_diff:(Format.formatter ->
+            Config.tuple list list * Config.tuple list list -> unit) ->
+  ?msg:string -> Config.tuple list list -> Config.tuple list list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 299 6117 6174 "tests.ml" 299 6117 6183
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref q_exp_res "tests.ml" 298 6042 6079 "tests.ml" 298 6042 6088
+)
+"tests.ml" 299 6117 6184 "tests.ml" 299 6117 6189
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref res_q "tests.ml" 299 6117 6123 "tests.ml" 299 6117 6128
+)
+"tests.ml" 299 6117 6161 "tests.ml" 299 6117 6189
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 299 6117 6119 "tests.ml" 299 6117 6189
+type(
+  unit
+)
+"tests.ml" 298 6042 6044 "tests.ml" 299 6117 6189
+type(
+  unit
+)
+"tests.ml" 311 6366 6370 "tests.ml" 311 6366 6375
+type(
+  'a -> unit
+)
+ident(
+  def test3 "tests.ml" 350 7126 7126 "tests.ml" 1 0 -1
+)
+"tests.ml" 311 6366 6376 "tests.ml" 311 6366 6377
+type(
+  'a
+)
+"tests.ml" 312 6380 6386 "tests.ml" 312 6380 6391
+type(
+  Config.tuple list
+)
+ident(
+  def query "tests.ml" 313 6455 6457 "tests.ml" 313 6455 6527
+)
+"tests.ml" 312 6380 6396 "tests.ml" 312 6380 6398
+type(
+  Config.tuple
+)
+ident(
+  int_ref q6 "tests.ml" 235 4731 4735 "tests.ml" 235 4731 4737
+)
+"tests.ml" 312 6380 6400 "tests.ml" 312 6380 6402
+type(
+  Config.tuple
+)
+ident(
+  int_ref q7 "tests.ml" 245 4904 4908 "tests.ml" 245 4904 4910
+)
+"tests.ml" 312 6380 6394 "tests.ml" 312 6380 6404
+type(
+  Config.tuple list
+)
+"tests.ml" 312 6380 6409 "tests.ml" 312 6380 6418
+type(
+  Config.tuple list list
+)
+ident(
+  def q_exp_res "tests.ml" 313 6455 6457 "tests.ml" 313 6455 6527
+)
+"tests.ml" 312 6380 6425 "tests.ml" 312 6380 6428
+type(
+  Config.tuple
+)
+ident(
+  int_ref t11 "tests.ml" 121 2677 2681 "tests.ml" 121 2677 2684
+)
+"tests.ml" 312 6380 6430 "tests.ml" 312 6380 6433
+type(
+  Config.tuple
+)
+ident(
+  int_ref t10 "tests.ml" 111 2505 2509 "tests.ml" 111 2505 2512
+)
+"tests.ml" 312 6380 6423 "tests.ml" 312 6380 6435
+type(
+  Config.tuple list
+)
+"tests.ml" 312 6380 6439 "tests.ml" 312 6380 6442
+type(
+  Config.tuple
+)
+ident(
+  int_ref t10 "tests.ml" 111 2505 2509 "tests.ml" 111 2505 2512
+)
+"tests.ml" 312 6380 6444 "tests.ml" 312 6380 6447
+type(
+  Config.tuple
+)
+ident(
+  int_ref t11 "tests.ml" 121 2677 2681 "tests.ml" 121 2677 2684
+)
+"tests.ml" 312 6380 6437 "tests.ml" 312 6380 6449
+type(
+  Config.tuple list
+)
+"tests.ml" 312 6380 6421 "tests.ml" 312 6380 6451
+type(
+  Config.tuple list list
+)
+"tests.ml" 313 6455 6461 "tests.ml" 313 6455 6466
+type(
+  Config.tuple list list
+)
+ident(
+  def res_q "tests.ml" 313 6455 6499 "tests.ml" 313 6455 6527
+)
+"tests.ml" 313 6455 6469 "tests.ml" 313 6455 6482
+type(
+  Config.tuple list -> Config.tuple list -> Config.tuple list list
+)
+ident(
+  ext_ref Config.execute_query
+)
+"tests.ml" 313 6455 6483 "tests.ml" 313 6455 6489
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 313 6455 6490 "tests.ml" 313 6455 6495
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query "tests.ml" 312 6380 6386 "tests.ml" 312 6380 6391
+)
+"tests.ml" 313 6455 6469 "tests.ml" 313 6455 6495
+call(
+  stack
+)
+type(
+  Config.tuple list list
+)
+"tests.ml" 313 6455 6499 "tests.ml" 313 6455 6511
+type(
+  ?cmp:(Config.tuple list list -> Config.tuple list list -> bool) ->
+  ?printer:(Config.tuple list list -> string) ->
+  ?pp_diff:(Format.formatter ->
+            Config.tuple list list * Config.tuple list list -> unit) ->
+  ?msg:string -> Config.tuple list list -> Config.tuple list list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 313 6455 6512 "tests.ml" 313 6455 6521
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref q_exp_res "tests.ml" 312 6380 6409 "tests.ml" 312 6380 6418
+)
+"tests.ml" 313 6455 6522 "tests.ml" 313 6455 6527
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref res_q "tests.ml" 313 6455 6461 "tests.ml" 313 6455 6466
+)
+"tests.ml" 313 6455 6499 "tests.ml" 313 6455 6527
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 313 6455 6457 "tests.ml" 313 6455 6527
+type(
+  unit
+)
+"tests.ml" 312 6380 6382 "tests.ml" 313 6455 6527
+type(
+  unit
+)
+"tests.ml" 350 7126 7130 "tests.ml" 350 7126 7135
+type(
+  'a -> unit
+)
+ident(
+  def test4 "tests.ml" 355 7310 7310 "tests.ml" 1 0 -1
+)
+"tests.ml" 350 7126 7136 "tests.ml" 350 7126 7137
+type(
+  'a
+)
+"tests.ml" 351 7140 7146 "tests.ml" 351 7140 7151
+type(
+  Config.tuple
+)
+ident(
+  def query "tests.ml" 352 7189 7191 "tests.ml" 352 7189 7259
+)
+"tests.ml" 351 7140 7154 "tests.ml" 351 7140 7156
+type(
+  Config.tuple
+)
+ident(
+  int_ref q6 "tests.ml" 235 4731 4735 "tests.ml" 235 4731 4737
+)
+"tests.ml" 351 7140 7161 "tests.ml" 351 7140 7170
+type(
+  Config.tuple list
+)
+ident(
+  def q_exp_res "tests.ml" 352 7189 7191 "tests.ml" 352 7189 7259
+)
+"tests.ml" 351 7140 7175 "tests.ml" 351 7140 7178
+type(
+  Config.tuple
+)
+ident(
+  int_ref t10 "tests.ml" 111 2505 2509 "tests.ml" 111 2505 2512
+)
+"tests.ml" 351 7140 7180 "tests.ml" 351 7140 7183
+type(
+  Config.tuple
+)
+ident(
+  int_ref t11 "tests.ml" 121 2677 2681 "tests.ml" 121 2677 2684
+)
+"tests.ml" 351 7140 7173 "tests.ml" 351 7140 7185
+type(
+  Config.tuple list
+)
+"tests.ml" 352 7189 7195 "tests.ml" 352 7189 7200
+type(
+  Config.tuple list
+)
+ident(
+  def res_q "tests.ml" 352 7189 7231 "tests.ml" 352 7189 7259
+)
+"tests.ml" 352 7189 7203 "tests.ml" 352 7189 7214
+type(
+  Config.tuple -> Config.tuple list -> Config.tuple list
+)
+ident(
+  ext_ref Rete.filter
+)
+"tests.ml" 352 7189 7215 "tests.ml" 352 7189 7220
+type(
+  Config.tuple
+)
+ident(
+  int_ref query "tests.ml" 351 7140 7146 "tests.ml" 351 7140 7151
+)
+"tests.ml" 352 7189 7221 "tests.ml" 352 7189 7227
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 352 7189 7203 "tests.ml" 352 7189 7227
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"tests.ml" 352 7189 7231 "tests.ml" 352 7189 7243
+type(
+  ?cmp:(Config.tuple list -> Config.tuple list -> bool) ->
+  ?printer:(Config.tuple list -> string) ->
+  ?pp_diff:(Format.formatter -> Config.tuple list * Config.tuple list -> unit) ->
+  ?msg:string -> Config.tuple list -> Config.tuple list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 352 7189 7244 "tests.ml" 352 7189 7253
+type(
+  Config.tuple list
+)
+ident(
+  int_ref q_exp_res "tests.ml" 351 7140 7161 "tests.ml" 351 7140 7170
+)
+"tests.ml" 352 7189 7254 "tests.ml" 352 7189 7259
+type(
+  Config.tuple list
+)
+ident(
+  int_ref res_q "tests.ml" 352 7189 7195 "tests.ml" 352 7189 7200
+)
+"tests.ml" 352 7189 7231 "tests.ml" 352 7189 7259
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 352 7189 7191 "tests.ml" 352 7189 7259
+type(
+  unit
+)
+"tests.ml" 351 7140 7142 "tests.ml" 352 7189 7259
+type(
+  unit
+)
+"tests.ml" 355 7310 7314 "tests.ml" 355 7310 7319
+type(
+  'a -> unit
+)
+ident(
+  def test5 "tests.ml" 360 7500 7500 "tests.ml" 1 0 -1
+)
+"tests.ml" 355 7310 7320 "tests.ml" 355 7310 7321
+type(
+  'a
+)
+"tests.ml" 356 7324 7330 "tests.ml" 356 7324 7335
+type(
+  Config.tuple
+)
+ident(
+  def query "tests.ml" 357 7373 7375 "tests.ml" 357 7373 7447
+)
+"tests.ml" 356 7324 7338 "tests.ml" 356 7324 7340
+type(
+  Config.tuple
+)
+ident(
+  int_ref q6 "tests.ml" 235 4731 4735 "tests.ml" 235 4731 4737
+)
+"tests.ml" 356 7324 7345 "tests.ml" 356 7324 7354
+type(
+  Config.tuple list
+)
+ident(
+  def q_exp_res "tests.ml" 357 7373 7375 "tests.ml" 357 7373 7447
+)
+"tests.ml" 356 7324 7359 "tests.ml" 356 7324 7362
+type(
+  Config.tuple
+)
+ident(
+  int_ref t10 "tests.ml" 111 2505 2509 "tests.ml" 111 2505 2512
+)
+"tests.ml" 356 7324 7364 "tests.ml" 356 7324 7367
+type(
+  Config.tuple
+)
+ident(
+  int_ref t11 "tests.ml" 121 2677 2681 "tests.ml" 121 2677 2684
+)
+"tests.ml" 356 7324 7357 "tests.ml" 356 7324 7369
+type(
+  Config.tuple list
+)
+"tests.ml" 357 7373 7379 "tests.ml" 357 7373 7381
+type(
+  Rete.am
+)
+ident(
+  def am "tests.ml" 357 7373 7415 "tests.ml" 357 7373 7447
+)
+"tests.ml" 357 7373 7384 "tests.ml" 357 7373 7398
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 357 7373 7399 "tests.ml" 357 7373 7404
+type(
+  Config.tuple
+)
+ident(
+  int_ref query "tests.ml" 356 7324 7330 "tests.ml" 356 7324 7335
+)
+"tests.ml" 357 7373 7405 "tests.ml" 357 7373 7411
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 357 7373 7384 "tests.ml" 357 7373 7411
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 357 7373 7415 "tests.ml" 357 7373 7427
+type(
+  ?cmp:(Config.tuple list -> Config.tuple list -> bool) ->
+  ?printer:(Config.tuple list -> string) ->
+  ?pp_diff:(Format.formatter -> Config.tuple list * Config.tuple list -> unit) ->
+  ?msg:string -> Config.tuple list -> Config.tuple list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 357 7373 7428 "tests.ml" 357 7373 7437
+type(
+  Config.tuple list
+)
+ident(
+  int_ref q_exp_res "tests.ml" 356 7324 7345 "tests.ml" 356 7324 7354
+)
+"tests.ml" 357 7373 7438 "tests.ml" 357 7373 7440
+type(
+  Rete.am
+)
+ident(
+  int_ref am "tests.ml" 357 7373 7379 "tests.ml" 357 7373 7381
+)
+"tests.ml" 357 7373 7438 "tests.ml" 357 7373 7447
+type(
+  Config.tuple list
+)
+"tests.ml" 357 7373 7415 "tests.ml" 357 7373 7447
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 357 7373 7375 "tests.ml" 357 7373 7447
+type(
+  unit
+)
+"tests.ml" 356 7324 7326 "tests.ml" 357 7373 7447
+type(
+  unit
+)
+"tests.ml" 360 7500 7504 "tests.ml" 360 7500 7509
+type(
+  'a -> unit
+)
+ident(
+  def test6 "tests.ml" 384 7962 7962 "tests.ml" 1 0 -1
+)
+"tests.ml" 360 7500 7510 "tests.ml" 360 7500 7511
+type(
+  'a
+)
+"tests.ml" 365 7570 7580 "tests.ml" 365 7570 7589
+type(
+  Rete.bm
+)
+ident(
+  def q_exp_res "tests.ml" 367 7655 7661 "tests.ml" 373 7782 7789
+)
+"tests.ml" 365 7570 7609 "tests.ml" 365 7570 7613
+type(
+  string
+)
+"tests.ml" 365 7570 7626 "tests.ml" 365 7570 7629
+type(
+  Config.t
+)
+"tests.ml" 365 7570 7616 "tests.ml" 365 7570 7630
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 365 7570 7634 "tests.ml" 365 7570 7636
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 365 7570 7632 "tests.ml" 365 7570 7638
+type(
+  Config.tuple list
+)
+"tests.ml" 365 7570 7615 "tests.ml" 365 7570 7639
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"tests.ml" 365 7570 7608 "tests.ml" 365 7570 7640
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"tests.ml" 365 7570 7606 "tests.ml" 365 7570 7642
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"tests.ml" 365 7570 7592 "tests.ml" 365 7570 7645
+type(
+  Rete.bm
+)
+"tests.ml" 367 7655 7665 "tests.ml" 367 7655 7667
+type(
+  Rete.am
+)
+ident(
+  def am "tests.ml" 369 7699 7705 "tests.ml" 373 7782 7789
+)
+"tests.ml" 367 7655 7670 "tests.ml" 367 7655 7679
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 367 7655 7680 "tests.ml" 367 7655 7682
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 367 7655 7683 "tests.ml" 367 7655 7689
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 367 7655 7670 "tests.ml" 367 7655 7689
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 369 7699 7709 "tests.ml" 369 7699 7711
+type(
+  Rete.bm
+)
+ident(
+  def bm "tests.ml" 371 7743 7749 "tests.ml" 373 7782 7789
+)
+"tests.ml" 369 7699 7728 "tests.ml" 369 7699 7730
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"tests.ml" 369 7699 7714 "tests.ml" 369 7699 7733
+type(
+  Rete.bm
+)
+"tests.ml" 371 7743 7753 "tests.ml" 371 7743 7759
+type(
+  Rete.bm
+)
+ident(
+  def new_bm "tests.ml" 371 7743 7772 "tests.ml" 373 7782 7789
+)
+"tests.ml" 371 7743 7762 "tests.ml" 371 7743 7766
+type(
+  Rete.am -> Rete.bm -> Rete.bm
+)
+ident(
+  ext_ref Rete.join
+)
+"tests.ml" 371 7743 7767 "tests.ml" 371 7743 7769
+type(
+  Rete.am
+)
+ident(
+  int_ref am "tests.ml" 367 7655 7665 "tests.ml" 367 7655 7667
+)
+"tests.ml" 371 7743 7770 "tests.ml" 371 7743 7772
+type(
+  Rete.bm
+)
+ident(
+  int_ref bm "tests.ml" 369 7699 7709 "tests.ml" 369 7699 7711
+)
+"tests.ml" 371 7743 7762 "tests.ml" 371 7743 7772
+call(
+  stack
+)
+type(
+  Rete.bm
+)
+"tests.ml" 374 7790 7795 "tests.ml" 374 7790 7807
+type(
+  ?cmp:(Rete.bm -> Rete.bm -> bool) ->
+  ?printer:(Rete.bm -> string) ->
+  ?pp_diff:(Format.formatter -> Rete.bm * Rete.bm -> unit) ->
+  ?msg:string -> Rete.bm -> Rete.bm -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 374 7790 7808 "tests.ml" 374 7790 7819
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.new_bm "tests.ml" 371 7743 7753 "tests.ml" 371 7743 7759
+)
+"tests.ml" 374 7790 7820 "tests.ml" 374 7790 7834
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.q_exp_res "tests.ml" 365 7570 7580 "tests.ml" 365 7570 7589
+)
+"tests.ml" 374 7790 7795 "tests.ml" 374 7790 7834
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 361 7514 7516 "tests.ml" 374 7790 7834
+type(
+  unit
+)
+"tests.ml" 384 7962 7966 "tests.ml" 384 7962 7971
+type(
+  'a -> unit
+)
+ident(
+  def test7 "tests.ml" 412 8480 8480 "tests.ml" 1 0 -1
+)
+"tests.ml" 384 7962 7972 "tests.ml" 384 7962 7973
+type(
+  'a
+)
+"tests.ml" 389 8032 8042 "tests.ml" 389 8032 8045
+type(
+  Rete.am
+)
+ident(
+  def am1 "tests.ml" 396 8203 8209 "tests.ml" 400 8298 8305
+)
+"tests.ml" 389 8032 8048 "tests.ml" 389 8032 8057
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 389 8032 8058 "tests.ml" 389 8032 8060
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 389 8032 8061 "tests.ml" 389 8032 8067
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 389 8032 8048 "tests.ml" 389 8032 8067
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 391 8069 8079 "tests.ml" 391 8069 8082
+type(
+  Rete.am
+)
+ident(
+  def am2 "tests.ml" 396 8203 8209 "tests.ml" 400 8298 8305
+)
+"tests.ml" 391 8069 8085 "tests.ml" 391 8069 8094
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 391 8069 8095 "tests.ml" 391 8069 8097
+type(
+  Config.tuple
+)
+ident(
+  int_ref q2 "tests.ml" 185 3867 3871 "tests.ml" 185 3867 3873
+)
+"tests.ml" 391 8069 8098 "tests.ml" 391 8069 8104
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 391 8069 8085 "tests.ml" 391 8069 8104
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 393 8106 8116 "tests.ml" 393 8106 8125
+type(
+  Rete.bm
+)
+ident(
+  def q_exp_res "tests.ml" 396 8203 8209 "tests.ml" 400 8298 8305
+)
+"tests.ml" 394 8128 8153 "tests.ml" 394 8128 8157
+type(
+  string
+)
+"tests.ml" 394 8128 8170 "tests.ml" 394 8128 8173
+type(
+  Config.t
+)
+"tests.ml" 394 8128 8160 "tests.ml" 394 8128 8174
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 394 8128 8178 "tests.ml" 394 8128 8180
+type(
+  Config.tuple
+)
+ident(
+  int_ref t9 "tests.ml" 101 2333 2337 "tests.ml" 101 2333 2339
+)
+"tests.ml" 394 8128 8182 "tests.ml" 394 8128 8184
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 394 8128 8176 "tests.ml" 394 8128 8186
+type(
+  Config.tuple list
+)
+"tests.ml" 394 8128 8159 "tests.ml" 394 8128 8187
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"tests.ml" 394 8128 8152 "tests.ml" 394 8128 8188
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"tests.ml" 394 8128 8150 "tests.ml" 394 8128 8190
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"tests.ml" 394 8128 8136 "tests.ml" 394 8128 8193
+type(
+  Rete.bm
+)
+"tests.ml" 396 8203 8213 "tests.ml" 396 8203 8215
+type(
+  Rete.bm
+)
+ident(
+  def bm "tests.ml" 398 8247 8253 "tests.ml" 400 8298 8305
+)
+"tests.ml" 396 8203 8232 "tests.ml" 396 8203 8234
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"tests.ml" 396 8203 8218 "tests.ml" 396 8203 8237
+type(
+  Rete.bm
+)
+"tests.ml" 398 8247 8257 "tests.ml" 398 8247 8263
+type(
+  Rete.bm
+)
+ident(
+  def res_bm "tests.ml" 398 8247 8288 "tests.ml" 400 8298 8305
+)
+"tests.ml" 398 8247 8266 "tests.ml" 398 8247 8270
+type(
+  Rete.am -> Rete.bm -> Rete.bm
+)
+ident(
+  ext_ref Rete.join
+)
+"tests.ml" 398 8247 8271 "tests.ml" 398 8247 8274
+type(
+  Rete.am
+)
+ident(
+  int_ref am2 "tests.ml" 391 8069 8079 "tests.ml" 391 8069 8082
+)
+"tests.ml" 398 8247 8276 "tests.ml" 398 8247 8280
+type(
+  Rete.am -> Rete.bm -> Rete.bm
+)
+ident(
+  ext_ref Rete.join
+)
+"tests.ml" 398 8247 8281 "tests.ml" 398 8247 8284
+type(
+  Rete.am
+)
+ident(
+  int_ref am1 "tests.ml" 389 8032 8042 "tests.ml" 389 8032 8045
+)
+"tests.ml" 398 8247 8285 "tests.ml" 398 8247 8287
+type(
+  Rete.bm
+)
+ident(
+  int_ref bm "tests.ml" 396 8203 8213 "tests.ml" 396 8203 8215
+)
+"tests.ml" 398 8247 8275 "tests.ml" 398 8247 8288
+call(
+  stack
+)
+type(
+  Rete.bm
+)
+"tests.ml" 398 8247 8266 "tests.ml" 398 8247 8288
+call(
+  stack
+)
+type(
+  Rete.bm
+)
+"tests.ml" 401 8306 8311 "tests.ml" 401 8306 8323
+type(
+  ?cmp:(Rete.bm -> Rete.bm -> bool) ->
+  ?printer:(Rete.bm -> string) ->
+  ?pp_diff:(Format.formatter -> Rete.bm * Rete.bm -> unit) ->
+  ?msg:string -> Rete.bm -> Rete.bm -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 401 8306 8324 "tests.ml" 401 8306 8335
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.res_bm "tests.ml" 398 8247 8257 "tests.ml" 398 8247 8263
+)
+"tests.ml" 401 8306 8336 "tests.ml" 401 8306 8350
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.q_exp_res "tests.ml" 393 8106 8116 "tests.ml" 393 8106 8125
+)
+"tests.ml" 401 8306 8311 "tests.ml" 401 8306 8350
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 385 7976 7978 "tests.ml" 401 8306 8350
+type(
+  unit
+)
+"tests.ml" 412 8480 8484 "tests.ml" 412 8480 8489
+type(
+  'a -> unit
+)
+ident(
+  def test8 "tests.ml" 449 9333 9333 "tests.ml" 1 0 -1
+)
+"tests.ml" 412 8480 8490 "tests.ml" 412 8480 8491
+type(
+  'a
+)
+"tests.ml" 417 8550 8560 "tests.ml" 417 8550 8570
+type(
+  Config.tuple list
+)
+ident(
+  def exd_tuples "tests.ml" 419 8614 8620 "tests.ml" 437 9120 9127
+)
+"tests.ml" 417 8550 8575 "tests.ml" 417 8550 8578
+type(
+  Config.tuple
+)
+ident(
+  int_ref t12 "tests.ml" 131 2849 2853 "tests.ml" 131 2849 2856
+)
+"tests.ml" 417 8550 8580 "tests.ml" 417 8550 8583
+type(
+  Config.tuple
+)
+ident(
+  int_ref t13 "tests.ml" 141 3018 3022 "tests.ml" 141 3018 3025
+)
+"tests.ml" 417 8550 8585 "tests.ml" 417 8550 8588
+type(
+  Config.tuple
+)
+ident(
+  int_ref t14 "tests.ml" 151 3190 3194 "tests.ml" 151 3190 3197
+)
+"tests.ml" 417 8550 8590 "tests.ml" 417 8550 8593
+type(
+  Config.tuple
+)
+ident(
+  int_ref t15 "tests.ml" 161 3362 3366 "tests.ml" 161 3362 3369
+)
+"tests.ml" 417 8550 8573 "tests.ml" 417 8550 8595
+type(
+  Config.tuple list
+)
+"tests.ml" 417 8550 8596 "tests.ml" 417 8550 8597
+type(
+  Config.tuple list -> Config.tuple list -> Config.tuple list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"tests.ml" 417 8550 8598 "tests.ml" 417 8550 8604
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 417 8550 8573 "tests.ml" 417 8550 8604
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"tests.ml" 419 8614 8624 "tests.ml" 419 8614 8633
+type(
+  Rete.bm
+)
+ident(
+  def q_exp_res "tests.ml" 426 8814 8820 "tests.ml" 437 9120 9127
+)
+"tests.ml" 422 8668 8683 "tests.ml" 422 8668 8687
+type(
+  string
+)
+"tests.ml" 422 8668 8700 "tests.ml" 422 8668 8703
+type(
+  Config.t
+)
+"tests.ml" 422 8668 8690 "tests.ml" 422 8668 8704
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 422 8668 8708 "tests.ml" 422 8668 8710
+type(
+  Config.tuple
+)
+ident(
+  int_ref t7 "tests.ml" 81 1986 1990 "tests.ml" 81 1986 1992
+)
+"tests.ml" 422 8668 8712 "tests.ml" 422 8668 8714
+type(
+  Config.tuple
+)
+ident(
+  int_ref t5 "tests.ml" 61 1645 1649 "tests.ml" 61 1645 1651
+)
+"tests.ml" 422 8668 8716 "tests.ml" 422 8668 8718
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+)
+"tests.ml" 422 8668 8720 "tests.ml" 422 8668 8722
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 422 8668 8706 "tests.ml" 422 8668 8724
+type(
+  Config.tuple list
+)
+"tests.ml" 422 8668 8689 "tests.ml" 422 8668 8725
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"tests.ml" 422 8668 8682 "tests.ml" 422 8668 8726
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"tests.ml" 423 8728 8743 "tests.ml" 423 8728 8747
+type(
+  string
+)
+"tests.ml" 423 8728 8760 "tests.ml" 423 8728 8764
+type(
+  Config.t
+)
+"tests.ml" 423 8728 8750 "tests.ml" 423 8728 8765
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 423 8728 8769 "tests.ml" 423 8728 8772
+type(
+  Config.tuple
+)
+ident(
+  int_ref t15 "tests.ml" 161 3362 3366 "tests.ml" 161 3362 3369
+)
+"tests.ml" 423 8728 8774 "tests.ml" 423 8728 8777
+type(
+  Config.tuple
+)
+ident(
+  int_ref t14 "tests.ml" 151 3190 3194 "tests.ml" 151 3190 3197
+)
+"tests.ml" 423 8728 8779 "tests.ml" 423 8728 8782
+type(
+  Config.tuple
+)
+ident(
+  int_ref t13 "tests.ml" 141 3018 3022 "tests.ml" 141 3018 3025
+)
+"tests.ml" 423 8728 8784 "tests.ml" 423 8728 8787
+type(
+  Config.tuple
+)
+ident(
+  int_ref t12 "tests.ml" 131 2849 2853 "tests.ml" 131 2849 2856
+)
+"tests.ml" 423 8728 8767 "tests.ml" 423 8728 8789
+type(
+  Config.tuple list
+)
+"tests.ml" 423 8728 8749 "tests.ml" 423 8728 8790
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"tests.ml" 423 8728 8742 "tests.ml" 423 8728 8791
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"tests.ml" 422 8668 8680 "tests.ml" 423 8728 8793
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"tests.ml" 420 8636 8644 "tests.ml" 424 8795 8804
+type(
+  Rete.bm
+)
+"tests.ml" 426 8814 8824 "tests.ml" 426 8814 8827
+type(
+  Rete.am
+)
+ident(
+  def am1 "tests.ml" 434 9022 9028 "tests.ml" 437 9120 9127
+)
+"tests.ml" 426 8814 8830 "tests.ml" 426 8814 8839
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 426 8814 8840 "tests.ml" 426 8814 8842
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 426 8814 8843 "tests.ml" 426 8814 8853
+type(
+  Config.tuple list
+)
+ident(
+  int_ref exd_tuples "tests.ml" 417 8550 8560 "tests.ml" 417 8550 8570
+)
+"tests.ml" 426 8814 8830 "tests.ml" 426 8814 8853
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 428 8855 8865 "tests.ml" 428 8855 8868
+type(
+  Rete.am
+)
+ident(
+  def am2 "tests.ml" 434 9022 9028 "tests.ml" 437 9120 9127
+)
+"tests.ml" 428 8855 8871 "tests.ml" 428 8855 8880
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 428 8855 8881 "tests.ml" 428 8855 8883
+type(
+  Config.tuple
+)
+ident(
+  int_ref q3 "tests.ml" 195 4040 4044 "tests.ml" 195 4040 4046
+)
+"tests.ml" 428 8855 8884 "tests.ml" 428 8855 8894
+type(
+  Config.tuple list
+)
+ident(
+  int_ref exd_tuples "tests.ml" 417 8550 8560 "tests.ml" 417 8550 8570
+)
+"tests.ml" 428 8855 8871 "tests.ml" 428 8855 8894
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 429 8895 8905 "tests.ml" 429 8895 8908
+type(
+  Rete.am
+)
+ident(
+  def am3 "tests.ml" 434 9022 9028 "tests.ml" 437 9120 9127
+)
+"tests.ml" 429 8895 8911 "tests.ml" 429 8895 8920
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 429 8895 8921 "tests.ml" 429 8895 8923
+type(
+  Config.tuple
+)
+ident(
+  int_ref q4 "tests.ml" 205 4212 4216 "tests.ml" 205 4212 4218
+)
+"tests.ml" 429 8895 8924 "tests.ml" 429 8895 8934
+type(
+  Config.tuple list
+)
+ident(
+  int_ref exd_tuples "tests.ml" 417 8550 8560 "tests.ml" 417 8550 8570
+)
+"tests.ml" 429 8895 8911 "tests.ml" 429 8895 8934
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 431 8936 8946 "tests.ml" 431 8936 8949
+type(
+  Rete.am
+)
+ident(
+  def am4 "tests.ml" 434 9022 9028 "tests.ml" 437 9120 9127
+)
+"tests.ml" 431 8936 8952 "tests.ml" 431 8936 8961
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 431 8936 8962 "tests.ml" 431 8936 8964
+type(
+  Config.tuple
+)
+ident(
+  int_ref q5 "tests.ml" 215 4383 4387 "tests.ml" 215 4383 4389
+)
+"tests.ml" 431 8936 8965 "tests.ml" 431 8936 8975
+type(
+  Config.tuple list
+)
+ident(
+  int_ref exd_tuples "tests.ml" 417 8550 8560 "tests.ml" 417 8550 8570
+)
+"tests.ml" 431 8936 8952 "tests.ml" 431 8936 8975
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 434 9022 9032 "tests.ml" 434 9022 9038
+type(
+  Rete.bm
+)
+ident(
+  def res_bm "tests.ml" 435 9041 9110 "tests.ml" 437 9120 9127
+)
+"tests.ml" 435 9041 9049 "tests.ml" 435 9041 9053
+type(
+  Rete.am -> Rete.bm -> Rete.bm
+)
+ident(
+  ext_ref Rete.join
+)
+"tests.ml" 435 9041 9054 "tests.ml" 435 9041 9057
+type(
+  Rete.am
+)
+ident(
+  int_ref am4 "tests.ml" 431 8936 8946 "tests.ml" 431 8936 8949
+)
+"tests.ml" 435 9041 9059 "tests.ml" 435 9041 9063
+type(
+  Rete.am -> Rete.bm -> Rete.bm
+)
+ident(
+  ext_ref Rete.join
+)
+"tests.ml" 435 9041 9064 "tests.ml" 435 9041 9067
+type(
+  Rete.am
+)
+ident(
+  int_ref am3 "tests.ml" 429 8895 8905 "tests.ml" 429 8895 8908
+)
+"tests.ml" 435 9041 9069 "tests.ml" 435 9041 9073
+type(
+  Rete.am -> Rete.bm -> Rete.bm
+)
+ident(
+  ext_ref Rete.join
+)
+"tests.ml" 435 9041 9074 "tests.ml" 435 9041 9077
+type(
+  Rete.am
+)
+ident(
+  int_ref am2 "tests.ml" 428 8855 8865 "tests.ml" 428 8855 8868
+)
+"tests.ml" 435 9041 9079 "tests.ml" 435 9041 9083
+type(
+  Rete.am -> Rete.bm -> Rete.bm
+)
+ident(
+  ext_ref Rete.join
+)
+"tests.ml" 435 9041 9084 "tests.ml" 435 9041 9087
+type(
+  Rete.am
+)
+ident(
+  int_ref am1 "tests.ml" 426 8814 8824 "tests.ml" 426 8814 8827
+)
+"tests.ml" 435 9041 9102 "tests.ml" 435 9041 9104
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"tests.ml" 435 9041 9088 "tests.ml" 435 9041 9107
+type(
+  Rete.bm
+)
+"tests.ml" 435 9041 9078 "tests.ml" 435 9041 9108
+call(
+  stack
+)
+type(
+  Rete.bm
+)
+"tests.ml" 435 9041 9068 "tests.ml" 435 9041 9109
+call(
+  stack
+)
+type(
+  Rete.bm
+)
+"tests.ml" 435 9041 9058 "tests.ml" 435 9041 9110
+call(
+  stack
+)
+type(
+  Rete.bm
+)
+"tests.ml" 435 9041 9049 "tests.ml" 435 9041 9110
+call(
+  stack
+)
+type(
+  Rete.bm
+)
+"tests.ml" 438 9128 9164 "tests.ml" 438 9128 9176
+type(
+  ?cmp:(Rete.bm -> Rete.bm -> bool) ->
+  ?printer:(Rete.bm -> string) ->
+  ?pp_diff:(Format.formatter -> Rete.bm * Rete.bm -> unit) ->
+  ?msg:string -> Rete.bm -> Rete.bm -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 438 9128 9177 "tests.ml" 438 9128 9188
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.res_bm "tests.ml" 434 9022 9032 "tests.ml" 434 9022 9038
+)
+"tests.ml" 438 9128 9189 "tests.ml" 438 9128 9203
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.q_exp_res "tests.ml" 419 8614 8624 "tests.ml" 419 8614 8633
+)
+"tests.ml" 438 9128 9164 "tests.ml" 438 9128 9203
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 413 8494 8496 "tests.ml" 438 9128 9203
+type(
+  unit
+)
+"tests.ml" 449 9333 9337 "tests.ml" 449 9333 9342
+type(
+  'a -> unit
+)
+ident(
+  def test9 "tests.ml" 484 10152 10152 "tests.ml" 1 0 -1
+)
+"tests.ml" 449 9333 9343 "tests.ml" 449 9333 9344
+type(
+  'a
+)
+"tests.ml" 454 9403 9413 "tests.ml" 454 9403 9422
+type(
+  Rete.bm
+)
+ident(
+  def q_exp_res "tests.ml" 457 9508 9514 "tests.ml" 469 9815 9822
+)
+"tests.ml" 455 9425 9450 "tests.ml" 455 9425 9454
+type(
+  string
+)
+"tests.ml" 455 9425 9467 "tests.ml" 455 9425 9470
+type(
+  Config.t
+)
+"tests.ml" 455 9425 9457 "tests.ml" 455 9425 9471
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 455 9425 9475 "tests.ml" 455 9425 9477
+type(
+  Config.tuple
+)
+ident(
+  int_ref t7 "tests.ml" 81 1986 1990 "tests.ml" 81 1986 1992
+)
+"tests.ml" 455 9425 9479 "tests.ml" 455 9425 9481
+type(
+  Config.tuple
+)
+ident(
+  int_ref t5 "tests.ml" 61 1645 1649 "tests.ml" 61 1645 1651
+)
+"tests.ml" 455 9425 9483 "tests.ml" 455 9425 9485
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+)
+"tests.ml" 455 9425 9487 "tests.ml" 455 9425 9489
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 455 9425 9473 "tests.ml" 455 9425 9491
+type(
+  Config.tuple list
+)
+"tests.ml" 455 9425 9456 "tests.ml" 455 9425 9492
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"tests.ml" 455 9425 9449 "tests.ml" 455 9425 9493
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"tests.ml" 455 9425 9447 "tests.ml" 455 9425 9495
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"tests.ml" 455 9425 9433 "tests.ml" 455 9425 9498
+type(
+  Rete.bm
+)
+"tests.ml" 457 9508 9518 "tests.ml" 457 9508 9521
+type(
+  Rete.am
+)
+ident(
+  def am1 "tests.ml" 464 9663 9669 "tests.ml" 469 9815 9822
+)
+"tests.ml" 457 9508 9524 "tests.ml" 457 9508 9533
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 457 9508 9534 "tests.ml" 457 9508 9536
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 457 9508 9537 "tests.ml" 457 9508 9543
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 457 9508 9524 "tests.ml" 457 9508 9543
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 459 9545 9555 "tests.ml" 459 9545 9558
+type(
+  Rete.am
+)
+ident(
+  def am2 "tests.ml" 464 9663 9669 "tests.ml" 469 9815 9822
+)
+"tests.ml" 459 9545 9561 "tests.ml" 459 9545 9570
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 459 9545 9571 "tests.ml" 459 9545 9573
+type(
+  Config.tuple
+)
+ident(
+  int_ref q3 "tests.ml" 195 4040 4044 "tests.ml" 195 4040 4046
+)
+"tests.ml" 459 9545 9574 "tests.ml" 459 9545 9580
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 459 9545 9561 "tests.ml" 459 9545 9580
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 460 9581 9591 "tests.ml" 460 9581 9594
+type(
+  Rete.am
+)
+ident(
+  def am3 "tests.ml" 464 9663 9669 "tests.ml" 469 9815 9822
+)
+"tests.ml" 460 9581 9597 "tests.ml" 460 9581 9606
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 460 9581 9607 "tests.ml" 460 9581 9609
+type(
+  Config.tuple
+)
+ident(
+  int_ref q4 "tests.ml" 205 4212 4216 "tests.ml" 205 4212 4218
+)
+"tests.ml" 460 9581 9610 "tests.ml" 460 9581 9616
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 460 9581 9597 "tests.ml" 460 9581 9616
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 462 9618 9628 "tests.ml" 462 9618 9631
+type(
+  Rete.am
+)
+ident(
+  def am4 "tests.ml" 464 9663 9669 "tests.ml" 469 9815 9822
+)
+"tests.ml" 462 9618 9634 "tests.ml" 462 9618 9643
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 462 9618 9644 "tests.ml" 462 9618 9646
+type(
+  Config.tuple
+)
+ident(
+  int_ref q5 "tests.ml" 215 4383 4387 "tests.ml" 215 4383 4389
+)
+"tests.ml" 462 9618 9647 "tests.ml" 462 9618 9653
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 462 9618 9634 "tests.ml" 462 9618 9653
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 464 9663 9673 "tests.ml" 464 9663 9680
+type(
+  Rete.am list
+)
+ident(
+  def am_list "tests.ml" 467 9752 9758 "tests.ml" 469 9815 9822
+)
+"tests.ml" 464 9663 9685 "tests.ml" 464 9663 9688
+type(
+  Rete.am
+)
+ident(
+  int_ref am1 "tests.ml" 457 9508 9518 "tests.ml" 457 9508 9521
+)
+"tests.ml" 464 9663 9690 "tests.ml" 464 9663 9693
+type(
+  Rete.am
+)
+ident(
+  int_ref am2 "tests.ml" 459 9545 9555 "tests.ml" 459 9545 9558
+)
+"tests.ml" 464 9663 9695 "tests.ml" 464 9663 9698
+type(
+  Rete.am
+)
+ident(
+  int_ref am3 "tests.ml" 460 9581 9591 "tests.ml" 460 9581 9594
+)
+"tests.ml" 464 9663 9700 "tests.ml" 464 9663 9703
+type(
+  Rete.am
+)
+ident(
+  int_ref am4 "tests.ml" 462 9618 9628 "tests.ml" 462 9618 9631
+)
+"tests.ml" 464 9663 9683 "tests.ml" 464 9663 9705
+type(
+  Rete.am list
+)
+"tests.ml" 467 9752 9762 "tests.ml" 467 9752 9768
+type(
+  Rete.bm
+)
+ident(
+  def res_bm "tests.ml" 467 9752 9805 "tests.ml" 469 9815 9822
+)
+"tests.ml" 467 9752 9771 "tests.ml" 467 9752 9786
+type(
+  Rete.am list -> Rete.bm
+)
+ident(
+  ext_ref Rete.execute_am_list
+)
+"tests.ml" 467 9752 9788 "tests.ml" 467 9752 9796
+type(
+  Rete.am list -> Rete.am list
+)
+ident(
+  ext_ref List.rev
+)
+"tests.ml" 467 9752 9797 "tests.ml" 467 9752 9804
+type(
+  Rete.am list
+)
+ident(
+  int_ref am_list "tests.ml" 464 9663 9673 "tests.ml" 464 9663 9680
+)
+"tests.ml" 467 9752 9787 "tests.ml" 467 9752 9805
+call(
+  stack
+)
+type(
+  Rete.am list
+)
+"tests.ml" 467 9752 9771 "tests.ml" 467 9752 9805
+call(
+  stack
+)
+type(
+  Rete.bm
+)
+"tests.ml" 470 9823 9860 "tests.ml" 470 9823 9872
+type(
+  ?cmp:(Rete.bm -> Rete.bm -> bool) ->
+  ?printer:(Rete.bm -> string) ->
+  ?pp_diff:(Format.formatter -> Rete.bm * Rete.bm -> unit) ->
+  ?msg:string -> Rete.bm -> Rete.bm -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 470 9823 9873 "tests.ml" 470 9823 9884
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.res_bm "tests.ml" 467 9752 9762 "tests.ml" 467 9752 9768
+)
+"tests.ml" 470 9823 9885 "tests.ml" 470 9823 9899
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.q_exp_res "tests.ml" 454 9403 9413 "tests.ml" 454 9403 9422
+)
+"tests.ml" 470 9823 9860 "tests.ml" 470 9823 9899
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 450 9347 9349 "tests.ml" 470 9823 9899
+type(
+  unit
+)
+"tests.ml" 484 10152 10156 "tests.ml" 484 10152 10162
+type(
+  'a -> unit
+)
+ident(
+  def test10 "tests.ml" 518 10902 10902 "tests.ml" 1 0 -1
+)
+"tests.ml" 484 10152 10163 "tests.ml" 484 10152 10164
+type(
+  'a
+)
+"tests.ml" 489 10223 10233 "tests.ml" 489 10223 10242
+type(
+  Rete.bm
+)
+ident(
+  def q_exp_res "tests.ml" 492 10328 10334 "tests.ml" 506 10700 10707
+)
+"tests.ml" 490 10245 10270 "tests.ml" 490 10245 10274
+type(
+  string
+)
+"tests.ml" 490 10245 10287 "tests.ml" 490 10245 10290
+type(
+  Config.t
+)
+"tests.ml" 490 10245 10277 "tests.ml" 490 10245 10291
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 490 10245 10295 "tests.ml" 490 10245 10297
+type(
+  Config.tuple
+)
+ident(
+  int_ref t7 "tests.ml" 81 1986 1990 "tests.ml" 81 1986 1992
+)
+"tests.ml" 490 10245 10299 "tests.ml" 490 10245 10301
+type(
+  Config.tuple
+)
+ident(
+  int_ref t5 "tests.ml" 61 1645 1649 "tests.ml" 61 1645 1651
+)
+"tests.ml" 490 10245 10303 "tests.ml" 490 10245 10305
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+)
+"tests.ml" 490 10245 10307 "tests.ml" 490 10245 10309
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 490 10245 10293 "tests.ml" 490 10245 10311
+type(
+  Config.tuple list
+)
+"tests.ml" 490 10245 10276 "tests.ml" 490 10245 10312
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"tests.ml" 490 10245 10269 "tests.ml" 490 10245 10313
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"tests.ml" 490 10245 10267 "tests.ml" 490 10245 10315
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"tests.ml" 490 10245 10253 "tests.ml" 490 10245 10318
+type(
+  Rete.bm
+)
+"tests.ml" 492 10328 10338 "tests.ml" 492 10328 10341
+type(
+  Rete.am
+)
+ident(
+  def am1 "tests.ml" 499 10483 10489 "tests.ml" 506 10700 10707
+)
+"tests.ml" 492 10328 10344 "tests.ml" 492 10328 10353
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 492 10328 10354 "tests.ml" 492 10328 10356
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 492 10328 10357 "tests.ml" 492 10328 10363
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 492 10328 10344 "tests.ml" 492 10328 10363
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 494 10365 10375 "tests.ml" 494 10365 10378
+type(
+  Rete.am
+)
+ident(
+  def am2 "tests.ml" 499 10483 10489 "tests.ml" 506 10700 10707
+)
+"tests.ml" 494 10365 10381 "tests.ml" 494 10365 10390
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 494 10365 10391 "tests.ml" 494 10365 10393
+type(
+  Config.tuple
+)
+ident(
+  int_ref q3 "tests.ml" 195 4040 4044 "tests.ml" 195 4040 4046
+)
+"tests.ml" 494 10365 10394 "tests.ml" 494 10365 10400
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 494 10365 10381 "tests.ml" 494 10365 10400
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 495 10401 10411 "tests.ml" 495 10401 10414
+type(
+  Rete.am
+)
+ident(
+  def am3 "tests.ml" 499 10483 10489 "tests.ml" 506 10700 10707
+)
+"tests.ml" 495 10401 10417 "tests.ml" 495 10401 10426
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 495 10401 10427 "tests.ml" 495 10401 10429
+type(
+  Config.tuple
+)
+ident(
+  int_ref q4 "tests.ml" 205 4212 4216 "tests.ml" 205 4212 4218
+)
+"tests.ml" 495 10401 10430 "tests.ml" 495 10401 10436
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 495 10401 10417 "tests.ml" 495 10401 10436
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 497 10438 10448 "tests.ml" 497 10438 10451
+type(
+  Rete.am
+)
+ident(
+  def am4 "tests.ml" 499 10483 10489 "tests.ml" 506 10700 10707
+)
+"tests.ml" 497 10438 10454 "tests.ml" 497 10438 10463
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 497 10438 10464 "tests.ml" 497 10438 10466
+type(
+  Config.tuple
+)
+ident(
+  int_ref q5 "tests.ml" 215 4383 4387 "tests.ml" 215 4383 4389
+)
+"tests.ml" 497 10438 10467 "tests.ml" 497 10438 10473
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 497 10438 10454 "tests.ml" 497 10438 10473
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 499 10483 10493 "tests.ml" 499 10483 10500
+type(
+  Rete.am list
+)
+ident(
+  def am_list "tests.ml" 502 10572 10578 "tests.ml" 506 10700 10707
+)
+"tests.ml" 499 10483 10505 "tests.ml" 499 10483 10508
+type(
+  Rete.am
+)
+ident(
+  int_ref am1 "tests.ml" 492 10328 10338 "tests.ml" 492 10328 10341
+)
+"tests.ml" 499 10483 10510 "tests.ml" 499 10483 10513
+type(
+  Rete.am
+)
+ident(
+  int_ref am2 "tests.ml" 494 10365 10375 "tests.ml" 494 10365 10378
+)
+"tests.ml" 499 10483 10515 "tests.ml" 499 10483 10518
+type(
+  Rete.am
+)
+ident(
+  int_ref am3 "tests.ml" 495 10401 10411 "tests.ml" 495 10401 10414
+)
+"tests.ml" 499 10483 10520 "tests.ml" 499 10483 10523
+type(
+  Rete.am
+)
+ident(
+  int_ref am4 "tests.ml" 497 10438 10448 "tests.ml" 497 10438 10451
+)
+"tests.ml" 499 10483 10503 "tests.ml" 499 10483 10525
+type(
+  Rete.am list
+)
+"tests.ml" 502 10572 10582 "tests.ml" 502 10572 10598
+type(
+  Rete.rete_dataflow
+)
+ident(
+  def res_rete_network "tests.ml" 504 10627 10633 "tests.ml" 506 10700 10707
+)
+"tests.ml" 502 10572 10601 "tests.ml" 502 10572 10609
+type(
+  Rete.am list -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.gen_rete
+)
+"tests.ml" 502 10572 10610 "tests.ml" 502 10572 10617
+type(
+  Rete.am list
+)
+ident(
+  int_ref am_list "tests.ml" 499 10483 10493 "tests.ml" 499 10483 10500
+)
+"tests.ml" 502 10572 10601 "tests.ml" 502 10572 10617
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 504 10627 10644 "tests.ml" 504 10627 10645
+type(
+  Rete.am
+)
+"tests.ml" 504 10627 10647 "tests.ml" 504 10627 10653
+type(
+  Rete.bm
+)
+ident(
+  def res_bm "tests.ml" 504 10627 10690 "tests.ml" 506 10700 10707
+)
+"tests.ml" 504 10627 10655 "tests.ml" 504 10627 10656
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 504 10627 10637 "tests.ml" 504 10627 10658
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 504 10627 10661 "tests.ml" 504 10627 10673
+type(
+  Rete.rete_dataflow -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.execute_rete
+)
+"tests.ml" 504 10627 10674 "tests.ml" 504 10627 10690
+type(
+  Rete.rete_dataflow
+)
+ident(
+  int_ref res_rete_network "tests.ml" 502 10572 10582 "tests.ml" 502 10572 10598
+)
+"tests.ml" 504 10627 10661 "tests.ml" 504 10627 10690
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 507 10708 10744 "tests.ml" 507 10708 10756
+type(
+  ?cmp:(Rete.bm -> Rete.bm -> bool) ->
+  ?printer:(Rete.bm -> string) ->
+  ?pp_diff:(Format.formatter -> Rete.bm * Rete.bm -> unit) ->
+  ?msg:string -> Rete.bm -> Rete.bm -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 507 10708 10757 "tests.ml" 507 10708 10768
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.res_bm "tests.ml" 504 10627 10647 "tests.ml" 504 10627 10653
+)
+"tests.ml" 507 10708 10769 "tests.ml" 507 10708 10783
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.q_exp_res "tests.ml" 489 10223 10233 "tests.ml" 489 10223 10242
+)
+"tests.ml" 507 10708 10744 "tests.ml" 507 10708 10783
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 485 10167 10169 "tests.ml" 507 10708 10783
+type(
+  unit
+)
+"tests.ml" 518 10902 10906 "tests.ml" 518 10902 10912
+type(
+  'a -> unit
+)
+ident(
+  def test11 "tests.ml" 528 11261 11261 "tests.ml" 1 0 -1
+)
+"tests.ml" 518 10902 10913 "tests.ml" 518 10902 10914
+type(
+  'a
+)
+"tests.ml" 519 10917 10923 "tests.ml" 519 10917 10925
+type(
+  Moana_irmin.S.t
+)
+ident(
+  def db "tests.ml" 520 10957 10959 "tests.ml" 524 11158 11194
+)
+"tests.ml" 519 10917 10928 "tests.ml" 519 10917 10946
+type(
+  ?query:Config.tuple list -> Config.tuple list -> Moana_irmin.S.t
+)
+ident(
+  ext_ref Moana_irmin.S.init
+)
+"tests.ml" 519 10917 10947 "tests.ml" 519 10917 10953
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 519 10917 10928 "tests.ml" 519 10917 10953
+call(
+  stack
+)
+type(
+  Moana_irmin.S.t
+)
+"tests.ml" 520 10957 10963 "tests.ml" 520 10957 10970
+type(
+  Config.tuple list
+)
+ident(
+  def query10 "tests.ml" 521 11020 11022 "tests.ml" 524 11158 11194
+)
+"tests.ml" 520 10957 10975 "tests.ml" 520 10957 10977
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 520 10957 10979 "tests.ml" 520 10957 10981
+type(
+  Config.tuple
+)
+ident(
+  int_ref q2 "tests.ml" 185 3867 3871 "tests.ml" 185 3867 3873
+)
+"tests.ml" 520 10957 10973 "tests.ml" 520 10957 10983
+type(
+  Config.tuple list
+)
+"tests.ml" 520 10957 10988 "tests.ml" 520 10957 10999
+type(
+  Config.tuple list list
+)
+ident(
+  def q10_exp_res "tests.ml" 521 11020 11022 "tests.ml" 524 11158 11194
+)
+"tests.ml" 520 10957 11006 "tests.ml" 520 10957 11008
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 520 10957 11010 "tests.ml" 520 10957 11012
+type(
+  Config.tuple
+)
+ident(
+  int_ref t9 "tests.ml" 101 2333 2337 "tests.ml" 101 2333 2339
+)
+"tests.ml" 520 10957 11004 "tests.ml" 520 10957 11014
+type(
+  Config.tuple list
+)
+"tests.ml" 520 10957 11002 "tests.ml" 520 10957 11016
+type(
+  Config.tuple list list
+)
+"tests.ml" 521 11020 11026 "tests.ml" 521 11020 11033
+type(
+  Config.tuple list list
+)
+ident(
+  def res_q10 "tests.ml" 524 11158 11162 "tests.ml" 524 11158 11194
+)
+"tests.ml" 521 11020 11036 "tests.ml" 521 11020 11055
+type(
+  Moana_irmin.S.t -> Config.tuple list -> Config.tuple list list
+)
+ident(
+  ext_ref Moana_irmin.S.query
+)
+"tests.ml" 521 11020 11056 "tests.ml" 521 11020 11058
+type(
+  Moana_irmin.S.t
+)
+ident(
+  int_ref db "tests.ml" 519 10917 10923 "tests.ml" 519 10917 10925
+)
+"tests.ml" 521 11020 11059 "tests.ml" 521 11020 11066
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query10 "tests.ml" 520 10957 10963 "tests.ml" 520 10957 10970
+)
+"tests.ml" 521 11020 11036 "tests.ml" 521 11020 11066
+call(
+  stack
+)
+type(
+  Config.tuple list list
+)
+"tests.ml" 524 11158 11162 "tests.ml" 524 11158 11174
+type(
+  ?cmp:(Config.tuple list list -> Config.tuple list list -> bool) ->
+  ?printer:(Config.tuple list list -> string) ->
+  ?pp_diff:(Format.formatter ->
+            Config.tuple list list * Config.tuple list list -> unit) ->
+  ?msg:string -> Config.tuple list list -> Config.tuple list list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 524 11158 11175 "tests.ml" 524 11158 11186
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref q10_exp_res "tests.ml" 520 10957 10988 "tests.ml" 520 10957 10999
+)
+"tests.ml" 524 11158 11187 "tests.ml" 524 11158 11194
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref res_q10 "tests.ml" 521 11020 11026 "tests.ml" 521 11020 11033
+)
+"tests.ml" 524 11158 11162 "tests.ml" 524 11158 11194
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 521 11020 11022 "tests.ml" 524 11158 11194
+type(
+  unit
+)
+"tests.ml" 520 10957 10959 "tests.ml" 524 11158 11194
+type(
+  unit
+)
+"tests.ml" 519 10917 10919 "tests.ml" 524 11158 11194
+type(
+  unit
+)
+"tests.ml" 528 11261 11265 "tests.ml" 528 11261 11271
+type(
+  'a -> unit
+)
+ident(
+  def test12 "tests.ml" 547 11772 11772 "tests.ml" 1 0 -1
+)
+"tests.ml" 528 11261 11272 "tests.ml" 528 11261 11273
+type(
+  'a
+)
+"tests.ml" 529 11276 11282 "tests.ml" 529 11276 11284
+type(
+  Moana_irmin.S.t
+)
+ident(
+  def db "tests.ml" 530 11320 11322 "tests.ml" 532 11394 11451
+)
+"tests.ml" 529 11276 11287 "tests.ml" 529 11276 11305
+type(
+  ?query:Config.tuple list -> Config.tuple list -> Moana_irmin.S.t
+)
+ident(
+  ext_ref Moana_irmin.S.init
+)
+"tests.ml" 529 11276 11308 "tests.ml" 529 11276 11310
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 529 11276 11312 "tests.ml" 529 11276 11314
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+)
+"tests.ml" 529 11276 11306 "tests.ml" 529 11276 11316
+type(
+  Config.tuple list
+)
+"tests.ml" 529 11276 11287 "tests.ml" 529 11276 11316
+call(
+  stack
+)
+type(
+  Moana_irmin.S.t
+)
+"tests.ml" 530 11320 11326 "tests.ml" 530 11320 11335
+type(
+  Config.tuple list
+)
+ident(
+  def exp_res11 "tests.ml" 531 11356 11358 "tests.ml" 532 11394 11451
+)
+"tests.ml" 530 11320 11340 "tests.ml" 530 11320 11342
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 530 11320 11344 "tests.ml" 530 11320 11346
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+)
+"tests.ml" 530 11320 11348 "tests.ml" 530 11320 11350
+type(
+  Config.tuple
+)
+ident(
+  int_ref t3 "tests.ml" 41 1305 1309 "tests.ml" 41 1305 1311
+)
+"tests.ml" 530 11320 11338 "tests.ml" 530 11320 11352
+type(
+  Config.tuple list
+)
+"tests.ml" 531 11356 11362 "tests.ml" 531 11356 11367
+type(
+  Moana_irmin.S.t
+)
+ident(
+  def res11 "tests.ml" 532 11394 11399 "tests.ml" 532 11394 11451
+)
+"tests.ml" 531 11356 11370 "tests.ml" 531 11356 11387
+type(
+  Moana_irmin.S.t -> Config.tuple -> Moana_irmin.S.t
+)
+ident(
+  ext_ref Moana_irmin.S.add
+)
+"tests.ml" 531 11356 11388 "tests.ml" 531 11356 11390
+type(
+  Moana_irmin.S.t
+)
+ident(
+  int_ref db "tests.ml" 529 11276 11282 "tests.ml" 529 11276 11284
+)
+"tests.ml" 531 11356 11391 "tests.ml" 531 11356 11393
+type(
+  Config.tuple
+)
+ident(
+  int_ref t3 "tests.ml" 41 1305 1309 "tests.ml" 41 1305 1311
+)
+"tests.ml" 531 11356 11370 "tests.ml" 531 11356 11393
+call(
+  stack
+)
+type(
+  Moana_irmin.S.t
+)
+"tests.ml" 532 11394 11399 "tests.ml" 532 11394 11411
+type(
+  ?cmp:(Config.tuple list -> Config.tuple list -> bool) ->
+  ?printer:(Config.tuple list -> string) ->
+  ?pp_diff:(Format.formatter -> Config.tuple list * Config.tuple list -> unit) ->
+  ?msg:string -> Config.tuple list -> Config.tuple list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 532 11394 11412 "tests.ml" 532 11394 11421
+type(
+  Config.tuple list
+)
+ident(
+  int_ref exp_res11 "tests.ml" 530 11320 11326 "tests.ml" 530 11320 11335
+)
+"tests.ml" 532 11394 11423 "tests.ml" 532 11394 11444
+type(
+  Moana_irmin.S.t -> Config.tuple list
+)
+ident(
+  ext_ref Moana_irmin.S.to_list
+)
+"tests.ml" 532 11394 11445 "tests.ml" 532 11394 11450
+type(
+  Moana_irmin.S.t
+)
+ident(
+  int_ref res11 "tests.ml" 531 11356 11362 "tests.ml" 531 11356 11367
+)
+"tests.ml" 532 11394 11422 "tests.ml" 532 11394 11451
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"tests.ml" 532 11394 11399 "tests.ml" 532 11394 11451
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 531 11356 11358 "tests.ml" 532 11394 11451
+type(
+  unit
+)
+"tests.ml" 530 11320 11322 "tests.ml" 532 11394 11451
+type(
+  unit
+)
+"tests.ml" 529 11276 11278 "tests.ml" 532 11394 11451
+type(
+  unit
+)
+"tests.ml" 547 11772 11776 "tests.ml" 547 11772 11782
+type(
+  'a -> unit
+)
+ident(
+  def test13 "tests.ml" 592 12830 12830 "tests.ml" 1 0 -1
+)
+"tests.ml" 547 11772 11783 "tests.ml" 547 11772 11784
+type(
+  'a
+)
+"tests.ml" 552 11843 11853 "tests.ml" 552 11843 11863
+type(
+  Config.tuple list
+)
+ident(
+  def exd_tuples "tests.ml" 554 11897 11903 "tests.ml" 577 12539 12546
+)
+"tests.ml" 552 11843 11868 "tests.ml" 552 11843 11871
+type(
+  Config.tuple
+)
+ident(
+  int_ref t13 "tests.ml" 141 3018 3022 "tests.ml" 141 3018 3025
+)
+"tests.ml" 552 11843 11873 "tests.ml" 552 11843 11876
+type(
+  Config.tuple
+)
+ident(
+  int_ref t14 "tests.ml" 151 3190 3194 "tests.ml" 151 3190 3197
+)
+"tests.ml" 552 11843 11866 "tests.ml" 552 11843 11878
+type(
+  Config.tuple list
+)
+"tests.ml" 552 11843 11879 "tests.ml" 552 11843 11880
+type(
+  Config.tuple list -> Config.tuple list -> Config.tuple list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"tests.ml" 552 11843 11881 "tests.ml" 552 11843 11887
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 552 11843 11866 "tests.ml" 552 11843 11887
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"tests.ml" 554 11897 11907 "tests.ml" 554 11897 11916
+type(
+  Rete.bm
+)
+ident(
+  def q_exp_res "tests.ml" 561 12097 12103 "tests.ml" 577 12539 12546
+)
+"tests.ml" 557 11951 11966 "tests.ml" 557 11951 11970
+type(
+  string
+)
+"tests.ml" 557 11951 11983 "tests.ml" 557 11951 11986
+type(
+  Config.t
+)
+"tests.ml" 557 11951 11973 "tests.ml" 557 11951 11987
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 557 11951 11991 "tests.ml" 557 11951 11993
+type(
+  Config.tuple
+)
+ident(
+  int_ref t7 "tests.ml" 81 1986 1990 "tests.ml" 81 1986 1992
+)
+"tests.ml" 557 11951 11995 "tests.ml" 557 11951 11997
+type(
+  Config.tuple
+)
+ident(
+  int_ref t5 "tests.ml" 61 1645 1649 "tests.ml" 61 1645 1651
+)
+"tests.ml" 557 11951 11999 "tests.ml" 557 11951 12001
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+)
+"tests.ml" 557 11951 12003 "tests.ml" 557 11951 12005
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 557 11951 11989 "tests.ml" 557 11951 12007
+type(
+  Config.tuple list
+)
+"tests.ml" 557 11951 11972 "tests.ml" 557 11951 12008
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"tests.ml" 557 11951 11965 "tests.ml" 557 11951 12009
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"tests.ml" 558 12011 12026 "tests.ml" 558 12011 12030
+type(
+  string
+)
+"tests.ml" 558 12011 12043 "tests.ml" 558 12011 12047
+type(
+  Config.t
+)
+"tests.ml" 558 12011 12033 "tests.ml" 558 12011 12048
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 558 12011 12052 "tests.ml" 558 12011 12055
+type(
+  Config.tuple
+)
+ident(
+  int_ref t15 "tests.ml" 161 3362 3366 "tests.ml" 161 3362 3369
+)
+"tests.ml" 558 12011 12057 "tests.ml" 558 12011 12060
+type(
+  Config.tuple
+)
+ident(
+  int_ref t14 "tests.ml" 151 3190 3194 "tests.ml" 151 3190 3197
+)
+"tests.ml" 558 12011 12062 "tests.ml" 558 12011 12065
+type(
+  Config.tuple
+)
+ident(
+  int_ref t13 "tests.ml" 141 3018 3022 "tests.ml" 141 3018 3025
+)
+"tests.ml" 558 12011 12067 "tests.ml" 558 12011 12070
+type(
+  Config.tuple
+)
+ident(
+  int_ref t12 "tests.ml" 131 2849 2853 "tests.ml" 131 2849 2856
+)
+"tests.ml" 558 12011 12050 "tests.ml" 558 12011 12072
+type(
+  Config.tuple list
+)
+"tests.ml" 558 12011 12032 "tests.ml" 558 12011 12073
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"tests.ml" 558 12011 12025 "tests.ml" 558 12011 12074
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"tests.ml" 557 11951 11963 "tests.ml" 558 12011 12076
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"tests.ml" 555 11919 11927 "tests.ml" 559 12078 12087
+type(
+  Rete.bm
+)
+"tests.ml" 561 12097 12107 "tests.ml" 561 12097 12110
+type(
+  Rete.am
+)
+ident(
+  def am1 "tests.ml" 568 12268 12274 "tests.ml" 577 12539 12546
+)
+"tests.ml" 561 12097 12113 "tests.ml" 561 12097 12122
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 561 12097 12123 "tests.ml" 561 12097 12125
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 561 12097 12126 "tests.ml" 561 12097 12136
+type(
+  Config.tuple list
+)
+ident(
+  int_ref exd_tuples "tests.ml" 552 11843 11853 "tests.ml" 552 11843 11863
+)
+"tests.ml" 561 12097 12113 "tests.ml" 561 12097 12136
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 563 12138 12148 "tests.ml" 563 12138 12151
+type(
+  Rete.am
+)
+ident(
+  def am2 "tests.ml" 568 12268 12274 "tests.ml" 577 12539 12546
+)
+"tests.ml" 563 12138 12154 "tests.ml" 563 12138 12163
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 563 12138 12164 "tests.ml" 563 12138 12166
+type(
+  Config.tuple
+)
+ident(
+  int_ref q3 "tests.ml" 195 4040 4044 "tests.ml" 195 4040 4046
+)
+"tests.ml" 563 12138 12167 "tests.ml" 563 12138 12177
+type(
+  Config.tuple list
+)
+ident(
+  int_ref exd_tuples "tests.ml" 552 11843 11853 "tests.ml" 552 11843 11863
+)
+"tests.ml" 563 12138 12154 "tests.ml" 563 12138 12177
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 564 12178 12188 "tests.ml" 564 12178 12191
+type(
+  Rete.am
+)
+ident(
+  def am3 "tests.ml" 568 12268 12274 "tests.ml" 577 12539 12546
+)
+"tests.ml" 564 12178 12194 "tests.ml" 564 12178 12203
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 564 12178 12204 "tests.ml" 564 12178 12206
+type(
+  Config.tuple
+)
+ident(
+  int_ref q4 "tests.ml" 205 4212 4216 "tests.ml" 205 4212 4218
+)
+"tests.ml" 564 12178 12207 "tests.ml" 564 12178 12217
+type(
+  Config.tuple list
+)
+ident(
+  int_ref exd_tuples "tests.ml" 552 11843 11853 "tests.ml" 552 11843 11863
+)
+"tests.ml" 564 12178 12194 "tests.ml" 564 12178 12217
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 566 12219 12229 "tests.ml" 566 12219 12232
+type(
+  Rete.am
+)
+ident(
+  def am4 "tests.ml" 568 12268 12274 "tests.ml" 577 12539 12546
+)
+"tests.ml" 566 12219 12235 "tests.ml" 566 12219 12244
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 566 12219 12245 "tests.ml" 566 12219 12247
+type(
+  Config.tuple
+)
+ident(
+  int_ref q5 "tests.ml" 215 4383 4387 "tests.ml" 215 4383 4389
+)
+"tests.ml" 566 12219 12248 "tests.ml" 566 12219 12258
+type(
+  Config.tuple list
+)
+ident(
+  int_ref exd_tuples "tests.ml" 552 11843 11853 "tests.ml" 552 11843 11863
+)
+"tests.ml" 566 12219 12235 "tests.ml" 566 12219 12258
+call(
+  stack
+)
+type(
+  Rete.am
+)
+"tests.ml" 568 12268 12278 "tests.ml" 568 12268 12285
+type(
+  Rete.am list
+)
+ident(
+  def am_list "tests.ml" 571 12357 12363 "tests.ml" 577 12539 12546
+)
+"tests.ml" 568 12268 12290 "tests.ml" 568 12268 12293
+type(
+  Rete.am
+)
+ident(
+  int_ref am1 "tests.ml" 561 12097 12107 "tests.ml" 561 12097 12110
+)
+"tests.ml" 568 12268 12295 "tests.ml" 568 12268 12298
+type(
+  Rete.am
+)
+ident(
+  int_ref am2 "tests.ml" 563 12138 12148 "tests.ml" 563 12138 12151
+)
+"tests.ml" 568 12268 12300 "tests.ml" 568 12268 12303
+type(
+  Rete.am
+)
+ident(
+  int_ref am3 "tests.ml" 564 12178 12188 "tests.ml" 564 12178 12191
+)
+"tests.ml" 568 12268 12305 "tests.ml" 568 12268 12308
+type(
+  Rete.am
+)
+ident(
+  int_ref am4 "tests.ml" 566 12219 12229 "tests.ml" 566 12219 12232
+)
+"tests.ml" 568 12268 12288 "tests.ml" 568 12268 12310
+type(
+  Rete.am list
+)
+"tests.ml" 571 12357 12367 "tests.ml" 571 12357 12379
+type(
+  Rete.rete_dataflow
+)
+ident(
+  def rete_network "tests.ml" 573 12408 12414 "tests.ml" 577 12539 12546
+)
+"tests.ml" 571 12357 12382 "tests.ml" 571 12357 12390
+type(
+  Rete.am list -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.gen_rete
+)
+"tests.ml" 571 12357 12391 "tests.ml" 571 12357 12398
+type(
+  Rete.am list
+)
+ident(
+  int_ref am_list "tests.ml" 568 12268 12278 "tests.ml" 568 12268 12285
+)
+"tests.ml" 571 12357 12382 "tests.ml" 571 12357 12398
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 573 12408 12425 "tests.ml" 573 12408 12426
+type(
+  Rete.am
+)
+"tests.ml" 573 12408 12428 "tests.ml" 573 12408 12434
+type(
+  Rete.bm
+)
+ident(
+  def res_bm "tests.ml" 573 12408 12483 "tests.ml" 577 12539 12546
+)
+"tests.ml" 573 12408 12436 "tests.ml" 573 12408 12437
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 573 12408 12418 "tests.ml" 573 12408 12439
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 573 12408 12446 "tests.ml" 573 12408 12447
+type(
+  Rete.rete_dataflow
+)
+ident(
+  def n "tests.ml" 573 12408 12474 "tests.ml" 573 12408 12483
+)
+"tests.ml" 573 12408 12450 "tests.ml" 573 12408 12453
+type(
+  Rete.rete_dataflow -> Config.tuple -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.add
+)
+"tests.ml" 573 12408 12454 "tests.ml" 573 12408 12466
+type(
+  Rete.rete_dataflow
+)
+ident(
+  int_ref rete_network "tests.ml" 571 12357 12367 "tests.ml" 571 12357 12379
+)
+"tests.ml" 573 12408 12467 "tests.ml" 573 12408 12470
+type(
+  Config.tuple
+)
+ident(
+  int_ref t12 "tests.ml" 131 2849 2853 "tests.ml" 131 2849 2856
+)
+"tests.ml" 573 12408 12450 "tests.ml" 573 12408 12470
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 573 12408 12474 "tests.ml" 573 12408 12477
+type(
+  Rete.rete_dataflow -> Config.tuple -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.add
+)
+"tests.ml" 573 12408 12478 "tests.ml" 573 12408 12479
+type(
+  Rete.rete_dataflow
+)
+ident(
+  int_ref n "tests.ml" 573 12408 12446 "tests.ml" 573 12408 12447
+)
+"tests.ml" 573 12408 12480 "tests.ml" 573 12408 12483
+type(
+  Config.tuple
+)
+ident(
+  int_ref t15 "tests.ml" 161 3362 3366 "tests.ml" 161 3362 3369
+)
+"tests.ml" 573 12408 12474 "tests.ml" 573 12408 12483
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 573 12408 12442 "tests.ml" 573 12408 12483
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 578 12547 12553 "tests.ml" 578 12547 12565
+type(
+  ?cmp:(Rete.bm -> Rete.bm -> bool) ->
+  ?printer:(Rete.bm -> string) ->
+  ?pp_diff:(Format.formatter -> Rete.bm * Rete.bm -> unit) ->
+  ?msg:string -> Rete.bm -> Rete.bm -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 578 12547 12566 "tests.ml" 578 12547 12577
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.res_bm "tests.ml" 573 12408 12428 "tests.ml" 573 12408 12434
+)
+"tests.ml" 578 12547 12578 "tests.ml" 578 12547 12592
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.q_exp_res "tests.ml" 554 11897 11907 "tests.ml" 554 11897 11916
+)
+"tests.ml" 578 12547 12553 "tests.ml" 578 12547 12592
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 548 11787 11789 "tests.ml" 578 12547 12592
+type(
+  unit
+)
+"tests.ml" 592 12830 12834 "tests.ml" 592 12830 12840
+type(
+  'a -> unit
+)
+ident(
+  def test14 "tests.ml" 610 13271 13271 "tests.ml" 1 0 -1
+)
+"tests.ml" 592 12830 12841 "tests.ml" 592 12830 12842
+type(
+  'a
+)
+"tests.ml" 593 12845 12851 "tests.ml" 593 12845 12860
+type(
+  Config.tuple
+)
+ident(
+  def res_tuple "tests.ml" 594 12895 12931 "tests.ml" 594 12895 12956
+)
+"tests.ml" 593 12845 12863 "tests.ml" 593 12845 12871
+type(
+  string -> Config.tuple
+)
+ident(
+  ext_ref Helper.to_tuple
+)
+"tests.ml" 593 12845 12872 "tests.ml" 593 12845 12894
+type(
+  string
+)
+"tests.ml" 593 12845 12863 "tests.ml" 593 12845 12894
+call(
+  stack
+)
+type(
+  Config.tuple
+)
+"tests.ml" 594 12895 12931 "tests.ml" 594 12895 12943
+type(
+  ?cmp:(Config.tuple -> Config.tuple -> bool) ->
+  ?printer:(Config.tuple -> string) ->
+  ?pp_diff:(Format.formatter -> Config.tuple * Config.tuple -> unit) ->
+  ?msg:string -> Config.tuple -> Config.tuple -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 594 12895 12944 "tests.ml" 594 12895 12953
+type(
+  Config.tuple
+)
+ident(
+  int_ref res_tuple "tests.ml" 593 12845 12851 "tests.ml" 593 12845 12860
+)
+"tests.ml" 594 12895 12954 "tests.ml" 594 12895 12956
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 594 12895 12931 "tests.ml" 594 12895 12956
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 593 12845 12847 "tests.ml" 594 12895 12956
+type(
+  unit
+)
+"tests.ml" 610 13271 13275 "tests.ml" 610 13271 13281
+type(
+  'a -> unit
+)
+ident(
+  def test15 "tests.ml" 624 13540 13540 "tests.ml" 1 0 -1
+)
+"tests.ml" 610 13271 13282 "tests.ml" 610 13271 13283
+type(
+  'a
+)
+"tests.ml" 611 13286 13292 "tests.ml" 611 13286 13301
+type(
+  Config.tuple
+)
+ident(
+  def res_tuple "tests.ml" 612 13340 13376 "tests.ml" 612 13340 13401
+)
+"tests.ml" 611 13286 13304 "tests.ml" 611 13286 13312
+type(
+  string -> Config.tuple
+)
+ident(
+  ext_ref Helper.to_tuple
+)
+"tests.ml" 611 13286 13313 "tests.ml" 611 13286 13339
+type(
+  string
+)
+"tests.ml" 611 13286 13304 "tests.ml" 611 13286 13339
+call(
+  stack
+)
+type(
+  Config.tuple
+)
+"tests.ml" 612 13340 13376 "tests.ml" 612 13340 13388
+type(
+  ?cmp:(Config.tuple -> Config.tuple -> bool) ->
+  ?printer:(Config.tuple -> string) ->
+  ?pp_diff:(Format.formatter -> Config.tuple * Config.tuple -> unit) ->
+  ?msg:string -> Config.tuple -> Config.tuple -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 612 13340 13389 "tests.ml" 612 13340 13398
+type(
+  Config.tuple
+)
+ident(
+  int_ref res_tuple "tests.ml" 611 13286 13292 "tests.ml" 611 13286 13301
+)
+"tests.ml" 612 13340 13399 "tests.ml" 612 13340 13401
+type(
+  Config.tuple
+)
+ident(
+  int_ref q3 "tests.ml" 195 4040 4044 "tests.ml" 195 4040 4046
+)
+"tests.ml" 612 13340 13376 "tests.ml" 612 13340 13401
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 611 13286 13288 "tests.ml" 612 13340 13401
+type(
+  unit
+)
+"tests.ml" 624 13540 13544 "tests.ml" 624 13540 13550
+type(
+  'a -> unit
+)
+ident(
+  def test16 "tests.ml" 639 13805 13805 "tests.ml" 1 0 -1
+)
+"tests.ml" 624 13540 13551 "tests.ml" 624 13540 13552
+type(
+  'a
+)
+"tests.ml" 625 13555 13561 "tests.ml" 625 13555 13564
+type(
+  Config.tuple list
+)
+ident(
+  def res "tests.ml" 632 13673 13703 "tests.ml" 632 13673 13727
+)
+"tests.ml" 626 13567 13571 "tests.ml" 626 13567 13585
+type(
+  string -> Config.tuple list
+)
+ident(
+  ext_ref Helper.str_query_list
+)
+"tests.ml" 627 13586 13592 "tests.ml" 630 13663 13671
+type(
+  string
+)
+"tests.ml" 626 13567 13571 "tests.ml" 630 13663 13671
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"tests.ml" 632 13673 13679 "tests.ml" 632 13673 13686
+type(
+  Config.tuple list
+)
+ident(
+  def exp_res "tests.ml" 632 13673 13703 "tests.ml" 632 13673 13727
+)
+"tests.ml" 632 13673 13691 "tests.ml" 632 13673 13693
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 632 13673 13695 "tests.ml" 632 13673 13697
+type(
+  Config.tuple
+)
+ident(
+  int_ref q2 "tests.ml" 185 3867 3871 "tests.ml" 185 3867 3873
+)
+"tests.ml" 632 13673 13689 "tests.ml" 632 13673 13699
+type(
+  Config.tuple list
+)
+"tests.ml" 632 13673 13703 "tests.ml" 632 13673 13715
+type(
+  ?cmp:(Config.tuple list -> Config.tuple list -> bool) ->
+  ?printer:(Config.tuple list -> string) ->
+  ?pp_diff:(Format.formatter -> Config.tuple list * Config.tuple list -> unit) ->
+  ?msg:string -> Config.tuple list -> Config.tuple list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 632 13673 13716 "tests.ml" 632 13673 13719
+type(
+  Config.tuple list
+)
+ident(
+  int_ref res "tests.ml" 625 13555 13561 "tests.ml" 625 13555 13564
+)
+"tests.ml" 632 13673 13720 "tests.ml" 632 13673 13727
+type(
+  Config.tuple list
+)
+ident(
+  int_ref exp_res "tests.ml" 632 13673 13679 "tests.ml" 632 13673 13686
+)
+"tests.ml" 632 13673 13703 "tests.ml" 632 13673 13727
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 625 13555 13557 "tests.ml" 632 13673 13727
+type(
+  unit
+)
+"tests.ml" 639 13805 13809 "tests.ml" 639 13805 13815
+type(
+  'a -> unit
+)
+ident(
+  def test17 "tests.ml" 660 14280 14280 "tests.ml" 1 0 -1
+)
+"tests.ml" 639 13805 13816 "tests.ml" 639 13805 13817
+type(
+  'a
+)
+"tests.ml" 640 13820 13826 "tests.ml" 640 13820 13829
+type(
+  Config.tuple list
+)
+ident(
+  def res "tests.ml" 646 13963 14000 "tests.ml" 646 13963 14024
+)
+"tests.ml" 641 13832 13836 "tests.ml" 641 13832 13848
+type(
+  string -> Config.tuple list
+)
+ident(
+  ext_ref Helper.to_tuple_lst
+)
+"tests.ml" 642 13849 13855 "tests.ml" 645 13934 13962
+type(
+  string
+)
+"tests.ml" 641 13832 13836 "tests.ml" 645 13934 13962
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"tests.ml" 646 13963 13969 "tests.ml" 646 13963 13976
+type(
+  Config.tuple list
+)
+ident(
+  def exp_res "tests.ml" 646 13963 14000 "tests.ml" 646 13963 14024
+)
+"tests.ml" 646 13963 13980 "tests.ml" 646 13963 13982
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 646 13963 13984 "tests.ml" 646 13963 13986
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+)
+"tests.ml" 646 13963 13988 "tests.ml" 646 13963 13990
+type(
+  Config.tuple
+)
+ident(
+  int_ref t3 "tests.ml" 41 1305 1309 "tests.ml" 41 1305 1311
+)
+"tests.ml" 646 13963 13992 "tests.ml" 646 13963 13994
+type(
+  Config.tuple
+)
+ident(
+  int_ref t4 "tests.ml" 51 1475 1479 "tests.ml" 51 1475 1481
+)
+"tests.ml" 646 13963 13979 "tests.ml" 646 13963 13996
+type(
+  Config.tuple list
+)
+"tests.ml" 646 13963 14000 "tests.ml" 646 13963 14012
+type(
+  ?cmp:(Config.tuple list -> Config.tuple list -> bool) ->
+  ?printer:(Config.tuple list -> string) ->
+  ?pp_diff:(Format.formatter -> Config.tuple list * Config.tuple list -> unit) ->
+  ?msg:string -> Config.tuple list -> Config.tuple list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 646 13963 14013 "tests.ml" 646 13963 14016
+type(
+  Config.tuple list
+)
+ident(
+  int_ref res "tests.ml" 640 13820 13826 "tests.ml" 640 13820 13829
+)
+"tests.ml" 646 13963 14017 "tests.ml" 646 13963 14024
+type(
+  Config.tuple list
+)
+ident(
+  int_ref exp_res "tests.ml" 646 13963 13969 "tests.ml" 646 13963 13976
+)
+"tests.ml" 646 13963 14000 "tests.ml" 646 13963 14024
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 640 13820 13822 "tests.ml" 646 13963 14024
+type(
+  unit
+)
+"tests.ml" 660 14280 14284 "tests.ml" 660 14280 14290
+type(
+  'a -> unit
+)
+ident(
+  def test18 "tests.ml" 679 14895 14895 "tests.ml" 1 0 -1
+)
+"tests.ml" 660 14280 14291 "tests.ml" 660 14280 14292
+type(
+  'a
+)
+"tests.ml" 664 14342 14352 "tests.ml" 664 14342 14361
+type(
+  Rete.bm
+)
+ident(
+  def q_exp_res "tests.ml" 666 14446 14450 "tests.ml" 675 14770 14777
+)
+"tests.ml" 665 14364 14389 "tests.ml" 665 14364 14393
+type(
+  string
+)
+"tests.ml" 665 14364 14406 "tests.ml" 665 14364 14409
+type(
+  Config.t
+)
+"tests.ml" 665 14364 14396 "tests.ml" 665 14364 14410
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 665 14364 14414 "tests.ml" 665 14364 14416
+type(
+  Config.tuple
+)
+ident(
+  int_ref t7 "tests.ml" 81 1986 1990 "tests.ml" 81 1986 1992
+)
+"tests.ml" 665 14364 14418 "tests.ml" 665 14364 14420
+type(
+  Config.tuple
+)
+ident(
+  int_ref t5 "tests.ml" 61 1645 1649 "tests.ml" 61 1645 1651
+)
+"tests.ml" 665 14364 14422 "tests.ml" 665 14364 14424
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+)
+"tests.ml" 665 14364 14426 "tests.ml" 665 14364 14428
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 665 14364 14412 "tests.ml" 665 14364 14430
+type(
+  Config.tuple list
+)
+"tests.ml" 665 14364 14395 "tests.ml" 665 14364 14431
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"tests.ml" 665 14364 14388 "tests.ml" 665 14364 14432
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"tests.ml" 665 14364 14386 "tests.ml" 665 14364 14434
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"tests.ml" 665 14364 14372 "tests.ml" 665 14364 14437
+type(
+  Rete.bm
+)
+"tests.ml" 666 14446 14454 "tests.ml" 666 14446 14470
+type(
+  Rete.rete_dataflow
+)
+ident(
+  def res_rete_network "tests.ml" 673 14697 14703 "tests.ml" 675 14770 14777
+)
+"tests.ml" 667 14474 14478 "tests.ml" 667 14474 14485
+type(
+  string -> Config.tuple list -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.to_rete
+)
+"tests.ml" 667 14474 14486 "tests.ml" 672 14669 14681
+type(
+  string
+)
+"tests.ml" 672 14669 14682 "tests.ml" 672 14669 14688
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 667 14474 14478 "tests.ml" 672 14669 14688
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 673 14697 14714 "tests.ml" 673 14697 14715
+type(
+  Rete.am
+)
+"tests.ml" 673 14697 14717 "tests.ml" 673 14697 14723
+type(
+  Rete.bm
+)
+ident(
+  def res_bm "tests.ml" 673 14697 14760 "tests.ml" 675 14770 14777
+)
+"tests.ml" 673 14697 14725 "tests.ml" 673 14697 14726
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 673 14697 14707 "tests.ml" 673 14697 14728
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 673 14697 14731 "tests.ml" 673 14697 14743
+type(
+  Rete.rete_dataflow -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.execute_rete
+)
+"tests.ml" 673 14697 14744 "tests.ml" 673 14697 14760
+type(
+  Rete.rete_dataflow
+)
+ident(
+  int_ref res_rete_network "tests.ml" 666 14446 14454 "tests.ml" 666 14446 14470
+)
+"tests.ml" 673 14697 14731 "tests.ml" 673 14697 14760
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 676 14778 14825 "tests.ml" 676 14778 14837
+type(
+  ?cmp:(Rete.bm -> Rete.bm -> bool) ->
+  ?printer:(Rete.bm -> string) ->
+  ?pp_diff:(Format.formatter -> Rete.bm * Rete.bm -> unit) ->
+  ?msg:string -> Rete.bm -> Rete.bm -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 676 14778 14838 "tests.ml" 676 14778 14849
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.res_bm "tests.ml" 673 14697 14717 "tests.ml" 673 14697 14723
+)
+"tests.ml" 676 14778 14850 "tests.ml" 676 14778 14864
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.q_exp_res "tests.ml" 664 14342 14352 "tests.ml" 664 14342 14361
+)
+"tests.ml" 676 14778 14825 "tests.ml" 676 14778 14864
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 661 14295 14297 "tests.ml" 676 14778 14864
+type(
+  unit
+)
+"tests.ml" 679 14895 14899 "tests.ml" 679 14895 14905
+type(
+  'a -> unit
+)
+ident(
+  def test19 "tests.ml" 689 15279 15279 "tests.ml" 1 0 -1
+)
+"tests.ml" 679 14895 14906 "tests.ml" 679 14895 14907
+type(
+  'a
+)
+"tests.ml" 680 14910 14927 "tests.ml" 680 14910 14952
+call(
+  stack
+)
+"tests.ml" 680 14910 14960 "tests.ml" 680 14910 14965
+type(
+  G.t
+)
+ident(
+  def graph "tests.ml" 681 14987 14989 "tests.ml" 685 15174 15222
+)
+"tests.ml" 680 14910 14968 "tests.ml" 680 14910 14974
+type(
+  ?query:Config.tuple list -> Config.tuple list -> G.t
+)
+ident(
+  ext_ref G.init
+)
+"tests.ml" 680 14910 14975 "tests.ml" 680 14910 14981
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 680 14910 14968 "tests.ml" 680 14910 14981
+call(
+  stack
+)
+type(
+  G.t
+)
+"tests.ml" 681 14987 14993 "tests.ml" 681 14987 15000
+type(
+  Config.tuple list
+)
+ident(
+  def query10 "tests.ml" 682 15047 15049 "tests.ml" 685 15174 15222
+)
+"tests.ml" 681 14987 15005 "tests.ml" 681 14987 15007
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 681 14987 15009 "tests.ml" 681 14987 15011
+type(
+  Config.tuple
+)
+ident(
+  int_ref q2 "tests.ml" 185 3867 3871 "tests.ml" 185 3867 3873
+)
+"tests.ml" 681 14987 15003 "tests.ml" 681 14987 15013
+type(
+  Config.tuple list
+)
+"tests.ml" 681 14987 15018 "tests.ml" 681 14987 15029
+type(
+  Config.tuple list
+)
+ident(
+  def q10_exp_res "tests.ml" 682 15047 15049 "tests.ml" 685 15174 15222
+)
+"tests.ml" 681 14987 15034 "tests.ml" 681 14987 15036
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 681 14987 15038 "tests.ml" 681 14987 15040
+type(
+  Config.tuple
+)
+ident(
+  int_ref t9 "tests.ml" 101 2333 2337 "tests.ml" 101 2333 2339
+)
+"tests.ml" 681 14987 15032 "tests.ml" 681 14987 15042
+type(
+  Config.tuple list
+)
+"tests.ml" 682 15047 15053 "tests.ml" 682 15047 15060
+type(
+  G.t
+)
+ident(
+  def res_q10 "tests.ml" 685 15174 15178 "tests.ml" 685 15174 15222
+)
+"tests.ml" 682 15047 15063 "tests.ml" 682 15047 15068
+type(
+  G.t -> Config.tuple list -> G.t
+)
+ident(
+  ext_ref G.map
+)
+"tests.ml" 682 15047 15069 "tests.ml" 682 15047 15074
+type(
+  G.t
+)
+ident(
+  int_ref graph "tests.ml" 680 14910 14960 "tests.ml" 680 14910 14965
+)
+"tests.ml" 682 15047 15075 "tests.ml" 682 15047 15082
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query10 "tests.ml" 681 14987 14993 "tests.ml" 681 14987 15000
+)
+"tests.ml" 682 15047 15063 "tests.ml" 682 15047 15082
+call(
+  stack
+)
+type(
+  G.t
+)
+"tests.ml" 685 15174 15178 "tests.ml" 685 15174 15190
+type(
+  ?cmp:(Config.tuple list -> Config.tuple list -> bool) ->
+  ?printer:(Config.tuple list -> string) ->
+  ?pp_diff:(Format.formatter -> Config.tuple list * Config.tuple list -> unit) ->
+  ?msg:string -> Config.tuple list -> Config.tuple list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 685 15174 15191 "tests.ml" 685 15174 15202
+type(
+  Config.tuple list
+)
+ident(
+  int_ref q10_exp_res "tests.ml" 681 14987 15018 "tests.ml" 681 14987 15029
+)
+"tests.ml" 685 15174 15204 "tests.ml" 685 15174 15213
+type(
+  G.t -> Config.tuple list
+)
+ident(
+  ext_ref G.to_list
+)
+"tests.ml" 685 15174 15214 "tests.ml" 685 15174 15221
+type(
+  G.t
+)
+ident(
+  int_ref res_q10 "tests.ml" 682 15047 15053 "tests.ml" 682 15047 15060
+)
+"tests.ml" 685 15174 15203 "tests.ml" 685 15174 15222
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"tests.ml" 685 15174 15178 "tests.ml" 685 15174 15222
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 682 15047 15049 "tests.ml" 685 15174 15222
+type(
+  unit
+)
+"tests.ml" 681 14987 14989 "tests.ml" 685 15174 15222
+type(
+  unit
+)
+"tests.ml" 680 14910 14956 "tests.ml" 685 15174 15222
+type(
+  unit
+)
+"tests.ml" 680 14910 14912 "tests.ml" 685 15174 15222
+type(
+  unit
+)
+"tests.ml" 689 15279 15283 "tests.ml" 689 15279 15289
+type(
+  'a -> unit
+)
+ident(
+  def test20 "tests.ml" 710 15893 15893 "tests.ml" 1 0 -1
+)
+"tests.ml" 689 15279 15290 "tests.ml" 689 15279 15291
+type(
+  'a
+)
+"tests.ml" 690 15294 15311 "tests.ml" 690 15294 15336
+call(
+  stack
+)
+"tests.ml" 690 15294 15344 "tests.ml" 690 15294 15349
+type(
+  G.t
+)
+ident(
+  def graph "tests.ml" 691 15371 15373 "tests.ml" 695 15559 15607
+)
+"tests.ml" 690 15294 15352 "tests.ml" 690 15294 15358
+type(
+  ?query:Config.tuple list -> Config.tuple list -> G.t
+)
+ident(
+  ext_ref G.init
+)
+"tests.ml" 690 15294 15359 "tests.ml" 690 15294 15365
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 690 15294 15352 "tests.ml" 690 15294 15365
+call(
+  stack
+)
+type(
+  G.t
+)
+"tests.ml" 691 15371 15377 "tests.ml" 691 15371 15384
+type(
+  Config.tuple list
+)
+ident(
+  def query10 "tests.ml" 692 15432 15434 "tests.ml" 695 15559 15607
+)
+"tests.ml" 691 15371 15389 "tests.ml" 691 15371 15391
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 691 15371 15393 "tests.ml" 691 15371 15395
+type(
+  Config.tuple
+)
+ident(
+  int_ref q2 "tests.ml" 185 3867 3871 "tests.ml" 185 3867 3873
+)
+"tests.ml" 691 15371 15387 "tests.ml" 691 15371 15397
+type(
+  Config.tuple list
+)
+"tests.ml" 691 15371 15402 "tests.ml" 691 15371 15413
+type(
+  Config.tuple list
+)
+ident(
+  def q10_exp_res "tests.ml" 692 15432 15434 "tests.ml" 695 15559 15607
+)
+"tests.ml" 691 15371 15419 "tests.ml" 691 15371 15421
+type(
+  Config.tuple
+)
+ident(
+  int_ref t9 "tests.ml" 101 2333 2337 "tests.ml" 101 2333 2339
+)
+"tests.ml" 691 15371 15423 "tests.ml" 691 15371 15425
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 691 15371 15417 "tests.ml" 691 15371 15427
+type(
+  Config.tuple list
+)
+"tests.ml" 692 15432 15438 "tests.ml" 692 15432 15445
+type(
+  G.t
+)
+ident(
+  def res_q10 "tests.ml" 695 15559 15563 "tests.ml" 695 15559 15607
+)
+"tests.ml" 692 15432 15448 "tests.ml" 692 15432 15453
+type(
+  G.t -> Config.tuple list -> G.t
+)
+ident(
+  ext_ref G.map
+)
+"tests.ml" 692 15432 15454 "tests.ml" 692 15432 15459
+type(
+  G.t
+)
+ident(
+  int_ref graph "tests.ml" 690 15294 15344 "tests.ml" 690 15294 15349
+)
+"tests.ml" 692 15432 15460 "tests.ml" 692 15432 15467
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query10 "tests.ml" 691 15371 15377 "tests.ml" 691 15371 15384
+)
+"tests.ml" 692 15432 15448 "tests.ml" 692 15432 15467
+call(
+  stack
+)
+type(
+  G.t
+)
+"tests.ml" 695 15559 15563 "tests.ml" 695 15559 15575
+type(
+  ?cmp:(Config.tuple list -> Config.tuple list -> bool) ->
+  ?printer:(Config.tuple list -> string) ->
+  ?pp_diff:(Format.formatter -> Config.tuple list * Config.tuple list -> unit) ->
+  ?msg:string -> Config.tuple list -> Config.tuple list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 695 15559 15576 "tests.ml" 695 15559 15587
+type(
+  Config.tuple list
+)
+ident(
+  int_ref q10_exp_res "tests.ml" 691 15371 15402 "tests.ml" 691 15371 15413
+)
+"tests.ml" 695 15559 15589 "tests.ml" 695 15559 15598
+type(
+  G.t -> Config.tuple list
+)
+ident(
+  ext_ref G.to_list
+)
+"tests.ml" 695 15559 15599 "tests.ml" 695 15559 15606
+type(
+  G.t
+)
+ident(
+  int_ref res_q10 "tests.ml" 692 15432 15438 "tests.ml" 692 15432 15445
+)
+"tests.ml" 695 15559 15588 "tests.ml" 695 15559 15607
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"tests.ml" 695 15559 15563 "tests.ml" 695 15559 15607
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 692 15432 15434 "tests.ml" 695 15559 15607
+type(
+  unit
+)
+"tests.ml" 691 15371 15373 "tests.ml" 695 15559 15607
+type(
+  unit
+)
+"tests.ml" 690 15294 15340 "tests.ml" 695 15559 15607
+type(
+  unit
+)
+"tests.ml" 690 15294 15296 "tests.ml" 695 15559 15607
+type(
+  unit
+)
+"tests.ml" 710 15893 15897 "tests.ml" 710 15893 15903
+type(
+  'a -> unit
+)
+ident(
+  def test21 "tests.ml" 744 16775 16775 "tests.ml" 1 0 -1
+)
+"tests.ml" 710 15893 15904 "tests.ml" 710 15893 15905
+type(
+  'a
+)
+"tests.ml" 715 15964 15974 "tests.ml" 715 15964 15984
+type(
+  Config.tuple list
+)
+ident(
+  def exd_tuples "tests.ml" 717 16028 16034 "tests.ml" 741 16718 16725
+)
+"tests.ml" 715 15964 15989 "tests.ml" 715 15964 15992
+type(
+  Config.tuple
+)
+ident(
+  int_ref t13 "tests.ml" 141 3018 3022 "tests.ml" 141 3018 3025
+)
+"tests.ml" 715 15964 15994 "tests.ml" 715 15964 15997
+type(
+  Config.tuple
+)
+ident(
+  int_ref t14 "tests.ml" 151 3190 3194 "tests.ml" 151 3190 3197
+)
+"tests.ml" 715 15964 16000 "tests.ml" 715 15964 16003
+type(
+  Config.tuple
+)
+ident(
+  int_ref t12 "tests.ml" 131 2849 2853 "tests.ml" 131 2849 2856
+)
+"tests.ml" 715 15964 16005 "tests.ml" 715 15964 16008
+type(
+  Config.tuple
+)
+ident(
+  int_ref t15 "tests.ml" 161 3362 3366 "tests.ml" 161 3362 3369
+)
+"tests.ml" 715 15964 15987 "tests.ml" 715 15964 16009
+type(
+  Config.tuple list
+)
+"tests.ml" 715 15964 16010 "tests.ml" 715 15964 16011
+type(
+  Config.tuple list -> Config.tuple list -> Config.tuple list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"tests.ml" 715 15964 16012 "tests.ml" 715 15964 16018
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 715 15964 15987 "tests.ml" 715 15964 16018
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"tests.ml" 717 16028 16038 "tests.ml" 717 16028 16047
+type(
+  Rete.bm
+)
+ident(
+  def q_exp_res "tests.ml" 735 16502 16505 "tests.ml" 741 16718 16725
+)
+"tests.ml" 720 16082 16097 "tests.ml" 720 16082 16101
+type(
+  string
+)
+"tests.ml" 720 16082 16114 "tests.ml" 720 16082 16117
+type(
+  Config.t
+)
+"tests.ml" 720 16082 16104 "tests.ml" 720 16082 16118
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 720 16082 16122 "tests.ml" 720 16082 16124
+type(
+  Config.tuple
+)
+ident(
+  int_ref t7 "tests.ml" 81 1986 1990 "tests.ml" 81 1986 1992
+)
+"tests.ml" 720 16082 16126 "tests.ml" 720 16082 16128
+type(
+  Config.tuple
+)
+ident(
+  int_ref t5 "tests.ml" 61 1645 1649 "tests.ml" 61 1645 1651
+)
+"tests.ml" 720 16082 16130 "tests.ml" 720 16082 16132
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "tests.ml" 31 1135 1139 "tests.ml" 31 1135 1141
+)
+"tests.ml" 720 16082 16134 "tests.ml" 720 16082 16136
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 720 16082 16120 "tests.ml" 720 16082 16138
+type(
+  Config.tuple list
+)
+"tests.ml" 720 16082 16103 "tests.ml" 720 16082 16139
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"tests.ml" 720 16082 16096 "tests.ml" 720 16082 16140
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"tests.ml" 721 16142 16157 "tests.ml" 721 16142 16161
+type(
+  string
+)
+"tests.ml" 721 16142 16174 "tests.ml" 721 16142 16178
+type(
+  Config.t
+)
+"tests.ml" 721 16142 16164 "tests.ml" 721 16142 16179
+type(
+  Config.t Config.element_type
+)
+"tests.ml" 721 16142 16183 "tests.ml" 721 16142 16186
+type(
+  Config.tuple
+)
+ident(
+  int_ref t15 "tests.ml" 161 3362 3366 "tests.ml" 161 3362 3369
+)
+"tests.ml" 721 16142 16188 "tests.ml" 721 16142 16191
+type(
+  Config.tuple
+)
+ident(
+  int_ref t14 "tests.ml" 151 3190 3194 "tests.ml" 151 3190 3197
+)
+"tests.ml" 721 16142 16193 "tests.ml" 721 16142 16196
+type(
+  Config.tuple
+)
+ident(
+  int_ref t13 "tests.ml" 141 3018 3022 "tests.ml" 141 3018 3025
+)
+"tests.ml" 721 16142 16198 "tests.ml" 721 16142 16201
+type(
+  Config.tuple
+)
+ident(
+  int_ref t12 "tests.ml" 131 2849 2853 "tests.ml" 131 2849 2856
+)
+"tests.ml" 721 16142 16181 "tests.ml" 721 16142 16203
+type(
+  Config.tuple list
+)
+"tests.ml" 721 16142 16163 "tests.ml" 721 16142 16204
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"tests.ml" 721 16142 16156 "tests.ml" 721 16142 16205
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"tests.ml" 720 16082 16094 "tests.ml" 721 16142 16207
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"tests.ml" 718 16050 16058 "tests.ml" 722 16209 16218
+type(
+  Rete.bm
+)
+"tests.ml" 735 16502 16509 "tests.ml" 735 16502 16521
+type(
+  Rete.rete_dataflow
+)
+ident(
+  def rete_network "tests.ml" 737 16597 16603 "tests.ml" 741 16718 16725
+)
+"tests.ml" 735 16502 16525 "tests.ml" 735 16502 16533
+type(
+  (Config.tuple -> Rete.am) -> Config.tuple list -> Rete.am list
+)
+ident(
+  ext_ref List.map
+)
+"tests.ml" 735 16502 16539 "tests.ml" 735 16502 16540
+type(
+  Config.tuple
+)
+ident(
+  def q "tests.ml" 735 16502 16544 "tests.ml" 735 16502 16558
+)
+"tests.ml" 735 16502 16544 "tests.ml" 735 16502 16553
+type(
+  Config.tuple -> Config.tuple list -> Rete.am
+)
+ident(
+  ext_ref Rete.create_am
+)
+"tests.ml" 735 16502 16554 "tests.ml" 735 16502 16555
+type(
+  Config.tuple
+)
+ident(
+  int_ref q "tests.ml" 735 16502 16539 "tests.ml" 735 16502 16540
+)
+"tests.ml" 735 16502 16556 "tests.ml" 735 16502 16558
+type(
+  Config.tuple list
+)
+"tests.ml" 735 16502 16544 "tests.ml" 735 16502 16558
+call(
+  tail
+)
+type(
+  Rete.am
+)
+"tests.ml" 735 16502 16534 "tests.ml" 735 16502 16559
+type(
+  Config.tuple -> Rete.am
+)
+"tests.ml" 735 16502 16562 "tests.ml" 735 16502 16564
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 735 16502 16565 "tests.ml" 735 16502 16567
+type(
+  Config.tuple
+)
+ident(
+  int_ref q3 "tests.ml" 195 4040 4044 "tests.ml" 195 4040 4046
+)
+"tests.ml" 735 16502 16568 "tests.ml" 735 16502 16570
+type(
+  Config.tuple
+)
+ident(
+  int_ref q4 "tests.ml" 205 4212 4216 "tests.ml" 205 4212 4218
+)
+"tests.ml" 735 16502 16571 "tests.ml" 735 16502 16573
+type(
+  Config.tuple
+)
+ident(
+  int_ref q5 "tests.ml" 215 4383 4387 "tests.ml" 215 4383 4389
+)
+"tests.ml" 735 16502 16561 "tests.ml" 735 16502 16574
+type(
+  Config.tuple list
+)
+"tests.ml" 735 16502 16524 "tests.ml" 735 16502 16575
+call(
+  stack
+)
+type(
+  Rete.am list
+)
+"tests.ml" 735 16502 16576 "tests.ml" 735 16502 16578
+type(
+  Rete.am list -> (Rete.am list -> Rete.rete_dataflow) -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"tests.ml" 735 16502 16579 "tests.ml" 735 16502 16587
+type(
+  Rete.am list -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.gen_rete
+)
+"tests.ml" 735 16502 16524 "tests.ml" 735 16502 16587
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 737 16597 16614 "tests.ml" 737 16597 16615
+type(
+  Rete.am
+)
+"tests.ml" 737 16597 16617 "tests.ml" 737 16597 16623
+type(
+  Rete.bm
+)
+ident(
+  def res_bm "tests.ml" 737 16597 16666 "tests.ml" 741 16718 16725
+)
+"tests.ml" 737 16597 16625 "tests.ml" 737 16597 16626
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 737 16597 16607 "tests.ml" 737 16597 16628
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 737 16597 16631 "tests.ml" 737 16597 16641
+type(
+  Rete.rete_dataflow -> Config.tuple list -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.add_tuples
+)
+"tests.ml" 737 16597 16642 "tests.ml" 737 16597 16654
+type(
+  Rete.rete_dataflow
+)
+ident(
+  int_ref rete_network "tests.ml" 735 16502 16509 "tests.ml" 735 16502 16521
+)
+"tests.ml" 737 16597 16656 "tests.ml" 737 16597 16666
+type(
+  Config.tuple list
+)
+ident(
+  int_ref exd_tuples "tests.ml" 715 15964 15974 "tests.ml" 715 15964 15984
+)
+"tests.ml" 737 16597 16631 "tests.ml" 737 16597 16666
+call(
+  stack
+)
+type(
+  Rete.rete_dataflow
+)
+"tests.ml" 742 16726 16732 "tests.ml" 742 16726 16744
+type(
+  ?cmp:(Rete.bm -> Rete.bm -> bool) ->
+  ?printer:(Rete.bm -> string) ->
+  ?pp_diff:(Format.formatter -> Rete.bm * Rete.bm -> unit) ->
+  ?msg:string -> Rete.bm -> Rete.bm -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 742 16726 16745 "tests.ml" 742 16726 16756
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.res_bm "tests.ml" 737 16597 16617 "tests.ml" 737 16597 16623
+)
+"tests.ml" 742 16726 16757 "tests.ml" 742 16726 16771
+type(
+  Rete.bm
+)
+ident(
+  int_ref Test.q_exp_res "tests.ml" 717 16028 16038 "tests.ml" 717 16028 16047
+)
+"tests.ml" 742 16726 16732 "tests.ml" 742 16726 16771
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 711 15908 15910 "tests.ml" 742 16726 16771
+type(
+  unit
+)
+"tests.ml" 744 16775 16779 "tests.ml" 744 16775 16785
+type(
+  'a -> unit
+)
+ident(
+  def test22 "tests.ml" 762 17415 17415 "tests.ml" 1 0 -1
+)
+"tests.ml" 744 16775 16786 "tests.ml" 744 16775 16787
+type(
+  'a
+)
+"tests.ml" 745 16790 16796 "tests.ml" 745 16790 16801
+type(
+  Config.tuple list
+)
+ident(
+  def query "tests.ml" 746 16847 16848 "tests.ml" 749 16968 17014
+)
+"tests.ml" 745 16790 16806 "tests.ml" 745 16790 16808
+type(
+  Config.tuple
+)
+ident(
+  int_ref q1 "tests.ml" 175 3698 3702 "tests.ml" 175 3698 3704
+)
+"tests.ml" 745 16790 16810 "tests.ml" 745 16790 16812
+type(
+  Config.tuple
+)
+ident(
+  int_ref q2 "tests.ml" 185 3867 3871 "tests.ml" 185 3867 3873
+)
+"tests.ml" 745 16790 16804 "tests.ml" 745 16790 16814
+type(
+  Config.tuple list
+)
+"tests.ml" 745 16790 16819 "tests.ml" 745 16790 16828
+type(
+  Config.tuple list
+)
+ident(
+  def q_exp_res "tests.ml" 746 16847 16848 "tests.ml" 749 16968 17014
+)
+"tests.ml" 745 16790 16834 "tests.ml" 745 16790 16836
+type(
+  Config.tuple
+)
+ident(
+  int_ref t9 "tests.ml" 101 2333 2337 "tests.ml" 101 2333 2339
+)
+"tests.ml" 745 16790 16838 "tests.ml" 745 16790 16840
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "tests.ml" 21 967 971 "tests.ml" 21 967 973
+)
+"tests.ml" 745 16790 16832 "tests.ml" 745 16790 16842
+type(
+  Config.tuple list
+)
+"tests.ml" 746 16847 16863 "tests.ml" 746 16847 16887
+call(
+  stack
+)
+"tests.ml" 746 16847 16895 "tests.ml" 746 16847 16900
+type(
+  G.t
+)
+ident(
+  def graph "tests.ml" 747 16929 16931 "tests.ml" 749 16968 17014
+)
+"tests.ml" 746 16847 16903 "tests.ml" 746 16847 16909
+type(
+  ?query:Config.tuple list -> Config.tuple list -> G.t
+)
+ident(
+  ext_ref G.init
+)
+"tests.ml" 746 16847 16911 "tests.ml" 746 16847 16916
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query "tests.ml" 745 16790 16796 "tests.ml" 745 16790 16801
+)
+"tests.ml" 746 16847 16917 "tests.ml" 746 16847 16923
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "tests.ml" 171 3538 3542 "tests.ml" 171 3538 3548
+)
+"tests.ml" 746 16847 16903 "tests.ml" 746 16847 16923
+call(
+  stack
+)
+type(
+  G.t
+)
+"tests.ml" 747 16929 16935 "tests.ml" 747 16929 16942
+type(
+  G.t
+)
+ident(
+  def res_q10 "tests.ml" 749 16968 16972 "tests.ml" 749 16968 17014
+)
+"tests.ml" 747 16929 16945 "tests.ml" 747 16929 16950
+type(
+  G.t -> Config.tuple list -> G.t
+)
+ident(
+  ext_ref G.map
+)
+"tests.ml" 747 16929 16951 "tests.ml" 747 16929 16956
+type(
+  G.t
+)
+ident(
+  int_ref graph "tests.ml" 746 16847 16895 "tests.ml" 746 16847 16900
+)
+"tests.ml" 747 16929 16957 "tests.ml" 747 16929 16962
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query "tests.ml" 745 16790 16796 "tests.ml" 745 16790 16801
+)
+"tests.ml" 747 16929 16945 "tests.ml" 747 16929 16962
+call(
+  stack
+)
+type(
+  G.t
+)
+"tests.ml" 749 16968 16972 "tests.ml" 749 16968 16984
+type(
+  ?cmp:(Config.tuple list -> Config.tuple list -> bool) ->
+  ?printer:(Config.tuple list -> string) ->
+  ?pp_diff:(Format.formatter -> Config.tuple list * Config.tuple list -> unit) ->
+  ?msg:string -> Config.tuple list -> Config.tuple list -> unit
+)
+ident(
+  ext_ref OUnit.assert_equal
+)
+"tests.ml" 749 16968 16985 "tests.ml" 749 16968 16994
+type(
+  Config.tuple list
+)
+ident(
+  int_ref q_exp_res "tests.ml" 745 16790 16819 "tests.ml" 745 16790 16828
+)
+"tests.ml" 749 16968 16996 "tests.ml" 749 16968 17005
+type(
+  G.t -> Config.tuple list
+)
+ident(
+  ext_ref G.to_list
+)
+"tests.ml" 749 16968 17006 "tests.ml" 749 16968 17013
+type(
+  G.t
+)
+ident(
+  int_ref res_q10 "tests.ml" 747 16929 16935 "tests.ml" 747 16929 16942
+)
+"tests.ml" 749 16968 16995 "tests.ml" 749 16968 17014
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"tests.ml" 749 16968 16972 "tests.ml" 749 16968 17014
+call(
+  tail
+)
+type(
+  unit
+)
+"tests.ml" 747 16929 16931 "tests.ml" 749 16968 17014
+type(
+  unit
+)
+"tests.ml" 746 16847 16891 "tests.ml" 749 16968 17014
+type(
+  unit
+)
+"tests.ml" 746 16847 16848 "tests.ml" 749 16968 17014
+type(
+  unit
+)
+"tests.ml" 745 16790 16792 "tests.ml" 749 16968 17014
+type(
+  unit
+)
+"tests.ml" 762 17415 17419 "tests.ml" 762 17415 17424
+type(
+  OUnit.test
+)
+ident(
+  def suite "tests.ml" 773 17956 17956 "tests.ml" 1 0 -1
+)
+"tests.ml" 763 17427 17429 "tests.ml" 763 17427 17441
+type(
+  string
+)
+"tests.ml" 763 17427 17442 "tests.ml" 763 17427 17446
+type(
+  string -> OUnit.test list -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >::: )
+)
+"tests.ml" 764 17447 17453 "tests.ml" 764 17447 17460
+type(
+  string
+)
+"tests.ml" 764 17447 17461 "tests.ml" 764 17447 17464
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 764 17447 17465 "tests.ml" 764 17447 17470
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test0 "tests.ml" 266 5275 5279 "tests.ml" 266 5275 5284
+)
+"tests.ml" 764 17447 17453 "tests.ml" 764 17447 17470
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 764 17447 17472 "tests.ml" 764 17447 17479
+type(
+  string
+)
+"tests.ml" 764 17447 17480 "tests.ml" 764 17447 17483
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 764 17447 17484 "tests.ml" 764 17447 17489
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test1 "tests.ml" 283 5662 5666 "tests.ml" 283 5662 5671
+)
+"tests.ml" 764 17447 17472 "tests.ml" 764 17447 17489
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 764 17447 17491 "tests.ml" 764 17447 17498
+type(
+  string
+)
+"tests.ml" 764 17447 17499 "tests.ml" 764 17447 17502
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 764 17447 17503 "tests.ml" 764 17447 17508
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test2 "tests.ml" 297 6028 6032 "tests.ml" 297 6028 6037
+)
+"tests.ml" 764 17447 17491 "tests.ml" 764 17447 17508
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 765 17510 17516 "tests.ml" 765 17510 17523
+type(
+  string
+)
+"tests.ml" 765 17510 17524 "tests.ml" 765 17510 17527
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 765 17510 17528 "tests.ml" 765 17510 17533
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test3 "tests.ml" 311 6366 6370 "tests.ml" 311 6366 6375
+)
+"tests.ml" 765 17510 17516 "tests.ml" 765 17510 17533
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 765 17510 17535 "tests.ml" 765 17510 17542
+type(
+  string
+)
+"tests.ml" 765 17510 17543 "tests.ml" 765 17510 17546
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 765 17510 17547 "tests.ml" 765 17510 17552
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test4 "tests.ml" 350 7126 7130 "tests.ml" 350 7126 7135
+)
+"tests.ml" 765 17510 17535 "tests.ml" 765 17510 17552
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 765 17510 17554 "tests.ml" 765 17510 17561
+type(
+  string
+)
+"tests.ml" 765 17510 17562 "tests.ml" 765 17510 17565
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 765 17510 17566 "tests.ml" 765 17510 17571
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test5 "tests.ml" 355 7310 7314 "tests.ml" 355 7310 7319
+)
+"tests.ml" 765 17510 17554 "tests.ml" 765 17510 17571
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 766 17573 17579 "tests.ml" 766 17573 17586
+type(
+  string
+)
+"tests.ml" 766 17573 17587 "tests.ml" 766 17573 17590
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 766 17573 17591 "tests.ml" 766 17573 17596
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test6 "tests.ml" 360 7500 7504 "tests.ml" 360 7500 7509
+)
+"tests.ml" 766 17573 17579 "tests.ml" 766 17573 17596
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 766 17573 17598 "tests.ml" 766 17573 17605
+type(
+  string
+)
+"tests.ml" 766 17573 17606 "tests.ml" 766 17573 17609
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 766 17573 17610 "tests.ml" 766 17573 17615
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test7 "tests.ml" 384 7962 7966 "tests.ml" 384 7962 7971
+)
+"tests.ml" 766 17573 17598 "tests.ml" 766 17573 17615
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 766 17573 17617 "tests.ml" 766 17573 17624
+type(
+  string
+)
+"tests.ml" 766 17573 17625 "tests.ml" 766 17573 17628
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 766 17573 17629 "tests.ml" 766 17573 17634
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test8 "tests.ml" 412 8480 8484 "tests.ml" 412 8480 8489
+)
+"tests.ml" 766 17573 17617 "tests.ml" 766 17573 17634
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 767 17636 17642 "tests.ml" 767 17636 17649
+type(
+  string
+)
+"tests.ml" 767 17636 17650 "tests.ml" 767 17636 17653
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 767 17636 17654 "tests.ml" 767 17636 17659
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test9 "tests.ml" 449 9333 9337 "tests.ml" 449 9333 9342
+)
+"tests.ml" 767 17636 17642 "tests.ml" 767 17636 17659
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 767 17636 17661 "tests.ml" 767 17636 17669
+type(
+  string
+)
+"tests.ml" 767 17636 17670 "tests.ml" 767 17636 17673
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 767 17636 17674 "tests.ml" 767 17636 17680
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test10 "tests.ml" 484 10152 10156 "tests.ml" 484 10152 10162
+)
+"tests.ml" 767 17636 17661 "tests.ml" 767 17636 17680
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 767 17636 17682 "tests.ml" 767 17636 17690
+type(
+  string
+)
+"tests.ml" 767 17636 17691 "tests.ml" 767 17636 17694
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 767 17636 17695 "tests.ml" 767 17636 17701
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test11 "tests.ml" 518 10902 10906 "tests.ml" 518 10902 10912
+)
+"tests.ml" 767 17636 17682 "tests.ml" 767 17636 17701
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 768 17703 17709 "tests.ml" 768 17703 17717
+type(
+  string
+)
+"tests.ml" 768 17703 17718 "tests.ml" 768 17703 17721
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 768 17703 17722 "tests.ml" 768 17703 17728
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test12 "tests.ml" 528 11261 11265 "tests.ml" 528 11261 11271
+)
+"tests.ml" 768 17703 17709 "tests.ml" 768 17703 17728
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 768 17703 17730 "tests.ml" 768 17703 17738
+type(
+  string
+)
+"tests.ml" 768 17703 17739 "tests.ml" 768 17703 17742
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 768 17703 17743 "tests.ml" 768 17703 17749
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test13 "tests.ml" 547 11772 11776 "tests.ml" 547 11772 11782
+)
+"tests.ml" 768 17703 17730 "tests.ml" 768 17703 17749
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 768 17703 17751 "tests.ml" 768 17703 17759
+type(
+  string
+)
+"tests.ml" 768 17703 17760 "tests.ml" 768 17703 17763
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 768 17703 17764 "tests.ml" 768 17703 17770
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test14 "tests.ml" 592 12830 12834 "tests.ml" 592 12830 12840
+)
+"tests.ml" 768 17703 17751 "tests.ml" 768 17703 17770
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 769 17772 17778 "tests.ml" 769 17772 17786
+type(
+  string
+)
+"tests.ml" 769 17772 17787 "tests.ml" 769 17772 17790
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 769 17772 17791 "tests.ml" 769 17772 17797
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test15 "tests.ml" 610 13271 13275 "tests.ml" 610 13271 13281
+)
+"tests.ml" 769 17772 17778 "tests.ml" 769 17772 17797
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 769 17772 17799 "tests.ml" 769 17772 17807
+type(
+  string
+)
+"tests.ml" 769 17772 17808 "tests.ml" 769 17772 17811
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 769 17772 17812 "tests.ml" 769 17772 17818
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test16 "tests.ml" 624 13540 13544 "tests.ml" 624 13540 13550
+)
+"tests.ml" 769 17772 17799 "tests.ml" 769 17772 17818
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 769 17772 17819 "tests.ml" 769 17772 17827
+type(
+  string
+)
+"tests.ml" 769 17772 17828 "tests.ml" 769 17772 17831
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 769 17772 17832 "tests.ml" 769 17772 17838
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test17 "tests.ml" 639 13805 13809 "tests.ml" 639 13805 13815
+)
+"tests.ml" 769 17772 17819 "tests.ml" 769 17772 17838
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 770 17840 17843 "tests.ml" 770 17840 17851
+type(
+  string
+)
+"tests.ml" 770 17840 17852 "tests.ml" 770 17840 17855
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 770 17840 17856 "tests.ml" 770 17840 17862
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test18 "tests.ml" 660 14280 14284 "tests.ml" 660 14280 14290
+)
+"tests.ml" 770 17840 17843 "tests.ml" 770 17840 17862
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 770 17840 17863 "tests.ml" 770 17840 17871
+type(
+  string
+)
+"tests.ml" 770 17840 17872 "tests.ml" 770 17840 17875
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 770 17840 17876 "tests.ml" 770 17840 17882
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test19 "tests.ml" 679 14895 14899 "tests.ml" 679 14895 14905
+)
+"tests.ml" 770 17840 17863 "tests.ml" 770 17840 17882
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 770 17840 17883 "tests.ml" 770 17840 17891
+type(
+  string
+)
+"tests.ml" 770 17840 17892 "tests.ml" 770 17840 17895
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 770 17840 17896 "tests.ml" 770 17840 17902
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test20 "tests.ml" 689 15279 15283 "tests.ml" 689 15279 15289
+)
+"tests.ml" 770 17840 17883 "tests.ml" 770 17840 17902
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 771 17905 17908 "tests.ml" 771 17905 17917
+type(
+  string
+)
+"tests.ml" 771 17905 17918 "tests.ml" 771 17905 17921
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 771 17905 17922 "tests.ml" 771 17905 17928
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test21 "tests.ml" 710 15893 15897 "tests.ml" 710 15893 15903
+)
+"tests.ml" 771 17905 17908 "tests.ml" 771 17905 17928
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 771 17905 17930 "tests.ml" 771 17905 17939
+type(
+  string
+)
+"tests.ml" 771 17905 17940 "tests.ml" 771 17905 17943
+type(
+  string -> OUnit.test_fun -> OUnit.test
+)
+ident(
+  ext_ref OUnit.( >:: )
+)
+"tests.ml" 771 17905 17944 "tests.ml" 771 17905 17950
+type(
+  OUnit.test_fun
+)
+ident(
+  int_ref test22 "tests.ml" 744 16775 16779 "tests.ml" 744 16775 16785
+)
+"tests.ml" 771 17905 17930 "tests.ml" 771 17905 17950
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 764 17447 17451 "tests.ml" 771 17905 17952
+type(
+  OUnit.test list
+)
+"tests.ml" 763 17427 17429 "tests.ml" 771 17905 17952
+call(
+  stack
+)
+type(
+  OUnit.test
+)
+"tests.ml" 773 17956 17964 "tests.ml" 773 17956 17980
+type(
+  ?arg_specs:(Arg.key * Arg.spec * Arg.doc) list ->
+  ?set_verbose:(bool -> unit) -> OUnit.test -> OUnit.test_results
+)
+ident(
+  ext_ref OUnit.run_test_tt_main
+)
+"tests.ml" 773 17956 17981 "tests.ml" 773 17956 17986
+type(
+  OUnit.test
+)
+ident(
+  int_ref suite "tests.ml" 762 17415 17419 "tests.ml" 762 17415 17424
+)
+"tests.ml" 773 17956 17964 "tests.ml" 773 17956 17986
+call(
+  stack
+)
+type(
+  OUnit.test_results
+)

@@ -1,0 +1,175 @@
+
+EU (or UK) only cloud in the network layer
+
+Three facests of routing are considerd in this section:
+
+1. path transparency 
+
+how can you tell, a priori, path properties
+where links and switches are, who runs them, what s/w they run etc?
+whois, RIPE registery, AS prefix/ownership etc
+
+2. path controls
+
+can you choose provider?
+yes-  e.g.  client multihomeing (easier if mobile)
+Yes, often server/data center multihoming, note FIX point below
+(flatter internet)
+Yes, if ISP: path choice (by ISP not by client or server)
+Maybe: loose source routing is an IP (IPv6) possibility but is
+normally ruled out. Also VPNs and Traffic engineering often allow
+longer term, research like the Internet Indirection project
+might pay off: research I^3
+
+3. Path monitoring
+
+can you check that your data flows according to declared path
+properties?
+traceroute, geolocation, ping  , etc
+Regulator - SamKnows...etc
+
+Introduction & Discussion
+
+The topic of localization of cloud is extremely interesting  so of course there's no real physical thing that is the cloud,
+but as soon as some programme runs and some data is stored, then there is a mapping from that, into a location. There is
+actually a background theory of processes with location, due to Professor Robin Milner FRS (of Cambridge) called
+Bigraphs....which might be a useful modelilng tool. [see http://www.cl.cam.ac.uk/archive/rm135/uam-theme.html for some
+introductory  info]
+
+We've looked at the notion of topology, topography, and administrative scope in networks (i.e. lower layers) for years, and
+we have a fairly good handle on these notions, and I can help from that perspective - we also have practical tools -- for
+example
+1. It is routine nowadays to use geo-loc services to place a client in a (fairly accurate) geographic location for the
+purposes of
+filtering what content they get - for example, the BBC do this to stop users outside the UK seeing iPlayer content (actually
+they also do it to stop users insde the UK seeing comercial BBC world content) - it is obviously used for geo-located
+targeted advertising. But crucially, it is used by Google/Youtube to control what music and videos they deliver depending
+whether they have negotiated rights to do so (e.g. in exchange for advertising revenue or analytics with the rights owner) in
+a given region - this obviously maps from geographic location of the browser/computer/client, to a legal region for the
+purposes of IP ownership/licensing, so might serve quite well.
+
+2. when we first designed the Xen software, there were also tools for users launching VMs to specific locations in much the
+same way. It was perfectly feasible to cause a virtual machine to start in a specific data center. The same applies to
+storage - We should check, but as far as I know, this is still true for Amazon ECC2 and S3. The early tools were more aimed
+at solving constraints (keep latency below some particular bound) but could be more targeted very easily. Of course, a cloud
+provider knows very well where there data centers are located (geographically, administratively and legally for the purposes
+of tax etc) so this is trivial compared with fancy geo-loc services for (potentially mobile) browsers in case 1.
+
+Of course, there are more nebulous services (like Gmail and search) which run over a large distributed infrastructure, which
+may itself run over an even larger lower layer infrastructure (actually both gmail and youtube have large distributed storage
+systems that may not currently map well to a location, but the argument above says that they easily could.
+
+Ref XenoSearch: Distributed Resource Discovery in the XenoServer Open Platform
+10.1109/HPDC.2003.1210031
+
+3. In the quite early internet days, around 1992, we devised a system called the Inter-domain routing system, which uses a
+protocol fittingly called the Border Gateway protocol, that controls the flow of traffic between regions of the network
+(called Autonomous Systems ("ASs")). While these regions are topological in nature, rather than topographical, as with 2, all
+Border Routers are physically statically located in or near Internet exchange points. Many Internet Service providers are
+also operators in the telco sense, within a specific country, and so their infrastructure in terms of AS topography (and,
+likely, legal boundaries) is well defined - this would be obviously true within the UK, France, SPain, Italy, Germany, etc,
+where the national largest ISP is also the old PTT/operator/telco (BT, FT, Telefonica, Telecom Italia, DT etc) -- so it would
+be fairly easy to map information flow at the network (and constrain it - for example, BGP has rules for traffic ingress,
+egress and transit, and these can be applied on a per IP-prefix basis - so one could constrain traffic from a given cloud
+rly easy to map information flow at the network (and constrain it - for example, BGP has rules for traffic ingress,
+egress and transit, and these can be applied on a per IP-prefix basis - so one could constrain traffic from a given cloud
+service if necessary using today's existing network technology (at some cost, operationally). BGP captures a lot of complex
+network business relationships, and might be a useful source of approaches to constraining where cloud data may and may not
+go...
+
+4. Some Telco/ISPs/ASs have also integrated the content delivery infrastructures with their backbone networks to control
+where the traffic goes, to avoid unnecessary transit fee costs from other ISPs - so for example, Telefonica in Spain works
+directly with Akamai to optimise traffic flow from TV and Web content servers to stay within their network within Spain
+specifically (although they obviously have a lot more networks - e.g. most of Latin America). Localization of traffic is seen
+as a Good Thing for cost (for provider) and latency reasons (or customer), so requiring such controls is not a great burden,
+but more aligned with the network providers business interests already. (see ideas like P4P for this approach, even applied
+to P2P traffic sources like bittorrent).
+
+5. That said, the Internet is getting "flatter" when seen from a large cloud service provider perspective, so that many cloud
+services connect their regional data centers to all providers in an area, so that the onus for information flow control in
+the network later is much more likely to involve google or amazon or yahoo (or facebook) doing a lot more work, that may go
+counter to their business interests to some extent. The model of how the Internet fits together in terms of cloud services,
+Internet Exchange Points is always changing - see for example this report (from 5 years ago now):
+https://www.nanog.org/meetings/nanog47/presentations/Monday/Labovitz_ObserveReport_N47_Mon.pdf
+for what an internet exchange point looks like (although this is missing the security service port mirrors:) see this paper
+from last year:
+http://conferences.sigcomm.org/sigcomm/2012/paper/sigcomm/p163.pdf
+
+Facebook is certainly the most difficult case in terms of trying to understand how these layers would fit together,. but from
+the point of view of business, the least relevant:)
+
+Broader discussion
+
+for europe, the continental ISPs want to worry if they route there data through
+the UK, because of the GCHQ intercept and 5-eyes sharing arrangement with the
+US, effectively rendering data that traverses any UK link being seen in the US
+too...
+the same is not true, as far as I know, if you routed data between (say) france
+and italy via switzerland
+ or betweennorway and denmark via sweden....
+
+of course, if you are just routing end-to-end encrypted data, then the risks
+are small, so recent (post snowden) practice of routing data between data
+centers in encrypted form fixes that risk - but if you application layer route
+(i.e. go via cloud servers and caches) then data may be stored in places at
+risk, since keys might be local to storage server....or storage may be
+unencrypted..
+
+need to write this down as a sort of hierarchy of risks....
+
+does your data touch switches or routers in other countries?
+if so, is it encryped with keys stored and signed /ca in end points, not in
+those other countries
+
+does your data get stored on servers in other countries?
+if so, is the data stored encrypted, with keys keped elsewhere for decrption
+only elsewhere...(at original ends...)?
+
+
+so BGP allows control of traffic flow, although the _direction_  of control is a bit
+weird, but you can configure so you do not ingress/egress or transit a given AS, so if
+we know an AS has any footprint in a given intercept jurisdiction, (or just somewhere
+we don't trust in general)  then one should configure to avoid it - one problem is
+that it is "all or nothing" config...
+
+
+as per earlier mail. at higher levels (storage, caching, location of keys, certificate
+authorities etc) we have to do same due diligence...
+
+
+two things sping to mind during this discussion
+
+we want this model of network control for both:
+
+-- for a compliant cloud service to be able to advertise that it
+doesn't let info flow beyond borders (transparently)
+and
+
+-- to be able to measure that a miscreant cloud provider has
+allowed data or computation to flow (or be stored) where it shouldn't
+(and produce evidence that will stand up in court)
+
+
+One other query: there's an assumption here that EU member states all trust each other. What's the longer term story within the EU cloud for dealing with members joining or leaving? Should newcomers be able to snoop on the historical cloud data they weren't privy to before? When states leave, how do we partition this EU cloud?
+
+This line of thought does lead to a rather unusable cloud where no component s ever trust any other component -- that's clearly not a viable way to benefit from scale, but we do need to consider how to make the placement of trust more flexible to survive the inevitable long term geopolitical changes.  If crypto is built in to the cloud platform, this is once again largely a (difficult) secure key management problem.
+
+Two additional thoughts: 
+
+1. With policy routing in the internet (BGP and associated policy configurations expressing interdomain relationships such as peering/transit and customer/provider, you get horizontal information flow control within the network layer...with some, but limited transparency...a customer can pick provider, but doesn't get to say what happens to their up packets  more that one AS away (though with any tier 1, you could make sure both ends were in same ISP in a given region if toy multihome server sites, for example). And with tools
+ like traceroute, and some geolocation services, you could ay least check...
+
+With the cloud, you have two addtional dimensions to worry about...
+
+The storage and processing: the latter is infinitely more complexto check (
+hence labels/tags and IFC machinery), plus storage brings in the temporal dimension (viz data retention, assurance about deletion, cached copies, remote backup, etc etc)
+
+2. But also, assurance about software itself doing what it says on the tin. You might want to have provenance/audited records of where the software was created, maintained, checked...that's a big ask...
+
+Right now, the state of the art on verified cloud us very weak...but gett,
+ng better...
+
+One trick (from MPI SWS) is to have attestation services which mirror cloud services, implemented by third parties, to beef up the trust...(is used in game servers to detect cheating...)
+
+ref: Peer review, Druschel et al, MPI SWS
+http://peerreview.mpi-sws.org/

@@ -1,0 +1,564 @@
+"clienthtml.ml" 61 1583 1587 "clienthtml.ml" 61 1583 1597
+type(
+  string -> string -> string -> Uri.t
+)
+ident(
+  def jsonStrQry "clienthtml.ml" 69 1847 1847 "clienthtml.ml" 1 0 -1
+)
+"clienthtml.ml" 61 1583 1598 "clienthtml.ml" 61 1583 1605
+type(
+  string
+)
+ident(
+  def strPath "clienthtml.ml" 61 1583 1606 "clienthtml.ml" 63 1687 1734
+)
+"clienthtml.ml" 61 1583 1606 "clienthtml.ml" 61 1583 1609
+type(
+  string
+)
+ident(
+  def qry "clienthtml.ml" 61 1583 1610 "clienthtml.ml" 63 1687 1734
+)
+"clienthtml.ml" 61 1583 1610 "clienthtml.ml" 61 1583 1616
+type(
+  string
+)
+ident(
+  def qryPar "clienthtml.ml" 62 1618 1620 "clienthtml.ml" 63 1687 1734
+)
+"clienthtml.ml" 62 1618 1624 "clienthtml.ml" 62 1618 1632
+type(
+  Uri.t
+)
+ident(
+  def base_uri "clienthtml.ml" 63 1687 1690 "clienthtml.ml" 63 1687 1734
+)
+"clienthtml.ml" 62 1618 1635 "clienthtml.ml" 62 1618 1648
+type(
+  string -> Uri.t
+)
+ident(
+  ext_ref Uri.of_string
+)
+"clienthtml.ml" 62 1618 1650 "clienthtml.ml" 62 1618 1674
+type(
+  string
+)
+"clienthtml.ml" 62 1618 1674 "clienthtml.ml" 62 1618 1675
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"clienthtml.ml" 62 1618 1675 "clienthtml.ml" 62 1618 1682
+type(
+  string
+)
+ident(
+  int_ref strPath "clienthtml.ml" 61 1583 1598 "clienthtml.ml" 61 1583 1605
+)
+"clienthtml.ml" 62 1618 1649 "clienthtml.ml" 62 1618 1683
+call(
+  stack
+)
+type(
+  string
+)
+"clienthtml.ml" 62 1618 1635 "clienthtml.ml" 62 1618 1683
+call(
+  stack
+)
+type(
+  Uri.t
+)
+"clienthtml.ml" 63 1687 1690 "clienthtml.ml" 63 1687 1709
+type(
+  Uri.t -> string * string list -> Uri.t
+)
+ident(
+  ext_ref Uri.add_query_param
+)
+"clienthtml.ml" 63 1687 1710 "clienthtml.ml" 63 1687 1718
+type(
+  Uri.t
+)
+ident(
+  int_ref base_uri "clienthtml.ml" 62 1618 1624 "clienthtml.ml" 62 1618 1632
+)
+"clienthtml.ml" 63 1687 1720 "clienthtml.ml" 63 1687 1723
+type(
+  string
+)
+ident(
+  int_ref qry "clienthtml.ml" 61 1583 1606 "clienthtml.ml" 61 1583 1609
+)
+"clienthtml.ml" 63 1687 1726 "clienthtml.ml" 63 1687 1732
+type(
+  string
+)
+ident(
+  int_ref qryPar "clienthtml.ml" 61 1583 1610 "clienthtml.ml" 61 1583 1616
+)
+"clienthtml.ml" 63 1687 1725 "clienthtml.ml" 63 1687 1733
+type(
+  string list
+)
+"clienthtml.ml" 63 1687 1719 "clienthtml.ml" 63 1687 1734
+type(
+  string * string list
+)
+"clienthtml.ml" 63 1687 1690 "clienthtml.ml" 63 1687 1734
+call(
+  tail
+)
+type(
+  Uri.t
+)
+"clienthtml.ml" 62 1618 1620 "clienthtml.ml" 63 1687 1734
+type(
+  Uri.t
+)
+"clienthtml.ml" 69 1847 1851 "clienthtml.ml" 69 1847 1865
+type(
+  string -> string -> string -> string -> unit Async_kernel.Deferred.t
+)
+ident(
+  def getContactData "clienthtml.ml" 78 2124 2124 "clienthtml.ml" 1 0 -1
+)
+"clienthtml.ml" 69 1847 1866 "clienthtml.ml" 69 1847 1873
+type(
+  string
+)
+ident(
+  def testAim "clienthtml.ml" 69 1847 1874 "clienthtml.ml" 74 2098 2119
+)
+"clienthtml.ml" 69 1847 1874 "clienthtml.ml" 69 1847 1881
+type(
+  string
+)
+ident(
+  def strPath "clienthtml.ml" 69 1847 1882 "clienthtml.ml" 74 2098 2119
+)
+"clienthtml.ml" 69 1847 1882 "clienthtml.ml" 69 1847 1885
+type(
+  string
+)
+ident(
+  def qry "clienthtml.ml" 69 1847 1886 "clienthtml.ml" 74 2098 2119
+)
+"clienthtml.ml" 69 1847 1886 "clienthtml.ml" 69 1847 1892
+type(
+  string
+)
+ident(
+  def qryPar "clienthtml.ml" 70 1894 1896 "clienthtml.ml" 74 2098 2119
+)
+"clienthtml.ml" 70 1894 1896 "clienthtml.ml" 70 1894 1919
+type(
+  ?interrupt:unit Async.Std.Deferred.t ->
+  ?headers:Cohttp.Header.t ->
+  Uri.t ->
+  (Cohttp_async.Response.t * Cohttp_async.Body.t) Async.Std.Deferred.t
+)
+ident(
+  ext_ref Cohttp_async.Client.get
+)
+"clienthtml.ml" 70 1894 1921 "clienthtml.ml" 70 1894 1931
+type(
+  string -> string -> string -> Uri.t
+)
+ident(
+  int_ref jsonStrQry "clienthtml.ml" 61 1583 1587 "clienthtml.ml" 61 1583 1597
+)
+"clienthtml.ml" 70 1894 1932 "clienthtml.ml" 70 1894 1939
+type(
+  string
+)
+ident(
+  int_ref strPath "clienthtml.ml" 69 1847 1874 "clienthtml.ml" 69 1847 1881
+)
+"clienthtml.ml" 70 1894 1940 "clienthtml.ml" 70 1894 1943
+type(
+  string
+)
+ident(
+  int_ref qry "clienthtml.ml" 69 1847 1882 "clienthtml.ml" 69 1847 1885
+)
+"clienthtml.ml" 70 1894 1944 "clienthtml.ml" 70 1894 1950
+type(
+  string
+)
+ident(
+  int_ref qryPar "clienthtml.ml" 69 1847 1886 "clienthtml.ml" 69 1847 1892
+)
+"clienthtml.ml" 70 1894 1920 "clienthtml.ml" 70 1894 1951
+call(
+  stack
+)
+type(
+  Uri.t
+)
+"clienthtml.ml" 70 1894 1896 "clienthtml.ml" 70 1894 1951
+call(
+  stack
+)
+type(
+  (Cohttp_async.Response.t * Cohttp_async.Body.t) Async.Std.Deferred.t
+)
+"clienthtml.ml" 71 1954 1956 "clienthtml.ml" 71 1954 1959
+type(
+  (Cohttp_async.Response.t * Cohttp_async.Body.t) Async_kernel.Deferred.t ->
+  (Cohttp_async.Response.t * Cohttp_async.Body.t ->
+   unit Async_kernel.Deferred.t) ->
+  unit Async_kernel.Deferred.t
+)
+ident(
+  ext_ref Async.Std.( >>= )
+)
+"clienthtml.ml" 71 1954 1965 "clienthtml.ml" 71 1954 1966
+type(
+  Cohttp_async.Response.t
+)
+"clienthtml.ml" 71 1954 1968 "clienthtml.ml" 71 1954 1972
+type(
+  Cohttp_async.Body.t
+)
+ident(
+  def body "clienthtml.ml" 72 1977 1979 "clienthtml.ml" 74 2098 2119
+)
+"clienthtml.ml" 71 1954 1964 "clienthtml.ml" 71 1954 1973
+type(
+  Cohttp_async.Response.t * Cohttp_async.Body.t
+)
+"clienthtml.ml" 72 1977 1979 "clienthtml.ml" 72 1977 2006
+type(
+  Cohttp_async.Body.t -> string Async.Std.Deferred.t
+)
+ident(
+  ext_ref Cohttp_async.Body.to_string
+)
+"clienthtml.ml" 72 1977 2007 "clienthtml.ml" 72 1977 2011
+type(
+  Cohttp_async.Body.t
+)
+ident(
+  int_ref body "clienthtml.ml" 71 1954 1968 "clienthtml.ml" 71 1954 1972
+)
+"clienthtml.ml" 72 1977 1979 "clienthtml.ml" 72 1977 2011
+call(
+  stack
+)
+type(
+  string Async.Std.Deferred.t
+)
+"clienthtml.ml" 73 2013 2015 "clienthtml.ml" 73 2013 2018
+type(
+  string Async_kernel.Deferred.t ->
+  (string -> unit) -> unit Async_kernel.Deferred.t
+)
+ident(
+  ext_ref Async.Std.( >>| )
+)
+"clienthtml.ml" 73 2013 2023 "clienthtml.ml" 73 2013 2030
+type(
+  string
+)
+ident(
+  def jsonStr "clienthtml.ml" 73 2013 2034 "clienthtml.ml" 74 2098 2119
+)
+"clienthtml.ml" 73 2013 2034 "clienthtml.ml" 73 2013 2046
+type(
+  string -> unit
+)
+ident(
+  ext_ref Async.Std.print_string
+)
+"clienthtml.ml" 73 2013 2047 "clienthtml.ml" 73 2013 2054
+type(
+  string
+)
+ident(
+  int_ref testAim "clienthtml.ml" 69 1847 1866 "clienthtml.ml" 69 1847 1873
+)
+"clienthtml.ml" 73 2013 2055 "clienthtml.ml" 73 2013 2056
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"clienthtml.ml" 73 2013 2056 "clienthtml.ml" 73 2013 2078
+type(
+  string
+)
+"clienthtml.ml" 73 2013 2079 "clienthtml.ml" 73 2013 2080
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"clienthtml.ml" 73 2013 2081 "clienthtml.ml" 73 2013 2088
+type(
+  string
+)
+ident(
+  int_ref jsonStr "clienthtml.ml" 73 2013 2023 "clienthtml.ml" 73 2013 2030
+)
+"clienthtml.ml" 73 2013 2089 "clienthtml.ml" 73 2013 2090
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"clienthtml.ml" 73 2013 2091 "clienthtml.ml" 73 2013 2095
+type(
+  string
+)
+"clienthtml.ml" 73 2013 2081 "clienthtml.ml" 73 2013 2095
+call(
+  stack
+)
+type(
+  string
+)
+"clienthtml.ml" 73 2013 2056 "clienthtml.ml" 73 2013 2095
+call(
+  stack
+)
+type(
+  string
+)
+"clienthtml.ml" 73 2013 2046 "clienthtml.ml" 73 2013 2096
+call(
+  stack
+)
+type(
+  string
+)
+"clienthtml.ml" 73 2013 2034 "clienthtml.ml" 73 2013 2096
+call(
+  stack
+)
+type(
+  unit
+)
+"clienthtml.ml" 74 2098 2104 "clienthtml.ml" 74 2098 2117
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Async.Std.print_newline
+)
+"clienthtml.ml" 74 2098 2117 "clienthtml.ml" 74 2098 2119
+type(
+  unit
+)
+"clienthtml.ml" 74 2098 2104 "clienthtml.ml" 74 2098 2119
+call(
+  tail
+)
+type(
+  unit
+)
+"clienthtml.ml" 73 2013 2034 "clienthtml.ml" 74 2098 2119
+type(
+  unit
+)
+"clienthtml.ml" 73 2013 2019 "clienthtml.ml" 74 2098 2119
+type(
+  string -> unit
+)
+"clienthtml.ml" 72 1977 1979 "clienthtml.ml" 74 2098 2119
+call(
+  tail
+)
+type(
+  unit Async_kernel.Deferred.t
+)
+"clienthtml.ml" 71 1954 1960 "clienthtml.ml" 74 2098 2119
+type(
+  Cohttp_async.Response.t * Cohttp_async.Body.t ->
+  unit Async_kernel.Deferred.t
+)
+"clienthtml.ml" 70 1894 1896 "clienthtml.ml" 74 2098 2119
+call(
+  tail
+)
+type(
+  unit Async_kernel.Deferred.t
+)
+"clienthtml.ml" 78 2124 2128 "clienthtml.ml" 78 2124 2130
+type(
+  unit
+)
+"clienthtml.ml" 83 2207 2209 "clienthtml.ml" 83 2207 2223
+type(
+  string -> string -> string -> string -> unit Async_kernel.Deferred.t
+)
+ident(
+  int_ref getContactData "clienthtml.ml" 69 1847 1851 "clienthtml.ml" 69 1847 1865
+)
+"clienthtml.ml" 83 2207 2224 "clienthtml.ml" 83 2207 2255
+type(
+  string
+)
+"clienthtml.ml" 84 2257 2275 "clienthtml.ml" 84 2257 2296
+type(
+  string
+)
+"clienthtml.ml" 85 2297 2315 "clienthtml.ml" 85 2297 2320
+type(
+  string
+)
+"clienthtml.ml" 86 2321 2339 "clienthtml.ml" 86 2321 2364
+type(
+  string
+)
+"clienthtml.ml" 83 2207 2209 "clienthtml.ml" 86 2321 2364
+call(
+  stack
+)
+type(
+  unit Async_kernel.Deferred.t
+)
+"clienthtml.ml" 88 2367 2369 "clienthtml.ml" 88 2367 2383
+type(
+  string -> string -> string -> string -> unit Async_kernel.Deferred.t
+)
+ident(
+  int_ref getContactData "clienthtml.ml" 69 1847 1851 "clienthtml.ml" 69 1847 1865
+)
+"clienthtml.ml" 88 2367 2384 "clienthtml.ml" 88 2367 2442
+type(
+  string
+)
+"clienthtml.ml" 89 2444 2462 "clienthtml.ml" 89 2444 2489
+type(
+  string
+)
+"clienthtml.ml" 90 2490 2508 "clienthtml.ml" 90 2490 2519
+type(
+  string
+)
+"clienthtml.ml" 91 2520 2538 "clienthtml.ml" 91 2520 2540
+type(
+  string
+)
+"clienthtml.ml" 88 2367 2369 "clienthtml.ml" 91 2520 2540
+call(
+  stack
+)
+type(
+  unit Async_kernel.Deferred.t
+)
+"clienthtml.ml" 93 2543 2545 "clienthtml.ml" 93 2543 2559
+type(
+  string -> string -> string -> string -> unit Async_kernel.Deferred.t
+)
+ident(
+  int_ref getContactData "clienthtml.ml" 69 1847 1851 "clienthtml.ml" 69 1847 1865
+)
+"clienthtml.ml" 93 2543 2560 "clienthtml.ml" 93 2543 2612
+type(
+  string
+)
+"clienthtml.ml" 94 2614 2632 "clienthtml.ml" 94 2614 2659
+type(
+  string
+)
+"clienthtml.ml" 95 2660 2678 "clienthtml.ml" 95 2660 2689
+type(
+  string
+)
+"clienthtml.ml" 96 2690 2708 "clienthtml.ml" 96 2690 2716
+type(
+  string
+)
+"clienthtml.ml" 93 2543 2545 "clienthtml.ml" 96 2690 2716
+call(
+  stack
+)
+type(
+  unit Async_kernel.Deferred.t
+)
+"clienthtml.ml" 98 2719 2721 "clienthtml.ml" 98 2719 2735
+type(
+  string -> string -> string -> string -> unit Async_kernel.Deferred.t
+)
+ident(
+  int_ref getContactData "clienthtml.ml" 69 1847 1851 "clienthtml.ml" 69 1847 1865
+)
+"clienthtml.ml" 98 2719 2736 "clienthtml.ml" 98 2719 2791
+type(
+  string
+)
+"clienthtml.ml" 99 2793 2811 "clienthtml.ml" 99 2793 2837
+type(
+  string
+)
+"clienthtml.ml" 100 2838 2856 "clienthtml.ml" 100 2838 2866
+type(
+  string
+)
+"clienthtml.ml" 101 2867 2885 "clienthtml.ml" 101 2867 2896
+type(
+  string
+)
+"clienthtml.ml" 98 2719 2721 "clienthtml.ml" 101 2867 2896
+call(
+  stack
+)
+type(
+  unit Async_kernel.Deferred.t
+)
+"clienthtml.ml" 110 3142 3144 "clienthtml.ml" 110 3142 3157
+type(
+  Core.Std.never_returns -> unit
+)
+ident(
+  ext_ref Core.Std.never_returns
+)
+"clienthtml.ml" 110 3142 3159 "clienthtml.ml" 110 3142 3171
+type(
+  ?raise_unhandled_exn:bool -> unit -> Core.Std.never_returns
+)
+ident(
+  ext_ref Async.Std.Scheduler.go
+)
+"clienthtml.ml" 110 3142 3171 "clienthtml.ml" 110 3142 3173
+type(
+  unit
+)
+"clienthtml.ml" 110 3142 3158 "clienthtml.ml" 110 3142 3174
+call(
+  stack
+)
+type(
+  Core.Std.never_returns
+)
+"clienthtml.ml" 110 3142 3144 "clienthtml.ml" 110 3142 3174
+call(
+  stack
+)
+type(
+  unit
+)
+"clienthtml.ml" 98 2719 2721 "clienthtml.ml" 110 3142 3174
+type(
+  unit
+)
+"clienthtml.ml" 93 2543 2545 "clienthtml.ml" 110 3142 3174
+type(
+  unit
+)
+"clienthtml.ml" 88 2367 2369 "clienthtml.ml" 110 3142 3174
+type(
+  unit
+)
+"clienthtml.ml" 83 2207 2209 "clienthtml.ml" 110 3142 3174
+type(
+  unit
+)

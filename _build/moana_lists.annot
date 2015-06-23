@@ -1,0 +1,463 @@
+"moana_lists.ml" 26 863 869 "moana_lists.ml" 26 863 873
+type(
+  string
+)
+ident(
+  def name "moana_lists.ml" 28 890 892 "moana_lists.ml" 37 1113 1116
+)
+"moana_lists.ml" 26 863 876 "moana_lists.ml" 26 863 888
+type(
+  string
+)
+"moana_lists.ml" 28 890 896 "moana_lists.ml" 28 890 901
+type(
+  'a list
+)
+ident(
+  def empty "moana_lists.ml" 30 908 910 "moana_lists.ml" 37 1113 1116
+)
+"moana_lists.ml" 28 890 904 "moana_lists.ml" 28 890 906
+type(
+  'a list
+)
+"moana_lists.ml" 30 908 914 "moana_lists.ml" 30 908 918
+type(
+  ?query:Config.tuple list -> 'b -> 'b
+)
+ident(
+  def init "moana_lists.ml" 32 967 969 "moana_lists.ml" 37 1113 1116
+)
+"moana_lists.ml" 30 908 921 "moana_lists.ml" 30 908 926
+type(
+  Config.tuple list
+)
+"moana_lists.ml" 30 908 945 "moana_lists.ml" 30 908 947
+type(
+  Config.tuple list
+)
+type(
+  Config.tuple list
+)
+ident(
+  int_ref *sth* "moana_lists.ml" 30 908 945 "moana_lists.ml" 30 908 947
+)
+type(
+  Config.tuple list option
+)
+type(
+  Config.tuple list option
+)
+type(
+  Config.tuple list
+)
+"moana_lists.ml" 30 908 950 "moana_lists.ml" 30 908 956
+type(
+  'b
+)
+ident(
+  def tuples "moana_lists.ml" 30 908 959 "moana_lists.ml" 30 908 965
+)
+"moana_lists.ml" 30 908 959 "moana_lists.ml" 30 908 965
+type(
+  'b
+)
+ident(
+  int_ref tuples "moana_lists.ml" 30 908 950 "moana_lists.ml" 30 908 956
+)
+"moana_lists.ml" 32 967 973 "moana_lists.ml" 32 967 976
+type(
+  'c list -> 'c -> 'c list
+)
+ident(
+  def add "moana_lists.ml" 34 1011 1013 "moana_lists.ml" 37 1113 1116
+)
+"moana_lists.ml" 32 967 977 "moana_lists.ml" 32 967 984
+type(
+  'c list
+)
+ident(
+  def storage "moana_lists.ml" 32 967 985 "moana_lists.ml" 32 967 1009
+)
+"moana_lists.ml" 32 967 985 "moana_lists.ml" 32 967 990
+type(
+  'c
+)
+ident(
+  def tuple "moana_lists.ml" 32 967 993 "moana_lists.ml" 32 967 1009
+)
+"moana_lists.ml" 32 967 993 "moana_lists.ml" 32 967 998
+type(
+  'c
+)
+ident(
+  int_ref tuple "moana_lists.ml" 32 967 985 "moana_lists.ml" 32 967 990
+)
+"moana_lists.ml" 32 967 1002 "moana_lists.ml" 32 967 1009
+type(
+  'c list
+)
+ident(
+  int_ref storage "moana_lists.ml" 32 967 977 "moana_lists.ml" 32 967 984
+)
+"moana_lists.ml" 32 967 993 "moana_lists.ml" 32 967 1009
+type(
+  'c list
+)
+"moana_lists.ml" 34 1011 1017 "moana_lists.ml" 34 1011 1022
+type(
+  t -> Config.tuple list -> Config.tuple list list
+)
+ident(
+  def query "moana_lists.ml" 36 1091 1093 "moana_lists.ml" 37 1113 1116
+)
+"moana_lists.ml" 34 1011 1024 "moana_lists.ml" 34 1011 1029
+type(
+  t
+)
+ident(
+  def store "moana_lists.ml" 34 1011 1035 "moana_lists.ml" 34 1011 1089
+)
+"moana_lists.ml" 34 1011 1036 "moana_lists.ml" 34 1011 1037
+type(
+  Config.tuple list
+)
+ident(
+  def q "moana_lists.ml" 34 1011 1061 "moana_lists.ml" 34 1011 1089
+)
+"moana_lists.ml" 34 1011 1061 "moana_lists.ml" 34 1011 1081
+type(
+  t -> Config.tuple list -> Config.tuple list list
+)
+ident(
+  ext_ref Config.execute_query
+)
+"moana_lists.ml" 34 1011 1082 "moana_lists.ml" 34 1011 1087
+type(
+  t
+)
+ident(
+  int_ref store "moana_lists.ml" 34 1011 1024 "moana_lists.ml" 34 1011 1029
+)
+"moana_lists.ml" 34 1011 1088 "moana_lists.ml" 34 1011 1089
+type(
+  Config.tuple list
+)
+ident(
+  int_ref q "moana_lists.ml" 34 1011 1036 "moana_lists.ml" 34 1011 1037
+)
+"moana_lists.ml" 34 1011 1061 "moana_lists.ml" 34 1011 1089
+call(
+  tail
+)
+type(
+  Config.tuple list list
+)
+"moana_lists.ml" 36 1091 1097 "moana_lists.ml" 36 1091 1104
+type(
+  'd -> 'd
+)
+ident(
+  def to_list "moana_lists.ml" 36 1091 1112 "moana_lists.ml" 37 1113 1116
+)
+"moana_lists.ml" 36 1091 1105 "moana_lists.ml" 36 1091 1107
+type(
+  'd
+)
+ident(
+  def db "moana_lists.ml" 36 1091 1110 "moana_lists.ml" 36 1091 1112
+)
+"moana_lists.ml" 36 1091 1110 "moana_lists.ml" 36 1091 1112
+type(
+  'd
+)
+ident(
+  int_ref db "moana_lists.ml" 36 1091 1105 "moana_lists.ml" 36 1091 1107
+)
+"moana_lists.ml" 47 1229 1235 "moana_lists.ml" 47 1229 1240
+type(
+  LS.t
+)
+ident(
+  def graph "moana_lists.ml" 49 1254 1255 "moana_lists.ml" 70 1886 1889
+)
+"moana_lists.ml" 47 1229 1243 "moana_lists.ml" 47 1229 1251
+type(
+  LS.t
+)
+ident(
+  ext_ref LS.empty
+)
+"moana_lists.ml" 49 1254 1259 "moana_lists.ml" 49 1254 1263
+type(
+  ?query:Config.tuple list -> Config.tuple list -> LS.t
+)
+ident(
+  def init "moana_lists.ml" 51 1275 1277 "moana_lists.ml" 70 1886 1889
+)
+"moana_lists.ml" 49 1254 1266 "moana_lists.ml" 49 1254 1273
+type(
+  ?query:Config.tuple list -> Config.tuple list -> LS.t
+)
+ident(
+  ext_ref LS.init
+)
+"moana_lists.ml" 51 1275 1281 "moana_lists.ml" 51 1275 1284
+type(
+  LS.t -> Config.tuple -> LS.t
+)
+ident(
+  def add "moana_lists.ml" 56 1446 1448 "moana_lists.ml" 70 1886 1889
+)
+"moana_lists.ml" 51 1275 1285 "moana_lists.ml" 51 1275 1286
+type(
+  LS.t
+)
+ident(
+  def g "moana_lists.ml" 51 1275 1287 "moana_lists.ml" 54 1426 1444
+)
+"moana_lists.ml" 51 1275 1288 "moana_lists.ml" 51 1275 1293
+type(
+  Config.tuple
+)
+ident(
+  def tuple "moana_lists.ml" 52 1312 1316 "moana_lists.ml" 54 1426 1444
+)
+"moana_lists.ml" 52 1312 1320 "moana_lists.ml" 52 1312 1321
+type(
+  string
+)
+ident(
+  def s "moana_lists.ml" 53 1405 1409 "moana_lists.ml" 54 1426 1444
+)
+"moana_lists.ml" 52 1312 1324 "moana_lists.ml" 52 1312 1338
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"moana_lists.ml" 52 1312 1339 "moana_lists.ml" 52 1312 1368
+type(
+  (string -> string -> string, unit, string) format
+)
+"moana_lists.ml" 52 1312 1369 "moana_lists.ml" 52 1312 1376
+type(
+  string
+)
+ident(
+  ext_ref LS.name
+)
+"moana_lists.ml" 52 1312 1378 "moana_lists.ml" 52 1312 1394
+type(
+  Config.tuple -> string
+)
+ident(
+  ext_ref Helper.to_string
+)
+"moana_lists.ml" 52 1312 1395 "moana_lists.ml" 52 1312 1400
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "moana_lists.ml" 51 1275 1288 "moana_lists.ml" 51 1275 1293
+)
+"moana_lists.ml" 52 1312 1377 "moana_lists.ml" 52 1312 1401
+call(
+  stack
+)
+type(
+  string
+)
+"moana_lists.ml" 52 1312 1324 "moana_lists.ml" 52 1312 1401
+call(
+  stack
+)
+type(
+  string
+)
+"moana_lists.ml" 53 1405 1409 "moana_lists.ml" 53 1405 1422
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"moana_lists.ml" 53 1405 1423 "moana_lists.ml" 53 1405 1424
+type(
+  string
+)
+ident(
+  int_ref s "moana_lists.ml" 52 1312 1320 "moana_lists.ml" 52 1312 1321
+)
+"moana_lists.ml" 53 1405 1409 "moana_lists.ml" 53 1405 1424
+call(
+  stack
+)
+type(
+  unit
+)
+"moana_lists.ml" 54 1426 1430 "moana_lists.ml" 54 1426 1436
+type(
+  LS.t -> Config.tuple -> LS.t
+)
+ident(
+  ext_ref LS.add
+)
+"moana_lists.ml" 54 1426 1437 "moana_lists.ml" 54 1426 1438
+type(
+  LS.t
+)
+ident(
+  int_ref g "moana_lists.ml" 51 1275 1285 "moana_lists.ml" 51 1275 1286
+)
+"moana_lists.ml" 54 1426 1439 "moana_lists.ml" 54 1426 1444
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "moana_lists.ml" 51 1275 1288 "moana_lists.ml" 51 1275 1293
+)
+"moana_lists.ml" 54 1426 1430 "moana_lists.ml" 54 1426 1444
+call(
+  tail
+)
+type(
+  LS.t
+)
+"moana_lists.ml" 53 1405 1409 "moana_lists.ml" 54 1426 1444
+type(
+  LS.t
+)
+"moana_lists.ml" 52 1312 1316 "moana_lists.ml" 54 1426 1444
+type(
+  LS.t
+)
+"moana_lists.ml" 56 1446 1452 "moana_lists.ml" 56 1446 1455
+type(
+  LS.t -> Config.tuple list -> LS.t
+)
+ident(
+  def map "moana_lists.ml" 58 1549 1550 "moana_lists.ml" 70 1886 1889
+)
+"moana_lists.ml" 56 1446 1456 "moana_lists.ml" 56 1446 1457
+type(
+  LS.t
+)
+ident(
+  def g "moana_lists.ml" 56 1446 1458 "moana_lists.ml" 56 1446 1545
+)
+"moana_lists.ml" 56 1446 1459 "moana_lists.ml" 56 1446 1464
+type(
+  Config.tuple list
+)
+ident(
+  def query "moana_lists.ml" 56 1446 1488 "moana_lists.ml" 56 1446 1545
+)
+"moana_lists.ml" 56 1446 1488 "moana_lists.ml" 56 1446 1496
+type(
+  LS.t -> Config.tuple list -> Helper.TupleSet.elt list list
+)
+ident(
+  ext_ref LS.query
+)
+"moana_lists.ml" 56 1446 1497 "moana_lists.ml" 56 1446 1498
+type(
+  LS.t
+)
+ident(
+  int_ref g "moana_lists.ml" 56 1446 1456 "moana_lists.ml" 56 1446 1457
+)
+"moana_lists.ml" 56 1446 1499 "moana_lists.ml" 56 1446 1504
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query "moana_lists.ml" 56 1446 1459 "moana_lists.ml" 56 1446 1464
+)
+"moana_lists.ml" 56 1446 1488 "moana_lists.ml" 56 1446 1504
+call(
+  stack
+)
+type(
+  Helper.TupleSet.elt list list
+)
+"moana_lists.ml" 56 1446 1505 "moana_lists.ml" 56 1446 1507
+type(
+  Helper.TupleSet.elt list list ->
+  (Helper.TupleSet.elt list list -> Helper.TupleSet.elt list) ->
+  Helper.TupleSet.elt list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"moana_lists.ml" 56 1446 1509 "moana_lists.ml" 56 1446 1534
+type(
+  Helper.TupleSet.elt list list -> Helper.TupleSet.elt list
+)
+ident(
+  ext_ref Helper.flatten_tuple_list
+)
+"moana_lists.ml" 56 1446 1488 "moana_lists.ml" 56 1446 1534
+call(
+  stack
+)
+type(
+  Helper.TupleSet.elt list
+)
+"moana_lists.ml" 56 1446 1535 "moana_lists.ml" 56 1446 1537
+type(
+  Helper.TupleSet.elt list -> (Helper.TupleSet.elt list -> LS.t) -> LS.t
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"moana_lists.ml" 56 1446 1538 "moana_lists.ml" 56 1446 1545
+call(
+  tail
+)
+type(
+  ?query:Config.tuple list -> Helper.TupleSet.elt list -> LS.t
+)
+ident(
+  ext_ref LS.init
+)
+"moana_lists.ml" 56 1446 1488 "moana_lists.ml" 56 1446 1545
+type(
+  LS.t
+)
+"moana_lists.ml" 58 1549 1554 "moana_lists.ml" 58 1549 1561
+type(
+  LS.t -> Config.tuple list
+)
+ident(
+  def to_list "moana_lists.ml" 58 1549 1578 "moana_lists.ml" 70 1886 1889
+)
+"moana_lists.ml" 58 1549 1562 "moana_lists.ml" 58 1549 1563
+type(
+  LS.t
+)
+ident(
+  def g "moana_lists.ml" 58 1549 1566 "moana_lists.ml" 58 1549 1578
+)
+"moana_lists.ml" 58 1549 1566 "moana_lists.ml" 58 1549 1576
+type(
+  LS.t -> Config.tuple list
+)
+ident(
+  ext_ref LS.to_list
+)
+"moana_lists.ml" 58 1549 1577 "moana_lists.ml" 58 1549 1578
+type(
+  LS.t
+)
+ident(
+  int_ref g "moana_lists.ml" 58 1549 1562 "moana_lists.ml" 58 1549 1563
+)
+"moana_lists.ml" 58 1549 1566 "moana_lists.ml" 58 1549 1578
+call(
+  tail
+)
+type(
+  Config.tuple list
+)

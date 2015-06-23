@@ -1,0 +1,7031 @@
+"rete.ml" 26 1136 1140 "rete.ml" 26 1136 1146
+type(
+  Config.tuple -> Config.tuple list -> Config.tuple list
+)
+ident(
+  def filter "rete.ml" 37 1478 1478 "rete.ml" 1 0 -1
+)
+"rete.ml" 26 1136 1147 "rete.ml" 26 1136 1151
+type(
+  Config.tuple
+)
+ident(
+  def ptrn "rete.ml" 26 1136 1152 "rete.ml" 34 1395 1407
+)
+"rete.ml" 26 1136 1152 "rete.ml" 26 1136 1158
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "rete.ml" 27 1161 1163 "rete.ml" 34 1395 1407
+)
+"rete.ml" 27 1161 1167 "rete.ml" 27 1161 1170
+type(
+  'a Config.element_type -> 'a Config.element_type -> bool
+)
+ident(
+  def cmp "rete.ml" 30 1267 1271 "rete.ml" 34 1395 1407
+)
+"rete.ml" 27 1161 1171 "rete.ml" 27 1161 1177
+type(
+  'a Config.element_type
+)
+ident(
+  def p_attr "rete.ml" 27 1161 1178 "rete.ml" 28 1187 1261
+)
+"rete.ml" 27 1161 1178 "rete.ml" 27 1161 1184
+type(
+  'a Config.element_type
+)
+ident(
+  def t_attr "rete.ml" 28 1187 1191 "rete.ml" 28 1187 1261
+)
+"rete.ml" 28 1187 1197 "rete.ml" 28 1187 1203
+type(
+  'a Config.element_type
+)
+ident(
+  int_ref p_attr "rete.ml" 27 1161 1171 "rete.ml" 27 1161 1177
+)
+"rete.ml" 28 1187 1220 "rete.ml" 28 1187 1221
+type(
+  string
+)
+"rete.ml" 28 1187 1211 "rete.ml" 28 1187 1221
+type(
+  'a Config.element_type
+)
+"rete.ml" 28 1187 1225 "rete.ml" 28 1187 1229
+type(
+  bool
+)
+"rete.ml" 28 1187 1241 "rete.ml" 28 1187 1242
+type(
+  'a
+)
+"rete.ml" 28 1187 1232 "rete.ml" 28 1187 1242
+type(
+  'a Config.element_type
+)
+"rete.ml" 28 1187 1246 "rete.ml" 28 1187 1252
+type(
+  'a Config.element_type
+)
+ident(
+  int_ref p_attr "rete.ml" 27 1161 1171 "rete.ml" 27 1161 1177
+)
+"rete.ml" 28 1187 1253 "rete.ml" 28 1187 1254
+type(
+  'a Config.element_type -> 'a Config.element_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"rete.ml" 28 1187 1255 "rete.ml" 28 1187 1261
+type(
+  'a Config.element_type
+)
+ident(
+  int_ref t_attr "rete.ml" 27 1161 1178 "rete.ml" 27 1161 1184
+)
+"rete.ml" 28 1187 1246 "rete.ml" 28 1187 1261
+type(
+  bool
+)
+"rete.ml" 28 1187 1191 "rete.ml" 28 1187 1261
+type(
+  bool
+)
+"rete.ml" 30 1267 1271 "rete.ml" 30 1267 1282
+type(
+  (Config.tuple -> bool) -> Config.tuple list -> Config.tuple list
+)
+ident(
+  ext_ref List.filter
+)
+"rete.ml" 31 1283 1294 "rete.ml" 31 1283 1295
+type(
+  Config.tuple
+)
+ident(
+  def t "rete.ml" 32 1299 1308 "rete.ml" 33 1334 1393
+)
+"rete.ml" 32 1299 1309 "rete.ml" 32 1299 1312
+type(
+  Config.t Config.element_type -> Config.t Config.element_type -> bool
+)
+ident(
+  int_ref cmp "rete.ml" 27 1161 1167 "rete.ml" 27 1161 1170
+)
+"rete.ml" 32 1299 1313 "rete.ml" 32 1299 1317
+type(
+  Config.tuple
+)
+ident(
+  int_ref ptrn "rete.ml" 26 1136 1147 "rete.ml" 26 1136 1151
+)
+"rete.ml" 32 1299 1313 "rete.ml" 32 1299 1322
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 32 1299 1323 "rete.ml" 32 1299 1324
+type(
+  Config.tuple
+)
+ident(
+  int_ref t "rete.ml" 31 1283 1294 "rete.ml" 31 1283 1295
+)
+"rete.ml" 32 1299 1323 "rete.ml" 32 1299 1329
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 32 1299 1308 "rete.ml" 32 1299 1330
+call(
+  stack
+)
+type(
+  bool
+)
+"rete.ml" 32 1299 1331 "rete.ml" 32 1299 1333
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"rete.ml" 33 1334 1347 "rete.ml" 33 1334 1350
+type(
+  Config.t Config.element_type -> Config.t Config.element_type -> bool
+)
+ident(
+  int_ref cmp "rete.ml" 27 1161 1167 "rete.ml" 27 1161 1170
+)
+"rete.ml" 33 1334 1351 "rete.ml" 33 1334 1355
+type(
+  Config.tuple
+)
+ident(
+  int_ref ptrn "rete.ml" 26 1136 1147 "rete.ml" 26 1136 1151
+)
+"rete.ml" 33 1334 1351 "rete.ml" 33 1334 1360
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 33 1334 1361 "rete.ml" 33 1334 1362
+type(
+  Config.tuple
+)
+ident(
+  int_ref t "rete.ml" 31 1283 1294 "rete.ml" 31 1283 1295
+)
+"rete.ml" 33 1334 1361 "rete.ml" 33 1334 1367
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 33 1334 1346 "rete.ml" 33 1334 1368
+call(
+  stack
+)
+type(
+  bool
+)
+"rete.ml" 33 1334 1369 "rete.ml" 33 1334 1371
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"rete.ml" 33 1334 1373 "rete.ml" 33 1334 1376
+type(
+  Config.obj_t Config.element_type ->
+  Config.obj_t Config.element_type -> bool
+)
+ident(
+  int_ref cmp "rete.ml" 27 1161 1167 "rete.ml" 27 1161 1170
+)
+"rete.ml" 33 1334 1377 "rete.ml" 33 1334 1381
+type(
+  Config.tuple
+)
+ident(
+  int_ref ptrn "rete.ml" 26 1136 1147 "rete.ml" 26 1136 1151
+)
+"rete.ml" 33 1334 1377 "rete.ml" 33 1334 1385
+type(
+  Config.obj_t Config.element_type
+)
+"rete.ml" 33 1334 1386 "rete.ml" 33 1334 1387
+type(
+  Config.tuple
+)
+ident(
+  int_ref t "rete.ml" 31 1283 1294 "rete.ml" 31 1283 1295
+)
+"rete.ml" 33 1334 1386 "rete.ml" 33 1334 1391
+type(
+  Config.obj_t Config.element_type
+)
+"rete.ml" 33 1334 1372 "rete.ml" 33 1334 1392
+call(
+  tail
+)
+type(
+  bool
+)
+"rete.ml" 33 1334 1345 "rete.ml" 33 1334 1393
+type(
+  bool
+)
+"rete.ml" 32 1299 1308 "rete.ml" 33 1334 1393
+type(
+  bool
+)
+"rete.ml" 31 1283 1289 "rete.ml" 33 1334 1394
+type(
+  Config.tuple -> bool
+)
+"rete.ml" 34 1395 1401 "rete.ml" 34 1395 1407
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "rete.ml" 26 1136 1152 "rete.ml" 26 1136 1158
+)
+"rete.ml" 30 1267 1271 "rete.ml" 34 1395 1407
+call(
+  tail
+)
+type(
+  Config.tuple list
+)
+"rete.ml" 27 1161 1163 "rete.ml" 34 1395 1407
+type(
+  Config.tuple list
+)
+"rete.ml" 37 1478 1482 "rete.ml" 37 1478 1489
+type(
+  'a Config.element_type -> 'b -> (string * 'b) option
+)
+ident(
+  def sel_arg "rete.ml" 42 1598 1598 "rete.ml" 1 0 -1
+)
+"rete.ml" 37 1478 1490 "rete.ml" 37 1478 1493
+type(
+  'a Config.element_type
+)
+ident(
+  def arg "rete.ml" 37 1478 1494 "rete.ml" 40 1552 1594
+)
+"rete.ml" 37 1478 1494 "rete.ml" 37 1478 1497
+type(
+  'b
+)
+ident(
+  def pos "rete.ml" 38 1500 1502 "rete.ml" 40 1552 1594
+)
+"rete.ml" 38 1500 1509 "rete.ml" 38 1500 1512
+type(
+  'a Config.element_type
+)
+ident(
+  int_ref arg "rete.ml" 37 1478 1490 "rete.ml" 37 1478 1493
+)
+"rete.ml" 38 1500 1514 "rete.ml" 38 1500 1517
+type(
+  'b
+)
+ident(
+  int_ref pos "rete.ml" 37 1478 1494 "rete.ml" 37 1478 1497
+)
+"rete.ml" 38 1500 1508 "rete.ml" 38 1500 1518
+type(
+  'a Config.element_type * 'b
+)
+"rete.ml" 39 1524 1538 "rete.ml" 39 1524 1539
+type(
+  'a
+)
+"rete.ml" 39 1524 1529 "rete.ml" 39 1524 1539
+type(
+  'a Config.element_type
+)
+"rete.ml" 39 1524 1541 "rete.ml" 39 1524 1542
+type(
+  'b
+)
+"rete.ml" 39 1524 1528 "rete.ml" 39 1524 1543
+type(
+  'a Config.element_type * 'b
+)
+"rete.ml" 39 1524 1547 "rete.ml" 39 1524 1551
+type(
+  (string * 'b) option
+)
+"rete.ml" 40 1552 1566 "rete.ml" 40 1552 1569
+type(
+  string
+)
+ident(
+  def var "rete.ml" 40 1552 1579 "rete.ml" 40 1552 1594
+)
+"rete.ml" 40 1552 1557 "rete.ml" 40 1552 1569
+type(
+  'a Config.element_type
+)
+"rete.ml" 40 1552 1571 "rete.ml" 40 1552 1574
+type(
+  'b
+)
+ident(
+  def pos "rete.ml" 40 1552 1579 "rete.ml" 40 1552 1594
+)
+"rete.ml" 40 1552 1556 "rete.ml" 40 1552 1575
+type(
+  'a Config.element_type * 'b
+)
+"rete.ml" 40 1552 1585 "rete.ml" 40 1552 1588
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 40 1552 1566 "rete.ml" 40 1552 1569
+)
+"rete.ml" 40 1552 1590 "rete.ml" 40 1552 1593
+type(
+  'b
+)
+ident(
+  int_ref pos "rete.ml" 40 1552 1571 "rete.ml" 40 1552 1574
+)
+"rete.ml" 40 1552 1584 "rete.ml" 40 1552 1594
+type(
+  string * 'b
+)
+"rete.ml" 40 1552 1579 "rete.ml" 40 1552 1594
+type(
+  (string * 'b) option
+)
+"rete.ml" 38 1500 1502 "rete.ml" 40 1552 1594
+type(
+  (string * 'b) option
+)
+"rete.ml" 42 1598 1602 "rete.ml" 42 1598 1610
+type(
+  Config.tuple ->
+  Config.tuple list ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+ident(
+  def mappings "rete.ml" 57 2169 2169 "rete.ml" 1 0 -1
+)
+"rete.ml" 42 1598 1611 "rete.ml" 42 1598 1612
+type(
+  Config.tuple
+)
+ident(
+  def p "rete.ml" 42 1598 1613 "rete.ml" 55 2103 2165
+)
+"rete.ml" 42 1598 1613 "rete.ml" 42 1598 1619
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "rete.ml" 43 1622 1624 "rete.ml" 55 2103 2165
+)
+"rete.ml" 43 1622 1624 "rete.ml" 43 1622 1639
+type(
+  ((string * int) option ->
+   (string * (Config.t Config.element_type * Config.tuple) list) list ->
+   (string * (Config.t Config.element_type * Config.tuple) list) list) ->
+  (string * int) option list ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 44 1640 1649 "rete.ml" 44 1640 1650
+type(
+  (string * int) option
+)
+ident(
+  def e "rete.ml" 44 1640 1651 "rete.ml" 54 2081 2101
+)
+"rete.ml" 44 1640 1651 "rete.ml" 44 1640 1654
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+ident(
+  def acc "rete.ml" 45 1658 1665 "rete.ml" 54 2081 2101
+)
+"rete.ml" 45 1658 1671 "rete.ml" 45 1658 1672
+type(
+  (string * int) option
+)
+ident(
+  int_ref e "rete.ml" 44 1640 1649 "rete.ml" 44 1640 1650
+)
+"rete.ml" 46 1678 1693 "rete.ml" 46 1678 1696
+type(
+  string
+)
+ident(
+  def var "rete.ml" 47 1704 1715 "rete.ml" 47 1704 1774
+)
+"rete.ml" 46 1678 1698 "rete.ml" 46 1678 1699
+type(
+  int
+)
+"rete.ml" 46 1678 1692 "rete.ml" 46 1678 1700
+type(
+  string * int
+)
+"rete.ml" 46 1678 1687 "rete.ml" 46 1678 1700
+type(
+  (string * int) option
+)
+"rete.ml" 47 1704 1715 "rete.ml" 47 1704 1718
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+ident(
+  int_ref acc "rete.ml" 44 1640 1651 "rete.ml" 44 1640 1654
+)
+"rete.ml" 47 1704 1719 "rete.ml" 47 1704 1720
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"rete.ml" 47 1704 1724 "rete.ml" 47 1704 1727
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 46 1678 1693 "rete.ml" 46 1678 1696
+)
+"rete.ml" 47 1704 1730 "rete.ml" 47 1704 1738
+type(
+  (Config.tuple -> Config.t Config.element_type * Config.tuple) ->
+  Config.tuple list -> (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  ext_ref List.map
+)
+"rete.ml" 47 1704 1744 "rete.ml" 47 1704 1745
+type(
+  Config.tuple
+)
+ident(
+  def t "rete.ml" 47 1704 1749 "rete.ml" 47 1704 1762
+)
+"rete.ml" 47 1704 1751 "rete.ml" 47 1704 1752
+type(
+  Config.tuple
+)
+ident(
+  int_ref t "rete.ml" 47 1704 1744 "rete.ml" 47 1704 1745
+)
+"rete.ml" 47 1704 1750 "rete.ml" 47 1704 1758
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 47 1704 1760 "rete.ml" 47 1704 1761
+type(
+  Config.tuple
+)
+ident(
+  int_ref t "rete.ml" 47 1704 1744 "rete.ml" 47 1704 1745
+)
+"rete.ml" 47 1704 1749 "rete.ml" 47 1704 1762
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 47 1704 1739 "rete.ml" 47 1704 1763
+type(
+  Config.tuple -> Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 47 1704 1764 "rete.ml" 47 1704 1770
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "rete.ml" 42 1598 1613 "rete.ml" 42 1598 1619
+)
+"rete.ml" 47 1704 1729 "rete.ml" 47 1704 1771
+call(
+  stack
+)
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+"rete.ml" 47 1704 1723 "rete.ml" 47 1704 1772
+type(
+  string * (Config.t Config.element_type * Config.tuple) list
+)
+"rete.ml" 47 1704 1721 "rete.ml" 47 1704 1774
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 47 1704 1715 "rete.ml" 47 1704 1774
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 48 1775 1790 "rete.ml" 48 1775 1793
+type(
+  string
+)
+ident(
+  def var "rete.ml" 49 1801 1812 "rete.ml" 49 1801 1871
+)
+"rete.ml" 48 1775 1795 "rete.ml" 48 1775 1796
+type(
+  int
+)
+"rete.ml" 48 1775 1789 "rete.ml" 48 1775 1797
+type(
+  string * int
+)
+"rete.ml" 48 1775 1784 "rete.ml" 48 1775 1797
+type(
+  (string * int) option
+)
+"rete.ml" 49 1801 1812 "rete.ml" 49 1801 1815
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+ident(
+  int_ref acc "rete.ml" 44 1640 1651 "rete.ml" 44 1640 1654
+)
+"rete.ml" 49 1801 1816 "rete.ml" 49 1801 1817
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"rete.ml" 49 1801 1821 "rete.ml" 49 1801 1824
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 48 1775 1790 "rete.ml" 48 1775 1793
+)
+"rete.ml" 49 1801 1827 "rete.ml" 49 1801 1835
+type(
+  (Config.tuple -> Config.t Config.element_type * Config.tuple) ->
+  Config.tuple list -> (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  ext_ref List.map
+)
+"rete.ml" 49 1801 1841 "rete.ml" 49 1801 1842
+type(
+  Config.tuple
+)
+ident(
+  def t "rete.ml" 49 1801 1846 "rete.ml" 49 1801 1859
+)
+"rete.ml" 49 1801 1848 "rete.ml" 49 1801 1849
+type(
+  Config.tuple
+)
+ident(
+  int_ref t "rete.ml" 49 1801 1841 "rete.ml" 49 1801 1842
+)
+"rete.ml" 49 1801 1847 "rete.ml" 49 1801 1855
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 49 1801 1857 "rete.ml" 49 1801 1858
+type(
+  Config.tuple
+)
+ident(
+  int_ref t "rete.ml" 49 1801 1841 "rete.ml" 49 1801 1842
+)
+"rete.ml" 49 1801 1846 "rete.ml" 49 1801 1859
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 49 1801 1836 "rete.ml" 49 1801 1860
+type(
+  Config.tuple -> Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 49 1801 1861 "rete.ml" 49 1801 1867
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "rete.ml" 42 1598 1613 "rete.ml" 42 1598 1619
+)
+"rete.ml" 49 1801 1826 "rete.ml" 49 1801 1868
+call(
+  stack
+)
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+"rete.ml" 49 1801 1820 "rete.ml" 49 1801 1869
+type(
+  string * (Config.t Config.element_type * Config.tuple) list
+)
+"rete.ml" 49 1801 1818 "rete.ml" 49 1801 1871
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 49 1801 1812 "rete.ml" 49 1801 1871
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 51 1955 1972 "rete.ml" 51 1955 1975
+type(
+  string
+)
+ident(
+  def var "rete.ml" 52 1983 1994 "rete.ml" 52 1983 2052
+)
+"rete.ml" 51 1955 1977 "rete.ml" 51 1955 1978
+type(
+  int
+)
+"rete.ml" 51 1955 1971 "rete.ml" 51 1955 1979
+type(
+  string * int
+)
+"rete.ml" 51 1955 1966 "rete.ml" 51 1955 1979
+type(
+  (string * int) option
+)
+"rete.ml" 52 1983 1994 "rete.ml" 52 1983 1997
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+ident(
+  int_ref acc "rete.ml" 44 1640 1651 "rete.ml" 44 1640 1654
+)
+"rete.ml" 52 1983 1998 "rete.ml" 52 1983 1999
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"rete.ml" 52 1983 2003 "rete.ml" 52 1983 2006
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 51 1955 1972 "rete.ml" 51 1955 1975
+)
+"rete.ml" 52 1983 2009 "rete.ml" 52 1983 2017
+type(
+  (Config.tuple -> Config.t Config.element_type * Config.tuple) ->
+  Config.tuple list -> (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  ext_ref List.map
+)
+"rete.ml" 52 1983 2023 "rete.ml" 52 1983 2024
+type(
+  Config.tuple
+)
+ident(
+  def t "rete.ml" 52 1983 2028 "rete.ml" 52 1983 2040
+)
+"rete.ml" 52 1983 2030 "rete.ml" 52 1983 2031
+type(
+  Config.tuple
+)
+ident(
+  int_ref t "rete.ml" 52 1983 2023 "rete.ml" 52 1983 2024
+)
+"rete.ml" 52 1983 2029 "rete.ml" 52 1983 2036
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 52 1983 2038 "rete.ml" 52 1983 2039
+type(
+  Config.tuple
+)
+ident(
+  int_ref t "rete.ml" 52 1983 2023 "rete.ml" 52 1983 2024
+)
+"rete.ml" 52 1983 2028 "rete.ml" 52 1983 2040
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 52 1983 2018 "rete.ml" 52 1983 2041
+type(
+  Config.tuple -> Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 52 1983 2042 "rete.ml" 52 1983 2048
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "rete.ml" 42 1598 1613 "rete.ml" 42 1598 1619
+)
+"rete.ml" 52 1983 2008 "rete.ml" 52 1983 2049
+call(
+  stack
+)
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+"rete.ml" 52 1983 2002 "rete.ml" 52 1983 2050
+type(
+  string * (Config.t Config.element_type * Config.tuple) list
+)
+"rete.ml" 52 1983 2000 "rete.ml" 52 1983 2052
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 52 1983 1994 "rete.ml" 52 1983 2052
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 53 2053 2068 "rete.ml" 53 2053 2069
+type(
+  string
+)
+"rete.ml" 53 2053 2071 "rete.ml" 53 2053 2072
+type(
+  int
+)
+"rete.ml" 53 2053 2067 "rete.ml" 53 2053 2073
+type(
+  string * int
+)
+"rete.ml" 53 2053 2062 "rete.ml" 53 2053 2073
+type(
+  (string * int) option
+)
+"rete.ml" 53 2053 2077 "rete.ml" 53 2053 2080
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+ident(
+  int_ref acc "rete.ml" 44 1640 1651 "rete.ml" 44 1640 1654
+)
+"rete.ml" 54 2081 2090 "rete.ml" 54 2081 2094
+type(
+  (string * int) option
+)
+"rete.ml" 54 2081 2098 "rete.ml" 54 2081 2101
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+ident(
+  int_ref acc "rete.ml" 44 1640 1651 "rete.ml" 44 1640 1654
+)
+"rete.ml" 45 1658 1665 "rete.ml" 54 2081 2101
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 44 1640 1644 "rete.ml" 54 2081 2102
+type(
+  (string * int) option ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 55 2103 2109 "rete.ml" 55 2103 2116
+type(
+  Config.t Config.element_type -> int -> (string * int) option
+)
+ident(
+  int_ref sel_arg "rete.ml" 37 1478 1482 "rete.ml" 37 1478 1489
+)
+"rete.ml" 55 2103 2117 "rete.ml" 55 2103 2118
+type(
+  Config.tuple
+)
+ident(
+  int_ref p "rete.ml" 42 1598 1611 "rete.ml" 42 1598 1612
+)
+"rete.ml" 55 2103 2117 "rete.ml" 55 2103 2123
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 55 2103 2124 "rete.ml" 55 2103 2125
+type(
+  int
+)
+"rete.ml" 55 2103 2109 "rete.ml" 55 2103 2125
+call(
+  stack
+)
+type(
+  (string * int) option
+)
+"rete.ml" 55 2103 2127 "rete.ml" 55 2103 2134
+type(
+  Config.t Config.element_type -> int -> (string * int) option
+)
+ident(
+  int_ref sel_arg "rete.ml" 37 1478 1482 "rete.ml" 37 1478 1489
+)
+"rete.ml" 55 2103 2135 "rete.ml" 55 2103 2136
+type(
+  Config.tuple
+)
+ident(
+  int_ref p "rete.ml" 42 1598 1611 "rete.ml" 42 1598 1612
+)
+"rete.ml" 55 2103 2135 "rete.ml" 55 2103 2141
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 55 2103 2142 "rete.ml" 55 2103 2143
+type(
+  int
+)
+"rete.ml" 55 2103 2127 "rete.ml" 55 2103 2143
+call(
+  stack
+)
+type(
+  (string * int) option
+)
+"rete.ml" 55 2103 2145 "rete.ml" 55 2103 2152
+type(
+  Config.obj_t Config.element_type -> int -> (string * int) option
+)
+ident(
+  int_ref sel_arg "rete.ml" 37 1478 1482 "rete.ml" 37 1478 1489
+)
+"rete.ml" 55 2103 2153 "rete.ml" 55 2103 2154
+type(
+  Config.tuple
+)
+ident(
+  int_ref p "rete.ml" 42 1598 1611 "rete.ml" 42 1598 1612
+)
+"rete.ml" 55 2103 2153 "rete.ml" 55 2103 2158
+type(
+  Config.obj_t Config.element_type
+)
+"rete.ml" 55 2103 2159 "rete.ml" 55 2103 2160
+type(
+  int
+)
+"rete.ml" 55 2103 2145 "rete.ml" 55 2103 2160
+call(
+  stack
+)
+type(
+  (string * int) option
+)
+"rete.ml" 55 2103 2107 "rete.ml" 55 2103 2162
+type(
+  (string * int) option list
+)
+"rete.ml" 55 2103 2163 "rete.ml" 55 2103 2165
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 43 1622 1624 "rete.ml" 55 2103 2165
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 64 2405 2409 "rete.ml" 64 2405 2423
+type(
+  am -> unit list list
+)
+ident(
+  def print_mappings "rete.ml" 79 2807 2807 "rete.ml" 1 0 -1
+)
+"rete.ml" 64 2405 2424 "rete.ml" 64 2405 2426
+type(
+  am
+)
+ident(
+  def am "rete.ml" 65 2429 2431 "rete.ml" 77 2792 2803
+)
+"rete.ml" 65 2429 2431 "rete.ml" 65 2429 2439
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list -> unit list) ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list ->
+  unit list list
+)
+ident(
+  ext_ref List.map
+)
+"rete.ml" 66 2440 2450 "rete.ml" 66 2440 2453
+type(
+  string
+)
+ident(
+  def var "rete.ml" 67 2466 2473 "rete.ml" 76 2773 2790
+)
+"rete.ml" 66 2440 2455 "rete.ml" 66 2440 2461
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  def values "rete.ml" 67 2466 2473 "rete.ml" 76 2773 2790
+)
+"rete.ml" 66 2440 2449 "rete.ml" 66 2440 2462
+type(
+  string * (Config.t Config.element_type * Config.tuple) list
+)
+"rete.ml" 67 2466 2474 "rete.ml" 67 2466 2486
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"rete.ml" 67 2466 2487 "rete.ml" 67 2466 2490
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 66 2440 2450 "rete.ml" 66 2440 2453
+)
+"rete.ml" 67 2466 2474 "rete.ml" 67 2466 2490
+call(
+  stack
+)
+type(
+  unit
+)
+"rete.ml" 68 2492 2500 "rete.ml" 68 2492 2508
+type(
+  (Config.t Config.element_type * Config.tuple -> unit) ->
+  (Config.t Config.element_type * Config.tuple) list -> unit list
+)
+ident(
+  ext_ref List.map
+)
+"rete.ml" 69 2509 2524 "rete.ml" 69 2509 2529
+type(
+  Config.t Config.element_type * Config.tuple
+)
+ident(
+  def value "rete.ml" 70 2533 2546 "rete.ml" 75 2721 2771
+)
+"rete.ml" 70 2533 2552 "rete.ml" 70 2533 2557
+type(
+  Config.t Config.element_type * Config.tuple
+)
+ident(
+  int_ref value "rete.ml" 69 2509 2524 "rete.ml" 69 2509 2529
+)
+"rete.ml" 71 2563 2588 "rete.ml" 71 2563 2589
+type(
+  Config.t
+)
+ident(
+  def x "rete.ml" 72 2597 2614 "rete.ml" 74 2667 2720
+)
+"rete.ml" 71 2563 2579 "rete.ml" 71 2563 2589
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 71 2563 2591 "rete.ml" 71 2563 2592
+type(
+  Config.tuple
+)
+ident(
+  def t "rete.ml" 72 2597 2614 "rete.ml" 74 2667 2720
+)
+"rete.ml" 71 2563 2578 "rete.ml" 71 2563 2593
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 72 2597 2615 "rete.ml" 72 2597 2628
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"rete.ml" 72 2597 2629 "rete.ml" 72 2597 2631
+type(
+  string
+)
+"rete.ml" 72 2597 2615 "rete.ml" 72 2597 2631
+call(
+  stack
+)
+type(
+  unit
+)
+"rete.ml" 73 2633 2651 "rete.ml" 73 2633 2663
+type(
+  Config.t -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"rete.ml" 73 2633 2664 "rete.ml" 73 2633 2665
+type(
+  Config.t
+)
+ident(
+  int_ref x "rete.ml" 71 2563 2588 "rete.ml" 71 2563 2589
+)
+"rete.ml" 73 2633 2651 "rete.ml" 73 2633 2665
+call(
+  stack
+)
+type(
+  unit
+)
+"rete.ml" 74 2667 2685 "rete.ml" 74 2667 2698
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"rete.ml" 74 2667 2700 "rete.ml" 74 2667 2716
+type(
+  Config.tuple -> string
+)
+ident(
+  ext_ref Helper.to_string
+)
+"rete.ml" 74 2667 2717 "rete.ml" 74 2667 2718
+type(
+  Config.tuple
+)
+ident(
+  int_ref t "rete.ml" 71 2563 2591 "rete.ml" 71 2563 2592
+)
+"rete.ml" 74 2667 2699 "rete.ml" 74 2667 2719
+call(
+  stack
+)
+type(
+  string
+)
+"rete.ml" 74 2667 2685 "rete.ml" 74 2667 2719
+call(
+  tail
+)
+type(
+  unit
+)
+"rete.ml" 73 2633 2651 "rete.ml" 74 2667 2719
+type(
+  unit
+)
+"rete.ml" 72 2597 2614 "rete.ml" 74 2667 2720
+type(
+  unit
+)
+"rete.ml" 75 2721 2746 "rete.ml" 75 2721 2747
+type(
+  string
+)
+"rete.ml" 75 2721 2737 "rete.ml" 75 2721 2747
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 75 2721 2749 "rete.ml" 75 2721 2750
+type(
+  Config.tuple
+)
+"rete.ml" 75 2721 2736 "rete.ml" 75 2721 2751
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 75 2721 2755 "rete.ml" 75 2721 2767
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"rete.ml" 75 2721 2768 "rete.ml" 75 2721 2771
+type(
+  string
+)
+"rete.ml" 75 2721 2755 "rete.ml" 75 2721 2771
+call(
+  tail
+)
+type(
+  unit
+)
+"rete.ml" 70 2533 2546 "rete.ml" 75 2721 2771
+type(
+  unit
+)
+"rete.ml" 69 2509 2519 "rete.ml" 75 2721 2772
+type(
+  Config.t Config.element_type * Config.tuple -> unit
+)
+"rete.ml" 76 2773 2783 "rete.ml" 76 2773 2789
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  int_ref values "rete.ml" 66 2440 2455 "rete.ml" 66 2440 2461
+)
+"rete.ml" 68 2492 2500 "rete.ml" 76 2773 2789
+call(
+  tail
+)
+type(
+  unit list
+)
+"rete.ml" 67 2466 2473 "rete.ml" 76 2773 2790
+type(
+  unit list
+)
+"rete.ml" 66 2440 2444 "rete.ml" 76 2773 2791
+type(
+  string * (Config.t Config.element_type * Config.tuple) list -> unit list
+)
+"rete.ml" 77 2792 2796 "rete.ml" 77 2792 2798
+type(
+  am
+)
+ident(
+  int_ref am "rete.ml" 64 2405 2424 "rete.ml" 64 2405 2426
+)
+"rete.ml" 77 2792 2796 "rete.ml" 77 2792 2803
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 65 2429 2431 "rete.ml" 77 2792 2803
+call(
+  tail
+)
+type(
+  unit list list
+)
+"rete.ml" 79 2807 2811 "rete.ml" 79 2807 2820
+type(
+  Config.tuple -> Config.tuple list -> am
+)
+ident(
+  def create_am "rete.ml" 88 3036 3036 "rete.ml" 1 0 -1
+)
+"rete.ml" 79 2807 2821 "rete.ml" 79 2807 2822
+type(
+  Config.tuple
+)
+ident(
+  def p "rete.ml" 79 2807 2823 "rete.ml" 85 2975 2978
+)
+"rete.ml" 79 2807 2823 "rete.ml" 79 2807 2830
+type(
+  Config.tuple list
+)
+ident(
+  def tuples_ "rete.ml" 80 2833 2835 "rete.ml" 85 2975 2978
+)
+"rete.ml" 81 2837 2851 "rete.ml" 81 2837 2852
+type(
+  Config.tuple
+)
+ident(
+  int_ref p "rete.ml" 79 2807 2821 "rete.ml" 79 2807 2822
+)
+"rete.ml" 82 2854 2867 "rete.ml" 82 2854 2873
+type(
+  Config.tuple -> Config.tuple list -> Config.tuple list
+)
+ident(
+  int_ref filter "rete.ml" 26 1136 1140 "rete.ml" 26 1136 1146
+)
+"rete.ml" 82 2854 2874 "rete.ml" 82 2854 2875
+type(
+  Config.tuple
+)
+ident(
+  int_ref p "rete.ml" 79 2807 2821 "rete.ml" 79 2807 2822
+)
+"rete.ml" 82 2854 2876 "rete.ml" 82 2854 2883
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples_ "rete.ml" 79 2807 2823 "rete.ml" 79 2807 2830
+)
+"rete.ml" 82 2854 2867 "rete.ml" 82 2854 2883
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"rete.ml" 84 2896 2906 "rete.ml" 84 2896 2917
+type(
+  Config.tuple list -> int
+)
+ident(
+  ext_ref List.length
+)
+"rete.ml" 84 2896 2918 "rete.ml" 84 2896 2925
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples_ "rete.ml" 79 2807 2823 "rete.ml" 79 2807 2830
+)
+"rete.ml" 84 2896 2905 "rete.ml" 84 2896 2926
+call(
+  stack
+)
+type(
+  int
+)
+"rete.ml" 84 2896 2927 "rete.ml" 84 2896 2928
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"rete.ml" 84 2896 2929 "rete.ml" 84 2896 2930
+type(
+  int
+)
+"rete.ml" 84 2896 2905 "rete.ml" 84 2896 2930
+type(
+  bool
+)
+"rete.ml" 84 2896 2936 "rete.ml" 84 2896 2944
+type(
+  Config.tuple ->
+  Config.tuple list ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+ident(
+  int_ref mappings "rete.ml" 42 1598 1602 "rete.ml" 42 1598 1610
+)
+"rete.ml" 84 2896 2945 "rete.ml" 84 2896 2946
+type(
+  Config.tuple
+)
+ident(
+  int_ref p "rete.ml" 79 2807 2821 "rete.ml" 79 2807 2822
+)
+"rete.ml" 84 2896 2948 "rete.ml" 84 2896 2954
+type(
+  Config.tuple -> Config.tuple list -> Config.tuple list
+)
+ident(
+  int_ref filter "rete.ml" 26 1136 1140 "rete.ml" 26 1136 1146
+)
+"rete.ml" 84 2896 2955 "rete.ml" 84 2896 2956
+type(
+  Config.tuple
+)
+ident(
+  int_ref p "rete.ml" 79 2807 2821 "rete.ml" 79 2807 2822
+)
+"rete.ml" 84 2896 2957 "rete.ml" 84 2896 2964
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples_ "rete.ml" 79 2807 2823 "rete.ml" 79 2807 2830
+)
+"rete.ml" 84 2896 2947 "rete.ml" 84 2896 2965
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"rete.ml" 84 2896 2936 "rete.ml" 84 2896 2965
+call(
+  stack
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 84 2896 2971 "rete.ml" 84 2896 2973
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 84 2896 2902 "rete.ml" 84 2896 2973
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 80 2833 2835 "rete.ml" 85 2975 2978
+type(
+  am
+)
+"rete.ml" 91 3138 3142 "rete.ml" 91 3138 3150
+type(
+  bm -> unit list list
+)
+ident(
+  def print_bm "rete.ml" 103 3504 3504 "rete.ml" 1 0 -1
+)
+"rete.ml" 91 3138 3151 "rete.ml" 91 3138 3153
+type(
+  bm
+)
+ident(
+  def bm "rete.ml" 92 3156 3158 "rete.ml" 100 3441 3457
+)
+"rete.ml" 92 3156 3158 "rete.ml" 92 3156 3166
+type(
+  (string * (Config.t Config.element_type * Config.tuple list) -> unit list) ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  unit list list
+)
+ident(
+  ext_ref List.map
+)
+"rete.ml" 93 3167 3177 "rete.ml" 93 3167 3180
+type(
+  string
+)
+ident(
+  def var "rete.ml" 95 3257 3264 "rete.ml" 99 3370 3439
+)
+"rete.ml" 93 3167 3183 "rete.ml" 93 3167 3188
+type(
+  Config.t Config.element_type
+)
+ident(
+  def value "rete.ml" 95 3257 3264 "rete.ml" 99 3370 3439
+)
+"rete.ml" 93 3167 3190 "rete.ml" 93 3167 3196
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "rete.ml" 95 3257 3264 "rete.ml" 99 3370 3439
+)
+"rete.ml" 93 3167 3182 "rete.ml" 93 3167 3197
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 93 3167 3176 "rete.ml" 93 3167 3198
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 95 3257 3265 "rete.ml" 95 3257 3278
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"rete.ml" 95 3257 3279 "rete.ml" 95 3257 3281
+type(
+  string
+)
+"rete.ml" 95 3257 3265 "rete.ml" 95 3257 3281
+call(
+  stack
+)
+type(
+  unit
+)
+"rete.ml" 96 3283 3291 "rete.ml" 96 3283 3304
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"rete.ml" 96 3283 3305 "rete.ml" 96 3283 3308
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 93 3167 3177 "rete.ml" 93 3167 3180
+)
+"rete.ml" 96 3283 3291 "rete.ml" 96 3283 3308
+call(
+  stack
+)
+type(
+  unit
+)
+"rete.ml" 97 3310 3318 "rete.ml" 97 3310 3336
+type(
+  Config.t Config.element_type -> unit
+)
+ident(
+  ext_ref Helper.print_value
+)
+"rete.ml" 97 3310 3337 "rete.ml" 97 3310 3342
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref value "rete.ml" 93 3167 3183 "rete.ml" 93 3167 3188
+)
+"rete.ml" 97 3310 3318 "rete.ml" 97 3310 3342
+call(
+  stack
+)
+type(
+  unit
+)
+"rete.ml" 98 3344 3352 "rete.ml" 98 3344 3364
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"rete.ml" 98 3344 3365 "rete.ml" 98 3344 3368
+type(
+  string
+)
+"rete.ml" 98 3344 3352 "rete.ml" 98 3344 3368
+call(
+  stack
+)
+type(
+  unit
+)
+"rete.ml" 99 3370 3378 "rete.ml" 99 3370 3386
+type(
+  (Config.tuple -> unit) -> Config.tuple list -> unit list
+)
+ident(
+  ext_ref List.map
+)
+"rete.ml" 99 3370 3392 "rete.ml" 99 3370 3393
+type(
+  Config.tuple
+)
+ident(
+  def t "rete.ml" 99 3370 3397 "rete.ml" 99 3370 3430
+)
+"rete.ml" 99 3370 3397 "rete.ml" 99 3370 3409
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"rete.ml" 99 3370 3411 "rete.ml" 99 3370 3427
+type(
+  Config.tuple -> string
+)
+ident(
+  ext_ref Helper.to_string
+)
+"rete.ml" 99 3370 3428 "rete.ml" 99 3370 3429
+type(
+  Config.tuple
+)
+ident(
+  int_ref t "rete.ml" 99 3370 3392 "rete.ml" 99 3370 3393
+)
+"rete.ml" 99 3370 3410 "rete.ml" 99 3370 3430
+call(
+  stack
+)
+type(
+  string
+)
+"rete.ml" 99 3370 3397 "rete.ml" 99 3370 3430
+call(
+  tail
+)
+type(
+  unit
+)
+"rete.ml" 99 3370 3387 "rete.ml" 99 3370 3431
+type(
+  Config.tuple -> unit
+)
+"rete.ml" 99 3370 3432 "rete.ml" 99 3370 3438
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "rete.ml" 93 3167 3190 "rete.ml" 93 3167 3196
+)
+"rete.ml" 99 3370 3378 "rete.ml" 99 3370 3438
+call(
+  tail
+)
+type(
+  unit list
+)
+"rete.ml" 98 3344 3352 "rete.ml" 99 3370 3438
+type(
+  unit list
+)
+"rete.ml" 97 3310 3318 "rete.ml" 99 3370 3438
+type(
+  unit list
+)
+"rete.ml" 96 3283 3291 "rete.ml" 99 3370 3438
+type(
+  unit list
+)
+"rete.ml" 95 3257 3264 "rete.ml" 99 3370 3439
+type(
+  unit list
+)
+"rete.ml" 93 3167 3171 "rete.ml" 99 3370 3440
+type(
+  string * (Config.t Config.element_type * Config.tuple list) -> unit list
+)
+"rete.ml" 100 3441 3445 "rete.ml" 100 3441 3447
+type(
+  bm
+)
+ident(
+  int_ref bm "rete.ml" 91 3138 3151 "rete.ml" 91 3138 3153
+)
+"rete.ml" 100 3441 3445 "rete.ml" 100 3441 3457
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 92 3156 3158 "rete.ml" 100 3441 3457
+call(
+  tail
+)
+type(
+  unit list list
+)
+"rete.ml" 103 3504 3508 "rete.ml" 103 3504 3512
+type(
+  am -> bm -> bm
+)
+ident(
+  def join "rete.ml" 202 8298 8298 "rete.ml" 1 0 -1
+)
+"rete.ml" 103 3504 3513 "rete.ml" 103 3504 3515
+type(
+  am
+)
+ident(
+  def am "rete.ml" 103 3504 3516 "rete.ml" 197 8190 8193
+)
+"rete.ml" 103 3504 3516 "rete.ml" 103 3504 3518
+type(
+  bm
+)
+ident(
+  def bm "rete.ml" 104 3521 3523 "rete.ml" 197 8190 8193
+)
+"rete.ml" 106 3541 3553 "rete.ml" 106 3541 3555
+type(
+  bm
+)
+ident(
+  int_ref bm "rete.ml" 103 3504 3516 "rete.ml" 103 3504 3518
+)
+"rete.ml" 107 3561 3583 "rete.ml" 107 3561 3585
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 107 3561 3569 "rete.ml" 107 3561 3587
+type(
+  bm
+)
+"rete.ml" 108 3591 3601 "rete.ml" 108 3591 3616
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list ->
+   (string * (Config.t Config.element_type * Config.tuple list)) list ->
+   (string * (Config.t Config.element_type * Config.tuple list)) list) ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 109 3617 3635 "rete.ml" 109 3617 3638
+type(
+  string
+)
+ident(
+  def var "rete.ml" 109 3617 3648 "rete.ml" 114 3868 3895
+)
+"rete.ml" 109 3617 3640 "rete.ml" 109 3617 3646
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  def values "rete.ml" 109 3617 3648 "rete.ml" 114 3868 3895
+)
+"rete.ml" 109 3617 3634 "rete.ml" 109 3617 3647
+type(
+  string * (Config.t Config.element_type * Config.tuple) list
+)
+"rete.ml" 109 3617 3648 "rete.ml" 109 3617 3651
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  def acc "rete.ml" 112 3770 3785 "rete.ml" 114 3868 3895
+)
+"rete.ml" 112 3770 3785 "rete.ml" 112 3770 3788
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  int_ref acc "rete.ml" 109 3617 3648 "rete.ml" 109 3617 3651
+)
+"rete.ml" 112 3770 3789 "rete.ml" 112 3770 3790
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"rete.ml" 113 3791 3809 "rete.ml" 113 3791 3817
+type(
+  (Config.t Config.element_type * Config.tuple ->
+   string * (Config.t Config.element_type * Config.tuple list)) ->
+  (Config.t Config.element_type * Config.tuple) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref List.map
+)
+"rete.ml" 113 3791 3824 "rete.ml" 113 3791 3829
+type(
+  Config.t Config.element_type
+)
+ident(
+  def value "rete.ml" 113 3791 3841 "rete.ml" 113 3791 3866
+)
+"rete.ml" 113 3791 3831 "rete.ml" 113 3791 3836
+type(
+  Config.tuple
+)
+ident(
+  def tuple "rete.ml" 113 3791 3841 "rete.ml" 113 3791 3866
+)
+"rete.ml" 113 3791 3823 "rete.ml" 113 3791 3837
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 113 3791 3842 "rete.ml" 113 3791 3845
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 109 3617 3635 "rete.ml" 109 3617 3638
+)
+"rete.ml" 113 3791 3848 "rete.ml" 113 3791 3853
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref value "rete.ml" 113 3791 3824 "rete.ml" 113 3791 3829
+)
+"rete.ml" 113 3791 3857 "rete.ml" 113 3791 3862
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "rete.ml" 113 3791 3831 "rete.ml" 113 3791 3836
+)
+"rete.ml" 113 3791 3855 "rete.ml" 113 3791 3864
+type(
+  Config.tuple list
+)
+"rete.ml" 113 3791 3847 "rete.ml" 113 3791 3865
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 113 3791 3841 "rete.ml" 113 3791 3866
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 113 3791 3818 "rete.ml" 113 3791 3867
+type(
+  Config.t Config.element_type * Config.tuple ->
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 114 3868 3888 "rete.ml" 114 3868 3894
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  int_ref values "rete.ml" 109 3617 3640 "rete.ml" 109 3617 3646
+)
+"rete.ml" 113 3791 3808 "rete.ml" 114 3868 3895
+call(
+  stack
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 112 3770 3785 "rete.ml" 114 3868 3895
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 109 3617 3629 "rete.ml" 114 3868 3896
+type(
+  string * (Config.t Config.element_type * Config.tuple) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 115 3897 3909 "rete.ml" 115 3897 3911
+type(
+  am
+)
+ident(
+  int_ref am "rete.ml" 103 3504 3513 "rete.ml" 103 3504 3515
+)
+"rete.ml" 115 3897 3909 "rete.ml" 115 3897 3916
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 115 3897 3917 "rete.ml" 115 3897 3919
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 108 3591 3601 "rete.ml" 115 3897 3919
+call(
+  stack
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 116 3920 3942 "rete.ml" 116 3920 3951
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  def solutions "rete.ml" 119 4113 4123 "rete.ml" 196 8166 8189
+)
+"rete.ml" 116 3920 3928 "rete.ml" 116 3920 3953
+type(
+  bm
+)
+"rete.ml" 119 4113 4123 "rete.ml" 119 4113 4138
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list ->
+   (string * (Config.t Config.element_type * Config.tuple list)) list ->
+   (string * (Config.t Config.element_type * Config.tuple list)) list) ->
+  (string * (Config.t Config.element_type * Config.tuple) list) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 121 4239 4257 "rete.ml" 121 4239 4263
+type(
+  string
+)
+ident(
+  def am_var "rete.ml" 121 4239 4276 "rete.ml" 195 8125 8164
+)
+"rete.ml" 121 4239 4265 "rete.ml" 121 4239 4274
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  def am_values "rete.ml" 121 4239 4276 "rete.ml" 195 8125 8164
+)
+"rete.ml" 121 4239 4256 "rete.ml" 121 4239 4275
+type(
+  string * (Config.t Config.element_type * Config.tuple) list
+)
+"rete.ml" 121 4239 4276 "rete.ml" 121 4239 4279
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  def acc "rete.ml" 122 4283 4298 "rete.ml" 195 8125 8164
+)
+"rete.ml" 123 4302 4323 "rete.ml" 123 4302 4324
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 123 4302 4327 "rete.ml" 123 4302 4337
+type(
+  string ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  Config.t Config.element_type * Config.tuple list
+)
+ident(
+  ext_ref List.assoc
+)
+"rete.ml" 123 4302 4338 "rete.ml" 123 4302 4344
+type(
+  string
+)
+ident(
+  int_ref am_var "rete.ml" 121 4239 4257 "rete.ml" 121 4239 4263
+)
+"rete.ml" 123 4302 4345 "rete.ml" 123 4302 4354
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  int_ref solutions "rete.ml" 116 3920 3942 "rete.ml" 116 3920 3951
+)
+"rete.ml" 123 4302 4327 "rete.ml" 123 4302 4354
+call(
+  stack
+)
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 125 4430 4451 "rete.ml" 125 4430 4459
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  def sol_list "rete.ml" 127 4543 4560 "rete.ml" 142 5265 5288
+)
+"rete.ml" 126 4462 4481 "rete.ml" 126 4462 4492
+type(
+  (string * (Config.t Config.element_type * Config.tuple list) -> bool) ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref List.filter
+)
+"rete.ml" 126 4462 4499 "rete.ml" 126 4462 4505
+type(
+  string
+)
+ident(
+  def bm_var "rete.ml" 126 4462 4513 "rete.ml" 126 4462 4528
+)
+"rete.ml" 126 4462 4507 "rete.ml" 126 4462 4508
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 126 4462 4498 "rete.ml" 126 4462 4509
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 126 4462 4513 "rete.ml" 126 4462 4519
+type(
+  string
+)
+ident(
+  int_ref bm_var "rete.ml" 126 4462 4499 "rete.ml" 126 4462 4505
+)
+"rete.ml" 126 4462 4520 "rete.ml" 126 4462 4521
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"rete.ml" 126 4462 4522 "rete.ml" 126 4462 4528
+type(
+  string
+)
+ident(
+  int_ref am_var "rete.ml" 121 4239 4257 "rete.ml" 121 4239 4263
+)
+"rete.ml" 126 4462 4513 "rete.ml" 126 4462 4528
+type(
+  bool
+)
+"rete.ml" 126 4462 4493 "rete.ml" 126 4462 4529
+type(
+  string * (Config.t Config.element_type * Config.tuple list) -> bool
+)
+"rete.ml" 126 4462 4530 "rete.ml" 126 4462 4539
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  int_ref solutions "rete.ml" 116 3920 3942 "rete.ml" 116 3920 3951
+)
+"rete.ml" 126 4462 4481 "rete.ml" 126 4462 4539
+call(
+  stack
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 127 4543 4564 "rete.ml" 127 4543 4567
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  def sol "rete.ml" 142 5265 5285 "rete.ml" 142 5265 5288
+)
+"rete.ml" 128 4570 4589 "rete.ml" 128 4570 4604
+type(
+  (string * (Config.t Config.element_type * Config.tuple list) ->
+   (string * (Config.t Config.element_type * Config.tuple list)) list ->
+   (string * (Config.t Config.element_type * Config.tuple list)) list) ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 129 4605 4632 "rete.ml" 129 4605 4633
+type(
+  string
+)
+"rete.ml" 129 4605 4636 "rete.ml" 129 4605 4644
+type(
+  Config.t Config.element_type
+)
+ident(
+  def bm_value "rete.ml" 129 4605 4659 "rete.ml" 140 5189 5230
+)
+"rete.ml" 129 4605 4646 "rete.ml" 129 4605 4656
+type(
+  Config.tuple list
+)
+ident(
+  def sol_tuples "rete.ml" 129 4605 4659 "rete.ml" 140 5189 5230
+)
+"rete.ml" 129 4605 4635 "rete.ml" 129 4605 4657
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 129 4605 4631 "rete.ml" 129 4605 4658
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 129 4605 4659 "rete.ml" 129 4605 4664
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  def acc_f "rete.ml" 132 4808 4832 "rete.ml" 140 5189 5230
+)
+"rete.ml" 132 4808 4836 "rete.ml" 132 4808 4845
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  def fltr_list "rete.ml" 136 4988 5014 "rete.ml" 140 5189 5230
+)
+"rete.ml" 133 4848 4874 "rete.ml" 133 4848 4885
+type(
+  (Config.t Config.element_type * Config.tuple -> bool) ->
+  (Config.t Config.element_type * Config.tuple) list ->
+  (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  ext_ref List.filter
+)
+"rete.ml" 133 4848 4892 "rete.ml" 133 4848 4897
+type(
+  Config.t Config.element_type
+)
+ident(
+  def value "rete.ml" 133 4848 4905 "rete.ml" 133 4848 4921
+)
+"rete.ml" 133 4848 4899 "rete.ml" 133 4848 4900
+type(
+  Config.tuple
+)
+"rete.ml" 133 4848 4891 "rete.ml" 133 4848 4901
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 133 4848 4905 "rete.ml" 133 4848 4910
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref value "rete.ml" 133 4848 4892 "rete.ml" 133 4848 4897
+)
+"rete.ml" 133 4848 4911 "rete.ml" 133 4848 4912
+type(
+  Config.t Config.element_type -> Config.t Config.element_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"rete.ml" 133 4848 4913 "rete.ml" 133 4848 4921
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref bm_value "rete.ml" 129 4605 4636 "rete.ml" 129 4605 4644
+)
+"rete.ml" 133 4848 4905 "rete.ml" 133 4848 4921
+type(
+  bool
+)
+"rete.ml" 133 4848 4886 "rete.ml" 133 4848 4922
+type(
+  Config.t Config.element_type * Config.tuple -> bool
+)
+"rete.ml" 134 4923 4951 "rete.ml" 134 4923 4960
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  int_ref am_values "rete.ml" 121 4239 4265 "rete.ml" 121 4239 4274
+)
+"rete.ml" 133 4848 4874 "rete.ml" 134 4923 4960
+call(
+  stack
+)
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+"rete.ml" 136 4988 5014 "rete.ml" 136 4988 5019
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  int_ref acc_f "rete.ml" 129 4605 4659 "rete.ml" 129 4605 4664
+)
+"rete.ml" 136 4988 5020 "rete.ml" 136 4988 5021
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"rete.ml" 137 5022 5051 "rete.ml" 137 5022 5059
+type(
+  (Config.t Config.element_type * Config.tuple ->
+   string * (Config.t Config.element_type * Config.tuple list)) ->
+  (Config.t Config.element_type * Config.tuple) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref List.map
+)
+"rete.ml" 138 5060 5097 "rete.ml" 138 5060 5098
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 138 5060 5100 "rete.ml" 138 5060 5105
+type(
+  Config.tuple
+)
+ident(
+  def tuple "rete.ml" 139 5110 5144 "rete.ml" 139 5110 5187
+)
+"rete.ml" 138 5060 5096 "rete.ml" 138 5060 5106
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 139 5110 5145 "rete.ml" 139 5110 5151
+type(
+  string
+)
+ident(
+  int_ref am_var "rete.ml" 121 4239 4257 "rete.ml" 121 4239 4263
+)
+"rete.ml" 139 5110 5154 "rete.ml" 139 5110 5162
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref bm_value "rete.ml" 129 4605 4636 "rete.ml" 129 4605 4644
+)
+"rete.ml" 139 5110 5165 "rete.ml" 139 5110 5170
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "rete.ml" 138 5060 5100 "rete.ml" 138 5060 5105
+)
+"rete.ml" 139 5110 5174 "rete.ml" 139 5110 5184
+type(
+  Config.tuple list
+)
+ident(
+  int_ref sol_tuples "rete.ml" 129 4605 4646 "rete.ml" 129 4605 4656
+)
+"rete.ml" 139 5110 5164 "rete.ml" 139 5110 5185
+type(
+  Config.tuple list
+)
+"rete.ml" 139 5110 5153 "rete.ml" 139 5110 5186
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 139 5110 5144 "rete.ml" 139 5110 5187
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 138 5060 5091 "rete.ml" 139 5110 5188
+type(
+  Config.t Config.element_type * Config.tuple ->
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 140 5189 5220 "rete.ml" 140 5189 5229
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  int_ref fltr_list "rete.ml" 132 4808 4836 "rete.ml" 132 4808 4845
+)
+"rete.ml" 137 5022 5050 "rete.ml" 140 5189 5230
+call(
+  stack
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 136 4988 5014 "rete.ml" 140 5189 5230
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 132 4808 4832 "rete.ml" 140 5189 5230
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 129 4605 4626 "rete.ml" 140 5189 5231
+type(
+  string * (Config.t Config.element_type * Config.tuple list) ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 141 5232 5253 "rete.ml" 141 5232 5261
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  int_ref sol_list "rete.ml" 125 4430 4451 "rete.ml" 125 4430 4459
+)
+"rete.ml" 141 5232 5262 "rete.ml" 141 5232 5264
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 128 4570 4589 "rete.ml" 141 5232 5264
+call(
+  stack
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 142 5265 5285 "rete.ml" 142 5265 5288
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  int_ref sol "rete.ml" 127 4543 4564 "rete.ml" 127 4543 4567
+)
+"rete.ml" 127 4543 4560 "rete.ml" 142 5265 5288
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 125 4430 4447 "rete.ml" 142 5265 5288
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 123 4302 4319 "rete.ml" 142 5265 5288
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 148 5699 5747 "rete.ml" 148 5699 5756
+type(
+  exn
+)
+"rete.ml" 149 5760 5783 "rete.ml" 149 5760 5793
+type(
+  Config.tuple ->
+  Config.tuple ->
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  def apply_ptrn "rete.ml" 170 6746 6767 "rete.ml" 195 8125 8164
+)
+"rete.ml" 149 5760 5794 "rete.ml" 149 5760 5795
+type(
+  Config.tuple
+)
+ident(
+  def p "rete.ml" 149 5760 5796 "rete.ml" 168 6698 6723
+)
+"rete.ml" 149 5760 5796 "rete.ml" 149 5760 5801
+type(
+  Config.tuple
+)
+ident(
+  def tuple "rete.ml" 150 5804 5825 "rete.ml" 168 6698 6723
+)
+"rete.ml" 150 5804 5825 "rete.ml" 150 5804 5840
+type(
+  ((string * int) option ->
+   (string * (Config.t Config.element_type * Config.tuple)) list ->
+   (string * (Config.t Config.element_type * Config.tuple)) list) ->
+  (string * int) option list ->
+  (string * (Config.t Config.element_type * Config.tuple)) list ->
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 151 5841 5869 "rete.ml" 151 5841 5870
+type(
+  (string * int) option
+)
+ident(
+  def e "rete.ml" 151 5841 5871 "rete.ml" 166 6578 6617
+)
+"rete.ml" 151 5841 5871 "rete.ml" 151 5841 5874
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  def acc "rete.ml" 152 5878 5904 "rete.ml" 166 6578 6617
+)
+"rete.ml" 152 5878 5910 "rete.ml" 152 5878 5911
+type(
+  (string * int) option
+)
+ident(
+  int_ref e "rete.ml" 151 5841 5869 "rete.ml" 151 5841 5870
+)
+"rete.ml" 153 5917 5951 "rete.ml" 153 5917 5954
+type(
+  string
+)
+ident(
+  def var "rete.ml" 154 5962 5992 "rete.ml" 156 6083 6121
+)
+"rete.ml" 153 5917 5956 "rete.ml" 153 5917 5957
+type(
+  int
+)
+"rete.ml" 153 5917 5950 "rete.ml" 153 5917 5958
+type(
+  string * int
+)
+"rete.ml" 153 5917 5945 "rete.ml" 153 5917 5958
+type(
+  (string * int) option
+)
+"rete.ml" 154 5962 5995 "rete.ml" 154 5962 5998
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 153 5917 5951 "rete.ml" 153 5917 5954
+)
+"rete.ml" 154 5962 5999 "rete.ml" 154 5962 6001
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"rete.ml" 154 5962 6002 "rete.ml" 154 5962 6008
+type(
+  string
+)
+ident(
+  int_ref am_var "rete.ml" 121 4239 4257 "rete.ml" 121 4239 4263
+)
+"rete.ml" 154 5962 5995 "rete.ml" 154 5962 6008
+type(
+  bool
+)
+"rete.ml" 155 6009 6044 "rete.ml" 155 6009 6047
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  int_ref acc "rete.ml" 151 5841 5871 "rete.ml" 151 5841 5874
+)
+"rete.ml" 155 6009 6048 "rete.ml" 155 6009 6049
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list ->
+  (string * (Config.t Config.element_type * Config.tuple)) list ->
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"rete.ml" 155 6009 6053 "rete.ml" 155 6009 6056
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 153 5917 5951 "rete.ml" 153 5917 5954
+)
+"rete.ml" 155 6009 6060 "rete.ml" 155 6009 6065
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "rete.ml" 149 5760 5796 "rete.ml" 149 5760 5801
+)
+"rete.ml" 155 6009 6059 "rete.ml" 155 6009 6071
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 155 6009 6073 "rete.ml" 155 6009 6078
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "rete.ml" 149 5760 5796 "rete.ml" 149 5760 5801
+)
+"rete.ml" 155 6009 6058 "rete.ml" 155 6009 6079
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 155 6009 6052 "rete.ml" 155 6009 6080
+type(
+  string * (Config.t Config.element_type * Config.tuple)
+)
+"rete.ml" 155 6009 6050 "rete.ml" 155 6009 6082
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 155 6009 6044 "rete.ml" 155 6009 6082
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 156 6083 6118 "rete.ml" 156 6083 6121
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  int_ref acc "rete.ml" 151 5841 5871 "rete.ml" 151 5841 5874
+)
+"rete.ml" 154 5962 5992 "rete.ml" 156 6083 6121
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 157 6122 6156 "rete.ml" 157 6122 6159
+type(
+  string
+)
+ident(
+  def var "rete.ml" 158 6167 6197 "rete.ml" 160 6288 6326
+)
+"rete.ml" 157 6122 6161 "rete.ml" 157 6122 6162
+type(
+  int
+)
+"rete.ml" 157 6122 6155 "rete.ml" 157 6122 6163
+type(
+  string * int
+)
+"rete.ml" 157 6122 6150 "rete.ml" 157 6122 6163
+type(
+  (string * int) option
+)
+"rete.ml" 158 6167 6200 "rete.ml" 158 6167 6203
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 157 6122 6156 "rete.ml" 157 6122 6159
+)
+"rete.ml" 158 6167 6204 "rete.ml" 158 6167 6206
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"rete.ml" 158 6167 6207 "rete.ml" 158 6167 6213
+type(
+  string
+)
+ident(
+  int_ref am_var "rete.ml" 121 4239 4257 "rete.ml" 121 4239 4263
+)
+"rete.ml" 158 6167 6200 "rete.ml" 158 6167 6213
+type(
+  bool
+)
+"rete.ml" 159 6214 6249 "rete.ml" 159 6214 6252
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  int_ref acc "rete.ml" 151 5841 5871 "rete.ml" 151 5841 5874
+)
+"rete.ml" 159 6214 6253 "rete.ml" 159 6214 6254
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list ->
+  (string * (Config.t Config.element_type * Config.tuple)) list ->
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"rete.ml" 159 6214 6258 "rete.ml" 159 6214 6261
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 157 6122 6156 "rete.ml" 157 6122 6159
+)
+"rete.ml" 159 6214 6265 "rete.ml" 159 6214 6270
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "rete.ml" 149 5760 5796 "rete.ml" 149 5760 5801
+)
+"rete.ml" 159 6214 6264 "rete.ml" 159 6214 6276
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 159 6214 6278 "rete.ml" 159 6214 6283
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "rete.ml" 149 5760 5796 "rete.ml" 149 5760 5801
+)
+"rete.ml" 159 6214 6263 "rete.ml" 159 6214 6284
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 159 6214 6257 "rete.ml" 159 6214 6285
+type(
+  string * (Config.t Config.element_type * Config.tuple)
+)
+"rete.ml" 159 6214 6255 "rete.ml" 159 6214 6287
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 159 6214 6249 "rete.ml" 159 6214 6287
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 160 6288 6323 "rete.ml" 160 6288 6326
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  int_ref acc "rete.ml" 151 5841 5871 "rete.ml" 151 5841 5874
+)
+"rete.ml" 158 6167 6197 "rete.ml" 160 6288 6326
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 161 6327 6361 "rete.ml" 161 6327 6364
+type(
+  string
+)
+ident(
+  def var "rete.ml" 162 6372 6402 "rete.ml" 164 6492 6530
+)
+"rete.ml" 161 6327 6366 "rete.ml" 161 6327 6367
+type(
+  int
+)
+"rete.ml" 161 6327 6360 "rete.ml" 161 6327 6368
+type(
+  string * int
+)
+"rete.ml" 161 6327 6355 "rete.ml" 161 6327 6368
+type(
+  (string * int) option
+)
+"rete.ml" 162 6372 6405 "rete.ml" 162 6372 6408
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 161 6327 6361 "rete.ml" 161 6327 6364
+)
+"rete.ml" 162 6372 6409 "rete.ml" 162 6372 6411
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"rete.ml" 162 6372 6412 "rete.ml" 162 6372 6418
+type(
+  string
+)
+ident(
+  int_ref am_var "rete.ml" 121 4239 4257 "rete.ml" 121 4239 4263
+)
+"rete.ml" 162 6372 6405 "rete.ml" 162 6372 6418
+type(
+  bool
+)
+"rete.ml" 163 6419 6454 "rete.ml" 163 6419 6457
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  int_ref acc "rete.ml" 151 5841 5871 "rete.ml" 151 5841 5874
+)
+"rete.ml" 163 6419 6458 "rete.ml" 163 6419 6459
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list ->
+  (string * (Config.t Config.element_type * Config.tuple)) list ->
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"rete.ml" 163 6419 6463 "rete.ml" 163 6419 6466
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 161 6327 6361 "rete.ml" 161 6327 6364
+)
+"rete.ml" 163 6419 6470 "rete.ml" 163 6419 6475
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "rete.ml" 149 5760 5796 "rete.ml" 149 5760 5801
+)
+"rete.ml" 163 6419 6469 "rete.ml" 163 6419 6480
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 163 6419 6482 "rete.ml" 163 6419 6487
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "rete.ml" 149 5760 5796 "rete.ml" 149 5760 5801
+)
+"rete.ml" 163 6419 6468 "rete.ml" 163 6419 6488
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 163 6419 6462 "rete.ml" 163 6419 6489
+type(
+  string * (Config.t Config.element_type * Config.tuple)
+)
+"rete.ml" 163 6419 6460 "rete.ml" 163 6419 6491
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 163 6419 6454 "rete.ml" 163 6419 6491
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 164 6492 6527 "rete.ml" 164 6492 6530
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  int_ref acc "rete.ml" 151 5841 5871 "rete.ml" 151 5841 5874
+)
+"rete.ml" 162 6372 6402 "rete.ml" 164 6492 6530
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 165 6531 6565 "rete.ml" 165 6531 6566
+type(
+  string
+)
+"rete.ml" 165 6531 6568 "rete.ml" 165 6531 6569
+type(
+  int
+)
+"rete.ml" 165 6531 6564 "rete.ml" 165 6531 6570
+type(
+  string * int
+)
+"rete.ml" 165 6531 6559 "rete.ml" 165 6531 6570
+type(
+  (string * int) option
+)
+"rete.ml" 165 6531 6574 "rete.ml" 165 6531 6577
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  int_ref acc "rete.ml" 151 5841 5871 "rete.ml" 151 5841 5874
+)
+"rete.ml" 166 6578 6606 "rete.ml" 166 6578 6610
+type(
+  (string * int) option
+)
+"rete.ml" 166 6578 6614 "rete.ml" 166 6578 6617
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  int_ref acc "rete.ml" 151 5841 5871 "rete.ml" 151 5841 5874
+)
+"rete.ml" 152 5878 5904 "rete.ml" 166 6578 6617
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 151 5841 5864 "rete.ml" 166 6578 6618
+type(
+  (string * int) option ->
+  (string * (Config.t Config.element_type * Config.tuple)) list ->
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 167 6619 6644 "rete.ml" 167 6619 6651
+type(
+  Config.t Config.element_type -> int -> (string * int) option
+)
+ident(
+  int_ref sel_arg "rete.ml" 37 1478 1482 "rete.ml" 37 1478 1489
+)
+"rete.ml" 167 6619 6652 "rete.ml" 167 6619 6653
+type(
+  Config.tuple
+)
+ident(
+  int_ref p "rete.ml" 149 5760 5794 "rete.ml" 149 5760 5795
+)
+"rete.ml" 167 6619 6652 "rete.ml" 167 6619 6658
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 167 6619 6659 "rete.ml" 167 6619 6660
+type(
+  int
+)
+"rete.ml" 167 6619 6644 "rete.ml" 167 6619 6660
+call(
+  stack
+)
+type(
+  (string * int) option
+)
+"rete.ml" 167 6619 6662 "rete.ml" 167 6619 6669
+type(
+  Config.t Config.element_type -> int -> (string * int) option
+)
+ident(
+  int_ref sel_arg "rete.ml" 37 1478 1482 "rete.ml" 37 1478 1489
+)
+"rete.ml" 167 6619 6670 "rete.ml" 167 6619 6671
+type(
+  Config.tuple
+)
+ident(
+  int_ref p "rete.ml" 149 5760 5794 "rete.ml" 149 5760 5795
+)
+"rete.ml" 167 6619 6670 "rete.ml" 167 6619 6676
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 167 6619 6677 "rete.ml" 167 6619 6678
+type(
+  int
+)
+"rete.ml" 167 6619 6662 "rete.ml" 167 6619 6678
+call(
+  stack
+)
+type(
+  (string * int) option
+)
+"rete.ml" 167 6619 6680 "rete.ml" 167 6619 6687
+type(
+  Config.obj_t Config.element_type -> int -> (string * int) option
+)
+ident(
+  int_ref sel_arg "rete.ml" 37 1478 1482 "rete.ml" 37 1478 1489
+)
+"rete.ml" 167 6619 6688 "rete.ml" 167 6619 6689
+type(
+  Config.tuple
+)
+ident(
+  int_ref p "rete.ml" 149 5760 5794 "rete.ml" 149 5760 5795
+)
+"rete.ml" 167 6619 6688 "rete.ml" 167 6619 6693
+type(
+  Config.obj_t Config.element_type
+)
+"rete.ml" 167 6619 6694 "rete.ml" 167 6619 6695
+type(
+  int
+)
+"rete.ml" 167 6619 6680 "rete.ml" 167 6619 6695
+call(
+  stack
+)
+type(
+  (string * int) option
+)
+"rete.ml" 167 6619 6642 "rete.ml" 167 6619 6697
+type(
+  (string * int) option list
+)
+"rete.ml" 168 6698 6721 "rete.ml" 168 6698 6723
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 150 5804 5825 "rete.ml" 168 6698 6723
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 170 6746 6767 "rete.ml" 170 6746 6770
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  int_ref acc "rete.ml" 121 4239 4276 "rete.ml" 121 4239 4279
+)
+"rete.ml" 170 6746 6771 "rete.ml" 170 6746 6772
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"rete.ml" 171 6773 6797 "rete.ml" 171 6773 6812
+type(
+  (Config.t Config.element_type * Config.tuple ->
+   (string * (Config.t Config.element_type * Config.tuple list)) list ->
+   (string * (Config.t Config.element_type * Config.tuple list)) list) ->
+  (Config.t Config.element_type * Config.tuple) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 172 6813 6845 "rete.ml" 172 6813 6853
+type(
+  Config.t Config.element_type
+)
+ident(
+  def am_value "rete.ml" 172 6813 6862 "rete.ml" 194 8056 8123
+)
+"rete.ml" 172 6813 6855 "rete.ml" 172 6813 6860
+type(
+  Config.tuple
+)
+ident(
+  def tuple "rete.ml" 172 6813 6862 "rete.ml" 194 8056 8123
+)
+"rete.ml" 172 6813 6844 "rete.ml" 172 6813 6861
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 172 6813 6862 "rete.ml" 172 6813 6866
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  def acc1 "rete.ml" 173 6870 6899 "rete.ml" 194 8056 8123
+)
+"rete.ml" 173 6870 6899 "rete.ml" 173 6870 6903
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  int_ref acc1 "rete.ml" 172 6813 6862 "rete.ml" 172 6813 6866
+)
+"rete.ml" 173 6870 6904 "rete.ml" 173 6870 6905
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"rete.ml" 174 6906 6938 "rete.ml" 174 6906 6953
+type(
+  (string * (Config.t Config.element_type * Config.tuple) ->
+   (string * (Config.t Config.element_type * Config.tuple list)) list ->
+   (string * (Config.t Config.element_type * Config.tuple list)) list) ->
+  (string * (Config.t Config.element_type * Config.tuple)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 175 6954 6994 "rete.ml" 175 6954 6997
+type(
+  string
+)
+ident(
+  def var "rete.ml" 175 6954 7015 "rete.ml" 193 8005 8054
+)
+"rete.ml" 175 6954 7000 "rete.ml" 175 6954 7005
+type(
+  Config.t Config.element_type
+)
+ident(
+  def value "rete.ml" 175 6954 7015 "rete.ml" 193 8005 8054
+)
+"rete.ml" 175 6954 7007 "rete.ml" 175 6954 7012
+type(
+  Config.tuple
+)
+ident(
+  def tuple "rete.ml" 175 6954 7015 "rete.ml" 193 8005 8054
+)
+"rete.ml" 175 6954 6999 "rete.ml" 175 6954 7013
+type(
+  Config.t Config.element_type * Config.tuple
+)
+"rete.ml" 175 6954 6993 "rete.ml" 175 6954 7014
+type(
+  string * (Config.t Config.element_type * Config.tuple)
+)
+"rete.ml" 175 6954 7015 "rete.ml" 175 6954 7019
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  def acc2 "rete.ml" 177 7115 7152 "rete.ml" 193 8005 8054
+)
+"rete.ml" 177 7115 7156 "rete.ml" 177 7115 7164
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  def sol_list "rete.ml" 186 7607 7646 "rete.ml" 193 8005 8054
+)
+"rete.ml" 178 7167 7206 "rete.ml" 178 7167 7217
+type(
+  (string * (Config.t Config.element_type * Config.tuple list) -> bool) ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref List.filter
+)
+"rete.ml" 180 7264 7309 "rete.ml" 180 7264 7315
+type(
+  string
+)
+ident(
+  def bm_var "rete.ml" 182 7388 7432 "rete.ml" 183 7450 7514
+)
+"rete.ml" 180 7264 7318 "rete.ml" 180 7264 7326
+type(
+  Config.t Config.element_type
+)
+ident(
+  def bm_value "rete.ml" 182 7388 7432 "rete.ml" 183 7450 7514
+)
+"rete.ml" 180 7264 7328 "rete.ml" 180 7264 7338
+type(
+  Config.tuple list
+)
+ident(
+  def sol_tuples "rete.ml" 182 7388 7432 "rete.ml" 183 7450 7514
+)
+"rete.ml" 180 7264 7317 "rete.ml" 180 7264 7339
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 180 7264 7308 "rete.ml" 180 7264 7340
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 182 7388 7433 "rete.ml" 182 7388 7439
+type(
+  string
+)
+ident(
+  int_ref bm_var "rete.ml" 180 7264 7309 "rete.ml" 180 7264 7315
+)
+"rete.ml" 182 7388 7440 "rete.ml" 182 7388 7441
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"rete.ml" 182 7388 7442 "rete.ml" 182 7388 7445
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 175 6954 6994 "rete.ml" 175 6954 6997
+)
+"rete.ml" 182 7388 7432 "rete.ml" 182 7388 7446
+type(
+  bool
+)
+"rete.ml" 182 7388 7447 "rete.ml" 182 7388 7449
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"rete.ml" 183 7450 7497 "rete.ml" 183 7450 7505
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref bm_value "rete.ml" 180 7264 7318 "rete.ml" 180 7264 7326
+)
+"rete.ml" 183 7450 7506 "rete.ml" 183 7450 7507
+type(
+  Config.t Config.element_type -> Config.t Config.element_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"rete.ml" 183 7450 7508 "rete.ml" 183 7450 7513
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref value "rete.ml" 175 6954 7000 "rete.ml" 175 6954 7005
+)
+"rete.ml" 183 7450 7496 "rete.ml" 183 7450 7514
+type(
+  bool
+)
+"rete.ml" 182 7388 7432 "rete.ml" 183 7450 7514
+type(
+  bool
+)
+"rete.ml" 179 7218 7259 "rete.ml" 183 7450 7515
+type(
+  string * (Config.t Config.element_type * Config.tuple list) -> bool
+)
+"rete.ml" 184 7516 7557 "rete.ml" 184 7516 7566
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  int_ref solutions "rete.ml" 116 3920 3942 "rete.ml" 116 3920 3951
+)
+"rete.ml" 178 7167 7206 "rete.ml" 184 7516 7566
+call(
+  stack
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 186 7607 7646 "rete.ml" 186 7607 7654
+type(
+  (string * (Config.t Config.element_type * Config.tuple list) ->
+   string * (Config.t Config.element_type * Config.tuple list)) ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  ext_ref List.map
+)
+"rete.ml" 188 7701 7746 "rete.ml" 188 7701 7752
+type(
+  string
+)
+ident(
+  def bm_var "rete.ml" 190 7825 7869 "rete.ml" 192 7934 8003
+)
+"rete.ml" 188 7701 7755 "rete.ml" 188 7701 7763
+type(
+  Config.t Config.element_type
+)
+ident(
+  def bm_value "rete.ml" 190 7825 7869 "rete.ml" 192 7934 8003
+)
+"rete.ml" 188 7701 7765 "rete.ml" 188 7701 7775
+type(
+  Config.tuple list
+)
+ident(
+  def sol_tuples "rete.ml" 190 7825 7869 "rete.ml" 192 7934 8003
+)
+"rete.ml" 188 7701 7754 "rete.ml" 188 7701 7776
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 188 7701 7745 "rete.ml" 188 7701 7777
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 190 7825 7870 "rete.ml" 190 7825 7876
+type(
+  string
+)
+ident(
+  int_ref am_var "rete.ml" 121 4239 4257 "rete.ml" 121 4239 4263
+)
+"rete.ml" 191 7878 7924 "rete.ml" 191 7878 7932
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref am_value "rete.ml" 172 6813 6845 "rete.ml" 172 6813 6853
+)
+"rete.ml" 192 7934 7981 "rete.ml" 192 7934 7986
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "rete.ml" 175 6954 7007 "rete.ml" 175 6954 7012
+)
+"rete.ml" 192 7934 7990 "rete.ml" 192 7934 8000
+type(
+  Config.tuple list
+)
+ident(
+  int_ref sol_tuples "rete.ml" 188 7701 7765 "rete.ml" 188 7701 7775
+)
+"rete.ml" 192 7934 7980 "rete.ml" 192 7934 8001
+type(
+  Config.tuple list
+)
+"rete.ml" 191 7878 7923 "rete.ml" 192 7934 8002
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 190 7825 7869 "rete.ml" 192 7934 8003
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 187 7655 7696 "rete.ml" 192 7934 8004
+type(
+  string * (Config.t Config.element_type * Config.tuple list) ->
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 193 8005 8046 "rete.ml" 193 8005 8054
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  int_ref sol_list "rete.ml" 177 7115 7156 "rete.ml" 177 7115 7164
+)
+"rete.ml" 186 7607 7646 "rete.ml" 193 8005 8054
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 177 7115 7152 "rete.ml" 193 8005 8054
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 175 6954 6988 "rete.ml" 193 8005 8055
+type(
+  string * (Config.t Config.element_type * Config.tuple) ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 194 8056 8091 "rete.ml" 194 8056 8101
+type(
+  Config.tuple ->
+  Config.tuple ->
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+ident(
+  int_ref apply_ptrn "rete.ml" 149 5760 5783 "rete.ml" 149 5760 5793
+)
+"rete.ml" 194 8056 8102 "rete.ml" 194 8056 8104
+type(
+  am
+)
+ident(
+  int_ref am "rete.ml" 103 3504 3513 "rete.ml" 103 3504 3515
+)
+"rete.ml" 194 8056 8102 "rete.ml" 194 8056 8112
+type(
+  Config.tuple
+)
+"rete.ml" 194 8056 8113 "rete.ml" 194 8056 8118
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "rete.ml" 172 6813 6855 "rete.ml" 172 6813 6860
+)
+"rete.ml" 194 8056 8090 "rete.ml" 194 8056 8119
+call(
+  stack
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple)) list
+)
+"rete.ml" 194 8056 8120 "rete.ml" 194 8056 8122
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 174 6906 6937 "rete.ml" 194 8056 8123
+call(
+  stack
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 173 6870 6899 "rete.ml" 194 8056 8123
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 172 6813 6839 "rete.ml" 194 8056 8124
+type(
+  Config.t Config.element_type * Config.tuple ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 195 8125 8151 "rete.ml" 195 8125 8160
+type(
+  (Config.t Config.element_type * Config.tuple) list
+)
+ident(
+  int_ref am_values "rete.ml" 121 4239 4265 "rete.ml" 121 4239 4274
+)
+"rete.ml" 195 8125 8161 "rete.ml" 195 8125 8163
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 171 6773 6796 "rete.ml" 195 8125 8164
+call(
+  stack
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 170 6746 6767 "rete.ml" 195 8125 8164
+call(
+  tail
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 149 5760 5779 "rete.ml" 195 8125 8164
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 122 4283 4298 "rete.ml" 195 8125 8164
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 121 4239 4251 "rete.ml" 195 8125 8165
+type(
+  string * (Config.t Config.element_type * Config.tuple) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 196 8166 8178 "rete.ml" 196 8166 8180
+type(
+  am
+)
+ident(
+  int_ref am "rete.ml" 103 3504 3513 "rete.ml" 103 3504 3515
+)
+"rete.ml" 196 8166 8178 "rete.ml" 196 8166 8185
+type(
+  (string * (Config.t Config.element_type * Config.tuple) list) list
+)
+"rete.ml" 196 8166 8186 "rete.ml" 196 8166 8188
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 119 4113 4123 "rete.ml" 196 8166 8189
+call(
+  stack
+)
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 106 3541 3547 "rete.ml" 196 8166 8189
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 104 3521 3523 "rete.ml" 197 8190 8193
+type(
+  bm
+)
+"rete.ml" 206 8443 8447 "rete.ml" 206 8443 8455
+type(
+  am list -> rete_dataflow
+)
+ident(
+  def gen_rete "rete.ml" 225 9232 9232 "rete.ml" 1 0 -1
+)
+"rete.ml" 206 8443 8456 "rete.ml" 206 8443 8459
+type(
+  am list
+)
+ident(
+  def ams "rete.ml" 207 8462 8464 "rete.ml" 216 8839 8915
+)
+"rete.ml" 207 8462 8468 "rete.ml" 207 8462 8476
+type(
+  am
+)
+ident(
+  def first_am "rete.ml" 208 8494 8496 "rete.ml" 216 8839 8915
+)
+"rete.ml" 207 8462 8479 "rete.ml" 207 8462 8486
+type(
+  am list -> am
+)
+ident(
+  ext_ref List.hd
+)
+"rete.ml" 207 8462 8487 "rete.ml" 207 8462 8490
+type(
+  am list
+)
+ident(
+  int_ref ams "rete.ml" 206 8443 8456 "rete.ml" 206 8443 8459
+)
+"rete.ml" 207 8462 8479 "rete.ml" 207 8462 8490
+call(
+  stack
+)
+type(
+  am
+)
+"rete.ml" 208 8494 8500 "rete.ml" 208 8494 8508
+type(
+  bm
+)
+ident(
+  def empty_bm "rete.ml" 209 8534 8536 "rete.ml" 216 8839 8915
+)
+"rete.ml" 208 8494 8525 "rete.ml" 208 8494 8527
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 208 8494 8511 "rete.ml" 208 8494 8530
+type(
+  bm
+)
+"rete.ml" 209 8534 8540 "rete.ml" 209 8534 8544
+type(
+  am list
+)
+ident(
+  def tail "rete.ml" 211 8643 8645 "rete.ml" 216 8839 8915
+)
+"rete.ml" 209 8534 8547 "rete.ml" 209 8534 8554
+type(
+  am list -> am list
+)
+ident(
+  ext_ref List.tl
+)
+"rete.ml" 209 8534 8555 "rete.ml" 209 8534 8558
+type(
+  am list
+)
+ident(
+  int_ref ams "rete.ml" 206 8443 8456 "rete.ml" 206 8443 8459
+)
+"rete.ml" 209 8534 8547 "rete.ml" 209 8534 8558
+call(
+  stack
+)
+type(
+  am list
+)
+"rete.ml" 211 8643 8649 "rete.ml" 211 8643 8657
+type(
+  (am * bm) list
+)
+ident(
+  def res_list "rete.ml" 216 8839 8844 "rete.ml" 216 8839 8915
+)
+"rete.ml" 212 8660 8664 "rete.ml" 212 8660 8679
+type(
+  (am -> (am * bm) list -> (am * bm) list) ->
+  am list -> (am * bm) list -> (am * bm) list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 213 8680 8691 "rete.ml" 213 8680 8693
+type(
+  am
+)
+ident(
+  def am "rete.ml" 213 8680 8694 "rete.ml" 214 8701 8774
+)
+"rete.ml" 213 8680 8694 "rete.ml" 213 8680 8697
+type(
+  (am * bm) list
+)
+ident(
+  def acc "rete.ml" 214 8701 8710 "rete.ml" 214 8701 8774
+)
+"rete.ml" 214 8701 8715 "rete.ml" 214 8701 8716
+type(
+  am
+)
+"rete.ml" 214 8701 8718 "rete.ml" 214 8701 8725
+type(
+  bm
+)
+ident(
+  def prev_bm "rete.ml" 214 8701 8744 "rete.ml" 214 8701 8774
+)
+"rete.ml" 214 8701 8714 "rete.ml" 214 8701 8726
+type(
+  am * bm
+)
+"rete.ml" 214 8701 8729 "rete.ml" 214 8701 8736
+type(
+  (am * bm) list -> am * bm
+)
+ident(
+  ext_ref List.hd
+)
+"rete.ml" 214 8701 8737 "rete.ml" 214 8701 8740
+type(
+  (am * bm) list
+)
+ident(
+  int_ref acc "rete.ml" 213 8680 8694 "rete.ml" 213 8680 8697
+)
+"rete.ml" 214 8701 8729 "rete.ml" 214 8701 8740
+call(
+  stack
+)
+type(
+  am * bm
+)
+"rete.ml" 214 8701 8745 "rete.ml" 214 8701 8747
+type(
+  am
+)
+ident(
+  int_ref am "rete.ml" 213 8680 8691 "rete.ml" 213 8680 8693
+)
+"rete.ml" 214 8701 8750 "rete.ml" 214 8701 8754
+type(
+  am -> bm -> bm
+)
+ident(
+  int_ref join "rete.ml" 103 3504 3508 "rete.ml" 103 3504 3512
+)
+"rete.ml" 214 8701 8755 "rete.ml" 214 8701 8757
+type(
+  am
+)
+ident(
+  int_ref am "rete.ml" 213 8680 8691 "rete.ml" 213 8680 8693
+)
+"rete.ml" 214 8701 8758 "rete.ml" 214 8701 8765
+type(
+  bm
+)
+ident(
+  int_ref prev_bm "rete.ml" 214 8701 8718 "rete.ml" 214 8701 8725
+)
+"rete.ml" 214 8701 8749 "rete.ml" 214 8701 8766
+call(
+  stack
+)
+type(
+  bm
+)
+"rete.ml" 214 8701 8744 "rete.ml" 214 8701 8767
+type(
+  am * bm
+)
+"rete.ml" 214 8701 8771 "rete.ml" 214 8701 8774
+type(
+  (am * bm) list
+)
+ident(
+  int_ref acc "rete.ml" 213 8680 8694 "rete.ml" 213 8680 8697
+)
+"rete.ml" 214 8701 8744 "rete.ml" 214 8701 8774
+type(
+  (am * bm) list
+)
+"rete.ml" 214 8701 8710 "rete.ml" 214 8701 8774
+type(
+  (am * bm) list
+)
+"rete.ml" 213 8680 8686 "rete.ml" 214 8701 8775
+type(
+  am -> (am * bm) list -> (am * bm) list
+)
+"rete.ml" 215 8776 8783 "rete.ml" 215 8776 8791
+type(
+  am list -> am list
+)
+ident(
+  ext_ref List.rev
+)
+"rete.ml" 215 8776 8792 "rete.ml" 215 8776 8796
+type(
+  am list
+)
+ident(
+  int_ref tail "rete.ml" 209 8534 8540 "rete.ml" 209 8534 8544
+)
+"rete.ml" 215 8776 8782 "rete.ml" 215 8776 8797
+call(
+  stack
+)
+type(
+  am list
+)
+"rete.ml" 215 8776 8801 "rete.ml" 215 8776 8809
+type(
+  am
+)
+ident(
+  int_ref first_am "rete.ml" 207 8462 8468 "rete.ml" 207 8462 8476
+)
+"rete.ml" 215 8776 8812 "rete.ml" 215 8776 8816
+type(
+  am -> bm -> bm
+)
+ident(
+  int_ref join "rete.ml" 103 3504 3508 "rete.ml" 103 3504 3512
+)
+"rete.ml" 215 8776 8817 "rete.ml" 215 8776 8825
+type(
+  am
+)
+ident(
+  int_ref first_am "rete.ml" 207 8462 8468 "rete.ml" 207 8462 8476
+)
+"rete.ml" 215 8776 8826 "rete.ml" 215 8776 8834
+type(
+  bm
+)
+ident(
+  int_ref empty_bm "rete.ml" 208 8494 8500 "rete.ml" 208 8494 8508
+)
+"rete.ml" 215 8776 8811 "rete.ml" 215 8776 8835
+call(
+  stack
+)
+type(
+  bm
+)
+"rete.ml" 215 8776 8800 "rete.ml" 215 8776 8836
+type(
+  am * bm
+)
+"rete.ml" 215 8776 8798 "rete.ml" 215 8776 8838
+type(
+  (am * bm) list
+)
+"rete.ml" 212 8660 8664 "rete.ml" 215 8776 8838
+call(
+  stack
+)
+type(
+  (am * bm) list
+)
+"rete.ml" 216 8839 8844 "rete.ml" 216 8839 8859
+type(
+  (am * bm -> rete_dataflow -> rete_dataflow) ->
+  (am * bm) list -> rete_dataflow -> rete_dataflow
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 216 8839 8866 "rete.ml" 216 8839 8868
+type(
+  am
+)
+ident(
+  def am "rete.ml" 216 8839 8874 "rete.ml" 216 8839 8899
+)
+"rete.ml" 216 8839 8870 "rete.ml" 216 8839 8872
+type(
+  bm
+)
+ident(
+  def bm "rete.ml" 216 8839 8874 "rete.ml" 216 8839 8899
+)
+"rete.ml" 216 8839 8865 "rete.ml" 216 8839 8873
+type(
+  am * bm
+)
+"rete.ml" 216 8839 8874 "rete.ml" 216 8839 8877
+type(
+  rete_dataflow
+)
+ident(
+  def acc "rete.ml" 216 8839 8881 "rete.ml" 216 8839 8899
+)
+"rete.ml" 216 8839 8887 "rete.ml" 216 8839 8889
+type(
+  am
+)
+ident(
+  int_ref am "rete.ml" 216 8839 8866 "rete.ml" 216 8839 8868
+)
+"rete.ml" 216 8839 8891 "rete.ml" 216 8839 8893
+type(
+  bm
+)
+ident(
+  int_ref bm "rete.ml" 216 8839 8870 "rete.ml" 216 8839 8872
+)
+"rete.ml" 216 8839 8895 "rete.ml" 216 8839 8898
+type(
+  rete_dataflow
+)
+ident(
+  int_ref acc "rete.ml" 216 8839 8874 "rete.ml" 216 8839 8877
+)
+"rete.ml" 216 8839 8881 "rete.ml" 216 8839 8899
+type(
+  rete_dataflow
+)
+"rete.ml" 216 8839 8860 "rete.ml" 216 8839 8900
+type(
+  am * bm -> rete_dataflow -> rete_dataflow
+)
+"rete.ml" 216 8839 8901 "rete.ml" 216 8839 8909
+type(
+  (am * bm) list
+)
+ident(
+  int_ref res_list "rete.ml" 211 8643 8649 "rete.ml" 211 8643 8657
+)
+"rete.ml" 216 8839 8910 "rete.ml" 216 8839 8915
+type(
+  rete_dataflow
+)
+"rete.ml" 216 8839 8844 "rete.ml" 216 8839 8915
+call(
+  tail
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 211 8643 8645 "rete.ml" 216 8839 8915
+type(
+  rete_dataflow
+)
+"rete.ml" 209 8534 8536 "rete.ml" 216 8839 8915
+type(
+  rete_dataflow
+)
+"rete.ml" 208 8494 8496 "rete.ml" 216 8839 8915
+type(
+  rete_dataflow
+)
+"rete.ml" 207 8462 8464 "rete.ml" 216 8839 8915
+type(
+  rete_dataflow
+)
+"rete.ml" 225 9232 9236 "rete.ml" 225 9232 9243
+type(
+  Config.tuple -> Config.tuple -> bool
+)
+ident(
+  def compare "rete.ml" 239 9760 9760 "rete.ml" 1 0 -1
+)
+"rete.ml" 225 9232 9244 "rete.ml" 225 9232 9245
+type(
+  Config.tuple
+)
+ident(
+  def q "rete.ml" 225 9232 9246 "rete.ml" 235 9591 9648
+)
+"rete.ml" 225 9232 9246 "rete.ml" 225 9232 9249
+type(
+  Config.tuple
+)
+ident(
+  def tpl "rete.ml" 226 9252 9254 "rete.ml" 235 9591 9648
+)
+"rete.ml" 226 9252 9258 "rete.ml" 226 9252 9263
+type(
+  'a Config.element_type -> 'a Config.element_type -> bool
+)
+ident(
+  def = "rete.ml" 231 9424 9426 "rete.ml" 235 9591 9648
+)
+"rete.ml" 226 9252 9264 "rete.ml" 226 9252 9266
+type(
+  'a Config.element_type
+)
+ident(
+  def v1 "rete.ml" 226 9252 9267 "rete.ml" 230 9390 9420
+)
+"rete.ml" 226 9252 9267 "rete.ml" 226 9252 9269
+type(
+  'a Config.element_type
+)
+ident(
+  def v2 "rete.ml" 227 9272 9276 "rete.ml" 230 9390 9420
+)
+"rete.ml" 227 9272 9283 "rete.ml" 227 9272 9285
+type(
+  'a Config.element_type
+)
+ident(
+  int_ref v1 "rete.ml" 226 9252 9264 "rete.ml" 226 9252 9266
+)
+"rete.ml" 227 9272 9287 "rete.ml" 227 9272 9289
+type(
+  'a Config.element_type
+)
+ident(
+  int_ref v2 "rete.ml" 226 9252 9267 "rete.ml" 226 9252 9269
+)
+"rete.ml" 227 9272 9282 "rete.ml" 227 9272 9290
+type(
+  'a Config.element_type * 'a Config.element_type
+)
+"rete.ml" 228 9296 9312 "rete.ml" 228 9296 9313
+type(
+  string
+)
+"rete.ml" 228 9296 9303 "rete.ml" 228 9296 9313
+type(
+  'a Config.element_type
+)
+"rete.ml" 228 9296 9315 "rete.ml" 228 9296 9316
+type(
+  'a Config.element_type
+)
+"rete.ml" 228 9296 9302 "rete.ml" 228 9296 9317
+type(
+  'a Config.element_type * 'a Config.element_type
+)
+"rete.ml" 228 9296 9321 "rete.ml" 228 9296 9325
+type(
+  bool
+)
+"rete.ml" 229 9326 9342 "rete.ml" 229 9326 9343
+type(
+  'a
+)
+ident(
+  def x "rete.ml" 229 9326 9360 "rete.ml" 229 9326 9389
+)
+"rete.ml" 229 9326 9333 "rete.ml" 229 9326 9343
+type(
+  'a Config.element_type
+)
+"rete.ml" 229 9326 9354 "rete.ml" 229 9326 9355
+type(
+  'a
+)
+ident(
+  def y "rete.ml" 229 9326 9360 "rete.ml" 229 9326 9389
+)
+"rete.ml" 229 9326 9345 "rete.ml" 229 9326 9355
+type(
+  'a Config.element_type
+)
+"rete.ml" 229 9326 9332 "rete.ml" 229 9326 9356
+type(
+  'a Config.element_type * 'a Config.element_type
+)
+"rete.ml" 229 9326 9363 "rete.ml" 229 9326 9364
+type(
+  'a
+)
+ident(
+  int_ref x "rete.ml" 229 9326 9342 "rete.ml" 229 9326 9343
+)
+"rete.ml" 229 9326 9365 "rete.ml" 229 9326 9366
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"rete.ml" 229 9326 9367 "rete.ml" 229 9326 9368
+type(
+  'a
+)
+ident(
+  int_ref y "rete.ml" 229 9326 9354 "rete.ml" 229 9326 9355
+)
+"rete.ml" 229 9326 9363 "rete.ml" 229 9326 9368
+type(
+  bool
+)
+"rete.ml" 229 9326 9374 "rete.ml" 229 9326 9378
+type(
+  bool
+)
+"rete.ml" 229 9326 9384 "rete.ml" 229 9326 9389
+type(
+  bool
+)
+"rete.ml" 229 9326 9360 "rete.ml" 229 9326 9389
+type(
+  bool
+)
+"rete.ml" 230 9390 9397 "rete.ml" 230 9390 9398
+type(
+  'a Config.element_type
+)
+"rete.ml" 230 9390 9409 "rete.ml" 230 9390 9410
+type(
+  string
+)
+"rete.ml" 230 9390 9400 "rete.ml" 230 9390 9410
+type(
+  'a Config.element_type
+)
+"rete.ml" 230 9390 9396 "rete.ml" 230 9390 9411
+type(
+  'a Config.element_type * 'a Config.element_type
+)
+"rete.ml" 230 9390 9415 "rete.ml" 230 9390 9420
+type(
+  bool
+)
+"rete.ml" 227 9272 9276 "rete.ml" 230 9390 9420
+type(
+  bool
+)
+"rete.ml" 231 9424 9439 "rete.ml" 231 9424 9440
+type(
+  Config.t Config.element_type
+)
+ident(
+  def s "rete.ml" 235 9591 9596 "rete.ml" 235 9591 9648
+)
+"rete.ml" 231 9424 9449 "rete.ml" 231 9424 9450
+type(
+  Config.t Config.element_type
+)
+ident(
+  def p "rete.ml" 235 9591 9596 "rete.ml" 235 9591 9648
+)
+"rete.ml" 231 9424 9458 "rete.ml" 231 9424 9459
+type(
+  Config.obj_t Config.element_type
+)
+ident(
+  def o "rete.ml" 235 9591 9596 "rete.ml" 235 9591 9648
+)
+"rete.ml" 231 9424 9468 "rete.ml" 231 9424 9469
+type(
+  Config.context Config.element_type
+)
+ident(
+  def c "rete.ml" 235 9591 9596 "rete.ml" 235 9591 9648
+)
+"rete.ml" 231 9424 9482 "rete.ml" 231 9424 9483
+type(
+  Config.timestamp Config.element_type option
+)
+"rete.ml" 231 9424 9492 "rete.ml" 231 9424 9493
+type(
+  Config.signature Config.element_type option
+)
+"rete.ml" 231 9424 9430 "rete.ml" 231 9424 9495
+type(
+  Config.tuple
+)
+"rete.ml" 231 9424 9498 "rete.ml" 231 9424 9499
+type(
+  Config.tuple
+)
+ident(
+  int_ref q "rete.ml" 225 9232 9244 "rete.ml" 225 9232 9245
+)
+"rete.ml" 233 9501 9516 "rete.ml" 233 9501 9519
+type(
+  Config.t Config.element_type
+)
+ident(
+  def q_s "rete.ml" 235 9591 9596 "rete.ml" 235 9591 9648
+)
+"rete.ml" 233 9501 9528 "rete.ml" 233 9501 9531
+type(
+  Config.t Config.element_type
+)
+ident(
+  def q_p "rete.ml" 235 9591 9596 "rete.ml" 235 9591 9648
+)
+"rete.ml" 233 9501 9539 "rete.ml" 233 9501 9542
+type(
+  Config.obj_t Config.element_type
+)
+ident(
+  def q_o "rete.ml" 235 9591 9596 "rete.ml" 235 9591 9648
+)
+"rete.ml" 233 9501 9551 "rete.ml" 233 9501 9554
+type(
+  Config.context Config.element_type
+)
+ident(
+  def q_c "rete.ml" 235 9591 9596 "rete.ml" 235 9591 9648
+)
+"rete.ml" 233 9501 9567 "rete.ml" 233 9501 9568
+type(
+  Config.timestamp Config.element_type option
+)
+"rete.ml" 233 9501 9577 "rete.ml" 233 9501 9578
+type(
+  Config.signature Config.element_type option
+)
+"rete.ml" 233 9501 9507 "rete.ml" 234 9579 9584
+type(
+  Config.tuple
+)
+"rete.ml" 234 9579 9587 "rete.ml" 234 9579 9590
+type(
+  Config.tuple
+)
+ident(
+  int_ref tpl "rete.ml" 225 9232 9246 "rete.ml" 225 9232 9249
+)
+"rete.ml" 235 9591 9597 "rete.ml" 235 9591 9598
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref s "rete.ml" 231 9424 9439 "rete.ml" 231 9424 9440
+)
+"rete.ml" 235 9591 9599 "rete.ml" 235 9591 9600
+type(
+  Config.t Config.element_type -> Config.t Config.element_type -> bool
+)
+ident(
+  int_ref = "rete.ml" 226 9252 9258 "rete.ml" 226 9252 9263
+)
+"rete.ml" 235 9591 9601 "rete.ml" 235 9591 9604
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref q_s "rete.ml" 233 9501 9516 "rete.ml" 233 9501 9519
+)
+"rete.ml" 235 9591 9596 "rete.ml" 235 9591 9605
+call(
+  stack
+)
+type(
+  bool
+)
+"rete.ml" 235 9591 9606 "rete.ml" 235 9591 9608
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"rete.ml" 235 9591 9611 "rete.ml" 235 9591 9612
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref p "rete.ml" 231 9424 9449 "rete.ml" 231 9424 9450
+)
+"rete.ml" 235 9591 9613 "rete.ml" 235 9591 9614
+type(
+  Config.t Config.element_type -> Config.t Config.element_type -> bool
+)
+ident(
+  int_ref = "rete.ml" 226 9252 9258 "rete.ml" 226 9252 9263
+)
+"rete.ml" 235 9591 9615 "rete.ml" 235 9591 9618
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref q_p "rete.ml" 233 9501 9528 "rete.ml" 233 9501 9531
+)
+"rete.ml" 235 9591 9610 "rete.ml" 235 9591 9619
+call(
+  stack
+)
+type(
+  bool
+)
+"rete.ml" 235 9591 9620 "rete.ml" 235 9591 9622
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"rete.ml" 235 9591 9625 "rete.ml" 235 9591 9626
+type(
+  Config.obj_t Config.element_type
+)
+ident(
+  int_ref o "rete.ml" 231 9424 9458 "rete.ml" 231 9424 9459
+)
+"rete.ml" 235 9591 9627 "rete.ml" 235 9591 9628
+type(
+  Config.obj_t Config.element_type ->
+  Config.obj_t Config.element_type -> bool
+)
+ident(
+  int_ref = "rete.ml" 226 9252 9258 "rete.ml" 226 9252 9263
+)
+"rete.ml" 235 9591 9629 "rete.ml" 235 9591 9632
+type(
+  Config.obj_t Config.element_type
+)
+ident(
+  int_ref q_o "rete.ml" 233 9501 9539 "rete.ml" 233 9501 9542
+)
+"rete.ml" 235 9591 9624 "rete.ml" 235 9591 9633
+call(
+  stack
+)
+type(
+  bool
+)
+"rete.ml" 235 9591 9634 "rete.ml" 235 9591 9636
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"rete.ml" 235 9591 9638 "rete.ml" 235 9591 9639
+type(
+  Config.context Config.element_type
+)
+ident(
+  int_ref c "rete.ml" 231 9424 9468 "rete.ml" 231 9424 9469
+)
+"rete.ml" 235 9591 9640 "rete.ml" 235 9591 9641
+type(
+  Config.context Config.element_type ->
+  Config.context Config.element_type -> bool
+)
+ident(
+  int_ref = "rete.ml" 226 9252 9258 "rete.ml" 226 9252 9263
+)
+"rete.ml" 235 9591 9642 "rete.ml" 235 9591 9645
+type(
+  Config.context Config.element_type
+)
+ident(
+  int_ref q_c "rete.ml" 233 9501 9551 "rete.ml" 233 9501 9554
+)
+"rete.ml" 235 9591 9637 "rete.ml" 235 9591 9646
+call(
+  tail
+)
+type(
+  bool
+)
+"rete.ml" 235 9591 9623 "rete.ml" 235 9591 9647
+type(
+  bool
+)
+"rete.ml" 235 9591 9609 "rete.ml" 235 9591 9648
+type(
+  bool
+)
+"rete.ml" 235 9591 9596 "rete.ml" 235 9591 9648
+type(
+  bool
+)
+"rete.ml" 231 9424 9426 "rete.ml" 235 9591 9648
+type(
+  bool
+)
+"rete.ml" 226 9252 9254 "rete.ml" 235 9591 9648
+type(
+  bool
+)
+"rete.ml" 239 9760 9764 "rete.ml" 239 9760 9767
+type(
+  rete_dataflow -> Config.tuple -> rete_dataflow
+)
+ident(
+  def add "rete.ml" 259 10643 10643 "rete.ml" 1 0 -1
+)
+"rete.ml" 239 9760 9768 "rete.ml" 239 9760 9780
+type(
+  rete_dataflow
+)
+ident(
+  def rete_network "rete.ml" 239 9760 9781 "rete.ml" 256 10591 10614
+)
+"rete.ml" 239 9760 9781 "rete.ml" 239 9760 9786
+type(
+  Config.tuple
+)
+ident(
+  def tuple "rete.ml" 240 9789 9791 "rete.ml" 256 10591 10614
+)
+"rete.ml" 240 9789 9795 "rete.ml" 240 9789 9801
+type(
+  rete_dataflow -> bm
+)
+ident(
+  def get_bm "rete.ml" 242 9887 9889 "rete.ml" 256 10591 10614
+)
+"rete.ml" 240 9789 9802 "rete.ml" 240 9789 9806
+type(
+  rete_dataflow
+)
+ident(
+  def node "rete.ml" 241 9809 9813 "rete.ml" 241 9809 9883
+)
+"rete.ml" 241 9809 9819 "rete.ml" 241 9809 9823
+type(
+  rete_dataflow
+)
+ident(
+  int_ref node "rete.ml" 240 9789 9802 "rete.ml" 240 9789 9806
+)
+"rete.ml" 241 9809 9837 "rete.ml" 241 9809 9838
+type(
+  am
+)
+"rete.ml" 241 9809 9840 "rete.ml" 241 9809 9842
+type(
+  bm
+)
+ident(
+  def bm "rete.ml" 241 9809 9850 "rete.ml" 241 9809 9852
+)
+"rete.ml" 241 9809 9844 "rete.ml" 241 9809 9845
+type(
+  rete_dataflow
+)
+"rete.ml" 241 9809 9831 "rete.ml" 241 9809 9846
+type(
+  rete_dataflow
+)
+"rete.ml" 241 9809 9850 "rete.ml" 241 9809 9852
+type(
+  bm
+)
+ident(
+  int_ref bm "rete.ml" 241 9809 9840 "rete.ml" 241 9809 9842
+)
+"rete.ml" 241 9809 9855 "rete.ml" 241 9809 9860
+type(
+  rete_dataflow
+)
+"rete.ml" 241 9809 9878 "rete.ml" 241 9809 9880
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 241 9809 9864 "rete.ml" 241 9809 9883
+type(
+  bm
+)
+"rete.ml" 241 9809 9813 "rete.ml" 241 9809 9883
+type(
+  bm
+)
+"rete.ml" 242 9887 9897 "rete.ml" 242 9887 9902
+type(
+  rete_dataflow -> rete_dataflow
+)
+ident(
+  def regen "rete.ml" 242 9887 9889 "rete.ml" 256 10591 10614
+)
+"rete.ml" 242 9887 9903 "rete.ml" 242 9887 9915
+type(
+  rete_dataflow
+)
+ident(
+  def rete_network "rete.ml" 243 9918 9922 "rete.ml" 255 10570 10590
+)
+"rete.ml" 243 9918 9928 "rete.ml" 243 9918 9940
+type(
+  rete_dataflow
+)
+ident(
+  int_ref rete_network "rete.ml" 242 9887 9903 "rete.ml" 242 9887 9915
+)
+"rete.ml" 244 9946 9958 "rete.ml" 244 9946 9968
+type(
+  am
+)
+ident(
+  def current_am "rete.ml" 245 9983 9991 "rete.ml" 253 10499 10562
+)
+"rete.ml" 244 9946 9970 "rete.ml" 244 9946 9972
+type(
+  bm
+)
+ident(
+  def bm "rete.ml" 245 9983 9991 "rete.ml" 253 10499 10562
+)
+"rete.ml" 244 9946 9974 "rete.ml" 244 9946 9978
+type(
+  rete_dataflow
+)
+ident(
+  def node "rete.ml" 245 9983 9991 "rete.ml" 253 10499 10562
+)
+"rete.ml" 244 9946 9952 "rete.ml" 244 9946 9979
+type(
+  rete_dataflow
+)
+"rete.ml" 245 9983 9994 "rete.ml" 245 9983 9997
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"rete.ml" 245 9983 9999 "rete.ml" 245 9983 10006
+type(
+  Config.tuple -> Config.tuple -> bool
+)
+ident(
+  int_ref compare "rete.ml" 225 9232 9236 "rete.ml" 225 9232 9243
+)
+"rete.ml" 245 9983 10007 "rete.ml" 245 9983 10017
+type(
+  am
+)
+ident(
+  int_ref current_am "rete.ml" 244 9946 9958 "rete.ml" 244 9946 9968
+)
+"rete.ml" 245 9983 10007 "rete.ml" 245 9983 10025
+type(
+  Config.tuple
+)
+"rete.ml" 245 9983 10026 "rete.ml" 245 9983 10031
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "rete.ml" 239 9760 9781 "rete.ml" 239 9760 9786
+)
+"rete.ml" 245 9983 9998 "rete.ml" 245 9983 10032
+call(
+  stack
+)
+type(
+  bool
+)
+"rete.ml" 245 9983 9994 "rete.ml" 245 9983 10032
+type(
+  bool
+)
+"rete.ml" 247 10074 10082 "rete.ml" 247 10074 10091
+type(
+  rete_dataflow
+)
+ident(
+  def next_node "rete.ml" 248 10109 10119 "rete.ml" 248 10109 10187
+)
+"rete.ml" 247 10074 10094 "rete.ml" 247 10074 10099
+type(
+  rete_dataflow -> rete_dataflow
+)
+ident(
+  int_ref regen "rete.ml" 242 9887 9897 "rete.ml" 242 9887 9902
+)
+"rete.ml" 247 10074 10100 "rete.ml" 247 10074 10104
+type(
+  rete_dataflow
+)
+ident(
+  int_ref node "rete.ml" 244 9946 9974 "rete.ml" 244 9946 9978
+)
+"rete.ml" 247 10074 10094 "rete.ml" 247 10074 10104
+call(
+  stack
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 248 10109 10125 "rete.ml" 248 10109 10135
+type(
+  am
+)
+ident(
+  int_ref current_am "rete.ml" 244 9946 9958 "rete.ml" 244 9946 9968
+)
+"rete.ml" 248 10109 10138 "rete.ml" 248 10109 10142
+type(
+  am -> bm -> bm
+)
+ident(
+  int_ref join "rete.ml" 103 3504 3508 "rete.ml" 103 3504 3512
+)
+"rete.ml" 248 10109 10143 "rete.ml" 248 10109 10153
+type(
+  am
+)
+ident(
+  int_ref current_am "rete.ml" 244 9946 9958 "rete.ml" 244 9946 9968
+)
+"rete.ml" 248 10109 10155 "rete.ml" 248 10109 10161
+type(
+  rete_dataflow -> bm
+)
+ident(
+  int_ref get_bm "rete.ml" 240 9789 9795 "rete.ml" 240 9789 9801
+)
+"rete.ml" 248 10109 10162 "rete.ml" 248 10109 10173
+type(
+  rete_dataflow
+)
+ident(
+  int_ref next_node "rete.ml" 247 10074 10082 "rete.ml" 247 10074 10091
+)
+"rete.ml" 248 10109 10154 "rete.ml" 248 10109 10174
+call(
+  stack
+)
+type(
+  bm
+)
+"rete.ml" 248 10109 10137 "rete.ml" 248 10109 10175
+call(
+  stack
+)
+type(
+  bm
+)
+"rete.ml" 248 10109 10177 "rete.ml" 248 10109 10186
+type(
+  rete_dataflow
+)
+ident(
+  int_ref next_node "rete.ml" 247 10074 10082 "rete.ml" 247 10074 10091
+)
+"rete.ml" 248 10109 10119 "rete.ml" 248 10109 10187
+type(
+  rete_dataflow
+)
+"rete.ml" 247 10074 10078 "rete.ml" 248 10109 10187
+type(
+  rete_dataflow
+)
+"rete.ml" 250 10204 10219 "rete.ml" 250 10204 10225
+type(
+  am
+)
+ident(
+  def new_am "rete.ml" 253 10499 10513 "rete.ml" 253 10499 10561
+)
+"rete.ml" 251 10228 10241 "rete.ml" 251 10228 10250
+type(
+  Config.tuple -> Config.tuple list -> am
+)
+ident(
+  int_ref create_am "rete.ml" 79 2807 2811 "rete.ml" 79 2807 2820
+)
+"rete.ml" 251 10228 10251 "rete.ml" 251 10228 10261
+type(
+  am
+)
+ident(
+  int_ref current_am "rete.ml" 244 9946 9958 "rete.ml" 244 9946 9968
+)
+"rete.ml" 251 10228 10251 "rete.ml" 251 10228 10269
+type(
+  Config.tuple
+)
+"rete.ml" 251 10228 10271 "rete.ml" 251 10228 10276
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "rete.ml" 239 9760 9781 "rete.ml" 239 9760 9786
+)
+"rete.ml" 251 10228 10280 "rete.ml" 251 10228 10290
+type(
+  am
+)
+ident(
+  int_ref current_am "rete.ml" 244 9946 9958 "rete.ml" 244 9946 9968
+)
+"rete.ml" 251 10228 10280 "rete.ml" 251 10228 10297
+type(
+  Config.tuple list
+)
+"rete.ml" 251 10228 10270 "rete.ml" 251 10228 10298
+type(
+  Config.tuple list
+)
+"rete.ml" 251 10228 10241 "rete.ml" 251 10228 10298
+call(
+  stack
+)
+type(
+  am
+)
+"rete.ml" 253 10499 10519 "rete.ml" 253 10499 10525
+type(
+  am
+)
+ident(
+  int_ref new_am "rete.ml" 250 10204 10219 "rete.ml" 250 10204 10225
+)
+"rete.ml" 253 10499 10528 "rete.ml" 253 10499 10532
+type(
+  am -> bm -> bm
+)
+ident(
+  int_ref join "rete.ml" 103 3504 3508 "rete.ml" 103 3504 3512
+)
+"rete.ml" 253 10499 10533 "rete.ml" 253 10499 10539
+type(
+  am
+)
+ident(
+  int_ref new_am "rete.ml" 250 10204 10219 "rete.ml" 250 10204 10225
+)
+"rete.ml" 253 10499 10541 "rete.ml" 253 10499 10547
+type(
+  rete_dataflow -> bm
+)
+ident(
+  int_ref get_bm "rete.ml" 240 9789 9795 "rete.ml" 240 9789 9801
+)
+"rete.ml" 253 10499 10548 "rete.ml" 253 10499 10552
+type(
+  rete_dataflow
+)
+ident(
+  int_ref node "rete.ml" 244 9946 9974 "rete.ml" 244 9946 9978
+)
+"rete.ml" 253 10499 10540 "rete.ml" 253 10499 10553
+call(
+  stack
+)
+type(
+  bm
+)
+"rete.ml" 253 10499 10527 "rete.ml" 253 10499 10554
+call(
+  stack
+)
+type(
+  bm
+)
+"rete.ml" 253 10499 10556 "rete.ml" 253 10499 10560
+type(
+  rete_dataflow
+)
+ident(
+  int_ref node "rete.ml" 244 9946 9974 "rete.ml" 244 9946 9978
+)
+"rete.ml" 253 10499 10513 "rete.ml" 253 10499 10561
+type(
+  rete_dataflow
+)
+"rete.ml" 250 10204 10214 "rete.ml" 253 10499 10562
+type(
+  rete_dataflow
+)
+"rete.ml" 245 9983 9991 "rete.ml" 253 10499 10562
+type(
+  rete_dataflow
+)
+"rete.ml" 255 10570 10576 "rete.ml" 255 10570 10581
+type(
+  rete_dataflow
+)
+"rete.ml" 255 10570 10585 "rete.ml" 255 10570 10590
+type(
+  rete_dataflow
+)
+"rete.ml" 243 9918 9922 "rete.ml" 255 10570 10590
+type(
+  rete_dataflow
+)
+"rete.ml" 256 10591 10596 "rete.ml" 256 10591 10601
+type(
+  rete_dataflow -> rete_dataflow
+)
+ident(
+  int_ref regen "rete.ml" 242 9887 9897 "rete.ml" 242 9887 9902
+)
+"rete.ml" 256 10591 10602 "rete.ml" 256 10591 10614
+type(
+  rete_dataflow
+)
+ident(
+  int_ref rete_network "rete.ml" 239 9760 9768 "rete.ml" 239 9760 9780
+)
+"rete.ml" 256 10591 10596 "rete.ml" 256 10591 10614
+call(
+  tail
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 242 9887 9889 "rete.ml" 256 10591 10614
+type(
+  rete_dataflow
+)
+"rete.ml" 240 9789 9791 "rete.ml" 256 10591 10614
+type(
+  rete_dataflow
+)
+"rete.ml" 259 10643 10647 "rete.ml" 259 10643 10657
+type(
+  rete_dataflow -> Config.tuple list -> rete_dataflow
+)
+ident(
+  def add_tuples "rete.ml" 263 10796 10796 "rete.ml" 1 0 -1
+)
+"rete.ml" 259 10643 10658 "rete.ml" 259 10643 10670
+type(
+  rete_dataflow
+)
+ident(
+  def rete_network "rete.ml" 259 10643 10671 "rete.ml" 260 10680 10746
+)
+"rete.ml" 259 10643 10671 "rete.ml" 259 10643 10677
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "rete.ml" 260 10680 10682 "rete.ml" 260 10680 10746
+)
+"rete.ml" 260 10680 10682 "rete.ml" 260 10680 10697
+type(
+  (Config.tuple -> rete_dataflow -> rete_dataflow) ->
+  Config.tuple list -> rete_dataflow -> rete_dataflow
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 260 10680 10703 "rete.ml" 260 10680 10706
+type(
+  Config.tuple
+)
+ident(
+  def tpl "rete.ml" 260 10680 10707 "rete.ml" 260 10680 10725
+)
+"rete.ml" 260 10680 10707 "rete.ml" 260 10680 10710
+type(
+  rete_dataflow
+)
+ident(
+  def acc "rete.ml" 260 10680 10714 "rete.ml" 260 10680 10725
+)
+"rete.ml" 260 10680 10714 "rete.ml" 260 10680 10717
+type(
+  rete_dataflow -> Config.tuple -> rete_dataflow
+)
+ident(
+  int_ref add "rete.ml" 239 9760 9764 "rete.ml" 239 9760 9767
+)
+"rete.ml" 260 10680 10718 "rete.ml" 260 10680 10721
+type(
+  rete_dataflow
+)
+ident(
+  int_ref acc "rete.ml" 260 10680 10707 "rete.ml" 260 10680 10710
+)
+"rete.ml" 260 10680 10722 "rete.ml" 260 10680 10725
+type(
+  Config.tuple
+)
+ident(
+  int_ref tpl "rete.ml" 260 10680 10703 "rete.ml" 260 10680 10706
+)
+"rete.ml" 260 10680 10714 "rete.ml" 260 10680 10725
+call(
+  tail
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 260 10680 10698 "rete.ml" 260 10680 10726
+type(
+  Config.tuple -> rete_dataflow -> rete_dataflow
+)
+"rete.ml" 260 10680 10727 "rete.ml" 260 10680 10733
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "rete.ml" 259 10643 10671 "rete.ml" 259 10643 10677
+)
+"rete.ml" 260 10680 10734 "rete.ml" 260 10680 10746
+type(
+  rete_dataflow
+)
+ident(
+  int_ref rete_network "rete.ml" 259 10643 10658 "rete.ml" 259 10643 10670
+)
+"rete.ml" 260 10680 10682 "rete.ml" 260 10680 10746
+call(
+  tail
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 263 10796 10804 "rete.ml" 263 10796 10816
+type(
+  rete_dataflow -> rete_dataflow
+)
+ident(
+  def execute_rete "rete.ml" 263 10796 10796 "rete.ml" 1 0 -1
+)
+"rete.ml" 263 10796 10817 "rete.ml" 263 10796 10829
+type(
+  rete_dataflow
+)
+ident(
+  def rete_network "rete.ml" 264 10832 10834 "rete.ml" 270 11052 11072
+)
+"rete.ml" 264 10832 10838 "rete.ml" 264 10832 10844
+type(
+  rete_dataflow -> bm
+)
+ident(
+  def get_bm "rete.ml" 267 10932 10936 "rete.ml" 270 11052 11072
+)
+"rete.ml" 264 10832 10845 "rete.ml" 264 10832 10849
+type(
+  rete_dataflow
+)
+ident(
+  def node "rete.ml" 265 10852 10856 "rete.ml" 265 10852 10926
+)
+"rete.ml" 265 10852 10862 "rete.ml" 265 10852 10866
+type(
+  rete_dataflow
+)
+ident(
+  int_ref node "rete.ml" 264 10832 10845 "rete.ml" 264 10832 10849
+)
+"rete.ml" 265 10852 10880 "rete.ml" 265 10852 10881
+type(
+  am
+)
+"rete.ml" 265 10852 10883 "rete.ml" 265 10852 10885
+type(
+  bm
+)
+ident(
+  def bm "rete.ml" 265 10852 10893 "rete.ml" 265 10852 10895
+)
+"rete.ml" 265 10852 10887 "rete.ml" 265 10852 10888
+type(
+  rete_dataflow
+)
+"rete.ml" 265 10852 10874 "rete.ml" 265 10852 10889
+type(
+  rete_dataflow
+)
+"rete.ml" 265 10852 10893 "rete.ml" 265 10852 10895
+type(
+  bm
+)
+ident(
+  int_ref bm "rete.ml" 265 10852 10883 "rete.ml" 265 10852 10885
+)
+"rete.ml" 265 10852 10898 "rete.ml" 265 10852 10903
+type(
+  rete_dataflow
+)
+"rete.ml" 265 10852 10921 "rete.ml" 265 10852 10923
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 265 10852 10907 "rete.ml" 265 10852 10926
+type(
+  bm
+)
+"rete.ml" 265 10852 10856 "rete.ml" 265 10852 10926
+type(
+  bm
+)
+"rete.ml" 267 10932 10942 "rete.ml" 267 10932 10954
+type(
+  rete_dataflow
+)
+ident(
+  int_ref rete_network "rete.ml" 263 10796 10817 "rete.ml" 263 10796 10829
+)
+"rete.ml" 268 10960 10972 "rete.ml" 268 10960 10974
+type(
+  am
+)
+ident(
+  def am "rete.ml" 269 10988 10996 "rete.ml" 269 10988 11051
+)
+"rete.ml" 268 10960 10976 "rete.ml" 268 10960 10977
+type(
+  bm
+)
+"rete.ml" 268 10960 10979 "rete.ml" 268 10960 10983
+type(
+  rete_dataflow
+)
+ident(
+  def node "rete.ml" 269 10988 10996 "rete.ml" 269 10988 11051
+)
+"rete.ml" 268 10960 10966 "rete.ml" 268 10960 10984
+type(
+  rete_dataflow
+)
+"rete.ml" 269 10988 11002 "rete.ml" 269 10988 11004
+type(
+  am
+)
+ident(
+  int_ref am "rete.ml" 268 10960 10972 "rete.ml" 268 10960 10974
+)
+"rete.ml" 269 10988 11007 "rete.ml" 269 10988 11011
+type(
+  am -> bm -> bm
+)
+ident(
+  int_ref join "rete.ml" 103 3504 3508 "rete.ml" 103 3504 3512
+)
+"rete.ml" 269 10988 11012 "rete.ml" 269 10988 11014
+type(
+  am
+)
+ident(
+  int_ref am "rete.ml" 268 10960 10972 "rete.ml" 268 10960 10974
+)
+"rete.ml" 269 10988 11016 "rete.ml" 269 10988 11022
+type(
+  rete_dataflow -> bm
+)
+ident(
+  int_ref get_bm "rete.ml" 264 10832 10838 "rete.ml" 264 10832 10844
+)
+"rete.ml" 269 10988 11023 "rete.ml" 269 10988 11027
+type(
+  rete_dataflow
+)
+ident(
+  int_ref node "rete.ml" 268 10960 10979 "rete.ml" 268 10960 10983
+)
+"rete.ml" 269 10988 11015 "rete.ml" 269 10988 11028
+call(
+  stack
+)
+type(
+  bm
+)
+"rete.ml" 269 10988 11006 "rete.ml" 269 10988 11029
+call(
+  stack
+)
+type(
+  bm
+)
+"rete.ml" 269 10988 11032 "rete.ml" 269 10988 11044
+type(
+  rete_dataflow -> rete_dataflow
+)
+ident(
+  int_ref execute_rete "rete.ml" 263 10796 10804 "rete.ml" 263 10796 10816
+)
+"rete.ml" 269 10988 11045 "rete.ml" 269 10988 11049
+type(
+  rete_dataflow
+)
+ident(
+  int_ref node "rete.ml" 268 10960 10979 "rete.ml" 268 10960 10983
+)
+"rete.ml" 269 10988 11031 "rete.ml" 269 10988 11050
+call(
+  stack
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 269 10988 10996 "rete.ml" 269 10988 11051
+type(
+  rete_dataflow
+)
+"rete.ml" 270 11052 11058 "rete.ml" 270 11052 11063
+type(
+  rete_dataflow
+)
+"rete.ml" 270 11052 11067 "rete.ml" 270 11052 11072
+type(
+  rete_dataflow
+)
+"rete.ml" 267 10932 10936 "rete.ml" 270 11052 11072
+type(
+  rete_dataflow
+)
+"rete.ml" 264 10832 10834 "rete.ml" 270 11052 11072
+type(
+  rete_dataflow
+)
+"rete.ml" 274 11135 11139 "rete.ml" 274 11135 11155
+type(
+  Config.tuple list -> Config.tuple list -> rete_dataflow
+)
+ident(
+  def to_rete_dataflow "rete.ml" 293 11848 11848 "rete.ml" 1 0 -1
+)
+"rete.ml" 274 11135 11156 "rete.ml" 274 11135 11163
+type(
+  Config.tuple list
+)
+ident(
+  def queries "rete.ml" 274 11135 11164 "rete.ml" 290 11784 11791
+)
+"rete.ml" 274 11135 11164 "rete.ml" 274 11135 11170
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "rete.ml" 276 11274 11276 "rete.ml" 290 11784 11791
+)
+"rete.ml" 276 11274 11280 "rete.ml" 276 11274 11287
+type(
+  am list
+)
+ident(
+  def am_list "rete.ml" 278 11433 11434 "rete.ml" 290 11784 11791
+)
+"rete.ml" 276 11274 11290 "rete.ml" 276 11274 11298
+type(
+  (Config.tuple -> am) -> Config.tuple list -> am list
+)
+ident(
+  ext_ref List.map
+)
+"rete.ml" 276 11274 11304 "rete.ml" 276 11274 11305
+type(
+  Config.tuple
+)
+ident(
+  def q "rete.ml" 276 11274 11309 "rete.ml" 276 11274 11323
+)
+"rete.ml" 276 11274 11309 "rete.ml" 276 11274 11318
+type(
+  Config.tuple -> Config.tuple list -> am
+)
+ident(
+  int_ref create_am "rete.ml" 79 2807 2811 "rete.ml" 79 2807 2820
+)
+"rete.ml" 276 11274 11319 "rete.ml" 276 11274 11320
+type(
+  Config.tuple
+)
+ident(
+  int_ref q "rete.ml" 276 11274 11304 "rete.ml" 276 11274 11305
+)
+"rete.ml" 276 11274 11321 "rete.ml" 276 11274 11323
+type(
+  Config.tuple list
+)
+"rete.ml" 276 11274 11309 "rete.ml" 276 11274 11323
+call(
+  tail
+)
+type(
+  am
+)
+"rete.ml" 276 11274 11299 "rete.ml" 276 11274 11324
+type(
+  Config.tuple -> am
+)
+"rete.ml" 276 11274 11325 "rete.ml" 276 11274 11332
+type(
+  Config.tuple list
+)
+ident(
+  int_ref queries "rete.ml" 274 11135 11156 "rete.ml" 274 11135 11163
+)
+"rete.ml" 276 11274 11290 "rete.ml" 276 11274 11332
+call(
+  stack
+)
+type(
+  am list
+)
+"rete.ml" 278 11433 11438 "rete.ml" 278 11433 11440
+type(
+  rete_dataflow
+)
+ident(
+  def rn "rete.ml" 283 11567 11568 "rete.ml" 290 11784 11791
+)
+"rete.ml" 279 11444 11452 "rete.ml" 279 11444 11459
+type(
+  am list
+)
+ident(
+  int_ref am_list "rete.ml" 276 11274 11280 "rete.ml" 276 11274 11287
+)
+"rete.ml" 280 11467 11471 "rete.ml" 280 11467 11473
+type(
+  am list
+)
+"rete.ml" 280 11467 11477 "rete.ml" 280 11467 11489
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"rete.ml" 280 11467 11490 "rete.ml" 280 11467 11528
+type(
+  string
+)
+"rete.ml" 280 11467 11477 "rete.ml" 280 11467 11528
+call(
+  stack
+)
+type(
+  unit
+)
+"rete.ml" 280 11467 11530 "rete.ml" 280 11467 11535
+type(
+  rete_dataflow
+)
+"rete.ml" 280 11467 11477 "rete.ml" 280 11467 11535
+type(
+  rete_dataflow
+)
+"rete.ml" 281 11536 11540 "rete.ml" 281 11536 11541
+type(
+  am list
+)
+ident(
+  def l "rete.ml" 281 11536 11546 "rete.ml" 281 11536 11556
+)
+"rete.ml" 281 11536 11546 "rete.ml" 281 11536 11554
+type(
+  am list -> rete_dataflow
+)
+ident(
+  int_ref gen_rete "rete.ml" 206 8443 8447 "rete.ml" 206 8443 8455
+)
+"rete.ml" 281 11536 11555 "rete.ml" 281 11536 11556
+type(
+  am list
+)
+ident(
+  int_ref l "rete.ml" 281 11536 11540 "rete.ml" 281 11536 11541
+)
+"rete.ml" 281 11536 11546 "rete.ml" 281 11536 11556
+call(
+  stack
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 279 11444 11446 "rete.ml" 281 11536 11556
+type(
+  rete_dataflow
+)
+"rete.ml" 283 11567 11572 "rete.ml" 283 11567 11578
+type(
+  rete_dataflow
+)
+ident(
+  def new_rn "rete.ml" 290 11784 11785 "rete.ml" 290 11784 11791
+)
+"rete.ml" 284 11582 11590 "rete.ml" 284 11582 11596
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "rete.ml" 274 11135 11164 "rete.ml" 274 11135 11170
+)
+"rete.ml" 285 11602 11605 "rete.ml" 285 11602 11607
+type(
+  Config.tuple list
+)
+"rete.ml" 285 11602 11610 "rete.ml" 285 11602 11612
+type(
+  rete_dataflow
+)
+ident(
+  int_ref rn "rete.ml" 278 11433 11438 "rete.ml" 278 11433 11440
+)
+"rete.ml" 286 11613 11616 "rete.ml" 286 11613 11620
+type(
+  Config.tuple list
+)
+ident(
+  def tpls "rete.ml" 286 11613 11624 "rete.ml" 286 11613 11642
+)
+"rete.ml" 286 11613 11624 "rete.ml" 286 11613 11634
+type(
+  rete_dataflow -> Config.tuple list -> rete_dataflow
+)
+ident(
+  int_ref add_tuples "rete.ml" 259 10643 10647 "rete.ml" 259 10643 10657
+)
+"rete.ml" 286 11613 11635 "rete.ml" 286 11613 11637
+type(
+  rete_dataflow
+)
+ident(
+  int_ref rn "rete.ml" 278 11433 11438 "rete.ml" 278 11433 11440
+)
+"rete.ml" 286 11613 11638 "rete.ml" 286 11613 11642
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tpls "rete.ml" 286 11613 11616 "rete.ml" 286 11613 11620
+)
+"rete.ml" 286 11613 11624 "rete.ml" 286 11613 11642
+call(
+  tail
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 284 11582 11584 "rete.ml" 286 11613 11642
+type(
+  rete_dataflow
+)
+"rete.ml" 290 11784 11785 "rete.ml" 290 11784 11791
+type(
+  rete_dataflow
+)
+ident(
+  int_ref new_rn "rete.ml" 283 11567 11572 "rete.ml" 283 11567 11578
+)
+"rete.ml" 283 11567 11568 "rete.ml" 290 11784 11791
+type(
+  rete_dataflow
+)
+"rete.ml" 278 11433 11434 "rete.ml" 290 11784 11791
+type(
+  rete_dataflow
+)
+"rete.ml" 276 11274 11276 "rete.ml" 290 11784 11791
+type(
+  rete_dataflow
+)
+"rete.ml" 293 11848 11852 "rete.ml" 293 11848 11859
+type(
+  string -> Config.tuple list -> rete_dataflow
+)
+ident(
+  def to_rete "rete.ml" 298 12077 12077 "rete.ml" 1 0 -1
+)
+"rete.ml" 293 11848 11860 "rete.ml" 293 11848 11863
+type(
+  string
+)
+ident(
+  def str "rete.ml" 293 11848 11864 "rete.ml" 295 11913 11982
+)
+"rete.ml" 293 11848 11864 "rete.ml" 293 11848 11870
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "rete.ml" 294 11873 11875 "rete.ml" 295 11913 11982
+)
+"rete.ml" 294 11873 11879 "rete.ml" 294 11873 11881
+type(
+  Config.tuple list
+)
+ident(
+  def qs "rete.ml" 295 11913 11915 "rete.ml" 295 11913 11982
+)
+"rete.ml" 294 11873 11884 "rete.ml" 294 11873 11905
+type(
+  string -> Config.tuple list
+)
+ident(
+  ext_ref Helper.str_query_list
+)
+"rete.ml" 294 11873 11906 "rete.ml" 294 11873 11909
+type(
+  string
+)
+ident(
+  int_ref str "rete.ml" 293 11848 11860 "rete.ml" 293 11848 11863
+)
+"rete.ml" 294 11873 11884 "rete.ml" 294 11873 11909
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"rete.ml" 295 11913 11919 "rete.ml" 295 11913 11922
+type(
+  am list
+)
+ident(
+  def ams "rete.ml" 295 11913 11970 "rete.ml" 295 11913 11982
+)
+"rete.ml" 295 11913 11925 "rete.ml" 295 11913 11933
+type(
+  (Config.tuple -> am) -> Config.tuple list -> am list
+)
+ident(
+  ext_ref List.map
+)
+"rete.ml" 295 11913 11939 "rete.ml" 295 11913 11940
+type(
+  Config.tuple
+)
+ident(
+  def q "rete.ml" 295 11913 11944 "rete.ml" 295 11913 11962
+)
+"rete.ml" 295 11913 11944 "rete.ml" 295 11913 11953
+type(
+  Config.tuple -> Config.tuple list -> am
+)
+ident(
+  int_ref create_am "rete.ml" 79 2807 2811 "rete.ml" 79 2807 2820
+)
+"rete.ml" 295 11913 11954 "rete.ml" 295 11913 11955
+type(
+  Config.tuple
+)
+ident(
+  int_ref q "rete.ml" 295 11913 11939 "rete.ml" 295 11913 11940
+)
+"rete.ml" 295 11913 11956 "rete.ml" 295 11913 11962
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "rete.ml" 293 11848 11864 "rete.ml" 293 11848 11870
+)
+"rete.ml" 295 11913 11944 "rete.ml" 295 11913 11962
+call(
+  tail
+)
+type(
+  am
+)
+"rete.ml" 295 11913 11934 "rete.ml" 295 11913 11963
+type(
+  Config.tuple -> am
+)
+"rete.ml" 295 11913 11964 "rete.ml" 295 11913 11966
+type(
+  Config.tuple list
+)
+ident(
+  int_ref qs "rete.ml" 294 11873 11879 "rete.ml" 294 11873 11881
+)
+"rete.ml" 295 11913 11925 "rete.ml" 295 11913 11966
+call(
+  stack
+)
+type(
+  am list
+)
+"rete.ml" 295 11913 11970 "rete.ml" 295 11913 11978
+type(
+  am list -> rete_dataflow
+)
+ident(
+  int_ref gen_rete "rete.ml" 206 8443 8447 "rete.ml" 206 8443 8455
+)
+"rete.ml" 295 11913 11979 "rete.ml" 295 11913 11982
+type(
+  am list
+)
+ident(
+  int_ref ams "rete.ml" 295 11913 11919 "rete.ml" 295 11913 11922
+)
+"rete.ml" 295 11913 11970 "rete.ml" 295 11913 11982
+call(
+  tail
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 295 11913 11915 "rete.ml" 295 11913 11982
+type(
+  rete_dataflow
+)
+"rete.ml" 294 11873 11875 "rete.ml" 295 11913 11982
+type(
+  rete_dataflow
+)
+"rete.ml" 298 12077 12081 "rete.ml" 298 12077 12094
+type(
+  bm -> string -> Config.t Config.element_type list
+)
+ident(
+  def get_lst_value "rete.ml" 306 12384 12384 "rete.ml" 1 0 -1
+)
+"rete.ml" 298 12077 12095 "rete.ml" 298 12077 12097
+type(
+  bm
+)
+ident(
+  def bm "rete.ml" 298 12077 12098 "rete.ml" 303 12258 12277
+)
+"rete.ml" 298 12077 12098 "rete.ml" 298 12077 12101
+type(
+  string
+)
+ident(
+  def var "rete.ml" 299 12104 12106 "rete.ml" 303 12258 12277
+)
+"rete.ml" 299 12104 12106 "rete.ml" 299 12104 12121
+type(
+  (string * (Config.t Config.element_type * Config.tuple list) ->
+   Config.t Config.element_type list -> Config.t Config.element_type list) ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  Config.t Config.element_type list -> Config.t Config.element_type list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 300 12122 12132 "rete.ml" 300 12122 12133
+type(
+  string
+)
+ident(
+  def v "rete.ml" 300 12122 12147 "rete.ml" 302 12210 12256
+)
+"rete.ml" 300 12122 12136 "rete.ml" 300 12122 12141
+type(
+  Config.t Config.element_type
+)
+ident(
+  def value "rete.ml" 300 12122 12147 "rete.ml" 302 12210 12256
+)
+"rete.ml" 300 12122 12143 "rete.ml" 300 12122 12144
+type(
+  Config.tuple list
+)
+"rete.ml" 300 12122 12135 "rete.ml" 300 12122 12145
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 300 12122 12131 "rete.ml" 300 12122 12146
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 300 12122 12147 "rete.ml" 300 12122 12151
+type(
+  Config.t Config.element_type list
+)
+ident(
+  def acc2 "rete.ml" 302 12210 12217 "rete.ml" 302 12210 12256
+)
+"rete.ml" 302 12210 12220 "rete.ml" 302 12210 12223
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 298 12077 12098 "rete.ml" 298 12077 12101
+)
+"rete.ml" 302 12210 12224 "rete.ml" 302 12210 12225
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"rete.ml" 302 12210 12226 "rete.ml" 302 12210 12227
+type(
+  string
+)
+ident(
+  int_ref v "rete.ml" 300 12122 12132 "rete.ml" 300 12122 12133
+)
+"rete.ml" 302 12210 12220 "rete.ml" 302 12210 12227
+type(
+  bool
+)
+"rete.ml" 302 12210 12233 "rete.ml" 302 12210 12238
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref value "rete.ml" 300 12122 12136 "rete.ml" 300 12122 12141
+)
+"rete.ml" 302 12210 12242 "rete.ml" 302 12210 12246
+type(
+  Config.t Config.element_type list
+)
+ident(
+  int_ref acc2 "rete.ml" 300 12122 12147 "rete.ml" 300 12122 12151
+)
+"rete.ml" 302 12210 12233 "rete.ml" 302 12210 12246
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 302 12210 12252 "rete.ml" 302 12210 12256
+type(
+  Config.t Config.element_type list
+)
+ident(
+  int_ref acc2 "rete.ml" 300 12122 12147 "rete.ml" 300 12122 12151
+)
+"rete.ml" 302 12210 12217 "rete.ml" 302 12210 12256
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 300 12122 12126 "rete.ml" 302 12210 12257
+type(
+  string * (Config.t Config.element_type * Config.tuple list) ->
+  Config.t Config.element_type list -> Config.t Config.element_type list
+)
+"rete.ml" 303 12258 12262 "rete.ml" 303 12258 12264
+type(
+  bm
+)
+ident(
+  int_ref bm "rete.ml" 298 12077 12095 "rete.ml" 298 12077 12097
+)
+"rete.ml" 303 12258 12262 "rete.ml" 303 12258 12274
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 303 12258 12275 "rete.ml" 303 12258 12277
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 299 12104 12106 "rete.ml" 303 12258 12277
+call(
+  tail
+)
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 306 12384 12388 "rete.ml" 306 12384 12402
+type(
+  bm -> string list -> (string * Config.t Config.element_type list) list
+)
+ident(
+  def get_lst_values "rete.ml" 319 12907 12907 "rete.ml" 1 0 -1
+)
+"rete.ml" 306 12384 12403 "rete.ml" 306 12384 12405
+type(
+  bm
+)
+ident(
+  def bm "rete.ml" 306 12384 12406 "rete.ml" 316 12802 12813
+)
+"rete.ml" 306 12384 12407 "rete.ml" 306 12384 12411
+type(
+  string list
+)
+ident(
+  def vars "rete.ml" 307 12454 12456 "rete.ml" 316 12802 12813
+)
+"rete.ml" 307 12454 12456 "rete.ml" 307 12454 12471
+type(
+  (string ->
+   (string * Config.t Config.element_type list) list ->
+   (string * Config.t Config.element_type list) list) ->
+  string list ->
+  (string * Config.t Config.element_type list) list ->
+  (string * Config.t Config.element_type list) list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 308 12472 12481 "rete.ml" 308 12472 12484
+type(
+  string
+)
+ident(
+  def var "rete.ml" 308 12472 12485 "rete.ml" 315 12728 12800
+)
+"rete.ml" 308 12472 12485 "rete.ml" 308 12472 12488
+type(
+  (string * Config.t Config.element_type list) list
+)
+ident(
+  def acc "rete.ml" 309 12492 12499 "rete.ml" 315 12728 12800
+)
+"rete.ml" 309 12492 12503 "rete.ml" 309 12492 12507
+type(
+  Config.t Config.element_type list
+)
+ident(
+  def sols "rete.ml" 315 12728 12738 "rete.ml" 315 12728 12800
+)
+"rete.ml" 310 12510 12519 "rete.ml" 310 12510 12534
+type(
+  (string * (Config.t Config.element_type * Config.tuple list) ->
+   Config.t Config.element_type list -> Config.t Config.element_type list) ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  Config.t Config.element_type list -> Config.t Config.element_type list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 311 12535 12552 "rete.ml" 311 12535 12553
+type(
+  string
+)
+ident(
+  def v "rete.ml" 311 12535 12567 "rete.ml" 313 12637 12699
+)
+"rete.ml" 311 12535 12556 "rete.ml" 311 12535 12561
+type(
+  Config.t Config.element_type
+)
+ident(
+  def value "rete.ml" 311 12535 12567 "rete.ml" 313 12637 12699
+)
+"rete.ml" 311 12535 12563 "rete.ml" 311 12535 12564
+type(
+  Config.tuple list
+)
+"rete.ml" 311 12535 12555 "rete.ml" 311 12535 12565
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 311 12535 12551 "rete.ml" 311 12535 12566
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 311 12535 12567 "rete.ml" 311 12535 12571
+type(
+  Config.t Config.element_type list
+)
+ident(
+  def acc2 "rete.ml" 313 12637 12651 "rete.ml" 313 12637 12699
+)
+"rete.ml" 313 12637 12654 "rete.ml" 313 12637 12657
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 308 12472 12481 "rete.ml" 308 12472 12484
+)
+"rete.ml" 313 12637 12658 "rete.ml" 313 12637 12659
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"rete.ml" 313 12637 12660 "rete.ml" 313 12637 12661
+type(
+  string
+)
+ident(
+  int_ref v "rete.ml" 311 12535 12552 "rete.ml" 311 12535 12553
+)
+"rete.ml" 313 12637 12654 "rete.ml" 313 12637 12661
+type(
+  bool
+)
+"rete.ml" 313 12637 12667 "rete.ml" 313 12637 12672
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref value "rete.ml" 311 12535 12556 "rete.ml" 311 12535 12561
+)
+"rete.ml" 313 12637 12676 "rete.ml" 313 12637 12680
+type(
+  Config.t Config.element_type list
+)
+ident(
+  int_ref acc2 "rete.ml" 311 12535 12567 "rete.ml" 311 12535 12571
+)
+"rete.ml" 313 12637 12667 "rete.ml" 313 12637 12680
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 313 12637 12686 "rete.ml" 313 12637 12694
+type(
+  Config.t Config.element_type list -> Config.t Config.element_type list
+)
+ident(
+  ext_ref List.rev
+)
+"rete.ml" 313 12637 12695 "rete.ml" 313 12637 12699
+type(
+  Config.t Config.element_type list
+)
+ident(
+  int_ref acc2 "rete.ml" 311 12535 12567 "rete.ml" 311 12535 12571
+)
+"rete.ml" 313 12637 12686 "rete.ml" 313 12637 12699
+call(
+  tail
+)
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 313 12637 12651 "rete.ml" 313 12637 12699
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 311 12535 12546 "rete.ml" 313 12637 12700
+type(
+  string * (Config.t Config.element_type * Config.tuple list) ->
+  Config.t Config.element_type list -> Config.t Config.element_type list
+)
+"rete.ml" 314 12701 12712 "rete.ml" 314 12701 12714
+type(
+  bm
+)
+ident(
+  int_ref bm "rete.ml" 306 12384 12403 "rete.ml" 306 12384 12405
+)
+"rete.ml" 314 12701 12712 "rete.ml" 314 12701 12724
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 314 12701 12725 "rete.ml" 314 12701 12727
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 310 12510 12519 "rete.ml" 314 12701 12727
+call(
+  stack
+)
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 315 12728 12742 "rete.ml" 315 12728 12753
+type(
+  Config.t Config.element_type list -> int
+)
+ident(
+  ext_ref List.length
+)
+"rete.ml" 315 12728 12754 "rete.ml" 315 12728 12758
+type(
+  Config.t Config.element_type list
+)
+ident(
+  int_ref sols "rete.ml" 309 12492 12503 "rete.ml" 309 12492 12507
+)
+"rete.ml" 315 12728 12741 "rete.ml" 315 12728 12759
+call(
+  stack
+)
+type(
+  int
+)
+"rete.ml" 315 12728 12760 "rete.ml" 315 12728 12762
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"rete.ml" 315 12728 12763 "rete.ml" 315 12728 12764
+type(
+  int
+)
+"rete.ml" 315 12728 12741 "rete.ml" 315 12728 12764
+type(
+  bool
+)
+"rete.ml" 315 12728 12773 "rete.ml" 315 12728 12776
+type(
+  string
+)
+ident(
+  int_ref var "rete.ml" 308 12472 12481 "rete.ml" 308 12472 12484
+)
+"rete.ml" 315 12728 12778 "rete.ml" 315 12728 12782
+type(
+  Config.t Config.element_type list
+)
+ident(
+  int_ref sols "rete.ml" 309 12492 12503 "rete.ml" 309 12492 12507
+)
+"rete.ml" 315 12728 12772 "rete.ml" 315 12728 12783
+type(
+  string * Config.t Config.element_type list
+)
+"rete.ml" 315 12728 12770 "rete.ml" 315 12728 12785
+type(
+  (string * Config.t Config.element_type list) list
+)
+"rete.ml" 315 12728 12786 "rete.ml" 315 12728 12787
+type(
+  (string * Config.t Config.element_type list) list ->
+  (string * Config.t Config.element_type list) list ->
+  (string * Config.t Config.element_type list) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"rete.ml" 315 12728 12788 "rete.ml" 315 12728 12791
+type(
+  (string * Config.t Config.element_type list) list
+)
+ident(
+  int_ref acc "rete.ml" 308 12472 12485 "rete.ml" 308 12472 12488
+)
+"rete.ml" 315 12728 12770 "rete.ml" 315 12728 12791
+call(
+  tail
+)
+type(
+  (string * Config.t Config.element_type list) list
+)
+"rete.ml" 315 12728 12797 "rete.ml" 315 12728 12800
+type(
+  (string * Config.t Config.element_type list) list
+)
+ident(
+  int_ref acc "rete.ml" 308 12472 12485 "rete.ml" 308 12472 12488
+)
+"rete.ml" 315 12728 12738 "rete.ml" 315 12728 12800
+type(
+  (string * Config.t Config.element_type list) list
+)
+"rete.ml" 309 12492 12499 "rete.ml" 315 12728 12800
+type(
+  (string * Config.t Config.element_type list) list
+)
+"rete.ml" 308 12472 12476 "rete.ml" 315 12728 12801
+type(
+  string ->
+  (string * Config.t Config.element_type list) list ->
+  (string * Config.t Config.element_type list) list
+)
+"rete.ml" 316 12802 12806 "rete.ml" 316 12802 12810
+type(
+  string list
+)
+ident(
+  int_ref vars "rete.ml" 306 12384 12407 "rete.ml" 306 12384 12411
+)
+"rete.ml" 316 12802 12811 "rete.ml" 316 12802 12813
+type(
+  (string * Config.t Config.element_type list) list
+)
+"rete.ml" 307 12454 12456 "rete.ml" 316 12802 12813
+call(
+  tail
+)
+type(
+  (string * Config.t Config.element_type list) list
+)
+"rete.ml" 319 12907 12911 "rete.ml" 319 12907 12925
+type(
+  bm -> string list -> Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  def get_values_map "rete.ml" 335 13469 13469 "rete.ml" 1 0 -1
+)
+"rete.ml" 319 12907 12926 "rete.ml" 319 12907 12928
+type(
+  bm
+)
+ident(
+  def bm "rete.ml" 319 12907 12929 "rete.ml" 332 13364 13395
+)
+"rete.ml" 319 12907 12930 "rete.ml" 319 12907 12934
+type(
+  string list
+)
+ident(
+  def vars "rete.ml" 320 12977 12979 "rete.ml" 332 13364 13395
+)
+"rete.ml" 320 12977 12979 "rete.ml" 320 12977 12994
+type(
+  (Helper.StringMap.key ->
+   Config.t Config.element_type list Helper.StringMap.t ->
+   Config.t Config.element_type list Helper.StringMap.t) ->
+  Helper.StringMap.key list ->
+  Config.t Config.element_type list Helper.StringMap.t ->
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 321 12995 13004 "rete.ml" 321 12995 13007
+type(
+  Helper.StringMap.key
+)
+ident(
+  def var "rete.ml" 321 12995 13008 "rete.ml" 331 13345 13362
+)
+"rete.ml" 321 12995 13008 "rete.ml" 321 12995 13011
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  def acc "rete.ml" 322 13015 13022 "rete.ml" 331 13345 13362
+)
+"rete.ml" 322 13015 13026 "rete.ml" 322 13015 13030
+type(
+  Config.t Config.element_type list
+)
+ident(
+  def sols "rete.ml" 329 13261 13270 "rete.ml" 331 13345 13362
+)
+"rete.ml" 323 13033 13042 "rete.ml" 323 13033 13057
+type(
+  (Helper.StringMap.key * (Config.t Config.element_type * Config.tuple list) ->
+   Config.t Config.element_type list -> Config.t Config.element_type list) ->
+  (Helper.StringMap.key * (Config.t Config.element_type * Config.tuple list))
+  list ->
+  Config.t Config.element_type list -> Config.t Config.element_type list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 324 13058 13075 "rete.ml" 324 13058 13076
+type(
+  Helper.StringMap.key
+)
+ident(
+  def v "rete.ml" 324 13058 13090 "rete.ml" 326 13160 13222
+)
+"rete.ml" 324 13058 13079 "rete.ml" 324 13058 13084
+type(
+  Config.t Config.element_type
+)
+ident(
+  def value "rete.ml" 324 13058 13090 "rete.ml" 326 13160 13222
+)
+"rete.ml" 324 13058 13086 "rete.ml" 324 13058 13087
+type(
+  Config.tuple list
+)
+"rete.ml" 324 13058 13078 "rete.ml" 324 13058 13088
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 324 13058 13074 "rete.ml" 324 13058 13089
+type(
+  Helper.StringMap.key * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 324 13058 13090 "rete.ml" 324 13058 13094
+type(
+  Config.t Config.element_type list
+)
+ident(
+  def acc2 "rete.ml" 326 13160 13174 "rete.ml" 326 13160 13222
+)
+"rete.ml" 326 13160 13177 "rete.ml" 326 13160 13180
+type(
+  Helper.StringMap.key
+)
+ident(
+  int_ref var "rete.ml" 321 12995 13004 "rete.ml" 321 12995 13007
+)
+"rete.ml" 326 13160 13181 "rete.ml" 326 13160 13182
+type(
+  Helper.StringMap.key -> Helper.StringMap.key -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"rete.ml" 326 13160 13183 "rete.ml" 326 13160 13184
+type(
+  Helper.StringMap.key
+)
+ident(
+  int_ref v "rete.ml" 324 13058 13075 "rete.ml" 324 13058 13076
+)
+"rete.ml" 326 13160 13177 "rete.ml" 326 13160 13184
+type(
+  bool
+)
+"rete.ml" 326 13160 13190 "rete.ml" 326 13160 13195
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref value "rete.ml" 324 13058 13079 "rete.ml" 324 13058 13084
+)
+"rete.ml" 326 13160 13199 "rete.ml" 326 13160 13203
+type(
+  Config.t Config.element_type list
+)
+ident(
+  int_ref acc2 "rete.ml" 324 13058 13090 "rete.ml" 324 13058 13094
+)
+"rete.ml" 326 13160 13190 "rete.ml" 326 13160 13203
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 326 13160 13209 "rete.ml" 326 13160 13217
+type(
+  Config.t Config.element_type list -> Config.t Config.element_type list
+)
+ident(
+  ext_ref List.rev
+)
+"rete.ml" 326 13160 13218 "rete.ml" 326 13160 13222
+type(
+  Config.t Config.element_type list
+)
+ident(
+  int_ref acc2 "rete.ml" 324 13058 13090 "rete.ml" 324 13058 13094
+)
+"rete.ml" 326 13160 13209 "rete.ml" 326 13160 13222
+call(
+  tail
+)
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 326 13160 13174 "rete.ml" 326 13160 13222
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 324 13058 13069 "rete.ml" 326 13160 13223
+type(
+  Helper.StringMap.key * (Config.t Config.element_type * Config.tuple list) ->
+  Config.t Config.element_type list -> Config.t Config.element_type list
+)
+"rete.ml" 327 13224 13235 "rete.ml" 327 13224 13237
+type(
+  bm
+)
+ident(
+  int_ref bm "rete.ml" 319 12907 12926 "rete.ml" 319 12907 12928
+)
+"rete.ml" 327 13224 13235 "rete.ml" 327 13224 13247
+type(
+  (Helper.StringMap.key * (Config.t Config.element_type * Config.tuple list))
+  list
+)
+"rete.ml" 327 13224 13248 "rete.ml" 327 13224 13250
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 323 13033 13042 "rete.ml" 327 13224 13250
+call(
+  stack
+)
+type(
+  Config.t Config.element_type list
+)
+"rete.ml" 329 13261 13274 "rete.ml" 329 13261 13285
+type(
+  Config.t Config.element_type list -> int
+)
+ident(
+  ext_ref List.length
+)
+"rete.ml" 329 13261 13286 "rete.ml" 329 13261 13290
+type(
+  Config.t Config.element_type list
+)
+ident(
+  int_ref sols "rete.ml" 322 13015 13026 "rete.ml" 322 13015 13030
+)
+"rete.ml" 329 13261 13273 "rete.ml" 329 13261 13291
+call(
+  stack
+)
+type(
+  int
+)
+"rete.ml" 329 13261 13292 "rete.ml" 329 13261 13294
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"rete.ml" 329 13261 13295 "rete.ml" 329 13261 13296
+type(
+  int
+)
+"rete.ml" 329 13261 13273 "rete.ml" 329 13261 13296
+type(
+  bool
+)
+"rete.ml" 330 13297 13311 "rete.ml" 330 13297 13331
+type(
+  Helper.StringMap.key ->
+  Config.t Config.element_type list ->
+  Config.t Config.element_type list Helper.StringMap.t ->
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  ext_ref Helper.StringMap.add
+)
+"rete.ml" 330 13297 13332 "rete.ml" 330 13297 13335
+type(
+  Helper.StringMap.key
+)
+ident(
+  int_ref var "rete.ml" 321 12995 13004 "rete.ml" 321 12995 13007
+)
+"rete.ml" 330 13297 13336 "rete.ml" 330 13297 13340
+type(
+  Config.t Config.element_type list
+)
+ident(
+  int_ref sols "rete.ml" 322 13015 13026 "rete.ml" 322 13015 13030
+)
+"rete.ml" 330 13297 13341 "rete.ml" 330 13297 13344
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  int_ref acc "rete.ml" 321 12995 13008 "rete.ml" 321 12995 13011
+)
+"rete.ml" 330 13297 13311 "rete.ml" 330 13297 13344
+call(
+  tail
+)
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rete.ml" 331 13345 13359 "rete.ml" 331 13345 13362
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  int_ref acc "rete.ml" 321 12995 13008 "rete.ml" 321 12995 13011
+)
+"rete.ml" 329 13261 13270 "rete.ml" 331 13345 13362
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rete.ml" 322 13015 13022 "rete.ml" 331 13345 13362
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rete.ml" 321 12995 12999 "rete.ml" 331 13345 13363
+type(
+  Helper.StringMap.key ->
+  Config.t Config.element_type list Helper.StringMap.t ->
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rete.ml" 332 13364 13368 "rete.ml" 332 13364 13372
+type(
+  Helper.StringMap.key list
+)
+ident(
+  int_ref vars "rete.ml" 319 12907 12930 "rete.ml" 319 12907 12934
+)
+"rete.ml" 332 13364 13373 "rete.ml" 332 13364 13395
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  ext_ref Helper.StringMap.empty
+)
+"rete.ml" 320 12977 12979 "rete.ml" 332 13364 13395
+call(
+  tail
+)
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rete.ml" 335 13469 13477 "rete.ml" 335 13469 13487
+type(
+  rete_dataflow ->
+  Helper.StringMap.key list ->
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+ident(
+  def get_values "rete.ml" 335 13469 13469 "rete.ml" 1 0 -1
+)
+"rete.ml" 335 13469 13488 "rete.ml" 335 13469 13500
+type(
+  rete_dataflow
+)
+ident(
+  def rete_network "rete.ml" 335 13469 13501 "rete.ml" 345 13943 13960
+)
+"rete.ml" 335 13469 13502 "rete.ml" 335 13469 13506
+type(
+  string list
+)
+ident(
+  def vars "rete.ml" 337 13607 13609 "rete.ml" 345 13943 13960
+)
+"rete.ml" 337 13607 13613 "rete.ml" 337 13607 13625
+type(
+  'a Helper.StringMap.t -> Helper.StringMap.key list
+)
+ident(
+  def missing_vars "rete.ml" 340 13716 13720 "rete.ml" 345 13943 13960
+)
+"rete.ml" 337 13607 13626 "rete.ml" 337 13607 13636
+type(
+  'a Helper.StringMap.t
+)
+ident(
+  def values_map "rete.ml" 338 13639 13643 "rete.ml" 338 13639 13710
+)
+"rete.ml" 338 13639 13643 "rete.ml" 338 13639 13654
+type(
+  (Helper.StringMap.key -> bool) ->
+  Helper.StringMap.key list -> Helper.StringMap.key list
+)
+ident(
+  ext_ref List.filter
+)
+"rete.ml" 338 13639 13660 "rete.ml" 338 13639 13661
+type(
+  Helper.StringMap.key
+)
+ident(
+  def v "rete.ml" 338 13639 13665 "rete.ml" 338 13639 13704
+)
+"rete.ml" 338 13639 13665 "rete.ml" 338 13639 13668
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"rete.ml" 338 13639 13670 "rete.ml" 338 13639 13690
+type(
+  Helper.StringMap.key -> 'a Helper.StringMap.t -> bool
+)
+ident(
+  ext_ref Helper.StringMap.mem
+)
+"rete.ml" 338 13639 13691 "rete.ml" 338 13639 13692
+type(
+  Helper.StringMap.key
+)
+ident(
+  int_ref v "rete.ml" 338 13639 13660 "rete.ml" 338 13639 13661
+)
+"rete.ml" 338 13639 13693 "rete.ml" 338 13639 13703
+type(
+  'a Helper.StringMap.t
+)
+ident(
+  int_ref values_map "rete.ml" 337 13607 13626 "rete.ml" 337 13607 13636
+)
+"rete.ml" 338 13639 13669 "rete.ml" 338 13639 13704
+call(
+  stack
+)
+type(
+  bool
+)
+"rete.ml" 338 13639 13665 "rete.ml" 338 13639 13704
+type(
+  bool
+)
+"rete.ml" 338 13639 13655 "rete.ml" 338 13639 13705
+type(
+  Helper.StringMap.key -> bool
+)
+"rete.ml" 338 13639 13706 "rete.ml" 338 13639 13710
+type(
+  Helper.StringMap.key list
+)
+ident(
+  int_ref vars "rete.ml" 335 13469 13502 "rete.ml" 335 13469 13506
+)
+"rete.ml" 338 13639 13643 "rete.ml" 338 13639 13710
+call(
+  tail
+)
+type(
+  Helper.StringMap.key list
+)
+"rete.ml" 340 13716 13726 "rete.ml" 340 13716 13738
+type(
+  rete_dataflow
+)
+ident(
+  int_ref rete_network "rete.ml" 335 13469 13488 "rete.ml" 335 13469 13500
+)
+"rete.ml" 341 13744 13756 "rete.ml" 341 13744 13757
+type(
+  am
+)
+"rete.ml" 341 13744 13759 "rete.ml" 341 13744 13761
+type(
+  bm
+)
+ident(
+  def bm "rete.ml" 342 13772 13780 "rete.ml" 344 13867 13942
+)
+"rete.ml" 341 13744 13763 "rete.ml" 341 13744 13767
+type(
+  rete_dataflow
+)
+ident(
+  def node "rete.ml" 342 13772 13780 "rete.ml" 344 13867 13942
+)
+"rete.ml" 341 13744 13750 "rete.ml" 341 13744 13768
+type(
+  rete_dataflow
+)
+"rete.ml" 342 13772 13784 "rete.ml" 342 13772 13794
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  def values_map "rete.ml" 343 13823 13831 "rete.ml" 344 13867 13942
+)
+"rete.ml" 342 13772 13797 "rete.ml" 342 13772 13811
+type(
+  bm -> string list -> Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  int_ref get_values_map "rete.ml" 319 12907 12911 "rete.ml" 319 12907 12925
+)
+"rete.ml" 342 13772 13812 "rete.ml" 342 13772 13814
+type(
+  bm
+)
+ident(
+  int_ref bm "rete.ml" 341 13744 13759 "rete.ml" 341 13744 13761
+)
+"rete.ml" 342 13772 13815 "rete.ml" 342 13772 13819
+type(
+  string list
+)
+ident(
+  int_ref vars "rete.ml" 335 13469 13502 "rete.ml" 335 13469 13506
+)
+"rete.ml" 342 13772 13797 "rete.ml" 342 13772 13819
+call(
+  stack
+)
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rete.ml" 343 13823 13835 "rete.ml" 343 13823 13840
+type(
+  Helper.StringMap.key list
+)
+ident(
+  def mvars "rete.ml" 344 13867 13878 "rete.ml" 344 13867 13942
+)
+"rete.ml" 343 13823 13843 "rete.ml" 343 13823 13855
+type(
+  Config.t Config.element_type list Helper.StringMap.t ->
+  Helper.StringMap.key list
+)
+ident(
+  int_ref missing_vars "rete.ml" 337 13607 13613 "rete.ml" 337 13607 13625
+)
+"rete.ml" 343 13823 13856 "rete.ml" 343 13823 13866
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  int_ref values_map "rete.ml" 342 13772 13784 "rete.ml" 342 13772 13794
+)
+"rete.ml" 343 13823 13843 "rete.ml" 343 13823 13866
+call(
+  stack
+)
+type(
+  Helper.StringMap.key list
+)
+"rete.ml" 344 13867 13879 "rete.ml" 344 13867 13904
+type(
+  Config.t Config.element_type list Helper.StringMap.t ->
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+ident(
+  ext_ref Helper.StringMap.bindings
+)
+"rete.ml" 344 13867 13905 "rete.ml" 344 13867 13915
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  int_ref values_map "rete.ml" 342 13772 13784 "rete.ml" 342 13772 13794
+)
+"rete.ml" 344 13867 13878 "rete.ml" 344 13867 13916
+call(
+  stack
+)
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rete.ml" 344 13867 13917 "rete.ml" 344 13867 13918
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list ->
+  (Helper.StringMap.key * Config.t Config.element_type list) list ->
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"rete.ml" 344 13867 13920 "rete.ml" 344 13867 13930
+type(
+  rete_dataflow ->
+  Helper.StringMap.key list ->
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+ident(
+  int_ref get_values "rete.ml" 335 13469 13477 "rete.ml" 335 13469 13487
+)
+"rete.ml" 344 13867 13931 "rete.ml" 344 13867 13935
+type(
+  rete_dataflow
+)
+ident(
+  int_ref node "rete.ml" 341 13744 13763 "rete.ml" 341 13744 13767
+)
+"rete.ml" 344 13867 13936 "rete.ml" 344 13867 13941
+type(
+  Helper.StringMap.key list
+)
+ident(
+  int_ref mvars "rete.ml" 343 13823 13835 "rete.ml" 343 13823 13840
+)
+"rete.ml" 344 13867 13919 "rete.ml" 344 13867 13942
+call(
+  stack
+)
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rete.ml" 344 13867 13878 "rete.ml" 344 13867 13942
+call(
+  tail
+)
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rete.ml" 343 13823 13831 "rete.ml" 344 13867 13942
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rete.ml" 342 13772 13780 "rete.ml" 344 13867 13942
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rete.ml" 345 13943 13949 "rete.ml" 345 13943 13954
+type(
+  rete_dataflow
+)
+"rete.ml" 345 13943 13958 "rete.ml" 345 13943 13960
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rete.ml" 340 13716 13720 "rete.ml" 345 13943 13960
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rete.ml" 337 13607 13609 "rete.ml" 345 13943 13960
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rete.ml" 348 14028 14032 "rete.ml" 348 14028 14043
+type(
+  rete_dataflow ->
+  Helper.StringMap.key list ->
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  def get_res_map "rete.ml" 358 14381 14381 "rete.ml" 1 0 -1
+)
+"rete.ml" 348 14028 14044 "rete.ml" 348 14028 14056
+type(
+  rete_dataflow
+)
+ident(
+  def rete_network "rete.ml" 348 14028 14057 "rete.ml" 354 14251 14264
+)
+"rete.ml" 348 14028 14057 "rete.ml" 348 14028 14061
+type(
+  Helper.StringMap.key list
+)
+ident(
+  def vars "rete.ml" 349 14064 14066 "rete.ml" 354 14251 14264
+)
+"rete.ml" 349 14064 14070 "rete.ml" 349 14064 14077
+type(
+  'a Helper.StringMap.t
+)
+ident(
+  def res_map "rete.ml" 350 14106 14108 "rete.ml" 354 14251 14264
+)
+"rete.ml" 349 14064 14080 "rete.ml" 349 14064 14102
+type(
+  'a Helper.StringMap.t
+)
+ident(
+  ext_ref Helper.StringMap.empty
+)
+"rete.ml" 350 14106 14112 "rete.ml" 350 14106 14118
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+ident(
+  def result "rete.ml" 352 14155 14159 "rete.ml" 354 14251 14264
+)
+"rete.ml" 350 14106 14121 "rete.ml" 350 14106 14131
+type(
+  rete_dataflow ->
+  Helper.StringMap.key list ->
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+ident(
+  int_ref get_values "rete.ml" 335 13469 13477 "rete.ml" 335 13469 13487
+)
+"rete.ml" 350 14106 14132 "rete.ml" 350 14106 14144
+type(
+  rete_dataflow
+)
+ident(
+  int_ref rete_network "rete.ml" 348 14028 14044 "rete.ml" 348 14028 14056
+)
+"rete.ml" 350 14106 14145 "rete.ml" 350 14106 14149
+type(
+  Helper.StringMap.key list
+)
+ident(
+  int_ref vars "rete.ml" 348 14028 14057 "rete.ml" 348 14028 14061
+)
+"rete.ml" 350 14106 14121 "rete.ml" 350 14106 14149
+call(
+  stack
+)
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+"rete.ml" 352 14155 14159 "rete.ml" 352 14155 14174
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list ->
+   Config.t Config.element_type list Helper.StringMap.t ->
+   Config.t Config.element_type list Helper.StringMap.t) ->
+  (Helper.StringMap.key * Config.t Config.element_type list) list ->
+  Config.t Config.element_type list Helper.StringMap.t ->
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 353 14175 14187 "rete.ml" 353 14175 14190
+type(
+  Helper.StringMap.key
+)
+ident(
+  def var "rete.ml" 353 14175 14200 "rete.ml" 353 14175 14242
+)
+"rete.ml" 353 14175 14192 "rete.ml" 353 14175 14198
+type(
+  Config.t Config.element_type list
+)
+ident(
+  def values "rete.ml" 353 14175 14200 "rete.ml" 353 14175 14242
+)
+"rete.ml" 353 14175 14186 "rete.ml" 353 14175 14199
+type(
+  Helper.StringMap.key * Config.t Config.element_type list
+)
+"rete.ml" 353 14175 14200 "rete.ml" 353 14175 14203
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  def acc "rete.ml" 353 14175 14207 "rete.ml" 353 14175 14242
+)
+"rete.ml" 353 14175 14207 "rete.ml" 353 14175 14227
+type(
+  Helper.StringMap.key ->
+  Config.t Config.element_type list ->
+  Config.t Config.element_type list Helper.StringMap.t ->
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  ext_ref Helper.StringMap.add
+)
+"rete.ml" 353 14175 14228 "rete.ml" 353 14175 14231
+type(
+  Helper.StringMap.key
+)
+ident(
+  int_ref var "rete.ml" 353 14175 14187 "rete.ml" 353 14175 14190
+)
+"rete.ml" 353 14175 14232 "rete.ml" 353 14175 14238
+type(
+  Config.t Config.element_type list
+)
+ident(
+  int_ref values "rete.ml" 353 14175 14192 "rete.ml" 353 14175 14198
+)
+"rete.ml" 353 14175 14239 "rete.ml" 353 14175 14242
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  int_ref acc "rete.ml" 353 14175 14200 "rete.ml" 353 14175 14203
+)
+"rete.ml" 353 14175 14207 "rete.ml" 353 14175 14242
+call(
+  tail
+)
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rete.ml" 353 14175 14181 "rete.ml" 353 14175 14243
+type(
+  Helper.StringMap.key * Config.t Config.element_type list ->
+  Config.t Config.element_type list Helper.StringMap.t ->
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rete.ml" 353 14175 14244 "rete.ml" 353 14175 14250
+type(
+  (Helper.StringMap.key * Config.t Config.element_type list) list
+)
+ident(
+  int_ref result "rete.ml" 350 14106 14112 "rete.ml" 350 14106 14118
+)
+"rete.ml" 354 14251 14257 "rete.ml" 354 14251 14264
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+ident(
+  int_ref res_map "rete.ml" 349 14064 14070 "rete.ml" 349 14064 14077
+)
+"rete.ml" 352 14155 14159 "rete.ml" 354 14251 14264
+call(
+  tail
+)
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rete.ml" 350 14106 14108 "rete.ml" 354 14251 14264
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rete.ml" 349 14064 14066 "rete.ml" 354 14251 14264
+type(
+  Config.t Config.element_type list Helper.StringMap.t
+)
+"rete.ml" 358 14381 14385 "rete.ml" 358 14381 14393
+type(
+  string -> Config.tuple list -> rete_dataflow
+)
+ident(
+  def exec_qry "rete.ml" 361 14465 14465 "rete.ml" 1 0 -1
+)
+"rete.ml" 358 14381 14394 "rete.ml" 358 14381 14395
+type(
+  string
+)
+ident(
+  def q "rete.ml" 358 14381 14396 "rete.ml" 359 14405 14461
+)
+"rete.ml" 358 14381 14396 "rete.ml" 358 14381 14402
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "rete.ml" 359 14405 14407 "rete.ml" 359 14405 14461
+)
+"rete.ml" 359 14405 14411 "rete.ml" 359 14405 14418
+type(
+  rete_dataflow
+)
+ident(
+  def network "rete.ml" 359 14405 14441 "rete.ml" 359 14405 14461
+)
+"rete.ml" 359 14405 14421 "rete.ml" 359 14405 14428
+type(
+  string -> Config.tuple list -> rete_dataflow
+)
+ident(
+  int_ref to_rete "rete.ml" 293 11848 11852 "rete.ml" 293 11848 11859
+)
+"rete.ml" 359 14405 14429 "rete.ml" 359 14405 14430
+type(
+  string
+)
+ident(
+  int_ref q "rete.ml" 358 14381 14394 "rete.ml" 358 14381 14395
+)
+"rete.ml" 359 14405 14431 "rete.ml" 359 14405 14437
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "rete.ml" 358 14381 14396 "rete.ml" 358 14381 14402
+)
+"rete.ml" 359 14405 14421 "rete.ml" 359 14405 14437
+call(
+  stack
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 359 14405 14441 "rete.ml" 359 14405 14453
+type(
+  rete_dataflow -> rete_dataflow
+)
+ident(
+  int_ref execute_rete "rete.ml" 263 10796 10804 "rete.ml" 263 10796 10816
+)
+"rete.ml" 359 14405 14454 "rete.ml" 359 14405 14461
+type(
+  rete_dataflow
+)
+ident(
+  int_ref network "rete.ml" 359 14405 14411 "rete.ml" 359 14405 14418
+)
+"rete.ml" 359 14405 14441 "rete.ml" 359 14405 14461
+call(
+  tail
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 359 14405 14407 "rete.ml" 359 14405 14461
+type(
+  rete_dataflow
+)
+"rete.ml" 361 14465 14469 "rete.ml" 361 14465 14479
+type(
+  rete_dataflow -> Helper.TupleSet.t
+)
+ident(
+  def get_tuples "rete.ml" 376 14949 14949 "rete.ml" 1 0 -1
+)
+"rete.ml" 361 14465 14480 "rete.ml" 361 14465 14487
+type(
+  rete_dataflow
+)
+ident(
+  def network "rete.ml" 362 14490 14492 "rete.ml" 371 14792 14817
+)
+"rete.ml" 362 14490 14496 "rete.ml" 362 14490 14506
+type(
+  Helper.TupleSet.t
+)
+ident(
+  def tuples_set "rete.ml" 364 14536 14540 "rete.ml" 371 14792 14817
+)
+"rete.ml" 362 14490 14509 "rete.ml" 362 14490 14530
+type(
+  Helper.TupleSet.t
+)
+ident(
+  ext_ref Helper.TupleSet.empty
+)
+"rete.ml" 364 14536 14546 "rete.ml" 364 14536 14553
+type(
+  rete_dataflow
+)
+ident(
+  int_ref network "rete.ml" 361 14465 14480 "rete.ml" 361 14465 14487
+)
+"rete.ml" 365 14559 14571 "rete.ml" 365 14559 14572
+type(
+  am
+)
+"rete.ml" 365 14559 14588 "rete.ml" 365 14559 14592
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  def sols "rete.ml" 366 14602 14610 "rete.ml" 370 14766 14791
+)
+"rete.ml" 365 14559 14574 "rete.ml" 365 14559 14594
+type(
+  bm
+)
+"rete.ml" 365 14559 14596 "rete.ml" 365 14559 14597
+type(
+  rete_dataflow
+)
+"rete.ml" 365 14559 14565 "rete.ml" 365 14559 14598
+type(
+  rete_dataflow
+)
+"rete.ml" 366 14602 14610 "rete.ml" 366 14602 14625
+type(
+  (string * (Config.t Config.element_type * Helper.TupleSet.elt list) ->
+   Helper.TupleSet.t -> Helper.TupleSet.t) ->
+  (string * (Config.t Config.element_type * Helper.TupleSet.elt list)) list ->
+  Helper.TupleSet.t -> Helper.TupleSet.t
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 367 14626 14642 "rete.ml" 367 14626 14643
+type(
+  string
+)
+"rete.ml" 367 14626 14645 "rete.ml" 367 14626 14653
+type(
+  Config.t Config.element_type * Helper.TupleSet.elt list
+)
+ident(
+  def var_sols "rete.ml" 367 14626 14655 "rete.ml" 369 14702 14764
+)
+"rete.ml" 367 14626 14641 "rete.ml" 367 14626 14654
+type(
+  string * (Config.t Config.element_type * Helper.TupleSet.elt list)
+)
+"rete.ml" 367 14626 14655 "rete.ml" 367 14626 14658
+type(
+  Helper.TupleSet.t
+)
+ident(
+  def acc "rete.ml" 368 14662 14675 "rete.ml" 369 14702 14764
+)
+"rete.ml" 368 14662 14680 "rete.ml" 368 14662 14681
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 368 14662 14683 "rete.ml" 368 14662 14689
+type(
+  Helper.TupleSet.elt list
+)
+ident(
+  def tuples "rete.ml" 369 14702 14718 "rete.ml" 369 14702 14764
+)
+"rete.ml" 368 14662 14679 "rete.ml" 368 14662 14690
+type(
+  Config.t Config.element_type * Helper.TupleSet.elt list
+)
+"rete.ml" 368 14662 14693 "rete.ml" 368 14662 14701
+type(
+  Config.t Config.element_type * Helper.TupleSet.elt list
+)
+ident(
+  int_ref var_sols "rete.ml" 367 14626 14645 "rete.ml" 367 14626 14653
+)
+"rete.ml" 369 14702 14718 "rete.ml" 369 14702 14733
+type(
+  (Helper.TupleSet.elt -> Helper.TupleSet.t -> Helper.TupleSet.t) ->
+  Helper.TupleSet.elt list -> Helper.TupleSet.t -> Helper.TupleSet.t
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 369 14702 14734 "rete.ml" 369 14702 14753
+type(
+  Helper.TupleSet.elt -> Helper.TupleSet.t -> Helper.TupleSet.t
+)
+ident(
+  ext_ref Helper.TupleSet.add
+)
+"rete.ml" 369 14702 14754 "rete.ml" 369 14702 14760
+type(
+  Helper.TupleSet.elt list
+)
+ident(
+  int_ref tuples "rete.ml" 368 14662 14683 "rete.ml" 368 14662 14689
+)
+"rete.ml" 369 14702 14761 "rete.ml" 369 14702 14764
+type(
+  Helper.TupleSet.t
+)
+ident(
+  int_ref acc "rete.ml" 367 14626 14655 "rete.ml" 367 14626 14658
+)
+"rete.ml" 369 14702 14718 "rete.ml" 369 14702 14764
+call(
+  tail
+)
+type(
+  Helper.TupleSet.t
+)
+"rete.ml" 368 14662 14675 "rete.ml" 369 14702 14764
+type(
+  Helper.TupleSet.t
+)
+"rete.ml" 367 14626 14636 "rete.ml" 369 14702 14765
+type(
+  string * (Config.t Config.element_type * Helper.TupleSet.elt list) ->
+  Helper.TupleSet.t -> Helper.TupleSet.t
+)
+"rete.ml" 370 14766 14776 "rete.ml" 370 14766 14780
+type(
+  (string * (Config.t Config.element_type * Helper.TupleSet.elt list)) list
+)
+ident(
+  int_ref sols "rete.ml" 365 14559 14588 "rete.ml" 365 14559 14592
+)
+"rete.ml" 370 14766 14781 "rete.ml" 370 14766 14791
+type(
+  Helper.TupleSet.t
+)
+ident(
+  int_ref tuples_set "rete.ml" 362 14490 14496 "rete.ml" 362 14490 14506
+)
+"rete.ml" 366 14602 14610 "rete.ml" 370 14766 14791
+call(
+  tail
+)
+type(
+  Helper.TupleSet.t
+)
+"rete.ml" 371 14792 14798 "rete.ml" 371 14792 14803
+type(
+  rete_dataflow
+)
+"rete.ml" 371 14792 14807 "rete.ml" 371 14792 14817
+type(
+  Helper.TupleSet.t
+)
+ident(
+  int_ref tuples_set "rete.ml" 362 14490 14496 "rete.ml" 362 14490 14506
+)
+"rete.ml" 364 14536 14540 "rete.ml" 371 14792 14817
+type(
+  Helper.TupleSet.t
+)
+"rete.ml" 362 14490 14492 "rete.ml" 371 14792 14817
+type(
+  Helper.TupleSet.t
+)
+"rete.ml" 376 14949 14953 "rete.ml" 376 14949 14960
+type(
+  string -> rete_dataflow -> rete_dataflow
+)
+ident(
+  def exec_bm "rete.ml" 381 15117 15117 "rete.ml" 1 0 -1
+)
+"rete.ml" 376 14949 14961 "rete.ml" 376 14949 14962
+type(
+  string
+)
+ident(
+  def q "rete.ml" 376 14949 14963 "rete.ml" 378 15047 15072
+)
+"rete.ml" 376 14949 14963 "rete.ml" 376 14949 14970
+type(
+  rete_dataflow
+)
+ident(
+  def network "rete.ml" 377 14973 14975 "rete.ml" 378 15047 15072
+)
+"rete.ml" 377 14973 14979 "rete.ml" 377 14973 14986
+type(
+  rete_dataflow
+)
+ident(
+  def network "rete.ml" 378 15047 15052 "rete.ml" 378 15047 15072
+)
+"rete.ml" 377 14973 14989 "rete.ml" 377 14973 14996
+type(
+  string -> Helper.TupleSet.elt list -> rete_dataflow
+)
+ident(
+  int_ref to_rete "rete.ml" 293 11848 11852 "rete.ml" 293 11848 11859
+)
+"rete.ml" 377 14973 14997 "rete.ml" 377 14973 14998
+type(
+  string
+)
+ident(
+  int_ref q "rete.ml" 376 14949 14961 "rete.ml" 376 14949 14962
+)
+"rete.ml" 377 14973 15000 "rete.ml" 377 14973 15024
+type(
+  Helper.TupleSet.t -> Helper.TupleSet.elt list
+)
+ident(
+  ext_ref Helper.TupleSet.elements
+)
+"rete.ml" 377 14973 15026 "rete.ml" 377 14973 15036
+type(
+  rete_dataflow -> Helper.TupleSet.t
+)
+ident(
+  int_ref get_tuples "rete.ml" 361 14465 14469 "rete.ml" 361 14465 14479
+)
+"rete.ml" 377 14973 15037 "rete.ml" 377 14973 15044
+type(
+  rete_dataflow
+)
+ident(
+  int_ref network "rete.ml" 376 14949 14963 "rete.ml" 376 14949 14970
+)
+"rete.ml" 377 14973 15025 "rete.ml" 377 14973 15045
+call(
+  stack
+)
+type(
+  Helper.TupleSet.t
+)
+"rete.ml" 377 14973 14999 "rete.ml" 377 14973 15046
+call(
+  stack
+)
+type(
+  Helper.TupleSet.elt list
+)
+"rete.ml" 377 14973 14989 "rete.ml" 377 14973 15046
+call(
+  stack
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 378 15047 15052 "rete.ml" 378 15047 15064
+type(
+  rete_dataflow -> rete_dataflow
+)
+ident(
+  int_ref execute_rete "rete.ml" 263 10796 10804 "rete.ml" 263 10796 10816
+)
+"rete.ml" 378 15047 15065 "rete.ml" 378 15047 15072
+type(
+  rete_dataflow
+)
+ident(
+  int_ref network "rete.ml" 377 14973 14979 "rete.ml" 377 14973 14986
+)
+"rete.ml" 378 15047 15052 "rete.ml" 378 15047 15072
+call(
+  tail
+)
+type(
+  rete_dataflow
+)
+"rete.ml" 377 14973 14975 "rete.ml" 378 15047 15072
+type(
+  rete_dataflow
+)
+"rete.ml" 381 15117 15121 "rete.ml" 381 15117 15136
+type(
+  am list -> bm
+)
+ident(
+  def execute_am_list "rete.ml" 386 15286 15286 "rete.ml" 1 0 -1
+)
+"rete.ml" 381 15117 15137 "rete.ml" 381 15117 15140
+type(
+  am list
+)
+ident(
+  def ams "rete.ml" 382 15143 15145 "rete.ml" 383 15180 15241
+)
+"rete.ml" 382 15143 15149 "rete.ml" 382 15143 15157
+type(
+  bm
+)
+ident(
+  def empty_bm "rete.ml" 383 15180 15185 "rete.ml" 383 15180 15241
+)
+"rete.ml" 382 15143 15174 "rete.ml" 382 15143 15176
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+"rete.ml" 382 15143 15160 "rete.ml" 382 15143 15179
+type(
+  bm
+)
+"rete.ml" 383 15180 15185 "rete.ml" 383 15180 15200
+type(
+  (am -> bm -> bm) -> am list -> bm -> bm
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 383 15180 15206 "rete.ml" 383 15180 15208
+type(
+  am
+)
+ident(
+  def am "rete.ml" 383 15180 15209 "rete.ml" 383 15180 15227
+)
+"rete.ml" 383 15180 15209 "rete.ml" 383 15180 15212
+type(
+  bm
+)
+ident(
+  def acc "rete.ml" 383 15180 15216 "rete.ml" 383 15180 15227
+)
+"rete.ml" 383 15180 15216 "rete.ml" 383 15180 15220
+type(
+  am -> bm -> bm
+)
+ident(
+  int_ref join "rete.ml" 103 3504 3508 "rete.ml" 103 3504 3512
+)
+"rete.ml" 383 15180 15221 "rete.ml" 383 15180 15223
+type(
+  am
+)
+ident(
+  int_ref am "rete.ml" 383 15180 15206 "rete.ml" 383 15180 15208
+)
+"rete.ml" 383 15180 15224 "rete.ml" 383 15180 15227
+type(
+  bm
+)
+ident(
+  int_ref acc "rete.ml" 383 15180 15209 "rete.ml" 383 15180 15212
+)
+"rete.ml" 383 15180 15216 "rete.ml" 383 15180 15227
+call(
+  tail
+)
+type(
+  bm
+)
+"rete.ml" 383 15180 15201 "rete.ml" 383 15180 15228
+type(
+  am -> bm -> bm
+)
+"rete.ml" 383 15180 15229 "rete.ml" 383 15180 15232
+type(
+  am list
+)
+ident(
+  int_ref ams "rete.ml" 381 15117 15137 "rete.ml" 381 15117 15140
+)
+"rete.ml" 383 15180 15233 "rete.ml" 383 15180 15241
+type(
+  bm
+)
+ident(
+  int_ref empty_bm "rete.ml" 382 15143 15149 "rete.ml" 382 15143 15157
+)
+"rete.ml" 383 15180 15185 "rete.ml" 383 15180 15241
+call(
+  tail
+)
+type(
+  bm
+)
+"rete.ml" 382 15143 15145 "rete.ml" 383 15180 15241
+type(
+  bm
+)
+"rete.ml" 386 15286 15290 "rete.ml" 386 15286 15304
+type(
+  rete_dataflow -> Config.tuple list list
+)
+ident(
+  def get_sol_tuples "rete.ml" 394 15551 15566 "rete.ml" 1 0 -1
+)
+"rete.ml" 386 15286 15305 "rete.ml" 386 15286 15312
+type(
+  rete_dataflow
+)
+ident(
+  def network "rete.ml" 387 15315 15317 "rete.ml" 394 15551 15566
+)
+"rete.ml" 387 15315 15323 "rete.ml" 387 15315 15330
+type(
+  rete_dataflow
+)
+ident(
+  int_ref network "rete.ml" 386 15286 15305 "rete.ml" 386 15286 15312
+)
+"rete.ml" 388 15336 15346 "rete.ml" 388 15336 15347
+type(
+  am
+)
+"rete.ml" 388 15336 15363 "rete.ml" 388 15336 15367
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  def sols "rete.ml" 389 15377 15383 "rete.ml" 393 15535 15550
+)
+"rete.ml" 388 15336 15349 "rete.ml" 388 15336 15369
+type(
+  bm
+)
+"rete.ml" 388 15336 15371 "rete.ml" 388 15336 15372
+type(
+  rete_dataflow
+)
+"rete.ml" 388 15336 15340 "rete.ml" 388 15336 15373
+type(
+  rete_dataflow
+)
+"rete.ml" 389 15377 15383 "rete.ml" 389 15377 15398
+type(
+  (string * (Config.t Config.element_type * Config.tuple list) ->
+   Config.tuple list list -> Config.tuple list list) ->
+  (string * (Config.t Config.element_type * Config.tuple list)) list ->
+  Config.tuple list list -> Config.tuple list list
+)
+ident(
+  ext_ref List.fold_right
+)
+"rete.ml" 390 15399 15413 "rete.ml" 390 15399 15414
+type(
+  string
+)
+"rete.ml" 390 15399 15416 "rete.ml" 390 15399 15424
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+ident(
+  def var_sols "rete.ml" 390 15399 15426 "rete.ml" 392 15471 15533
+)
+"rete.ml" 390 15399 15412 "rete.ml" 390 15399 15425
+type(
+  string * (Config.t Config.element_type * Config.tuple list)
+)
+"rete.ml" 390 15399 15426 "rete.ml" 390 15399 15429
+type(
+  Config.tuple list list
+)
+ident(
+  def acc "rete.ml" 391 15433 15444 "rete.ml" 392 15471 15533
+)
+"rete.ml" 391 15433 15449 "rete.ml" 391 15433 15450
+type(
+  Config.t Config.element_type
+)
+"rete.ml" 391 15433 15452 "rete.ml" 391 15433 15458
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "rete.ml" 392 15471 15485 "rete.ml" 392 15471 15533
+)
+"rete.ml" 391 15433 15448 "rete.ml" 391 15433 15459
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+"rete.ml" 391 15433 15462 "rete.ml" 391 15433 15470
+type(
+  Config.t Config.element_type * Config.tuple list
+)
+ident(
+  int_ref var_sols "rete.ml" 390 15399 15416 "rete.ml" 390 15399 15424
+)
+"rete.ml" 392 15471 15519 "rete.ml" 392 15471 15525
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "rete.ml" 391 15433 15452 "rete.ml" 391 15433 15458
+)
+"rete.ml" 392 15471 15529 "rete.ml" 392 15471 15532
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref acc "rete.ml" 390 15399 15426 "rete.ml" 390 15399 15429
+)
+"rete.ml" 392 15471 15485 "rete.ml" 392 15471 15533
+type(
+  Config.tuple list list
+)
+"rete.ml" 391 15433 15444 "rete.ml" 392 15471 15533
+type(
+  Config.tuple list list
+)
+"rete.ml" 390 15399 15407 "rete.ml" 392 15471 15534
+type(
+  string * (Config.t Config.element_type * Config.tuple list) ->
+  Config.tuple list list -> Config.tuple list list
+)
+"rete.ml" 393 15535 15543 "rete.ml" 393 15535 15547
+type(
+  (string * (Config.t Config.element_type * Config.tuple list)) list
+)
+ident(
+  int_ref sols "rete.ml" 388 15336 15363 "rete.ml" 388 15336 15367
+)
+"rete.ml" 393 15535 15548 "rete.ml" 393 15535 15550
+type(
+  Config.tuple list list
+)
+"rete.ml" 389 15377 15383 "rete.ml" 393 15535 15550
+call(
+  tail
+)
+type(
+  Config.tuple list list
+)
+"rete.ml" 394 15551 15555 "rete.ml" 394 15551 15560
+type(
+  rete_dataflow
+)
+"rete.ml" 394 15551 15564 "rete.ml" 394 15551 15566
+type(
+  Config.tuple list list
+)
+"rete.ml" 387 15315 15317 "rete.ml" 394 15551 15566
+type(
+  Config.tuple list list
+)

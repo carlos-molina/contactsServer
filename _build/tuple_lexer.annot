@@ -1,0 +1,648 @@
+"tuple_lexer.mll" 24 145 149 "tuple_lexer.mll" 24 145 158
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def next_line "tuple_lexer.ml" 17 343 343 "tuple_lexer.ml" 1 0 -1
+)
+"tuple_lexer.mll" 24 145 159 "tuple_lexer.mll" 24 145 165
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "tuple_lexer.mll" 25 168 170 "tuple_lexer.mll" 29 313 318
+)
+"tuple_lexer.mll" 25 168 174 "tuple_lexer.mll" 25 168 177
+type(
+  Lexing.position
+)
+ident(
+  def pos "tuple_lexer.mll" 26 201 203 "tuple_lexer.mll" 29 313 318
+)
+"tuple_lexer.mll" 25 168 180 "tuple_lexer.mll" 25 168 186
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.mll" 24 145 159 "tuple_lexer.mll" 24 145 165
+)
+"tuple_lexer.mll" 25 168 180 "tuple_lexer.mll" 25 168 197
+type(
+  Lexing.position
+)
+"tuple_lexer.mll" 26 201 203 "tuple_lexer.mll" 26 201 209
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.mll" 24 145 159 "tuple_lexer.mll" 24 145 165
+)
+"tuple_lexer.mll" 27 224 230 "tuple_lexer.mll" 27 224 233
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "tuple_lexer.mll" 25 168 174 "tuple_lexer.mll" 25 168 177
+)
+"tuple_lexer.mll" 27 224 249 "tuple_lexer.mll" 27 224 255
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.mll" 24 145 159 "tuple_lexer.mll" 24 145 165
+)
+"tuple_lexer.mll" 27 224 249 "tuple_lexer.mll" 27 224 268
+type(
+  int
+)
+"tuple_lexer.mll" 28 270 296 "tuple_lexer.mll" 28 270 299
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "tuple_lexer.mll" 25 168 174 "tuple_lexer.mll" 25 168 177
+)
+"tuple_lexer.mll" 28 270 296 "tuple_lexer.mll" 28 270 308
+type(
+  int
+)
+"tuple_lexer.mll" 28 270 309 "tuple_lexer.mll" 28 270 310
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"tuple_lexer.mll" 28 270 311 "tuple_lexer.mll" 28 270 312
+type(
+  int
+)
+"tuple_lexer.mll" 28 270 296 "tuple_lexer.mll" 28 270 312
+type(
+  int
+)
+"tuple_lexer.mll" 27 224 228 "tuple_lexer.mll" 29 313 318
+type(
+  Lexing.position
+)
+"tuple_lexer.mll" 26 201 203 "tuple_lexer.mll" 29 313 318
+type(
+  unit
+)
+"tuple_lexer.mll" 25 168 170 "tuple_lexer.mll" 29 313 318
+type(
+  unit
+)
+"tuple_lexer.ml" 17 343 347 "tuple_lexer.ml" 17 343 365
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "tuple_lexer.ml" 210 12578 12578 "tuple_lexer.ml" 1 0 -1
+)
+"tuple_lexer.ml" 19 391 394 "tuple_lexer.ml" 21 531 552
+type(
+  string
+)
+"tuple_lexer.ml" 23 578 581 "tuple_lexer.ml" 25 718 739
+type(
+  string
+)
+"tuple_lexer.ml" 27 765 768 "tuple_lexer.ml" 29 905 926
+type(
+  string
+)
+"tuple_lexer.ml" 31 950 953 "tuple_lexer.ml" 112 6620 6649
+type(
+  string
+)
+"tuple_lexer.ml" 114 6673 6676 "tuple_lexer.ml" 195 12343 12372
+type(
+  string
+)
+"tuple_lexer.ml" 197 12400 12403 "tuple_lexer.ml" 197 12400 12405
+type(
+  string
+)
+"tuple_lexer.ml" 199 12436 12439 "tuple_lexer.ml" 199 12436 12441
+type(
+  string
+)
+"tuple_lexer.ml" 201 12472 12475 "tuple_lexer.ml" 201 12472 12477
+type(
+  string
+)
+"tuple_lexer.ml" 203 12506 12509 "tuple_lexer.ml" 203 12506 12511
+type(
+  string
+)
+"tuple_lexer.ml" 205 12540 12543 "tuple_lexer.ml" 205 12540 12545
+type(
+  string
+)
+"tuple_lexer.ml" 207 12568 12571 "tuple_lexer.ml" 207 12568 12573
+type(
+  string
+)
+"tuple_lexer.ml" 17 343 368 "tuple_lexer.ml" 208 12575 12576
+type(
+  Lexing.lex_tables
+)
+"tuple_lexer.ml" 210 12578 12586 "tuple_lexer.ml" 210 12578 12589
+type(
+  Lexing.lexbuf -> Tuple_parser.token
+)
+ident(
+  def lex "tuple_lexer.ml" 210 12578 12578 "tuple_lexer.ml" 1 0 -1
+)
+"tuple_lexer.ml" 210 12578 12590 "tuple_lexer.ml" 210 12578 12596
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "tuple_lexer.ml" 211 12599 12603 "tuple_lexer.ml" 211 12599 12631
+)
+"tuple_lexer.ml" 211 12599 12603 "tuple_lexer.ml" 211 12599 12622
+type(
+  Lexing.lexbuf -> int -> Tuple_parser.token
+)
+ident(
+  int_ref __ocaml_lex_lex_rec "tuple_lexer.ml" 212 12632 12636 "tuple_lexer.ml" 212 12632 12655
+)
+"tuple_lexer.ml" 211 12599 12623 "tuple_lexer.ml" 211 12599 12629
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 210 12578 12590 "tuple_lexer.ml" 210 12578 12596
+)
+"tuple_lexer.ml" 211 12599 12630 "tuple_lexer.ml" 211 12599 12631
+type(
+  int
+)
+"tuple_lexer.ml" 211 12599 12603 "tuple_lexer.ml" 211 12599 12631
+call(
+  tail
+)
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 212 12632 12636 "tuple_lexer.ml" 212 12632 12655
+type(
+  Lexing.lexbuf -> int -> Tuple_parser.token
+)
+ident(
+  def __ocaml_lex_lex_rec "tuple_lexer.ml" 210 12578 12578 "tuple_lexer.ml" 1 0 -1
+)
+"tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "tuple_lexer.ml" 212 12632 12663 "tuple_lexer.ml" 290 14545 14595
+)
+"tuple_lexer.ml" 212 12632 12663 "tuple_lexer.ml" 212 12632 12680
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "tuple_lexer.ml" 213 12683 12685 "tuple_lexer.ml" 290 14545 14595
+)
+"tuple_lexer.ml" 213 12683 12691 "tuple_lexer.ml" 213 12683 12704
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"tuple_lexer.ml" 213 12683 12705 "tuple_lexer.ml" 213 12683 12723
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "tuple_lexer.ml" 17 343 347 "tuple_lexer.ml" 17 343 365
+)
+"tuple_lexer.ml" 213 12683 12724 "tuple_lexer.ml" 213 12683 12741
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "tuple_lexer.ml" 212 12632 12663 "tuple_lexer.ml" 212 12632 12680
+)
+"tuple_lexer.ml" 213 12683 12742 "tuple_lexer.ml" 213 12683 12748
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.ml" 213 12683 12691 "tuple_lexer.ml" 213 12683 12748
+call(
+  stack
+)
+type(
+  int
+)
+"tuple_lexer.ml" 214 12754 12762 "tuple_lexer.ml" 214 12754 12763
+type(
+  int
+)
+"tuple_lexer.mll" 36 12790 12817 "tuple_lexer.mll" 36 12790 12820
+type(
+  Lexing.lexbuf -> Tuple_parser.token
+)
+ident(
+  int_ref lex "tuple_lexer.ml" 210 12578 12586 "tuple_lexer.ml" 210 12578 12589
+)
+"tuple_lexer.mll" 36 12790 12821 "tuple_lexer.mll" 36 12790 12827
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.mll" 36 12790 12815 "tuple_lexer.mll" 36 12790 12829
+call(
+  tail
+)
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 219 12854 12858 "tuple_lexer.ml" 219 12854 12859
+type(
+  int
+)
+"tuple_lexer.mll" 37 12886 12907 "tuple_lexer.mll" 37 12886 12916
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref next_line "tuple_lexer.mll" 24 145 149 "tuple_lexer.mll" 24 145 158
+)
+"tuple_lexer.mll" 37 12886 12917 "tuple_lexer.mll" 37 12886 12923
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.mll" 37 12886 12907 "tuple_lexer.mll" 37 12886 12923
+call(
+  stack
+)
+type(
+  unit
+)
+"tuple_lexer.mll" 37 12886 12925 "tuple_lexer.mll" 37 12886 12928
+type(
+  Lexing.lexbuf -> Tuple_parser.token
+)
+ident(
+  int_ref lex "tuple_lexer.ml" 210 12578 12586 "tuple_lexer.ml" 210 12578 12589
+)
+"tuple_lexer.mll" 37 12886 12929 "tuple_lexer.mll" 37 12886 12935
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.mll" 37 12886 12925 "tuple_lexer.mll" 37 12886 12935
+call(
+  tail
+)
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.mll" 37 12886 12905 "tuple_lexer.mll" 37 12886 12937
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 224 12962 12966 "tuple_lexer.ml" 224 12962 12967
+type(
+  int
+)
+"tuple_lexer.mll" 38 12994 13014 "tuple_lexer.mll" 38 12994 13023
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 229 13048 13052 "tuple_lexer.ml" 229 13048 13053
+type(
+  int
+)
+"tuple_lexer.mll" 39 13080 13093 "tuple_lexer.mll" 39 13080 13113
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 234 13138 13142 "tuple_lexer.ml" 234 13138 13143
+type(
+  int
+)
+"tuple_lexer.mll" 40 13170 13190 "tuple_lexer.mll" 40 13170 13204
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 239 13229 13233 "tuple_lexer.ml" 239 13229 13234
+type(
+  int
+)
+"tuple_lexer.mll" 41 13261 13280 "tuple_lexer.mll" 41 13261 13287
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 244 13312 13316 "tuple_lexer.ml" 244 13312 13317
+type(
+  int
+)
+"tuple_lexer.mll" 42 13348 13445 "tuple_lexer.mll" 42 13348 13446
+type(
+  string
+)
+ident(
+  def s "tuple_lexer.mll" 42 13578 13677 "tuple_lexer.mll" 42 13578 13691
+)
+"tuple_lexer.ml" 249 13470 13472 "tuple_lexer.ml" 249 13470 13489
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"tuple_lexer.ml" 249 13470 13490 "tuple_lexer.ml" 249 13470 13496
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.ml" 249 13470 13497 "tuple_lexer.ml" 249 13470 13503
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.ml" 249 13470 13497 "tuple_lexer.ml" 249 13470 13524
+type(
+  int
+)
+"tuple_lexer.ml" 249 13470 13525 "tuple_lexer.ml" 249 13470 13531
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.ml" 249 13470 13525 "tuple_lexer.ml" 249 13470 13551
+type(
+  int
+)
+"tuple_lexer.ml" 249 13470 13472 "tuple_lexer.ml" 249 13470 13551
+call(
+  stack
+)
+type(
+  string
+)
+"tuple_lexer.mll" 42 13578 13686 "tuple_lexer.mll" 42 13578 13689
+type(
+  string
+)
+ident(
+  int_ref s "tuple_lexer.mll" 42 13348 13445 "tuple_lexer.mll" 42 13348 13446
+)
+"tuple_lexer.mll" 42 13578 13677 "tuple_lexer.mll" 42 13578 13691
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 245 13321 13321 "tuple_lexer.mll" 42 13578 13691
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 254 13716 13720 "tuple_lexer.ml" 254 13716 13721
+type(
+  int
+)
+"tuple_lexer.mll" 43 13752 13786 "tuple_lexer.mll" 43 13752 13787
+type(
+  string
+)
+ident(
+  def v "tuple_lexer.mll" 43 13919 13955 "tuple_lexer.mll" 43 13919 13966
+)
+"tuple_lexer.ml" 259 13811 13813 "tuple_lexer.ml" 259 13811 13830
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"tuple_lexer.ml" 259 13811 13831 "tuple_lexer.ml" 259 13811 13837
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.ml" 259 13811 13838 "tuple_lexer.ml" 259 13811 13844
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.ml" 259 13811 13838 "tuple_lexer.ml" 259 13811 13865
+type(
+  int
+)
+"tuple_lexer.ml" 259 13811 13866 "tuple_lexer.ml" 259 13811 13872
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.ml" 259 13811 13866 "tuple_lexer.ml" 259 13811 13892
+type(
+  int
+)
+"tuple_lexer.ml" 259 13811 13813 "tuple_lexer.ml" 259 13811 13892
+call(
+  stack
+)
+type(
+  string
+)
+"tuple_lexer.mll" 43 13919 13961 "tuple_lexer.mll" 43 13919 13964
+type(
+  string
+)
+ident(
+  int_ref v "tuple_lexer.mll" 43 13752 13786 "tuple_lexer.mll" 43 13752 13787
+)
+"tuple_lexer.mll" 43 13919 13955 "tuple_lexer.mll" 43 13919 13966
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 255 13725 13725 "tuple_lexer.mll" 43 13919 13966
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 264 13991 13995 "tuple_lexer.ml" 264 13991 13996
+type(
+  int
+)
+"tuple_lexer.mll" 44 14023 14043 "tuple_lexer.mll" 44 14023 14058
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 269 14083 14087 "tuple_lexer.ml" 269 14083 14088
+type(
+  int
+)
+"tuple_lexer.mll" 45 14115 14134 "tuple_lexer.mll" 45 14115 14139
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 274 14164 14168 "tuple_lexer.ml" 274 14164 14170
+type(
+  int
+)
+"tuple_lexer.mll" 46 14197 14210 "tuple_lexer.mll" 46 14197 14230
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 279 14255 14259 "tuple_lexer.ml" 279 14255 14261
+type(
+  int
+)
+"tuple_lexer.mll" 47 14288 14309 "tuple_lexer.mll" 47 14288 14314
+type(
+  exn -> Tuple_parser.token
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"tuple_lexer.mll" 47 14288 14329 "tuple_lexer.mll" 47 14288 14348
+type(
+  string
+)
+"tuple_lexer.mll" 47 14288 14349 "tuple_lexer.mll" 47 14288 14350
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"tuple_lexer.mll" 47 14288 14351 "tuple_lexer.mll" 47 14288 14364
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"tuple_lexer.mll" 47 14288 14365 "tuple_lexer.mll" 47 14288 14371
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.mll" 47 14288 14351 "tuple_lexer.mll" 47 14288 14371
+call(
+  stack
+)
+type(
+  string
+)
+"tuple_lexer.mll" 47 14288 14328 "tuple_lexer.mll" 47 14288 14372
+call(
+  stack
+)
+type(
+  string
+)
+"tuple_lexer.mll" 47 14288 14315 "tuple_lexer.mll" 47 14288 14373
+type(
+  exn
+)
+"tuple_lexer.mll" 47 14288 14307 "tuple_lexer.mll" 47 14288 14375
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 284 14400 14404 "tuple_lexer.ml" 284 14400 14406
+type(
+  int
+)
+"tuple_lexer.mll" 48 14433 14453 "tuple_lexer.mll" 48 14433 14460
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 289 14485 14489 "tuple_lexer.ml" 289 14485 14506
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "tuple_lexer.ml" 289 14485 14510 "tuple_lexer.ml" 290 14545 14595
+)
+"tuple_lexer.ml" 289 14485 14510 "tuple_lexer.ml" 289 14485 14516
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.ml" 289 14485 14510 "tuple_lexer.ml" 289 14485 14535
+type(
+  Lexing.lexbuf -> unit
+)
+"tuple_lexer.ml" 289 14485 14536 "tuple_lexer.ml" 289 14485 14542
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.ml" 289 14485 14510 "tuple_lexer.ml" 289 14485 14542
+call(
+  stack
+)
+type(
+  unit
+)
+"tuple_lexer.ml" 290 14545 14551 "tuple_lexer.ml" 290 14545 14570
+type(
+  Lexing.lexbuf -> int -> Tuple_parser.token
+)
+ident(
+  int_ref __ocaml_lex_lex_rec "tuple_lexer.ml" 212 12632 12636 "tuple_lexer.ml" 212 12632 12655
+)
+"tuple_lexer.ml" 290 14545 14571 "tuple_lexer.ml" 290 14545 14577
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "tuple_lexer.ml" 212 12632 12656 "tuple_lexer.ml" 212 12632 12662
+)
+"tuple_lexer.ml" 290 14545 14578 "tuple_lexer.ml" 290 14545 14595
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "tuple_lexer.ml" 289 14485 14489 "tuple_lexer.ml" 289 14485 14506
+)
+"tuple_lexer.ml" 290 14545 14551 "tuple_lexer.ml" 290 14545 14595
+call(
+  tail
+)
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 289 14485 14510 "tuple_lexer.ml" 290 14545 14595
+type(
+  Tuple_parser.token
+)
+"tuple_lexer.ml" 213 12683 12685 "tuple_lexer.ml" 290 14545 14595
+type(
+  Tuple_parser.token
+)

@@ -1,0 +1,1357 @@
+"config.ml" 39 1483 1487 "config.ml" 39 1483 1496
+type(
+  t -> obj_t
+)
+ident(
+  def t_to_objt "config.ml" 41 1526 1526 "config.ml" 1 0 -1
+)
+"config.ml" 39 1483 1516 "config.ml" 39 1483 1517
+type(
+  t
+)
+ident(
+  def x "config.ml" 39 1483 1521 "config.ml" 39 1483 1522
+)
+"config.ml" 39 1483 1521 "config.ml" 39 1483 1522
+type(
+  t
+)
+ident(
+  int_ref x "config.ml" 39 1483 1516 "config.ml" 39 1483 1517
+)
+"config.ml" 39 1483 1512 "config.ml" 39 1483 1522
+type(
+  t -> obj_t
+)
+type(
+  t -> obj_t
+)
+"config.ml" 41 1526 1530 "config.ml" 41 1526 1539
+type(
+  obj_t -> t
+)
+ident(
+  def objt_to_t "config.ml" 43 1569 1569 "config.ml" 1 0 -1
+)
+"config.ml" 41 1526 1559 "config.ml" 41 1526 1560
+type(
+  obj_t
+)
+ident(
+  def x "config.ml" 41 1526 1564 "config.ml" 41 1526 1565
+)
+"config.ml" 41 1526 1564 "config.ml" 41 1526 1565
+type(
+  obj_t
+)
+ident(
+  int_ref x "config.ml" 41 1526 1559 "config.ml" 41 1526 1560
+)
+"config.ml" 41 1526 1555 "config.ml" 41 1526 1565
+type(
+  obj_t -> t
+)
+type(
+  obj_t -> t
+)
+"config.ml" 55 2018 2022 "config.ml" 55 2018 2035
+type(
+  tuple list -> tuple list -> tuple list list
+)
+ident(
+  def execute_query "config.ml" 116 4917 4940 "config.ml" 1 0 -1
+)
+"config.ml" 55 2018 2037 "config.ml" 55 2018 2039
+type(
+  tuple list
+)
+ident(
+  def db "config.ml" 55 2018 2054 "config.ml" 116 4917 4940
+)
+"config.ml" 55 2018 2055 "config.ml" 55 2018 2058
+type(
+  tuple list
+)
+ident(
+  def qry "config.ml" 55 2018 2073 "config.ml" 116 4917 4940
+)
+"config.ml" 61 2485 2491 "config.ml" 61 2485 2499
+type(
+  ('a -> 'b element_type) ->
+  'a -> (string * 'b element_type) list -> 'b element_type
+)
+ident(
+  def try_eval "config.ml" 72 3125 3127 "config.ml" 116 4917 4940
+)
+"config.ml" 61 2485 2500 "config.ml" 61 2485 2501
+type(
+  'a -> 'b element_type
+)
+ident(
+  def s "config.ml" 61 2485 2502 "config.ml" 65 2630 2653
+)
+"config.ml" 61 2485 2502 "config.ml" 61 2485 2503
+type(
+  'a
+)
+ident(
+  def q "config.ml" 61 2485 2504 "config.ml" 65 2630 2653
+)
+"config.ml" 61 2485 2504 "config.ml" 61 2485 2513
+type(
+  (string * 'b element_type) list
+)
+ident(
+  def var_scope "config.ml" 62 2516 2520 "config.ml" 65 2630 2653
+)
+"config.ml" 62 2516 2526 "config.ml" 62 2516 2527
+type(
+  'a -> 'b element_type
+)
+ident(
+  int_ref s "config.ml" 61 2485 2500 "config.ml" 61 2485 2501
+)
+"config.ml" 62 2516 2528 "config.ml" 62 2516 2529
+type(
+  'a
+)
+ident(
+  int_ref q "config.ml" 61 2485 2502 "config.ml" 61 2485 2503
+)
+"config.ml" 62 2516 2526 "config.ml" 62 2516 2529
+call(
+  stack
+)
+type(
+  'b element_type
+)
+"config.ml" 63 2535 2550 "config.ml" 63 2535 2551
+type(
+  string
+)
+ident(
+  def x "config.ml" 64 2555 2563 "config.ml" 64 2555 2629
+)
+"config.ml" 63 2535 2541 "config.ml" 63 2535 2551
+type(
+  'b element_type
+)
+"config.ml" 64 2555 2566 "config.ml" 64 2555 2580
+type(
+  string -> (string * 'b element_type) list -> bool
+)
+ident(
+  ext_ref List.mem_assoc
+)
+"config.ml" 64 2555 2581 "config.ml" 64 2555 2582
+type(
+  string
+)
+ident(
+  int_ref x "config.ml" 63 2535 2550 "config.ml" 63 2535 2551
+)
+"config.ml" 64 2555 2583 "config.ml" 64 2555 2592
+type(
+  (string * 'b element_type) list
+)
+ident(
+  int_ref var_scope "config.ml" 61 2485 2504 "config.ml" 61 2485 2513
+)
+"config.ml" 64 2555 2566 "config.ml" 64 2555 2592
+call(
+  stack
+)
+type(
+  bool
+)
+"config.ml" 64 2555 2598 "config.ml" 64 2555 2608
+type(
+  string -> (string * 'b element_type) list -> 'b element_type
+)
+ident(
+  ext_ref List.assoc
+)
+"config.ml" 64 2555 2609 "config.ml" 64 2555 2610
+type(
+  string
+)
+ident(
+  int_ref x "config.ml" 63 2535 2550 "config.ml" 63 2535 2551
+)
+"config.ml" 64 2555 2611 "config.ml" 64 2555 2620
+type(
+  (string * 'b element_type) list
+)
+ident(
+  int_ref var_scope "config.ml" 61 2485 2504 "config.ml" 61 2485 2513
+)
+"config.ml" 64 2555 2598 "config.ml" 64 2555 2620
+call(
+  tail
+)
+type(
+  'b element_type
+)
+"config.ml" 64 2555 2626 "config.ml" 64 2555 2627
+type(
+  'a -> 'b element_type
+)
+ident(
+  int_ref s "config.ml" 61 2485 2500 "config.ml" 61 2485 2501
+)
+"config.ml" 64 2555 2628 "config.ml" 64 2555 2629
+type(
+  'a
+)
+ident(
+  int_ref q "config.ml" 61 2485 2502 "config.ml" 61 2485 2503
+)
+"config.ml" 64 2555 2626 "config.ml" 64 2555 2629
+call(
+  tail
+)
+type(
+  'b element_type
+)
+"config.ml" 64 2555 2563 "config.ml" 64 2555 2629
+type(
+  'b element_type
+)
+"config.ml" 65 2630 2645 "config.ml" 65 2630 2646
+type(
+  'b
+)
+"config.ml" 65 2630 2636 "config.ml" 65 2630 2646
+type(
+  'b element_type
+)
+"config.ml" 65 2630 2650 "config.ml" 65 2630 2651
+type(
+  'a -> 'b element_type
+)
+ident(
+  int_ref s "config.ml" 61 2485 2500 "config.ml" 61 2485 2501
+)
+"config.ml" 65 2630 2652 "config.ml" 65 2630 2653
+type(
+  'a
+)
+ident(
+  int_ref q "config.ml" 61 2485 2502 "config.ml" 61 2485 2503
+)
+"config.ml" 65 2630 2650 "config.ml" 65 2630 2653
+call(
+  tail
+)
+type(
+  'b element_type
+)
+"config.ml" 62 2516 2520 "config.ml" 65 2630 2653
+type(
+  'b element_type
+)
+"config.ml" 72 3125 3131 "config.ml" 72 3125 3141
+type(
+  ('c -> 'd element_type) ->
+  'c -> 'c -> bool * (string * 'd element_type) option
+)
+ident(
+  def sub_filter "config.ml" 80 3578 3580 "config.ml" 116 4917 4940
+)
+"config.ml" 72 3125 3142 "config.ml" 72 3125 3143
+type(
+  'c -> 'd element_type
+)
+ident(
+  def s "config.ml" 72 3125 3144 "config.ml" 79 3531 3574
+)
+"config.ml" 72 3125 3144 "config.ml" 72 3125 3145
+type(
+  'c
+)
+ident(
+  def q "config.ml" 72 3125 3146 "config.ml" 79 3531 3574
+)
+"config.ml" 72 3125 3146 "config.ml" 72 3125 3147
+type(
+  'c
+)
+ident(
+  def v "config.ml" 73 3150 3154 "config.ml" 79 3531 3574
+)
+"config.ml" 73 3150 3160 "config.ml" 73 3150 3161
+type(
+  'c -> 'd element_type
+)
+ident(
+  int_ref s "config.ml" 72 3125 3142 "config.ml" 72 3125 3143
+)
+"config.ml" 73 3150 3162 "config.ml" 73 3150 3163
+type(
+  'c
+)
+ident(
+  int_ref q "config.ml" 72 3125 3144 "config.ml" 72 3125 3145
+)
+"config.ml" 73 3150 3160 "config.ml" 73 3150 3163
+call(
+  stack
+)
+type(
+  'd element_type
+)
+"config.ml" 78 3483 3500 "config.ml" 78 3483 3501
+type(
+  string
+)
+ident(
+  def x "config.ml" 78 3483 3505 "config.ml" 78 3483 3530
+)
+"config.ml" 78 3483 3491 "config.ml" 78 3483 3501
+type(
+  'd element_type
+)
+"config.ml" 78 3483 3506 "config.ml" 78 3483 3510
+type(
+  bool
+)
+"config.ml" 78 3483 3519 "config.ml" 78 3483 3520
+type(
+  string
+)
+ident(
+  int_ref x "config.ml" 78 3483 3500 "config.ml" 78 3483 3501
+)
+"config.ml" 78 3483 3523 "config.ml" 78 3483 3524
+type(
+  'c -> 'd element_type
+)
+ident(
+  int_ref s "config.ml" 72 3125 3142 "config.ml" 72 3125 3143
+)
+"config.ml" 78 3483 3525 "config.ml" 78 3483 3526
+type(
+  'c
+)
+ident(
+  int_ref v "config.ml" 72 3125 3146 "config.ml" 72 3125 3147
+)
+"config.ml" 78 3483 3522 "config.ml" 78 3483 3527
+call(
+  stack
+)
+type(
+  'd element_type
+)
+"config.ml" 78 3483 3518 "config.ml" 78 3483 3528
+type(
+  string * 'd element_type
+)
+"config.ml" 78 3483 3512 "config.ml" 78 3483 3529
+type(
+  (string * 'd element_type) option
+)
+"config.ml" 78 3483 3505 "config.ml" 78 3483 3530
+type(
+  bool * (string * 'd element_type) option
+)
+"config.ml" 79 3531 3546 "config.ml" 79 3531 3547
+type(
+  'd
+)
+"config.ml" 79 3531 3537 "config.ml" 79 3531 3547
+type(
+  'd element_type
+)
+"config.ml" 79 3531 3554 "config.ml" 79 3531 3555
+type(
+  'c -> 'd element_type
+)
+ident(
+  int_ref s "config.ml" 72 3125 3142 "config.ml" 72 3125 3143
+)
+"config.ml" 79 3531 3556 "config.ml" 79 3531 3557
+type(
+  'c
+)
+ident(
+  int_ref q "config.ml" 72 3125 3144 "config.ml" 72 3125 3145
+)
+"config.ml" 79 3531 3553 "config.ml" 79 3531 3558
+call(
+  stack
+)
+type(
+  'd element_type
+)
+"config.ml" 79 3531 3559 "config.ml" 79 3531 3560
+type(
+  'd element_type -> 'd element_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"config.ml" 79 3531 3562 "config.ml" 79 3531 3563
+type(
+  'c -> 'd element_type
+)
+ident(
+  int_ref s "config.ml" 72 3125 3142 "config.ml" 72 3125 3143
+)
+"config.ml" 79 3531 3564 "config.ml" 79 3531 3565
+type(
+  'c
+)
+ident(
+  int_ref v "config.ml" 72 3125 3146 "config.ml" 72 3125 3147
+)
+"config.ml" 79 3531 3561 "config.ml" 79 3531 3566
+call(
+  stack
+)
+type(
+  'd element_type
+)
+"config.ml" 79 3531 3552 "config.ml" 79 3531 3567
+type(
+  bool
+)
+"config.ml" 79 3531 3569 "config.ml" 79 3531 3573
+type(
+  (string * 'd element_type) option
+)
+"config.ml" 79 3531 3551 "config.ml" 79 3531 3574
+type(
+  bool * (string * 'd element_type) option
+)
+"config.ml" 73 3150 3154 "config.ml" 79 3531 3574
+type(
+  bool * (string * 'd element_type) option
+)
+"config.ml" 80 3578 3584 "config.ml" 80 3578 3595
+type(
+  ext_tuple -> tuple -> ext_tuple list
+)
+ident(
+  def make_query' "config.ml" 112 4780 4784 "config.ml" 116 4917 4940
+)
+"config.ml" 80 3578 3598 "config.ml" 80 3578 3607
+type(
+  (string * t element_type) list
+)
+ident(
+  def var_scope "config.ml" 80 3578 3632 "config.ml" 110 4761 4774
+)
+"config.ml" 80 3578 3609 "config.ml" 80 3578 3617
+type(
+  tuple list
+)
+ident(
+  def pre_soln "config.ml" 80 3578 3632 "config.ml" 110 4761 4774
+)
+"config.ml" 80 3578 3597 "config.ml" 80 3578 3618
+type(
+  ext_tuple
+)
+"config.ml" 80 3578 3633 "config.ml" 80 3578 3634
+type(
+  tuple
+)
+ident(
+  def q "config.ml" 80 3578 3644 "config.ml" 110 4761 4774
+)
+"config.ml" 83 3735 3743 "config.ml" 83 3735 3745
+type(
+  tuple
+)
+ident(
+  def q' "config.ml" 96 4146 4152 "config.ml" 110 4761 4774
+)
+"config.ml" 85 3756 3771 "config.ml" 85 3756 3779
+type(
+  (tuple -> t element_type) ->
+  tuple -> (string * t element_type) list -> t element_type
+)
+ident(
+  int_ref try_eval "config.ml" 61 2485 2491 "config.ml" 61 2485 2499
+)
+"config.ml" 85 3756 3785 "config.ml" 85 3756 3786
+type(
+  tuple
+)
+ident(
+  def q "config.ml" 85 3756 3790 "config.ml" 85 3756 3796
+)
+"config.ml" 85 3756 3790 "config.ml" 85 3756 3791
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 85 3756 3785 "config.ml" 85 3756 3786
+)
+"config.ml" 85 3756 3790 "config.ml" 85 3756 3796
+type(
+  t element_type
+)
+"config.ml" 85 3756 3780 "config.ml" 85 3756 3797
+type(
+  tuple -> t element_type
+)
+"config.ml" 85 3756 3798 "config.ml" 85 3756 3799
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 80 3578 3633 "config.ml" 80 3578 3634
+)
+"config.ml" 85 3756 3800 "config.ml" 85 3756 3809
+type(
+  (string * t element_type) list
+)
+ident(
+  int_ref var_scope "config.ml" 80 3578 3598 "config.ml" 80 3578 3607
+)
+"config.ml" 85 3756 3771 "config.ml" 85 3756 3809
+call(
+  stack
+)
+type(
+  t element_type
+)
+"config.ml" 86 3811 3826 "config.ml" 86 3811 3834
+type(
+  (tuple -> t element_type) ->
+  tuple -> (string * t element_type) list -> t element_type
+)
+ident(
+  int_ref try_eval "config.ml" 61 2485 2491 "config.ml" 61 2485 2499
+)
+"config.ml" 86 3811 3840 "config.ml" 86 3811 3841
+type(
+  tuple
+)
+ident(
+  def q "config.ml" 86 3811 3845 "config.ml" 86 3811 3851
+)
+"config.ml" 86 3811 3845 "config.ml" 86 3811 3846
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 86 3811 3840 "config.ml" 86 3811 3841
+)
+"config.ml" 86 3811 3845 "config.ml" 86 3811 3851
+type(
+  t element_type
+)
+"config.ml" 86 3811 3835 "config.ml" 86 3811 3852
+type(
+  tuple -> t element_type
+)
+"config.ml" 86 3811 3853 "config.ml" 86 3811 3854
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 80 3578 3633 "config.ml" 80 3578 3634
+)
+"config.ml" 86 3811 3855 "config.ml" 86 3811 3864
+type(
+  (string * t element_type) list
+)
+ident(
+  int_ref var_scope "config.ml" 80 3578 3598 "config.ml" 80 3578 3607
+)
+"config.ml" 86 3811 3826 "config.ml" 86 3811 3864
+call(
+  stack
+)
+type(
+  t element_type
+)
+"config.ml" 87 3866 3880 "config.ml" 87 3866 3888
+type(
+  (tuple -> obj_t element_type) ->
+  tuple -> (string * obj_t element_type) list -> obj_t element_type
+)
+ident(
+  int_ref try_eval "config.ml" 61 2485 2491 "config.ml" 61 2485 2499
+)
+"config.ml" 87 3866 3894 "config.ml" 87 3866 3895
+type(
+  tuple
+)
+ident(
+  def q "config.ml" 87 3866 3899 "config.ml" 87 3866 3904
+)
+"config.ml" 87 3866 3899 "config.ml" 87 3866 3900
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 87 3866 3894 "config.ml" 87 3866 3895
+)
+"config.ml" 87 3866 3899 "config.ml" 87 3866 3904
+type(
+  obj_t element_type
+)
+"config.ml" 87 3866 3889 "config.ml" 87 3866 3905
+type(
+  tuple -> obj_t element_type
+)
+"config.ml" 87 3866 3906 "config.ml" 87 3866 3907
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 80 3578 3633 "config.ml" 80 3578 3634
+)
+"config.ml" 87 3866 3908 "config.ml" 87 3866 3917
+type(
+  (string * obj_t element_type) list
+)
+ident(
+  int_ref var_scope "config.ml" 80 3578 3598 "config.ml" 80 3578 3607
+)
+"config.ml" 87 3866 3880 "config.ml" 87 3866 3917
+call(
+  stack
+)
+type(
+  obj_t element_type
+)
+"config.ml" 88 3919 3934 "config.ml" 88 3919 3935
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 80 3578 3633 "config.ml" 80 3578 3634
+)
+"config.ml" 88 3919 3934 "config.ml" 88 3919 3940
+type(
+  context element_type
+)
+"config.ml" 90 3987 4006 "config.ml" 90 3987 4007
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 80 3578 3633 "config.ml" 80 3578 3634
+)
+"config.ml" 90 3987 4006 "config.ml" 90 3987 4016
+type(
+  timestamp element_type option
+)
+"config.ml" 92 4063 4078 "config.ml" 92 4063 4079
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 80 3578 3633 "config.ml" 80 3578 3634
+)
+"config.ml" 92 4063 4078 "config.ml" 92 4063 4084
+type(
+  signature element_type option
+)
+"config.ml" 84 3748 3754 "config.ml" 93 4086 4093
+type(
+  tuple
+)
+"config.ml" 96 4146 4152 "config.ml" 96 4146 4167
+type(
+  (tuple -> ext_tuple list -> ext_tuple list) ->
+  tuple list -> ext_tuple list -> ext_tuple list
+)
+ident(
+  ext_ref List.fold_right
+)
+"config.ml" 97 4168 4181 "config.ml" 97 4168 4182
+type(
+  tuple
+)
+ident(
+  def v "config.ml" 97 4168 4183 "config.ml" 109 4738 4759
+)
+"config.ml" 97 4168 4183 "config.ml" 97 4168 4186
+type(
+  ext_tuple list
+)
+ident(
+  def acc "config.ml" 98 4190 4201 "config.ml" 109 4738 4759
+)
+"config.ml" 98 4190 4206 "config.ml" 98 4190 4208
+type(
+  bool
+)
+ident(
+  def m1 "config.ml" 99 4253 4264 "config.ml" 109 4738 4759
+)
+"config.ml" 98 4190 4210 "config.ml" 98 4190 4212
+type(
+  (string * t element_type) option
+)
+ident(
+  def v1 "config.ml" 99 4253 4264 "config.ml" 109 4738 4759
+)
+"config.ml" 98 4190 4205 "config.ml" 98 4190 4213
+type(
+  bool * (string * t element_type) option
+)
+"config.ml" 98 4190 4216 "config.ml" 98 4190 4226
+type(
+  (tuple -> t element_type) ->
+  tuple -> tuple -> bool * (string * t element_type) option
+)
+ident(
+  int_ref sub_filter "config.ml" 72 3125 3131 "config.ml" 72 3125 3141
+)
+"config.ml" 98 4190 4232 "config.ml" 98 4190 4233
+type(
+  tuple
+)
+ident(
+  def q "config.ml" 98 4190 4237 "config.ml" 98 4190 4243
+)
+"config.ml" 98 4190 4237 "config.ml" 98 4190 4238
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 98 4190 4232 "config.ml" 98 4190 4233
+)
+"config.ml" 98 4190 4237 "config.ml" 98 4190 4243
+type(
+  t element_type
+)
+"config.ml" 98 4190 4227 "config.ml" 98 4190 4244
+type(
+  tuple -> t element_type
+)
+"config.ml" 98 4190 4245 "config.ml" 98 4190 4247
+type(
+  tuple
+)
+ident(
+  int_ref q' "config.ml" 83 3735 3743 "config.ml" 83 3735 3745
+)
+"config.ml" 98 4190 4248 "config.ml" 98 4190 4249
+type(
+  tuple
+)
+ident(
+  int_ref v "config.ml" 97 4168 4181 "config.ml" 97 4168 4182
+)
+"config.ml" 98 4190 4216 "config.ml" 98 4190 4249
+call(
+  stack
+)
+type(
+  bool * (string * t element_type) option
+)
+"config.ml" 99 4253 4269 "config.ml" 99 4253 4271
+type(
+  bool
+)
+ident(
+  def m2 "config.ml" 100 4316 4327 "config.ml" 109 4738 4759
+)
+"config.ml" 99 4253 4273 "config.ml" 99 4253 4275
+type(
+  (string * t element_type) option
+)
+ident(
+  def v2 "config.ml" 100 4316 4327 "config.ml" 109 4738 4759
+)
+"config.ml" 99 4253 4268 "config.ml" 99 4253 4276
+type(
+  bool * (string * t element_type) option
+)
+"config.ml" 99 4253 4279 "config.ml" 99 4253 4289
+type(
+  (tuple -> t element_type) ->
+  tuple -> tuple -> bool * (string * t element_type) option
+)
+ident(
+  int_ref sub_filter "config.ml" 72 3125 3131 "config.ml" 72 3125 3141
+)
+"config.ml" 99 4253 4295 "config.ml" 99 4253 4296
+type(
+  tuple
+)
+ident(
+  def q "config.ml" 99 4253 4300 "config.ml" 99 4253 4306
+)
+"config.ml" 99 4253 4300 "config.ml" 99 4253 4301
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 99 4253 4295 "config.ml" 99 4253 4296
+)
+"config.ml" 99 4253 4300 "config.ml" 99 4253 4306
+type(
+  t element_type
+)
+"config.ml" 99 4253 4290 "config.ml" 99 4253 4307
+type(
+  tuple -> t element_type
+)
+"config.ml" 99 4253 4308 "config.ml" 99 4253 4310
+type(
+  tuple
+)
+ident(
+  int_ref q' "config.ml" 83 3735 3743 "config.ml" 83 3735 3745
+)
+"config.ml" 99 4253 4311 "config.ml" 99 4253 4312
+type(
+  tuple
+)
+ident(
+  int_ref v "config.ml" 97 4168 4181 "config.ml" 97 4168 4182
+)
+"config.ml" 99 4253 4279 "config.ml" 99 4253 4312
+call(
+  stack
+)
+type(
+  bool * (string * t element_type) option
+)
+"config.ml" 100 4316 4332 "config.ml" 100 4316 4334
+type(
+  bool
+)
+ident(
+  def m3 "config.ml" 101 4378 4389 "config.ml" 109 4738 4759
+)
+"config.ml" 100 4316 4336 "config.ml" 100 4316 4338
+type(
+  (string * obj_t element_type) option
+)
+ident(
+  def v3 "config.ml" 101 4378 4389 "config.ml" 109 4738 4759
+)
+"config.ml" 100 4316 4331 "config.ml" 100 4316 4339
+type(
+  bool * (string * obj_t element_type) option
+)
+"config.ml" 100 4316 4342 "config.ml" 100 4316 4352
+type(
+  (tuple -> obj_t element_type) ->
+  tuple -> tuple -> bool * (string * obj_t element_type) option
+)
+ident(
+  int_ref sub_filter "config.ml" 72 3125 3131 "config.ml" 72 3125 3141
+)
+"config.ml" 100 4316 4358 "config.ml" 100 4316 4359
+type(
+  tuple
+)
+ident(
+  def q "config.ml" 100 4316 4363 "config.ml" 100 4316 4368
+)
+"config.ml" 100 4316 4363 "config.ml" 100 4316 4364
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 100 4316 4358 "config.ml" 100 4316 4359
+)
+"config.ml" 100 4316 4363 "config.ml" 100 4316 4368
+type(
+  obj_t element_type
+)
+"config.ml" 100 4316 4353 "config.ml" 100 4316 4369
+type(
+  tuple -> obj_t element_type
+)
+"config.ml" 100 4316 4370 "config.ml" 100 4316 4372
+type(
+  tuple
+)
+ident(
+  int_ref q' "config.ml" 83 3735 3743 "config.ml" 83 3735 3745
+)
+"config.ml" 100 4316 4373 "config.ml" 100 4316 4374
+type(
+  tuple
+)
+ident(
+  int_ref v "config.ml" 97 4168 4181 "config.ml" 97 4168 4182
+)
+"config.ml" 100 4316 4342 "config.ml" 100 4316 4374
+call(
+  stack
+)
+type(
+  bool * (string * obj_t element_type) option
+)
+"config.ml" 101 4378 4393 "config.ml" 101 4378 4402
+type(
+  (string * t element_type) list
+)
+ident(
+  def scope_ext "config.ml" 107 4637 4650 "config.ml" 109 4738 4759
+)
+"config.ml" 102 4405 4418 "config.ml" 102 4405 4433
+type(
+  ((string * t element_type) option ->
+   (string * t element_type) list -> (string * t element_type) list) ->
+  (string * t element_type) option list ->
+  (string * t element_type) list -> (string * t element_type) list
+)
+ident(
+  ext_ref List.fold_right
+)
+"config.ml" 103 4434 4454 "config.ml" 103 4434 4455
+type(
+  (string * t element_type) option
+)
+ident(
+  def v "config.ml" 103 4434 4456 "config.ml" 103 4434 4510
+)
+"config.ml" 103 4434 4456 "config.ml" 103 4434 4459
+type(
+  (string * t element_type) list
+)
+ident(
+  def acc "config.ml" 103 4434 4463 "config.ml" 103 4434 4510
+)
+"config.ml" 103 4434 4469 "config.ml" 103 4434 4470
+type(
+  (string * t element_type) option
+)
+ident(
+  int_ref v "config.ml" 103 4434 4454 "config.ml" 103 4434 4455
+)
+"config.ml" 103 4434 4478 "config.ml" 103 4434 4482
+type(
+  (string * t element_type) option
+)
+"config.ml" 103 4434 4486 "config.ml" 103 4434 4489
+type(
+  (string * t element_type) list
+)
+ident(
+  int_ref acc "config.ml" 103 4434 4456 "config.ml" 103 4434 4459
+)
+"config.ml" 103 4434 4497 "config.ml" 103 4434 4498
+type(
+  string * t element_type
+)
+ident(
+  def x "config.ml" 103 4434 4502 "config.ml" 103 4434 4510
+)
+"config.ml" 103 4434 4492 "config.ml" 103 4434 4498
+type(
+  (string * t element_type) option
+)
+"config.ml" 103 4434 4502 "config.ml" 103 4434 4503
+type(
+  string * t element_type
+)
+ident(
+  int_ref x "config.ml" 103 4434 4497 "config.ml" 103 4434 4498
+)
+"config.ml" 103 4434 4507 "config.ml" 103 4434 4510
+type(
+  (string * t element_type) list
+)
+ident(
+  int_ref acc "config.ml" 103 4434 4456 "config.ml" 103 4434 4459
+)
+"config.ml" 103 4434 4502 "config.ml" 103 4434 4510
+type(
+  (string * t element_type) list
+)
+"config.ml" 103 4434 4463 "config.ml" 103 4434 4510
+type(
+  (string * t element_type) list
+)
+"config.ml" 103 4434 4449 "config.ml" 103 4434 4511
+type(
+  (string * t element_type) option ->
+  (string * t element_type) list -> (string * t element_type) list
+)
+"config.ml" 104 4512 4529 "config.ml" 104 4512 4531
+type(
+  (string * t element_type) option
+)
+ident(
+  int_ref v1 "config.ml" 98 4190 4210 "config.ml" 98 4190 4212
+)
+"config.ml" 104 4512 4533 "config.ml" 104 4512 4535
+type(
+  (string * t element_type) option
+)
+ident(
+  int_ref v2 "config.ml" 99 4253 4273 "config.ml" 99 4253 4275
+)
+"config.ml" 104 4512 4537 "config.ml" 104 4512 4539
+type(
+  (string * t element_type) option
+)
+ident(
+  int_ref v3 "config.ml" 100 4316 4336 "config.ml" 100 4316 4338
+)
+"config.ml" 104 4512 4527 "config.ml" 104 4512 4541
+type(
+  (string * t element_type) option list
+)
+"config.ml" 104 4512 4542 "config.ml" 104 4512 4544
+type(
+  (string * t element_type) list
+)
+"config.ml" 102 4405 4418 "config.ml" 104 4512 4544
+call(
+  stack
+)
+type(
+  (string * t element_type) list
+)
+"config.ml" 107 4637 4653 "config.ml" 107 4637 4655
+type(
+  bool
+)
+ident(
+  int_ref m1 "config.ml" 98 4190 4206 "config.ml" 98 4190 4208
+)
+"config.ml" 107 4637 4656 "config.ml" 107 4637 4658
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"config.ml" 107 4637 4660 "config.ml" 107 4637 4662
+type(
+  bool
+)
+ident(
+  int_ref m2 "config.ml" 99 4253 4269 "config.ml" 99 4253 4271
+)
+"config.ml" 107 4637 4663 "config.ml" 107 4637 4665
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"config.ml" 107 4637 4666 "config.ml" 107 4637 4668
+type(
+  bool
+)
+ident(
+  int_ref m3 "config.ml" 100 4316 4332 "config.ml" 100 4316 4334
+)
+"config.ml" 107 4637 4659 "config.ml" 107 4637 4669
+type(
+  bool
+)
+"config.ml" 107 4637 4653 "config.ml" 107 4637 4669
+type(
+  bool
+)
+"config.ml" 108 4670 4690 "config.ml" 108 4670 4699
+type(
+  (string * t element_type) list
+)
+ident(
+  int_ref scope_ext "config.ml" 101 4378 4393 "config.ml" 101 4378 4402
+)
+"config.ml" 108 4670 4700 "config.ml" 108 4670 4701
+type(
+  (string * t element_type) list ->
+  (string * t element_type) list -> (string * t element_type) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"config.ml" 108 4670 4702 "config.ml" 108 4670 4711
+type(
+  (string * t element_type) list
+)
+ident(
+  int_ref var_scope "config.ml" 80 3578 3598 "config.ml" 80 3578 3607
+)
+"config.ml" 108 4670 4689 "config.ml" 108 4670 4712
+call(
+  stack
+)
+type(
+  (string * t element_type) list
+)
+"config.ml" 108 4670 4715 "config.ml" 108 4670 4716
+type(
+  tuple
+)
+ident(
+  int_ref v "config.ml" 97 4168 4181 "config.ml" 97 4168 4182
+)
+"config.ml" 108 4670 4720 "config.ml" 108 4670 4728
+type(
+  tuple list
+)
+ident(
+  int_ref pre_soln "config.ml" 80 3578 3609 "config.ml" 80 3578 3617
+)
+"config.ml" 108 4670 4714 "config.ml" 108 4670 4729
+type(
+  tuple list
+)
+"config.ml" 108 4670 4688 "config.ml" 108 4670 4730
+type(
+  ext_tuple
+)
+"config.ml" 108 4670 4734 "config.ml" 108 4670 4737
+type(
+  ext_tuple list
+)
+ident(
+  int_ref acc "config.ml" 97 4168 4183 "config.ml" 97 4168 4186
+)
+"config.ml" 108 4670 4688 "config.ml" 108 4670 4737
+type(
+  ext_tuple list
+)
+"config.ml" 109 4738 4756 "config.ml" 109 4738 4759
+type(
+  ext_tuple list
+)
+ident(
+  int_ref acc "config.ml" 97 4168 4183 "config.ml" 97 4168 4186
+)
+"config.ml" 107 4637 4650 "config.ml" 109 4738 4759
+type(
+  ext_tuple list
+)
+"config.ml" 101 4378 4389 "config.ml" 109 4738 4759
+type(
+  ext_tuple list
+)
+"config.ml" 100 4316 4327 "config.ml" 109 4738 4759
+type(
+  ext_tuple list
+)
+"config.ml" 99 4253 4264 "config.ml" 109 4738 4759
+type(
+  ext_tuple list
+)
+"config.ml" 98 4190 4201 "config.ml" 109 4738 4759
+type(
+  ext_tuple list
+)
+"config.ml" 97 4168 4176 "config.ml" 109 4738 4760
+type(
+  tuple -> ext_tuple list -> ext_tuple list
+)
+"config.ml" 110 4761 4769 "config.ml" 110 4761 4771
+type(
+  tuple list
+)
+ident(
+  int_ref db "config.ml" 55 2018 2037 "config.ml" 55 2018 2039
+)
+"config.ml" 110 4761 4772 "config.ml" 110 4761 4774
+type(
+  ext_tuple list
+)
+"config.ml" 96 4146 4152 "config.ml" 110 4761 4774
+call(
+  tail
+)
+type(
+  ext_tuple list
+)
+"config.ml" 83 3735 3739 "config.ml" 110 4761 4774
+type(
+  ext_tuple list
+)
+type(
+  ext_tuple list
+)
+"config.ml" 112 4780 4785 "config.ml" 112 4780 4800
+type(
+  (tuple -> ext_tuple list -> ext_tuple list) ->
+  tuple list -> ext_tuple list -> ext_tuple list
+)
+ident(
+  ext_ref List.fold_right
+)
+"config.ml" 113 4801 4813 "config.ml" 113 4801 4814
+type(
+  tuple
+)
+ident(
+  def q "config.ml" 113 4801 4815 "config.ml" 114 4822 4890
+)
+"config.ml" 113 4801 4815 "config.ml" 113 4801 4818
+type(
+  ext_tuple list
+)
+ident(
+  def acc "config.ml" 114 4822 4832 "config.ml" 114 4822 4890
+)
+"config.ml" 114 4822 4833 "config.ml" 114 4822 4841
+type(
+  (ext_tuple -> ext_tuple list) -> ext_tuple list -> ext_tuple list list
+)
+ident(
+  ext_ref List.map
+)
+"config.ml" 114 4822 4847 "config.ml" 114 4822 4849
+type(
+  ext_tuple
+)
+ident(
+  def ps "config.ml" 114 4822 4853 "config.ml" 114 4822 4869
+)
+"config.ml" 114 4822 4853 "config.ml" 114 4822 4864
+type(
+  ext_tuple -> tuple -> ext_tuple list
+)
+ident(
+  int_ref make_query' "config.ml" 80 3578 3584 "config.ml" 80 3578 3595
+)
+"config.ml" 114 4822 4865 "config.ml" 114 4822 4867
+type(
+  ext_tuple
+)
+ident(
+  int_ref ps "config.ml" 114 4822 4847 "config.ml" 114 4822 4849
+)
+"config.ml" 114 4822 4868 "config.ml" 114 4822 4869
+type(
+  tuple
+)
+ident(
+  int_ref q "config.ml" 113 4801 4813 "config.ml" 113 4801 4814
+)
+"config.ml" 114 4822 4853 "config.ml" 114 4822 4869
+call(
+  tail
+)
+type(
+  ext_tuple list
+)
+"config.ml" 114 4822 4842 "config.ml" 114 4822 4870
+type(
+  ext_tuple -> ext_tuple list
+)
+"config.ml" 114 4822 4871 "config.ml" 114 4822 4874
+type(
+  ext_tuple list
+)
+ident(
+  int_ref acc "config.ml" 113 4801 4815 "config.ml" 113 4801 4818
+)
+"config.ml" 114 4822 4832 "config.ml" 114 4822 4875
+call(
+  stack
+)
+type(
+  ext_tuple list list
+)
+"config.ml" 114 4822 4876 "config.ml" 114 4822 4878
+type(
+  ext_tuple list list ->
+  (ext_tuple list list -> ext_tuple list) -> ext_tuple list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"config.ml" 114 4822 4879 "config.ml" 114 4822 4890
+type(
+  ext_tuple list list -> ext_tuple list
+)
+ident(
+  ext_ref List.concat
+)
+"config.ml" 114 4822 4832 "config.ml" 114 4822 4890
+call(
+  tail
+)
+type(
+  ext_tuple list
+)
+"config.ml" 113 4801 4808 "config.ml" 114 4822 4891
+type(
+  tuple -> ext_tuple list -> ext_tuple list
+)
+"config.ml" 115 4892 4899 "config.ml" 115 4892 4902
+type(
+  tuple list
+)
+ident(
+  int_ref qry "config.ml" 55 2018 2055 "config.ml" 55 2018 2058
+)
+"config.ml" 115 4892 4906 "config.ml" 115 4892 4908
+type(
+  (string * t element_type) list
+)
+"config.ml" 115 4892 4910 "config.ml" 115 4892 4912
+type(
+  tuple list
+)
+"config.ml" 115 4892 4905 "config.ml" 115 4892 4913
+type(
+  ext_tuple
+)
+"config.ml" 115 4892 4903 "config.ml" 115 4892 4915
+type(
+  ext_tuple list
+)
+"config.ml" 112 4780 4784 "config.ml" 115 4892 4916
+call(
+  stack
+)
+type(
+  ext_tuple list
+)
+"config.ml" 116 4917 4923 "config.ml" 116 4917 4925
+type(
+  ext_tuple list -> (ext_tuple list -> tuple list list) -> tuple list list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"config.ml" 116 4917 4927 "config.ml" 116 4917 4935
+type(
+  (ext_tuple -> tuple list) -> ext_tuple list -> tuple list list
+)
+ident(
+  ext_ref List.map
+)
+"config.ml" 116 4917 4936 "config.ml" 116 4917 4939
+type(
+  ext_tuple -> tuple list
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"config.ml" 116 4917 4926 "config.ml" 116 4917 4940
+type(
+  ext_tuple list -> tuple list list
+)
+"config.ml" 112 4780 4784 "config.ml" 116 4917 4940
+call(
+  tail
+)
+type(
+  tuple list list
+)
+"config.ml" 80 3578 3580 "config.ml" 116 4917 4940
+type(
+  tuple list list
+)
+"config.ml" 72 3125 3127 "config.ml" 116 4917 4940
+type(
+  tuple list list
+)
+"config.ml" 61 2485 2487 "config.ml" 116 4917 4940
+type(
+  tuple list list
+)
+type(
+  tuple list list
+)

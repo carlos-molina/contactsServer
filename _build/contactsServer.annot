@@ -1,0 +1,1459 @@
+"contactsServer.ml" 33 895 899 "contactsServer.ml" 33 895 906
+type(
+  body:'a ->
+  'b -> Cohttp.Request.t -> Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  def handler "contactsServer.ml" 74 2784 2784 "contactsServer.ml" 1 0 -1
+)
+"contactsServer.ml" 33 895 913 "contactsServer.ml" 33 895 914
+type(
+  'a
+)
+"contactsServer.ml" 33 895 915 "contactsServer.ml" 33 895 920
+type(
+  'b
+)
+ident(
+  def _sock "contactsServer.ml" 33 895 921 "contactsServer.ml" 72 2717 2782
+)
+"contactsServer.ml" 33 895 921 "contactsServer.ml" 33 895 924
+type(
+  Cohttp.Request.t
+)
+ident(
+  def req "contactsServer.ml" 34 927 929 "contactsServer.ml" 72 2717 2782
+)
+"contactsServer.ml" 34 927 933 "contactsServer.ml" 34 927 936
+type(
+  Uri.t
+)
+ident(
+  def uri "contactsServer.ml" 34 927 965 "contactsServer.ml" 72 2717 2782
+)
+"contactsServer.ml" 34 927 939 "contactsServer.ml" 34 927 957
+type(
+  Cohttp.Request.t -> Uri.t
+)
+ident(
+  ext_ref Cohttp.Request.uri
+)
+"contactsServer.ml" 34 927 958 "contactsServer.ml" 34 927 961
+type(
+  Cohttp.Request.t
+)
+ident(
+  int_ref req "contactsServer.ml" 33 895 921 "contactsServer.ml" 33 895 924
+)
+"contactsServer.ml" 34 927 939 "contactsServer.ml" 34 927 961
+call(
+  stack
+)
+type(
+  Uri.t
+)
+"contactsServer.ml" 34 927 971 "contactsServer.ml" 34 927 979
+type(
+  Uri.t -> string
+)
+ident(
+  ext_ref Uri.path
+)
+"contactsServer.ml" 34 927 980 "contactsServer.ml" 34 927 983
+type(
+  Uri.t
+)
+ident(
+  int_ref uri "contactsServer.ml" 34 927 933 "contactsServer.ml" 34 927 936
+)
+"contactsServer.ml" 34 927 971 "contactsServer.ml" 34 927 983
+call(
+  stack
+)
+type(
+  string
+)
+"contactsServer.ml" 36 990 994 "contactsServer.ml" 36 990 1016
+type(
+  string
+)
+"contactsServer.ml" 36 990 1020 "contactsServer.ml" 36 990 1039
+type(
+  Uri.t -> string -> string Core.Std.Option.t
+)
+ident(
+  ext_ref Uri.get_query_param
+)
+"contactsServer.ml" 36 990 1040 "contactsServer.ml" 36 990 1043
+type(
+  Uri.t
+)
+ident(
+  int_ref uri "contactsServer.ml" 34 927 933 "contactsServer.ml" 34 927 936
+)
+"contactsServer.ml" 36 990 1044 "contactsServer.ml" 36 990 1049
+type(
+  string
+)
+"contactsServer.ml" 36 990 1020 "contactsServer.ml" 36 990 1049
+call(
+  stack
+)
+type(
+  string Core.Std.Option.t
+)
+"contactsServer.ml" 37 1050 1054 "contactsServer.ml" 37 1050 1056
+type(
+  string Core.Std.Option.t ->
+  (string Core.Std.Option.t -> string Core.Std.Option.t) ->
+  string Core.Std.Option.t
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 37 1050 1057 "contactsServer.ml" 37 1050 1067
+type(
+  string Core.Std.Option.t ->
+  f:(string -> string) -> string Core.Std.Option.t
+)
+ident(
+  ext_ref Core.Std.Option.map
+)
+"contactsServer.ml" 37 1050 1076 "contactsServer.ml" 37 1050 1079
+type(
+  string
+)
+ident(
+  def str "contactsServer.ml" 37 1050 1082 "contactsServer.ml" 37 1050 1105
+)
+"contactsServer.ml" 37 1050 1082 "contactsServer.ml" 37 1050 1101
+type(
+  string -> string
+)
+ident(
+  ext_ref Rcontacts.bounceStr
+)
+"contactsServer.ml" 37 1050 1102 "contactsServer.ml" 37 1050 1105
+type(
+  string
+)
+ident(
+  int_ref str "contactsServer.ml" 37 1050 1076 "contactsServer.ml" 37 1050 1079
+)
+"contactsServer.ml" 37 1050 1082 "contactsServer.ml" 37 1050 1105
+call(
+  tail
+)
+type(
+  string
+)
+"contactsServer.ml" 37 1050 1071 "contactsServer.ml" 37 1050 1106
+type(
+  string -> string
+)
+"contactsServer.ml" 37 1050 1057 "contactsServer.ml" 37 1050 1106
+call(
+  tail
+)
+type(
+  string Core.Std.Option.t -> string Core.Std.Option.t
+)
+"contactsServer.ml" 36 990 1020 "contactsServer.ml" 37 1050 1106
+call(
+  stack
+)
+type(
+  string Core.Std.Option.t
+)
+"contactsServer.ml" 38 1107 1111 "contactsServer.ml" 38 1107 1113
+type(
+  string Core.Std.Option.t -> (string Core.Std.Option.t -> string) -> string
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 38 1107 1114 "contactsServer.ml" 38 1107 1126
+type(
+  string Core.Std.Option.t -> default:string -> string
+)
+ident(
+  ext_ref Core.Std.Option.value
+)
+"contactsServer.ml" 38 1107 1136 "contactsServer.ml" 38 1107 1180
+type(
+  string
+)
+"contactsServer.ml" 38 1107 1114 "contactsServer.ml" 38 1107 1180
+call(
+  tail
+)
+type(
+  string Core.Std.Option.t -> string
+)
+"contactsServer.ml" 36 990 1020 "contactsServer.ml" 38 1107 1180
+call(
+  stack
+)
+type(
+  string
+)
+"contactsServer.ml" 39 1181 1185 "contactsServer.ml" 39 1181 1187
+type(
+  string ->
+  (string -> Cohttp_async.Server.response Async.Std.Deferred.t) ->
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 39 1181 1188 "contactsServer.ml" 39 1181 1214
+call(
+  tail
+)
+type(
+  ?flush:bool ->
+  ?headers:Cohttp.Header.t ->
+  ?code:Cohttp.Code.status_code ->
+  string -> Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Cohttp_async.Server.respond_with_string
+)
+"contactsServer.ml" 36 990 1020 "contactsServer.ml" 39 1181 1214
+call(
+  tail
+)
+type(
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 41 1217 1221 "contactsServer.ml" 41 1217 1249
+type(
+  string
+)
+"contactsServer.ml" 41 1217 1253 "contactsServer.ml" 41 1217 1272
+type(
+  Uri.t -> string -> Config.obj_t Core.Std.Option.t
+)
+ident(
+  ext_ref Uri.get_query_param
+)
+"contactsServer.ml" 41 1217 1273 "contactsServer.ml" 41 1217 1276
+type(
+  Uri.t
+)
+ident(
+  int_ref uri "contactsServer.ml" 34 927 933 "contactsServer.ml" 34 927 936
+)
+"contactsServer.ml" 41 1217 1277 "contactsServer.ml" 41 1217 1288
+type(
+  string
+)
+"contactsServer.ml" 41 1217 1253 "contactsServer.ml" 41 1217 1288
+call(
+  stack
+)
+type(
+  Config.obj_t Core.Std.Option.t
+)
+"contactsServer.ml" 42 1289 1293 "contactsServer.ml" 42 1289 1295
+type(
+  Config.obj_t Core.Std.Option.t ->
+  (Config.obj_t Core.Std.Option.t -> string Core.Std.Option.t) ->
+  string Core.Std.Option.t
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 42 1289 1296 "contactsServer.ml" 42 1289 1306
+type(
+  Config.obj_t Core.Std.Option.t ->
+  f:(Config.obj_t -> string) -> string Core.Std.Option.t
+)
+ident(
+  ext_ref Core.Std.Option.map
+)
+"contactsServer.ml" 42 1289 1315 "contactsServer.ml" 42 1289 1318
+type(
+  Config.obj_t
+)
+ident(
+  def str "contactsServer.ml" 42 1289 1321 "contactsServer.ml" 42 1289 1360
+)
+"contactsServer.ml" 42 1289 1321 "contactsServer.ml" 42 1289 1356
+type(
+  Config.obj_t -> string
+)
+ident(
+  ext_ref Rcontacts.getContactDataByFirstName
+)
+"contactsServer.ml" 42 1289 1357 "contactsServer.ml" 42 1289 1360
+type(
+  Config.obj_t
+)
+ident(
+  int_ref str "contactsServer.ml" 42 1289 1315 "contactsServer.ml" 42 1289 1318
+)
+"contactsServer.ml" 42 1289 1321 "contactsServer.ml" 42 1289 1360
+call(
+  tail
+)
+type(
+  string
+)
+"contactsServer.ml" 42 1289 1310 "contactsServer.ml" 42 1289 1361
+type(
+  Config.obj_t -> string
+)
+"contactsServer.ml" 42 1289 1296 "contactsServer.ml" 42 1289 1361
+call(
+  tail
+)
+type(
+  Config.obj_t Core.Std.Option.t -> string Core.Std.Option.t
+)
+"contactsServer.ml" 41 1217 1253 "contactsServer.ml" 42 1289 1361
+call(
+  stack
+)
+type(
+  string Core.Std.Option.t
+)
+"contactsServer.ml" 43 1362 1366 "contactsServer.ml" 43 1362 1368
+type(
+  string Core.Std.Option.t -> (string Core.Std.Option.t -> string) -> string
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 43 1362 1369 "contactsServer.ml" 43 1362 1381
+type(
+  string Core.Std.Option.t -> default:string -> string
+)
+ident(
+  ext_ref Core.Std.Option.value
+)
+"contactsServer.ml" 43 1362 1391 "contactsServer.ml" 43 1362 1440
+type(
+  string
+)
+"contactsServer.ml" 43 1362 1369 "contactsServer.ml" 43 1362 1440
+call(
+  tail
+)
+type(
+  string Core.Std.Option.t -> string
+)
+"contactsServer.ml" 41 1217 1253 "contactsServer.ml" 43 1362 1440
+call(
+  stack
+)
+type(
+  string
+)
+"contactsServer.ml" 44 1441 1445 "contactsServer.ml" 44 1441 1447
+type(
+  string ->
+  (string -> Cohttp_async.Server.response Async.Std.Deferred.t) ->
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 44 1441 1448 "contactsServer.ml" 44 1441 1474
+call(
+  tail
+)
+type(
+  ?flush:bool ->
+  ?headers:Cohttp.Header.t ->
+  ?code:Cohttp.Code.status_code ->
+  string -> Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Cohttp_async.Server.respond_with_string
+)
+"contactsServer.ml" 41 1217 1253 "contactsServer.ml" 44 1441 1474
+call(
+  tail
+)
+type(
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 46 1477 1481 "contactsServer.ml" 46 1477 1508
+type(
+  string
+)
+"contactsServer.ml" 46 1477 1512 "contactsServer.ml" 46 1477 1531
+type(
+  Uri.t -> string -> Config.obj_t Core.Std.Option.t
+)
+ident(
+  ext_ref Uri.get_query_param
+)
+"contactsServer.ml" 46 1477 1532 "contactsServer.ml" 46 1477 1535
+type(
+  Uri.t
+)
+ident(
+  int_ref uri "contactsServer.ml" 34 927 933 "contactsServer.ml" 34 927 936
+)
+"contactsServer.ml" 46 1477 1536 "contactsServer.ml" 46 1477 1546
+type(
+  string
+)
+"contactsServer.ml" 46 1477 1512 "contactsServer.ml" 46 1477 1546
+call(
+  stack
+)
+type(
+  Config.obj_t Core.Std.Option.t
+)
+"contactsServer.ml" 47 1547 1551 "contactsServer.ml" 47 1547 1553
+type(
+  Config.obj_t Core.Std.Option.t ->
+  (Config.obj_t Core.Std.Option.t -> string Core.Std.Option.t) ->
+  string Core.Std.Option.t
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 47 1547 1554 "contactsServer.ml" 47 1547 1564
+type(
+  Config.obj_t Core.Std.Option.t ->
+  f:(Config.obj_t -> string) -> string Core.Std.Option.t
+)
+ident(
+  ext_ref Core.Std.Option.map
+)
+"contactsServer.ml" 47 1547 1573 "contactsServer.ml" 47 1547 1576
+type(
+  Config.obj_t
+)
+ident(
+  def str "contactsServer.ml" 47 1547 1579 "contactsServer.ml" 47 1547 1617
+)
+"contactsServer.ml" 47 1547 1579 "contactsServer.ml" 47 1547 1613
+type(
+  Config.obj_t -> string
+)
+ident(
+  ext_ref Rcontacts.getContactDataByLastName
+)
+"contactsServer.ml" 47 1547 1614 "contactsServer.ml" 47 1547 1617
+type(
+  Config.obj_t
+)
+ident(
+  int_ref str "contactsServer.ml" 47 1547 1573 "contactsServer.ml" 47 1547 1576
+)
+"contactsServer.ml" 47 1547 1579 "contactsServer.ml" 47 1547 1617
+call(
+  tail
+)
+type(
+  string
+)
+"contactsServer.ml" 47 1547 1568 "contactsServer.ml" 47 1547 1618
+type(
+  Config.obj_t -> string
+)
+"contactsServer.ml" 47 1547 1554 "contactsServer.ml" 47 1547 1618
+call(
+  tail
+)
+type(
+  Config.obj_t Core.Std.Option.t -> string Core.Std.Option.t
+)
+"contactsServer.ml" 46 1477 1512 "contactsServer.ml" 47 1547 1618
+call(
+  stack
+)
+type(
+  string Core.Std.Option.t
+)
+"contactsServer.ml" 48 1619 1623 "contactsServer.ml" 48 1619 1625
+type(
+  string Core.Std.Option.t -> (string Core.Std.Option.t -> string) -> string
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 48 1619 1626 "contactsServer.ml" 48 1619 1638
+type(
+  string Core.Std.Option.t -> default:string -> string
+)
+ident(
+  ext_ref Core.Std.Option.value
+)
+"contactsServer.ml" 48 1619 1648 "contactsServer.ml" 48 1619 1696
+type(
+  string
+)
+"contactsServer.ml" 48 1619 1626 "contactsServer.ml" 48 1619 1696
+call(
+  tail
+)
+type(
+  string Core.Std.Option.t -> string
+)
+"contactsServer.ml" 46 1477 1512 "contactsServer.ml" 48 1619 1696
+call(
+  stack
+)
+type(
+  string
+)
+"contactsServer.ml" 49 1697 1701 "contactsServer.ml" 49 1697 1703
+type(
+  string ->
+  (string -> Cohttp_async.Server.response Async.Std.Deferred.t) ->
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 49 1697 1704 "contactsServer.ml" 49 1697 1730
+call(
+  tail
+)
+type(
+  ?flush:bool ->
+  ?headers:Cohttp.Header.t ->
+  ?code:Cohttp.Code.status_code ->
+  string -> Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Cohttp_async.Server.respond_with_string
+)
+"contactsServer.ml" 46 1477 1512 "contactsServer.ml" 49 1697 1730
+call(
+  tail
+)
+type(
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 51 1733 1737 "contactsServer.ml" 51 1733 1761
+type(
+  string
+)
+"contactsServer.ml" 51 1733 1765 "contactsServer.ml" 51 1733 1784
+type(
+  Uri.t -> string -> Config.obj_t Core.Std.Option.t
+)
+ident(
+  ext_ref Uri.get_query_param
+)
+"contactsServer.ml" 51 1733 1785 "contactsServer.ml" 51 1733 1788
+type(
+  Uri.t
+)
+ident(
+  int_ref uri "contactsServer.ml" 34 927 933 "contactsServer.ml" 34 927 936
+)
+"contactsServer.ml" 51 1733 1789 "contactsServer.ml" 51 1733 1796
+type(
+  string
+)
+"contactsServer.ml" 51 1733 1765 "contactsServer.ml" 51 1733 1796
+call(
+  stack
+)
+type(
+  Config.obj_t Core.Std.Option.t
+)
+"contactsServer.ml" 52 1797 1801 "contactsServer.ml" 52 1797 1803
+type(
+  Config.obj_t Core.Std.Option.t ->
+  (Config.obj_t Core.Std.Option.t -> string Core.Std.Option.t) ->
+  string Core.Std.Option.t
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 52 1797 1804 "contactsServer.ml" 52 1797 1814
+type(
+  Config.obj_t Core.Std.Option.t ->
+  f:(Config.obj_t -> string) -> string Core.Std.Option.t
+)
+ident(
+  ext_ref Core.Std.Option.map
+)
+"contactsServer.ml" 52 1797 1823 "contactsServer.ml" 52 1797 1826
+type(
+  Config.obj_t
+)
+ident(
+  def str "contactsServer.ml" 52 1797 1829 "contactsServer.ml" 52 1797 1864
+)
+"contactsServer.ml" 52 1797 1829 "contactsServer.ml" 52 1797 1860
+type(
+  Config.obj_t -> string
+)
+ident(
+  ext_ref Rcontacts.getContactDataByEmail
+)
+"contactsServer.ml" 52 1797 1861 "contactsServer.ml" 52 1797 1864
+type(
+  Config.obj_t
+)
+ident(
+  int_ref str "contactsServer.ml" 52 1797 1823 "contactsServer.ml" 52 1797 1826
+)
+"contactsServer.ml" 52 1797 1829 "contactsServer.ml" 52 1797 1864
+call(
+  tail
+)
+type(
+  string
+)
+"contactsServer.ml" 52 1797 1818 "contactsServer.ml" 52 1797 1865
+type(
+  Config.obj_t -> string
+)
+"contactsServer.ml" 52 1797 1804 "contactsServer.ml" 52 1797 1865
+call(
+  tail
+)
+type(
+  Config.obj_t Core.Std.Option.t -> string Core.Std.Option.t
+)
+"contactsServer.ml" 51 1733 1765 "contactsServer.ml" 52 1797 1865
+call(
+  stack
+)
+type(
+  string Core.Std.Option.t
+)
+"contactsServer.ml" 53 1866 1870 "contactsServer.ml" 53 1866 1872
+type(
+  string Core.Std.Option.t -> (string Core.Std.Option.t -> string) -> string
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 53 1866 1873 "contactsServer.ml" 53 1866 1885
+type(
+  string Core.Std.Option.t -> default:string -> string
+)
+ident(
+  ext_ref Core.Std.Option.value
+)
+"contactsServer.ml" 53 1866 1895 "contactsServer.ml" 53 1866 1940
+type(
+  string
+)
+"contactsServer.ml" 53 1866 1873 "contactsServer.ml" 53 1866 1940
+call(
+  tail
+)
+type(
+  string Core.Std.Option.t -> string
+)
+"contactsServer.ml" 51 1733 1765 "contactsServer.ml" 53 1866 1940
+call(
+  stack
+)
+type(
+  string
+)
+"contactsServer.ml" 54 1941 1945 "contactsServer.ml" 54 1941 1947
+type(
+  string ->
+  (string -> Cohttp_async.Server.response Async.Std.Deferred.t) ->
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 54 1941 1948 "contactsServer.ml" 54 1941 1974
+call(
+  tail
+)
+type(
+  ?flush:bool ->
+  ?headers:Cohttp.Header.t ->
+  ?code:Cohttp.Code.status_code ->
+  string -> Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Cohttp_async.Server.respond_with_string
+)
+"contactsServer.ml" 51 1733 1765 "contactsServer.ml" 54 1941 1974
+call(
+  tail
+)
+type(
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 56 1977 1981 "contactsServer.ml" 56 1977 2013
+type(
+  string
+)
+"contactsServer.ml" 56 1977 2017 "contactsServer.ml" 56 1977 2036
+type(
+  Uri.t -> string -> string option
+)
+ident(
+  ext_ref Uri.get_query_param
+)
+"contactsServer.ml" 56 1977 2037 "contactsServer.ml" 56 1977 2040
+type(
+  Uri.t
+)
+ident(
+  int_ref uri "contactsServer.ml" 34 927 933 "contactsServer.ml" 34 927 936
+)
+"contactsServer.ml" 56 1977 2041 "contactsServer.ml" 56 1977 2056
+type(
+  string
+)
+"contactsServer.ml" 56 1977 2017 "contactsServer.ml" 56 1977 2056
+call(
+  stack
+)
+type(
+  string option
+)
+"contactsServer.ml" 57 2058 2062 "contactsServer.ml" 57 2058 2064
+type(
+  string option ->
+  (string option -> Cohttp_async.Server.response Async.Std.Deferred.t) ->
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 57 2058 2069 "contactsServer.ml" 57 2058 2079
+type(
+  string option
+)
+ident(
+  def someOrNone "contactsServer.ml" 57 2058 2083 "contactsServer.ml" 68 2671 2704
+)
+"contactsServer.ml" 57 2058 2087 "contactsServer.ml" 57 2058 2100
+type(
+  string
+)
+ident(
+  def requestorName "contactsServer.ml" 60 2216 2226 "contactsServer.ml" 68 2671 2704
+)
+"contactsServer.ml" 57 2058 2108 "contactsServer.ml" 57 2058 2118
+type(
+  string option
+)
+ident(
+  int_ref someOrNone "contactsServer.ml" 57 2058 2069 "contactsServer.ml" 57 2058 2079
+)
+"contactsServer.ml" 58 2124 2133 "contactsServer.ml" 58 2124 2137
+type(
+  string option
+)
+"contactsServer.ml" 58 2124 2146 "contactsServer.ml" 58 2124 2151
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"contactsServer.ml" 58 2124 2161 "contactsServer.ml" 58 2124 2185
+type(
+  string
+)
+"contactsServer.ml" 58 2124 2152 "contactsServer.ml" 58 2124 2186
+type(
+  exn
+)
+"contactsServer.ml" 58 2124 2146 "contactsServer.ml" 58 2124 2186
+type(
+  string
+)
+"contactsServer.ml" 59 2188 2202 "contactsServer.ml" 59 2188 2206
+type(
+  string
+)
+ident(
+  def name "contactsServer.ml" 59 2188 2210 "contactsServer.ml" 59 2188 2214
+)
+"contactsServer.ml" 59 2188 2197 "contactsServer.ml" 59 2188 2206
+type(
+  string option
+)
+"contactsServer.ml" 59 2188 2210 "contactsServer.ml" 59 2188 2214
+type(
+  string
+)
+ident(
+  int_ref name "contactsServer.ml" 59 2188 2202 "contactsServer.ml" 59 2188 2206
+)
+"contactsServer.ml" 57 2058 2102 "contactsServer.ml" 59 2188 2214
+type(
+  string
+)
+"contactsServer.ml" 60 2216 2226 "contactsServer.ml" 60 2216 2239
+type(
+  string
+)
+ident(
+  int_ref requestorName "contactsServer.ml" 57 2058 2087 "contactsServer.ml" 57 2058 2100
+)
+"contactsServer.ml" 61 2241 2245 "contactsServer.ml" 61 2241 2247
+type(
+  string ->
+  (string -> Cohttp_async.Server.response Async.Std.Deferred.t) ->
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 61 2241 2252 "contactsServer.ml" 61 2241 2253
+type(
+  string
+)
+"contactsServer.ml" 61 2241 2270 "contactsServer.ml" 61 2241 2279
+type(
+  string
+)
+ident(
+  def firstName "contactsServer.ml" 64 2424 2434 "contactsServer.ml" 68 2671 2704
+)
+"contactsServer.ml" 61 2241 2287 "contactsServer.ml" 61 2241 2306
+type(
+  Uri.t -> string -> string option
+)
+ident(
+  ext_ref Uri.get_query_param
+)
+"contactsServer.ml" 61 2241 2307 "contactsServer.ml" 61 2241 2310
+type(
+  Uri.t
+)
+ident(
+  int_ref uri "contactsServer.ml" 34 927 933 "contactsServer.ml" 34 927 936
+)
+"contactsServer.ml" 61 2241 2311 "contactsServer.ml" 61 2241 2322
+type(
+  string
+)
+"contactsServer.ml" 61 2241 2287 "contactsServer.ml" 61 2241 2322
+call(
+  stack
+)
+type(
+  string option
+)
+"contactsServer.ml" 62 2329 2338 "contactsServer.ml" 62 2329 2342
+type(
+  string option
+)
+"contactsServer.ml" 62 2329 2354 "contactsServer.ml" 62 2329 2359
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"contactsServer.ml" 62 2329 2369 "contactsServer.ml" 62 2329 2390
+type(
+  string
+)
+"contactsServer.ml" 62 2329 2360 "contactsServer.ml" 62 2329 2391
+type(
+  exn
+)
+"contactsServer.ml" 62 2329 2354 "contactsServer.ml" 62 2329 2391
+type(
+  string
+)
+"contactsServer.ml" 63 2393 2407 "contactsServer.ml" 63 2393 2411
+type(
+  string
+)
+ident(
+  def name "contactsServer.ml" 63 2393 2418 "contactsServer.ml" 63 2393 2422
+)
+"contactsServer.ml" 63 2393 2402 "contactsServer.ml" 63 2393 2411
+type(
+  string option
+)
+"contactsServer.ml" 63 2393 2418 "contactsServer.ml" 63 2393 2422
+type(
+  string
+)
+ident(
+  int_ref name "contactsServer.ml" 63 2393 2407 "contactsServer.ml" 63 2393 2411
+)
+"contactsServer.ml" 61 2241 2281 "contactsServer.ml" 63 2393 2422
+type(
+  string
+)
+"contactsServer.ml" 64 2424 2440 "contactsServer.ml" 64 2424 2453
+type(
+  string
+)
+ident(
+  int_ref requestorName "contactsServer.ml" 57 2058 2087 "contactsServer.ml" 57 2058 2100
+)
+"contactsServer.ml" 64 2424 2455 "contactsServer.ml" 64 2424 2464
+type(
+  Config.obj_t
+)
+ident(
+  int_ref firstName "contactsServer.ml" 61 2241 2270 "contactsServer.ml" 61 2241 2279
+)
+"contactsServer.ml" 64 2424 2439 "contactsServer.ml" 64 2424 2465
+type(
+  string * Config.obj_t
+)
+"contactsServer.ml" 64 2424 2434 "contactsServer.ml" 64 2424 2465
+type(
+  (string * Config.obj_t) Core.Std.Option.t
+)
+"contactsServer.ml" 65 2466 2470 "contactsServer.ml" 65 2466 2472
+type(
+  (string * Config.obj_t) Core.Std.Option.t ->
+  ((string * Config.obj_t) Core.Std.Option.t -> string Core.Std.Option.t) ->
+  string Core.Std.Option.t
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 65 2466 2473 "contactsServer.ml" 65 2466 2483
+type(
+  (string * Config.obj_t) Core.Std.Option.t ->
+  f:(string * Config.obj_t -> string) -> string Core.Std.Option.t
+)
+ident(
+  ext_ref Core.Std.Option.map
+)
+"contactsServer.ml" 65 2466 2492 "contactsServer.ml" 65 2466 2497
+type(
+  string * Config.obj_t
+)
+ident(
+  def rn_fn "contactsServer.ml" 66 2501 2516 "contactsServer.ml" 66 2501 2581
+)
+"contactsServer.ml" 66 2501 2516 "contactsServer.ml" 66 2501 2555
+type(
+  string -> Config.obj_t -> string
+)
+ident(
+  ext_ref Rcontacts.getContactDataByFirstNamePlcy
+)
+"contactsServer.ml" 66 2501 2557 "contactsServer.ml" 66 2501 2560
+type(
+  string * Config.obj_t -> string
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"contactsServer.ml" 66 2501 2560 "contactsServer.ml" 66 2501 2567
+type(
+  string * Config.obj_t
+)
+ident(
+  int_ref rn_fn "contactsServer.ml" 65 2466 2492 "contactsServer.ml" 65 2466 2497
+)
+"contactsServer.ml" 66 2501 2556 "contactsServer.ml" 66 2501 2568
+type(
+  string
+)
+"contactsServer.ml" 66 2501 2570 "contactsServer.ml" 66 2501 2573
+type(
+  string * Config.obj_t -> Config.obj_t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"contactsServer.ml" 66 2501 2573 "contactsServer.ml" 66 2501 2580
+type(
+  string * Config.obj_t
+)
+ident(
+  int_ref rn_fn "contactsServer.ml" 65 2466 2492 "contactsServer.ml" 65 2466 2497
+)
+"contactsServer.ml" 66 2501 2569 "contactsServer.ml" 66 2501 2581
+type(
+  Config.obj_t
+)
+"contactsServer.ml" 66 2501 2516 "contactsServer.ml" 66 2501 2581
+call(
+  tail
+)
+type(
+  string
+)
+"contactsServer.ml" 65 2466 2487 "contactsServer.ml" 66 2501 2582
+type(
+  string * Config.obj_t -> string
+)
+"contactsServer.ml" 65 2466 2473 "contactsServer.ml" 66 2501 2582
+call(
+  tail
+)
+type(
+  (string * Config.obj_t) Core.Std.Option.t -> string Core.Std.Option.t
+)
+"contactsServer.ml" 64 2424 2434 "contactsServer.ml" 66 2501 2582
+call(
+  stack
+)
+type(
+  string Core.Std.Option.t
+)
+"contactsServer.ml" 67 2584 2588 "contactsServer.ml" 67 2584 2590
+type(
+  string Core.Std.Option.t -> (string Core.Std.Option.t -> string) -> string
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 67 2584 2591 "contactsServer.ml" 67 2584 2603
+type(
+  string Core.Std.Option.t -> default:string -> string
+)
+ident(
+  ext_ref Core.Std.Option.value
+)
+"contactsServer.ml" 67 2584 2613 "contactsServer.ml" 67 2584 2670
+type(
+  string
+)
+"contactsServer.ml" 67 2584 2591 "contactsServer.ml" 67 2584 2670
+call(
+  tail
+)
+type(
+  string Core.Std.Option.t -> string
+)
+"contactsServer.ml" 64 2424 2434 "contactsServer.ml" 67 2584 2670
+call(
+  stack
+)
+type(
+  string
+)
+"contactsServer.ml" 68 2671 2675 "contactsServer.ml" 68 2671 2677
+type(
+  string ->
+  (string -> Cohttp_async.Server.response Async.Std.Deferred.t) ->
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 68 2671 2678 "contactsServer.ml" 68 2671 2704
+call(
+  tail
+)
+type(
+  ?flush:bool ->
+  ?headers:Cohttp.Header.t ->
+  ?code:Cohttp.Code.status_code ->
+  string -> Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Cohttp_async.Server.respond_with_string
+)
+"contactsServer.ml" 64 2424 2434 "contactsServer.ml" 68 2671 2704
+call(
+  tail
+)
+type(
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 61 2241 2266 "contactsServer.ml" 68 2671 2704
+type(
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 61 2241 2248 "contactsServer.ml" 68 2671 2704
+type(
+  string -> Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 60 2216 2226 "contactsServer.ml" 68 2671 2704
+call(
+  tail
+)
+type(
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 57 2058 2083 "contactsServer.ml" 68 2671 2704
+type(
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 57 2058 2065 "contactsServer.ml" 68 2671 2704
+type(
+  string option -> Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 56 1977 2017 "contactsServer.ml" 68 2671 2704
+call(
+  tail
+)
+type(
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 71 2708 2712 "contactsServer.ml" 71 2708 2713
+type(
+  string
+)
+"contactsServer.ml" 72 2717 2721 "contactsServer.ml" 72 2717 2747
+type(
+  ?flush:bool ->
+  ?headers:Cohttp.Header.t ->
+  ?code:Cohttp.Code.status_code ->
+  string -> Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  ext_ref Cohttp_async.Server.respond_with_string
+)
+"contactsServer.ml" 72 2717 2754 "contactsServer.ml" 72 2717 2764
+type(
+  Cohttp.Code.status_code
+)
+"contactsServer.ml" 72 2717 2765 "contactsServer.ml" 72 2717 2782
+type(
+  string
+)
+"contactsServer.ml" 72 2717 2721 "contactsServer.ml" 72 2717 2782
+call(
+  tail
+)
+type(
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 34 927 965 "contactsServer.ml" 72 2717 2782
+type(
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 34 927 929 "contactsServer.ml" 72 2717 2782
+type(
+  Cohttp_async.Server.response Async.Std.Deferred.t
+)
+"contactsServer.ml" 74 2784 2788 "contactsServer.ml" 74 2784 2800
+type(
+  int -> unit -> 'a Async_kernel.Deferred.t
+)
+ident(
+  def start_server "contactsServer.ml" 82 3108 3108 "contactsServer.ml" 1 0 -1
+)
+"contactsServer.ml" 74 2784 2801 "contactsServer.ml" 74 2784 2805
+type(
+  int
+)
+ident(
+  def port "contactsServer.ml" 74 2784 2806 "contactsServer.ml" 80 3074 3106
+)
+"contactsServer.ml" 74 2784 2806 "contactsServer.ml" 74 2784 2808
+type(
+  unit
+)
+"contactsServer.ml" 75 2811 2813 "contactsServer.ml" 75 2811 2820
+type(
+  (int -> unit, unit, string, unit) format4 -> int -> unit
+)
+ident(
+  ext_ref Async.Std.eprintf
+)
+"contactsServer.ml" 75 2811 2821 "contactsServer.ml" 75 2811 2869
+type(
+  (int -> unit, unit, string, unit) format4
+)
+"contactsServer.ml" 75 2811 2870 "contactsServer.ml" 75 2811 2874
+type(
+  int
+)
+ident(
+  int_ref port "contactsServer.ml" 74 2784 2801 "contactsServer.ml" 74 2784 2805
+)
+"contactsServer.ml" 75 2811 2813 "contactsServer.ml" 75 2811 2874
+call(
+  stack
+)
+type(
+  unit
+)
+"contactsServer.ml" 76 2876 2878 "contactsServer.ml" 76 2876 2885
+type(
+  (int -> unit, unit, string, unit) format4 -> int -> unit
+)
+ident(
+  ext_ref Async.Std.eprintf
+)
+"contactsServer.ml" 76 2876 2886 "contactsServer.ml" 76 2876 2980
+type(
+  (int -> unit, unit, string, unit) format4
+)
+"contactsServer.ml" 76 2876 2981 "contactsServer.ml" 76 2876 2985
+type(
+  int
+)
+ident(
+  int_ref port "contactsServer.ml" 74 2784 2801 "contactsServer.ml" 74 2784 2805
+)
+"contactsServer.ml" 76 2876 2878 "contactsServer.ml" 76 2876 2985
+call(
+  stack
+)
+type(
+  unit
+)
+"contactsServer.ml" 78 2989 2991 "contactsServer.ml" 78 2989 3017
+type(
+  ?max_connections:int ->
+  ?max_pending_connections:int ->
+  ?buffer_age_limit:Async.Std.Writer.buffer_age_limit ->
+  ?on_handler_error:[ `Call of
+                        Async_extra.Import.Socket.Address.Inet.t ->
+                        exn -> unit
+                    | `Ignore
+                    | `Raise ] ->
+  ?mode:Conduit_async.server ->
+  (Async_extra.Import.Socket.Address.Inet.t, int)
+  Async.Std.Tcp.Where_to_listen.t ->
+  (body:Cohttp_async.Body.t ->
+   Async_extra.Import.Socket.Address.Inet.t ->
+   Cohttp_async.Request.t ->
+   Cohttp_async.Server.response Async.Std.Deferred.t) ->
+  (Async_extra.Import.Socket.Address.Inet.t, int) Cohttp_async.Server.t
+  Async.Std.Deferred.t
+)
+ident(
+  ext_ref Cohttp_async.Server.create
+)
+"contactsServer.ml" 78 2989 3036 "contactsServer.ml" 78 2989 3042
+type(
+  [ `Call of Async_extra.Import.Socket.Address.Inet.t -> exn -> unit
+  | `Ignore
+  | `Raise ]
+)
+"contactsServer.ml" 79 3043 3048 "contactsServer.ml" 79 3043 3059
+type(
+  int -> Async.Std.Tcp.Where_to_listen.inet
+)
+ident(
+  ext_ref Async.Std.Tcp.on_port
+)
+"contactsServer.ml" 79 3043 3060 "contactsServer.ml" 79 3043 3064
+type(
+  int
+)
+ident(
+  int_ref port "contactsServer.ml" 74 2784 2801 "contactsServer.ml" 74 2784 2805
+)
+"contactsServer.ml" 79 3043 3047 "contactsServer.ml" 79 3043 3065
+call(
+  stack
+)
+type(
+  Async.Std.Tcp.Where_to_listen.inet
+)
+"contactsServer.ml" 79 3043 3066 "contactsServer.ml" 79 3043 3073
+type(
+  body:Cohttp_async.Body.t ->
+  Async_extra.Import.Socket.Address.Inet.t ->
+  Cohttp_async.Request.t -> Cohttp_async.Server.response Async.Std.Deferred.t
+)
+ident(
+  int_ref handler "contactsServer.ml" 33 895 899 "contactsServer.ml" 33 895 906
+)
+"contactsServer.ml" 78 2989 2991 "contactsServer.ml" 79 3043 3073
+call(
+  stack
+)
+type(
+  (Async_extra.Import.Socket.Address.Inet.t, int) Cohttp_async.Server.t
+  Async.Std.Deferred.t
+)
+"contactsServer.ml" 80 3074 3076 "contactsServer.ml" 80 3074 3079
+type(
+  (Async_extra.Import.Socket.Address.Inet.t, int) Cohttp_async.Server.t
+  Async_kernel.Deferred.t ->
+  ((Async_extra.Import.Socket.Address.Inet.t, int) Cohttp_async.Server.t ->
+   'a Async_kernel.Deferred.t) ->
+  'a Async_kernel.Deferred.t
+)
+ident(
+  ext_ref Async.Std.( >>= )
+)
+"contactsServer.ml" 80 3074 3084 "contactsServer.ml" 80 3074 3085
+type(
+  (Async_extra.Import.Socket.Address.Inet.t, int) Cohttp_async.Server.t
+)
+"contactsServer.ml" 80 3074 3089 "contactsServer.ml" 80 3074 3103
+type(
+  unit -> 'a Async.Std.Deferred.t
+)
+ident(
+  ext_ref Async.Std.Deferred.never
+)
+"contactsServer.ml" 80 3074 3104 "contactsServer.ml" 80 3074 3106
+type(
+  unit
+)
+"contactsServer.ml" 80 3074 3089 "contactsServer.ml" 80 3074 3106
+call(
+  tail
+)
+type(
+  'a Async.Std.Deferred.t
+)
+"contactsServer.ml" 80 3074 3080 "contactsServer.ml" 80 3074 3106
+type(
+  (Async_extra.Import.Socket.Address.Inet.t, int) Cohttp_async.Server.t ->
+  'a Async_kernel.Deferred.t
+)
+"contactsServer.ml" 78 2989 2991 "contactsServer.ml" 80 3074 3106
+call(
+  tail
+)
+type(
+  'a Async_kernel.Deferred.t
+)
+"contactsServer.ml" 76 2876 2878 "contactsServer.ml" 80 3074 3106
+type(
+  'a Async_kernel.Deferred.t
+)
+"contactsServer.ml" 75 2811 2813 "contactsServer.ml" 80 3074 3106
+type(
+  'a Async_kernel.Deferred.t
+)
+"contactsServer.ml" 82 3108 3112 "contactsServer.ml" 82 3108 3114
+type(
+  unit
+)
+"contactsServer.ml" 83 3117 3119 "contactsServer.ml" 83 3117 3138
+type(
+  (int -> unit -> unit Async_extra.Import.Deferred.t,
+   unit Async_extra.Import.Deferred.t)
+  Async.Std.Command.basic_command
+)
+ident(
+  ext_ref Async.Std.Command.async_basic
+)
+"contactsServer.ml" 84 3139 3152 "contactsServer.ml" 84 3139 3224
+type(
+  string
+)
+"contactsServer.ml" 85 3225 3243 "contactsServer.ml" 85 3225 3248
+type(
+  (int -> unit -> unit Async_extra.Import.Deferred.t,
+   int -> unit -> unit Async_extra.Import.Deferred.t)
+  Async.Std.Command.Spec.t
+)
+ident(
+  ext_ref Async.Std.Command.Spec.empty
+)
+"contactsServer.ml" 85 3225 3249 "contactsServer.ml" 85 3225 3251
+type(
+  (int -> unit -> unit Async_extra.Import.Deferred.t,
+   int -> unit -> unit Async_extra.Import.Deferred.t)
+  Async.Std.Command.Spec.t ->
+  int Async.Std.Command.Spec.param ->
+  (int -> unit -> unit Async_extra.Import.Deferred.t,
+   unit -> unit Async_extra.Import.Deferred.t)
+  Async.Std.Command.Spec.t
+)
+ident(
+  ext_ref Async.Std.Command.Spec.( +> )
+)
+"contactsServer.ml" 86 3252 3258 "contactsServer.ml" 86 3252 3262
+type(
+  ?aliases:string list ->
+  ?full_flag_required:unit ->
+  string ->
+  int Async.Std.Command.Spec.flag ->
+  doc:string -> int Async.Std.Command.Spec.param
+)
+ident(
+  ext_ref Async.Std.Command.Spec.flag
+)
+"contactsServer.ml" 86 3252 3263 "contactsServer.ml" 86 3252 3267
+type(
+  string
+)
+"contactsServer.ml" 86 3252 3269 "contactsServer.ml" 86 3252 3290
+type(
+  int ->
+  int Async.Std.Command.Spec.Arg_type.t -> int Async.Std.Command.Spec.flag
+)
+ident(
+  ext_ref Async.Std.Command.Spec.optional_with_default
+)
+"contactsServer.ml" 86 3252 3291 "contactsServer.ml" 86 3252 3295
+type(
+  int
+)
+"contactsServer.ml" 86 3252 3296 "contactsServer.ml" 86 3252 3299
+type(
+  int Async.Std.Command.Spec.Arg_type.t
+)
+ident(
+  ext_ref Async.Std.Command.Spec.int
+)
+"contactsServer.ml" 86 3252 3268 "contactsServer.ml" 86 3252 3300
+call(
+  stack
+)
+type(
+  int Async.Std.Command.Spec.flag
+)
+"contactsServer.ml" 87 3302 3315 "contactsServer.ml" 87 3302 3345
+type(
+  string
+)
+"contactsServer.ml" 86 3252 3258 "contactsServer.ml" 87 3302 3345
+call(
+  stack
+)
+type(
+  int Async.Std.Command.Spec.param
+)
+"contactsServer.ml" 85 3225 3243 "contactsServer.ml" 87 3302 3345
+call(
+  stack
+)
+type(
+  (int -> unit -> unit Async_extra.Import.Deferred.t,
+   unit -> unit Async_extra.Import.Deferred.t)
+  Async.Std.Command.Spec.t
+)
+"contactsServer.ml" 88 3346 3352 "contactsServer.ml" 88 3346 3364
+type(
+  int -> unit -> unit Async_extra.Import.Deferred.t
+)
+ident(
+  int_ref start_server "contactsServer.ml" 74 2784 2788 "contactsServer.ml" 74 2784 2800
+)
+"contactsServer.ml" 83 3117 3119 "contactsServer.ml" 88 3346 3364
+call(
+  stack
+)
+type(
+  Async.Std.Command.t
+)
+"contactsServer.ml" 90 3366 3368 "contactsServer.ml" 90 3366 3370
+type(
+  Async.Std.Command.t -> (Async.Std.Command.t -> unit) -> unit
+)
+ident(
+  ext_ref Core.Std.( |> )
+)
+"contactsServer.ml" 90 3366 3371 "contactsServer.ml" 90 3366 3382
+call(
+  tail
+)
+type(
+  ?version:string ->
+  ?build_info:string ->
+  ?argv:string list ->
+  ?extend:(string list -> string list) -> Async.Std.Command.t -> unit
+)
+ident(
+  ext_ref Async.Std.Command.run
+)
+"contactsServer.ml" 83 3117 3119 "contactsServer.ml" 90 3366 3382
+call(
+  stack
+)
+type(
+  unit
+)

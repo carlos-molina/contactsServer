@@ -1,0 +1,46 @@
+
+
+server_rcontacts.byte
+server_rcontacts Listening for HTTP on port 8080
+Try: 'curl http://cm770mbair.mac.cl.cam.ac.uk:8080/ping_rcontacts?key=anyString' 
+                    or run client_rcontacts or clihtml
+
+bash-3.2$ 
+bash-3.2$ curl 'http://cm770mbair.mac.cl.cam.ac.uk:8080/getContactDataByLastName?last=Crowcroft'
+<ul class="vcard">
+  <li class="email">jon.crowcroft@cl.cam.ac.uk< </li>
+  <li class="fn">Jon< </li>
+  <li class="last">Crowcroft< </li>
+</ul>bash-3.2$ 
+
+
+Response from ritchie
+
+[ncmj2@ritchie ~]$ curl 'http://cm770mbair.mac.cl.cam.ac.uk:8080/getContactDataByLastName?last=Crowcroft'
+curl: (7) Failed to connect to 2001:630:212:248:ae7f:3eff:fee6:1a64: Network is unreachable
+
+********************************************************************************************
+
+
+
+server_rcontacts.byte
+server_rcontacts Listening for HTTP on port 8080
+Try: 'curl http://128.232.56.46:8080/ping_rcontacts?key=anyString' 
+                    or run client_rcontacts or clihtml
+
+Response from local
+bash-3.2$ !!
+curl 'http://128.232.56.46:8080/getContactDataByLastName?last=Crowcroft'
+<ul class="vcard">
+  <li class="email">jon.crowcroft@cl.cam.ac.uk< </li>
+  <li class="fn">Jon< </li>
+  <li class="last">Crowcroft< </li>
+
+Response from ritchie
+
+[ncmj2@ritchie ~]$ curl 'http://128.232.56.46:8080/getContactDataByLastName?last=Crowcroft'
+curl: (7) couldn't connect to host
+
+
+
+

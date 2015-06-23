@@ -1,0 +1,2534 @@
+"helper.ml" 25 898 902 "helper.ml" 25 898 915
+type(
+  Config.tuple -> string
+)
+ident(
+  def to_htmlstring "helper.ml" 38 1273 1273 "helper.ml" 1 0 -1
+)
+"helper.ml" 28 935 957 "helper.ml" 28 935 958
+type(
+  Config.t
+)
+ident(
+  def s "helper.ml" 34 1133 1153 "helper.ml" 34 1133 1202
+)
+"helper.ml" 28 935 948 "helper.ml" 28 935 958
+type(
+  Config.t Config.element_type
+)
+"helper.ml" 29 960 982 "helper.ml" 29 960 983
+type(
+  Config.t
+)
+ident(
+  def p "helper.ml" 34 1133 1153 "helper.ml" 34 1133 1202
+)
+"helper.ml" 29 960 973 "helper.ml" 29 960 983
+type(
+  Config.t Config.element_type
+)
+"helper.ml" 30 985 1006 "helper.ml" 30 985 1007
+type(
+  Config.obj_t
+)
+ident(
+  def o "helper.ml" 34 1133 1153 "helper.ml" 34 1133 1202
+)
+"helper.ml" 30 985 997 "helper.ml" 30 985 1007
+type(
+  Config.obj_t Config.element_type
+)
+"helper.ml" 31 1009 1031 "helper.ml" 31 1009 1032
+type(
+  Config.context
+)
+ident(
+  def c "helper.ml" 34 1133 1153 "helper.ml" 34 1133 1202
+)
+"helper.ml" 31 1009 1022 "helper.ml" 31 1009 1032
+type(
+  Config.context Config.element_type
+)
+"helper.ml" 32 1034 1051 "helper.ml" 32 1034 1052
+type(
+  Config.timestamp Config.element_type option
+)
+"helper.ml" 34 1133 1146 "helper.ml" 34 1133 1147
+type(
+  Config.signature Config.element_type option
+)
+"helper.ml" 27 929 933 "helper.ml" 34 1133 1149
+type(
+  Config.tuple
+)
+"helper.ml" 34 1133 1153 "helper.ml" 34 1133 1167
+type(
+  (Config.t -> Config.obj_t -> string, unit, string) format ->
+  Config.t -> Config.obj_t -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"helper.ml" 34 1133 1168 "helper.ml" 34 1133 1198
+type(
+  (Config.t -> Config.obj_t -> string, unit, string) format
+)
+"helper.ml" 34 1133 1199 "helper.ml" 34 1133 1200
+type(
+  Config.t
+)
+ident(
+  int_ref p "helper.ml" 29 960 982 "helper.ml" 29 960 983
+)
+"helper.ml" 34 1133 1201 "helper.ml" 34 1133 1202
+type(
+  Config.obj_t
+)
+ident(
+  int_ref o "helper.ml" 30 985 1006 "helper.ml" 30 985 1007
+)
+"helper.ml" 34 1133 1153 "helper.ml" 34 1133 1202
+call(
+  tail
+)
+type(
+  string
+)
+"helper.ml" 35 1203 1207 "helper.ml" 35 1203 1208
+type(
+  Config.tuple
+)
+"helper.ml" 35 1203 1212 "helper.ml" 35 1203 1238
+type(
+  string
+)
+"helper.ml" 26 918 920 "helper.ml" 35 1203 1238
+type(
+  Config.tuple -> string
+)
+"helper.ml" 38 1273 1277 "helper.ml" 38 1273 1286
+type(
+  Config.tuple -> string
+)
+ident(
+  def to_string "helper.ml" 49 1520 1520 "helper.ml" 1 0 -1
+)
+"helper.ml" 41 1306 1328 "helper.ml" 41 1306 1329
+type(
+  Config.t
+)
+ident(
+  def s "helper.ml" 46 1425 1445 "helper.ml" 46 1425 1480
+)
+"helper.ml" 41 1306 1319 "helper.ml" 41 1306 1329
+type(
+  Config.t Config.element_type
+)
+"helper.ml" 42 1331 1353 "helper.ml" 42 1331 1354
+type(
+  Config.t
+)
+ident(
+  def p "helper.ml" 46 1425 1445 "helper.ml" 46 1425 1480
+)
+"helper.ml" 42 1331 1344 "helper.ml" 42 1331 1354
+type(
+  Config.t Config.element_type
+)
+"helper.ml" 43 1356 1377 "helper.ml" 43 1356 1378
+type(
+  Config.obj_t
+)
+ident(
+  def o "helper.ml" 46 1425 1445 "helper.ml" 46 1425 1480
+)
+"helper.ml" 43 1356 1368 "helper.ml" 43 1356 1378
+type(
+  Config.obj_t Config.element_type
+)
+"helper.ml" 44 1380 1402 "helper.ml" 44 1380 1403
+type(
+  Config.context
+)
+ident(
+  def c "helper.ml" 46 1425 1445 "helper.ml" 46 1425 1480
+)
+"helper.ml" 44 1380 1393 "helper.ml" 44 1380 1403
+type(
+  Config.context Config.element_type
+)
+"helper.ml" 45 1405 1422 "helper.ml" 45 1405 1423
+type(
+  Config.timestamp Config.element_type option
+)
+"helper.ml" 46 1425 1438 "helper.ml" 46 1425 1439
+type(
+  Config.signature Config.element_type option
+)
+"helper.ml" 40 1300 1304 "helper.ml" 46 1425 1441
+type(
+  Config.tuple
+)
+"helper.ml" 46 1425 1445 "helper.ml" 46 1425 1459
+type(
+  (Config.t -> Config.t -> Config.obj_t -> string, unit, string) format ->
+  Config.t -> Config.t -> Config.obj_t -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"helper.ml" 46 1425 1460 "helper.ml" 46 1425 1474
+type(
+  (Config.t -> Config.t -> Config.obj_t -> string, unit, string) format
+)
+"helper.ml" 46 1425 1475 "helper.ml" 46 1425 1476
+type(
+  Config.t
+)
+ident(
+  int_ref s "helper.ml" 41 1306 1328 "helper.ml" 41 1306 1329
+)
+"helper.ml" 46 1425 1477 "helper.ml" 46 1425 1478
+type(
+  Config.t
+)
+ident(
+  int_ref p "helper.ml" 42 1331 1353 "helper.ml" 42 1331 1354
+)
+"helper.ml" 46 1425 1479 "helper.ml" 46 1425 1480
+type(
+  Config.obj_t
+)
+ident(
+  int_ref o "helper.ml" 43 1356 1377 "helper.ml" 43 1356 1378
+)
+"helper.ml" 46 1425 1445 "helper.ml" 46 1425 1480
+call(
+  tail
+)
+type(
+  string
+)
+"helper.ml" 47 1481 1485 "helper.ml" 47 1481 1486
+type(
+  Config.tuple
+)
+"helper.ml" 47 1481 1490 "helper.ml" 47 1481 1516
+type(
+  string
+)
+"helper.ml" 39 1289 1291 "helper.ml" 47 1481 1516
+type(
+  Config.tuple -> string
+)
+"helper.ml" 49 1520 1524 "helper.ml" 49 1520 1536
+type(
+  string Config.element_type -> string
+)
+ident(
+  def value_to_str "helper.ml" 52 1614 1614 "helper.ml" 1 0 -1
+)
+"helper.ml" 49 1520 1559 "helper.ml" 49 1520 1560
+type(
+  string
+)
+ident(
+  def x "helper.ml" 49 1520 1564 "helper.ml" 49 1520 1565
+)
+"helper.ml" 49 1520 1550 "helper.ml" 49 1520 1560
+type(
+  string Config.element_type
+)
+"helper.ml" 49 1520 1564 "helper.ml" 49 1520 1565
+type(
+  string
+)
+ident(
+  int_ref x "helper.ml" 49 1520 1559 "helper.ml" 49 1520 1560
+)
+"helper.ml" 49 1520 1577 "helper.ml" 49 1520 1578
+type(
+  string
+)
+ident(
+  def x "helper.ml" 49 1520 1582 "helper.ml" 49 1520 1583
+)
+"helper.ml" 49 1520 1568 "helper.ml" 49 1520 1578
+type(
+  string Config.element_type
+)
+"helper.ml" 49 1520 1582 "helper.ml" 49 1520 1583
+type(
+  string
+)
+ident(
+  int_ref x "helper.ml" 49 1520 1577 "helper.ml" 49 1520 1578
+)
+"helper.ml" 49 1520 1539 "helper.ml" 49 1520 1583
+type(
+  string Config.element_type -> string
+)
+"helper.ml" 52 1614 1618 "helper.ml" 52 1614 1623
+type(
+  Config.tuple -> Config.tuple -> int
+)
+ident(
+  def = "helper.ml" 55 1708 1708 "helper.ml" 1 0 -1
+)
+"helper.ml" 52 1614 1624 "helper.ml" 52 1614 1626
+type(
+  Config.tuple
+)
+ident(
+  def t1 "helper.ml" 52 1614 1627 "helper.ml" 53 1632 1704
+)
+"helper.ml" 52 1614 1627 "helper.ml" 52 1614 1629
+type(
+  Config.tuple
+)
+ident(
+  def t2 "helper.ml" 53 1632 1634 "helper.ml" 53 1632 1704
+)
+"helper.ml" 53 1632 1638 "helper.ml" 53 1632 1640
+type(
+  string
+)
+ident(
+  def s1 "helper.ml" 53 1632 1659 "helper.ml" 53 1632 1704
+)
+"helper.ml" 53 1632 1643 "helper.ml" 53 1632 1652
+type(
+  Config.tuple -> string
+)
+ident(
+  int_ref to_string "helper.ml" 38 1273 1277 "helper.ml" 38 1273 1286
+)
+"helper.ml" 53 1632 1653 "helper.ml" 53 1632 1655
+type(
+  Config.tuple
+)
+ident(
+  int_ref t1 "helper.ml" 52 1614 1624 "helper.ml" 52 1614 1626
+)
+"helper.ml" 53 1632 1643 "helper.ml" 53 1632 1655
+call(
+  stack
+)
+type(
+  string
+)
+"helper.ml" 53 1632 1663 "helper.ml" 53 1632 1665
+type(
+  string
+)
+ident(
+  def s2 "helper.ml" 53 1632 1684 "helper.ml" 53 1632 1704
+)
+"helper.ml" 53 1632 1668 "helper.ml" 53 1632 1677
+type(
+  Config.tuple -> string
+)
+ident(
+  int_ref to_string "helper.ml" 38 1273 1277 "helper.ml" 38 1273 1286
+)
+"helper.ml" 53 1632 1678 "helper.ml" 53 1632 1680
+type(
+  Config.tuple
+)
+ident(
+  int_ref t2 "helper.ml" 52 1614 1627 "helper.ml" 52 1614 1629
+)
+"helper.ml" 53 1632 1668 "helper.ml" 53 1632 1680
+call(
+  stack
+)
+type(
+  string
+)
+"helper.ml" 53 1632 1684 "helper.ml" 53 1632 1698
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"helper.ml" 53 1632 1699 "helper.ml" 53 1632 1701
+type(
+  String.t
+)
+ident(
+  int_ref s1 "helper.ml" 53 1632 1638 "helper.ml" 53 1632 1640
+)
+"helper.ml" 53 1632 1702 "helper.ml" 53 1632 1704
+type(
+  String.t
+)
+ident(
+  int_ref s2 "helper.ml" 53 1632 1663 "helper.ml" 53 1632 1665
+)
+"helper.ml" 53 1632 1684 "helper.ml" 53 1632 1704
+call(
+  tail
+)
+type(
+  int
+)
+"helper.ml" 53 1632 1659 "helper.ml" 53 1632 1704
+type(
+  int
+)
+"helper.ml" 53 1632 1634 "helper.ml" 53 1632 1704
+type(
+  int
+)
+"helper.ml" 57 1758 1797 "helper.ml" 57 1758 1804
+type(
+  Config.tuple -> Config.tuple -> int
+)
+ident(
+  def compare "helper.ml" 57 1758 1812 "helper.ml" 58 1813 1854
+)
+"helper.ml" 57 1758 1807 "helper.ml" 57 1758 1812
+type(
+  Config.tuple -> Config.tuple -> int
+)
+ident(
+  int_ref = "helper.ml" 52 1614 1618 "helper.ml" 52 1614 1623
+)
+"helper.ml" 55 1708 1726 "helper.ml" 58 1813 1855
+call(
+  stack
+)
+"helper.ml" 63 1913 1936 "helper.ml" 63 1913 1943
+type(
+  String.t -> String.t -> int
+)
+ident(
+  def compare "helper.ml" 63 1913 1960 "helper.ml" 64 1961 1986
+)
+"helper.ml" 63 1913 1946 "helper.ml" 63 1913 1960
+type(
+  String.t -> String.t -> int
+)
+ident(
+  ext_ref String.compare
+)
+"helper.ml" 61 1878 1880 "helper.ml" 64 1961 1987
+call(
+  stack
+)
+"helper.ml" 67 2059 2063 "helper.ml" 67 2059 2070
+type(
+  Config.tuple -> Yojson.Basic.json
+)
+ident(
+  def to_json "helper.ml" 84 2457 2457 "helper.ml" 1 0 -1
+)
+"helper.ml" 70 2090 2112 "helper.ml" 70 2090 2113
+type(
+  Config.t
+)
+ident(
+  def s "helper.ml" 76 2229 2235 "helper.ml" 80 2387 2402
+)
+"helper.ml" 70 2090 2103 "helper.ml" 70 2090 2113
+type(
+  Config.t Config.element_type
+)
+"helper.ml" 71 2115 2137 "helper.ml" 71 2115 2138
+type(
+  Config.t
+)
+ident(
+  def p "helper.ml" 76 2229 2235 "helper.ml" 80 2387 2402
+)
+"helper.ml" 71 2115 2128 "helper.ml" 71 2115 2138
+type(
+  Config.t Config.element_type
+)
+"helper.ml" 72 2140 2161 "helper.ml" 72 2140 2162
+type(
+  Config.obj_t
+)
+ident(
+  def o "helper.ml" 76 2229 2235 "helper.ml" 80 2387 2402
+)
+"helper.ml" 72 2140 2152 "helper.ml" 72 2140 2162
+type(
+  Config.obj_t Config.element_type
+)
+"helper.ml" 73 2164 2186 "helper.ml" 73 2164 2187
+type(
+  Config.context
+)
+ident(
+  def c "helper.ml" 76 2229 2235 "helper.ml" 80 2387 2402
+)
+"helper.ml" 73 2164 2177 "helper.ml" 73 2164 2187
+type(
+  Config.context Config.element_type
+)
+"helper.ml" 74 2189 2206 "helper.ml" 74 2189 2207
+type(
+  Config.timestamp Config.element_type option
+)
+"helper.ml" 75 2209 2222 "helper.ml" 75 2209 2223
+type(
+  Config.signature Config.element_type option
+)
+"helper.ml" 69 2084 2088 "helper.ml" 75 2209 2225
+type(
+  Config.tuple
+)
+"helper.ml" 76 2229 2239 "helper.ml" 76 2229 2245
+type(
+  Yojson.Basic.json
+)
+ident(
+  def t_json "helper.ml" 80 2387 2396 "helper.ml" 80 2387 2402
+)
+"helper.ml" 78 2283 2296 "helper.ml" 78 2283 2305
+type(
+  string
+)
+"helper.ml" 78 2283 2316 "helper.ml" 78 2283 2317
+type(
+  Config.t
+)
+ident(
+  int_ref s "helper.ml" 70 2090 2112 "helper.ml" 70 2090 2113
+)
+"helper.ml" 78 2283 2307 "helper.ml" 78 2283 2318
+type(
+  Yojson.Basic.json
+)
+"helper.ml" 78 2283 2295 "helper.ml" 78 2283 2319
+type(
+  string * Yojson.Basic.json
+)
+"helper.ml" 78 2283 2322 "helper.ml" 78 2283 2333
+type(
+  string
+)
+"helper.ml" 78 2283 2344 "helper.ml" 78 2283 2345
+type(
+  Config.t
+)
+ident(
+  int_ref p "helper.ml" 71 2115 2137 "helper.ml" 71 2115 2138
+)
+"helper.ml" 78 2283 2335 "helper.ml" 78 2283 2346
+type(
+  Yojson.Basic.json
+)
+"helper.ml" 78 2283 2321 "helper.ml" 78 2283 2347
+type(
+  string * Yojson.Basic.json
+)
+"helper.ml" 79 2349 2362 "helper.ml" 79 2349 2370
+type(
+  string
+)
+"helper.ml" 79 2349 2381 "helper.ml" 79 2349 2382
+type(
+  Config.obj_t
+)
+ident(
+  int_ref o "helper.ml" 72 2140 2161 "helper.ml" 72 2140 2162
+)
+"helper.ml" 79 2349 2372 "helper.ml" 79 2349 2383
+type(
+  Yojson.Basic.json
+)
+"helper.ml" 79 2349 2361 "helper.ml" 79 2349 2384
+type(
+  string * Yojson.Basic.json
+)
+"helper.ml" 78 2283 2293 "helper.ml" 79 2349 2386
+type(
+  (string * Yojson.Basic.json) list
+)
+"helper.ml" 77 2268 2276 "helper.ml" 79 2349 2386
+type(
+  Yojson.Basic.json
+)
+type(
+  Yojson.Basic.json
+)
+"helper.ml" 80 2387 2396 "helper.ml" 80 2387 2402
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref t_json "helper.ml" 76 2229 2239 "helper.ml" 76 2229 2245
+)
+"helper.ml" 76 2229 2235 "helper.ml" 80 2387 2402
+type(
+  Yojson.Basic.json
+)
+"helper.ml" 81 2403 2407 "helper.ml" 81 2403 2408
+type(
+  Config.tuple
+)
+"helper.ml" 81 2403 2419 "helper.ml" 81 2403 2424
+type(
+  bool
+)
+"helper.ml" 81 2403 2412 "helper.ml" 81 2403 2424
+type(
+  Yojson.Basic.json
+)
+"helper.ml" 68 2073 2075 "helper.ml" 81 2403 2424
+type(
+  Config.tuple -> Yojson.Basic.json
+)
+"helper.ml" 84 2457 2461 "helper.ml" 84 2457 2470
+type(
+  string -> Config.tuple
+)
+ident(
+  def from_json "helper.ml" 102 3014 3014 "helper.ml" 1 0 -1
+)
+"helper.ml" 84 2457 2471 "helper.ml" 84 2457 2477
+type(
+  string
+)
+ident(
+  def json_t "helper.ml" 86 2550 2552 "helper.ml" 100 3003 3010
+)
+"helper.ml" 88 2584 2592 "helper.ml" 88 2584 2596
+type(
+  Yojson.Basic.json
+)
+ident(
+  def json "helper.ml" 89 2634 2638 "helper.ml" 100 3003 3010
+)
+"helper.ml" 88 2584 2599 "helper.ml" 88 2584 2623
+type(
+  ?buf:Bi_outbuf.t ->
+  ?fname:string -> ?lnum:int -> string -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.from_string
+)
+"helper.ml" 88 2584 2624 "helper.ml" 88 2584 2630
+type(
+  string
+)
+ident(
+  int_ref json_t "helper.ml" 84 2457 2471 "helper.ml" 84 2457 2477
+)
+"helper.ml" 88 2584 2599 "helper.ml" 88 2584 2630
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"helper.ml" 89 2634 2642 "helper.ml" 89 2634 2643
+type(
+  Yojson.Basic.json
+)
+ident(
+  def s "helper.ml" 90 2676 2680 "helper.ml" 100 3003 3010
+)
+"helper.ml" 89 2634 2646 "helper.ml" 89 2634 2650
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json "helper.ml" 88 2584 2592 "helper.ml" 88 2584 2596
+)
+"helper.ml" 89 2634 2651 "helper.ml" 89 2634 2653
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"helper.ml" 89 2634 2655 "helper.ml" 89 2634 2661
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"helper.ml" 89 2634 2662 "helper.ml" 89 2634 2671
+type(
+  string
+)
+"helper.ml" 89 2634 2654 "helper.ml" 89 2634 2672
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"helper.ml" 89 2634 2646 "helper.ml" 89 2634 2672
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"helper.ml" 90 2676 2684 "helper.ml" 90 2676 2685
+type(
+  Yojson.Basic.json
+)
+ident(
+  def p "helper.ml" 91 2720 2724 "helper.ml" 100 3003 3010
+)
+"helper.ml" 90 2676 2688 "helper.ml" 90 2676 2692
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json "helper.ml" 88 2584 2592 "helper.ml" 88 2584 2596
+)
+"helper.ml" 90 2676 2693 "helper.ml" 90 2676 2695
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"helper.ml" 90 2676 2697 "helper.ml" 90 2676 2703
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"helper.ml" 90 2676 2704 "helper.ml" 90 2676 2715
+type(
+  string
+)
+"helper.ml" 90 2676 2696 "helper.ml" 90 2676 2716
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"helper.ml" 90 2676 2688 "helper.ml" 90 2676 2716
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"helper.ml" 91 2720 2728 "helper.ml" 91 2720 2729
+type(
+  Yojson.Basic.json
+)
+ident(
+  def o "helper.ml" 93 2765 2771 "helper.ml" 100 3003 3010
+)
+"helper.ml" 91 2720 2732 "helper.ml" 91 2720 2736
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json "helper.ml" 88 2584 2592 "helper.ml" 88 2584 2596
+)
+"helper.ml" 91 2720 2737 "helper.ml" 91 2720 2739
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"helper.ml" 91 2720 2741 "helper.ml" 91 2720 2747
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"helper.ml" 91 2720 2748 "helper.ml" 91 2720 2756
+type(
+  string
+)
+"helper.ml" 91 2720 2740 "helper.ml" 91 2720 2757
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"helper.ml" 91 2720 2732 "helper.ml" 91 2720 2757
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"helper.ml" 94 2773 2798 "helper.ml" 94 2773 2818
+type(
+  Yojson.Basic.json -> Config.t
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"helper.ml" 94 2773 2819 "helper.ml" 94 2773 2820
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref s "helper.ml" 89 2634 2642 "helper.ml" 89 2634 2643
+)
+"helper.ml" 94 2773 2797 "helper.ml" 94 2773 2821
+call(
+  stack
+)
+type(
+  Config.t
+)
+"helper.ml" 94 2773 2788 "helper.ml" 94 2773 2821
+type(
+  Config.t Config.element_type
+)
+"helper.ml" 95 2823 2848 "helper.ml" 95 2823 2868
+type(
+  Yojson.Basic.json -> Config.t
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"helper.ml" 95 2823 2869 "helper.ml" 95 2823 2870
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref p "helper.ml" 90 2676 2684 "helper.ml" 90 2676 2685
+)
+"helper.ml" 95 2823 2847 "helper.ml" 95 2823 2871
+call(
+  stack
+)
+type(
+  Config.t
+)
+"helper.ml" 95 2823 2838 "helper.ml" 95 2823 2871
+type(
+  Config.t Config.element_type
+)
+"helper.ml" 96 2873 2897 "helper.ml" 96 2873 2917
+type(
+  Yojson.Basic.json -> Config.obj_t
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"helper.ml" 96 2873 2918 "helper.ml" 96 2873 2919
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref o "helper.ml" 91 2720 2728 "helper.ml" 91 2720 2729
+)
+"helper.ml" 96 2873 2896 "helper.ml" 96 2873 2920
+call(
+  stack
+)
+type(
+  Config.obj_t
+)
+"helper.ml" 96 2873 2887 "helper.ml" 96 2873 2920
+type(
+  Config.obj_t Config.element_type
+)
+"helper.ml" 97 2922 2946 "helper.ml" 97 2922 2955
+type(
+  Config.context
+)
+"helper.ml" 97 2922 2937 "helper.ml" 97 2922 2955
+type(
+  Config.context Config.element_type
+)
+"helper.ml" 98 2957 2976 "helper.ml" 98 2957 2980
+type(
+  Config.timestamp Config.element_type option
+)
+"helper.ml" 99 2982 2997 "helper.ml" 99 2982 3001
+type(
+  Config.signature Config.element_type option
+)
+"helper.ml" 93 2765 2771 "helper.ml" 100 3003 3010
+type(
+  Config.tuple
+)
+"helper.ml" 91 2720 2724 "helper.ml" 100 3003 3010
+type(
+  Config.tuple
+)
+"helper.ml" 90 2676 2680 "helper.ml" 100 3003 3010
+type(
+  Config.tuple
+)
+"helper.ml" 89 2634 2638 "helper.ml" 100 3003 3010
+type(
+  Config.tuple
+)
+"helper.ml" 88 2584 2588 "helper.ml" 100 3003 3010
+type(
+  Config.tuple
+)
+"helper.ml" 102 3014 3018 "helper.ml" 102 3014 3029
+type(
+  string Config.element_type -> unit
+)
+ident(
+  def print_value "helper.ml" 115 3290 3290 "helper.ml" 1 0 -1
+)
+"helper.ml" 104 3043 3056 "helper.ml" 104 3043 3057
+type(
+  string
+)
+ident(
+  def x "helper.ml" 105 3061 3067 "helper.ml" 108 3139 3163
+)
+"helper.ml" 104 3043 3047 "helper.ml" 104 3043 3057
+type(
+  string Config.element_type
+)
+"helper.ml" 105 3061 3068 "helper.ml" 105 3061 3080
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"helper.ml" 105 3061 3081 "helper.ml" 105 3061 3088
+type(
+  string
+)
+"helper.ml" 105 3061 3068 "helper.ml" 105 3061 3088
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 106 3090 3097 "helper.ml" 106 3090 3109
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"helper.ml" 106 3090 3110 "helper.ml" 106 3090 3111
+type(
+  string
+)
+ident(
+  int_ref x "helper.ml" 104 3043 3056 "helper.ml" 104 3043 3057
+)
+"helper.ml" 106 3090 3097 "helper.ml" 106 3090 3111
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 107 3113 3120 "helper.ml" 107 3113 3132
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"helper.ml" 107 3113 3133 "helper.ml" 107 3113 3137
+type(
+  string
+)
+"helper.ml" 107 3113 3120 "helper.ml" 107 3113 3137
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 108 3139 3146 "helper.ml" 108 3139 3159
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"helper.ml" 108 3139 3160 "helper.ml" 108 3139 3162
+type(
+  string
+)
+"helper.ml" 108 3139 3146 "helper.ml" 108 3139 3162
+call(
+  tail
+)
+type(
+  unit
+)
+"helper.ml" 107 3113 3120 "helper.ml" 108 3139 3162
+type(
+  unit
+)
+"helper.ml" 106 3090 3097 "helper.ml" 108 3139 3162
+type(
+  unit
+)
+"helper.ml" 105 3061 3067 "helper.ml" 108 3139 3163
+type(
+  unit
+)
+"helper.ml" 109 3164 3177 "helper.ml" 109 3164 3178
+type(
+  string
+)
+ident(
+  def x "helper.ml" 110 3182 3188 "helper.ml" 113 3262 3286
+)
+"helper.ml" 109 3164 3168 "helper.ml" 109 3164 3178
+type(
+  string Config.element_type
+)
+"helper.ml" 110 3182 3189 "helper.ml" 110 3182 3201
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"helper.ml" 110 3182 3202 "helper.ml" 110 3182 3211
+type(
+  string
+)
+"helper.ml" 110 3182 3189 "helper.ml" 110 3182 3211
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 111 3213 3220 "helper.ml" 111 3213 3232
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"helper.ml" 111 3213 3233 "helper.ml" 111 3213 3234
+type(
+  string
+)
+ident(
+  int_ref x "helper.ml" 109 3164 3177 "helper.ml" 109 3164 3178
+)
+"helper.ml" 111 3213 3220 "helper.ml" 111 3213 3234
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 112 3236 3243 "helper.ml" 112 3236 3255
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"helper.ml" 112 3236 3256 "helper.ml" 112 3236 3260
+type(
+  string
+)
+"helper.ml" 112 3236 3243 "helper.ml" 112 3236 3260
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 113 3262 3269 "helper.ml" 113 3262 3282
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"helper.ml" 113 3262 3283 "helper.ml" 113 3262 3285
+type(
+  string
+)
+"helper.ml" 113 3262 3269 "helper.ml" 113 3262 3285
+call(
+  tail
+)
+type(
+  unit
+)
+"helper.ml" 112 3236 3243 "helper.ml" 113 3262 3285
+type(
+  unit
+)
+"helper.ml" 111 3213 3220 "helper.ml" 113 3262 3285
+type(
+  unit
+)
+"helper.ml" 110 3182 3188 "helper.ml" 113 3262 3286
+type(
+  unit
+)
+"helper.ml" 103 3032 3034 "helper.ml" 113 3262 3286
+type(
+  string Config.element_type -> unit
+)
+"helper.ml" 115 3290 3298 "helper.ml" 115 3290 3310
+type(
+  Config.tuple list -> unit
+)
+ident(
+  def print_tuples "helper.ml" 115 3290 3290 "helper.ml" 1 0 -1
+)
+"helper.ml" 115 3290 3311 "helper.ml" 115 3290 3317
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "helper.ml" 116 3320 3322 "helper.ml" 118 3369 3440
+)
+"helper.ml" 116 3320 3328 "helper.ml" 116 3320 3334
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "helper.ml" 115 3290 3311 "helper.ml" 115 3290 3317
+)
+"helper.ml" 117 3340 3344 "helper.ml" 117 3340 3346
+type(
+  Config.tuple list
+)
+"helper.ml" 117 3340 3350 "helper.ml" 117 3340 3363
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"helper.ml" 117 3340 3364 "helper.ml" 117 3340 3368
+type(
+  string
+)
+"helper.ml" 117 3340 3350 "helper.ml" 117 3340 3368
+call(
+  tail
+)
+type(
+  unit
+)
+"helper.ml" 118 3369 3373 "helper.ml" 118 3369 3377
+type(
+  Config.tuple
+)
+ident(
+  def head "helper.ml" 118 3369 3389 "helper.ml" 118 3369 3440
+)
+"helper.ml" 118 3369 3381 "helper.ml" 118 3369 3385
+type(
+  Config.tuple list
+)
+ident(
+  def rest "helper.ml" 118 3369 3389 "helper.ml" 118 3369 3440
+)
+"helper.ml" 118 3369 3373 "helper.ml" 118 3369 3385
+type(
+  Config.tuple list
+)
+"helper.ml" 118 3369 3390 "helper.ml" 118 3369 3403
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"helper.ml" 118 3369 3405 "helper.ml" 118 3369 3414
+type(
+  Config.tuple -> string
+)
+ident(
+  int_ref to_string "helper.ml" 38 1273 1277 "helper.ml" 38 1273 1286
+)
+"helper.ml" 118 3369 3415 "helper.ml" 118 3369 3419
+type(
+  Config.tuple
+)
+ident(
+  int_ref head "helper.ml" 118 3369 3373 "helper.ml" 118 3369 3377
+)
+"helper.ml" 118 3369 3404 "helper.ml" 118 3369 3420
+call(
+  stack
+)
+type(
+  string
+)
+"helper.ml" 118 3369 3390 "helper.ml" 118 3369 3420
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 118 3369 3422 "helper.ml" 118 3369 3434
+type(
+  Config.tuple list -> unit
+)
+ident(
+  int_ref print_tuples "helper.ml" 115 3290 3298 "helper.ml" 115 3290 3310
+)
+"helper.ml" 118 3369 3435 "helper.ml" 118 3369 3439
+type(
+  Config.tuple list
+)
+ident(
+  int_ref rest "helper.ml" 118 3369 3381 "helper.ml" 118 3369 3385
+)
+"helper.ml" 118 3369 3422 "helper.ml" 118 3369 3439
+call(
+  tail
+)
+type(
+  unit
+)
+"helper.ml" 118 3369 3389 "helper.ml" 118 3369 3440
+type(
+  unit
+)
+"helper.ml" 116 3320 3322 "helper.ml" 118 3369 3440
+type(
+  unit
+)
+"helper.ml" 120 3444 3448 "helper.ml" 120 3444 3465
+type(
+  Config.tuple list list -> unit list
+)
+ident(
+  def print_tuples_list "helper.ml" 123 3584 3584 "helper.ml" 1 0 -1
+)
+"helper.ml" 120 3444 3466 "helper.ml" 120 3444 3472
+type(
+  Config.tuple list list
+)
+ident(
+  def tuples "helper.ml" 120 3444 3475 "helper.ml" 120 3444 3516
+)
+"helper.ml" 120 3444 3475 "helper.ml" 120 3444 3483
+type(
+  (Config.tuple list -> unit) -> Config.tuple list list -> unit list
+)
+ident(
+  ext_ref List.map
+)
+"helper.ml" 120 3444 3489 "helper.ml" 120 3444 3490
+type(
+  Config.tuple list
+)
+ident(
+  def t "helper.ml" 120 3444 3494 "helper.ml" 120 3444 3508
+)
+"helper.ml" 120 3444 3494 "helper.ml" 120 3444 3506
+type(
+  Config.tuple list -> unit
+)
+ident(
+  int_ref print_tuples "helper.ml" 115 3290 3298 "helper.ml" 115 3290 3310
+)
+"helper.ml" 120 3444 3507 "helper.ml" 120 3444 3508
+type(
+  Config.tuple list
+)
+ident(
+  int_ref t "helper.ml" 120 3444 3489 "helper.ml" 120 3444 3490
+)
+"helper.ml" 120 3444 3494 "helper.ml" 120 3444 3508
+call(
+  tail
+)
+type(
+  unit
+)
+"helper.ml" 120 3444 3484 "helper.ml" 120 3444 3509
+type(
+  Config.tuple list -> unit
+)
+"helper.ml" 120 3444 3510 "helper.ml" 120 3444 3516
+type(
+  Config.tuple list list
+)
+ident(
+  int_ref tuples "helper.ml" 120 3444 3466 "helper.ml" 120 3444 3472
+)
+"helper.ml" 120 3444 3475 "helper.ml" 120 3444 3516
+call(
+  tail
+)
+type(
+  unit list
+)
+"helper.ml" 123 3584 3588 "helper.ml" 123 3584 3597
+type(
+  string -> string Config.element_type list -> unit
+)
+ident(
+  def print_var "helper.ml" 132 3774 3774 "helper.ml" 1 0 -1
+)
+"helper.ml" 123 3584 3598 "helper.ml" 123 3584 3601
+type(
+  string
+)
+ident(
+  def var "helper.ml" 123 3584 3602 "helper.ml" 130 3758 3770
+)
+"helper.ml" 123 3584 3602 "helper.ml" 123 3584 3608
+type(
+  string Config.element_type list
+)
+ident(
+  def values "helper.ml" 124 3611 3613 "helper.ml" 130 3758 3770
+)
+"helper.ml" 124 3611 3614 "helper.ml" 124 3611 3627
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"helper.ml" 124 3611 3628 "helper.ml" 124 3611 3631
+type(
+  string
+)
+ident(
+  int_ref var "helper.ml" 123 3584 3598 "helper.ml" 123 3584 3601
+)
+"helper.ml" 124 3611 3614 "helper.ml" 124 3611 3631
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 125 3633 3636 "helper.ml" 125 3633 3645
+type(
+  (string Config.element_type -> unit) ->
+  string Config.element_type list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"helper.ml" 126 3646 3656 "helper.ml" 126 3646 3658
+type(
+  string Config.element_type
+)
+ident(
+  def vl "helper.ml" 127 3662 3670 "helper.ml" 129 3724 3756
+)
+"helper.ml" 127 3662 3676 "helper.ml" 127 3662 3678
+type(
+  string Config.element_type
+)
+ident(
+  int_ref vl "helper.ml" 126 3646 3656 "helper.ml" 126 3646 3658
+)
+"helper.ml" 128 3684 3703 "helper.ml" 128 3684 3704
+type(
+  string
+)
+ident(
+  def x "helper.ml" 128 3684 3708 "helper.ml" 128 3684 3723
+)
+"helper.ml" 128 3684 3694 "helper.ml" 128 3684 3704
+type(
+  string Config.element_type
+)
+"helper.ml" 128 3684 3708 "helper.ml" 128 3684 3721
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"helper.ml" 128 3684 3722 "helper.ml" 128 3684 3723
+type(
+  string
+)
+ident(
+  int_ref x "helper.ml" 128 3684 3703 "helper.ml" 128 3684 3704
+)
+"helper.ml" 128 3684 3708 "helper.ml" 128 3684 3723
+call(
+  tail
+)
+type(
+  unit
+)
+"helper.ml" 129 3724 3734 "helper.ml" 129 3724 3735
+type(
+  string Config.element_type
+)
+"helper.ml" 129 3724 3739 "helper.ml" 129 3724 3744
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"helper.ml" 129 3724 3745 "helper.ml" 129 3724 3756
+type(
+  exn
+)
+"helper.ml" 129 3724 3739 "helper.ml" 129 3724 3756
+type(
+  unit
+)
+"helper.ml" 127 3662 3670 "helper.ml" 129 3724 3756
+type(
+  unit
+)
+"helper.ml" 126 3646 3651 "helper.ml" 129 3724 3757
+type(
+  string Config.element_type -> unit
+)
+"helper.ml" 130 3758 3763 "helper.ml" 130 3758 3769
+type(
+  string Config.element_type list
+)
+ident(
+  int_ref values "helper.ml" 123 3584 3602 "helper.ml" 123 3584 3608
+)
+"helper.ml" 125 3633 3636 "helper.ml" 130 3758 3769
+call(
+  tail
+)
+type(
+  unit
+)
+"helper.ml" 124 3611 3613 "helper.ml" 130 3758 3770
+type(
+  unit
+)
+"helper.ml" 134 3789 3793 "helper.ml" 134 3789 3807
+type(
+  out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  def print_position "helper.ml" 141 4011 4011 "helper.ml" 1 0 -1
+)
+"helper.ml" 134 3789 3808 "helper.ml" 134 3789 3812
+type(
+  out_channel
+)
+ident(
+  def outx "helper.ml" 134 3789 3813 "helper.ml" 138 3919 3959
+)
+"helper.ml" 134 3789 3813 "helper.ml" 134 3789 3819
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "helper.ml" 135 3822 3824 "helper.ml" 138 3919 3959
+)
+"helper.ml" 135 3822 3828 "helper.ml" 135 3822 3831
+type(
+  Lexing.position
+)
+ident(
+  def pos "helper.ml" 137 3857 3861 "helper.ml" 138 3919 3959
+)
+"helper.ml" 135 3822 3834 "helper.ml" 135 3822 3840
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "helper.ml" 134 3789 3813 "helper.ml" 134 3789 3819
+)
+"helper.ml" 135 3822 3834 "helper.ml" 135 3822 3851
+type(
+  Lexing.position
+)
+"helper.ml" 137 3857 3861 "helper.ml" 137 3857 3875
+type(
+  out_channel ->
+  (string -> int -> int -> unit, out_channel, unit) format ->
+  string -> int -> int -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"helper.ml" 137 3857 3876 "helper.ml" 137 3857 3880
+type(
+  out_channel
+)
+ident(
+  int_ref outx "helper.ml" 134 3789 3808 "helper.ml" 134 3789 3812
+)
+"helper.ml" 137 3857 3881 "helper.ml" 137 3857 3891
+type(
+  (string -> int -> int -> unit, out_channel, unit) format
+)
+"helper.ml" 137 3857 3892 "helper.ml" 137 3857 3895
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "helper.ml" 135 3822 3828 "helper.ml" 135 3822 3831
+)
+"helper.ml" 137 3857 3892 "helper.ml" 137 3857 3905
+type(
+  string
+)
+"helper.ml" 137 3857 3906 "helper.ml" 137 3857 3909
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "helper.ml" 135 3822 3828 "helper.ml" 135 3822 3831
+)
+"helper.ml" 137 3857 3906 "helper.ml" 137 3857 3918
+type(
+  int
+)
+"helper.ml" 138 3919 3927 "helper.ml" 138 3919 3930
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "helper.ml" 135 3822 3828 "helper.ml" 135 3822 3831
+)
+"helper.ml" 138 3919 3927 "helper.ml" 138 3919 3939
+type(
+  int
+)
+"helper.ml" 138 3919 3940 "helper.ml" 138 3919 3941
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"helper.ml" 138 3919 3942 "helper.ml" 138 3919 3945
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "helper.ml" 135 3822 3828 "helper.ml" 135 3822 3831
+)
+"helper.ml" 138 3919 3942 "helper.ml" 138 3919 3953
+type(
+  int
+)
+"helper.ml" 138 3919 3926 "helper.ml" 138 3919 3954
+type(
+  int
+)
+"helper.ml" 138 3919 3955 "helper.ml" 138 3919 3956
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"helper.ml" 138 3919 3957 "helper.ml" 138 3919 3958
+type(
+  int
+)
+"helper.ml" 138 3919 3925 "helper.ml" 138 3919 3959
+type(
+  int
+)
+"helper.ml" 137 3857 3861 "helper.ml" 138 3919 3959
+call(
+  tail
+)
+type(
+  unit
+)
+"helper.ml" 135 3822 3824 "helper.ml" 138 3919 3959
+type(
+  unit
+)
+"helper.ml" 144 4077 4081 "helper.ml" 144 4077 4097
+type(
+  string -> Config.tuple list list
+)
+ident(
+  def tuples_from_file "helper.ml" 158 4475 4475 "helper.ml" 1 0 -1
+)
+"helper.ml" 144 4077 4098 "helper.ml" 144 4077 4102
+type(
+  string
+)
+ident(
+  def file "helper.ml" 145 4105 4105 "helper.ml" 155 4459 4471
+)
+"helper.ml" 145 4105 4109 "helper.ml" 145 4105 4111
+type(
+  in_channel
+)
+ident(
+  def ch "helper.ml" 146 4136 4141 "helper.ml" 155 4459 4471
+)
+"helper.ml" 145 4105 4114 "helper.ml" 145 4105 4121
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"helper.ml" 145 4105 4122 "helper.ml" 145 4105 4126
+type(
+  string
+)
+ident(
+  int_ref file "helper.ml" 144 4077 4098 "helper.ml" 144 4077 4102
+)
+"helper.ml" 145 4105 4114 "helper.ml" 145 4105 4126
+call(
+  stack
+)
+type(
+  in_channel
+)
+"helper.ml" 146 4136 4145 "helper.ml" 146 4136 4151
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "helper.ml" 148 4185 4189 "helper.ml" 155 4459 4471
+)
+"helper.ml" 146 4136 4154 "helper.ml" 146 4136 4173
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"helper.ml" 146 4136 4174 "helper.ml" 146 4136 4176
+type(
+  in_channel
+)
+ident(
+  int_ref ch "helper.ml" 145 4105 4109 "helper.ml" 145 4105 4111
+)
+"helper.ml" 146 4136 4154 "helper.ml" 146 4136 4176
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"helper.ml" 148 4185 4193 "helper.ml" 148 4185 4222
+type(
+  (Lexing.lexbuf -> Tuple_parser.token) ->
+  Lexing.lexbuf -> Config.tuple list list
+)
+ident(
+  ext_ref Tuple_parser.parse_collection
+)
+"helper.ml" 148 4185 4223 "helper.ml" 148 4185 4238
+type(
+  Lexing.lexbuf -> Tuple_parser.token
+)
+ident(
+  ext_ref Tuple_lexer.lex
+)
+"helper.ml" 148 4185 4239 "helper.ml" 148 4185 4245
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "helper.ml" 146 4136 4145 "helper.ml" 146 4136 4151
+)
+"helper.ml" 148 4185 4193 "helper.ml" 148 4185 4246
+call(
+  stack
+)
+type(
+  Config.tuple list list
+)
+"helper.ml" 151 4258 4276 "helper.ml" 151 4258 4279
+type(
+  string
+)
+ident(
+  def msg "helper.ml" 152 4283 4291 "helper.ml" 152 4283 4355
+)
+"helper.ml" 151 4258 4264 "helper.ml" 151 4258 4279
+type(
+  exn
+)
+"helper.ml" 152 4283 4292 "helper.ml" 152 4283 4306
+type(
+  out_channel ->
+  ((out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> string -> unit,
+   out_channel, unit)
+  format ->
+  (out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"helper.ml" 152 4283 4307 "helper.ml" 152 4283 4313
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"helper.ml" 152 4283 4314 "helper.ml" 152 4283 4324
+type(
+  ((out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> string -> unit,
+   out_channel, unit)
+  format
+)
+"helper.ml" 152 4283 4325 "helper.ml" 152 4283 4339
+type(
+  out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref print_position "helper.ml" 134 3789 3793 "helper.ml" 134 3789 3807
+)
+"helper.ml" 152 4283 4340 "helper.ml" 152 4283 4346
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "helper.ml" 146 4136 4145 "helper.ml" 146 4136 4151
+)
+"helper.ml" 152 4283 4347 "helper.ml" 152 4283 4350
+type(
+  string
+)
+ident(
+  int_ref msg "helper.ml" 151 4258 4276 "helper.ml" 151 4258 4279
+)
+"helper.ml" 152 4283 4292 "helper.ml" 152 4283 4350
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 152 4283 4352 "helper.ml" 152 4283 4354
+type(
+  Config.tuple list list
+)
+"helper.ml" 152 4283 4291 "helper.ml" 152 4283 4355
+type(
+  Config.tuple list list
+)
+"helper.ml" 153 4356 4362 "helper.ml" 153 4356 4380
+type(
+  exn
+)
+"helper.ml" 154 4384 4393 "helper.ml" 154 4384 4407
+type(
+  out_channel ->
+  ((out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> unit,
+   out_channel, unit)
+  format -> (out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"helper.ml" 154 4384 4408 "helper.ml" 154 4384 4414
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"helper.ml" 154 4384 4415 "helper.ml" 154 4384 4435
+type(
+  ((out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> unit,
+   out_channel, unit)
+  format
+)
+"helper.ml" 154 4384 4436 "helper.ml" 154 4384 4450
+type(
+  out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref print_position "helper.ml" 134 3789 3793 "helper.ml" 134 3789 3807
+)
+"helper.ml" 154 4384 4451 "helper.ml" 154 4384 4457
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "helper.ml" 146 4136 4145 "helper.ml" 146 4136 4151
+)
+"helper.ml" 154 4384 4393 "helper.ml" 154 4384 4457
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 155 4459 4468 "helper.ml" 155 4459 4470
+type(
+  Config.tuple list list
+)
+"helper.ml" 154 4384 4392 "helper.ml" 155 4459 4471
+type(
+  Config.tuple list list
+)
+"helper.ml" 148 4185 4189 "helper.ml" 155 4459 4471
+type(
+  Config.tuple list list
+)
+"helper.ml" 146 4136 4141 "helper.ml" 155 4459 4471
+type(
+  Config.tuple list list
+)
+"helper.ml" 145 4105 4105 "helper.ml" 155 4459 4471
+type(
+  Config.tuple list list
+)
+"helper.ml" 158 4475 4479 "helper.ml" 158 4475 4498
+type(
+  string -> Config.tuple list list
+)
+ident(
+  def to_tuple_collection "helper.ml" 168 4830 4830 "helper.ml" 1 0 -1
+)
+"helper.ml" 158 4475 4499 "helper.ml" 158 4475 4500
+type(
+  string
+)
+ident(
+  def s "helper.ml" 159 4503 4505 "helper.ml" 167 4815 4827
+)
+"helper.ml" 159 4503 4509 "helper.ml" 159 4503 4515
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "helper.ml" 161 4544 4548 "helper.ml" 167 4815 4827
+)
+"helper.ml" 159 4503 4518 "helper.ml" 159 4503 4536
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"helper.ml" 159 4503 4537 "helper.ml" 159 4503 4538
+type(
+  string
+)
+ident(
+  int_ref s "helper.ml" 158 4475 4499 "helper.ml" 158 4475 4500
+)
+"helper.ml" 159 4503 4518 "helper.ml" 159 4503 4538
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"helper.ml" 161 4544 4552 "helper.ml" 161 4544 4581
+type(
+  (Lexing.lexbuf -> Tuple_parser.token) ->
+  Lexing.lexbuf -> Config.tuple list list
+)
+ident(
+  ext_ref Tuple_parser.parse_collection
+)
+"helper.ml" 161 4544 4582 "helper.ml" 161 4544 4597
+type(
+  Lexing.lexbuf -> Tuple_parser.token
+)
+ident(
+  ext_ref Tuple_lexer.lex
+)
+"helper.ml" 161 4544 4598 "helper.ml" 161 4544 4604
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "helper.ml" 159 4503 4509 "helper.ml" 159 4503 4515
+)
+"helper.ml" 161 4544 4552 "helper.ml" 161 4544 4604
+call(
+  stack
+)
+type(
+  Config.tuple list list
+)
+"helper.ml" 163 4614 4632 "helper.ml" 163 4614 4635
+type(
+  string
+)
+ident(
+  def msg "helper.ml" 164 4639 4647 "helper.ml" 164 4639 4711
+)
+"helper.ml" 163 4614 4620 "helper.ml" 163 4614 4635
+type(
+  exn
+)
+"helper.ml" 164 4639 4648 "helper.ml" 164 4639 4662
+type(
+  out_channel ->
+  ((out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> string -> unit,
+   out_channel, unit)
+  format ->
+  (out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"helper.ml" 164 4639 4663 "helper.ml" 164 4639 4669
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"helper.ml" 164 4639 4670 "helper.ml" 164 4639 4680
+type(
+  ((out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> string -> unit,
+   out_channel, unit)
+  format
+)
+"helper.ml" 164 4639 4681 "helper.ml" 164 4639 4695
+type(
+  out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref print_position "helper.ml" 134 3789 3793 "helper.ml" 134 3789 3807
+)
+"helper.ml" 164 4639 4696 "helper.ml" 164 4639 4702
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "helper.ml" 159 4503 4509 "helper.ml" 159 4503 4515
+)
+"helper.ml" 164 4639 4703 "helper.ml" 164 4639 4706
+type(
+  string
+)
+ident(
+  int_ref msg "helper.ml" 163 4614 4632 "helper.ml" 163 4614 4635
+)
+"helper.ml" 164 4639 4648 "helper.ml" 164 4639 4706
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 164 4639 4708 "helper.ml" 164 4639 4710
+type(
+  Config.tuple list list
+)
+"helper.ml" 164 4639 4647 "helper.ml" 164 4639 4711
+type(
+  Config.tuple list list
+)
+"helper.ml" 165 4712 4718 "helper.ml" 165 4712 4736
+type(
+  exn
+)
+"helper.ml" 166 4740 4749 "helper.ml" 166 4740 4763
+type(
+  out_channel ->
+  ((out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> unit,
+   out_channel, unit)
+  format -> (out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"helper.ml" 166 4740 4764 "helper.ml" 166 4740 4770
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"helper.ml" 166 4740 4771 "helper.ml" 166 4740 4791
+type(
+  ((out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> unit,
+   out_channel, unit)
+  format
+)
+"helper.ml" 166 4740 4792 "helper.ml" 166 4740 4806
+type(
+  out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref print_position "helper.ml" 134 3789 3793 "helper.ml" 134 3789 3807
+)
+"helper.ml" 166 4740 4807 "helper.ml" 166 4740 4813
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "helper.ml" 159 4503 4509 "helper.ml" 159 4503 4515
+)
+"helper.ml" 166 4740 4749 "helper.ml" 166 4740 4813
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 167 4815 4824 "helper.ml" 167 4815 4826
+type(
+  Config.tuple list list
+)
+"helper.ml" 166 4740 4748 "helper.ml" 167 4815 4827
+type(
+  Config.tuple list list
+)
+"helper.ml" 161 4544 4548 "helper.ml" 167 4815 4827
+type(
+  Config.tuple list list
+)
+"helper.ml" 159 4503 4505 "helper.ml" 167 4815 4827
+type(
+  Config.tuple list list
+)
+"helper.ml" 168 4830 4834 "helper.ml" 168 4830 4846
+type(
+  string -> Config.tuple list
+)
+ident(
+  def to_tuple_lst "helper.ml" 180 5195 5195 "helper.ml" 1 0 -1
+)
+"helper.ml" 168 4830 4847 "helper.ml" 168 4830 4848
+type(
+  string
+)
+ident(
+  def s "helper.ml" 169 4851 4853 "helper.ml" 177 5156 5168
+)
+"helper.ml" 169 4851 4857 "helper.ml" 169 4851 4863
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "helper.ml" 171 4892 4896 "helper.ml" 177 5156 5168
+)
+"helper.ml" 169 4851 4866 "helper.ml" 169 4851 4884
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"helper.ml" 169 4851 4885 "helper.ml" 169 4851 4886
+type(
+  string
+)
+ident(
+  int_ref s "helper.ml" 168 4830 4847 "helper.ml" 168 4830 4848
+)
+"helper.ml" 169 4851 4866 "helper.ml" 169 4851 4886
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"helper.ml" 171 4892 4900 "helper.ml" 171 4892 4922
+type(
+  (Lexing.lexbuf -> Tuple_parser.token) -> Lexing.lexbuf -> Config.tuple list
+)
+ident(
+  ext_ref Tuple_parser.parse_lst
+)
+"helper.ml" 171 4892 4923 "helper.ml" 171 4892 4938
+type(
+  Lexing.lexbuf -> Tuple_parser.token
+)
+ident(
+  ext_ref Tuple_lexer.lex
+)
+"helper.ml" 171 4892 4939 "helper.ml" 171 4892 4945
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "helper.ml" 169 4851 4857 "helper.ml" 169 4851 4863
+)
+"helper.ml" 171 4892 4900 "helper.ml" 171 4892 4945
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"helper.ml" 173 4955 4973 "helper.ml" 173 4955 4976
+type(
+  string
+)
+ident(
+  def msg "helper.ml" 174 4980 4988 "helper.ml" 174 4980 5052
+)
+"helper.ml" 173 4955 4961 "helper.ml" 173 4955 4976
+type(
+  exn
+)
+"helper.ml" 174 4980 4989 "helper.ml" 174 4980 5003
+type(
+  out_channel ->
+  ((out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> string -> unit,
+   out_channel, unit)
+  format ->
+  (out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"helper.ml" 174 4980 5004 "helper.ml" 174 4980 5010
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"helper.ml" 174 4980 5011 "helper.ml" 174 4980 5021
+type(
+  ((out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> string -> unit,
+   out_channel, unit)
+  format
+)
+"helper.ml" 174 4980 5022 "helper.ml" 174 4980 5036
+type(
+  out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref print_position "helper.ml" 134 3789 3793 "helper.ml" 134 3789 3807
+)
+"helper.ml" 174 4980 5037 "helper.ml" 174 4980 5043
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "helper.ml" 169 4851 4857 "helper.ml" 169 4851 4863
+)
+"helper.ml" 174 4980 5044 "helper.ml" 174 4980 5047
+type(
+  string
+)
+ident(
+  int_ref msg "helper.ml" 173 4955 4973 "helper.ml" 173 4955 4976
+)
+"helper.ml" 174 4980 4989 "helper.ml" 174 4980 5047
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 174 4980 5049 "helper.ml" 174 4980 5051
+type(
+  Config.tuple list
+)
+"helper.ml" 174 4980 4988 "helper.ml" 174 4980 5052
+type(
+  Config.tuple list
+)
+"helper.ml" 175 5053 5059 "helper.ml" 175 5053 5077
+type(
+  exn
+)
+"helper.ml" 176 5081 5090 "helper.ml" 176 5081 5104
+type(
+  out_channel ->
+  ((out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> unit,
+   out_channel, unit)
+  format -> (out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"helper.ml" 176 5081 5105 "helper.ml" 176 5081 5111
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"helper.ml" 176 5081 5112 "helper.ml" 176 5081 5132
+type(
+  ((out_channel -> Lexing.lexbuf -> unit) -> Lexing.lexbuf -> unit,
+   out_channel, unit)
+  format
+)
+"helper.ml" 176 5081 5133 "helper.ml" 176 5081 5147
+type(
+  out_channel -> Lexing.lexbuf -> unit
+)
+ident(
+  int_ref print_position "helper.ml" 134 3789 3793 "helper.ml" 134 3789 3807
+)
+"helper.ml" 176 5081 5148 "helper.ml" 176 5081 5154
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "helper.ml" 169 4851 4857 "helper.ml" 169 4851 4863
+)
+"helper.ml" 176 5081 5090 "helper.ml" 176 5081 5154
+call(
+  stack
+)
+type(
+  unit
+)
+"helper.ml" 177 5156 5165 "helper.ml" 177 5156 5167
+type(
+  Config.tuple list
+)
+"helper.ml" 176 5081 5089 "helper.ml" 177 5156 5168
+type(
+  Config.tuple list
+)
+"helper.ml" 171 4892 4896 "helper.ml" 177 5156 5168
+type(
+  Config.tuple list
+)
+"helper.ml" 169 4851 4853 "helper.ml" 177 5156 5168
+type(
+  Config.tuple list
+)
+"helper.ml" 180 5195 5199 "helper.ml" 180 5195 5207
+type(
+  string -> Config.tuple
+)
+ident(
+  def to_tuple "helper.ml" 185 5396 5396 "helper.ml" 1 0 -1
+)
+"helper.ml" 180 5195 5208 "helper.ml" 180 5195 5209
+type(
+  string
+)
+ident(
+  def s "helper.ml" 181 5212 5214 "helper.ml" 182 5290 5353
+)
+"helper.ml" 181 5212 5218 "helper.ml" 181 5212 5223
+type(
+  Config.tuple option
+)
+ident(
+  def tuple "helper.ml" 182 5290 5295 "helper.ml" 182 5290 5353
+)
+"helper.ml" 181 5212 5226 "helper.ml" 181 5212 5250
+type(
+  (Lexing.lexbuf -> Tuple_parser.token) ->
+  Lexing.lexbuf -> Config.tuple option
+)
+ident(
+  ext_ref Tuple_parser.parse_tuple
+)
+"helper.ml" 181 5212 5251 "helper.ml" 181 5212 5266
+type(
+  Lexing.lexbuf -> Tuple_parser.token
+)
+ident(
+  ext_ref Tuple_lexer.lex
+)
+"helper.ml" 181 5212 5268 "helper.ml" 181 5212 5286
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"helper.ml" 181 5212 5287 "helper.ml" 181 5212 5288
+type(
+  string
+)
+ident(
+  int_ref s "helper.ml" 180 5195 5208 "helper.ml" 180 5195 5209
+)
+"helper.ml" 181 5212 5267 "helper.ml" 181 5212 5289
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"helper.ml" 181 5212 5226 "helper.ml" 181 5212 5289
+call(
+  stack
+)
+type(
+  Config.tuple option
+)
+"helper.ml" 182 5290 5301 "helper.ml" 182 5290 5306
+type(
+  Config.tuple option
+)
+ident(
+  int_ref tuple "helper.ml" 181 5212 5218 "helper.ml" 181 5212 5223
+)
+"helper.ml" 182 5290 5319 "helper.ml" 182 5290 5320
+type(
+  Config.tuple
+)
+ident(
+  def t "helper.ml" 182 5290 5324 "helper.ml" 182 5290 5325
+)
+"helper.ml" 182 5290 5314 "helper.ml" 182 5290 5320
+type(
+  Config.tuple option
+)
+"helper.ml" 182 5290 5324 "helper.ml" 182 5290 5325
+type(
+  Config.tuple
+)
+ident(
+  int_ref t "helper.ml" 182 5290 5319 "helper.ml" 182 5290 5320
+)
+"helper.ml" 182 5290 5328 "helper.ml" 182 5290 5332
+type(
+  Config.tuple option
+)
+"helper.ml" 182 5290 5336 "helper.ml" 182 5290 5341
+type(
+  exn -> Config.tuple
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"helper.ml" 182 5290 5342 "helper.ml" 182 5290 5353
+type(
+  exn
+)
+"helper.ml" 182 5290 5336 "helper.ml" 182 5290 5353
+type(
+  Config.tuple
+)
+"helper.ml" 182 5290 5295 "helper.ml" 182 5290 5353
+type(
+  Config.tuple
+)
+"helper.ml" 181 5212 5214 "helper.ml" 182 5290 5353
+type(
+  Config.tuple
+)
+"helper.ml" 185 5396 5400 "helper.ml" 185 5396 5414
+type(
+  string -> Config.tuple list
+)
+ident(
+  def str_query_list "helper.ml" 190 5553 5553 "helper.ml" 1 0 -1
+)
+"helper.ml" 185 5396 5415 "helper.ml" 185 5396 5416
+type(
+  string
+)
+ident(
+  def s "helper.ml" 186 5419 5421 "helper.ml" 187 5460 5511
+)
+"helper.ml" 186 5419 5425 "helper.ml" 186 5419 5436
+type(
+  Lexing.lexbuf
+)
+ident(
+  def queryBuffer "helper.ml" 187 5460 5465 "helper.ml" 187 5460 5511
+)
+"helper.ml" 186 5419 5439 "helper.ml" 186 5419 5457
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"helper.ml" 186 5419 5458 "helper.ml" 186 5419 5459
+type(
+  string
+)
+ident(
+  int_ref s "helper.ml" 185 5396 5415 "helper.ml" 185 5396 5416
+)
+"helper.ml" 186 5419 5439 "helper.ml" 186 5419 5459
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"helper.ml" 187 5460 5465 "helper.ml" 187 5460 5483
+type(
+  (Lexing.lexbuf -> Query_parser.token) -> Lexing.lexbuf -> Config.tuple list
+)
+ident(
+  ext_ref Query_parser.parse
+)
+"helper.ml" 187 5460 5484 "helper.ml" 187 5460 5499
+type(
+  Lexing.lexbuf -> Query_parser.token
+)
+ident(
+  ext_ref Query_lexer.lex
+)
+"helper.ml" 187 5460 5500 "helper.ml" 187 5460 5511
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref queryBuffer "helper.ml" 186 5419 5425 "helper.ml" 186 5419 5436
+)
+"helper.ml" 187 5460 5465 "helper.ml" 187 5460 5511
+call(
+  tail
+)
+type(
+  Config.tuple list
+)
+"helper.ml" 186 5419 5421 "helper.ml" 187 5460 5511
+type(
+  Config.tuple list
+)
+"helper.ml" 190 5553 5557 "helper.ml" 190 5553 5575
+type(
+  TupleSet.elt list list -> TupleSet.elt list
+)
+ident(
+  def flatten_tuple_list "helper.ml" 195 5734 5760 "helper.ml" 1 0 -1
+)
+"helper.ml" 190 5553 5576 "helper.ml" 190 5553 5582
+type(
+  TupleSet.elt list list
+)
+ident(
+  def tuples "helper.ml" 191 5585 5587 "helper.ml" 195 5734 5760
+)
+"helper.ml" 191 5585 5591 "helper.ml" 191 5585 5601
+type(
+  TupleSet.t
+)
+ident(
+  def tuples_set "helper.ml" 192 5619 5624 "helper.ml" 195 5734 5760
+)
+"helper.ml" 191 5585 5604 "helper.ml" 191 5585 5618
+type(
+  TupleSet.t
+)
+ident(
+  ext_ref TupleSet.empty
+)
+"helper.ml" 192 5619 5625 "helper.ml" 192 5619 5640
+type(
+  (TupleSet.elt list -> TupleSet.t -> TupleSet.t) ->
+  TupleSet.elt list list -> TupleSet.t -> TupleSet.t
+)
+ident(
+  ext_ref List.fold_right
+)
+"helper.ml" 193 5641 5653 "helper.ml" 193 5641 5659
+type(
+  TupleSet.elt list
+)
+ident(
+  def tuples "helper.ml" 193 5641 5660 "helper.ml" 193 5641 5706
+)
+"helper.ml" 193 5641 5660 "helper.ml" 193 5641 5663
+type(
+  TupleSet.t
+)
+ident(
+  def acc "helper.ml" 193 5641 5667 "helper.ml" 193 5641 5706
+)
+"helper.ml" 193 5641 5667 "helper.ml" 193 5641 5682
+type(
+  (TupleSet.elt -> TupleSet.t -> TupleSet.t) ->
+  TupleSet.elt list -> TupleSet.t -> TupleSet.t
+)
+ident(
+  ext_ref List.fold_right
+)
+"helper.ml" 193 5641 5683 "helper.ml" 193 5641 5695
+type(
+  TupleSet.elt -> TupleSet.t -> TupleSet.t
+)
+ident(
+  ext_ref TupleSet.add
+)
+"helper.ml" 193 5641 5696 "helper.ml" 193 5641 5702
+type(
+  TupleSet.elt list
+)
+ident(
+  int_ref tuples "helper.ml" 193 5641 5653 "helper.ml" 193 5641 5659
+)
+"helper.ml" 193 5641 5703 "helper.ml" 193 5641 5706
+type(
+  TupleSet.t
+)
+ident(
+  int_ref acc "helper.ml" 193 5641 5660 "helper.ml" 193 5641 5663
+)
+"helper.ml" 193 5641 5667 "helper.ml" 193 5641 5706
+call(
+  tail
+)
+type(
+  TupleSet.t
+)
+"helper.ml" 193 5641 5648 "helper.ml" 193 5641 5707
+type(
+  TupleSet.elt list -> TupleSet.t -> TupleSet.t
+)
+"helper.ml" 193 5641 5708 "helper.ml" 193 5641 5714
+type(
+  TupleSet.elt list list
+)
+ident(
+  int_ref tuples "helper.ml" 190 5553 5576 "helper.ml" 190 5553 5582
+)
+"helper.ml" 194 5715 5722 "helper.ml" 194 5715 5732
+type(
+  TupleSet.t
+)
+ident(
+  int_ref tuples_set "helper.ml" 191 5585 5591 "helper.ml" 191 5585 5601
+)
+"helper.ml" 192 5619 5624 "helper.ml" 194 5715 5733
+call(
+  stack
+)
+type(
+  TupleSet.t
+)
+"helper.ml" 195 5734 5740 "helper.ml" 195 5734 5742
+type(
+  TupleSet.t -> (TupleSet.t -> TupleSet.elt list) -> TupleSet.elt list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"helper.ml" 195 5734 5743 "helper.ml" 195 5734 5760
+type(
+  TupleSet.t -> TupleSet.elt list
+)
+ident(
+  ext_ref TupleSet.elements
+)
+"helper.ml" 192 5619 5624 "helper.ml" 195 5734 5760
+call(
+  tail
+)
+type(
+  TupleSet.elt list
+)
+"helper.ml" 191 5585 5587 "helper.ml" 195 5734 5760
+type(
+  TupleSet.elt list
+)

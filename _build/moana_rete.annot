@@ -1,0 +1,620 @@
+"moana_rete.ml" 28 877 883 "moana_rete.ml" 28 877 887
+type(
+  string
+)
+ident(
+  def name "moana_rete.ml" 31 955 957 "moana_rete.ml" 74 2223 2226
+)
+"moana_rete.ml" 28 877 890 "moana_rete.ml" 28 877 902
+type(
+  string
+)
+"moana_rete.ml" 31 955 961 "moana_rete.ml" 31 955 966
+type(
+  Rete.rete_dataflow
+)
+ident(
+  def empty "moana_rete.ml" 33 981 981 "moana_rete.ml" 74 2223 2226
+)
+"moana_rete.ml" 31 955 969 "moana_rete.ml" 31 955 979
+type(
+  Rete.rete_dataflow
+)
+"moana_rete.ml" 33 981 985 "moana_rete.ml" 33 981 987
+type(
+  Config.tuple
+)
+ident(
+  def q1 "moana_rete.ml" 43 1150 1150 "moana_rete.ml" 74 2223 2226
+)
+"moana_rete.ml" 35 994 1014 "moana_rete.ml" 35 994 1018
+type(
+  string
+)
+"moana_rete.ml" 35 994 1005 "moana_rete.ml" 35 994 1018
+type(
+  Config.t Config.element_type
+)
+"moana_rete.ml" 36 1020 1040 "moana_rete.ml" 36 1020 1046
+type(
+  Config.t
+)
+"moana_rete.ml" 36 1020 1031 "moana_rete.ml" 36 1020 1046
+type(
+  Config.t Config.element_type
+)
+"moana_rete.ml" 37 1048 1067 "moana_rete.ml" 37 1048 1072
+type(
+  Config.obj_t
+)
+"moana_rete.ml" 37 1048 1058 "moana_rete.ml" 37 1048 1072
+type(
+  Config.obj_t Config.element_type
+)
+"moana_rete.ml" 38 1074 1094 "moana_rete.ml" 38 1074 1103
+type(
+  Config.context
+)
+"moana_rete.ml" 38 1074 1085 "moana_rete.ml" 38 1074 1103
+type(
+  Config.context Config.element_type
+)
+"moana_rete.ml" 39 1105 1120 "moana_rete.ml" 39 1105 1124
+type(
+  Config.timestamp Config.element_type option
+)
+"moana_rete.ml" 40 1126 1137 "moana_rete.ml" 40 1126 1141
+type(
+  Config.signature Config.element_type option
+)
+"moana_rete.ml" 34 990 992 "moana_rete.ml" 41 1143 1146
+type(
+  Config.tuple
+)
+"moana_rete.ml" 43 1150 1154 "moana_rete.ml" 43 1150 1156
+type(
+  Config.tuple
+)
+ident(
+  def q2 "moana_rete.ml" 53 1322 1324 "moana_rete.ml" 74 2223 2226
+)
+"moana_rete.ml" 45 1163 1183 "moana_rete.ml" 45 1163 1187
+type(
+  string
+)
+"moana_rete.ml" 45 1163 1174 "moana_rete.ml" 45 1163 1187
+type(
+  Config.t Config.element_type
+)
+"moana_rete.ml" 46 1189 1209 "moana_rete.ml" 46 1189 1219
+type(
+  Config.t
+)
+"moana_rete.ml" 46 1189 1200 "moana_rete.ml" 46 1189 1219
+type(
+  Config.t Config.element_type
+)
+"moana_rete.ml" 47 1221 1240 "moana_rete.ml" 47 1221 1245
+type(
+  Config.obj_t
+)
+"moana_rete.ml" 47 1221 1231 "moana_rete.ml" 47 1221 1245
+type(
+  Config.obj_t Config.element_type
+)
+"moana_rete.ml" 48 1247 1267 "moana_rete.ml" 48 1247 1276
+type(
+  Config.context
+)
+"moana_rete.ml" 48 1247 1258 "moana_rete.ml" 48 1247 1276
+type(
+  Config.context Config.element_type
+)
+"moana_rete.ml" 49 1278 1293 "moana_rete.ml" 49 1278 1297
+type(
+  Config.timestamp Config.element_type option
+)
+"moana_rete.ml" 50 1299 1310 "moana_rete.ml" 50 1299 1314
+type(
+  Config.signature Config.element_type option
+)
+"moana_rete.ml" 44 1159 1161 "moana_rete.ml" 51 1316 1319
+type(
+  Config.tuple
+)
+"moana_rete.ml" 53 1322 1328 "moana_rete.ml" 53 1322 1331
+type(
+  'a list option -> 'a list
+)
+ident(
+  def hlp "moana_rete.ml" 58 1378 1380 "moana_rete.ml" 74 2223 2226
+)
+"moana_rete.ml" 54 1344 1348 "moana_rete.ml" 54 1344 1352
+type(
+  'a list option
+)
+"moana_rete.ml" 54 1344 1357 "moana_rete.ml" 54 1344 1359
+type(
+  'a list
+)
+"moana_rete.ml" 55 1360 1369 "moana_rete.ml" 55 1360 1370
+type(
+  'a list
+)
+ident(
+  def x "moana_rete.ml" 55 1360 1374 "moana_rete.ml" 55 1360 1375
+)
+"moana_rete.ml" 55 1360 1364 "moana_rete.ml" 55 1360 1370
+type(
+  'a list option
+)
+"moana_rete.ml" 55 1360 1374 "moana_rete.ml" 55 1360 1375
+type(
+  'a list
+)
+ident(
+  int_ref x "moana_rete.ml" 55 1360 1369 "moana_rete.ml" 55 1360 1370
+)
+"moana_rete.ml" 53 1322 1334 "moana_rete.ml" 55 1360 1375
+type(
+  'a list option -> 'a list
+)
+"moana_rete.ml" 58 1378 1384 "moana_rete.ml" 58 1378 1388
+type(
+  ?query:Config.tuple list -> Config.tuple list -> Rete.rete_dataflow
+)
+ident(
+  def init "moana_rete.ml" 63 1620 1622 "moana_rete.ml" 74 2223 2226
+)
+"moana_rete.ml" 58 1378 1390 "moana_rete.ml" 58 1378 1395
+type(
+  Config.tuple list option
+)
+ident(
+  def query "moana_rete.ml" 58 1378 1396 "moana_rete.ml" 60 1448 1500
+)
+"moana_rete.ml" 58 1378 1396 "moana_rete.ml" 58 1378 1402
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "moana_rete.ml" 58 1378 1405 "moana_rete.ml" 60 1448 1500
+)
+"moana_rete.ml" 58 1378 1405 "moana_rete.ml" 58 1378 1408
+type(
+  Config.tuple list option -> Config.tuple list
+)
+ident(
+  int_ref hlp "moana_rete.ml" 53 1322 1328 "moana_rete.ml" 53 1322 1331
+)
+"moana_rete.ml" 58 1378 1409 "moana_rete.ml" 58 1378 1414
+type(
+  Config.tuple list option
+)
+ident(
+  int_ref query "moana_rete.ml" 58 1378 1390 "moana_rete.ml" 58 1378 1395
+)
+"moana_rete.ml" 58 1378 1405 "moana_rete.ml" 58 1378 1414
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"moana_rete.ml" 58 1378 1415 "moana_rete.ml" 58 1378 1417
+type(
+  Config.tuple list ->
+  (Config.tuple list -> Rete.rete_dataflow) -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"moana_rete.ml" 59 1427 1431 "moana_rete.ml" 59 1427 1433
+type(
+  Config.tuple list
+)
+"moana_rete.ml" 59 1427 1437 "moana_rete.ml" 59 1427 1447
+type(
+  Rete.rete_dataflow
+)
+"moana_rete.ml" 60 1448 1453 "moana_rete.ml" 60 1448 1460
+type(
+  Config.tuple list
+)
+ident(
+  def queries "moana_rete.ml" 60 1448 1464 "moana_rete.ml" 60 1448 1500
+)
+"moana_rete.ml" 60 1448 1464 "moana_rete.ml" 60 1448 1485
+type(
+  Config.tuple list -> Config.tuple list -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.to_rete_dataflow
+)
+"moana_rete.ml" 60 1448 1486 "moana_rete.ml" 60 1448 1493
+type(
+  Config.tuple list
+)
+ident(
+  int_ref queries "moana_rete.ml" 60 1448 1453 "moana_rete.ml" 60 1448 1460
+)
+"moana_rete.ml" 60 1448 1494 "moana_rete.ml" 60 1448 1500
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "moana_rete.ml" 58 1378 1396 "moana_rete.ml" 58 1378 1402
+)
+"moana_rete.ml" 60 1448 1464 "moana_rete.ml" 60 1448 1500
+call(
+  tail
+)
+type(
+  Rete.rete_dataflow
+)
+"moana_rete.ml" 58 1378 1418 "moana_rete.ml" 60 1448 1500
+type(
+  Config.tuple list -> Rete.rete_dataflow
+)
+"moana_rete.ml" 58 1378 1405 "moana_rete.ml" 60 1448 1500
+type(
+  Rete.rete_dataflow
+)
+"moana_rete.ml" 63 1620 1626 "moana_rete.ml" 63 1620 1629
+type(
+  Rete.rete_dataflow -> Config.tuple -> Rete.rete_dataflow
+)
+ident(
+  def add "moana_rete.ml" 67 1737 1739 "moana_rete.ml" 74 2223 2226
+)
+"moana_rete.ml" 63 1620 1630 "moana_rete.ml" 63 1620 1637
+type(
+  Rete.rete_dataflow
+)
+ident(
+  def storage "moana_rete.ml" 63 1620 1638 "moana_rete.ml" 63 1620 1669
+)
+"moana_rete.ml" 63 1620 1638 "moana_rete.ml" 63 1620 1643
+type(
+  Config.tuple
+)
+ident(
+  def tuple "moana_rete.ml" 63 1620 1647 "moana_rete.ml" 63 1620 1669
+)
+"moana_rete.ml" 63 1620 1647 "moana_rete.ml" 63 1620 1655
+type(
+  Rete.rete_dataflow -> Config.tuple -> Rete.rete_dataflow
+)
+ident(
+  ext_ref Rete.add
+)
+"moana_rete.ml" 63 1620 1656 "moana_rete.ml" 63 1620 1663
+type(
+  Rete.rete_dataflow
+)
+ident(
+  int_ref storage "moana_rete.ml" 63 1620 1630 "moana_rete.ml" 63 1620 1637
+)
+"moana_rete.ml" 63 1620 1664 "moana_rete.ml" 63 1620 1669
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "moana_rete.ml" 63 1620 1638 "moana_rete.ml" 63 1620 1643
+)
+"moana_rete.ml" 63 1620 1647 "moana_rete.ml" 63 1620 1669
+call(
+  tail
+)
+type(
+  Rete.rete_dataflow
+)
+"moana_rete.ml" 67 1737 1743 "moana_rete.ml" 67 1737 1748
+type(
+  t -> Config.tuple list -> Config.tuple list list
+)
+ident(
+  def query "moana_rete.ml" 71 2004 2006 "moana_rete.ml" 74 2223 2226
+)
+"moana_rete.ml" 67 1737 1750 "moana_rete.ml" 67 1737 1755
+type(
+  t
+)
+ident(
+  def store "moana_rete.ml" 67 1737 1761 "moana_rete.ml" 69 1971 2001
+)
+"moana_rete.ml" 67 1737 1762 "moana_rete.ml" 67 1737 1763
+type(
+  Config.tuple list
+)
+ident(
+  def q "moana_rete.ml" 69 1971 1972 "moana_rete.ml" 69 1971 2001
+)
+"moana_rete.ml" 69 1971 1972 "moana_rete.ml" 69 1971 1977
+type(
+  t
+)
+ident(
+  int_ref store "moana_rete.ml" 67 1737 1750 "moana_rete.ml" 67 1737 1755
+)
+"moana_rete.ml" 69 1971 1978 "moana_rete.ml" 69 1971 1980
+type(
+  t -> (t -> Config.tuple list list) -> Config.tuple list list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"moana_rete.ml" 69 1971 1982 "moana_rete.ml" 69 1971 2001
+type(
+  t -> Config.tuple list list
+)
+ident(
+  ext_ref Rete.get_sol_tuples
+)
+"moana_rete.ml" 69 1971 1972 "moana_rete.ml" 69 1971 2001
+call(
+  tail
+)
+type(
+  Config.tuple list list
+)
+"moana_rete.ml" 71 2004 2010 "moana_rete.ml" 71 2004 2017
+type(
+  Rete.rete_dataflow -> Helper.TupleSet.elt list
+)
+ident(
+  def to_list "moana_rete.ml" 73 2165 2221 "moana_rete.ml" 74 2223 2226
+)
+"moana_rete.ml" 71 2004 2018 "moana_rete.ml" 71 2004 2023
+type(
+  Rete.rete_dataflow
+)
+ident(
+  def store "moana_rete.ml" 73 2165 2167 "moana_rete.ml" 73 2165 2221
+)
+"moana_rete.ml" 73 2165 2167 "moana_rete.ml" 73 2165 2186
+type(
+  Rete.rete_dataflow -> Helper.TupleSet.elt list list
+)
+ident(
+  ext_ref Rete.get_sol_tuples
+)
+"moana_rete.ml" 73 2165 2187 "moana_rete.ml" 73 2165 2192
+type(
+  Rete.rete_dataflow
+)
+ident(
+  int_ref store "moana_rete.ml" 71 2004 2018 "moana_rete.ml" 71 2004 2023
+)
+"moana_rete.ml" 73 2165 2167 "moana_rete.ml" 73 2165 2192
+call(
+  stack
+)
+type(
+  Helper.TupleSet.elt list list
+)
+"moana_rete.ml" 73 2165 2193 "moana_rete.ml" 73 2165 2195
+type(
+  Helper.TupleSet.elt list list ->
+  (Helper.TupleSet.elt list list -> Helper.TupleSet.elt list) ->
+  Helper.TupleSet.elt list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"moana_rete.ml" 73 2165 2196 "moana_rete.ml" 73 2165 2221
+type(
+  Helper.TupleSet.elt list list -> Helper.TupleSet.elt list
+)
+ident(
+  ext_ref Helper.flatten_tuple_list
+)
+"moana_rete.ml" 73 2165 2167 "moana_rete.ml" 73 2165 2221
+call(
+  tail
+)
+type(
+  Helper.TupleSet.elt list
+)
+"moana_rete.ml" 84 2339 2345 "moana_rete.ml" 84 2339 2350
+type(
+  RS.t
+)
+ident(
+  def graph "moana_rete.ml" 86 2364 2365 "moana_rete.ml" 109 3032 3035
+)
+"moana_rete.ml" 84 2339 2353 "moana_rete.ml" 84 2339 2361
+type(
+  RS.t
+)
+ident(
+  ext_ref RS.empty
+)
+"moana_rete.ml" 86 2364 2369 "moana_rete.ml" 86 2364 2373
+type(
+  ?query:Config.tuple list -> Config.tuple list -> RS.t
+)
+ident(
+  def init "moana_rete.ml" 88 2385 2387 "moana_rete.ml" 109 3032 3035
+)
+"moana_rete.ml" 86 2364 2376 "moana_rete.ml" 86 2364 2383
+type(
+  ?query:Config.tuple list -> Config.tuple list -> RS.t
+)
+ident(
+  ext_ref RS.init
+)
+"moana_rete.ml" 88 2385 2391 "moana_rete.ml" 88 2385 2394
+type(
+  RS.t -> Config.tuple -> RS.t
+)
+ident(
+  def add "moana_rete.ml" 95 2653 2654 "moana_rete.ml" 109 3032 3035
+)
+"moana_rete.ml" 88 2385 2395 "moana_rete.ml" 88 2385 2396
+type(
+  RS.t
+)
+ident(
+  def g "moana_rete.ml" 88 2385 2397 "moana_rete.ml" 91 2534 2552
+)
+"moana_rete.ml" 88 2385 2398 "moana_rete.ml" 88 2385 2403
+type(
+  Config.tuple
+)
+ident(
+  def tuple "moana_rete.ml" 89 2422 2424 "moana_rete.ml" 91 2534 2552
+)
+"moana_rete.ml" 89 2422 2428 "moana_rete.ml" 89 2422 2429
+type(
+  string
+)
+ident(
+  def s "moana_rete.ml" 90 2513 2517 "moana_rete.ml" 91 2534 2552
+)
+"moana_rete.ml" 89 2422 2432 "moana_rete.ml" 89 2422 2446
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"moana_rete.ml" 89 2422 2447 "moana_rete.ml" 89 2422 2476
+type(
+  (string -> string -> string, unit, string) format
+)
+"moana_rete.ml" 89 2422 2477 "moana_rete.ml" 89 2422 2484
+type(
+  string
+)
+ident(
+  ext_ref RS.name
+)
+"moana_rete.ml" 89 2422 2486 "moana_rete.ml" 89 2422 2502
+type(
+  Config.tuple -> string
+)
+ident(
+  ext_ref Helper.to_string
+)
+"moana_rete.ml" 89 2422 2503 "moana_rete.ml" 89 2422 2508
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "moana_rete.ml" 88 2385 2398 "moana_rete.ml" 88 2385 2403
+)
+"moana_rete.ml" 89 2422 2485 "moana_rete.ml" 89 2422 2509
+call(
+  stack
+)
+type(
+  string
+)
+"moana_rete.ml" 89 2422 2432 "moana_rete.ml" 89 2422 2509
+call(
+  stack
+)
+type(
+  string
+)
+"moana_rete.ml" 90 2513 2517 "moana_rete.ml" 90 2513 2530
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"moana_rete.ml" 90 2513 2531 "moana_rete.ml" 90 2513 2532
+type(
+  string
+)
+ident(
+  int_ref s "moana_rete.ml" 89 2422 2428 "moana_rete.ml" 89 2422 2429
+)
+"moana_rete.ml" 90 2513 2517 "moana_rete.ml" 90 2513 2532
+call(
+  stack
+)
+type(
+  unit
+)
+"moana_rete.ml" 91 2534 2538 "moana_rete.ml" 91 2534 2544
+type(
+  RS.t -> Config.tuple -> RS.t
+)
+ident(
+  ext_ref RS.add
+)
+"moana_rete.ml" 91 2534 2545 "moana_rete.ml" 91 2534 2546
+type(
+  RS.t
+)
+ident(
+  int_ref g "moana_rete.ml" 88 2385 2395 "moana_rete.ml" 88 2385 2396
+)
+"moana_rete.ml" 91 2534 2547 "moana_rete.ml" 91 2534 2552
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "moana_rete.ml" 88 2385 2398 "moana_rete.ml" 88 2385 2403
+)
+"moana_rete.ml" 91 2534 2538 "moana_rete.ml" 91 2534 2552
+call(
+  tail
+)
+type(
+  RS.t
+)
+"moana_rete.ml" 90 2513 2517 "moana_rete.ml" 91 2534 2552
+type(
+  RS.t
+)
+"moana_rete.ml" 89 2422 2424 "moana_rete.ml" 91 2534 2552
+type(
+  RS.t
+)
+"moana_rete.ml" 95 2653 2658 "moana_rete.ml" 95 2653 2661
+type(
+  'a -> Config.tuple list -> 'a
+)
+ident(
+  def map "moana_rete.ml" 97 2698 2699 "moana_rete.ml" 109 3032 3035
+)
+"moana_rete.ml" 95 2653 2662 "moana_rete.ml" 95 2653 2663
+type(
+  'a
+)
+ident(
+  def g "moana_rete.ml" 95 2653 2664 "moana_rete.ml" 95 2653 2695
+)
+"moana_rete.ml" 95 2653 2665 "moana_rete.ml" 95 2653 2670
+type(
+  Config.tuple list
+)
+ident(
+  def query "moana_rete.ml" 95 2653 2694 "moana_rete.ml" 95 2653 2695
+)
+"moana_rete.ml" 95 2653 2694 "moana_rete.ml" 95 2653 2695
+type(
+  'a
+)
+ident(
+  int_ref g "moana_rete.ml" 95 2653 2662 "moana_rete.ml" 95 2653 2663
+)
+"moana_rete.ml" 97 2698 2703 "moana_rete.ml" 97 2698 2710
+type(
+  RS.t -> Config.tuple list
+)
+ident(
+  def to_list "moana_rete.ml" 97 2698 2724 "moana_rete.ml" 109 3032 3035
+)
+"moana_rete.ml" 97 2698 2714 "moana_rete.ml" 97 2698 2724
+type(
+  RS.t -> Config.tuple list
+)
+ident(
+  ext_ref RS.to_list
+)

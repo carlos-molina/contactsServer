@@ -1,0 +1,4699 @@
+"jsonhelper.ml" 30 1084 1088 "jsonhelper.ml" 30 1084 1096
+type(
+  'a list
+)
+ident(
+  def emptyLst "jsonhelper.ml" 32 1102 1102 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 30 1084 1098 "jsonhelper.ml" 30 1084 1100
+type(
+  'a list
+)
+"jsonhelper.ml" 32 1102 1106 "jsonhelper.ml" 32 1102 1116
+type(
+  [> `List of 'a list ]
+)
+ident(
+  def emptyJnLst "jsonhelper.ml" 36 1184 1184 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 32 1102 1124 "jsonhelper.ml" 32 1102 1126
+type(
+  'a list
+)
+"jsonhelper.ml" 32 1102 1118 "jsonhelper.ml" 32 1102 1126
+type(
+  [> `List of 'a list ] as 'b
+)
+"jsonhelper.ml" 36 1184 1188 "jsonhelper.ml" 36 1184 1196
+type(
+  'a -> [> `List of 'a ]
+)
+ident(
+  def to_jnLst "jsonhelper.ml" 38 1213 1213 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 36 1184 1197 "jsonhelper.ml" 36 1184 1200
+type(
+  'a
+)
+ident(
+  def lst "jsonhelper.ml" 36 1184 1202 "jsonhelper.ml" 36 1184 1211
+)
+"jsonhelper.ml" 36 1184 1208 "jsonhelper.ml" 36 1184 1211
+type(
+  'a
+)
+ident(
+  int_ref lst "jsonhelper.ml" 36 1184 1197 "jsonhelper.ml" 36 1184 1200
+)
+"jsonhelper.ml" 36 1184 1202 "jsonhelper.ml" 36 1184 1211
+type(
+  [> `List of 'a ] as 'b
+)
+"jsonhelper.ml" 38 1213 1217 "jsonhelper.ml" 38 1213 1223
+type(
+  [> `List of 'a ] -> 'a
+)
+ident(
+  def to_lst "jsonhelper.ml" 43 1345 1345 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 38 1213 1224 "jsonhelper.ml" 38 1213 1228
+type(
+  [> `List of 'a ] as 'b
+)
+ident(
+  def jlst "jsonhelper.ml" 38 1213 1230 "jsonhelper.ml" 40 1269 1342
+)
+"jsonhelper.ml" 38 1213 1236 "jsonhelper.ml" 38 1213 1240
+type(
+  'b
+)
+ident(
+  int_ref jlst "jsonhelper.ml" 38 1213 1224 "jsonhelper.ml" 38 1213 1228
+)
+"jsonhelper.ml" 39 1246 1258 "jsonhelper.ml" 39 1246 1261
+type(
+  'a
+)
+ident(
+  def lst "jsonhelper.ml" 39 1246 1265 "jsonhelper.ml" 39 1246 1268
+)
+"jsonhelper.ml" 39 1246 1252 "jsonhelper.ml" 39 1246 1261
+type(
+  'b
+)
+"jsonhelper.ml" 39 1246 1265 "jsonhelper.ml" 39 1246 1268
+type(
+  'a
+)
+ident(
+  int_ref lst "jsonhelper.ml" 39 1246 1258 "jsonhelper.ml" 39 1246 1261
+)
+"jsonhelper.ml" 40 1269 1275 "jsonhelper.ml" 40 1269 1276
+type(
+  'b
+)
+"jsonhelper.ml" 40 1269 1287 "jsonhelper.ml" 40 1269 1292
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"jsonhelper.ml" 40 1269 1306 "jsonhelper.ml" 40 1269 1341
+type(
+  string
+)
+"jsonhelper.ml" 40 1269 1293 "jsonhelper.ml" 40 1269 1342
+type(
+  exn
+)
+"jsonhelper.ml" 40 1269 1287 "jsonhelper.ml" 40 1269 1342
+type(
+  'a
+)
+"jsonhelper.ml" 38 1213 1230 "jsonhelper.ml" 40 1269 1342
+type(
+  'a
+)
+"jsonhelper.ml" 43 1345 1349 "jsonhelper.ml" 43 1345 1361
+type(
+  [> `List of 'a list ]
+)
+ident(
+  def emptyJsonLst "jsonhelper.ml" 47 1384 1384 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 43 1345 1363 "jsonhelper.ml" 43 1345 1371
+type(
+  'a list -> ([> `List of 'a list ] as 'b)
+)
+ident(
+  int_ref to_jnLst "jsonhelper.ml" 36 1184 1188 "jsonhelper.ml" 36 1184 1196
+)
+"jsonhelper.ml" 43 1345 1372 "jsonhelper.ml" 43 1345 1380
+type(
+  'a list
+)
+ident(
+  int_ref emptyLst "jsonhelper.ml" 30 1084 1088 "jsonhelper.ml" 30 1084 1096
+)
+"jsonhelper.ml" 43 1345 1363 "jsonhelper.ml" 43 1345 1380
+call(
+  stack
+)
+type(
+  'b
+)
+"jsonhelper.ml" 47 1384 1388 "jsonhelper.ml" 47 1384 1391
+type(
+  [> `List of 'a list ] -> int
+)
+ident(
+  def len "jsonhelper.ml" 52 1451 1451 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 47 1384 1392 "jsonhelper.ml" 47 1384 1397
+type(
+  [> `List of 'a list ] as 'b
+)
+ident(
+  def jnLst "jsonhelper.ml" 48 1400 1404 "jsonhelper.ml" 49 1429 1448
+)
+"jsonhelper.ml" 48 1400 1408 "jsonhelper.ml" 48 1400 1411
+type(
+  'a list
+)
+ident(
+  def lst "jsonhelper.ml" 49 1429 1433 "jsonhelper.ml" 49 1429 1448
+)
+"jsonhelper.ml" 48 1400 1413 "jsonhelper.ml" 48 1400 1419
+type(
+  'b -> 'a list
+)
+ident(
+  int_ref to_lst "jsonhelper.ml" 38 1213 1217 "jsonhelper.ml" 38 1213 1223
+)
+"jsonhelper.ml" 48 1400 1420 "jsonhelper.ml" 48 1400 1425
+type(
+  'b
+)
+ident(
+  int_ref jnLst "jsonhelper.ml" 47 1384 1392 "jsonhelper.ml" 47 1384 1397
+)
+"jsonhelper.ml" 48 1400 1413 "jsonhelper.ml" 48 1400 1425
+call(
+  stack
+)
+type(
+  'a list
+)
+"jsonhelper.ml" 49 1429 1433 "jsonhelper.ml" 49 1429 1444
+type(
+  'a list -> int
+)
+ident(
+  ext_ref List.length
+)
+"jsonhelper.ml" 49 1429 1445 "jsonhelper.ml" 49 1429 1448
+type(
+  'a list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 48 1400 1408 "jsonhelper.ml" 48 1400 1411
+)
+"jsonhelper.ml" 49 1429 1433 "jsonhelper.ml" 49 1429 1448
+call(
+  tail
+)
+type(
+  int
+)
+"jsonhelper.ml" 48 1400 1404 "jsonhelper.ml" 49 1429 1448
+type(
+  int
+)
+"jsonhelper.ml" 52 1451 1455 "jsonhelper.ml" 52 1451 1465
+type(
+  [> `List of 'a list ] -> bool
+)
+ident(
+  def isLstEmpty "jsonhelper.ml" 62 1586 1586 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 52 1451 1466 "jsonhelper.ml" 52 1451 1471
+type(
+  [> `List of 'a list ] as 'b
+)
+ident(
+  def jnLst "jsonhelper.ml" 53 1474 1478 "jsonhelper.ml" 56 1539 1556
+)
+"jsonhelper.ml" 53 1474 1482 "jsonhelper.ml" 53 1474 1485
+type(
+  'a list
+)
+ident(
+  def lst "jsonhelper.ml" 54 1503 1507 "jsonhelper.ml" 56 1539 1556
+)
+"jsonhelper.ml" 53 1474 1487 "jsonhelper.ml" 53 1474 1493
+type(
+  'b -> 'a list
+)
+ident(
+  int_ref to_lst "jsonhelper.ml" 38 1213 1217 "jsonhelper.ml" 38 1213 1223
+)
+"jsonhelper.ml" 53 1474 1494 "jsonhelper.ml" 53 1474 1499
+type(
+  'b
+)
+ident(
+  int_ref jnLst "jsonhelper.ml" 52 1451 1466 "jsonhelper.ml" 52 1451 1471
+)
+"jsonhelper.ml" 53 1474 1487 "jsonhelper.ml" 53 1474 1499
+call(
+  stack
+)
+type(
+  'a list
+)
+"jsonhelper.ml" 54 1503 1513 "jsonhelper.ml" 54 1503 1516
+type(
+  'a list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 53 1474 1482 "jsonhelper.ml" 53 1474 1485
+)
+"jsonhelper.ml" 55 1522 1528 "jsonhelper.ml" 55 1522 1530
+type(
+  'a list
+)
+"jsonhelper.ml" 55 1522 1534 "jsonhelper.ml" 55 1522 1538
+type(
+  bool
+)
+"jsonhelper.ml" 56 1539 1545 "jsonhelper.ml" 56 1539 1546
+type(
+  'a list
+)
+"jsonhelper.ml" 56 1539 1551 "jsonhelper.ml" 56 1539 1556
+type(
+  bool
+)
+"jsonhelper.ml" 54 1503 1507 "jsonhelper.ml" 56 1539 1556
+type(
+  bool
+)
+"jsonhelper.ml" 53 1474 1478 "jsonhelper.ml" 56 1539 1556
+type(
+  bool
+)
+"jsonhelper.ml" 62 1586 1590 "jsonhelper.ml" 62 1586 1593
+type(
+  'a -> [> `List of 'a list ] -> [> `List of 'a list ]
+)
+ident(
+  def add "jsonhelper.ml" 66 1667 1667 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 62 1586 1594 "jsonhelper.ml" 62 1586 1601
+type(
+  'a
+)
+ident(
+  def jnTuple "jsonhelper.ml" 62 1586 1602 "jsonhelper.ml" 64 1639 1665
+)
+"jsonhelper.ml" 62 1586 1602 "jsonhelper.ml" 62 1586 1607
+type(
+  [> `List of 'a list ] as 'b
+)
+ident(
+  def jnLst "jsonhelper.ml" 63 1610 1614 "jsonhelper.ml" 64 1639 1665
+)
+"jsonhelper.ml" 63 1610 1618 "jsonhelper.ml" 63 1610 1621
+type(
+  'a list
+)
+ident(
+  def lst "jsonhelper.ml" 64 1639 1643 "jsonhelper.ml" 64 1639 1665
+)
+"jsonhelper.ml" 63 1610 1623 "jsonhelper.ml" 63 1610 1629
+type(
+  'b -> 'a list
+)
+ident(
+  int_ref to_lst "jsonhelper.ml" 38 1213 1217 "jsonhelper.ml" 38 1213 1223
+)
+"jsonhelper.ml" 63 1610 1630 "jsonhelper.ml" 63 1610 1635
+type(
+  'b
+)
+ident(
+  int_ref jnLst "jsonhelper.ml" 62 1586 1602 "jsonhelper.ml" 62 1586 1607
+)
+"jsonhelper.ml" 63 1610 1623 "jsonhelper.ml" 63 1610 1635
+call(
+  stack
+)
+type(
+  'a list
+)
+"jsonhelper.ml" 64 1639 1643 "jsonhelper.ml" 64 1639 1651
+type(
+  'a list -> ([> `List of 'a list ] as 'c)
+)
+ident(
+  int_ref to_jnLst "jsonhelper.ml" 36 1184 1188 "jsonhelper.ml" 36 1184 1196
+)
+"jsonhelper.ml" 64 1639 1652 "jsonhelper.ml" 64 1639 1659
+type(
+  'a
+)
+ident(
+  int_ref jnTuple "jsonhelper.ml" 62 1586 1594 "jsonhelper.ml" 62 1586 1601
+)
+"jsonhelper.ml" 64 1639 1661 "jsonhelper.ml" 64 1639 1664
+type(
+  'a list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 63 1610 1618 "jsonhelper.ml" 63 1610 1621
+)
+"jsonhelper.ml" 64 1639 1651 "jsonhelper.ml" 64 1639 1665
+type(
+  'a list
+)
+"jsonhelper.ml" 64 1639 1643 "jsonhelper.ml" 64 1639 1665
+call(
+  tail
+)
+type(
+  'c
+)
+"jsonhelper.ml" 63 1610 1614 "jsonhelper.ml" 64 1639 1665
+type(
+  'c
+)
+"jsonhelper.ml" 66 1667 1671 "jsonhelper.ml" 66 1667 1676
+type(
+  [> `List of 'a list ] -> 'a
+)
+ident(
+  def getHd "jsonhelper.ml" 70 1730 1730 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 66 1667 1677 "jsonhelper.ml" 66 1667 1682
+type(
+  [> `List of 'a list ] as 'b
+)
+ident(
+  def jnLst "jsonhelper.ml" 67 1684 1688 "jsonhelper.ml" 68 1713 1728
+)
+"jsonhelper.ml" 67 1684 1692 "jsonhelper.ml" 67 1684 1695
+type(
+  'a list
+)
+ident(
+  def lst "jsonhelper.ml" 68 1713 1717 "jsonhelper.ml" 68 1713 1728
+)
+"jsonhelper.ml" 67 1684 1697 "jsonhelper.ml" 67 1684 1703
+type(
+  'b -> 'a list
+)
+ident(
+  int_ref to_lst "jsonhelper.ml" 38 1213 1217 "jsonhelper.ml" 38 1213 1223
+)
+"jsonhelper.ml" 67 1684 1704 "jsonhelper.ml" 67 1684 1709
+type(
+  'b
+)
+ident(
+  int_ref jnLst "jsonhelper.ml" 66 1667 1677 "jsonhelper.ml" 66 1667 1682
+)
+"jsonhelper.ml" 67 1684 1697 "jsonhelper.ml" 67 1684 1709
+call(
+  stack
+)
+type(
+  'a list
+)
+"jsonhelper.ml" 68 1713 1717 "jsonhelper.ml" 68 1713 1724
+type(
+  'a list -> 'a
+)
+ident(
+  ext_ref List.hd
+)
+"jsonhelper.ml" 68 1713 1725 "jsonhelper.ml" 68 1713 1728
+type(
+  'a list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 67 1684 1692 "jsonhelper.ml" 67 1684 1695
+)
+"jsonhelper.ml" 68 1713 1717 "jsonhelper.ml" 68 1713 1728
+call(
+  tail
+)
+type(
+  'a
+)
+"jsonhelper.ml" 67 1684 1688 "jsonhelper.ml" 68 1713 1728
+type(
+  'a
+)
+"jsonhelper.ml" 70 1730 1734 "jsonhelper.ml" 70 1730 1739
+type(
+  [> `List of 'a list ] -> 'a list
+)
+ident(
+  def getTl "jsonhelper.ml" 74 1793 1793 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 70 1730 1740 "jsonhelper.ml" 70 1730 1745
+type(
+  [> `List of 'a list ] as 'b
+)
+ident(
+  def jnLst "jsonhelper.ml" 71 1747 1751 "jsonhelper.ml" 72 1776 1791
+)
+"jsonhelper.ml" 71 1747 1755 "jsonhelper.ml" 71 1747 1758
+type(
+  'a list
+)
+ident(
+  def lst "jsonhelper.ml" 72 1776 1780 "jsonhelper.ml" 72 1776 1791
+)
+"jsonhelper.ml" 71 1747 1760 "jsonhelper.ml" 71 1747 1766
+type(
+  'b -> 'a list
+)
+ident(
+  int_ref to_lst "jsonhelper.ml" 38 1213 1217 "jsonhelper.ml" 38 1213 1223
+)
+"jsonhelper.ml" 71 1747 1767 "jsonhelper.ml" 71 1747 1772
+type(
+  'b
+)
+ident(
+  int_ref jnLst "jsonhelper.ml" 70 1730 1740 "jsonhelper.ml" 70 1730 1745
+)
+"jsonhelper.ml" 71 1747 1760 "jsonhelper.ml" 71 1747 1772
+call(
+  stack
+)
+type(
+  'a list
+)
+"jsonhelper.ml" 72 1776 1780 "jsonhelper.ml" 72 1776 1787
+type(
+  'a list -> 'a list
+)
+ident(
+  ext_ref List.tl
+)
+"jsonhelper.ml" 72 1776 1788 "jsonhelper.ml" 72 1776 1791
+type(
+  'a list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 71 1747 1755 "jsonhelper.ml" 71 1747 1758
+)
+"jsonhelper.ml" 72 1776 1780 "jsonhelper.ml" 72 1776 1791
+call(
+  tail
+)
+type(
+  'a list
+)
+"jsonhelper.ml" 71 1747 1751 "jsonhelper.ml" 72 1776 1791
+type(
+  'a list
+)
+"jsonhelper.ml" 74 1793 1797 "jsonhelper.ml" 74 1793 1804
+type(
+  [> `List of 'a list ] -> 'a * 'a list
+)
+ident(
+  def getHdTl "jsonhelper.ml" 84 1922 1922 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 74 1793 1805 "jsonhelper.ml" 74 1793 1810
+type(
+  [> `List of 'a list ] as 'b
+)
+ident(
+  def jnLst "jsonhelper.ml" 75 1812 1816 "jsonhelper.ml" 78 1899 1910
+)
+"jsonhelper.ml" 75 1812 1820 "jsonhelper.ml" 75 1812 1823
+type(
+  'a list
+)
+ident(
+  def lst "jsonhelper.ml" 76 1841 1845 "jsonhelper.ml" 78 1899 1910
+)
+"jsonhelper.ml" 75 1812 1825 "jsonhelper.ml" 75 1812 1831
+type(
+  'b -> 'a list
+)
+ident(
+  int_ref to_lst "jsonhelper.ml" 38 1213 1217 "jsonhelper.ml" 38 1213 1223
+)
+"jsonhelper.ml" 75 1812 1832 "jsonhelper.ml" 75 1812 1837
+type(
+  'b
+)
+ident(
+  int_ref jnLst "jsonhelper.ml" 74 1793 1805 "jsonhelper.ml" 74 1793 1810
+)
+"jsonhelper.ml" 75 1812 1825 "jsonhelper.ml" 75 1812 1837
+call(
+  stack
+)
+type(
+  'a list
+)
+"jsonhelper.ml" 76 1841 1849 "jsonhelper.ml" 76 1841 1851
+type(
+  'a
+)
+ident(
+  def hd "jsonhelper.ml" 77 1870 1874 "jsonhelper.ml" 78 1899 1910
+)
+"jsonhelper.ml" 76 1841 1853 "jsonhelper.ml" 76 1841 1860
+type(
+  'a list -> 'a
+)
+ident(
+  ext_ref List.hd
+)
+"jsonhelper.ml" 76 1841 1861 "jsonhelper.ml" 76 1841 1864
+type(
+  'a list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 75 1812 1820 "jsonhelper.ml" 75 1812 1823
+)
+"jsonhelper.ml" 76 1841 1853 "jsonhelper.ml" 76 1841 1864
+call(
+  stack
+)
+type(
+  'a
+)
+"jsonhelper.ml" 77 1870 1878 "jsonhelper.ml" 77 1870 1880
+type(
+  'a list
+)
+ident(
+  def tl "jsonhelper.ml" 78 1899 1903 "jsonhelper.ml" 78 1899 1910
+)
+"jsonhelper.ml" 77 1870 1882 "jsonhelper.ml" 77 1870 1889
+type(
+  'a list -> 'a list
+)
+ident(
+  ext_ref List.tl
+)
+"jsonhelper.ml" 77 1870 1890 "jsonhelper.ml" 77 1870 1893
+type(
+  'a list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 75 1812 1820 "jsonhelper.ml" 75 1812 1823
+)
+"jsonhelper.ml" 77 1870 1882 "jsonhelper.ml" 77 1870 1893
+call(
+  stack
+)
+type(
+  'a list
+)
+"jsonhelper.ml" 78 1899 1904 "jsonhelper.ml" 78 1899 1906
+type(
+  'a
+)
+ident(
+  int_ref hd "jsonhelper.ml" 76 1841 1849 "jsonhelper.ml" 76 1841 1851
+)
+"jsonhelper.ml" 78 1899 1907 "jsonhelper.ml" 78 1899 1909
+type(
+  'a list
+)
+ident(
+  int_ref tl "jsonhelper.ml" 77 1870 1878 "jsonhelper.ml" 77 1870 1880
+)
+"jsonhelper.ml" 78 1899 1903 "jsonhelper.ml" 78 1899 1910
+type(
+  'a * 'a list
+)
+"jsonhelper.ml" 77 1870 1874 "jsonhelper.ml" 78 1899 1910
+type(
+  'a * 'a list
+)
+"jsonhelper.ml" 76 1841 1845 "jsonhelper.ml" 78 1899 1910
+type(
+  'a * 'a list
+)
+"jsonhelper.ml" 75 1812 1816 "jsonhelper.ml" 78 1899 1910
+type(
+  'a * 'a list
+)
+"jsonhelper.ml" 84 1922 1926 "jsonhelper.ml" 84 1922 1942
+type(
+  string option -> string
+)
+ident(
+  def optionStr_to_str "jsonhelper.ml" 91 2043 2043 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 84 1922 1943 "jsonhelper.ml" 84 1922 1949
+type(
+  string option
+)
+ident(
+  def optStr "jsonhelper.ml" 84 1922 1949 "jsonhelper.ml" 86 1998 2029
+)
+"jsonhelper.ml" 84 1922 1964 "jsonhelper.ml" 84 1922 1970
+type(
+  string option
+)
+ident(
+  int_ref optStr "jsonhelper.ml" 84 1922 1943 "jsonhelper.ml" 84 1922 1949
+)
+"jsonhelper.ml" 85 1976 1987 "jsonhelper.ml" 85 1976 1990
+type(
+  string
+)
+ident(
+  def str "jsonhelper.ml" 85 1976 1994 "jsonhelper.ml" 85 1976 1997
+)
+"jsonhelper.ml" 85 1976 1982 "jsonhelper.ml" 85 1976 1990
+type(
+  string option
+)
+"jsonhelper.ml" 85 1976 1994 "jsonhelper.ml" 85 1976 1997
+type(
+  string
+)
+ident(
+  int_ref str "jsonhelper.ml" 85 1976 1987 "jsonhelper.ml" 85 1976 1990
+)
+"jsonhelper.ml" 86 1998 2004 "jsonhelper.ml" 86 1998 2008
+type(
+  string option
+)
+"jsonhelper.ml" 86 1998 2016 "jsonhelper.ml" 86 1998 2029
+type(
+  string
+)
+"jsonhelper.ml" 84 1922 1958 "jsonhelper.ml" 86 1998 2029
+type(
+  string
+)
+type(
+  string
+)
+"jsonhelper.ml" 91 2043 2047 "jsonhelper.ml" 91 2043 2060
+type(
+  'a option -> 'a
+)
+ident(
+  def optQry_to_qry "jsonhelper.ml" 99 2267 2267 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 91 2043 2061 "jsonhelper.ml" 91 2043 2067
+type(
+  'a option
+)
+ident(
+  def optQry "jsonhelper.ml" 91 2043 2070 "jsonhelper.ml" 93 2112 2174
+)
+"jsonhelper.ml" 91 2043 2076 "jsonhelper.ml" 91 2043 2082
+type(
+  'a option
+)
+ident(
+  int_ref optQry "jsonhelper.ml" 91 2043 2061 "jsonhelper.ml" 91 2043 2067
+)
+"jsonhelper.ml" 92 2088 2099 "jsonhelper.ml" 92 2088 2102
+type(
+  'a
+)
+ident(
+  def qry "jsonhelper.ml" 92 2088 2108 "jsonhelper.ml" 92 2088 2111
+)
+"jsonhelper.ml" 92 2088 2094 "jsonhelper.ml" 92 2088 2102
+type(
+  'a option
+)
+"jsonhelper.ml" 92 2088 2108 "jsonhelper.ml" 92 2088 2111
+type(
+  'a
+)
+ident(
+  int_ref qry "jsonhelper.ml" 92 2088 2099 "jsonhelper.ml" 92 2088 2102
+)
+"jsonhelper.ml" 93 2112 2118 "jsonhelper.ml" 93 2112 2119
+type(
+  'a option
+)
+"jsonhelper.ml" 93 2112 2132 "jsonhelper.ml" 93 2112 2137
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"jsonhelper.ml" 93 2112 2150 "jsonhelper.ml" 93 2112 2173
+type(
+  string
+)
+"jsonhelper.ml" 93 2112 2138 "jsonhelper.ml" 93 2112 2174
+type(
+  exn
+)
+"jsonhelper.ml" 93 2112 2132 "jsonhelper.ml" 93 2112 2174
+type(
+  'a
+)
+"jsonhelper.ml" 91 2043 2070 "jsonhelper.ml" 93 2112 2174
+type(
+  'a
+)
+"jsonhelper.ml" 99 2267 2271 "jsonhelper.ml" 99 2267 2286
+type(
+  'a -> 'a -> string
+)
+ident(
+  def equal_qry1_qry2 "jsonhelper.ml" 110 2507 2507 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 99 2267 2287 "jsonhelper.ml" 99 2267 2291
+type(
+  'a
+)
+ident(
+  def qry1 "jsonhelper.ml" 99 2267 2292 "jsonhelper.ml" 101 2346 2372
+)
+"jsonhelper.ml" 99 2267 2292 "jsonhelper.ml" 99 2267 2296
+type(
+  'a
+)
+ident(
+  def qry2 "jsonhelper.ml" 99 2267 2298 "jsonhelper.ml" 101 2346 2372
+)
+"jsonhelper.ml" 99 2267 2304 "jsonhelper.ml" 99 2267 2308
+type(
+  'a
+)
+ident(
+  int_ref qry1 "jsonhelper.ml" 99 2267 2287 "jsonhelper.ml" 99 2267 2291
+)
+"jsonhelper.ml" 99 2267 2308 "jsonhelper.ml" 99 2267 2309
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"jsonhelper.ml" 99 2267 2309 "jsonhelper.ml" 99 2267 2313
+type(
+  'a
+)
+ident(
+  int_ref qry2 "jsonhelper.ml" 99 2267 2292 "jsonhelper.ml" 99 2267 2296
+)
+"jsonhelper.ml" 99 2267 2304 "jsonhelper.ml" 99 2267 2313
+type(
+  bool
+)
+"jsonhelper.ml" 100 2319 2325 "jsonhelper.ml" 100 2319 2329
+type(
+  bool
+)
+"jsonhelper.ml" 100 2319 2335 "jsonhelper.ml" 100 2319 2345
+type(
+  string
+)
+"jsonhelper.ml" 101 2346 2352 "jsonhelper.ml" 101 2346 2358
+type(
+  bool
+)
+ident(
+  def falase "jsonhelper.ml" 101 2346 2362 "jsonhelper.ml" 101 2346 2372
+)
+"jsonhelper.ml" 101 2346 2362 "jsonhelper.ml" 101 2346 2372
+type(
+  string
+)
+"jsonhelper.ml" 99 2267 2298 "jsonhelper.ml" 101 2346 2372
+type(
+  string
+)
+"jsonhelper.ml" 110 2507 2511 "jsonhelper.ml" 110 2507 2524
+type(
+  Config.tuple -> string
+)
+ident(
+  def qry_to_string "jsonhelper.ml" 129 2998 2998 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 113 2544 2570 "jsonhelper.ml" 113 2544 2571
+type(
+  string
+)
+ident(
+  def s "jsonhelper.ml" 118 2680 2700 "jsonhelper.ml" 118 2680 2735
+)
+"jsonhelper.ml" 113 2544 2561 "jsonhelper.ml" 113 2544 2571
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 114 2573 2599 "jsonhelper.ml" 114 2573 2600
+type(
+  Config.t
+)
+ident(
+  def p "jsonhelper.ml" 118 2680 2700 "jsonhelper.ml" 118 2680 2735
+)
+"jsonhelper.ml" 114 2573 2590 "jsonhelper.ml" 114 2573 2600
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 115 2602 2628 "jsonhelper.ml" 115 2602 2629
+type(
+  Config.obj_t
+)
+ident(
+  def o "jsonhelper.ml" 118 2680 2700 "jsonhelper.ml" 118 2680 2735
+)
+"jsonhelper.ml" 115 2602 2619 "jsonhelper.ml" 115 2602 2629
+type(
+  Config.obj_t Config.element_type
+)
+"jsonhelper.ml" 116 2631 2657 "jsonhelper.ml" 116 2631 2658
+type(
+  Config.context
+)
+ident(
+  def c "jsonhelper.ml" 118 2680 2700 "jsonhelper.ml" 118 2680 2735
+)
+"jsonhelper.ml" 116 2631 2648 "jsonhelper.ml" 116 2631 2658
+type(
+  Config.context Config.element_type
+)
+"jsonhelper.ml" 117 2660 2677 "jsonhelper.ml" 117 2660 2678
+type(
+  Config.timestamp Config.element_type option
+)
+"jsonhelper.ml" 118 2680 2693 "jsonhelper.ml" 118 2680 2694
+type(
+  Config.signature Config.element_type option
+)
+"jsonhelper.ml" 112 2538 2542 "jsonhelper.ml" 118 2680 2696
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 118 2680 2700 "jsonhelper.ml" 118 2680 2714
+type(
+  (string -> Config.t -> Config.obj_t -> string, unit, string) format ->
+  string -> Config.t -> Config.obj_t -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"jsonhelper.ml" 118 2680 2715 "jsonhelper.ml" 118 2680 2729
+type(
+  (string -> Config.t -> Config.obj_t -> string, unit, string) format
+)
+"jsonhelper.ml" 118 2680 2730 "jsonhelper.ml" 118 2680 2731
+type(
+  string
+)
+ident(
+  int_ref s "jsonhelper.ml" 113 2544 2570 "jsonhelper.ml" 113 2544 2571
+)
+"jsonhelper.ml" 118 2680 2732 "jsonhelper.ml" 118 2680 2733
+type(
+  Config.t
+)
+ident(
+  int_ref p "jsonhelper.ml" 114 2573 2599 "jsonhelper.ml" 114 2573 2600
+)
+"jsonhelper.ml" 118 2680 2734 "jsonhelper.ml" 118 2680 2735
+type(
+  Config.obj_t
+)
+ident(
+  int_ref o "jsonhelper.ml" 115 2602 2628 "jsonhelper.ml" 115 2602 2629
+)
+"jsonhelper.ml" 118 2680 2700 "jsonhelper.ml" 118 2680 2735
+call(
+  tail
+)
+type(
+  string
+)
+"jsonhelper.ml" 119 2736 2740 "jsonhelper.ml" 119 2736 2741
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 119 2736 2745 "jsonhelper.ml" 119 2736 2771
+type(
+  string
+)
+"jsonhelper.ml" 111 2527 2529 "jsonhelper.ml" 119 2736 2771
+type(
+  Config.tuple -> string
+)
+"jsonhelper.ml" 129 2998 3002 "jsonhelper.ml" 129 2998 3013
+type(
+  string Config.element_type -> string * string
+)
+ident(
+  def subj_to_str "jsonhelper.ml" 133 3117 3117 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 129 2998 3014 "jsonhelper.ml" 129 2998 3018
+type(
+  string Config.element_type
+)
+ident(
+  def subj "jsonhelper.ml" 129 2998 3020 "jsonhelper.ml" 131 3076 3115
+)
+"jsonhelper.ml" 129 2998 3026 "jsonhelper.ml" 129 2998 3030
+type(
+  string Config.element_type
+)
+ident(
+  int_ref subj "jsonhelper.ml" 129 2998 3014 "jsonhelper.ml" 129 2998 3018
+)
+"jsonhelper.ml" 130 3036 3051 "jsonhelper.ml" 130 3036 3054
+type(
+  string
+)
+ident(
+  def str "jsonhelper.ml" 130 3036 3058 "jsonhelper.ml" 130 3036 3075
+)
+"jsonhelper.ml" 130 3036 3042 "jsonhelper.ml" 130 3036 3054
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 130 3036 3059 "jsonhelper.ml" 130 3036 3062
+type(
+  string
+)
+ident(
+  int_ref str "jsonhelper.ml" 130 3036 3051 "jsonhelper.ml" 130 3036 3054
+)
+"jsonhelper.ml" 130 3036 3064 "jsonhelper.ml" 130 3036 3074
+type(
+  string
+)
+"jsonhelper.ml" 130 3036 3058 "jsonhelper.ml" 130 3036 3075
+type(
+  string * string
+)
+"jsonhelper.ml" 131 3076 3091 "jsonhelper.ml" 131 3076 3094
+type(
+  string
+)
+ident(
+  def str "jsonhelper.ml" 131 3076 3098 "jsonhelper.ml" 131 3076 3115
+)
+"jsonhelper.ml" 131 3076 3082 "jsonhelper.ml" 131 3076 3094
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 131 3076 3099 "jsonhelper.ml" 131 3076 3102
+type(
+  string
+)
+ident(
+  int_ref str "jsonhelper.ml" 131 3076 3091 "jsonhelper.ml" 131 3076 3094
+)
+"jsonhelper.ml" 131 3076 3104 "jsonhelper.ml" 131 3076 3114
+type(
+  string
+)
+"jsonhelper.ml" 131 3076 3098 "jsonhelper.ml" 131 3076 3115
+type(
+  string * string
+)
+"jsonhelper.ml" 129 2998 3020 "jsonhelper.ml" 131 3076 3115
+type(
+  string * string
+)
+"jsonhelper.ml" 133 3117 3121 "jsonhelper.ml" 133 3117 3132
+type(
+  string Config.element_type -> string * string
+)
+ident(
+  def pred_to_str "jsonhelper.ml" 137 3236 3236 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 133 3117 3133 "jsonhelper.ml" 133 3117 3137
+type(
+  string Config.element_type
+)
+ident(
+  def pred "jsonhelper.ml" 133 3117 3139 "jsonhelper.ml" 135 3195 3234
+)
+"jsonhelper.ml" 133 3117 3145 "jsonhelper.ml" 133 3117 3149
+type(
+  string Config.element_type
+)
+ident(
+  int_ref pred "jsonhelper.ml" 133 3117 3133 "jsonhelper.ml" 133 3117 3137
+)
+"jsonhelper.ml" 134 3155 3170 "jsonhelper.ml" 134 3155 3173
+type(
+  string
+)
+ident(
+  def str "jsonhelper.ml" 134 3155 3177 "jsonhelper.ml" 134 3155 3194
+)
+"jsonhelper.ml" 134 3155 3161 "jsonhelper.ml" 134 3155 3173
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 134 3155 3178 "jsonhelper.ml" 134 3155 3181
+type(
+  string
+)
+ident(
+  int_ref str "jsonhelper.ml" 134 3155 3170 "jsonhelper.ml" 134 3155 3173
+)
+"jsonhelper.ml" 134 3155 3183 "jsonhelper.ml" 134 3155 3193
+type(
+  string
+)
+"jsonhelper.ml" 134 3155 3177 "jsonhelper.ml" 134 3155 3194
+type(
+  string * string
+)
+"jsonhelper.ml" 135 3195 3210 "jsonhelper.ml" 135 3195 3213
+type(
+  string
+)
+ident(
+  def str "jsonhelper.ml" 135 3195 3217 "jsonhelper.ml" 135 3195 3234
+)
+"jsonhelper.ml" 135 3195 3201 "jsonhelper.ml" 135 3195 3213
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 135 3195 3218 "jsonhelper.ml" 135 3195 3221
+type(
+  string
+)
+ident(
+  int_ref str "jsonhelper.ml" 135 3195 3210 "jsonhelper.ml" 135 3195 3213
+)
+"jsonhelper.ml" 135 3195 3223 "jsonhelper.ml" 135 3195 3233
+type(
+  string
+)
+"jsonhelper.ml" 135 3195 3217 "jsonhelper.ml" 135 3195 3234
+type(
+  string * string
+)
+"jsonhelper.ml" 133 3117 3139 "jsonhelper.ml" 135 3195 3234
+type(
+  string * string
+)
+"jsonhelper.ml" 137 3236 3240 "jsonhelper.ml" 137 3236 3250
+type(
+  string Config.element_type -> string * string
+)
+ident(
+  def obj_to_str "jsonhelper.ml" 141 3352 3352 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 137 3236 3251 "jsonhelper.ml" 137 3236 3254
+type(
+  string Config.element_type
+)
+ident(
+  def obj "jsonhelper.ml" 137 3236 3256 "jsonhelper.ml" 139 3311 3350
+)
+"jsonhelper.ml" 137 3236 3262 "jsonhelper.ml" 137 3236 3265
+type(
+  string Config.element_type
+)
+ident(
+  int_ref obj "jsonhelper.ml" 137 3236 3251 "jsonhelper.ml" 137 3236 3254
+)
+"jsonhelper.ml" 138 3271 3286 "jsonhelper.ml" 138 3271 3289
+type(
+  string
+)
+ident(
+  def str "jsonhelper.ml" 138 3271 3293 "jsonhelper.ml" 138 3271 3310
+)
+"jsonhelper.ml" 138 3271 3277 "jsonhelper.ml" 138 3271 3289
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 138 3271 3294 "jsonhelper.ml" 138 3271 3297
+type(
+  string
+)
+ident(
+  int_ref str "jsonhelper.ml" 138 3271 3286 "jsonhelper.ml" 138 3271 3289
+)
+"jsonhelper.ml" 138 3271 3299 "jsonhelper.ml" 138 3271 3309
+type(
+  string
+)
+"jsonhelper.ml" 138 3271 3293 "jsonhelper.ml" 138 3271 3310
+type(
+  string * string
+)
+"jsonhelper.ml" 139 3311 3326 "jsonhelper.ml" 139 3311 3329
+type(
+  string
+)
+ident(
+  def str "jsonhelper.ml" 139 3311 3333 "jsonhelper.ml" 139 3311 3350
+)
+"jsonhelper.ml" 139 3311 3317 "jsonhelper.ml" 139 3311 3329
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 139 3311 3334 "jsonhelper.ml" 139 3311 3337
+type(
+  string
+)
+ident(
+  int_ref str "jsonhelper.ml" 139 3311 3326 "jsonhelper.ml" 139 3311 3329
+)
+"jsonhelper.ml" 139 3311 3339 "jsonhelper.ml" 139 3311 3349
+type(
+  string
+)
+"jsonhelper.ml" 139 3311 3333 "jsonhelper.ml" 139 3311 3350
+type(
+  string * string
+)
+"jsonhelper.ml" 137 3236 3256 "jsonhelper.ml" 139 3311 3350
+type(
+  string * string
+)
+"jsonhelper.ml" 141 3352 3356 "jsonhelper.ml" 141 3352 3367
+type(
+  string Config.element_type -> string * string
+)
+ident(
+  def ctxt_to_str "jsonhelper.ml" 153 3725 3725 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 141 3352 3368 "jsonhelper.ml" 141 3352 3372
+type(
+  string Config.element_type
+)
+ident(
+  def ctxt "jsonhelper.ml" 141 3352 3374 "jsonhelper.ml" 143 3430 3469
+)
+"jsonhelper.ml" 141 3352 3380 "jsonhelper.ml" 141 3352 3384
+type(
+  string Config.element_type
+)
+ident(
+  int_ref ctxt "jsonhelper.ml" 141 3352 3368 "jsonhelper.ml" 141 3352 3372
+)
+"jsonhelper.ml" 142 3390 3405 "jsonhelper.ml" 142 3390 3408
+type(
+  string
+)
+ident(
+  def str "jsonhelper.ml" 142 3390 3412 "jsonhelper.ml" 142 3390 3429
+)
+"jsonhelper.ml" 142 3390 3396 "jsonhelper.ml" 142 3390 3408
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 142 3390 3413 "jsonhelper.ml" 142 3390 3416
+type(
+  string
+)
+ident(
+  int_ref str "jsonhelper.ml" 142 3390 3405 "jsonhelper.ml" 142 3390 3408
+)
+"jsonhelper.ml" 142 3390 3418 "jsonhelper.ml" 142 3390 3428
+type(
+  string
+)
+"jsonhelper.ml" 142 3390 3412 "jsonhelper.ml" 142 3390 3429
+type(
+  string * string
+)
+"jsonhelper.ml" 143 3430 3445 "jsonhelper.ml" 143 3430 3448
+type(
+  string
+)
+ident(
+  def str "jsonhelper.ml" 143 3430 3452 "jsonhelper.ml" 143 3430 3469
+)
+"jsonhelper.ml" 143 3430 3436 "jsonhelper.ml" 143 3430 3448
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 143 3430 3453 "jsonhelper.ml" 143 3430 3456
+type(
+  string
+)
+ident(
+  int_ref str "jsonhelper.ml" 143 3430 3445 "jsonhelper.ml" 143 3430 3448
+)
+"jsonhelper.ml" 143 3430 3458 "jsonhelper.ml" 143 3430 3468
+type(
+  string
+)
+"jsonhelper.ml" 143 3430 3452 "jsonhelper.ml" 143 3430 3469
+type(
+  string * string
+)
+"jsonhelper.ml" 141 3352 3374 "jsonhelper.ml" 143 3430 3469
+type(
+  string * string
+)
+"jsonhelper.ml" 153 3725 3729 "jsonhelper.ml" 153 3725 3740
+type(
+  Config.tuple -> Yojson.Basic.json
+)
+ident(
+  def qry_to_json "jsonhelper.ml" 215 5152 5152 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 153 3725 3741 "jsonhelper.ml" 153 3725 3744
+type(
+  Config.tuple
+)
+ident(
+  def qry "jsonhelper.ml" 153 3725 3746 "jsonhelper.ml" 206 5029 5083
+)
+"jsonhelper.ml" 153 3725 3752 "jsonhelper.ml" 153 3725 3755
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "jsonhelper.ml" 153 3725 3741 "jsonhelper.ml" 153 3725 3744
+)
+"jsonhelper.ml" 155 3767 3789 "jsonhelper.ml" 155 3767 3790
+type(
+  Config.t
+)
+ident(
+  def s "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 155 3767 3780 "jsonhelper.ml" 155 3767 3790
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 156 3792 3814 "jsonhelper.ml" 156 3792 3815
+type(
+  Config.t
+)
+ident(
+  def p "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 156 3792 3805 "jsonhelper.ml" 156 3792 3815
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 157 3817 3839 "jsonhelper.ml" 157 3817 3840
+type(
+  Config.obj_t
+)
+ident(
+  def o "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 157 3817 3830 "jsonhelper.ml" 157 3817 3840
+type(
+  Config.obj_t Config.element_type
+)
+"jsonhelper.ml" 158 3842 3864 "jsonhelper.ml" 158 3842 3865
+type(
+  Config.context
+)
+ident(
+  def c "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 158 3842 3855 "jsonhelper.ml" 158 3842 3865
+type(
+  Config.context Config.element_type
+)
+"jsonhelper.ml" 159 3867 3884 "jsonhelper.ml" 159 3867 3885
+type(
+  Config.timestamp Config.element_type option
+)
+"jsonhelper.ml" 160 3887 3900 "jsonhelper.ml" 160 3887 3901
+type(
+  Config.signature Config.element_type option
+)
+"jsonhelper.ml" 154 3761 3765 "jsonhelper.ml" 161 3903 3909
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 163 3920 3942 "jsonhelper.ml" 163 3920 3943
+type(
+  Config.t
+)
+ident(
+  def s "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 163 3920 3933 "jsonhelper.ml" 163 3920 3943
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 164 3945 3967 "jsonhelper.ml" 164 3945 3968
+type(
+  Config.t
+)
+ident(
+  def p "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 164 3945 3958 "jsonhelper.ml" 164 3945 3968
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 165 3970 3992 "jsonhelper.ml" 165 3970 3993
+type(
+  Config.obj_t
+)
+ident(
+  def o "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 165 3970 3983 "jsonhelper.ml" 165 3970 3993
+type(
+  Config.obj_t Config.element_type
+)
+"jsonhelper.ml" 166 3995 4017 "jsonhelper.ml" 166 3995 4018
+type(
+  Config.context
+)
+ident(
+  def c "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 166 3995 4008 "jsonhelper.ml" 166 3995 4018
+type(
+  Config.context Config.element_type
+)
+"jsonhelper.ml" 167 4020 4037 "jsonhelper.ml" 167 4020 4038
+type(
+  Config.timestamp Config.element_type option
+)
+"jsonhelper.ml" 168 4040 4053 "jsonhelper.ml" 168 4040 4054
+type(
+  Config.signature Config.element_type option
+)
+"jsonhelper.ml" 162 3913 3918 "jsonhelper.ml" 169 4056 4062
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 154 3761 3765 "jsonhelper.ml" 169 4056 4062
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 171 4074 4096 "jsonhelper.ml" 171 4074 4097
+type(
+  Config.t
+)
+ident(
+  def s "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 171 4074 4087 "jsonhelper.ml" 171 4074 4097
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 172 4099 4121 "jsonhelper.ml" 172 4099 4122
+type(
+  Config.t
+)
+ident(
+  def p "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 172 4099 4112 "jsonhelper.ml" 172 4099 4122
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 173 4124 4146 "jsonhelper.ml" 173 4124 4147
+type(
+  Config.obj_t
+)
+ident(
+  def o "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 173 4124 4137 "jsonhelper.ml" 173 4124 4147
+type(
+  Config.obj_t Config.element_type
+)
+"jsonhelper.ml" 174 4149 4171 "jsonhelper.ml" 174 4149 4172
+type(
+  Config.context
+)
+ident(
+  def c "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 174 4149 4162 "jsonhelper.ml" 174 4149 4172
+type(
+  Config.context Config.element_type
+)
+"jsonhelper.ml" 175 4174 4191 "jsonhelper.ml" 175 4174 4192
+type(
+  Config.timestamp Config.element_type option
+)
+"jsonhelper.ml" 176 4194 4207 "jsonhelper.ml" 176 4194 4208
+type(
+  Config.signature Config.element_type option
+)
+"jsonhelper.ml" 170 4066 4072 "jsonhelper.ml" 177 4210 4216
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 154 3761 3765 "jsonhelper.ml" 177 4210 4216
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 180 4268 4290 "jsonhelper.ml" 180 4268 4291
+type(
+  Config.t
+)
+ident(
+  def s "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 180 4268 4281 "jsonhelper.ml" 180 4268 4291
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 181 4294 4316 "jsonhelper.ml" 181 4294 4317
+type(
+  Config.t
+)
+ident(
+  def p "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 181 4294 4307 "jsonhelper.ml" 181 4294 4317
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 182 4319 4341 "jsonhelper.ml" 182 4319 4342
+type(
+  Config.obj_t
+)
+ident(
+  def o "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 182 4319 4332 "jsonhelper.ml" 182 4319 4342
+type(
+  Config.obj_t Config.element_type
+)
+"jsonhelper.ml" 183 4344 4366 "jsonhelper.ml" 183 4344 4367
+type(
+  Config.context
+)
+ident(
+  def c "jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 183 4344 4357 "jsonhelper.ml" 183 4344 4367
+type(
+  Config.context Config.element_type
+)
+"jsonhelper.ml" 184 4369 4386 "jsonhelper.ml" 184 4369 4387
+type(
+  Config.timestamp Config.element_type option
+)
+"jsonhelper.ml" 185 4389 4402 "jsonhelper.ml" 185 4389 4403
+type(
+  Config.signature Config.element_type option
+)
+"jsonhelper.ml" 179 4222 4227 "jsonhelper.ml" 186 4405 4411
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 154 3761 3765 "jsonhelper.ml" 186 4405 4411
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 188 4417 4423 "jsonhelper.ml" 188 4417 4427
+type(
+  Config.t Config.element_type
+)
+ident(
+  def subj "jsonhelper.ml" 189 4448 4450 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 188 4417 4432 "jsonhelper.ml" 188 4417 4435
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "jsonhelper.ml" 153 3725 3741 "jsonhelper.ml" 153 3725 3744
+)
+"jsonhelper.ml" 188 4417 4432 "jsonhelper.ml" 188 4417 4440
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 189 4448 4454 "jsonhelper.ml" 189 4448 4458
+type(
+  Config.t Config.element_type
+)
+ident(
+  def pred "jsonhelper.ml" 190 4479 4481 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 189 4448 4463 "jsonhelper.ml" 189 4448 4466
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "jsonhelper.ml" 153 3725 3741 "jsonhelper.ml" 153 3725 3744
+)
+"jsonhelper.ml" 189 4448 4463 "jsonhelper.ml" 189 4448 4471
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 190 4479 4485 "jsonhelper.ml" 190 4479 4488
+type(
+  Config.obj_t Config.element_type
+)
+ident(
+  def obj "jsonhelper.ml" 191 4510 4512 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 190 4479 4494 "jsonhelper.ml" 190 4479 4497
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "jsonhelper.ml" 153 3725 3741 "jsonhelper.ml" 153 3725 3744
+)
+"jsonhelper.ml" 190 4479 4494 "jsonhelper.ml" 190 4479 4501
+type(
+  Config.obj_t Config.element_type
+)
+"jsonhelper.ml" 191 4510 4516 "jsonhelper.ml" 191 4510 4520
+type(
+  Config.context Config.element_type
+)
+ident(
+  def ctxt "jsonhelper.ml" 192 4541 4543 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 191 4510 4525 "jsonhelper.ml" 191 4510 4528
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "jsonhelper.ml" 153 3725 3741 "jsonhelper.ml" 153 3725 3744
+)
+"jsonhelper.ml" 191 4510 4525 "jsonhelper.ml" 191 4510 4533
+type(
+  Config.context Config.element_type
+)
+"jsonhelper.ml" 192 4541 4547 "jsonhelper.ml" 192 4541 4549
+type(
+  Config.timestamp Config.element_type option
+)
+ident(
+  def ti "jsonhelper.ml" 193 4572 4574 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 192 4541 4556 "jsonhelper.ml" 192 4541 4559
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "jsonhelper.ml" 153 3725 3741 "jsonhelper.ml" 153 3725 3744
+)
+"jsonhelper.ml" 192 4541 4556 "jsonhelper.ml" 192 4541 4568
+type(
+  Config.timestamp Config.element_type option
+)
+"jsonhelper.ml" 193 4572 4578 "jsonhelper.ml" 193 4572 4580
+type(
+  Config.signature Config.element_type option
+)
+ident(
+  def sg "jsonhelper.ml" 195 4606 4608 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 193 4572 4587 "jsonhelper.ml" 193 4572 4590
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "jsonhelper.ml" 153 3725 3741 "jsonhelper.ml" 153 3725 3744
+)
+"jsonhelper.ml" 193 4572 4587 "jsonhelper.ml" 193 4572 4595
+type(
+  Config.signature Config.element_type option
+)
+"jsonhelper.ml" 195 4606 4612 "jsonhelper.ml" 195 4606 4618
+type(
+  Yojson.Basic.json
+)
+ident(
+  def json_q "jsonhelper.ml" 204 5014 5021 "jsonhelper.ml" 204 5014 5027
+)
+"jsonhelper.ml" 197 4656 4667 "jsonhelper.ml" 197 4656 4676
+type(
+  string
+)
+"jsonhelper.ml" 197 4656 4689 "jsonhelper.ml" 197 4656 4692
+type(
+  Config.t * string -> Config.t
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"jsonhelper.ml" 197 4656 4693 "jsonhelper.ml" 197 4656 4704
+type(
+  Config.t Config.element_type -> Config.t * string
+)
+ident(
+  int_ref subj_to_str "jsonhelper.ml" 129 2998 3002 "jsonhelper.ml" 129 2998 3013
+)
+"jsonhelper.ml" 197 4656 4705 "jsonhelper.ml" 197 4656 4709
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref subj "jsonhelper.ml" 188 4417 4423 "jsonhelper.ml" 188 4417 4427
+)
+"jsonhelper.ml" 197 4656 4692 "jsonhelper.ml" 197 4656 4710
+call(
+  stack
+)
+type(
+  Config.t * string
+)
+"jsonhelper.ml" 197 4656 4688 "jsonhelper.ml" 197 4656 4711
+type(
+  Config.t
+)
+"jsonhelper.ml" 197 4656 4680 "jsonhelper.ml" 197 4656 4711
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 197 4656 4666 "jsonhelper.ml" 197 4656 4712
+type(
+  string * Yojson.Basic.json
+)
+"jsonhelper.ml" 198 4714 4725 "jsonhelper.ml" 198 4714 4736
+type(
+  string
+)
+"jsonhelper.ml" 198 4714 4747 "jsonhelper.ml" 198 4714 4750
+type(
+  Config.t * string -> Config.t
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"jsonhelper.ml" 198 4714 4751 "jsonhelper.ml" 198 4714 4762
+type(
+  Config.t Config.element_type -> Config.t * string
+)
+ident(
+  int_ref pred_to_str "jsonhelper.ml" 133 3117 3121 "jsonhelper.ml" 133 3117 3132
+)
+"jsonhelper.ml" 198 4714 4763 "jsonhelper.ml" 198 4714 4767
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref pred "jsonhelper.ml" 189 4448 4454 "jsonhelper.ml" 189 4448 4458
+)
+"jsonhelper.ml" 198 4714 4750 "jsonhelper.ml" 198 4714 4768
+call(
+  stack
+)
+type(
+  Config.t * string
+)
+"jsonhelper.ml" 198 4714 4746 "jsonhelper.ml" 198 4714 4769
+type(
+  Config.t
+)
+"jsonhelper.ml" 198 4714 4738 "jsonhelper.ml" 198 4714 4769
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 198 4714 4724 "jsonhelper.ml" 198 4714 4770
+type(
+  string * Yojson.Basic.json
+)
+"jsonhelper.ml" 199 4772 4783 "jsonhelper.ml" 199 4772 4791
+type(
+  string
+)
+"jsonhelper.ml" 199 4772 4805 "jsonhelper.ml" 199 4772 4808
+type(
+  Config.obj_t * string -> Config.obj_t
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"jsonhelper.ml" 199 4772 4809 "jsonhelper.ml" 199 4772 4819
+type(
+  Config.obj_t Config.element_type -> Config.obj_t * string
+)
+ident(
+  int_ref obj_to_str "jsonhelper.ml" 137 3236 3240 "jsonhelper.ml" 137 3236 3250
+)
+"jsonhelper.ml" 199 4772 4821 "jsonhelper.ml" 199 4772 4824
+type(
+  Config.obj_t Config.element_type
+)
+ident(
+  int_ref obj "jsonhelper.ml" 190 4479 4485 "jsonhelper.ml" 190 4479 4488
+)
+"jsonhelper.ml" 199 4772 4808 "jsonhelper.ml" 199 4772 4825
+call(
+  stack
+)
+type(
+  Config.obj_t * string
+)
+"jsonhelper.ml" 199 4772 4804 "jsonhelper.ml" 199 4772 4826
+type(
+  Config.obj_t
+)
+"jsonhelper.ml" 199 4772 4796 "jsonhelper.ml" 199 4772 4826
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 199 4772 4782 "jsonhelper.ml" 199 4772 4827
+type(
+  string * Yojson.Basic.json
+)
+"jsonhelper.ml" 200 4829 4840 "jsonhelper.ml" 200 4829 4848
+type(
+  string
+)
+"jsonhelper.ml" 200 4829 4862 "jsonhelper.ml" 200 4829 4865
+type(
+  Config.t * Config.t -> Config.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"jsonhelper.ml" 200 4829 4866 "jsonhelper.ml" 200 4829 4877
+type(
+  Config.t Config.element_type -> Config.t * Config.t
+)
+ident(
+  int_ref subj_to_str "jsonhelper.ml" 129 2998 3002 "jsonhelper.ml" 129 2998 3013
+)
+"jsonhelper.ml" 200 4829 4878 "jsonhelper.ml" 200 4829 4882
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref subj "jsonhelper.ml" 188 4417 4423 "jsonhelper.ml" 188 4417 4427
+)
+"jsonhelper.ml" 200 4829 4865 "jsonhelper.ml" 200 4829 4883
+call(
+  stack
+)
+type(
+  Config.t * Config.t
+)
+"jsonhelper.ml" 200 4829 4861 "jsonhelper.ml" 200 4829 4884
+type(
+  Config.t
+)
+"jsonhelper.ml" 200 4829 4853 "jsonhelper.ml" 200 4829 4884
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 200 4829 4839 "jsonhelper.ml" 200 4829 4885
+type(
+  string * Yojson.Basic.json
+)
+"jsonhelper.ml" 201 4888 4899 "jsonhelper.ml" 201 4888 4907
+type(
+  string
+)
+"jsonhelper.ml" 201 4888 4921 "jsonhelper.ml" 201 4888 4924
+type(
+  Config.t * Config.t -> Config.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"jsonhelper.ml" 201 4888 4925 "jsonhelper.ml" 201 4888 4936
+type(
+  Config.t Config.element_type -> Config.t * Config.t
+)
+ident(
+  int_ref pred_to_str "jsonhelper.ml" 133 3117 3121 "jsonhelper.ml" 133 3117 3132
+)
+"jsonhelper.ml" 201 4888 4937 "jsonhelper.ml" 201 4888 4941
+type(
+  Config.t Config.element_type
+)
+ident(
+  int_ref pred "jsonhelper.ml" 189 4448 4454 "jsonhelper.ml" 189 4448 4458
+)
+"jsonhelper.ml" 201 4888 4924 "jsonhelper.ml" 201 4888 4942
+call(
+  stack
+)
+type(
+  Config.t * Config.t
+)
+"jsonhelper.ml" 201 4888 4920 "jsonhelper.ml" 201 4888 4943
+type(
+  Config.t
+)
+"jsonhelper.ml" 201 4888 4912 "jsonhelper.ml" 201 4888 4943
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 201 4888 4898 "jsonhelper.ml" 201 4888 4944
+type(
+  string * Yojson.Basic.json
+)
+"jsonhelper.ml" 202 4947 4958 "jsonhelper.ml" 202 4947 4965
+type(
+  string
+)
+"jsonhelper.ml" 202 4947 4980 "jsonhelper.ml" 202 4947 4983
+type(
+  Config.obj_t * Config.t -> Config.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"jsonhelper.ml" 202 4947 4984 "jsonhelper.ml" 202 4947 4994
+type(
+  Config.obj_t Config.element_type -> Config.obj_t * Config.t
+)
+ident(
+  int_ref obj_to_str "jsonhelper.ml" 137 3236 3240 "jsonhelper.ml" 137 3236 3250
+)
+"jsonhelper.ml" 202 4947 4996 "jsonhelper.ml" 202 4947 4999
+type(
+  Config.obj_t Config.element_type
+)
+ident(
+  int_ref obj "jsonhelper.ml" 190 4479 4485 "jsonhelper.ml" 190 4479 4488
+)
+"jsonhelper.ml" 202 4947 4983 "jsonhelper.ml" 202 4947 5000
+call(
+  stack
+)
+type(
+  Config.obj_t * Config.t
+)
+"jsonhelper.ml" 202 4947 4979 "jsonhelper.ml" 202 4947 5001
+type(
+  Config.t
+)
+"jsonhelper.ml" 202 4947 4971 "jsonhelper.ml" 202 4947 5001
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 202 4947 4957 "jsonhelper.ml" 202 4947 5002
+type(
+  string * Yojson.Basic.json
+)
+"jsonhelper.ml" 197 4656 4664 "jsonhelper.ml" 203 5003 5012
+type(
+  (string * Yojson.Basic.json) list
+)
+"jsonhelper.ml" 196 4643 4649 "jsonhelper.ml" 203 5003 5012
+type(
+  Yojson.Basic.json
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 204 5014 5021 "jsonhelper.ml" 204 5014 5027
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json_q "jsonhelper.ml" 195 4606 4612 "jsonhelper.ml" 195 4606 4618
+)
+"jsonhelper.ml" 195 4606 4608 "jsonhelper.ml" 204 5014 5027
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 193 4572 4574 "jsonhelper.ml" 204 5014 5027
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 192 4541 4543 "jsonhelper.ml" 204 5014 5027
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 191 4510 4512 "jsonhelper.ml" 204 5014 5027
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 190 4479 4481 "jsonhelper.ml" 204 5014 5027
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 189 4448 4450 "jsonhelper.ml" 204 5014 5027
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 188 4417 4419 "jsonhelper.ml" 204 5014 5027
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 206 5029 5033 "jsonhelper.ml" 206 5029 5034
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 206 5029 5038 "jsonhelper.ml" 206 5029 5043
+type(
+  exn -> Yojson.Basic.json
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"jsonhelper.ml" 206 5029 5060 "jsonhelper.ml" 206 5029 5082
+type(
+  string
+)
+"jsonhelper.ml" 206 5029 5043 "jsonhelper.ml" 206 5029 5083
+type(
+  exn
+)
+"jsonhelper.ml" 206 5029 5038 "jsonhelper.ml" 206 5029 5083
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 153 3725 3746 "jsonhelper.ml" 206 5029 5083
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 215 5152 5156 "jsonhelper.ml" 215 5152 5168
+type(
+  Yojson.Basic.json -> Config.tuple
+)
+ident(
+  def json_to_qry1 "jsonhelper.ml" 236 5821 5821 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 215 5152 5169 "jsonhelper.ml" 215 5152 5175
+type(
+  Yojson.Basic.json
+)
+ident(
+  def json_q "jsonhelper.ml" 217 5248 5250 "jsonhelper.ml" 230 5717 5724
+)
+"jsonhelper.ml" 219 5282 5290 "jsonhelper.ml" 219 5282 5294
+type(
+  Yojson.Basic.json
+)
+ident(
+  def json "jsonhelper.ml" 220 5326 5330 "jsonhelper.ml" 230 5717 5724
+)
+"jsonhelper.ml" 219 5282 5297 "jsonhelper.ml" 219 5282 5303
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json_q "jsonhelper.ml" 215 5152 5169 "jsonhelper.ml" 215 5152 5175
+)
+"jsonhelper.ml" 220 5326 5334 "jsonhelper.ml" 220 5326 5335
+type(
+  Yojson.Basic.json
+)
+ident(
+  def s "jsonhelper.ml" 221 5370 5374 "jsonhelper.ml" 230 5717 5724
+)
+"jsonhelper.ml" 220 5326 5338 "jsonhelper.ml" 220 5326 5342
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json "jsonhelper.ml" 219 5282 5290 "jsonhelper.ml" 219 5282 5294
+)
+"jsonhelper.ml" 220 5326 5343 "jsonhelper.ml" 220 5326 5345
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"jsonhelper.ml" 220 5326 5347 "jsonhelper.ml" 220 5326 5353
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"jsonhelper.ml" 220 5326 5354 "jsonhelper.ml" 220 5326 5363
+type(
+  string
+)
+"jsonhelper.ml" 220 5326 5346 "jsonhelper.ml" 220 5326 5364
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"jsonhelper.ml" 220 5326 5338 "jsonhelper.ml" 220 5326 5364
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 221 5370 5378 "jsonhelper.ml" 221 5370 5379
+type(
+  Yojson.Basic.json
+)
+ident(
+  def p "jsonhelper.ml" 222 5414 5418 "jsonhelper.ml" 230 5717 5724
+)
+"jsonhelper.ml" 221 5370 5382 "jsonhelper.ml" 221 5370 5386
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json "jsonhelper.ml" 219 5282 5290 "jsonhelper.ml" 219 5282 5294
+)
+"jsonhelper.ml" 221 5370 5387 "jsonhelper.ml" 221 5370 5389
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"jsonhelper.ml" 221 5370 5391 "jsonhelper.ml" 221 5370 5397
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"jsonhelper.ml" 221 5370 5398 "jsonhelper.ml" 221 5370 5409
+type(
+  string
+)
+"jsonhelper.ml" 221 5370 5390 "jsonhelper.ml" 221 5370 5410
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"jsonhelper.ml" 221 5370 5382 "jsonhelper.ml" 221 5370 5410
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 222 5414 5422 "jsonhelper.ml" 222 5414 5423
+type(
+  Yojson.Basic.json
+)
+ident(
+  def o "jsonhelper.ml" 223 5458 5464 "jsonhelper.ml" 230 5717 5724
+)
+"jsonhelper.ml" 222 5414 5426 "jsonhelper.ml" 222 5414 5430
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json "jsonhelper.ml" 219 5282 5290 "jsonhelper.ml" 219 5282 5294
+)
+"jsonhelper.ml" 222 5414 5431 "jsonhelper.ml" 222 5414 5433
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"jsonhelper.ml" 222 5414 5435 "jsonhelper.ml" 222 5414 5441
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"jsonhelper.ml" 222 5414 5442 "jsonhelper.ml" 222 5414 5450
+type(
+  string
+)
+"jsonhelper.ml" 222 5414 5434 "jsonhelper.ml" 222 5414 5451
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"jsonhelper.ml" 222 5414 5426 "jsonhelper.ml" 222 5414 5451
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 224 5466 5495 "jsonhelper.ml" 224 5466 5515
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"jsonhelper.ml" 224 5466 5516 "jsonhelper.ml" 224 5466 5517
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref s "jsonhelper.ml" 220 5326 5334 "jsonhelper.ml" 220 5326 5335
+)
+"jsonhelper.ml" 224 5466 5494 "jsonhelper.ml" 224 5466 5518
+call(
+  stack
+)
+type(
+  string
+)
+"jsonhelper.ml" 224 5466 5485 "jsonhelper.ml" 224 5466 5518
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 225 5520 5549 "jsonhelper.ml" 225 5520 5569
+type(
+  Yojson.Basic.json -> Config.t
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"jsonhelper.ml" 225 5520 5570 "jsonhelper.ml" 225 5520 5571
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref p "jsonhelper.ml" 221 5370 5378 "jsonhelper.ml" 221 5370 5379
+)
+"jsonhelper.ml" 225 5520 5548 "jsonhelper.ml" 225 5520 5572
+call(
+  stack
+)
+type(
+  Config.t
+)
+"jsonhelper.ml" 225 5520 5539 "jsonhelper.ml" 225 5520 5572
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 226 5574 5603 "jsonhelper.ml" 226 5574 5623
+type(
+  Yojson.Basic.json -> Config.obj_t
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"jsonhelper.ml" 226 5574 5624 "jsonhelper.ml" 226 5574 5625
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref o "jsonhelper.ml" 222 5414 5422 "jsonhelper.ml" 222 5414 5423
+)
+"jsonhelper.ml" 226 5574 5602 "jsonhelper.ml" 226 5574 5626
+call(
+  stack
+)
+type(
+  Config.obj_t
+)
+"jsonhelper.ml" 226 5574 5593 "jsonhelper.ml" 226 5574 5626
+type(
+  Config.obj_t Config.element_type
+)
+"jsonhelper.ml" 227 5628 5656 "jsonhelper.ml" 227 5628 5665
+type(
+  Config.context
+)
+"jsonhelper.ml" 227 5628 5647 "jsonhelper.ml" 227 5628 5665
+type(
+  Config.context Config.element_type
+)
+"jsonhelper.ml" 228 5667 5686 "jsonhelper.ml" 228 5667 5690
+type(
+  Config.timestamp Config.element_type option
+)
+"jsonhelper.ml" 229 5692 5711 "jsonhelper.ml" 229 5692 5715
+type(
+  Config.signature Config.element_type option
+)
+"jsonhelper.ml" 223 5458 5464 "jsonhelper.ml" 230 5717 5724
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 222 5414 5418 "jsonhelper.ml" 230 5717 5724
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 221 5370 5374 "jsonhelper.ml" 230 5717 5724
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 220 5326 5330 "jsonhelper.ml" 230 5717 5724
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 219 5282 5286 "jsonhelper.ml" 230 5717 5724
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 236 5821 5825 "jsonhelper.ml" 236 5821 5836
+type(
+  Yojson.Basic.json -> Config.tuple
+)
+ident(
+  def json_to_qry "jsonhelper.ml" 273 7209 7209 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 236 5821 5837 "jsonhelper.ml" 236 5821 5843
+type(
+  Yojson.Basic.json
+)
+ident(
+  def json_q "jsonhelper.ml" 238 5916 5918 "jsonhelper.ml" 267 7059 7066
+)
+"jsonhelper.ml" 240 5950 5958 "jsonhelper.ml" 240 5950 5962
+type(
+  Yojson.Basic.json
+)
+ident(
+  def json "jsonhelper.ml" 241 5997 6001 "jsonhelper.ml" 267 7059 7066
+)
+"jsonhelper.ml" 240 5950 5965 "jsonhelper.ml" 240 5950 5971
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json_q "jsonhelper.ml" 236 5821 5837 "jsonhelper.ml" 236 5821 5843
+)
+"jsonhelper.ml" 241 5997 6005 "jsonhelper.ml" 241 5997 6008
+type(
+  Yojson.Basic.json
+)
+ident(
+  def suj "jsonhelper.ml" 242 6044 6048 "jsonhelper.ml" 267 7059 7066
+)
+"jsonhelper.ml" 241 5997 6012 "jsonhelper.ml" 241 5997 6016
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json "jsonhelper.ml" 240 5950 5958 "jsonhelper.ml" 240 5950 5962
+)
+"jsonhelper.ml" 241 5997 6017 "jsonhelper.ml" 241 5997 6019
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"jsonhelper.ml" 241 5997 6021 "jsonhelper.ml" 241 5997 6027
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"jsonhelper.ml" 241 5997 6028 "jsonhelper.ml" 241 5997 6037
+type(
+  string
+)
+"jsonhelper.ml" 241 5997 6020 "jsonhelper.ml" 241 5997 6038
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"jsonhelper.ml" 241 5997 6012 "jsonhelper.ml" 241 5997 6038
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 242 6044 6052 "jsonhelper.ml" 242 6044 6055
+type(
+  Yojson.Basic.json
+)
+ident(
+  def pre "jsonhelper.ml" 243 6091 6095 "jsonhelper.ml" 267 7059 7066
+)
+"jsonhelper.ml" 242 6044 6059 "jsonhelper.ml" 242 6044 6063
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json "jsonhelper.ml" 240 5950 5958 "jsonhelper.ml" 240 5950 5962
+)
+"jsonhelper.ml" 242 6044 6064 "jsonhelper.ml" 242 6044 6066
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"jsonhelper.ml" 242 6044 6068 "jsonhelper.ml" 242 6044 6074
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"jsonhelper.ml" 242 6044 6075 "jsonhelper.ml" 242 6044 6086
+type(
+  string
+)
+"jsonhelper.ml" 242 6044 6067 "jsonhelper.ml" 242 6044 6087
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"jsonhelper.ml" 242 6044 6059 "jsonhelper.ml" 242 6044 6087
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 243 6091 6099 "jsonhelper.ml" 243 6091 6102
+type(
+  Yojson.Basic.json
+)
+ident(
+  def obj "jsonhelper.ml" 245 6143 6147 "jsonhelper.ml" 267 7059 7066
+)
+"jsonhelper.ml" 243 6091 6106 "jsonhelper.ml" 243 6091 6110
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json "jsonhelper.ml" 240 5950 5958 "jsonhelper.ml" 240 5950 5962
+)
+"jsonhelper.ml" 243 6091 6111 "jsonhelper.ml" 243 6091 6113
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"jsonhelper.ml" 243 6091 6115 "jsonhelper.ml" 243 6091 6121
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"jsonhelper.ml" 243 6091 6122 "jsonhelper.ml" 243 6091 6130
+type(
+  string
+)
+"jsonhelper.ml" 243 6091 6114 "jsonhelper.ml" 243 6091 6131
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"jsonhelper.ml" 243 6091 6106 "jsonhelper.ml" 243 6091 6131
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 245 6143 6151 "jsonhelper.ml" 245 6143 6159
+type(
+  string
+)
+ident(
+  def subjType "jsonhelper.ml" 246 6205 6209 "jsonhelper.ml" 267 7059 7066
+)
+"jsonhelper.ml" 245 6143 6161 "jsonhelper.ml" 245 6143 6165
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json "jsonhelper.ml" 240 5950 5958 "jsonhelper.ml" 240 5950 5962
+)
+"jsonhelper.ml" 245 6143 6166 "jsonhelper.ml" 245 6143 6168
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"jsonhelper.ml" 245 6143 6170 "jsonhelper.ml" 245 6143 6176
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"jsonhelper.ml" 245 6143 6177 "jsonhelper.ml" 245 6143 6185
+type(
+  string
+)
+"jsonhelper.ml" 245 6143 6169 "jsonhelper.ml" 245 6143 6186
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"jsonhelper.ml" 245 6143 6161 "jsonhelper.ml" 245 6143 6186
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 245 6143 6187 "jsonhelper.ml" 245 6143 6189
+type(
+  Yojson.Basic.json -> (Yojson.Basic.json -> string) -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"jsonhelper.ml" 245 6143 6190 "jsonhelper.ml" 245 6143 6199
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"jsonhelper.ml" 245 6143 6161 "jsonhelper.ml" 245 6143 6199
+call(
+  stack
+)
+type(
+  string
+)
+"jsonhelper.ml" 246 6205 6213 "jsonhelper.ml" 246 6205 6221
+type(
+  string -> string Config.element_type
+)
+ident(
+  def makeSubj "jsonhelper.ml" 250 6374 6378 "jsonhelper.ml" 267 7059 7066
+)
+"jsonhelper.ml" 246 6205 6222 "jsonhelper.ml" 246 6205 6230
+type(
+  string
+)
+ident(
+  def subjType "jsonhelper.ml" 246 6205 6233 "jsonhelper.ml" 248 6311 6368
+)
+"jsonhelper.ml" 246 6205 6239 "jsonhelper.ml" 246 6205 6247
+type(
+  string
+)
+ident(
+  int_ref subjType "jsonhelper.ml" 246 6205 6222 "jsonhelper.ml" 246 6205 6230
+)
+"jsonhelper.ml" 247 6253 6261 "jsonhelper.ml" 247 6253 6271
+type(
+  string
+)
+"jsonhelper.ml" 247 6253 6285 "jsonhelper.ml" 247 6253 6305
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"jsonhelper.ml" 247 6253 6306 "jsonhelper.ml" 247 6253 6309
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref suj "jsonhelper.ml" 241 5997 6005 "jsonhelper.ml" 241 5997 6008
+)
+"jsonhelper.ml" 247 6253 6284 "jsonhelper.ml" 247 6253 6310
+call(
+  stack
+)
+type(
+  string
+)
+"jsonhelper.ml" 247 6253 6275 "jsonhelper.ml" 247 6253 6310
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 248 6311 6319 "jsonhelper.ml" 248 6311 6329
+type(
+  string
+)
+"jsonhelper.ml" 248 6311 6343 "jsonhelper.ml" 248 6311 6363
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"jsonhelper.ml" 248 6311 6364 "jsonhelper.ml" 248 6311 6367
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref suj "jsonhelper.ml" 241 5997 6005 "jsonhelper.ml" 241 5997 6008
+)
+"jsonhelper.ml" 248 6311 6342 "jsonhelper.ml" 248 6311 6368
+call(
+  stack
+)
+type(
+  string
+)
+"jsonhelper.ml" 248 6311 6333 "jsonhelper.ml" 248 6311 6368
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 246 6205 6233 "jsonhelper.ml" 248 6311 6368
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 250 6374 6382 "jsonhelper.ml" 250 6374 6390
+type(
+  string
+)
+ident(
+  def predType "jsonhelper.ml" 251 6436 6440 "jsonhelper.ml" 267 7059 7066
+)
+"jsonhelper.ml" 250 6374 6392 "jsonhelper.ml" 250 6374 6396
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json "jsonhelper.ml" 240 5950 5958 "jsonhelper.ml" 240 5950 5962
+)
+"jsonhelper.ml" 250 6374 6397 "jsonhelper.ml" 250 6374 6399
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"jsonhelper.ml" 250 6374 6401 "jsonhelper.ml" 250 6374 6407
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"jsonhelper.ml" 250 6374 6408 "jsonhelper.ml" 250 6374 6416
+type(
+  string
+)
+"jsonhelper.ml" 250 6374 6400 "jsonhelper.ml" 250 6374 6417
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"jsonhelper.ml" 250 6374 6392 "jsonhelper.ml" 250 6374 6417
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 250 6374 6418 "jsonhelper.ml" 250 6374 6420
+type(
+  Yojson.Basic.json -> (Yojson.Basic.json -> string) -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"jsonhelper.ml" 250 6374 6421 "jsonhelper.ml" 250 6374 6430
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"jsonhelper.ml" 250 6374 6392 "jsonhelper.ml" 250 6374 6430
+call(
+  stack
+)
+type(
+  string
+)
+"jsonhelper.ml" 251 6436 6444 "jsonhelper.ml" 251 6436 6452
+type(
+  string -> string Config.element_type
+)
+ident(
+  def makePred "jsonhelper.ml" 255 6612 6616 "jsonhelper.ml" 267 7059 7066
+)
+"jsonhelper.ml" 251 6436 6453 "jsonhelper.ml" 251 6436 6461
+type(
+  string
+)
+ident(
+  def predType "jsonhelper.ml" 251 6436 6464 "jsonhelper.ml" 253 6543 6600
+)
+"jsonhelper.ml" 251 6436 6470 "jsonhelper.ml" 251 6436 6478
+type(
+  string
+)
+ident(
+  int_ref predType "jsonhelper.ml" 251 6436 6453 "jsonhelper.ml" 251 6436 6461
+)
+"jsonhelper.ml" 252 6484 6492 "jsonhelper.ml" 252 6484 6502
+type(
+  string
+)
+"jsonhelper.ml" 252 6484 6516 "jsonhelper.ml" 252 6484 6536
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"jsonhelper.ml" 252 6484 6537 "jsonhelper.ml" 252 6484 6540
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref pre "jsonhelper.ml" 242 6044 6052 "jsonhelper.ml" 242 6044 6055
+)
+"jsonhelper.ml" 252 6484 6515 "jsonhelper.ml" 252 6484 6541
+call(
+  stack
+)
+type(
+  string
+)
+"jsonhelper.ml" 252 6484 6506 "jsonhelper.ml" 252 6484 6541
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 253 6543 6551 "jsonhelper.ml" 253 6543 6561
+type(
+  string
+)
+"jsonhelper.ml" 253 6543 6575 "jsonhelper.ml" 253 6543 6595
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"jsonhelper.ml" 253 6543 6596 "jsonhelper.ml" 253 6543 6599
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref pre "jsonhelper.ml" 242 6044 6052 "jsonhelper.ml" 242 6044 6055
+)
+"jsonhelper.ml" 253 6543 6574 "jsonhelper.ml" 253 6543 6600
+call(
+  stack
+)
+type(
+  string
+)
+"jsonhelper.ml" 253 6543 6565 "jsonhelper.ml" 253 6543 6600
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 251 6436 6464 "jsonhelper.ml" 253 6543 6600
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 255 6612 6620 "jsonhelper.ml" 255 6612 6627
+type(
+  string
+)
+ident(
+  def objType "jsonhelper.ml" 256 6674 6678 "jsonhelper.ml" 267 7059 7066
+)
+"jsonhelper.ml" 255 6612 6629 "jsonhelper.ml" 255 6612 6633
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref json "jsonhelper.ml" 240 5950 5958 "jsonhelper.ml" 240 5950 5962
+)
+"jsonhelper.ml" 255 6612 6634 "jsonhelper.ml" 255 6612 6636
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"jsonhelper.ml" 255 6612 6638 "jsonhelper.ml" 255 6612 6644
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"jsonhelper.ml" 255 6612 6645 "jsonhelper.ml" 255 6612 6652
+type(
+  string
+)
+"jsonhelper.ml" 255 6612 6637 "jsonhelper.ml" 255 6612 6653
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"jsonhelper.ml" 255 6612 6629 "jsonhelper.ml" 255 6612 6653
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 255 6612 6654 "jsonhelper.ml" 255 6612 6656
+type(
+  Yojson.Basic.json -> (Yojson.Basic.json -> string) -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"jsonhelper.ml" 255 6612 6657 "jsonhelper.ml" 255 6612 6666
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"jsonhelper.ml" 255 6612 6629 "jsonhelper.ml" 255 6612 6666
+call(
+  stack
+)
+type(
+  string
+)
+"jsonhelper.ml" 256 6674 6682 "jsonhelper.ml" 256 6674 6689
+type(
+  string -> string Config.element_type
+)
+ident(
+  def makeObj "jsonhelper.ml" 260 6842 6848 "jsonhelper.ml" 267 7059 7066
+)
+"jsonhelper.ml" 256 6674 6690 "jsonhelper.ml" 256 6674 6697
+type(
+  string
+)
+ident(
+  def objType "jsonhelper.ml" 256 6674 6700 "jsonhelper.ml" 258 6779 6836
+)
+"jsonhelper.ml" 256 6674 6707 "jsonhelper.ml" 256 6674 6714
+type(
+  string
+)
+ident(
+  int_ref objType "jsonhelper.ml" 256 6674 6690 "jsonhelper.ml" 256 6674 6697
+)
+"jsonhelper.ml" 257 6720 6728 "jsonhelper.ml" 257 6720 6738
+type(
+  string
+)
+"jsonhelper.ml" 257 6720 6752 "jsonhelper.ml" 257 6720 6772
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"jsonhelper.ml" 257 6720 6773 "jsonhelper.ml" 257 6720 6776
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref obj "jsonhelper.ml" 243 6091 6099 "jsonhelper.ml" 243 6091 6102
+)
+"jsonhelper.ml" 257 6720 6751 "jsonhelper.ml" 257 6720 6777
+call(
+  stack
+)
+type(
+  string
+)
+"jsonhelper.ml" 257 6720 6742 "jsonhelper.ml" 257 6720 6777
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 258 6779 6787 "jsonhelper.ml" 258 6779 6797
+type(
+  string
+)
+"jsonhelper.ml" 258 6779 6811 "jsonhelper.ml" 258 6779 6831
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"jsonhelper.ml" 258 6779 6832 "jsonhelper.ml" 258 6779 6835
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref obj "jsonhelper.ml" 243 6091 6099 "jsonhelper.ml" 243 6091 6102
+)
+"jsonhelper.ml" 258 6779 6810 "jsonhelper.ml" 258 6779 6836
+call(
+  stack
+)
+type(
+  string
+)
+"jsonhelper.ml" 258 6779 6801 "jsonhelper.ml" 258 6779 6836
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 256 6674 6700 "jsonhelper.ml" 258 6779 6836
+type(
+  string Config.element_type
+)
+"jsonhelper.ml" 261 6850 6869 "jsonhelper.ml" 261 6850 6877
+type(
+  string -> Config.t Config.element_type
+)
+ident(
+  int_ref makeSubj "jsonhelper.ml" 246 6205 6213 "jsonhelper.ml" 246 6205 6221
+)
+"jsonhelper.ml" 261 6850 6878 "jsonhelper.ml" 261 6850 6886
+type(
+  string
+)
+ident(
+  int_ref subjType "jsonhelper.ml" 245 6143 6151 "jsonhelper.ml" 245 6143 6159
+)
+"jsonhelper.ml" 261 6850 6869 "jsonhelper.ml" 261 6850 6886
+call(
+  stack
+)
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 262 6891 6910 "jsonhelper.ml" 262 6891 6918
+type(
+  string -> Config.t Config.element_type
+)
+ident(
+  int_ref makePred "jsonhelper.ml" 251 6436 6444 "jsonhelper.ml" 251 6436 6452
+)
+"jsonhelper.ml" 262 6891 6919 "jsonhelper.ml" 262 6891 6927
+type(
+  string
+)
+ident(
+  int_ref predType "jsonhelper.ml" 250 6374 6382 "jsonhelper.ml" 250 6374 6390
+)
+"jsonhelper.ml" 262 6891 6910 "jsonhelper.ml" 262 6891 6927
+call(
+  stack
+)
+type(
+  Config.t Config.element_type
+)
+"jsonhelper.ml" 263 6929 6948 "jsonhelper.ml" 263 6929 6955
+type(
+  string -> Config.obj_t Config.element_type
+)
+ident(
+  int_ref makeObj "jsonhelper.ml" 256 6674 6682 "jsonhelper.ml" 256 6674 6689
+)
+"jsonhelper.ml" 263 6929 6957 "jsonhelper.ml" 263 6929 6964
+type(
+  string
+)
+ident(
+  int_ref objType "jsonhelper.ml" 255 6612 6620 "jsonhelper.ml" 255 6612 6627
+)
+"jsonhelper.ml" 263 6929 6948 "jsonhelper.ml" 263 6929 6964
+call(
+  stack
+)
+type(
+  Config.obj_t Config.element_type
+)
+"jsonhelper.ml" 264 6970 6998 "jsonhelper.ml" 264 6970 7007
+type(
+  Config.context
+)
+"jsonhelper.ml" 264 6970 6989 "jsonhelper.ml" 264 6970 7007
+type(
+  Config.context Config.element_type
+)
+"jsonhelper.ml" 265 7009 7028 "jsonhelper.ml" 265 7009 7032
+type(
+  Config.timestamp Config.element_type option
+)
+"jsonhelper.ml" 266 7034 7053 "jsonhelper.ml" 266 7034 7057
+type(
+  Config.signature Config.element_type option
+)
+"jsonhelper.ml" 260 6842 6848 "jsonhelper.ml" 267 7059 7066
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 256 6674 6678 "jsonhelper.ml" 267 7059 7066
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 255 6612 6616 "jsonhelper.ml" 267 7059 7066
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 251 6436 6440 "jsonhelper.ml" 267 7059 7066
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 250 6374 6378 "jsonhelper.ml" 267 7059 7066
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 246 6205 6209 "jsonhelper.ml" 267 7059 7066
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 245 6143 6147 "jsonhelper.ml" 267 7059 7066
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 243 6091 6095 "jsonhelper.ml" 267 7059 7066
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 242 6044 6048 "jsonhelper.ml" 267 7059 7066
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 241 5997 6001 "jsonhelper.ml" 267 7059 7066
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 240 5950 5954 "jsonhelper.ml" 267 7059 7066
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 273 7209 7213 "jsonhelper.ml" 273 7209 7231
+type(
+  Config.tuple list -> string
+)
+ident(
+  def parLstToJsonParLst "jsonhelper.ml" 282 7421 7421 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 273 7209 7232 "jsonhelper.ml" 273 7209 7235
+type(
+  Config.tuple list
+)
+ident(
+  def lst "jsonhelper.ml" 274 7237 7241 "jsonhelper.ml" 275 7290 7334
+)
+"jsonhelper.ml" 274 7237 7245 "jsonhelper.ml" 274 7237 7247
+type(
+  Yojson.Basic.json list
+)
+ident(
+  def li "jsonhelper.ml" 275 7290 7298 "jsonhelper.ml" 275 7290 7334
+)
+"jsonhelper.ml" 274 7237 7249 "jsonhelper.ml" 274 7237 7257
+type(
+  (Config.tuple -> Yojson.Basic.json) ->
+  Config.tuple list -> Yojson.Basic.json list
+)
+ident(
+  ext_ref List.map
+)
+"jsonhelper.ml" 274 7237 7263 "jsonhelper.ml" 274 7237 7264
+type(
+  Config.tuple
+)
+ident(
+  def q "jsonhelper.ml" 274 7237 7268 "jsonhelper.ml" 274 7237 7281
+)
+"jsonhelper.ml" 274 7237 7268 "jsonhelper.ml" 274 7237 7279
+type(
+  Config.tuple -> Yojson.Basic.json
+)
+ident(
+  int_ref qry_to_json "jsonhelper.ml" 153 3725 3729 "jsonhelper.ml" 153 3725 3740
+)
+"jsonhelper.ml" 274 7237 7280 "jsonhelper.ml" 274 7237 7281
+type(
+  Config.tuple
+)
+ident(
+  int_ref q "jsonhelper.ml" 274 7237 7263 "jsonhelper.ml" 274 7237 7264
+)
+"jsonhelper.ml" 274 7237 7268 "jsonhelper.ml" 274 7237 7281
+call(
+  tail
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 274 7237 7258 "jsonhelper.ml" 274 7237 7282
+type(
+  Config.tuple -> Yojson.Basic.json
+)
+"jsonhelper.ml" 274 7237 7283 "jsonhelper.ml" 274 7237 7286
+type(
+  Config.tuple list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 273 7209 7232 "jsonhelper.ml" 273 7209 7235
+)
+"jsonhelper.ml" 274 7237 7249 "jsonhelper.ml" 274 7237 7286
+call(
+  stack
+)
+type(
+  Yojson.Basic.json list
+)
+"jsonhelper.ml" 275 7290 7298 "jsonhelper.ml" 275 7290 7320
+type(
+  ?buf:Bi_outbuf.t -> ?len:int -> ?std:bool -> Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.to_string
+)
+"jsonhelper.ml" 275 7290 7322 "jsonhelper.ml" 275 7290 7330
+type(
+  Yojson.Basic.json list -> Yojson.Basic.json
+)
+ident(
+  int_ref to_jnLst "jsonhelper.ml" 36 1184 1188 "jsonhelper.ml" 36 1184 1196
+)
+"jsonhelper.ml" 275 7290 7331 "jsonhelper.ml" 275 7290 7333
+type(
+  Yojson.Basic.json list
+)
+ident(
+  int_ref li "jsonhelper.ml" 274 7237 7245 "jsonhelper.ml" 274 7237 7247
+)
+"jsonhelper.ml" 275 7290 7321 "jsonhelper.ml" 275 7290 7334
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 275 7290 7298 "jsonhelper.ml" 275 7290 7334
+call(
+  tail
+)
+type(
+  string
+)
+"jsonhelper.ml" 274 7237 7241 "jsonhelper.ml" 275 7290 7334
+type(
+  string
+)
+"jsonhelper.ml" 282 7421 7425 "jsonhelper.ml" 282 7421 7437
+type(
+  string -> Config.tuple list
+)
+ident(
+  def getQryParLst "jsonhelper.ml" 295 7880 7880 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 282 7421 7438 "jsonhelper.ml" 282 7421 7445
+type(
+  string
+)
+ident(
+  def jsonStr "jsonhelper.ml" 283 7447 7448 "jsonhelper.ml" 286 7597 7626
+)
+"jsonhelper.ml" 284 7497 7502 "jsonhelper.ml" 284 7497 7509
+type(
+  Yojson.Basic.json
+)
+ident(
+  def jsonqry "jsonhelper.ml" 285 7547 7548 "jsonhelper.ml" 286 7597 7626
+)
+"jsonhelper.ml" 284 7497 7511 "jsonhelper.ml" 284 7497 7535
+type(
+  ?buf:Bi_outbuf.t ->
+  ?fname:string -> ?lnum:int -> string -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.from_string
+)
+"jsonhelper.ml" 284 7497 7536 "jsonhelper.ml" 284 7497 7543
+type(
+  string
+)
+ident(
+  int_ref jsonStr "jsonhelper.ml" 282 7421 7438 "jsonhelper.ml" 282 7421 7445
+)
+"jsonhelper.ml" 284 7497 7511 "jsonhelper.ml" 284 7497 7543
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 285 7547 7552 "jsonhelper.ml" 285 7547 7555
+type(
+  Yojson.Basic.json list
+)
+ident(
+  def lst "jsonhelper.ml" 286 7597 7602 "jsonhelper.ml" 286 7597 7626
+)
+"jsonhelper.ml" 285 7547 7557 "jsonhelper.ml" 285 7547 7563
+type(
+  Yojson.Basic.json -> Yojson.Basic.json list
+)
+ident(
+  int_ref to_lst "jsonhelper.ml" 38 1213 1217 "jsonhelper.ml" 38 1213 1223
+)
+"jsonhelper.ml" 285 7547 7564 "jsonhelper.ml" 285 7547 7571
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref jsonqry "jsonhelper.ml" 284 7497 7502 "jsonhelper.ml" 284 7497 7509
+)
+"jsonhelper.ml" 285 7547 7557 "jsonhelper.ml" 285 7547 7571
+call(
+  stack
+)
+type(
+  Yojson.Basic.json list
+)
+"jsonhelper.ml" 286 7597 7602 "jsonhelper.ml" 286 7597 7610
+type(
+  (Yojson.Basic.json -> Config.tuple) ->
+  Yojson.Basic.json list -> Config.tuple list
+)
+ident(
+  ext_ref List.map
+)
+"jsonhelper.ml" 286 7597 7611 "jsonhelper.ml" 286 7597 7622
+type(
+  Yojson.Basic.json -> Config.tuple
+)
+ident(
+  int_ref json_to_qry "jsonhelper.ml" 236 5821 5825 "jsonhelper.ml" 236 5821 5836
+)
+"jsonhelper.ml" 286 7597 7623 "jsonhelper.ml" 286 7597 7626
+type(
+  Yojson.Basic.json list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 285 7547 7552 "jsonhelper.ml" 285 7547 7555
+)
+"jsonhelper.ml" 286 7597 7602 "jsonhelper.ml" 286 7597 7626
+call(
+  tail
+)
+type(
+  Config.tuple list
+)
+"jsonhelper.ml" 285 7547 7548 "jsonhelper.ml" 286 7597 7626
+type(
+  Config.tuple list
+)
+"jsonhelper.ml" 284 7497 7498 "jsonhelper.ml" 286 7597 7626
+type(
+  Config.tuple list
+)
+"jsonhelper.ml" 295 7880 7884 "jsonhelper.ml" 295 7880 7898
+type(
+  Config.tuple -> string
+)
+ident(
+  def qry_to_jsonStr "jsonhelper.ml" 305 8228 8228 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 295 7880 7899 "jsonhelper.ml" 295 7880 7902
+type(
+  Config.tuple
+)
+ident(
+  def qry "jsonhelper.ml" 295 7880 7904 "jsonhelper.ml" 295 7880 7944
+)
+"jsonhelper.ml" 295 7880 7904 "jsonhelper.ml" 295 7880 7926
+type(
+  ?buf:Bi_outbuf.t -> ?len:int -> ?std:bool -> Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.to_string
+)
+"jsonhelper.ml" 295 7880 7928 "jsonhelper.ml" 295 7880 7939
+type(
+  Config.tuple -> Yojson.Basic.json
+)
+ident(
+  int_ref qry_to_json "jsonhelper.ml" 153 3725 3729 "jsonhelper.ml" 153 3725 3740
+)
+"jsonhelper.ml" 295 7880 7940 "jsonhelper.ml" 295 7880 7943
+type(
+  Config.tuple
+)
+ident(
+  int_ref qry "jsonhelper.ml" 295 7880 7899 "jsonhelper.ml" 295 7880 7902
+)
+"jsonhelper.ml" 295 7880 7927 "jsonhelper.ml" 295 7880 7944
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 295 7880 7904 "jsonhelper.ml" 295 7880 7944
+call(
+  tail
+)
+type(
+  string
+)
+"jsonhelper.ml" 305 8228 8232 "jsonhelper.ml" 305 8228 8246
+type(
+  string -> Config.tuple
+)
+ident(
+  def jsonStr_to_qry "jsonhelper.ml" 314 8424 8425 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 305 8228 8247 "jsonhelper.ml" 305 8228 8254
+type(
+  string
+)
+ident(
+  def jsonStr "jsonhelper.ml" 306 8257 8261 "jsonhelper.ml" 307 8297 8346
+)
+"jsonhelper.ml" 307 8297 8301 "jsonhelper.ml" 307 8297 8312
+type(
+  Yojson.Basic.json -> Config.tuple
+)
+ident(
+  int_ref json_to_qry "jsonhelper.ml" 236 5821 5825 "jsonhelper.ml" 236 5821 5836
+)
+"jsonhelper.ml" 307 8297 8313 "jsonhelper.ml" 307 8297 8337
+type(
+  ?buf:Bi_outbuf.t ->
+  ?fname:string -> ?lnum:int -> string -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.from_string
+)
+"jsonhelper.ml" 307 8297 8338 "jsonhelper.ml" 307 8297 8345
+type(
+  string
+)
+ident(
+  int_ref jsonStr "jsonhelper.ml" 305 8228 8247 "jsonhelper.ml" 305 8228 8254
+)
+"jsonhelper.ml" 307 8297 8312 "jsonhelper.ml" 307 8297 8346
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 307 8297 8301 "jsonhelper.ml" 307 8297 8346
+call(
+  tail
+)
+type(
+  Config.tuple
+)
+"jsonhelper.ml" 314 8424 8429 "jsonhelper.ml" 314 8424 8440
+type(
+  'a * 'b * 'c * 'd -> 'a
+)
+ident(
+  def fst_of_four "jsonhelper.ml" 315 8467 8468 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 314 8424 8442 "jsonhelper.ml" 314 8424 8448
+type(
+  'a
+)
+ident(
+  def fstEle "jsonhelper.ml" 314 8424 8460 "jsonhelper.ml" 314 8424 8466
+)
+"jsonhelper.ml" 314 8424 8450 "jsonhelper.ml" 314 8424 8451
+type(
+  'b
+)
+"jsonhelper.ml" 314 8424 8453 "jsonhelper.ml" 314 8424 8454
+type(
+  'c
+)
+"jsonhelper.ml" 314 8424 8456 "jsonhelper.ml" 314 8424 8457
+type(
+  'd
+)
+"jsonhelper.ml" 314 8424 8441 "jsonhelper.ml" 314 8424 8458
+type(
+  'a * 'b * 'c * 'd
+)
+"jsonhelper.ml" 314 8424 8460 "jsonhelper.ml" 314 8424 8466
+type(
+  'a
+)
+ident(
+  int_ref fstEle "jsonhelper.ml" 314 8424 8442 "jsonhelper.ml" 314 8424 8448
+)
+"jsonhelper.ml" 315 8467 8472 "jsonhelper.ml" 315 8467 8483
+type(
+  'a * 'b * 'c * 'd -> 'b
+)
+ident(
+  def snd_of_four "jsonhelper.ml" 316 8510 8511 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 315 8467 8485 "jsonhelper.ml" 315 8467 8486
+type(
+  'a
+)
+"jsonhelper.ml" 315 8467 8488 "jsonhelper.ml" 315 8467 8494
+type(
+  'b
+)
+ident(
+  def sndEle "jsonhelper.ml" 315 8467 8503 "jsonhelper.ml" 315 8467 8509
+)
+"jsonhelper.ml" 315 8467 8496 "jsonhelper.ml" 315 8467 8497
+type(
+  'c
+)
+"jsonhelper.ml" 315 8467 8499 "jsonhelper.ml" 315 8467 8500
+type(
+  'd
+)
+"jsonhelper.ml" 315 8467 8484 "jsonhelper.ml" 315 8467 8501
+type(
+  'a * 'b * 'c * 'd
+)
+"jsonhelper.ml" 315 8467 8503 "jsonhelper.ml" 315 8467 8509
+type(
+  'b
+)
+ident(
+  int_ref sndEle "jsonhelper.ml" 315 8467 8488 "jsonhelper.ml" 315 8467 8494
+)
+"jsonhelper.ml" 316 8510 8515 "jsonhelper.ml" 316 8510 8526
+type(
+  'a * 'b * 'c * 'd -> 'c
+)
+ident(
+  def thi_of_four "jsonhelper.ml" 317 8553 8554 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 316 8510 8528 "jsonhelper.ml" 316 8510 8529
+type(
+  'a
+)
+"jsonhelper.ml" 316 8510 8531 "jsonhelper.ml" 316 8510 8532
+type(
+  'b
+)
+"jsonhelper.ml" 316 8510 8534 "jsonhelper.ml" 316 8510 8540
+type(
+  'c
+)
+ident(
+  def thiEle "jsonhelper.ml" 316 8510 8546 "jsonhelper.ml" 316 8510 8552
+)
+"jsonhelper.ml" 316 8510 8542 "jsonhelper.ml" 316 8510 8543
+type(
+  'd
+)
+"jsonhelper.ml" 316 8510 8527 "jsonhelper.ml" 316 8510 8544
+type(
+  'a * 'b * 'c * 'd
+)
+"jsonhelper.ml" 316 8510 8546 "jsonhelper.ml" 316 8510 8552
+type(
+  'c
+)
+ident(
+  int_ref thiEle "jsonhelper.ml" 316 8510 8534 "jsonhelper.ml" 316 8510 8540
+)
+"jsonhelper.ml" 317 8553 8558 "jsonhelper.ml" 317 8553 8569
+type(
+  'a * 'b * 'c * 'd -> 'd
+)
+ident(
+  def fou_of_four "jsonhelper.ml" 323 8680 8681 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 317 8553 8571 "jsonhelper.ml" 317 8553 8572
+type(
+  'a
+)
+"jsonhelper.ml" 317 8553 8574 "jsonhelper.ml" 317 8553 8575
+type(
+  'b
+)
+"jsonhelper.ml" 317 8553 8577 "jsonhelper.ml" 317 8553 8578
+type(
+  'c
+)
+"jsonhelper.ml" 317 8553 8580 "jsonhelper.ml" 317 8553 8586
+type(
+  'd
+)
+ident(
+  def fouEle "jsonhelper.ml" 317 8553 8589 "jsonhelper.ml" 317 8553 8595
+)
+"jsonhelper.ml" 317 8553 8570 "jsonhelper.ml" 317 8553 8587
+type(
+  'a * 'b * 'c * 'd
+)
+"jsonhelper.ml" 317 8553 8589 "jsonhelper.ml" 317 8553 8595
+type(
+  'd
+)
+ident(
+  int_ref fouEle "jsonhelper.ml" 317 8553 8580 "jsonhelper.ml" 317 8553 8586
+)
+"jsonhelper.ml" 323 8680 8685 "jsonhelper.ml" 323 8680 8697
+type(
+  'a * 'b * 'c -> 'a
+)
+ident(
+  def fst_of_three "jsonhelper.ml" 324 8721 8722 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 323 8680 8699 "jsonhelper.ml" 323 8680 8705
+type(
+  'a
+)
+ident(
+  def fstEle "jsonhelper.ml" 323 8680 8714 "jsonhelper.ml" 323 8680 8720
+)
+"jsonhelper.ml" 323 8680 8707 "jsonhelper.ml" 323 8680 8708
+type(
+  'b
+)
+"jsonhelper.ml" 323 8680 8710 "jsonhelper.ml" 323 8680 8711
+type(
+  'c
+)
+"jsonhelper.ml" 323 8680 8698 "jsonhelper.ml" 323 8680 8712
+type(
+  'a * 'b * 'c
+)
+"jsonhelper.ml" 323 8680 8714 "jsonhelper.ml" 323 8680 8720
+type(
+  'a
+)
+ident(
+  int_ref fstEle "jsonhelper.ml" 323 8680 8699 "jsonhelper.ml" 323 8680 8705
+)
+"jsonhelper.ml" 324 8721 8726 "jsonhelper.ml" 324 8721 8738
+type(
+  'a * 'b * 'c -> 'b
+)
+ident(
+  def snd_of_three "jsonhelper.ml" 325 8762 8763 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 324 8721 8740 "jsonhelper.ml" 324 8721 8741
+type(
+  'a
+)
+"jsonhelper.ml" 324 8721 8743 "jsonhelper.ml" 324 8721 8749
+type(
+  'b
+)
+ident(
+  def sndEle "jsonhelper.ml" 324 8721 8755 "jsonhelper.ml" 324 8721 8761
+)
+"jsonhelper.ml" 324 8721 8751 "jsonhelper.ml" 324 8721 8752
+type(
+  'c
+)
+"jsonhelper.ml" 324 8721 8739 "jsonhelper.ml" 324 8721 8753
+type(
+  'a * 'b * 'c
+)
+"jsonhelper.ml" 324 8721 8755 "jsonhelper.ml" 324 8721 8761
+type(
+  'b
+)
+ident(
+  int_ref sndEle "jsonhelper.ml" 324 8721 8743 "jsonhelper.ml" 324 8721 8749
+)
+"jsonhelper.ml" 325 8762 8767 "jsonhelper.ml" 325 8762 8779
+type(
+  'a * 'b * 'c -> 'c
+)
+ident(
+  def thi_of_three "jsonhelper.ml" 331 8880 8881 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 325 8762 8781 "jsonhelper.ml" 325 8762 8782
+type(
+  'a
+)
+"jsonhelper.ml" 325 8762 8784 "jsonhelper.ml" 325 8762 8785
+type(
+  'b
+)
+"jsonhelper.ml" 325 8762 8787 "jsonhelper.ml" 325 8762 8793
+type(
+  'c
+)
+ident(
+  def thiEle "jsonhelper.ml" 325 8762 8796 "jsonhelper.ml" 325 8762 8802
+)
+"jsonhelper.ml" 325 8762 8780 "jsonhelper.ml" 325 8762 8794
+type(
+  'a * 'b * 'c
+)
+"jsonhelper.ml" 325 8762 8796 "jsonhelper.ml" 325 8762 8802
+type(
+  'c
+)
+ident(
+  int_ref thiEle "jsonhelper.ml" 325 8762 8787 "jsonhelper.ml" 325 8762 8793
+)
+"jsonhelper.ml" 331 8880 8885 "jsonhelper.ml" 331 8880 8891
+type(
+  'a * 'b * 'c * 'd * 'e -> 'a
+)
+ident(
+  def fst_qr "jsonhelper.ml" 332 8921 8922 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 331 8880 8893 "jsonhelper.ml" 331 8880 8899
+type(
+  'a
+)
+ident(
+  def fstEle "jsonhelper.ml" 331 8880 8914 "jsonhelper.ml" 331 8880 8920
+)
+"jsonhelper.ml" 331 8880 8901 "jsonhelper.ml" 331 8880 8902
+type(
+  'b
+)
+"jsonhelper.ml" 331 8880 8904 "jsonhelper.ml" 331 8880 8905
+type(
+  'c
+)
+"jsonhelper.ml" 331 8880 8907 "jsonhelper.ml" 331 8880 8908
+type(
+  'd
+)
+"jsonhelper.ml" 331 8880 8910 "jsonhelper.ml" 331 8880 8911
+type(
+  'e
+)
+"jsonhelper.ml" 331 8880 8892 "jsonhelper.ml" 331 8880 8912
+type(
+  'a * 'b * 'c * 'd * 'e
+)
+"jsonhelper.ml" 331 8880 8914 "jsonhelper.ml" 331 8880 8920
+type(
+  'a
+)
+ident(
+  int_ref fstEle "jsonhelper.ml" 331 8880 8893 "jsonhelper.ml" 331 8880 8899
+)
+"jsonhelper.ml" 332 8921 8926 "jsonhelper.ml" 332 8921 8932
+type(
+  'a * 'b * 'c * 'd * 'e -> 'b
+)
+ident(
+  def snd_qr "jsonhelper.ml" 333 8962 8963 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 332 8921 8934 "jsonhelper.ml" 332 8921 8935
+type(
+  'a
+)
+"jsonhelper.ml" 332 8921 8937 "jsonhelper.ml" 332 8921 8943
+type(
+  'b
+)
+ident(
+  def sndEle "jsonhelper.ml" 332 8921 8955 "jsonhelper.ml" 332 8921 8961
+)
+"jsonhelper.ml" 332 8921 8945 "jsonhelper.ml" 332 8921 8946
+type(
+  'c
+)
+"jsonhelper.ml" 332 8921 8948 "jsonhelper.ml" 332 8921 8949
+type(
+  'd
+)
+"jsonhelper.ml" 332 8921 8951 "jsonhelper.ml" 332 8921 8952
+type(
+  'e
+)
+"jsonhelper.ml" 332 8921 8933 "jsonhelper.ml" 332 8921 8953
+type(
+  'a * 'b * 'c * 'd * 'e
+)
+"jsonhelper.ml" 332 8921 8955 "jsonhelper.ml" 332 8921 8961
+type(
+  'b
+)
+ident(
+  int_ref sndEle "jsonhelper.ml" 332 8921 8937 "jsonhelper.ml" 332 8921 8943
+)
+"jsonhelper.ml" 333 8962 8967 "jsonhelper.ml" 333 8962 8973
+type(
+  'a * 'b * 'c * 'd * 'e -> 'c
+)
+ident(
+  def thi_qr "jsonhelper.ml" 334 9003 9004 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 333 8962 8975 "jsonhelper.ml" 333 8962 8976
+type(
+  'a
+)
+"jsonhelper.ml" 333 8962 8978 "jsonhelper.ml" 333 8962 8979
+type(
+  'b
+)
+"jsonhelper.ml" 333 8962 8981 "jsonhelper.ml" 333 8962 8987
+type(
+  'c
+)
+ident(
+  def thiEle "jsonhelper.ml" 333 8962 8996 "jsonhelper.ml" 333 8962 9002
+)
+"jsonhelper.ml" 333 8962 8989 "jsonhelper.ml" 333 8962 8990
+type(
+  'd
+)
+"jsonhelper.ml" 333 8962 8992 "jsonhelper.ml" 333 8962 8993
+type(
+  'e
+)
+"jsonhelper.ml" 333 8962 8974 "jsonhelper.ml" 333 8962 8994
+type(
+  'a * 'b * 'c * 'd * 'e
+)
+"jsonhelper.ml" 333 8962 8996 "jsonhelper.ml" 333 8962 9002
+type(
+  'c
+)
+ident(
+  int_ref thiEle "jsonhelper.ml" 333 8962 8981 "jsonhelper.ml" 333 8962 8987
+)
+"jsonhelper.ml" 334 9003 9008 "jsonhelper.ml" 334 9003 9014
+type(
+  'a * 'b * 'c * 'd * 'e -> 'd
+)
+ident(
+  def fou_qr "jsonhelper.ml" 335 9044 9045 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 334 9003 9016 "jsonhelper.ml" 334 9003 9017
+type(
+  'a
+)
+"jsonhelper.ml" 334 9003 9019 "jsonhelper.ml" 334 9003 9020
+type(
+  'b
+)
+"jsonhelper.ml" 334 9003 9022 "jsonhelper.ml" 334 9003 9023
+type(
+  'c
+)
+"jsonhelper.ml" 334 9003 9025 "jsonhelper.ml" 334 9003 9031
+type(
+  'd
+)
+ident(
+  def fouEle "jsonhelper.ml" 334 9003 9037 "jsonhelper.ml" 334 9003 9043
+)
+"jsonhelper.ml" 334 9003 9033 "jsonhelper.ml" 334 9003 9034
+type(
+  'e
+)
+"jsonhelper.ml" 334 9003 9015 "jsonhelper.ml" 334 9003 9035
+type(
+  'a * 'b * 'c * 'd * 'e
+)
+"jsonhelper.ml" 334 9003 9037 "jsonhelper.ml" 334 9003 9043
+type(
+  'd
+)
+ident(
+  int_ref fouEle "jsonhelper.ml" 334 9003 9025 "jsonhelper.ml" 334 9003 9031
+)
+"jsonhelper.ml" 335 9044 9049 "jsonhelper.ml" 335 9044 9055
+type(
+  'a * 'b * 'c * 'd * 'e -> 'e
+)
+ident(
+  def fif_tu "jsonhelper.ml" 338 9087 9087 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 335 9044 9057 "jsonhelper.ml" 335 9044 9058
+type(
+  'a
+)
+"jsonhelper.ml" 335 9044 9060 "jsonhelper.ml" 335 9044 9061
+type(
+  'b
+)
+"jsonhelper.ml" 335 9044 9063 "jsonhelper.ml" 335 9044 9064
+type(
+  'c
+)
+"jsonhelper.ml" 335 9044 9066 "jsonhelper.ml" 335 9044 9067
+type(
+  'd
+)
+"jsonhelper.ml" 335 9044 9069 "jsonhelper.ml" 335 9044 9075
+type(
+  'e
+)
+ident(
+  def fifEle "jsonhelper.ml" 335 9044 9078 "jsonhelper.ml" 335 9044 9084
+)
+"jsonhelper.ml" 335 9044 9056 "jsonhelper.ml" 335 9044 9076
+type(
+  'a * 'b * 'c * 'd * 'e
+)
+"jsonhelper.ml" 335 9044 9078 "jsonhelper.ml" 335 9044 9084
+type(
+  'e
+)
+ident(
+  int_ref fifEle "jsonhelper.ml" 335 9044 9069 "jsonhelper.ml" 335 9044 9075
+)
+"jsonhelper.ml" 338 9087 9091 "jsonhelper.ml" 338 9087 9110
+type(
+  'a * 'b -> 'a * [> `String of 'b ]
+)
+ident(
+  def contactData_to_json "jsonhelper.ml" 347 9272 9272 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 338 9087 9111 "jsonhelper.ml" 338 9087 9120
+type(
+  'a * 'b
+)
+ident(
+  def name_data "jsonhelper.ml" 339 9122 9124 "jsonhelper.ml" 341 9182 9204
+)
+"jsonhelper.ml" 339 9122 9128 "jsonhelper.ml" 339 9122 9132
+type(
+  'a
+)
+ident(
+  def name "jsonhelper.ml" 340 9152 9154 "jsonhelper.ml" 341 9182 9204
+)
+"jsonhelper.ml" 339 9122 9134 "jsonhelper.ml" 339 9122 9137
+type(
+  'a * 'b -> 'a
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"jsonhelper.ml" 339 9122 9137 "jsonhelper.ml" 339 9122 9148
+type(
+  'a * 'b
+)
+ident(
+  int_ref name_data "jsonhelper.ml" 338 9087 9111 "jsonhelper.ml" 338 9087 9120
+)
+"jsonhelper.ml" 339 9122 9134 "jsonhelper.ml" 339 9122 9148
+type(
+  'a
+)
+"jsonhelper.ml" 340 9152 9158 "jsonhelper.ml" 340 9152 9162
+type(
+  'b
+)
+ident(
+  def data "jsonhelper.ml" 341 9182 9184 "jsonhelper.ml" 341 9182 9204
+)
+"jsonhelper.ml" 340 9152 9164 "jsonhelper.ml" 340 9152 9167
+type(
+  'a * 'b -> 'b
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"jsonhelper.ml" 340 9152 9167 "jsonhelper.ml" 340 9152 9178
+type(
+  'a * 'b
+)
+ident(
+  int_ref name_data "jsonhelper.ml" 338 9087 9111 "jsonhelper.ml" 338 9087 9120
+)
+"jsonhelper.ml" 340 9152 9164 "jsonhelper.ml" 340 9152 9178
+type(
+  'b
+)
+"jsonhelper.ml" 341 9182 9185 "jsonhelper.ml" 341 9182 9189
+type(
+  'a
+)
+ident(
+  int_ref name "jsonhelper.ml" 339 9122 9128 "jsonhelper.ml" 339 9122 9132
+)
+"jsonhelper.ml" 341 9182 9199 "jsonhelper.ml" 341 9182 9203
+type(
+  'b
+)
+ident(
+  int_ref data "jsonhelper.ml" 340 9152 9158 "jsonhelper.ml" 340 9152 9162
+)
+"jsonhelper.ml" 341 9182 9191 "jsonhelper.ml" 341 9182 9203
+type(
+  [> `String of 'b ] as 'c
+)
+"jsonhelper.ml" 341 9182 9184 "jsonhelper.ml" 341 9182 9204
+type(
+  'a * 'c
+)
+"jsonhelper.ml" 340 9152 9154 "jsonhelper.ml" 341 9182 9204
+type(
+  'a * 'c
+)
+"jsonhelper.ml" 339 9122 9124 "jsonhelper.ml" 341 9182 9204
+type(
+  'a * 'c
+)
+"jsonhelper.ml" 347 9272 9276 "jsonhelper.ml" 347 9272 9293
+type(
+  'a * [> `String of 'b ] -> 'a * 'b
+)
+ident(
+  def jsonTocontactData "jsonhelper.ml" 354 9497 9497 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 347 9272 9294 "jsonhelper.ml" 347 9272 9303
+type(
+  'a * ([> `String of 'b ] as 'c)
+)
+ident(
+  def name_data "jsonhelper.ml" 348 9305 9307 "jsonhelper.ml" 352 9481 9495
+)
+"jsonhelper.ml" 348 9305 9311 "jsonhelper.ml" 348 9305 9315
+type(
+  'a
+)
+ident(
+  def name "jsonhelper.ml" 349 9335 9337 "jsonhelper.ml" 352 9481 9495
+)
+"jsonhelper.ml" 348 9305 9317 "jsonhelper.ml" 348 9305 9320
+type(
+  'a * 'c -> 'a
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"jsonhelper.ml" 348 9305 9320 "jsonhelper.ml" 348 9305 9331
+type(
+  'a * 'c
+)
+ident(
+  int_ref name_data "jsonhelper.ml" 347 9272 9294 "jsonhelper.ml" 347 9272 9303
+)
+"jsonhelper.ml" 348 9305 9317 "jsonhelper.ml" 348 9305 9331
+type(
+  'a
+)
+"jsonhelper.ml" 349 9335 9341 "jsonhelper.ml" 349 9335 9345
+type(
+  'b
+)
+ident(
+  def data "jsonhelper.ml" 352 9481 9483 "jsonhelper.ml" 352 9481 9495
+)
+"jsonhelper.ml" 349 9335 9353 "jsonhelper.ml" 349 9335 9356
+type(
+  'a * 'c -> 'c
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"jsonhelper.ml" 349 9335 9356 "jsonhelper.ml" 349 9335 9367
+type(
+  'a * 'c
+)
+ident(
+  int_ref name_data "jsonhelper.ml" 347 9272 9294 "jsonhelper.ml" 347 9272 9303
+)
+"jsonhelper.ml" 349 9335 9353 "jsonhelper.ml" 349 9335 9367
+type(
+  'c
+)
+"jsonhelper.ml" 350 9373 9390 "jsonhelper.ml" 350 9373 9391
+type(
+  'b
+)
+ident(
+  def d "jsonhelper.ml" 350 9373 9395 "jsonhelper.ml" 350 9373 9396
+)
+"jsonhelper.ml" 350 9373 9382 "jsonhelper.ml" 350 9373 9391
+type(
+  'c
+)
+"jsonhelper.ml" 350 9373 9395 "jsonhelper.ml" 350 9373 9396
+type(
+  'b
+)
+ident(
+  int_ref d "jsonhelper.ml" 350 9373 9390 "jsonhelper.ml" 350 9373 9391
+)
+"jsonhelper.ml" 351 9397 9407 "jsonhelper.ml" 351 9397 9408
+type(
+  'c
+)
+"jsonhelper.ml" 351 9397 9419 "jsonhelper.ml" 351 9397 9424
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"jsonhelper.ml" 351 9397 9449 "jsonhelper.ml" 351 9397 9476
+type(
+  string
+)
+"jsonhelper.ml" 351 9397 9425 "jsonhelper.ml" 351 9397 9477
+type(
+  exn
+)
+"jsonhelper.ml" 351 9397 9419 "jsonhelper.ml" 351 9397 9477
+type(
+  'b
+)
+"jsonhelper.ml" 349 9335 9347 "jsonhelper.ml" 351 9397 9477
+type(
+  'b
+)
+"jsonhelper.ml" 352 9481 9484 "jsonhelper.ml" 352 9481 9488
+type(
+  'a
+)
+ident(
+  int_ref name "jsonhelper.ml" 348 9305 9311 "jsonhelper.ml" 348 9305 9315
+)
+"jsonhelper.ml" 352 9481 9490 "jsonhelper.ml" 352 9481 9494
+type(
+  'b
+)
+ident(
+  int_ref data "jsonhelper.ml" 349 9335 9341 "jsonhelper.ml" 349 9335 9345
+)
+"jsonhelper.ml" 352 9481 9483 "jsonhelper.ml" 352 9481 9495
+type(
+  'a * 'b
+)
+"jsonhelper.ml" 349 9335 9337 "jsonhelper.ml" 352 9481 9495
+type(
+  'a * 'b
+)
+"jsonhelper.ml" 348 9305 9307 "jsonhelper.ml" 352 9481 9495
+type(
+  'a * 'b
+)
+"jsonhelper.ml" 354 9497 9501 "jsonhelper.ml" 354 9497 9515
+type(
+  (string * string) list -> string
+)
+ident(
+  def lst_to_jsonStr "jsonhelper.ml" 358 9650 9650 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 354 9497 9516 "jsonhelper.ml" 354 9497 9526
+type(
+  (string * string) list
+)
+ident(
+  def contactLst "jsonhelper.ml" 355 9528 9530 "jsonhelper.ml" 356 9611 9648
+)
+"jsonhelper.ml" 355 9528 9534 "jsonhelper.ml" 355 9528 9537
+type(
+  (string * [> `String of string ]) list
+)
+ident(
+  def lst "jsonhelper.ml" 356 9611 9613 "jsonhelper.ml" 356 9611 9648
+)
+"jsonhelper.ml" 355 9528 9539 "jsonhelper.ml" 355 9528 9547
+type(
+  (string * string -> string * ([> `String of string ] as 'a)) ->
+  (string * string) list -> (string * 'a) list
+)
+ident(
+  ext_ref List.map
+)
+"jsonhelper.ml" 355 9528 9553 "jsonhelper.ml" 355 9528 9562
+type(
+  string * string
+)
+ident(
+  def name_data "jsonhelper.ml" 355 9528 9566 "jsonhelper.ml" 355 9528 9595
+)
+"jsonhelper.ml" 355 9528 9566 "jsonhelper.ml" 355 9528 9585
+type(
+  string * string -> string * 'a
+)
+ident(
+  int_ref contactData_to_json "jsonhelper.ml" 338 9087 9091 "jsonhelper.ml" 338 9087 9110
+)
+"jsonhelper.ml" 355 9528 9586 "jsonhelper.ml" 355 9528 9595
+type(
+  string * string
+)
+ident(
+  int_ref name_data "jsonhelper.ml" 355 9528 9553 "jsonhelper.ml" 355 9528 9562
+)
+"jsonhelper.ml" 355 9528 9566 "jsonhelper.ml" 355 9528 9595
+call(
+  tail
+)
+type(
+  string * 'a
+)
+"jsonhelper.ml" 355 9528 9548 "jsonhelper.ml" 355 9528 9596
+type(
+  string * string -> string * 'a
+)
+"jsonhelper.ml" 355 9528 9597 "jsonhelper.ml" 355 9528 9607
+type(
+  (string * string) list
+)
+ident(
+  int_ref contactLst "jsonhelper.ml" 354 9497 9516 "jsonhelper.ml" 354 9497 9526
+)
+"jsonhelper.ml" 355 9528 9539 "jsonhelper.ml" 355 9528 9607
+call(
+  stack
+)
+type(
+  (string * 'a) list
+)
+"jsonhelper.ml" 356 9611 9613 "jsonhelper.ml" 356 9611 9635
+type(
+  ?buf:Bi_outbuf.t -> ?len:int -> ?std:bool -> Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.to_string
+)
+"jsonhelper.ml" 356 9611 9644 "jsonhelper.ml" 356 9611 9647
+type(
+  (string * Yojson.Basic.json) list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 355 9528 9534 "jsonhelper.ml" 355 9528 9537
+)
+"jsonhelper.ml" 356 9611 9636 "jsonhelper.ml" 356 9611 9648
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 356 9611 9613 "jsonhelper.ml" 356 9611 9648
+call(
+  tail
+)
+type(
+  string
+)
+"jsonhelper.ml" 355 9528 9530 "jsonhelper.ml" 356 9611 9648
+type(
+  string
+)
+"jsonhelper.ml" 358 9650 9654 "jsonhelper.ml" 358 9650 9668
+type(
+  string -> (string * string) list
+)
+ident(
+  def jsonStr_to_lst "jsonhelper.ml" 365 9933 9933 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 358 9650 9669 "jsonhelper.ml" 358 9650 9676
+type(
+  string
+)
+ident(
+  def jsonStr "jsonhelper.ml" 359 9679 9681 "jsonhelper.ml" 363 9864 9931
+)
+"jsonhelper.ml" 359 9679 9685 "jsonhelper.ml" 359 9679 9692
+type(
+  Yojson.Basic.json
+)
+ident(
+  def jsonLst "jsonhelper.ml" 360 9730 9732 "jsonhelper.ml" 363 9864 9931
+)
+"jsonhelper.ml" 359 9679 9694 "jsonhelper.ml" 359 9679 9718
+type(
+  ?buf:Bi_outbuf.t ->
+  ?fname:string -> ?lnum:int -> string -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.from_string
+)
+"jsonhelper.ml" 359 9679 9719 "jsonhelper.ml" 359 9679 9726
+type(
+  string
+)
+ident(
+  int_ref jsonStr "jsonhelper.ml" 358 9650 9669 "jsonhelper.ml" 358 9650 9676
+)
+"jsonhelper.ml" 359 9679 9694 "jsonhelper.ml" 359 9679 9726
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 360 9730 9736 "jsonhelper.ml" 360 9730 9744
+type(
+  (string * Yojson.Basic.json) list
+)
+ident(
+  def lstAssoc "jsonhelper.ml" 363 9864 9867 "jsonhelper.ml" 363 9864 9931
+)
+"jsonhelper.ml" 360 9730 9752 "jsonhelper.ml" 360 9730 9759
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref jsonLst "jsonhelper.ml" 359 9679 9685 "jsonhelper.ml" 359 9679 9692
+)
+"jsonhelper.ml" 361 9765 9780 "jsonhelper.ml" 361 9765 9783
+type(
+  (string * Yojson.Basic.json) list
+)
+ident(
+  def lst "jsonhelper.ml" 361 9765 9787 "jsonhelper.ml" 361 9765 9790
+)
+"jsonhelper.ml" 361 9765 9773 "jsonhelper.ml" 361 9765 9783
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 361 9765 9787 "jsonhelper.ml" 361 9765 9790
+type(
+  (string * Yojson.Basic.json) list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 361 9765 9780 "jsonhelper.ml" 361 9765 9783
+)
+"jsonhelper.ml" 362 9791 9799 "jsonhelper.ml" 362 9791 9800
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 362 9791 9813 "jsonhelper.ml" 362 9791 9818
+type(
+  exn -> (string * Yojson.Basic.json) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"jsonhelper.ml" 362 9791 9832 "jsonhelper.ml" 362 9791 9859
+type(
+  string
+)
+"jsonhelper.ml" 362 9791 9819 "jsonhelper.ml" 362 9791 9860
+type(
+  exn
+)
+"jsonhelper.ml" 362 9791 9813 "jsonhelper.ml" 362 9791 9860
+type(
+  (string * Yojson.Basic.json) list
+)
+"jsonhelper.ml" 360 9730 9746 "jsonhelper.ml" 362 9791 9860
+type(
+  (string * Yojson.Basic.json) list
+)
+"jsonhelper.ml" 363 9864 9867 "jsonhelper.ml" 363 9864 9875
+type(
+  (string * Yojson.Basic.json -> string * string) ->
+  (string * Yojson.Basic.json) list -> (string * string) list
+)
+ident(
+  ext_ref List.map
+)
+"jsonhelper.ml" 363 9864 9881 "jsonhelper.ml" 363 9864 9890
+type(
+  string * Yojson.Basic.json
+)
+ident(
+  def name_data "jsonhelper.ml" 363 9864 9894 "jsonhelper.ml" 363 9864 9921
+)
+"jsonhelper.ml" 363 9864 9894 "jsonhelper.ml" 363 9864 9911
+type(
+  string * Yojson.Basic.json -> string * string
+)
+ident(
+  int_ref jsonTocontactData "jsonhelper.ml" 347 9272 9276 "jsonhelper.ml" 347 9272 9293
+)
+"jsonhelper.ml" 363 9864 9912 "jsonhelper.ml" 363 9864 9921
+type(
+  string * Yojson.Basic.json
+)
+ident(
+  int_ref name_data "jsonhelper.ml" 363 9864 9881 "jsonhelper.ml" 363 9864 9890
+)
+"jsonhelper.ml" 363 9864 9894 "jsonhelper.ml" 363 9864 9921
+call(
+  tail
+)
+type(
+  string * string
+)
+"jsonhelper.ml" 363 9864 9876 "jsonhelper.ml" 363 9864 9922
+type(
+  string * Yojson.Basic.json -> string * string
+)
+"jsonhelper.ml" 363 9864 9923 "jsonhelper.ml" 363 9864 9931
+type(
+  (string * Yojson.Basic.json) list
+)
+ident(
+  int_ref lstAssoc "jsonhelper.ml" 360 9730 9736 "jsonhelper.ml" 360 9730 9744
+)
+"jsonhelper.ml" 363 9864 9867 "jsonhelper.ml" 363 9864 9931
+call(
+  tail
+)
+type(
+  (string * string) list
+)
+"jsonhelper.ml" 360 9730 9732 "jsonhelper.ml" 363 9864 9931
+type(
+  (string * string) list
+)
+"jsonhelper.ml" 359 9679 9681 "jsonhelper.ml" 363 9864 9931
+type(
+  (string * string) list
+)
+"jsonhelper.ml" 365 9933 9937 "jsonhelper.ml" 365 9933 9948
+type(
+  ('a * 'b) list -> 'b list
+)
+ident(
+  def tupLstToLst "jsonhelper.ml" 376 10237 10237 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 365 9933 9949 "jsonhelper.ml" 365 9933 9955
+type(
+  ('a * 'b) list
+)
+ident(
+  def tupLst "jsonhelper.ml" 365 9933 9957 "jsonhelper.ml" 365 9933 10005
+)
+"jsonhelper.ml" 365 9933 9957 "jsonhelper.ml" 365 9933 9965
+type(
+  ('a * 'b -> 'b) -> ('a * 'b) list -> 'b list
+)
+ident(
+  ext_ref List.map
+)
+"jsonhelper.ml" 365 9933 9971 "jsonhelper.ml" 365 9933 9980
+type(
+  'a * 'b
+)
+ident(
+  def name_data "jsonhelper.ml" 365 9933 9984 "jsonhelper.ml" 365 9933 9997
+)
+"jsonhelper.ml" 365 9933 9984 "jsonhelper.ml" 365 9933 9987
+type(
+  'a * 'b -> 'b
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"jsonhelper.ml" 365 9933 9988 "jsonhelper.ml" 365 9933 9997
+type(
+  'a * 'b
+)
+ident(
+  int_ref name_data "jsonhelper.ml" 365 9933 9971 "jsonhelper.ml" 365 9933 9980
+)
+"jsonhelper.ml" 365 9933 9984 "jsonhelper.ml" 365 9933 9997
+type(
+  'b
+)
+"jsonhelper.ml" 365 9933 9966 "jsonhelper.ml" 365 9933 9998
+type(
+  'a * 'b -> 'b
+)
+"jsonhelper.ml" 365 9933 9999 "jsonhelper.ml" 365 9933 10005
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref tupLst "jsonhelper.ml" 365 9933 9949 "jsonhelper.ml" 365 9933 9955
+)
+"jsonhelper.ml" 365 9933 9957 "jsonhelper.ml" 365 9933 10005
+call(
+  tail
+)
+type(
+  'b list
+)
+"jsonhelper.ml" 376 10237 10241 "jsonhelper.ml" 376 10237 10255
+type(
+  'a -> [> `String of 'a ]
+)
+ident(
+  def str_to_jsonStr "jsonhelper.ml" 378 10270 10270 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 376 10237 10256 "jsonhelper.ml" 376 10237 10257
+type(
+  'a
+)
+ident(
+  def s "jsonhelper.ml" 376 10237 10259 "jsonhelper.ml" 376 10237 10268
+)
+"jsonhelper.ml" 376 10237 10267 "jsonhelper.ml" 376 10237 10268
+type(
+  'a
+)
+ident(
+  int_ref s "jsonhelper.ml" 376 10237 10256 "jsonhelper.ml" 376 10237 10257
+)
+"jsonhelper.ml" 376 10237 10259 "jsonhelper.ml" 376 10237 10268
+type(
+  [> `String of 'a ] as 'b
+)
+"jsonhelper.ml" 378 10270 10274 "jsonhelper.ml" 378 10270 10288
+type(
+  [> `String of 'a ] -> 'a
+)
+ident(
+  def jsonStr_to_str "jsonhelper.ml" 387 10601 10601 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 378 10270 10289 "jsonhelper.ml" 378 10270 10293
+type(
+  [> `String of 'a ] as 'b
+)
+ident(
+  def jstr "jsonhelper.ml" 378 10270 10295 "jsonhelper.ml" 380 10332 10416
+)
+"jsonhelper.ml" 378 10270 10301 "jsonhelper.ml" 378 10270 10305
+type(
+  'b
+)
+ident(
+  int_ref jstr "jsonhelper.ml" 378 10270 10289 "jsonhelper.ml" 378 10270 10293
+)
+"jsonhelper.ml" 379 10311 10325 "jsonhelper.ml" 379 10311 10326
+type(
+  'a
+)
+ident(
+  def s "jsonhelper.ml" 379 10311 10330 "jsonhelper.ml" 379 10311 10331
+)
+"jsonhelper.ml" 379 10311 10317 "jsonhelper.ml" 379 10311 10326
+type(
+  'b
+)
+"jsonhelper.ml" 379 10311 10330 "jsonhelper.ml" 379 10311 10331
+type(
+  'a
+)
+ident(
+  int_ref s "jsonhelper.ml" 379 10311 10325 "jsonhelper.ml" 379 10311 10326
+)
+"jsonhelper.ml" 380 10332 10338 "jsonhelper.ml" 380 10332 10339
+type(
+  'b
+)
+"jsonhelper.ml" 380 10332 10351 "jsonhelper.ml" 380 10332 10356
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"jsonhelper.ml" 380 10332 10373 "jsonhelper.ml" 380 10332 10415
+type(
+  string
+)
+"jsonhelper.ml" 380 10332 10357 "jsonhelper.ml" 380 10332 10416
+type(
+  exn
+)
+"jsonhelper.ml" 380 10332 10351 "jsonhelper.ml" 380 10332 10416
+type(
+  'a
+)
+"jsonhelper.ml" 378 10270 10295 "jsonhelper.ml" 380 10332 10416
+type(
+  'a
+)
+"jsonhelper.ml" 387 10601 10605 "jsonhelper.ml" 387 10601 10622
+type(
+  string list -> string
+)
+ident(
+  def strLst_to_jsonStr "jsonhelper.ml" 396 10842 10842 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 387 10601 10623 "jsonhelper.ml" 387 10601 10629
+type(
+  string list
+)
+ident(
+  def strLst "jsonhelper.ml" 388 10633 10635 "jsonhelper.ml" 389 10681 10720
+)
+"jsonhelper.ml" 388 10633 10639 "jsonhelper.ml" 388 10633 10642
+type(
+  [> `String of string ] list
+)
+ident(
+  def lst "jsonhelper.ml" 389 10681 10683 "jsonhelper.ml" 389 10681 10720
+)
+"jsonhelper.ml" 388 10633 10644 "jsonhelper.ml" 388 10633 10652
+type(
+  (string -> ([> `String of string ] as 'a)) -> string list -> 'a list
+)
+ident(
+  ext_ref List.map
+)
+"jsonhelper.ml" 388 10633 10653 "jsonhelper.ml" 388 10633 10667
+type(
+  string -> 'a
+)
+ident(
+  int_ref str_to_jsonStr "jsonhelper.ml" 376 10237 10241 "jsonhelper.ml" 376 10237 10255
+)
+"jsonhelper.ml" 388 10633 10668 "jsonhelper.ml" 388 10633 10674
+type(
+  string list
+)
+ident(
+  int_ref strLst "jsonhelper.ml" 387 10601 10623 "jsonhelper.ml" 387 10601 10629
+)
+"jsonhelper.ml" 388 10633 10644 "jsonhelper.ml" 388 10633 10674
+call(
+  stack
+)
+type(
+  'a list
+)
+"jsonhelper.ml" 389 10681 10683 "jsonhelper.ml" 389 10681 10705
+type(
+  ?buf:Bi_outbuf.t -> ?len:int -> ?std:bool -> Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.to_string
+)
+"jsonhelper.ml" 389 10681 10707 "jsonhelper.ml" 389 10681 10715
+type(
+  Yojson.Basic.json list -> Yojson.Basic.json
+)
+ident(
+  int_ref to_jnLst "jsonhelper.ml" 36 1184 1188 "jsonhelper.ml" 36 1184 1196
+)
+"jsonhelper.ml" 389 10681 10716 "jsonhelper.ml" 389 10681 10719
+type(
+  Yojson.Basic.json list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 388 10633 10639 "jsonhelper.ml" 388 10633 10642
+)
+"jsonhelper.ml" 389 10681 10706 "jsonhelper.ml" 389 10681 10720
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 389 10681 10683 "jsonhelper.ml" 389 10681 10720
+call(
+  tail
+)
+type(
+  string
+)
+"jsonhelper.ml" 388 10633 10635 "jsonhelper.ml" 389 10681 10720
+type(
+  string
+)
+"jsonhelper.ml" 396 10842 10846 "jsonhelper.ml" 396 10842 10863
+type(
+  string -> string list
+)
+ident(
+  def jsonStr_to_strLst "jsonhelper.ml" 405 11037 11037 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 396 10842 10864 "jsonhelper.ml" 396 10842 10871
+type(
+  string
+)
+ident(
+  def jsonStr "jsonhelper.ml" 397 10874 10876 "jsonhelper.ml" 399 10968 10997
+)
+"jsonhelper.ml" 397 10874 10880 "jsonhelper.ml" 397 10874 10887
+type(
+  Yojson.Basic.json
+)
+ident(
+  def jsonLst "jsonhelper.ml" 398 10925 10927 "jsonhelper.ml" 399 10968 10997
+)
+"jsonhelper.ml" 397 10874 10889 "jsonhelper.ml" 397 10874 10913
+type(
+  ?buf:Bi_outbuf.t ->
+  ?fname:string -> ?lnum:int -> string -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.from_string
+)
+"jsonhelper.ml" 397 10874 10914 "jsonhelper.ml" 397 10874 10921
+type(
+  string
+)
+ident(
+  int_ref jsonStr "jsonhelper.ml" 396 10842 10864 "jsonhelper.ml" 396 10842 10871
+)
+"jsonhelper.ml" 397 10874 10889 "jsonhelper.ml" 397 10874 10921
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"jsonhelper.ml" 398 10925 10931 "jsonhelper.ml" 398 10925 10934
+type(
+  Yojson.Basic.json list
+)
+ident(
+  def lst "jsonhelper.ml" 399 10968 10970 "jsonhelper.ml" 399 10968 10997
+)
+"jsonhelper.ml" 398 10925 10936 "jsonhelper.ml" 398 10925 10942
+type(
+  Yojson.Basic.json -> Yojson.Basic.json list
+)
+ident(
+  int_ref to_lst "jsonhelper.ml" 38 1213 1217 "jsonhelper.ml" 38 1213 1223
+)
+"jsonhelper.ml" 398 10925 10943 "jsonhelper.ml" 398 10925 10950
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref jsonLst "jsonhelper.ml" 397 10874 10880 "jsonhelper.ml" 397 10874 10887
+)
+"jsonhelper.ml" 398 10925 10936 "jsonhelper.ml" 398 10925 10950
+call(
+  stack
+)
+type(
+  Yojson.Basic.json list
+)
+"jsonhelper.ml" 399 10968 10970 "jsonhelper.ml" 399 10968 10978
+type(
+  (Yojson.Basic.json -> string) -> Yojson.Basic.json list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"jsonhelper.ml" 399 10968 10979 "jsonhelper.ml" 399 10968 10993
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  int_ref jsonStr_to_str "jsonhelper.ml" 378 10270 10274 "jsonhelper.ml" 378 10270 10288
+)
+"jsonhelper.ml" 399 10968 10994 "jsonhelper.ml" 399 10968 10997
+type(
+  Yojson.Basic.json list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 398 10925 10931 "jsonhelper.ml" 398 10925 10934
+)
+"jsonhelper.ml" 399 10968 10970 "jsonhelper.ml" 399 10968 10997
+call(
+  tail
+)
+type(
+  string list
+)
+"jsonhelper.ml" 398 10925 10927 "jsonhelper.ml" 399 10968 10997
+type(
+  string list
+)
+"jsonhelper.ml" 397 10874 10876 "jsonhelper.ml" 399 10968 10997
+type(
+  string list
+)
+"jsonhelper.ml" 405 11037 11045 "jsonhelper.ml" 405 11037 11054
+type(
+  string list -> unit
+)
+ident(
+  def prtStrLst "jsonhelper.ml" 405 11037 11037 "jsonhelper.ml" 1 0 -1
+)
+"jsonhelper.ml" 406 11067 11071 "jsonhelper.ml" 406 11067 11073
+type(
+  string list
+)
+"jsonhelper.ml" 406 11067 11083 "jsonhelper.ml" 406 11067 11085
+type(
+  unit
+)
+"jsonhelper.ml" 407 11086 11092 "jsonhelper.ml" 407 11086 11093
+type(
+  string
+)
+ident(
+  def e "jsonhelper.ml" 407 11086 11102 "jsonhelper.ml" 407 11086 11138
+)
+"jsonhelper.ml" 407 11086 11095 "jsonhelper.ml" 407 11086 11098
+type(
+  string list
+)
+ident(
+  def lst "jsonhelper.ml" 407 11086 11102 "jsonhelper.ml" 407 11086 11138
+)
+"jsonhelper.ml" 407 11086 11092 "jsonhelper.ml" 407 11086 11098
+type(
+  string list
+)
+"jsonhelper.ml" 407 11086 11102 "jsonhelper.ml" 407 11086 11114
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"jsonhelper.ml" 407 11086 11116 "jsonhelper.ml" 407 11086 11119
+type(
+  string
+)
+"jsonhelper.ml" 407 11086 11119 "jsonhelper.ml" 407 11086 11120
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"jsonhelper.ml" 407 11086 11120 "jsonhelper.ml" 407 11086 11121
+type(
+  string
+)
+ident(
+  int_ref e "jsonhelper.ml" 407 11086 11092 "jsonhelper.ml" 407 11086 11093
+)
+"jsonhelper.ml" 407 11086 11115 "jsonhelper.ml" 407 11086 11122
+call(
+  stack
+)
+type(
+  string
+)
+"jsonhelper.ml" 407 11086 11102 "jsonhelper.ml" 407 11086 11122
+call(
+  stack
+)
+type(
+  unit
+)
+"jsonhelper.ml" 407 11086 11125 "jsonhelper.ml" 407 11086 11134
+type(
+  string list -> unit
+)
+ident(
+  int_ref prtStrLst "jsonhelper.ml" 405 11037 11045 "jsonhelper.ml" 405 11037 11054
+)
+"jsonhelper.ml" 407 11086 11135 "jsonhelper.ml" 407 11086 11138
+type(
+  string list
+)
+ident(
+  int_ref lst "jsonhelper.ml" 407 11086 11095 "jsonhelper.ml" 407 11086 11098
+)
+"jsonhelper.ml" 407 11086 11125 "jsonhelper.ml" 407 11086 11138
+call(
+  tail
+)
+type(
+  unit
+)
+"jsonhelper.ml" 407 11086 11102 "jsonhelper.ml" 407 11086 11138
+type(
+  unit
+)
+"jsonhelper.ml" 405 11037 11057 "jsonhelper.ml" 407 11086 11138
+type(
+  string list -> unit
+)

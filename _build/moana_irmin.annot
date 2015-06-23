@@ -1,0 +1,1950 @@
+"moana_irmin.ml" 29 963 978 "moana_irmin.ml" 29 963 1028
+call(
+  stack
+)
+"moana_irmin.ml" 30 1031 1035 "moana_irmin.ml" 30 1031 1041
+type(
+  Irmin.config
+)
+ident(
+  def config "moana_irmin.ml" 32 1102 1102 "moana_irmin.ml" 1 0 -1
+)
+"moana_irmin.ml" 30 1031 1044 "moana_irmin.ml" 30 1031 1060
+type(
+  ?root:string -> ?head:Git.Reference.t -> ?bare:bool -> unit -> Irmin.config
+)
+ident(
+  ext_ref Irmin_unix.Irmin_git.config
+)
+"moana_irmin.ml" 30 1031 1067 "moana_irmin.ml" 30 1031 1084
+type(
+  string
+)
+"moana_irmin.ml" 30 1031 1091 "moana_irmin.ml" 30 1031 1095
+type(
+  bool
+)
+"moana_irmin.ml" 30 1031 1096 "moana_irmin.ml" 30 1031 1098
+type(
+  unit
+)
+"moana_irmin.ml" 30 1031 1044 "moana_irmin.ml" 30 1031 1098
+call(
+  stack
+)
+type(
+  Irmin.config
+)
+"moana_irmin.ml" 32 1102 1116 "moana_irmin.ml" 32 1102 1133
+call(
+  stack
+)
+"moana_irmin.ml" 41 1264 1272 "moana_irmin.ml" 41 1264 1281
+type(
+  View.t -> Config.tuple list Lwt.t
+)
+ident(
+  def t_of_view "moana_irmin.ml" 56 1719 1722 "moana_irmin.ml" 72 2378 2383
+)
+"moana_irmin.ml" 41 1264 1282 "moana_irmin.ml" 41 1264 1283
+type(
+  View.t
+)
+ident(
+  def v "moana_irmin.ml" 42 1286 1292 "moana_irmin.ml" 54 1664 1713
+)
+"moana_irmin.ml" 42 1286 1296 "moana_irmin.ml" 42 1286 1299
+type(
+  Config.tuple list -> int -> Config.tuple list Lwt.t
+)
+ident(
+  def aux "moana_irmin.ml" 48 1458 1466 "moana_irmin.ml" 54 1664 1713
+)
+"moana_irmin.ml" 42 1286 1300 "moana_irmin.ml" 42 1286 1303
+type(
+  Config.tuple list
+)
+ident(
+  def acc "moana_irmin.ml" 42 1286 1304 "moana_irmin.ml" 46 1389 1448
+)
+"moana_irmin.ml" 42 1286 1304 "moana_irmin.ml" 42 1286 1305
+type(
+  int
+)
+ident(
+  def i "moana_irmin.ml" 43 1308 1316 "moana_irmin.ml" 46 1389 1448
+)
+"moana_irmin.ml" 43 1308 1320 "moana_irmin.ml" 43 1308 1321
+type(
+  string
+)
+ident(
+  def i "moana_irmin.ml" 45 1351 1361 "moana_irmin.ml" 46 1389 1448
+)
+"moana_irmin.ml" 43 1308 1324 "moana_irmin.ml" 43 1308 1337
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"moana_irmin.ml" 43 1308 1338 "moana_irmin.ml" 43 1308 1339
+type(
+  int
+)
+ident(
+  int_ref i "moana_irmin.ml" 42 1286 1304 "moana_irmin.ml" 42 1286 1305
+)
+"moana_irmin.ml" 43 1308 1324 "moana_irmin.ml" 43 1308 1339
+call(
+  stack
+)
+type(
+  string
+)
+"moana_irmin.ml" 45 1351 1362 "moana_irmin.ml" 45 1351 1375
+type(
+  View.t -> View.key -> View.value Lwt.t
+)
+ident(
+  ext_ref View.read_exn
+)
+"moana_irmin.ml" 45 1351 1376 "moana_irmin.ml" 45 1351 1377
+type(
+  View.t
+)
+ident(
+  int_ref v "moana_irmin.ml" 41 1264 1282 "moana_irmin.ml" 41 1264 1283
+)
+"moana_irmin.ml" 45 1351 1380 "moana_irmin.ml" 45 1351 1381
+type(
+  string
+)
+ident(
+  int_ref i "moana_irmin.ml" 43 1308 1320 "moana_irmin.ml" 43 1308 1321
+)
+"moana_irmin.ml" 45 1351 1378 "moana_irmin.ml" 45 1351 1383
+type(
+  View.key
+)
+"moana_irmin.ml" 45 1351 1361 "moana_irmin.ml" 45 1351 1384
+call(
+  stack
+)
+type(
+  View.value Lwt.t
+)
+"moana_irmin.ml" 45 1351 1385 "moana_irmin.ml" 45 1351 1388
+type(
+  View.value Lwt.t ->
+  (View.value -> Config.tuple list Lwt.t) -> Config.tuple list Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 46 1389 1406 "moana_irmin.ml" 46 1389 1407
+type(
+  View.value
+)
+ident(
+  def x "moana_irmin.ml" 46 1389 1411 "moana_irmin.ml" 46 1389 1447
+)
+"moana_irmin.ml" 46 1389 1411 "moana_irmin.ml" 46 1389 1417
+type(
+  Config.tuple list -> Config.tuple list Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"moana_irmin.ml" 46 1389 1420 "moana_irmin.ml" 46 1389 1436
+type(
+  View.value -> Config.tuple
+)
+ident(
+  ext_ref Helper.from_json
+)
+"moana_irmin.ml" 46 1389 1437 "moana_irmin.ml" 46 1389 1438
+type(
+  View.value
+)
+ident(
+  int_ref x "moana_irmin.ml" 46 1389 1406 "moana_irmin.ml" 46 1389 1407
+)
+"moana_irmin.ml" 46 1389 1419 "moana_irmin.ml" 46 1389 1439
+call(
+  stack
+)
+type(
+  Config.tuple
+)
+"moana_irmin.ml" 46 1389 1443 "moana_irmin.ml" 46 1389 1446
+type(
+  Config.tuple list
+)
+ident(
+  int_ref acc "moana_irmin.ml" 42 1286 1300 "moana_irmin.ml" 42 1286 1303
+)
+"moana_irmin.ml" 46 1389 1418 "moana_irmin.ml" 46 1389 1447
+type(
+  Config.tuple list
+)
+"moana_irmin.ml" 46 1389 1411 "moana_irmin.ml" 46 1389 1447
+call(
+  tail
+)
+type(
+  Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 46 1389 1401 "moana_irmin.ml" 46 1389 1448
+type(
+  View.value -> Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 45 1351 1361 "moana_irmin.ml" 46 1389 1448
+call(
+  tail
+)
+type(
+  Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 43 1308 1316 "moana_irmin.ml" 46 1389 1448
+type(
+  Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 48 1458 1467 "moana_irmin.ml" 48 1458 1476
+type(
+  View.t -> View.key -> View.key list Lwt.t
+)
+ident(
+  ext_ref View.list
+)
+"moana_irmin.ml" 48 1458 1477 "moana_irmin.ml" 48 1458 1478
+type(
+  View.t
+)
+ident(
+  int_ref v "moana_irmin.ml" 41 1264 1282 "moana_irmin.ml" 41 1264 1283
+)
+"moana_irmin.ml" 48 1458 1479 "moana_irmin.ml" 48 1458 1481
+type(
+  View.key
+)
+"moana_irmin.ml" 48 1458 1466 "moana_irmin.ml" 48 1458 1482
+call(
+  stack
+)
+type(
+  View.key list Lwt.t
+)
+"moana_irmin.ml" 48 1458 1483 "moana_irmin.ml" 48 1458 1486
+type(
+  View.key list Lwt.t ->
+  (View.key list -> Config.tuple list Lwt.t) -> Config.tuple list Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 49 1488 1503 "moana_irmin.ml" 49 1488 1511
+type(
+  View.key list
+)
+ident(
+  def key_list "moana_irmin.ml" 50 1515 1528 "moana_irmin.ml" 54 1664 1712
+)
+"moana_irmin.ml" 50 1515 1532 "moana_irmin.ml" 50 1515 1536
+type(
+  int list
+)
+ident(
+  def keys "moana_irmin.ml" 54 1664 1680 "moana_irmin.ml" 54 1664 1712
+)
+"moana_irmin.ml" 51 1539 1554 "moana_irmin.ml" 51 1539 1562
+type(
+  (View.key -> int) -> View.key list -> int list
+)
+ident(
+  ext_ref List.map
+)
+"moana_irmin.ml" 52 1563 1594 "moana_irmin.ml" 52 1563 1595
+type(
+  string
+)
+ident(
+  def i "moana_irmin.ml" 52 1563 1601 "moana_irmin.ml" 52 1563 1616
+)
+"moana_irmin.ml" 52 1563 1592 "moana_irmin.ml" 52 1563 1597
+type(
+  View.key
+)
+"moana_irmin.ml" 52 1563 1601 "moana_irmin.ml" 52 1563 1614
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"moana_irmin.ml" 52 1563 1615 "moana_irmin.ml" 52 1563 1616
+type(
+  string
+)
+ident(
+  int_ref i "moana_irmin.ml" 52 1563 1594 "moana_irmin.ml" 52 1563 1595
+)
+"moana_irmin.ml" 52 1563 1601 "moana_irmin.ml" 52 1563 1616
+type(
+  int
+)
+"moana_irmin.ml" 52 1563 1619 "moana_irmin.ml" 52 1563 1620
+type(
+  View.key
+)
+"moana_irmin.ml" 52 1563 1631 "moana_irmin.ml" 52 1563 1636
+type(
+  bool
+)
+"moana_irmin.ml" 52 1563 1624 "moana_irmin.ml" 52 1563 1636
+type(
+  int
+)
+"moana_irmin.ml" 52 1563 1580 "moana_irmin.ml" 52 1563 1637
+type(
+  View.key -> int
+)
+"moana_irmin.ml" 53 1638 1655 "moana_irmin.ml" 53 1638 1663
+type(
+  View.key list
+)
+ident(
+  int_ref key_list "moana_irmin.ml" 49 1488 1503 "moana_irmin.ml" 49 1488 1511
+)
+"moana_irmin.ml" 51 1539 1554 "moana_irmin.ml" 53 1638 1663
+call(
+  stack
+)
+type(
+  int list
+)
+"moana_irmin.ml" 54 1664 1680 "moana_irmin.ml" 54 1664 1700
+type(
+  (Config.tuple list -> int -> Config.tuple list Lwt.t) ->
+  Config.tuple list -> int list -> Config.tuple list Lwt.t
+)
+ident(
+  ext_ref Lwt_list.fold_left_s
+)
+"moana_irmin.ml" 54 1664 1701 "moana_irmin.ml" 54 1664 1704
+type(
+  Config.tuple list -> int -> Config.tuple list Lwt.t
+)
+ident(
+  int_ref aux "moana_irmin.ml" 42 1286 1296 "moana_irmin.ml" 42 1286 1299
+)
+"moana_irmin.ml" 54 1664 1705 "moana_irmin.ml" 54 1664 1707
+type(
+  Config.tuple list
+)
+"moana_irmin.ml" 54 1664 1708 "moana_irmin.ml" 54 1664 1712
+type(
+  int list
+)
+ident(
+  int_ref keys "moana_irmin.ml" 50 1515 1532 "moana_irmin.ml" 50 1515 1536
+)
+"moana_irmin.ml" 54 1664 1680 "moana_irmin.ml" 54 1664 1712
+call(
+  tail
+)
+type(
+  Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 50 1515 1528 "moana_irmin.ml" 54 1664 1712
+type(
+  Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 49 1488 1498 "moana_irmin.ml" 54 1664 1713
+type(
+  View.key list -> Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 48 1458 1466 "moana_irmin.ml" 54 1664 1713
+call(
+  tail
+)
+type(
+  Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 42 1286 1292 "moana_irmin.ml" 54 1664 1713
+type(
+  Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 56 1719 1726 "moana_irmin.ml" 56 1719 1729
+type(
+  (string -> 'a) -> ('b, unit, string, 'a) format4 -> 'b
+)
+ident(
+  def fmt "moana_irmin.ml" 58 1817 1821 "moana_irmin.ml" 72 2378 2383
+)
+"moana_irmin.ml" 56 1719 1730 "moana_irmin.ml" 56 1719 1731
+type(
+  string -> 'a
+)
+ident(
+  def t "moana_irmin.ml" 56 1719 1732 "moana_irmin.ml" 56 1719 1772
+)
+"moana_irmin.ml" 56 1719 1732 "moana_irmin.ml" 56 1719 1733
+type(
+  ('b, unit, string, 'a) format4
+)
+ident(
+  def x "moana_irmin.ml" 56 1719 1736 "moana_irmin.ml" 56 1719 1772
+)
+"moana_irmin.ml" 56 1719 1736 "moana_irmin.ml" 56 1719 1751
+type(
+  (string -> 'a) -> ('b, unit, string, 'a) format4 -> 'b
+)
+ident(
+  ext_ref Printf.ksprintf
+)
+"moana_irmin.ml" 56 1719 1757 "moana_irmin.ml" 56 1719 1760
+type(
+  string
+)
+ident(
+  def str "moana_irmin.ml" 56 1719 1764 "moana_irmin.ml" 56 1719 1769
+)
+"moana_irmin.ml" 56 1719 1764 "moana_irmin.ml" 56 1719 1765
+type(
+  string -> 'a
+)
+ident(
+  int_ref t "moana_irmin.ml" 56 1719 1730 "moana_irmin.ml" 56 1719 1731
+)
+"moana_irmin.ml" 56 1719 1766 "moana_irmin.ml" 56 1719 1769
+type(
+  string
+)
+ident(
+  int_ref str "moana_irmin.ml" 56 1719 1757 "moana_irmin.ml" 56 1719 1760
+)
+"moana_irmin.ml" 56 1719 1764 "moana_irmin.ml" 56 1719 1769
+call(
+  tail
+)
+type(
+  'a
+)
+"moana_irmin.ml" 56 1719 1752 "moana_irmin.ml" 56 1719 1770
+type(
+  string -> 'a
+)
+"moana_irmin.ml" 56 1719 1771 "moana_irmin.ml" 56 1719 1772
+type(
+  ('b, unit, string, 'a) format4
+)
+ident(
+  int_ref x "moana_irmin.ml" 56 1719 1732 "moana_irmin.ml" 56 1719 1733
+)
+"moana_irmin.ml" 56 1719 1736 "moana_irmin.ml" 56 1719 1772
+call(
+  tail
+)
+type(
+  'b
+)
+"moana_irmin.ml" 58 1817 1825 "moana_irmin.ml" 58 1817 1834
+type(
+  Config.tuple list -> View.t Lwt.t
+)
+ident(
+  def view_of_t "moana_irmin.ml" 70 2346 2370 "moana_irmin.ml" 72 2378 2383
+)
+"moana_irmin.ml" 58 1817 1835 "moana_irmin.ml" 58 1817 1841
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "moana_irmin.ml" 59 1844 1851 "moana_irmin.ml" 70 2346 2370
+)
+"moana_irmin.ml" 59 1844 1851 "moana_irmin.ml" 59 1844 1861
+type(
+  unit -> View.t Lwt.t
+)
+ident(
+  ext_ref View.empty
+)
+"moana_irmin.ml" 59 1844 1861 "moana_irmin.ml" 59 1844 1863
+type(
+  unit
+)
+"moana_irmin.ml" 59 1844 1851 "moana_irmin.ml" 59 1844 1863
+call(
+  stack
+)
+type(
+  View.t Lwt.t
+)
+"moana_irmin.ml" 59 1844 1864 "moana_irmin.ml" 59 1844 1867
+type(
+  View.t Lwt.t -> (View.t -> View.t Lwt.t) -> View.t Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 60 1869 1881 "moana_irmin.ml" 60 1869 1882
+type(
+  View.t
+)
+ident(
+  def v "moana_irmin.ml" 61 1886 1897 "moana_irmin.ml" 70 2346 2370
+)
+"moana_irmin.ml" 61 1886 1897 "moana_irmin.ml" 61 1886 1913
+type(
+  (int -> Config.tuple -> unit Lwt.t) -> Config.tuple list -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_list.iteri_s
+)
+"moana_irmin.ml" 62 1914 1933 "moana_irmin.ml" 62 1914 1934
+type(
+  int
+)
+ident(
+  def i "moana_irmin.ml" 62 1914 1935 "moana_irmin.ml" 67 2164 2250
+)
+"moana_irmin.ml" 62 1914 1935 "moana_irmin.ml" 62 1914 1940
+type(
+  Config.tuple
+)
+ident(
+  def tuple "moana_irmin.ml" 63 1944 1961 "moana_irmin.ml" 67 2164 2250
+)
+"moana_irmin.ml" 63 1944 1965 "moana_irmin.ml" 63 1944 1966
+type(
+  string
+)
+ident(
+  def i "moana_irmin.ml" 67 2164 2183 "moana_irmin.ml" 67 2164 2250
+)
+"moana_irmin.ml" 63 1944 1969 "moana_irmin.ml" 63 1944 1982
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"moana_irmin.ml" 63 1944 1983 "moana_irmin.ml" 63 1944 1984
+type(
+  int
+)
+ident(
+  int_ref i "moana_irmin.ml" 62 1914 1933 "moana_irmin.ml" 62 1914 1934
+)
+"moana_irmin.ml" 63 1944 1969 "moana_irmin.ml" 63 1944 1984
+call(
+  stack
+)
+type(
+  string
+)
+"moana_irmin.ml" 67 2164 2183 "moana_irmin.ml" 67 2164 2194
+type(
+  View.t -> View.key -> View.value -> unit Lwt.t
+)
+ident(
+  ext_ref View.update
+)
+"moana_irmin.ml" 67 2164 2195 "moana_irmin.ml" 67 2164 2196
+type(
+  View.t
+)
+ident(
+  int_ref v "moana_irmin.ml" 60 1869 1881 "moana_irmin.ml" 60 1869 1882
+)
+"moana_irmin.ml" 67 2164 2199 "moana_irmin.ml" 67 2164 2200
+type(
+  string
+)
+ident(
+  int_ref i "moana_irmin.ml" 63 1944 1965 "moana_irmin.ml" 63 1944 1966
+)
+"moana_irmin.ml" 67 2164 2197 "moana_irmin.ml" 67 2164 2202
+type(
+  View.key
+)
+"moana_irmin.ml" 67 2164 2204 "moana_irmin.ml" 67 2164 2226
+type(
+  ?buf:Bi_outbuf.t ->
+  ?len:int -> ?std:bool -> Yojson.Basic.json -> View.value
+)
+ident(
+  ext_ref Yojson.Basic.to_string
+)
+"moana_irmin.ml" 67 2164 2228 "moana_irmin.ml" 67 2164 2242
+type(
+  Config.tuple -> Yojson.Basic.json
+)
+ident(
+  ext_ref Helper.to_json
+)
+"moana_irmin.ml" 67 2164 2243 "moana_irmin.ml" 67 2164 2248
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "moana_irmin.ml" 62 1914 1935 "moana_irmin.ml" 62 1914 1940
+)
+"moana_irmin.ml" 67 2164 2227 "moana_irmin.ml" 67 2164 2249
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"moana_irmin.ml" 67 2164 2203 "moana_irmin.ml" 67 2164 2250
+call(
+  stack
+)
+type(
+  View.value
+)
+"moana_irmin.ml" 67 2164 2183 "moana_irmin.ml" 67 2164 2250
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"moana_irmin.ml" 63 1944 1961 "moana_irmin.ml" 67 2164 2250
+type(
+  unit Lwt.t
+)
+"moana_irmin.ml" 62 1914 1928 "moana_irmin.ml" 67 2164 2251
+type(
+  int -> Config.tuple -> unit Lwt.t
+)
+"moana_irmin.ml" 67 2164 2252 "moana_irmin.ml" 67 2164 2258
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "moana_irmin.ml" 58 1817 1835 "moana_irmin.ml" 58 1817 1841
+)
+"moana_irmin.ml" 61 1886 1897 "moana_irmin.ml" 67 2164 2258
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"moana_irmin.ml" 68 2259 2272 "moana_irmin.ml" 68 2259 2275
+type(
+  unit Lwt.t -> (unit -> View.t Lwt.t) -> View.t Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 69 2276 2293 "moana_irmin.ml" 69 2276 2295
+type(
+  unit
+)
+"moana_irmin.ml" 70 2346 2362 "moana_irmin.ml" 70 2346 2368
+type(
+  View.t -> View.t Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"moana_irmin.ml" 70 2346 2369 "moana_irmin.ml" 70 2346 2370
+type(
+  View.t
+)
+ident(
+  int_ref v "moana_irmin.ml" 60 1869 1881 "moana_irmin.ml" 60 1869 1882
+)
+"moana_irmin.ml" 70 2346 2362 "moana_irmin.ml" 70 2346 2370
+call(
+  tail
+)
+type(
+  View.t Lwt.t
+)
+"moana_irmin.ml" 69 2276 2289 "moana_irmin.ml" 70 2346 2370
+type(
+  unit -> View.t Lwt.t
+)
+"moana_irmin.ml" 61 1886 1897 "moana_irmin.ml" 70 2346 2370
+call(
+  tail
+)
+type(
+  View.t Lwt.t
+)
+"moana_irmin.ml" 60 1869 1877 "moana_irmin.ml" 70 2346 2370
+type(
+  View.t -> View.t Lwt.t
+)
+"moana_irmin.ml" 59 1844 1851 "moana_irmin.ml" 70 2346 2370
+call(
+  tail
+)
+type(
+  View.t Lwt.t
+)
+"moana_irmin.ml" 80 2467 2475 "moana_irmin.ml" 80 2467 2479
+type(
+  string
+)
+ident(
+  def name "moana_irmin.ml" 82 2502 2506 "moana_irmin.ml" 122 4069 4074
+)
+"moana_irmin.ml" 80 2467 2482 "moana_irmin.ml" 80 2467 2494
+type(
+  string
+)
+"moana_irmin.ml" 82 2502 2510 "moana_irmin.ml" 82 2502 2515
+type(
+  Store.t
+)
+ident(
+  def empty "moana_irmin.ml" 84 2596 2600 "moana_irmin.ml" 122 4069 4074
+)
+"moana_irmin.ml" 82 2502 2518 "moana_irmin.ml" 82 2502 2530
+type(
+  Store.t Lwt.t -> Store.t
+)
+ident(
+  ext_ref Lwt_unix.run
+)
+"moana_irmin.ml" 82 2502 2531 "moana_irmin.ml" 82 2502 2543
+type(
+  Irmin.config -> (string -> Irmin.task) -> (string -> Store.t) Lwt.t
+)
+ident(
+  ext_ref Store.create
+)
+"moana_irmin.ml" 82 2502 2544 "moana_irmin.ml" 82 2502 2550
+type(
+  Irmin.config
+)
+ident(
+  int_ref config "moana_irmin.ml" 30 1031 1035 "moana_irmin.ml" 30 1031 1041
+)
+"moana_irmin.ml" 82 2502 2551 "moana_irmin.ml" 82 2502 2555
+type(
+  string -> Irmin.task
+)
+ident(
+  ext_ref Irmin_unix.task
+)
+"moana_irmin.ml" 82 2502 2531 "moana_irmin.ml" 82 2502 2555
+call(
+  stack
+)
+type(
+  (string -> Store.t) Lwt.t
+)
+"moana_irmin.ml" 82 2502 2556 "moana_irmin.ml" 82 2502 2559
+type(
+  (string -> Store.t) Lwt.t ->
+  ((string -> Store.t) -> Store.t Lwt.t) -> Store.t Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 82 2502 2565 "moana_irmin.ml" 82 2502 2566
+type(
+  string -> Store.t
+)
+ident(
+  def v "moana_irmin.ml" 82 2502 2570 "moana_irmin.ml" 82 2502 2585
+)
+"moana_irmin.ml" 82 2502 2570 "moana_irmin.ml" 82 2502 2576
+type(
+  Store.t -> Store.t Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"moana_irmin.ml" 82 2502 2578 "moana_irmin.ml" 82 2502 2579
+type(
+  string -> Store.t
+)
+ident(
+  int_ref v "moana_irmin.ml" 82 2502 2565 "moana_irmin.ml" 82 2502 2566
+)
+"moana_irmin.ml" 82 2502 2580 "moana_irmin.ml" 82 2502 2584
+type(
+  string
+)
+"moana_irmin.ml" 82 2502 2577 "moana_irmin.ml" 82 2502 2585
+call(
+  stack
+)
+type(
+  Store.t
+)
+"moana_irmin.ml" 82 2502 2570 "moana_irmin.ml" 82 2502 2585
+call(
+  tail
+)
+type(
+  Store.t Lwt.t
+)
+"moana_irmin.ml" 82 2502 2560 "moana_irmin.ml" 82 2502 2587
+type(
+  (string -> Store.t) -> Store.t Lwt.t
+)
+"moana_irmin.ml" 82 2502 2530 "moana_irmin.ml" 82 2502 2588
+call(
+  stack
+)
+type(
+  Store.t Lwt.t
+)
+"moana_irmin.ml" 82 2502 2518 "moana_irmin.ml" 82 2502 2588
+call(
+  stack
+)
+type(
+  Store.t
+)
+"moana_irmin.ml" 84 2596 2604 "moana_irmin.ml" 84 2596 2608
+type(
+  ?query:Config.tuple list -> Config.tuple list -> Store.t
+)
+ident(
+  def init "moana_irmin.ml" 97 3156 3160 "moana_irmin.ml" 122 4069 4074
+)
+"moana_irmin.ml" 84 2596 2611 "moana_irmin.ml" 84 2596 2616
+type(
+  Config.tuple list
+)
+"moana_irmin.ml" 84 2596 2628 "moana_irmin.ml" 84 2596 2630
+type(
+  Config.tuple list
+)
+type(
+  Config.tuple list
+)
+ident(
+  int_ref *sth* "moana_irmin.ml" 84 2596 2628 "moana_irmin.ml" 84 2596 2630
+)
+type(
+  Config.tuple list option
+)
+type(
+  Config.tuple list option
+)
+type(
+  Config.tuple list
+)
+"moana_irmin.ml" 84 2596 2632 "moana_irmin.ml" 84 2596 2638
+type(
+  Config.tuple list
+)
+ident(
+  def tuples "moana_irmin.ml" 85 2641 2647 "moana_irmin.ml" 94 3064 3108
+)
+"moana_irmin.ml" 85 2641 2647 "moana_irmin.ml" 85 2641 2659
+type(
+  Store.t Lwt.t -> Store.t
+)
+ident(
+  ext_ref Lwt_unix.run
+)
+"moana_irmin.ml" 86 2660 2669 "moana_irmin.ml" 86 2660 2681
+type(
+  Irmin.config -> (string -> Irmin.task) -> (string -> Store.t) Lwt.t
+)
+ident(
+  ext_ref Store.create
+)
+"moana_irmin.ml" 86 2660 2682 "moana_irmin.ml" 86 2660 2688
+type(
+  Irmin.config
+)
+ident(
+  int_ref config "moana_irmin.ml" 30 1031 1035 "moana_irmin.ml" 30 1031 1041
+)
+"moana_irmin.ml" 86 2660 2689 "moana_irmin.ml" 86 2660 2693
+type(
+  string -> Irmin.task
+)
+ident(
+  ext_ref Irmin_unix.task
+)
+"moana_irmin.ml" 86 2660 2669 "moana_irmin.ml" 86 2660 2693
+call(
+  stack
+)
+type(
+  (string -> Store.t) Lwt.t
+)
+"moana_irmin.ml" 86 2660 2694 "moana_irmin.ml" 86 2660 2697
+type(
+  (string -> Store.t) Lwt.t ->
+  ((string -> Store.t) -> Store.t Lwt.t) -> Store.t Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 87 2698 2714 "moana_irmin.ml" 87 2698 2715
+type(
+  string -> Store.t
+)
+ident(
+  def t "moana_irmin.ml" 88 2719 2733 "moana_irmin.ml" 94 3064 3106
+)
+"moana_irmin.ml" 88 2719 2734 "moana_irmin.ml" 88 2719 2753
+type(
+  Config.tuple list -> View.t Lwt.t
+)
+ident(
+  int_ref TupleView.view_of_t "moana_irmin.ml" 58 1817 1825 "moana_irmin.ml" 58 1817 1834
+)
+"moana_irmin.ml" 88 2719 2754 "moana_irmin.ml" 88 2719 2760
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuples "moana_irmin.ml" 84 2596 2632 "moana_irmin.ml" 84 2596 2638
+)
+"moana_irmin.ml" 88 2719 2733 "moana_irmin.ml" 88 2719 2761
+call(
+  stack
+)
+type(
+  View.t Lwt.t
+)
+"moana_irmin.ml" 88 2719 2762 "moana_irmin.ml" 88 2719 2765
+type(
+  View.t Lwt.t -> (View.t -> Store.t Lwt.t) -> Store.t Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 89 2766 2787 "moana_irmin.ml" 89 2766 2791
+type(
+  View.t
+)
+ident(
+  def view "moana_irmin.ml" 90 2795 2814 "moana_irmin.ml" 94 3064 3105
+)
+"moana_irmin.ml" 90 2795 2815 "moana_irmin.ml" 90 2795 2831
+type(
+  View.db -> View.key -> View.t -> unit Lwt.t
+)
+ident(
+  ext_ref View.update_path
+)
+"moana_irmin.ml" 90 2795 2833 "moana_irmin.ml" 90 2795 2834
+type(
+  string -> Store.t
+)
+ident(
+  int_ref t "moana_irmin.ml" 87 2698 2714 "moana_irmin.ml" 87 2698 2715
+)
+"moana_irmin.ml" 90 2795 2835 "moana_irmin.ml" 90 2795 2850
+type(
+  string
+)
+"moana_irmin.ml" 90 2795 2832 "moana_irmin.ml" 90 2795 2851
+call(
+  stack
+)
+type(
+  Store.t
+)
+"moana_irmin.ml" 90 2795 2855 "moana_irmin.ml" 90 2795 2863
+type(
+  string
+)
+"moana_irmin.ml" 90 2795 2853 "moana_irmin.ml" 90 2795 2865
+type(
+  View.key
+)
+"moana_irmin.ml" 90 2795 2866 "moana_irmin.ml" 90 2795 2870
+type(
+  View.t
+)
+ident(
+  int_ref view "moana_irmin.ml" 89 2766 2787 "moana_irmin.ml" 89 2766 2791
+)
+"moana_irmin.ml" 90 2795 2814 "moana_irmin.ml" 90 2795 2871
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"moana_irmin.ml" 90 2795 2872 "moana_irmin.ml" 90 2795 2875
+type(
+  unit Lwt.t -> (unit -> Store.t Lwt.t) -> Store.t Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 91 2876 2902 "moana_irmin.ml" 91 2876 2904
+type(
+  unit
+)
+"moana_irmin.ml" 94 3064 3089 "moana_irmin.ml" 94 3064 3095
+type(
+  Store.t -> Store.t Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"moana_irmin.ml" 94 3064 3097 "moana_irmin.ml" 94 3064 3098
+type(
+  string -> Store.t
+)
+ident(
+  int_ref t "moana_irmin.ml" 87 2698 2714 "moana_irmin.ml" 87 2698 2715
+)
+"moana_irmin.ml" 94 3064 3099 "moana_irmin.ml" 94 3064 3103
+type(
+  string
+)
+"moana_irmin.ml" 94 3064 3096 "moana_irmin.ml" 94 3064 3104
+call(
+  stack
+)
+type(
+  Store.t
+)
+"moana_irmin.ml" 94 3064 3089 "moana_irmin.ml" 94 3064 3104
+call(
+  tail
+)
+type(
+  Store.t Lwt.t
+)
+"moana_irmin.ml" 91 2876 2897 "moana_irmin.ml" 94 3064 3105
+type(
+  unit -> Store.t Lwt.t
+)
+"moana_irmin.ml" 90 2795 2814 "moana_irmin.ml" 94 3064 3105
+call(
+  tail
+)
+type(
+  Store.t Lwt.t
+)
+"moana_irmin.ml" 89 2766 2782 "moana_irmin.ml" 94 3064 3106
+type(
+  View.t -> Store.t Lwt.t
+)
+"moana_irmin.ml" 88 2719 2733 "moana_irmin.ml" 94 3064 3106
+call(
+  tail
+)
+type(
+  Store.t Lwt.t
+)
+"moana_irmin.ml" 87 2698 2709 "moana_irmin.ml" 94 3064 3107
+type(
+  (string -> Store.t) -> Store.t Lwt.t
+)
+"moana_irmin.ml" 86 2660 2668 "moana_irmin.ml" 94 3064 3108
+call(
+  stack
+)
+type(
+  Store.t Lwt.t
+)
+"moana_irmin.ml" 85 2641 2647 "moana_irmin.ml" 94 3064 3108
+call(
+  tail
+)
+type(
+  Store.t
+)
+"moana_irmin.ml" 97 3156 3164 "moana_irmin.ml" 97 3156 3167
+type(
+  View.db -> Config.tuple -> View.db
+)
+ident(
+  def add "moana_irmin.ml" 110 3677 3681 "moana_irmin.ml" 122 4069 4074
+)
+"moana_irmin.ml" 97 3156 3168 "moana_irmin.ml" 97 3156 3175
+type(
+  View.db
+)
+ident(
+  def storage "moana_irmin.ml" 97 3156 3176 "moana_irmin.ml" 108 3604 3669
+)
+"moana_irmin.ml" 97 3156 3176 "moana_irmin.ml" 97 3156 3181
+type(
+  Config.tuple
+)
+ident(
+  def tuple "moana_irmin.ml" 98 3184 3190 "moana_irmin.ml" 108 3604 3669
+)
+"moana_irmin.ml" 98 3184 3190 "moana_irmin.ml" 98 3184 3202
+type(
+  View.db Lwt.t -> View.db
+)
+ident(
+  ext_ref Lwt_unix.run
+)
+"moana_irmin.ml" 99 3203 3212 "moana_irmin.ml" 99 3203 3224
+type(
+  View.db -> View.key -> View.t Lwt.t
+)
+ident(
+  ext_ref View.of_path
+)
+"moana_irmin.ml" 99 3203 3225 "moana_irmin.ml" 99 3203 3232
+type(
+  View.db
+)
+ident(
+  int_ref storage "moana_irmin.ml" 97 3156 3168 "moana_irmin.ml" 97 3156 3175
+)
+"moana_irmin.ml" 99 3203 3235 "moana_irmin.ml" 99 3203 3243
+type(
+  string
+)
+"moana_irmin.ml" 99 3203 3233 "moana_irmin.ml" 99 3203 3245
+type(
+  View.key
+)
+"moana_irmin.ml" 99 3203 3212 "moana_irmin.ml" 99 3203 3245
+call(
+  stack
+)
+type(
+  View.t Lwt.t
+)
+"moana_irmin.ml" 99 3203 3246 "moana_irmin.ml" 99 3203 3249
+type(
+  View.t Lwt.t -> (View.t -> View.db Lwt.t) -> View.db Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 100 3250 3265 "moana_irmin.ml" 100 3250 3266
+type(
+  View.t
+)
+ident(
+  def v "moana_irmin.ml" 101 3269 3283 "moana_irmin.ml" 108 3604 3668
+)
+"moana_irmin.ml" 101 3269 3283 "moana_irmin.ml" 101 3269 3302
+type(
+  View.t -> Config.tuple list Lwt.t
+)
+ident(
+  int_ref TupleView.t_of_view "moana_irmin.ml" 41 1264 1272 "moana_irmin.ml" 41 1264 1281
+)
+"moana_irmin.ml" 101 3269 3303 "moana_irmin.ml" 101 3269 3304
+type(
+  View.t
+)
+ident(
+  int_ref v "moana_irmin.ml" 100 3250 3265 "moana_irmin.ml" 100 3250 3266
+)
+"moana_irmin.ml" 101 3269 3283 "moana_irmin.ml" 101 3269 3304
+call(
+  stack
+)
+type(
+  Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 101 3269 3306 "moana_irmin.ml" 101 3269 3309
+type(
+  Config.tuple list Lwt.t ->
+  (Config.tuple list -> View.db Lwt.t) -> View.db Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 102 3310 3330 "moana_irmin.ml" 102 3310 3334
+type(
+  Config.tuple list
+)
+ident(
+  def list "moana_irmin.ml" 103 3338 3357 "moana_irmin.ml" 108 3604 3668
+)
+"moana_irmin.ml" 103 3338 3358 "moana_irmin.ml" 103 3338 3364
+type(
+  Config.tuple list -> Config.tuple list Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"moana_irmin.ml" 103 3338 3366 "moana_irmin.ml" 103 3338 3371
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "moana_irmin.ml" 97 3156 3176 "moana_irmin.ml" 97 3156 3181
+)
+"moana_irmin.ml" 103 3338 3375 "moana_irmin.ml" 103 3338 3379
+type(
+  Config.tuple list
+)
+ident(
+  int_ref list "moana_irmin.ml" 102 3310 3330 "moana_irmin.ml" 102 3310 3334
+)
+"moana_irmin.ml" 103 3338 3365 "moana_irmin.ml" 103 3338 3380
+type(
+  Config.tuple list
+)
+"moana_irmin.ml" 103 3338 3357 "moana_irmin.ml" 103 3338 3381
+call(
+  stack
+)
+type(
+  Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 103 3338 3382 "moana_irmin.ml" 103 3338 3385
+type(
+  Config.tuple list Lwt.t ->
+  (Config.tuple list -> View.db Lwt.t) -> View.db Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 104 3386 3412 "moana_irmin.ml" 104 3386 3420
+type(
+  Config.tuple list
+)
+ident(
+  def new_list "moana_irmin.ml" 105 3424 3448 "moana_irmin.ml" 108 3604 3667
+)
+"moana_irmin.ml" 105 3424 3449 "moana_irmin.ml" 105 3424 3468
+type(
+  Config.tuple list -> View.t Lwt.t
+)
+ident(
+  int_ref TupleView.view_of_t "moana_irmin.ml" 58 1817 1825 "moana_irmin.ml" 58 1817 1834
+)
+"moana_irmin.ml" 105 3424 3469 "moana_irmin.ml" 105 3424 3477
+type(
+  Config.tuple list
+)
+ident(
+  int_ref new_list "moana_irmin.ml" 104 3386 3412 "moana_irmin.ml" 104 3386 3420
+)
+"moana_irmin.ml" 105 3424 3448 "moana_irmin.ml" 105 3424 3478
+call(
+  stack
+)
+type(
+  View.t Lwt.t
+)
+"moana_irmin.ml" 105 3424 3479 "moana_irmin.ml" 105 3424 3482
+type(
+  View.t Lwt.t -> (View.t -> View.db Lwt.t) -> View.db Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 106 3483 3514 "moana_irmin.ml" 106 3483 3522
+type(
+  View.t
+)
+ident(
+  def new_view "moana_irmin.ml" 107 3526 3555 "moana_irmin.ml" 108 3604 3666
+)
+"moana_irmin.ml" 107 3526 3556 "moana_irmin.ml" 107 3526 3572
+type(
+  View.db -> View.key -> View.t -> unit Lwt.t
+)
+ident(
+  ext_ref View.update_path
+)
+"moana_irmin.ml" 107 3526 3573 "moana_irmin.ml" 107 3526 3580
+type(
+  View.db
+)
+ident(
+  int_ref storage "moana_irmin.ml" 97 3156 3168 "moana_irmin.ml" 97 3156 3175
+)
+"moana_irmin.ml" 107 3526 3583 "moana_irmin.ml" 107 3526 3591
+type(
+  string
+)
+"moana_irmin.ml" 107 3526 3581 "moana_irmin.ml" 107 3526 3593
+type(
+  View.key
+)
+"moana_irmin.ml" 107 3526 3594 "moana_irmin.ml" 107 3526 3602
+type(
+  View.t
+)
+ident(
+  int_ref new_view "moana_irmin.ml" 106 3483 3514 "moana_irmin.ml" 106 3483 3522
+)
+"moana_irmin.ml" 107 3526 3555 "moana_irmin.ml" 107 3526 3603
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"moana_irmin.ml" 108 3604 3635 "moana_irmin.ml" 108 3604 3638
+type(
+  unit Lwt.t -> (unit -> View.db Lwt.t) -> View.db Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 108 3604 3644 "moana_irmin.ml" 108 3604 3646
+type(
+  unit
+)
+"moana_irmin.ml" 108 3604 3650 "moana_irmin.ml" 108 3604 3656
+type(
+  View.db -> View.db Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"moana_irmin.ml" 108 3604 3657 "moana_irmin.ml" 108 3604 3664
+type(
+  View.db
+)
+ident(
+  int_ref storage "moana_irmin.ml" 97 3156 3168 "moana_irmin.ml" 97 3156 3175
+)
+"moana_irmin.ml" 108 3604 3650 "moana_irmin.ml" 108 3604 3664
+call(
+  tail
+)
+type(
+  View.db Lwt.t
+)
+"moana_irmin.ml" 108 3604 3639 "moana_irmin.ml" 108 3604 3666
+type(
+  unit -> View.db Lwt.t
+)
+"moana_irmin.ml" 107 3526 3555 "moana_irmin.ml" 108 3604 3666
+call(
+  tail
+)
+type(
+  View.db Lwt.t
+)
+"moana_irmin.ml" 106 3483 3509 "moana_irmin.ml" 108 3604 3667
+type(
+  View.t -> View.db Lwt.t
+)
+"moana_irmin.ml" 105 3424 3448 "moana_irmin.ml" 108 3604 3667
+call(
+  tail
+)
+type(
+  View.db Lwt.t
+)
+"moana_irmin.ml" 104 3386 3407 "moana_irmin.ml" 108 3604 3668
+type(
+  Config.tuple list -> View.db Lwt.t
+)
+"moana_irmin.ml" 103 3338 3357 "moana_irmin.ml" 108 3604 3668
+call(
+  tail
+)
+type(
+  View.db Lwt.t
+)
+"moana_irmin.ml" 102 3310 3326 "moana_irmin.ml" 108 3604 3668
+type(
+  Config.tuple list -> View.db Lwt.t
+)
+"moana_irmin.ml" 101 3269 3283 "moana_irmin.ml" 108 3604 3668
+call(
+  tail
+)
+type(
+  View.db Lwt.t
+)
+"moana_irmin.ml" 100 3250 3261 "moana_irmin.ml" 108 3604 3668
+type(
+  View.t -> View.db Lwt.t
+)
+"moana_irmin.ml" 99 3203 3211 "moana_irmin.ml" 108 3604 3669
+call(
+  stack
+)
+type(
+  View.db Lwt.t
+)
+"moana_irmin.ml" 98 3184 3190 "moana_irmin.ml" 108 3604 3669
+call(
+  tail
+)
+type(
+  View.db
+)
+"moana_irmin.ml" 110 3677 3685 "moana_irmin.ml" 110 3677 3690
+type(
+  t -> Config.tuple list -> Config.tuple list list
+)
+ident(
+  def query "moana_irmin.ml" 117 3934 3938 "moana_irmin.ml" 122 4069 4074
+)
+"moana_irmin.ml" 110 3677 3692 "moana_irmin.ml" 110 3677 3697
+type(
+  t
+)
+ident(
+  def store "moana_irmin.ml" 110 3677 3703 "moana_irmin.ml" 115 3858 3926
+)
+"moana_irmin.ml" 110 3677 3704 "moana_irmin.ml" 110 3677 3705
+type(
+  Config.tuple list
+)
+ident(
+  def q "moana_irmin.ml" 111 3729 3735 "moana_irmin.ml" 115 3858 3926
+)
+"moana_irmin.ml" 111 3729 3735 "moana_irmin.ml" 111 3729 3747
+type(
+  Config.tuple list list Lwt.t -> Config.tuple list list
+)
+ident(
+  ext_ref Lwt_unix.run
+)
+"moana_irmin.ml" 112 3748 3758 "moana_irmin.ml" 112 3748 3770
+type(
+  View.db -> View.key -> View.t Lwt.t
+)
+ident(
+  ext_ref View.of_path
+)
+"moana_irmin.ml" 112 3748 3771 "moana_irmin.ml" 112 3748 3776
+type(
+  t
+)
+ident(
+  int_ref store "moana_irmin.ml" 110 3677 3692 "moana_irmin.ml" 110 3677 3697
+)
+"moana_irmin.ml" 112 3748 3779 "moana_irmin.ml" 112 3748 3787
+type(
+  string
+)
+"moana_irmin.ml" 112 3748 3777 "moana_irmin.ml" 112 3748 3789
+type(
+  View.key
+)
+"moana_irmin.ml" 112 3748 3757 "moana_irmin.ml" 112 3748 3790
+call(
+  stack
+)
+type(
+  View.t Lwt.t
+)
+"moana_irmin.ml" 112 3748 3791 "moana_irmin.ml" 112 3748 3794
+type(
+  View.t Lwt.t ->
+  (View.t -> Config.tuple list list Lwt.t) -> Config.tuple list list Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 113 3795 3811 "moana_irmin.ml" 113 3795 3812
+type(
+  View.t
+)
+ident(
+  def v "moana_irmin.ml" 114 3816 3830 "moana_irmin.ml" 115 3858 3924
+)
+"moana_irmin.ml" 114 3816 3831 "moana_irmin.ml" 114 3816 3850
+type(
+  View.t -> Config.tuple list Lwt.t
+)
+ident(
+  int_ref TupleView.t_of_view "moana_irmin.ml" 41 1264 1272 "moana_irmin.ml" 41 1264 1281
+)
+"moana_irmin.ml" 114 3816 3851 "moana_irmin.ml" 114 3816 3852
+type(
+  View.t
+)
+ident(
+  int_ref v "moana_irmin.ml" 113 3795 3811 "moana_irmin.ml" 113 3795 3812
+)
+"moana_irmin.ml" 114 3816 3830 "moana_irmin.ml" 114 3816 3853
+call(
+  stack
+)
+type(
+  Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 114 3816 3854 "moana_irmin.ml" 114 3816 3857
+type(
+  Config.tuple list Lwt.t ->
+  (Config.tuple list -> Config.tuple list list Lwt.t) ->
+  Config.tuple list list Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 115 3858 3879 "moana_irmin.ml" 115 3858 3883
+type(
+  Config.tuple list
+)
+ident(
+  def list "moana_irmin.ml" 115 3858 3887 "moana_irmin.ml" 115 3858 3923
+)
+"moana_irmin.ml" 115 3858 3887 "moana_irmin.ml" 115 3858 3893
+type(
+  Config.tuple list list -> Config.tuple list list Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"moana_irmin.ml" 115 3858 3895 "moana_irmin.ml" 115 3858 3915
+type(
+  Config.tuple list -> Config.tuple list -> Config.tuple list list
+)
+ident(
+  ext_ref Config.execute_query
+)
+"moana_irmin.ml" 115 3858 3916 "moana_irmin.ml" 115 3858 3920
+type(
+  Config.tuple list
+)
+ident(
+  int_ref list "moana_irmin.ml" 115 3858 3879 "moana_irmin.ml" 115 3858 3883
+)
+"moana_irmin.ml" 115 3858 3921 "moana_irmin.ml" 115 3858 3922
+type(
+  Config.tuple list
+)
+ident(
+  int_ref q "moana_irmin.ml" 110 3677 3704 "moana_irmin.ml" 110 3677 3705
+)
+"moana_irmin.ml" 115 3858 3894 "moana_irmin.ml" 115 3858 3923
+call(
+  stack
+)
+type(
+  Config.tuple list list
+)
+"moana_irmin.ml" 115 3858 3887 "moana_irmin.ml" 115 3858 3923
+call(
+  tail
+)
+type(
+  Config.tuple list list Lwt.t
+)
+"moana_irmin.ml" 115 3858 3874 "moana_irmin.ml" 115 3858 3924
+type(
+  Config.tuple list -> Config.tuple list list Lwt.t
+)
+"moana_irmin.ml" 114 3816 3830 "moana_irmin.ml" 115 3858 3924
+call(
+  tail
+)
+type(
+  Config.tuple list list Lwt.t
+)
+"moana_irmin.ml" 113 3795 3806 "moana_irmin.ml" 115 3858 3925
+type(
+  View.t -> Config.tuple list list Lwt.t
+)
+"moana_irmin.ml" 112 3748 3756 "moana_irmin.ml" 115 3858 3926
+call(
+  stack
+)
+type(
+  Config.tuple list list Lwt.t
+)
+"moana_irmin.ml" 111 3729 3735 "moana_irmin.ml" 115 3858 3926
+call(
+  tail
+)
+type(
+  Config.tuple list list
+)
+"moana_irmin.ml" 117 3934 3942 "moana_irmin.ml" 117 3934 3949
+type(
+  View.db -> Config.tuple list
+)
+ident(
+  def to_list "moana_irmin.ml" 120 4016 4061 "moana_irmin.ml" 122 4069 4074
+)
+"moana_irmin.ml" 117 3934 3950 "moana_irmin.ml" 117 3934 3951
+type(
+  View.db
+)
+ident(
+  def t "moana_irmin.ml" 118 3954 3960 "moana_irmin.ml" 120 4016 4061
+)
+"moana_irmin.ml" 118 3954 3960 "moana_irmin.ml" 118 3954 3972
+type(
+  Config.tuple list Lwt.t -> Config.tuple list
+)
+ident(
+  ext_ref Lwt_unix.run
+)
+"moana_irmin.ml" 119 3973 3983 "moana_irmin.ml" 119 3973 3995
+type(
+  View.db -> View.key -> View.t Lwt.t
+)
+ident(
+  ext_ref View.of_path
+)
+"moana_irmin.ml" 119 3973 3996 "moana_irmin.ml" 119 3973 3997
+type(
+  View.db
+)
+ident(
+  int_ref t "moana_irmin.ml" 117 3934 3950 "moana_irmin.ml" 117 3934 3951
+)
+"moana_irmin.ml" 119 3973 4000 "moana_irmin.ml" 119 3973 4008
+type(
+  string
+)
+"moana_irmin.ml" 119 3973 3998 "moana_irmin.ml" 119 3973 4010
+type(
+  View.key
+)
+"moana_irmin.ml" 119 3973 3982 "moana_irmin.ml" 119 3973 4011
+call(
+  stack
+)
+type(
+  View.t Lwt.t
+)
+"moana_irmin.ml" 119 3973 4012 "moana_irmin.ml" 119 3973 4015
+type(
+  View.t Lwt.t ->
+  (View.t -> Config.tuple list Lwt.t) -> Config.tuple list Lwt.t
+)
+ident(
+  ext_ref Lwt.( >>= )
+)
+"moana_irmin.ml" 120 4016 4032 "moana_irmin.ml" 120 4016 4033
+type(
+  View.t
+)
+ident(
+  def v "moana_irmin.ml" 120 4016 4037 "moana_irmin.ml" 120 4016 4058
+)
+"moana_irmin.ml" 120 4016 4037 "moana_irmin.ml" 120 4016 4056
+type(
+  View.t -> Config.tuple list Lwt.t
+)
+ident(
+  int_ref TupleView.t_of_view "moana_irmin.ml" 41 1264 1272 "moana_irmin.ml" 41 1264 1281
+)
+"moana_irmin.ml" 120 4016 4057 "moana_irmin.ml" 120 4016 4058
+type(
+  View.t
+)
+ident(
+  int_ref v "moana_irmin.ml" 120 4016 4032 "moana_irmin.ml" 120 4016 4033
+)
+"moana_irmin.ml" 120 4016 4037 "moana_irmin.ml" 120 4016 4058
+call(
+  tail
+)
+type(
+  Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 120 4016 4027 "moana_irmin.ml" 120 4016 4060
+type(
+  View.t -> Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 119 3973 3981 "moana_irmin.ml" 120 4016 4061
+call(
+  stack
+)
+type(
+  Config.tuple list Lwt.t
+)
+"moana_irmin.ml" 118 3954 3960 "moana_irmin.ml" 120 4016 4061
+call(
+  tail
+)
+type(
+  Config.tuple list
+)
+"moana_irmin.ml" 131 4203 4211 "moana_irmin.ml" 131 4203 4215
+type(
+  ?query:Config.tuple list -> Config.tuple list -> IS.t
+)
+ident(
+  def init "moana_irmin.ml" 133 4229 4231 "moana_irmin.ml" 146 4642 4647
+)
+"moana_irmin.ml" 131 4203 4218 "moana_irmin.ml" 131 4203 4225
+type(
+  ?query:Config.tuple list -> Config.tuple list -> IS.t
+)
+ident(
+  ext_ref IS.init
+)
+"moana_irmin.ml" 133 4229 4235 "moana_irmin.ml" 133 4229 4240
+type(
+  IS.t
+)
+ident(
+  def graph "moana_irmin.ml" 135 4259 4263 "moana_irmin.ml" 146 4642 4647
+)
+"moana_irmin.ml" 133 4229 4243 "moana_irmin.ml" 133 4229 4251
+type(
+  IS.t
+)
+ident(
+  ext_ref IS.empty
+)
+"moana_irmin.ml" 135 4259 4267 "moana_irmin.ml" 135 4259 4270
+type(
+  IS.t -> Config.tuple -> IS.t
+)
+ident(
+  def add "moana_irmin.ml" 141 4458 4462 "moana_irmin.ml" 146 4642 4647
+)
+"moana_irmin.ml" 135 4259 4271 "moana_irmin.ml" 135 4259 4272
+type(
+  IS.t
+)
+ident(
+  def g "moana_irmin.ml" 135 4259 4273 "moana_irmin.ml" 139 4408 4450
+)
+"moana_irmin.ml" 135 4259 4274 "moana_irmin.ml" 135 4259 4279
+type(
+  Config.tuple
+)
+ident(
+  def tuple "moana_irmin.ml" 136 4298 4304 "moana_irmin.ml" 139 4408 4450
+)
+"moana_irmin.ml" 136 4298 4308 "moana_irmin.ml" 136 4298 4309
+type(
+  string
+)
+ident(
+  def s "moana_irmin.ml" 139 4408 4417 "moana_irmin.ml" 139 4408 4450
+)
+"moana_irmin.ml" 137 4312 4320 "moana_irmin.ml" 137 4312 4334
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"moana_irmin.ml" 137 4312 4335 "moana_irmin.ml" 137 4312 4364
+type(
+  (string -> string -> string, unit, string) format
+)
+"moana_irmin.ml" 137 4312 4365 "moana_irmin.ml" 137 4312 4372
+type(
+  string
+)
+ident(
+  ext_ref IS.name
+)
+"moana_irmin.ml" 138 4373 4384 "moana_irmin.ml" 138 4373 4400
+type(
+  Config.tuple -> string
+)
+ident(
+  ext_ref Helper.to_string
+)
+"moana_irmin.ml" 138 4373 4401 "moana_irmin.ml" 138 4373 4406
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "moana_irmin.ml" 135 4259 4274 "moana_irmin.ml" 135 4259 4279
+)
+"moana_irmin.ml" 138 4373 4383 "moana_irmin.ml" 138 4373 4407
+call(
+  stack
+)
+type(
+  string
+)
+"moana_irmin.ml" 137 4312 4320 "moana_irmin.ml" 138 4373 4407
+call(
+  stack
+)
+type(
+  string
+)
+"moana_irmin.ml" 139 4408 4418 "moana_irmin.ml" 139 4408 4431
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"moana_irmin.ml" 139 4408 4432 "moana_irmin.ml" 139 4408 4433
+type(
+  string
+)
+ident(
+  int_ref s "moana_irmin.ml" 136 4298 4308 "moana_irmin.ml" 136 4298 4309
+)
+"moana_irmin.ml" 139 4408 4418 "moana_irmin.ml" 139 4408 4433
+call(
+  stack
+)
+type(
+  unit
+)
+"moana_irmin.ml" 139 4408 4435 "moana_irmin.ml" 139 4408 4441
+type(
+  IS.t -> Config.tuple -> IS.t
+)
+ident(
+  ext_ref IS.add
+)
+"moana_irmin.ml" 139 4408 4442 "moana_irmin.ml" 139 4408 4443
+type(
+  IS.t
+)
+ident(
+  int_ref g "moana_irmin.ml" 135 4259 4271 "moana_irmin.ml" 135 4259 4272
+)
+"moana_irmin.ml" 139 4408 4444 "moana_irmin.ml" 139 4408 4449
+type(
+  Config.tuple
+)
+ident(
+  int_ref tuple "moana_irmin.ml" 135 4259 4274 "moana_irmin.ml" 135 4259 4279
+)
+"moana_irmin.ml" 139 4408 4435 "moana_irmin.ml" 139 4408 4449
+call(
+  tail
+)
+type(
+  IS.t
+)
+"moana_irmin.ml" 139 4408 4417 "moana_irmin.ml" 139 4408 4450
+type(
+  IS.t
+)
+"moana_irmin.ml" 136 4298 4304 "moana_irmin.ml" 139 4408 4450
+type(
+  IS.t
+)
+"moana_irmin.ml" 141 4458 4466 "moana_irmin.ml" 141 4458 4469
+type(
+  IS.t -> Config.tuple list -> IS.t
+)
+ident(
+  def map "moana_irmin.ml" 144 4601 4603 "moana_irmin.ml" 146 4642 4647
+)
+"moana_irmin.ml" 141 4458 4470 "moana_irmin.ml" 141 4458 4471
+type(
+  IS.t
+)
+ident(
+  def g "moana_irmin.ml" 141 4458 4472 "moana_irmin.ml" 142 4506 4552
+)
+"moana_irmin.ml" 141 4458 4473 "moana_irmin.ml" 141 4458 4478
+type(
+  Config.tuple list
+)
+ident(
+  def query "moana_irmin.ml" 142 4506 4509 "moana_irmin.ml" 142 4506 4552
+)
+"moana_irmin.ml" 142 4506 4509 "moana_irmin.ml" 142 4506 4517
+type(
+  IS.t -> Config.tuple list -> Config.tuple list list
+)
+ident(
+  ext_ref IS.query
+)
+"moana_irmin.ml" 142 4506 4518 "moana_irmin.ml" 142 4506 4519
+type(
+  IS.t
+)
+ident(
+  int_ref g "moana_irmin.ml" 141 4458 4470 "moana_irmin.ml" 141 4458 4471
+)
+"moana_irmin.ml" 142 4506 4520 "moana_irmin.ml" 142 4506 4525
+type(
+  Config.tuple list
+)
+ident(
+  int_ref query "moana_irmin.ml" 141 4458 4473 "moana_irmin.ml" 141 4458 4478
+)
+"moana_irmin.ml" 142 4506 4509 "moana_irmin.ml" 142 4506 4525
+call(
+  stack
+)
+type(
+  Config.tuple list list
+)
+"moana_irmin.ml" 142 4506 4526 "moana_irmin.ml" 142 4506 4528
+type(
+  Config.tuple list list ->
+  (Config.tuple list list -> Config.tuple list) -> Config.tuple list
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"moana_irmin.ml" 142 4506 4529 "moana_irmin.ml" 142 4506 4541
+type(
+  Config.tuple list list -> Config.tuple list
+)
+ident(
+  ext_ref List.flatten
+)
+"moana_irmin.ml" 142 4506 4509 "moana_irmin.ml" 142 4506 4541
+call(
+  stack
+)
+type(
+  Config.tuple list
+)
+"moana_irmin.ml" 142 4506 4542 "moana_irmin.ml" 142 4506 4544
+type(
+  Config.tuple list -> (Config.tuple list -> IS.t) -> IS.t
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"moana_irmin.ml" 142 4506 4545 "moana_irmin.ml" 142 4506 4552
+call(
+  tail
+)
+type(
+  ?query:Config.tuple list -> Config.tuple list -> IS.t
+)
+ident(
+  ext_ref IS.init
+)
+"moana_irmin.ml" 142 4506 4509 "moana_irmin.ml" 142 4506 4552
+type(
+  IS.t
+)
+"moana_irmin.ml" 144 4601 4607 "moana_irmin.ml" 144 4601 4614
+type(
+  IS.t -> Config.tuple list
+)
+ident(
+  def to_list "moana_irmin.ml" 144 4601 4631 "moana_irmin.ml" 146 4642 4647
+)
+"moana_irmin.ml" 144 4601 4615 "moana_irmin.ml" 144 4601 4616
+type(
+  IS.t
+)
+ident(
+  def g "moana_irmin.ml" 144 4601 4619 "moana_irmin.ml" 144 4601 4631
+)
+"moana_irmin.ml" 144 4601 4619 "moana_irmin.ml" 144 4601 4629
+type(
+  IS.t -> Config.tuple list
+)
+ident(
+  ext_ref IS.to_list
+)
+"moana_irmin.ml" 144 4601 4630 "moana_irmin.ml" 144 4601 4631
+type(
+  IS.t
+)
+ident(
+  int_ref g "moana_irmin.ml" 144 4601 4615 "moana_irmin.ml" 144 4601 4616
+)
+"moana_irmin.ml" 144 4601 4619 "moana_irmin.ml" 144 4601 4631
+call(
+  tail
+)
+type(
+  Config.tuple list
+)
