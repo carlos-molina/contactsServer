@@ -2,17 +2,16 @@
 ==============
 
 ContactsServer is a contacts application written in OCaml and
-with Moana (see yansh/MoanaML)!](https://github.com/yansh/MoanaML)
+with Moana [(see yansh/MoanaML)!](https://github.com/yansh/MoanaML)
 support for enforcing access control policies.
 
-## Installation
+## 1. Installation
 1. Clone this repo.
 
 2. % build.sh (* compilation *) 
 
    The compilation produces _contactsServer.byte_
    and _clienthtml.byte_.
-
 
 ## Server execution
 The server is a conventional hppt server that
@@ -21,7 +20,7 @@ that listens to requests on _http://localhost:8080_.
 % ./contacts_server.byte (* run the server *)
 
 
-## Place queries against the server
+## 2. Place queries against the server
 
 To place a request against the server you can either
 * run the _clienthtml.byte_
@@ -52,7 +51,7 @@ and Mortier as values.
 3. $ curl http://localhost:8080/getContactDataBylastName?lastName=Crowcroft
 4. $ curl http://localhost:8080/getContactDataBylastName?lastName=""
 
-## Request processing
+## 3. Request processing
 1. The http request is received by the server.
 
 2. The server calls a moana layer placed between the server
@@ -63,7 +62,7 @@ and Mortier as values.
 
 3. The response (retrieved records) is sent by the server to the client. 
 
-## SPARql queries, SELECT variable and access control policies
+## 4. SPARql queries, SELECT variable and access control policies
 *  Moana accepts queries in SPARql syntax. Thus the http request
    is converted to a SPARql query by the server before presenting
    it to moana. The following is an example of a SPARql
@@ -77,6 +76,10 @@ and Mortier as values.
 
 The query shown above can be placed to retrive, respectively,
 the last name and email of the  contact whose first name is Jon. 
+
+The complexity of the SPARql query is determined by the application. The server can
+receive requests in json format and respond similarly. We will show running examples 
+in subsequent sections. 
 
 * SPARql uses SELECT variables that constraint the data that can
 be retrived by a query. The server uses the following
@@ -99,7 +102,7 @@ As it is, the default policy grants the client unrestricted
 access to the contacts records: everything is visible.
 
 
-## Manipulation of access control policies
+## 5. Manipulation of access control policies
 With the current version of the server, variables and policies
 (including default ones) are encoded in the _contactsdata.ml_ 
 file.  This is only a temporary solution as their 
@@ -115,25 +118,104 @@ of the contacts records.
 
 In the requests shown above, the http request includes the requestor's name (Jon) in its lists
 of parameters. Upon receiving the request, moana deploys and enforces the corresponding
-policy. Complex access policies can be specified with the help of booleam formula on the
+policy (the _jonPlcy_ shown below). Complex access policies can be specified with the help of booleam formula on the
 predicates (knows, email, title, fn, etc.).
 
 For example, the following policy contrains the visibility to only the last
-name of contacts that know Jon.
+name and email of contacts that know Jon.
 
             let jonPlcy =
              "MAP {
                    a, canView, ?x, policies
-                   ?x, knows,  Jon, contacts
+                   ?x, knows,  a, contacts
                    ?x, last,   ?last, contacts     
+                   ?x, email,  ?email, contacts     
                   }"
 
 Running examples will be shown in the next release--after fixing some bugs in the policies.
 
-### SPARql queries 
-The complexity of the SPARql query is determined by the application. The server can
-receive requests in json format and respond similarly.
+## 5. Significance of access control policies
+Conceptually the control policies are equivalent to
+to the conventional views that users can create in
+relational databases with the help of the _CREATE VIEW_ 
+command. Control policies create a virtual repository
+(a projection) that includes only the records that that requestor is
+allowed to query.
 
-Running examples will be shown in the next release. 
+The power of control policies to contrain the visibility of
+the contact records is determined by the expressiveness of the SPARQL query
+language [(see SPARQL 1.1 Query Language)!](http://www.w3.org/TR/sparql11-query/#QSynTriples).
+The language includes constructs such as _OPTIONAL_, _UNION_ and
+_FILTER_ that can be used to refine the projection. 
+
+For instance, the following policy includes a _union_ contruct
+that helps produce a projection that includes only the last name 
+and email of people that know Jon directly and of people that know 
+Jon indirectly (they know somebody
+that knows Jon).
+ 
+            let jonPlcy =
+             "MAP {
+                   {
+                    a,  canView, ?x,     policies
+                    ?x,  knows,  a,     contacts
+                    ?x, ?last,   ?last,  contacts
+                    ?x, email    ?email, contacts
+                   }
+                   union
+                   {
+                    a,  canView, ?x,     policies
+                    ?x, knows,   ?z,     contacts
+                    ?z, knows,   a,      contacts
+                    ?x, ?last,   ?last,  contacts
+                    ?x, email    ?email, contacts
+                   }
+                  }"
+
+One can argue that similar access control can be achived with
+the help of the _CREATE VIEW_, _GRANT_ and _ROLE_ constructs
+found in relational databases. This is correct but the wrong
+argument.
+
+The strength of moana is not on the query language but
+on the implementation of the access control policy and the
+encoding of the parameters (attributed associated with
+subjects) involved in the policy. 
+
+### Attribute Based Access Control (ABAC)
+Moana follows the ABAC (Attribute Based Access Control) 
+[(see Attribute-Based Systems)](https://seclab.illinois.edu/attribute-based-systems).
+paradigm. Thus the strength of the approach lies on 
+
++ It is supported by a graph datamodel where the entities 
+   are related to each other by attributes of different 
+   nature (static, dynamic, context-related like time, date, current physical location, IP subnet, etc.)
+   like those defined in the [FOAF Vocabulary](http://xmlns.com/foaf/spec/#term_knows). 
+   For example,
+   _Bob knows Alice_, _Alice title Dr_, _Bob currentLocation Tokyo_, 
+   _Alice currentProject epsrcDocument_, etc. 
+
++ Attributes are used directly in the SPARQL queries
+   to compose policies for producing views that contraint
+   the access to the records. 
+
++ Attributed can be associated to both resources and requesters. The
+  latter can be used for implementing attribute based authentication
+  mechanisms that can help support interactions between people
+  with no history of interactions. 
+
++ It places the user in direct control of its privacy. He or she
+   is responsible for providing its entities with the right
+   attributed and for imposing his policies without the
+   need to worry about the maintenance (creation, updates,
+   deletion) of roles and permissions.
+
+ 
+## 6. Weaknesses of ABAC
+Coming soon... 
+
+
+
+
 
 
