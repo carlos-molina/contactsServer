@@ -62,10 +62,11 @@ and Mortier as values.
 
 3. The response (retrieved records) is sent by the server to the client. 
 
-## 4. SPARql queries, SELECT variable and access control policies
-*  Moana accepts queries in SPARql syntax. Thus the http request
-   is converted to a SPARql query by the server before presenting
-   it to moana. The following is an example of a SPARql
+## 4. Queries, SELECT variable and access control policies
+*  Moana accepts queries presented as graph queries. The syntax is 
+   similar to the standard SPARQL. Thus the http request
+   is converted to a SPARQL-like query by the server before presenting
+   it to moana. The following is an example of a graph 
    query accepted by moana. It is written in OCaml.
 
           let query =  "MAP {
@@ -77,11 +78,11 @@ and Mortier as values.
 The query shown above can be placed to retrive, respectively,
 the last name and email of the  contact whose first name is Jon. 
 
-The complexity of the SPARql query is determined by the application. The server can
+The complexity of the graph query is determined by the application. The server can
 receive requests in json format and respond similarly. We will show running examples 
 in subsequent sections. 
 
-* SPARql uses SELECT variables that constraint the data that can
+* Moana graph queries use SELECT variables that constraint the data that can
 be retrived by a query. The server uses the following
 **variables by default**. In the current version this variable
 can be found in the _contactsdata.ml_ file: 
@@ -143,13 +144,15 @@ command. Control policies create a virtual repository
 allowed to query.
 
 The power of control policies to contrain the visibility of
-the contact records is determined by the expressiveness of the SPARQL query
-language [(see SPARQL 1.1 Query Language)!](http://www.w3.org/TR/sparql11-query/#QSynTriples).
-The language includes constructs such as _OPTIONAL_, _UNION_ and
-_FILTER_ that can be used to refine the projection. 
+the contact records is determined by the expressiveness of the query
+language. Currently, moana supports only some of the constructs
+of the [SPARQL 1.1 Query Language](http://www.w3.org/TR/sparql11-query/#QSynTriples).
+For intance, SPARQL 1.1  includes constructs such as _OPTIONAL_, _UNION_ and
+_FILTER_ that is not supported yet.
+ 
 
-For instance, the following policy includes a _union_ contruct
-that helps produce a projection that includes only the last name 
+For instance, the _UNION_ construct can help build a policy
+for roducing a projection that includes only the last name 
 and email of people that know Jon directly and of people that know 
 Jon indirectly (they know somebody
 that knows Jon).
@@ -188,27 +191,35 @@ Moana follows the ABAC (Attribute Based Access Control)
 paradigm. Thus the strength of the approach lies on 
 
 + It is supported by a graph datamodel where the entities 
-   are related to each other by attributes of different 
-   nature (static, dynamic, context-related like time, date, current physical location, IP subnet, etc.)
-   like those defined in the [FOAF Vocabulary](http://xmlns.com/foaf/spec/#term_knows). 
+  are related to each other by attributes of different 
+  nature (static, dynamic, context-related like time, date, current physical location, IP subnet, etc.)
+  like those defined in the [FOAF Vocabulary](http://xmlns.com/foaf/spec/#term_knows). 
    For example,
    _Bob knows Alice_, _Alice title Dr_, _Bob currentLocation Tokyo_, 
    _Alice currentProject epsrcDocument_, etc. 
 
-+ Attributes are used directly in the SPARQL queries
-   to compose policies for producing views that contraint
-   the access to the records. 
++  Moana is attribute centric: moana data model intuitively captures assertions 
+  about facts that can be evaluated to true or false. This feature can
+  be used to build attribute based access control mechanisms in a very
+  intuitive manner. 
 
-+ Attributed can be associated to both resources and requesters. The
++  Attributes are used directly in the graph queries
+  to compose policies for producing standing queries
+  that contraint the access to the records. The standing
+  queries are dynamic projection of the records. The
+  projection is updated when the attributes (for example
+  current location) change.
+
++  Attributed can be associated to both resources and requesters. The
   latter can be used for implementing attribute based authentication
   mechanisms that can help support interactions between people
   with no history of interactions. 
 
-+ It places the user in direct control of its privacy. He or she
-   is responsible for providing its entities with the right
-   attributed and for imposing his policies without the
-   need to worry about the maintenance (creation, updates,
-   deletion) of roles and permissions.
++  It places the user in direct control of its privacy. He or she
+  is responsible for providing its entities with the right
+  attributed and for imposing his policies without the
+  need to worry about the maintenance (creation, updates,
+  deletion) of roles and permissions.
 
  
 ## 6. Weaknesses of ABAC
