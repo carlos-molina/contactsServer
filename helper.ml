@@ -17,22 +17,6 @@ open Config
   
 open Yojson
 
-(**
- @author: Carlos Molina Jimenez
- @date:   26 May 2015 
-   converts a tuple object to HTML string 
-**)
-let to_htmlstring =
-  function
-  | {
-      subj = Constant s;
-      pred = Constant p;
-      obj = Constant o;
-      ctxt = Constant c;
-      time_stp = _;
-      (* sign = _ } -> Printf.sprintf "<li %s class=\"%s\">%s< </li>" s p o *)
-      sign = _ } -> Printf.sprintf "  <li class=\"%s\">%s< </li>" p o
-  | _ -> "Not printing this tuple."
   
 (** tuple object to string **)
 let to_string =
