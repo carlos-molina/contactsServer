@@ -1,4 +1,7 @@
-(* * Copyright (c) 2014 Yan Shvartzshnaider * * Permission to use, copy,   *)
+(* * Copyright (c) 2014 Carlos Molina-Jimenez.                             *)
+(* These tests were designed by Yan Shvartzshnaider.  I only addapted to   *)
+(* run remotely.                                                           *)
+(* Permission to use, copy,                                                *)
 (* modify, and distribute this software for any * purpose with or without  *)
 (* fee is hereby granted, provided that the above * copyright notice and   *)
 (* this permission notice appear in all copies. * * THE SOFTWARE IS        *)

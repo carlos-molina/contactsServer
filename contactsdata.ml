@@ -1,5 +1,5 @@
 (*
-* Copyright (c) 2014 Yan Shvartzshnaider
+* Copyright (c) 2015 Carlos Molina-Jimenez 
 *
 * Permission to use, copy, modify, and distribute this software for any
 * purpose with or without fee is hereby granted, provided that the above
