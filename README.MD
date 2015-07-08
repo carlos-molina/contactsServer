@@ -135,7 +135,7 @@ name and email of contacts that know Jon.
 
 Running examples will be shown in the next release--after fixing some bugs in the policies.
 
-## 5. Significance of access control policies
+## 6. Significance of access control policies
 Conceptually the control policies are equivalent to
 to the conventional views that users can create in
 relational databases with the help of the _CREATE VIEW_ 
@@ -222,7 +222,7 @@ paradigm. Thus the strength of the approach lies on
   deletion) of roles and permissions.
 
  
-## 6. Weaknesses of ABAC
+## 7. Weaknesses of ABAC
 Coming soon... 
 
 
