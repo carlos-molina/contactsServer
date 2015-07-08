@@ -187,7 +187,7 @@ subjects) involved in the policy.
 
 ### Attribute Based Access Control (ABAC)
 Moana follows the ABAC (Attribute Based Access Control) 
-[(see Attribute-Based Systems)](https://seclab.illinois.edu/attribute-based-systems).
+[(see Attribute-Based Systems)](https://seclab.illinois.edu/attribute-based-systems)
 paradigm. Thus the strength of the approach lies on 
 
 + It is supported by a graph datamodel where the entities 
@@ -204,7 +204,7 @@ paradigm. Thus the strength of the approach lies on
   intuitive manner. 
 
 +  Attributes are used directly in the graph queries
-  to compose policies for producing standing queries
+  to compose policies for producing **standing queries**
   that contraint the access to the records. The standing
   queries are dynamic projection of the records. The
   projection is updated when the attributes (for example
