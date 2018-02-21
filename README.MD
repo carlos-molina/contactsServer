@@ -2,7 +2,8 @@
 ==============
 
 ContactsServer is a contacts application written in the OCaml 
-functional programming language and
+[(OCaml)](https://ocaml.org) 
+Functional Programming Language.
 with Moana [(see yansh/MoanaML)!](https://github.com/yansh/MoanaML)
 support for enforcing access control policies.
 
