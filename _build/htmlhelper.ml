@@ -22,6 +22,22 @@ exception TupleListIsEmpty  of string;;
 exception WrongJsonRecord   of string;;
 exception WrongString       of string;;
   
+(**
+ @author: Carlos Molina Jimenez
+ @date:   26 May 2015
+   converts a tuple object to HTML string
+**)
+let to_htmlstring =
+  function
+  | {
+      subj = Constant s;
+      pred = Constant p;
+      obj = Constant o;
+      ctxt = Constant c;
+      time_stp = _;
+      (* sign = _ } -> Printf.sprintf "<li %s class=\"%s\">%s< </li>" s p o *)
+      sign = _ } -> Printf.sprintf "  <li class=\"%s\">%s< </li>" p o
+  | _ -> "Not printing this tuple."
 
 
 (**
@@ -33,7 +49,7 @@ exception WrongString       of string;;
 let tupleToHtmlStr tuple=
   let rec help str tuple= match tuple with
   | []      -> str^"</ul>\n\n"
-  | h::rest -> help (str^(Helper.to_htmlstring h)^"\n") rest 
+  | h::rest -> help (str^(to_htmlstring h)^"\n") rest 
   in help "<ul class=\"vcard\">\n" tuple
 
 

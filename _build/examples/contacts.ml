@@ -87,22 +87,15 @@ let policies =
 	(b,canView,a,policies)
 	(c,canView,d,policies)	
 	}"
-
-
+  
 let contacts = [ jon; amir; anil; carlos; richard ]
   
 (*let contacts = Helper.tuples_from_file "contacts.db"*)
 (* sample query *)
-let oriq2 =
+let q2 =
   "MAP {
 	a,knows,?y,contacts
 	?y,fn,?name,contacts
-	?y,email,?email,contacts
-	}"
-
-let q2 =  (* my query *)
-  "MAP {
-	a,fn,?y,contacts
 	?y,email,?email,contacts
 	}"
   
@@ -126,6 +119,6 @@ let (Rete.Node (_, res_bm, _)) = results
 (*let p = Rete.print_bm res_bm*)
 let r_map = Rete.get_res_map results [ "?name"; "?y"; "?email" ]
   
-let _ = Helper.StringMap.iter Helper.print_var r_map 
+(*let _ = Helper.StringMap.iter Helper.print_var r_map *)
   
 

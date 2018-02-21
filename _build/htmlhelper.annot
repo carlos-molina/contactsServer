@@ -1,511 +1,619 @@
-"htmlhelper.ml" 33 1167 1171 "htmlhelper.ml" 33 1167 1185
-type(
-  Config.tuple list -> string
-)
-ident(
-  def tupleToHtmlStr "htmlhelper.ml" 46 1550 1551 "htmlhelper.ml" 1 0 -1
-)
-"htmlhelper.ml" 33 1167 1186 "htmlhelper.ml" 33 1167 1191
-type(
-  Config.tuple list
-)
-ident(
-  def tuple "htmlhelper.ml" 34 1193 1195 "htmlhelper.ml" 37 1329 1369
-)
-"htmlhelper.ml" 34 1193 1203 "htmlhelper.ml" 34 1193 1207
-type(
-  string -> Config.tuple list -> string
-)
-ident(
-  def help "htmlhelper.ml" 34 1193 1195 "htmlhelper.ml" 37 1329 1369
-)
-"htmlhelper.ml" 34 1193 1208 "htmlhelper.ml" 34 1193 1211
-type(
-  string
-)
-ident(
-  def str "htmlhelper.ml" 34 1193 1212 "htmlhelper.ml" 36 1267 1327
-)
-"htmlhelper.ml" 34 1193 1212 "htmlhelper.ml" 34 1193 1217
-type(
-  Config.tuple list
-)
-ident(
-  def tuple "htmlhelper.ml" 34 1193 1219 "htmlhelper.ml" 36 1267 1327
-)
-"htmlhelper.ml" 34 1193 1225 "htmlhelper.ml" 34 1193 1230
-type(
-  Config.tuple list
-)
-ident(
-  int_ref tuple "htmlhelper.ml" 34 1193 1212 "htmlhelper.ml" 34 1193 1217
-)
-"htmlhelper.ml" 35 1236 1240 "htmlhelper.ml" 35 1236 1242
-type(
-  Config.tuple list
-)
-"htmlhelper.ml" 35 1236 1251 "htmlhelper.ml" 35 1236 1254
-type(
-  string
-)
-ident(
-  int_ref str "htmlhelper.ml" 34 1193 1208 "htmlhelper.ml" 34 1193 1211
-)
-"htmlhelper.ml" 35 1236 1254 "htmlhelper.ml" 35 1236 1255
-type(
-  string -> string -> string
-)
-ident(
-  ext_ref Pervasives.( ^ )
-)
-"htmlhelper.ml" 35 1236 1255 "htmlhelper.ml" 35 1236 1266
-type(
-  string
-)
-"htmlhelper.ml" 35 1236 1251 "htmlhelper.ml" 35 1236 1266
-call(
-  tail
-)
-type(
-  string
-)
-"htmlhelper.ml" 36 1267 1271 "htmlhelper.ml" 36 1267 1272
-type(
-  Config.tuple
-)
-ident(
-  def h "htmlhelper.ml" 36 1267 1282 "htmlhelper.ml" 36 1267 1327
-)
-"htmlhelper.ml" 36 1267 1274 "htmlhelper.ml" 36 1267 1278
-type(
-  Config.tuple list
-)
-ident(
-  def rest "htmlhelper.ml" 36 1267 1282 "htmlhelper.ml" 36 1267 1327
-)
-"htmlhelper.ml" 36 1267 1271 "htmlhelper.ml" 36 1267 1278
-type(
-  Config.tuple list
-)
-"htmlhelper.ml" 36 1267 1282 "htmlhelper.ml" 36 1267 1286
-type(
-  string -> Config.tuple list -> string
-)
-ident(
-  int_ref help "htmlhelper.ml" 34 1193 1203 "htmlhelper.ml" 34 1193 1207
-)
-"htmlhelper.ml" 36 1267 1288 "htmlhelper.ml" 36 1267 1291
-type(
-  string
-)
-ident(
-  int_ref str "htmlhelper.ml" 34 1193 1208 "htmlhelper.ml" 34 1193 1211
-)
-"htmlhelper.ml" 36 1267 1291 "htmlhelper.ml" 36 1267 1292
-type(
-  string -> string -> string
-)
-ident(
-  ext_ref Pervasives.( ^ )
-)
-"htmlhelper.ml" 36 1267 1293 "htmlhelper.ml" 36 1267 1313
+"htmlhelper.ml" 30 1028 1032 "htmlhelper.ml" 30 1028 1045
 type(
   Config.tuple -> string
 )
 ident(
-  ext_ref Helper.to_htmlstring
+  def to_htmlstring "htmlhelper.ml" 49 1612 1612 "htmlhelper.ml" 1 0 -1
 )
-"htmlhelper.ml" 36 1267 1314 "htmlhelper.ml" 36 1267 1315
+"htmlhelper.ml" 33 1065 1087 "htmlhelper.ml" 33 1065 1088
+type(
+  Config.t
+)
+ident(
+  def s "htmlhelper.ml" 39 1263 1283 "htmlhelper.ml" 39 1263 1332
+)
+"htmlhelper.ml" 33 1065 1078 "htmlhelper.ml" 33 1065 1088
+type(
+  Config.t Config.element_type
+)
+"htmlhelper.ml" 34 1090 1112 "htmlhelper.ml" 34 1090 1113
+type(
+  Config.t
+)
+ident(
+  def p "htmlhelper.ml" 39 1263 1283 "htmlhelper.ml" 39 1263 1332
+)
+"htmlhelper.ml" 34 1090 1103 "htmlhelper.ml" 34 1090 1113
+type(
+  Config.t Config.element_type
+)
+"htmlhelper.ml" 35 1115 1136 "htmlhelper.ml" 35 1115 1137
+type(
+  Config.obj_t
+)
+ident(
+  def o "htmlhelper.ml" 39 1263 1283 "htmlhelper.ml" 39 1263 1332
+)
+"htmlhelper.ml" 35 1115 1127 "htmlhelper.ml" 35 1115 1137
+type(
+  Config.obj_t Config.element_type
+)
+"htmlhelper.ml" 36 1139 1161 "htmlhelper.ml" 36 1139 1162
+type(
+  Config.context
+)
+ident(
+  def c "htmlhelper.ml" 39 1263 1283 "htmlhelper.ml" 39 1263 1332
+)
+"htmlhelper.ml" 36 1139 1152 "htmlhelper.ml" 36 1139 1162
+type(
+  Config.context Config.element_type
+)
+"htmlhelper.ml" 37 1164 1181 "htmlhelper.ml" 37 1164 1182
+type(
+  Config.timestamp Config.element_type option
+)
+"htmlhelper.ml" 39 1263 1276 "htmlhelper.ml" 39 1263 1277
+type(
+  Config.signature Config.element_type option
+)
+"htmlhelper.ml" 32 1059 1063 "htmlhelper.ml" 39 1263 1279
 type(
   Config.tuple
 )
-ident(
-  int_ref h "htmlhelper.ml" 36 1267 1271 "htmlhelper.ml" 36 1267 1272
+"htmlhelper.ml" 39 1263 1283 "htmlhelper.ml" 39 1263 1297
+type(
+  (Config.t -> Config.obj_t -> string, unit, string) format ->
+  Config.t -> Config.obj_t -> string
 )
-"htmlhelper.ml" 36 1267 1292 "htmlhelper.ml" 36 1267 1316
+ident(
+  ext_ref Printf.sprintf
+)
+"htmlhelper.ml" 39 1263 1298 "htmlhelper.ml" 39 1263 1328
+type(
+  (Config.t -> Config.obj_t -> string, unit, string) format
+)
+"htmlhelper.ml" 39 1263 1329 "htmlhelper.ml" 39 1263 1330
+type(
+  Config.t
+)
+ident(
+  int_ref p "htmlhelper.ml" 34 1090 1112 "htmlhelper.ml" 34 1090 1113
+)
+"htmlhelper.ml" 39 1263 1331 "htmlhelper.ml" 39 1263 1332
+type(
+  Config.obj_t
+)
+ident(
+  int_ref o "htmlhelper.ml" 35 1115 1136 "htmlhelper.ml" 35 1115 1137
+)
+"htmlhelper.ml" 39 1263 1283 "htmlhelper.ml" 39 1263 1332
 call(
-  stack
+  tail
 )
 type(
   string
 )
-"htmlhelper.ml" 36 1267 1316 "htmlhelper.ml" 36 1267 1317
+"htmlhelper.ml" 40 1333 1337 "htmlhelper.ml" 40 1333 1338
+type(
+  Config.tuple
+)
+"htmlhelper.ml" 40 1333 1342 "htmlhelper.ml" 40 1333 1368
+type(
+  string
+)
+"htmlhelper.ml" 31 1048 1050 "htmlhelper.ml" 40 1333 1368
+type(
+  Config.tuple -> string
+)
+"htmlhelper.ml" 49 1612 1616 "htmlhelper.ml" 49 1612 1630
+type(
+  Config.tuple list -> string
+)
+ident(
+  def tupleToHtmlStr "htmlhelper.ml" 62 1988 1989 "htmlhelper.ml" 1 0 -1
+)
+"htmlhelper.ml" 49 1612 1631 "htmlhelper.ml" 49 1612 1636
+type(
+  Config.tuple list
+)
+ident(
+  def tuple "htmlhelper.ml" 50 1638 1640 "htmlhelper.ml" 53 1767 1807
+)
+"htmlhelper.ml" 50 1638 1648 "htmlhelper.ml" 50 1638 1652
+type(
+  string -> Config.tuple list -> string
+)
+ident(
+  def help "htmlhelper.ml" 50 1638 1640 "htmlhelper.ml" 53 1767 1807
+)
+"htmlhelper.ml" 50 1638 1653 "htmlhelper.ml" 50 1638 1656
+type(
+  string
+)
+ident(
+  def str "htmlhelper.ml" 50 1638 1657 "htmlhelper.ml" 52 1712 1765
+)
+"htmlhelper.ml" 50 1638 1657 "htmlhelper.ml" 50 1638 1662
+type(
+  Config.tuple list
+)
+ident(
+  def tuple "htmlhelper.ml" 50 1638 1664 "htmlhelper.ml" 52 1712 1765
+)
+"htmlhelper.ml" 50 1638 1670 "htmlhelper.ml" 50 1638 1675
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuple "htmlhelper.ml" 50 1638 1657 "htmlhelper.ml" 50 1638 1662
+)
+"htmlhelper.ml" 51 1681 1685 "htmlhelper.ml" 51 1681 1687
+type(
+  Config.tuple list
+)
+"htmlhelper.ml" 51 1681 1696 "htmlhelper.ml" 51 1681 1699
+type(
+  string
+)
+ident(
+  int_ref str "htmlhelper.ml" 50 1638 1653 "htmlhelper.ml" 50 1638 1656
+)
+"htmlhelper.ml" 51 1681 1699 "htmlhelper.ml" 51 1681 1700
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"htmlhelper.ml" 36 1267 1317 "htmlhelper.ml" 36 1267 1321
+"htmlhelper.ml" 51 1681 1700 "htmlhelper.ml" 51 1681 1711
 type(
   string
 )
-"htmlhelper.ml" 36 1267 1292 "htmlhelper.ml" 36 1267 1321
-call(
-  stack
-)
-type(
-  string
-)
-"htmlhelper.ml" 36 1267 1287 "htmlhelper.ml" 36 1267 1322
-call(
-  stack
-)
-type(
-  string
-)
-"htmlhelper.ml" 36 1267 1323 "htmlhelper.ml" 36 1267 1327
-type(
-  Config.tuple list
-)
-ident(
-  int_ref rest "htmlhelper.ml" 36 1267 1274 "htmlhelper.ml" 36 1267 1278
-)
-"htmlhelper.ml" 36 1267 1282 "htmlhelper.ml" 36 1267 1327
+"htmlhelper.ml" 51 1681 1696 "htmlhelper.ml" 51 1681 1711
 call(
   tail
 )
 type(
   string
 )
-"htmlhelper.ml" 34 1193 1219 "htmlhelper.ml" 36 1267 1327
+"htmlhelper.ml" 52 1712 1716 "htmlhelper.ml" 52 1712 1717
 type(
-  string
+  Config.tuple
 )
-"htmlhelper.ml" 37 1329 1334 "htmlhelper.ml" 37 1329 1338
+ident(
+  def h "htmlhelper.ml" 52 1712 1727 "htmlhelper.ml" 52 1712 1765
+)
+"htmlhelper.ml" 52 1712 1719 "htmlhelper.ml" 52 1712 1723
+type(
+  Config.tuple list
+)
+ident(
+  def rest "htmlhelper.ml" 52 1712 1727 "htmlhelper.ml" 52 1712 1765
+)
+"htmlhelper.ml" 52 1712 1716 "htmlhelper.ml" 52 1712 1723
+type(
+  Config.tuple list
+)
+"htmlhelper.ml" 52 1712 1727 "htmlhelper.ml" 52 1712 1731
 type(
   string -> Config.tuple list -> string
 )
 ident(
-  int_ref help "htmlhelper.ml" 34 1193 1203 "htmlhelper.ml" 34 1193 1207
+  int_ref help "htmlhelper.ml" 50 1638 1648 "htmlhelper.ml" 50 1638 1652
 )
-"htmlhelper.ml" 37 1329 1339 "htmlhelper.ml" 37 1329 1363
+"htmlhelper.ml" 52 1712 1733 "htmlhelper.ml" 52 1712 1736
 type(
   string
 )
-"htmlhelper.ml" 37 1329 1364 "htmlhelper.ml" 37 1329 1369
+ident(
+  int_ref str "htmlhelper.ml" 50 1638 1653 "htmlhelper.ml" 50 1638 1656
+)
+"htmlhelper.ml" 52 1712 1736 "htmlhelper.ml" 52 1712 1737
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"htmlhelper.ml" 52 1712 1738 "htmlhelper.ml" 52 1712 1751
+type(
+  Config.tuple -> string
+)
+ident(
+  int_ref to_htmlstring "htmlhelper.ml" 30 1028 1032 "htmlhelper.ml" 30 1028 1045
+)
+"htmlhelper.ml" 52 1712 1752 "htmlhelper.ml" 52 1712 1753
+type(
+  Config.tuple
+)
+ident(
+  int_ref h "htmlhelper.ml" 52 1712 1716 "htmlhelper.ml" 52 1712 1717
+)
+"htmlhelper.ml" 52 1712 1737 "htmlhelper.ml" 52 1712 1754
+call(
+  stack
+)
+type(
+  string
+)
+"htmlhelper.ml" 52 1712 1754 "htmlhelper.ml" 52 1712 1755
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"htmlhelper.ml" 52 1712 1755 "htmlhelper.ml" 52 1712 1759
+type(
+  string
+)
+"htmlhelper.ml" 52 1712 1737 "htmlhelper.ml" 52 1712 1759
+call(
+  stack
+)
+type(
+  string
+)
+"htmlhelper.ml" 52 1712 1732 "htmlhelper.ml" 52 1712 1760
+call(
+  stack
+)
+type(
+  string
+)
+"htmlhelper.ml" 52 1712 1761 "htmlhelper.ml" 52 1712 1765
 type(
   Config.tuple list
 )
 ident(
-  int_ref tuple "htmlhelper.ml" 33 1167 1186 "htmlhelper.ml" 33 1167 1191
+  int_ref rest "htmlhelper.ml" 52 1712 1719 "htmlhelper.ml" 52 1712 1723
 )
-"htmlhelper.ml" 37 1329 1334 "htmlhelper.ml" 37 1329 1369
+"htmlhelper.ml" 52 1712 1727 "htmlhelper.ml" 52 1712 1765
 call(
   tail
 )
 type(
   string
 )
-"htmlhelper.ml" 34 1193 1195 "htmlhelper.ml" 37 1329 1369
+"htmlhelper.ml" 50 1638 1664 "htmlhelper.ml" 52 1712 1765
 type(
   string
 )
-"htmlhelper.ml" 46 1550 1555 "htmlhelper.ml" 46 1550 1579
+"htmlhelper.ml" 53 1767 1772 "htmlhelper.ml" 53 1767 1776
+type(
+  string -> Config.tuple list -> string
+)
+ident(
+  int_ref help "htmlhelper.ml" 50 1638 1648 "htmlhelper.ml" 50 1638 1652
+)
+"htmlhelper.ml" 53 1767 1777 "htmlhelper.ml" 53 1767 1801
+type(
+  string
+)
+"htmlhelper.ml" 53 1767 1802 "htmlhelper.ml" 53 1767 1807
+type(
+  Config.tuple list
+)
+ident(
+  int_ref tuple "htmlhelper.ml" 49 1612 1631 "htmlhelper.ml" 49 1612 1636
+)
+"htmlhelper.ml" 53 1767 1772 "htmlhelper.ml" 53 1767 1807
+call(
+  tail
+)
+type(
+  string
+)
+"htmlhelper.ml" 50 1638 1640 "htmlhelper.ml" 53 1767 1807
+type(
+  string
+)
+"htmlhelper.ml" 62 1988 1993 "htmlhelper.ml" 62 1988 2017
 type(
   Config.tuple list list -> string
 )
 ident(
-  def listoftuples_to_html_str "htmlhelper.ml" 57 1868 1868 "htmlhelper.ml" 1 0 -1
+  def listoftuples_to_html_str "htmlhelper.ml" 73 2306 2306 "htmlhelper.ml" 1 0 -1
 )
-"htmlhelper.ml" 46 1550 1580 "htmlhelper.ml" 46 1550 1586
+"htmlhelper.ml" 62 1988 2018 "htmlhelper.ml" 62 1988 2024
 type(
   Config.tuple list list
 )
 ident(
-  def tuples "htmlhelper.ml" 47 1589 1593 "htmlhelper.ml" 48 1649 1686
+  def tuples "htmlhelper.ml" 63 2027 2031 "htmlhelper.ml" 64 2087 2124
 )
-"htmlhelper.ml" 47 1589 1597 "htmlhelper.ml" 47 1589 1600
+"htmlhelper.ml" 63 2027 2035 "htmlhelper.ml" 63 2027 2038
 type(
   string list
 )
 ident(
-  def lst "htmlhelper.ml" 48 1649 1653 "htmlhelper.ml" 48 1649 1686
+  def lst "htmlhelper.ml" 64 2087 2091 "htmlhelper.ml" 64 2087 2124
 )
-"htmlhelper.ml" 47 1589 1602 "htmlhelper.ml" 47 1589 1610
+"htmlhelper.ml" 63 2027 2040 "htmlhelper.ml" 63 2027 2048
 type(
   (Config.tuple list -> string) -> Config.tuple list list -> string list
 )
 ident(
   ext_ref List.map
 )
-"htmlhelper.ml" 47 1589 1616 "htmlhelper.ml" 47 1589 1617
+"htmlhelper.ml" 63 2027 2054 "htmlhelper.ml" 63 2027 2055
 type(
   Config.tuple list
 )
 ident(
-  def t "htmlhelper.ml" 47 1589 1621 "htmlhelper.ml" 47 1589 1637
+  def t "htmlhelper.ml" 63 2027 2059 "htmlhelper.ml" 63 2027 2075
 )
-"htmlhelper.ml" 47 1589 1621 "htmlhelper.ml" 47 1589 1635
+"htmlhelper.ml" 63 2027 2059 "htmlhelper.ml" 63 2027 2073
 type(
   Config.tuple list -> string
 )
 ident(
-  int_ref tupleToHtmlStr "htmlhelper.ml" 33 1167 1171 "htmlhelper.ml" 33 1167 1185
+  int_ref tupleToHtmlStr "htmlhelper.ml" 49 1612 1616 "htmlhelper.ml" 49 1612 1630
 )
-"htmlhelper.ml" 47 1589 1636 "htmlhelper.ml" 47 1589 1637
+"htmlhelper.ml" 63 2027 2074 "htmlhelper.ml" 63 2027 2075
 type(
   Config.tuple list
 )
 ident(
-  int_ref t "htmlhelper.ml" 47 1589 1616 "htmlhelper.ml" 47 1589 1617
+  int_ref t "htmlhelper.ml" 63 2027 2054 "htmlhelper.ml" 63 2027 2055
 )
-"htmlhelper.ml" 47 1589 1621 "htmlhelper.ml" 47 1589 1637
+"htmlhelper.ml" 63 2027 2059 "htmlhelper.ml" 63 2027 2075
 call(
   tail
 )
 type(
   string
 )
-"htmlhelper.ml" 47 1589 1611 "htmlhelper.ml" 47 1589 1638
+"htmlhelper.ml" 63 2027 2049 "htmlhelper.ml" 63 2027 2076
 type(
   Config.tuple list -> string
 )
-"htmlhelper.ml" 47 1589 1639 "htmlhelper.ml" 47 1589 1645
+"htmlhelper.ml" 63 2027 2077 "htmlhelper.ml" 63 2027 2083
 type(
   Config.tuple list list
 )
 ident(
-  int_ref tuples "htmlhelper.ml" 46 1550 1580 "htmlhelper.ml" 46 1550 1586
+  int_ref tuples "htmlhelper.ml" 62 1988 2018 "htmlhelper.ml" 62 1988 2024
 )
-"htmlhelper.ml" 47 1589 1602 "htmlhelper.ml" 47 1589 1645
+"htmlhelper.ml" 63 2027 2040 "htmlhelper.ml" 63 2027 2083
 call(
   stack
 )
 type(
   string list
 )
-"htmlhelper.ml" 48 1649 1653 "htmlhelper.ml" 48 1649 1682
+"htmlhelper.ml" 64 2087 2091 "htmlhelper.ml" 64 2087 2120
 type(
   string list -> string
 )
 ident(
   ext_ref Contactshelper.listofStrToStr
 )
-"htmlhelper.ml" 48 1649 1683 "htmlhelper.ml" 48 1649 1686
+"htmlhelper.ml" 64 2087 2121 "htmlhelper.ml" 64 2087 2124
 type(
   string list
 )
 ident(
-  int_ref lst "htmlhelper.ml" 47 1589 1597 "htmlhelper.ml" 47 1589 1600
+  int_ref lst "htmlhelper.ml" 63 2027 2035 "htmlhelper.ml" 63 2027 2038
 )
-"htmlhelper.ml" 48 1649 1653 "htmlhelper.ml" 48 1649 1686
+"htmlhelper.ml" 64 2087 2091 "htmlhelper.ml" 64 2087 2124
 call(
   tail
 )
 type(
   string
 )
-"htmlhelper.ml" 47 1589 1593 "htmlhelper.ml" 48 1649 1686
+"htmlhelper.ml" 63 2027 2031 "htmlhelper.ml" 64 2087 2124
 type(
   string
 )
-"htmlhelper.ml" 57 1868 1872 "htmlhelper.ml" 57 1868 1893
+"htmlhelper.ml" 73 2306 2310 "htmlhelper.ml" 73 2306 2331
 type(
   string Config.element_type -> string
 )
 ident(
-  def constStrToStr_in_html "htmlhelper.ml" 68 2198 2198 "htmlhelper.ml" 1 0 -1
+  def constStrToStr_in_html "htmlhelper.ml" 84 2636 2636 "htmlhelper.ml" 1 0 -1
 )
-"htmlhelper.ml" 57 1868 1894 "htmlhelper.ml" 57 1868 1902
+"htmlhelper.ml" 73 2306 2332 "htmlhelper.ml" 73 2306 2340
 type(
   string Config.element_type
 )
 ident(
-  def constStr "htmlhelper.ml" 57 1868 1904 "htmlhelper.ml" 59 1967 2008
+  def constStr "htmlhelper.ml" 73 2306 2342 "htmlhelper.ml" 75 2405 2446
 )
-"htmlhelper.ml" 57 1868 1910 "htmlhelper.ml" 57 1868 1918
+"htmlhelper.ml" 73 2306 2348 "htmlhelper.ml" 73 2306 2356
 type(
   string Config.element_type
 )
 ident(
-  int_ref constStr "htmlhelper.ml" 57 1868 1894 "htmlhelper.ml" 57 1868 1902
+  int_ref constStr "htmlhelper.ml" 73 2306 2332 "htmlhelper.ml" 73 2306 2340
 )
-"htmlhelper.ml" 58 1924 1939 "htmlhelper.ml" 58 1924 1944
+"htmlhelper.ml" 74 2362 2377 "htmlhelper.ml" 74 2362 2382
 type(
   string
 )
 ident(
-  def value "htmlhelper.ml" 58 1924 1948 "htmlhelper.ml" 58 1924 1966
+  def value "htmlhelper.ml" 74 2362 2386 "htmlhelper.ml" 74 2362 2404
 )
-"htmlhelper.ml" 58 1924 1930 "htmlhelper.ml" 58 1924 1944
+"htmlhelper.ml" 74 2362 2368 "htmlhelper.ml" 74 2362 2382
 type(
   string Config.element_type
 )
-"htmlhelper.ml" 58 1924 1948 "htmlhelper.ml" 58 1924 1952
+"htmlhelper.ml" 74 2362 2386 "htmlhelper.ml" 74 2362 2390
 type(
   string
 )
-"htmlhelper.ml" 58 1924 1952 "htmlhelper.ml" 58 1924 1953
+"htmlhelper.ml" 74 2362 2390 "htmlhelper.ml" 74 2362 2391
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"htmlhelper.ml" 58 1924 1953 "htmlhelper.ml" 58 1924 1958
+"htmlhelper.ml" 74 2362 2391 "htmlhelper.ml" 74 2362 2396
 type(
   string
 )
 ident(
-  int_ref value "htmlhelper.ml" 58 1924 1939 "htmlhelper.ml" 58 1924 1944
+  int_ref value "htmlhelper.ml" 74 2362 2377 "htmlhelper.ml" 74 2362 2382
 )
-"htmlhelper.ml" 58 1924 1958 "htmlhelper.ml" 58 1924 1959
+"htmlhelper.ml" 74 2362 2396 "htmlhelper.ml" 74 2362 2397
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"htmlhelper.ml" 58 1924 1959 "htmlhelper.ml" 58 1924 1966
+"htmlhelper.ml" 74 2362 2397 "htmlhelper.ml" 74 2362 2404
 type(
   string
 )
-"htmlhelper.ml" 58 1924 1953 "htmlhelper.ml" 58 1924 1966
+"htmlhelper.ml" 74 2362 2391 "htmlhelper.ml" 74 2362 2404
 call(
   stack
 )
 type(
   string
 )
-"htmlhelper.ml" 58 1924 1948 "htmlhelper.ml" 58 1924 1966
+"htmlhelper.ml" 74 2362 2386 "htmlhelper.ml" 74 2362 2404
 call(
   tail
 )
 type(
   string
 )
-"htmlhelper.ml" 59 1967 1973 "htmlhelper.ml" 59 1967 1974
+"htmlhelper.ml" 75 2405 2411 "htmlhelper.ml" 75 2405 2412
 type(
   string Config.element_type
 )
-"htmlhelper.ml" 59 1967 1991 "htmlhelper.ml" 59 1967 1996
+"htmlhelper.ml" 75 2405 2429 "htmlhelper.ml" 75 2405 2434
 type(
   exn -> string
 )
 ident(
   ext_ref Pervasives.raise
 )
-"htmlhelper.ml" 59 1967 1997 "htmlhelper.ml" 59 1967 2008
+"htmlhelper.ml" 75 2405 2435 "htmlhelper.ml" 75 2405 2446
 type(
   exn
 )
-"htmlhelper.ml" 59 1967 1991 "htmlhelper.ml" 59 1967 2008
+"htmlhelper.ml" 75 2405 2429 "htmlhelper.ml" 75 2405 2446
 type(
   string
 )
-"htmlhelper.ml" 57 1868 1904 "htmlhelper.ml" 59 1967 2008
+"htmlhelper.ml" 73 2306 2342 "htmlhelper.ml" 75 2405 2446
 type(
   string
 )
-"htmlhelper.ml" 68 2198 2202 "htmlhelper.ml" 68 2198 2214
+"htmlhelper.ml" 84 2636 2640 "htmlhelper.ml" 84 2636 2652
 type(
   string -> string Config.element_type list -> string
 )
 ident(
-  def make_html_ul "htmlhelper.ml" 83 2815 2815 "htmlhelper.ml" 1 0 -1
+  def make_html_ul "htmlhelper.ml" 99 3253 3253 "htmlhelper.ml" 1 0 -1
 )
-"htmlhelper.ml" 68 2198 2215 "htmlhelper.ml" 68 2198 2218
+"htmlhelper.ml" 84 2636 2653 "htmlhelper.ml" 84 2636 2656
 type(
   string
 )
 ident(
-  def var "htmlhelper.ml" 68 2198 2219 "htmlhelper.ml" 73 2536 2581
+  def var "htmlhelper.ml" 84 2636 2657 "htmlhelper.ml" 89 2974 3019
 )
-"htmlhelper.ml" 68 2198 2219 "htmlhelper.ml" 68 2198 2222
+"htmlhelper.ml" 84 2636 2657 "htmlhelper.ml" 84 2636 2660
 type(
   string Config.element_type list
 )
 ident(
-  def lst "htmlhelper.ml" 69 2224 2228 "htmlhelper.ml" 73 2536 2581
+  def lst "htmlhelper.ml" 85 2662 2666 "htmlhelper.ml" 89 2974 3019
 )
-"htmlhelper.ml" 69 2224 2232 "htmlhelper.ml" 69 2224 2239
+"htmlhelper.ml" 85 2662 2670 "htmlhelper.ml" 85 2662 2677
 type(
   string
 )
 ident(
-  def leftstr "htmlhelper.ml" 70 2326 2330 "htmlhelper.ml" 73 2536 2581
+  def leftstr "htmlhelper.ml" 86 2764 2768 "htmlhelper.ml" 89 2974 3019
 )
-"htmlhelper.ml" 69 2224 2241 "htmlhelper.ml" 69 2224 2257
+"htmlhelper.ml" 85 2662 2679 "htmlhelper.ml" 85 2662 2695
 type(
   string
 )
-"htmlhelper.ml" 69 2224 2257 "htmlhelper.ml" 69 2224 2258
+"htmlhelper.ml" 85 2662 2695 "htmlhelper.ml" 85 2662 2696
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"htmlhelper.ml" 69 2224 2258 "htmlhelper.ml" 69 2224 2274
+"htmlhelper.ml" 85 2662 2696 "htmlhelper.ml" 85 2662 2712
 type(
   string -> int -> string
 )
 ident(
   ext_ref Str.string_after
 )
-"htmlhelper.ml" 69 2224 2275 "htmlhelper.ml" 69 2224 2278
+"htmlhelper.ml" 85 2662 2713 "htmlhelper.ml" 85 2662 2716
 type(
   string
 )
 ident(
-  int_ref var "htmlhelper.ml" 68 2198 2215 "htmlhelper.ml" 68 2198 2218
+  int_ref var "htmlhelper.ml" 84 2636 2653 "htmlhelper.ml" 84 2636 2656
 )
-"htmlhelper.ml" 69 2224 2279 "htmlhelper.ml" 69 2224 2280
+"htmlhelper.ml" 85 2662 2717 "htmlhelper.ml" 85 2662 2718
 type(
   int
 )
-"htmlhelper.ml" 69 2224 2258 "htmlhelper.ml" 69 2224 2280
+"htmlhelper.ml" 85 2662 2696 "htmlhelper.ml" 85 2662 2718
 call(
   stack
 )
 type(
   string
 )
-"htmlhelper.ml" 69 2224 2280 "htmlhelper.ml" 69 2224 2281
+"htmlhelper.ml" 85 2662 2718 "htmlhelper.ml" 85 2662 2719
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"htmlhelper.ml" 69 2224 2281 "htmlhelper.ml" 69 2224 2286
+"htmlhelper.ml" 85 2662 2719 "htmlhelper.ml" 85 2662 2724
 type(
   string
 )
-"htmlhelper.ml" 69 2224 2258 "htmlhelper.ml" 69 2224 2286
+"htmlhelper.ml" 85 2662 2696 "htmlhelper.ml" 85 2662 2724
 call(
   stack
 )
 type(
   string
 )
-"htmlhelper.ml" 69 2224 2241 "htmlhelper.ml" 69 2224 2286
+"htmlhelper.ml" 85 2662 2679 "htmlhelper.ml" 85 2662 2724
 call(
   stack
 )
 type(
   string
 )
-"htmlhelper.ml" 70 2326 2334 "htmlhelper.ml" 70 2326 2342
+"htmlhelper.ml" 86 2764 2772 "htmlhelper.ml" 86 2764 2780
 type(
   string
 )
 ident(
-  def rightstr "htmlhelper.ml" 71 2378 2382 "htmlhelper.ml" 73 2536 2581
+  def rightstr "htmlhelper.ml" 87 2816 2820 "htmlhelper.ml" 89 2974 3019
 )
-"htmlhelper.ml" 70 2326 2344 "htmlhelper.ml" 70 2326 2355
+"htmlhelper.ml" 86 2764 2782 "htmlhelper.ml" 86 2764 2793
 type(
   string
 )
-"htmlhelper.ml" 71 2378 2386 "htmlhelper.ml" 71 2378 2392
+"htmlhelper.ml" 87 2816 2824 "htmlhelper.ml" 87 2816 2830
 type(
   string list
 )
 ident(
-  def resLst "htmlhelper.ml" 72 2445 2449 "htmlhelper.ml" 73 2536 2581
+  def resLst "htmlhelper.ml" 88 2883 2887 "htmlhelper.ml" 89 2974 3019
 )
-"htmlhelper.ml" 71 2378 2394 "htmlhelper.ml" 71 2378 2402
+"htmlhelper.ml" 87 2816 2832 "htmlhelper.ml" 87 2816 2840
 type(
   (string Config.element_type -> string) ->
   string Config.element_type list -> string list
@@ -513,299 +621,299 @@ type(
 ident(
   ext_ref List.map
 )
-"htmlhelper.ml" 71 2378 2403 "htmlhelper.ml" 71 2378 2431
+"htmlhelper.ml" 87 2816 2841 "htmlhelper.ml" 87 2816 2869
 type(
   string Config.element_type -> string
 )
 ident(
   ext_ref Contactshelper.constStrToStr
 )
-"htmlhelper.ml" 71 2378 2432 "htmlhelper.ml" 71 2378 2435
+"htmlhelper.ml" 87 2816 2870 "htmlhelper.ml" 87 2816 2873
 type(
   string Config.element_type list
 )
 ident(
-  int_ref lst "htmlhelper.ml" 68 2198 2219 "htmlhelper.ml" 68 2198 2222
+  int_ref lst "htmlhelper.ml" 84 2636 2657 "htmlhelper.ml" 84 2636 2660
 )
-"htmlhelper.ml" 71 2378 2394 "htmlhelper.ml" 71 2378 2435
+"htmlhelper.ml" 87 2816 2832 "htmlhelper.ml" 87 2816 2873
 call(
   stack
 )
 type(
   string list
 )
-"htmlhelper.ml" 72 2445 2453 "htmlhelper.ml" 72 2445 2464
+"htmlhelper.ml" 88 2883 2891 "htmlhelper.ml" 88 2883 2902
 type(
   string list
 )
 ident(
-  def lst_of_html "htmlhelper.ml" 73 2536 2540 "htmlhelper.ml" 73 2536 2581
+  def lst_of_html "htmlhelper.ml" 89 2974 2978 "htmlhelper.ml" 89 2974 3019
 )
-"htmlhelper.ml" 72 2445 2466 "htmlhelper.ml" 72 2445 2474
+"htmlhelper.ml" 88 2883 2904 "htmlhelper.ml" 88 2883 2912
 type(
   (string -> string) -> string list -> string list
 )
 ident(
   ext_ref List.map
 )
-"htmlhelper.ml" 72 2445 2480 "htmlhelper.ml" 72 2445 2483
+"htmlhelper.ml" 88 2883 2918 "htmlhelper.ml" 88 2883 2921
 type(
   string
 )
 ident(
-  def str "htmlhelper.ml" 72 2445 2487 "htmlhelper.ml" 72 2445 2524
+  def str "htmlhelper.ml" 88 2883 2925 "htmlhelper.ml" 88 2883 2962
 )
-"htmlhelper.ml" 72 2445 2487 "htmlhelper.ml" 72 2445 2494
+"htmlhelper.ml" 88 2883 2925 "htmlhelper.ml" 88 2883 2932
 type(
   string
 )
 ident(
-  int_ref leftstr "htmlhelper.ml" 69 2224 2232 "htmlhelper.ml" 69 2224 2239
+  int_ref leftstr "htmlhelper.ml" 85 2662 2670 "htmlhelper.ml" 85 2662 2677
 )
-"htmlhelper.ml" 72 2445 2495 "htmlhelper.ml" 72 2445 2496
+"htmlhelper.ml" 88 2883 2933 "htmlhelper.ml" 88 2883 2934
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"htmlhelper.ml" 72 2445 2497 "htmlhelper.ml" 72 2445 2508
+"htmlhelper.ml" 88 2883 2935 "htmlhelper.ml" 88 2883 2946
 type(
   string -> string
 )
 ident(
   ext_ref String.trim
 )
-"htmlhelper.ml" 72 2445 2508 "htmlhelper.ml" 72 2445 2513
+"htmlhelper.ml" 88 2883 2946 "htmlhelper.ml" 88 2883 2951
 type(
   string
 )
 ident(
-  int_ref str "htmlhelper.ml" 72 2445 2480 "htmlhelper.ml" 72 2445 2483
+  int_ref str "htmlhelper.ml" 88 2883 2918 "htmlhelper.ml" 88 2883 2921
 )
-"htmlhelper.ml" 72 2445 2497 "htmlhelper.ml" 72 2445 2513
+"htmlhelper.ml" 88 2883 2935 "htmlhelper.ml" 88 2883 2951
 call(
   stack
 )
 type(
   string
 )
-"htmlhelper.ml" 72 2445 2514 "htmlhelper.ml" 72 2445 2515
+"htmlhelper.ml" 88 2883 2952 "htmlhelper.ml" 88 2883 2953
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"htmlhelper.ml" 72 2445 2516 "htmlhelper.ml" 72 2445 2524
+"htmlhelper.ml" 88 2883 2954 "htmlhelper.ml" 88 2883 2962
 type(
   string
 )
 ident(
-  int_ref rightstr "htmlhelper.ml" 70 2326 2334 "htmlhelper.ml" 70 2326 2342
+  int_ref rightstr "htmlhelper.ml" 86 2764 2772 "htmlhelper.ml" 86 2764 2780
 )
-"htmlhelper.ml" 72 2445 2497 "htmlhelper.ml" 72 2445 2524
+"htmlhelper.ml" 88 2883 2935 "htmlhelper.ml" 88 2883 2962
 call(
   stack
 )
 type(
   string
 )
-"htmlhelper.ml" 72 2445 2487 "htmlhelper.ml" 72 2445 2524
+"htmlhelper.ml" 88 2883 2925 "htmlhelper.ml" 88 2883 2962
 call(
   tail
 )
 type(
   string
 )
-"htmlhelper.ml" 72 2445 2475 "htmlhelper.ml" 72 2445 2525
+"htmlhelper.ml" 88 2883 2913 "htmlhelper.ml" 88 2883 2963
 type(
   string -> string
 )
-"htmlhelper.ml" 72 2445 2526 "htmlhelper.ml" 72 2445 2532
+"htmlhelper.ml" 88 2883 2964 "htmlhelper.ml" 88 2883 2970
 type(
   string list
 )
 ident(
-  int_ref resLst "htmlhelper.ml" 71 2378 2386 "htmlhelper.ml" 71 2378 2392
+  int_ref resLst "htmlhelper.ml" 87 2816 2824 "htmlhelper.ml" 87 2816 2830
 )
-"htmlhelper.ml" 72 2445 2466 "htmlhelper.ml" 72 2445 2532
+"htmlhelper.ml" 88 2883 2904 "htmlhelper.ml" 88 2883 2970
 call(
   stack
 )
 type(
   string list
 )
-"htmlhelper.ml" 73 2536 2540 "htmlhelper.ml" 73 2536 2569
+"htmlhelper.ml" 89 2974 2978 "htmlhelper.ml" 89 2974 3007
 type(
   string list -> string
 )
 ident(
   ext_ref Contactshelper.listofStrToStr
 )
-"htmlhelper.ml" 73 2536 2570 "htmlhelper.ml" 73 2536 2581
+"htmlhelper.ml" 89 2974 3008 "htmlhelper.ml" 89 2974 3019
 type(
   string list
 )
 ident(
-  int_ref lst_of_html "htmlhelper.ml" 72 2445 2453 "htmlhelper.ml" 72 2445 2464
+  int_ref lst_of_html "htmlhelper.ml" 88 2883 2891 "htmlhelper.ml" 88 2883 2902
 )
-"htmlhelper.ml" 73 2536 2540 "htmlhelper.ml" 73 2536 2581
+"htmlhelper.ml" 89 2974 2978 "htmlhelper.ml" 89 2974 3019
 call(
   tail
 )
 type(
   string
 )
-"htmlhelper.ml" 72 2445 2449 "htmlhelper.ml" 73 2536 2581
+"htmlhelper.ml" 88 2883 2887 "htmlhelper.ml" 89 2974 3019
 type(
   string
 )
-"htmlhelper.ml" 71 2378 2382 "htmlhelper.ml" 73 2536 2581
+"htmlhelper.ml" 87 2816 2820 "htmlhelper.ml" 89 2974 3019
 type(
   string
 )
-"htmlhelper.ml" 70 2326 2330 "htmlhelper.ml" 73 2536 2581
+"htmlhelper.ml" 86 2764 2768 "htmlhelper.ml" 89 2974 3019
 type(
   string
 )
-"htmlhelper.ml" 69 2224 2228 "htmlhelper.ml" 73 2536 2581
+"htmlhelper.ml" 85 2662 2666 "htmlhelper.ml" 89 2974 3019
 type(
   string
 )
-"htmlhelper.ml" 83 2815 2819 "htmlhelper.ml" 83 2815 2835
+"htmlhelper.ml" 99 3253 3257 "htmlhelper.ml" 99 3253 3273
 type(
   string * string Config.element_type list -> string
 )
 ident(
-  def mapLstTo_html_ul "htmlhelper.ml" 100 3242 3242 "htmlhelper.ml" 1 0 -1
+  def mapLstTo_html_ul "htmlhelper.ml" 116 3680 3680 "htmlhelper.ml" 1 0 -1
 )
-"htmlhelper.ml" 83 2815 2836 "htmlhelper.ml" 83 2815 2844
+"htmlhelper.ml" 99 3253 3274 "htmlhelper.ml" 99 3253 3282
 type(
   string * string Config.element_type list
 )
 ident(
-  def tupleLst "htmlhelper.ml" 84 2846 2850 "htmlhelper.ml" 86 2906 2930
+  def tupleLst "htmlhelper.ml" 100 3284 3288 "htmlhelper.ml" 102 3344 3368
 )
-"htmlhelper.ml" 84 2846 2854 "htmlhelper.ml" 84 2846 2857
+"htmlhelper.ml" 100 3284 3292 "htmlhelper.ml" 100 3284 3295
 type(
   string
 )
 ident(
-  def var "htmlhelper.ml" 85 2876 2880 "htmlhelper.ml" 86 2906 2930
+  def var "htmlhelper.ml" 101 3314 3318 "htmlhelper.ml" 102 3344 3368
 )
-"htmlhelper.ml" 84 2846 2859 "htmlhelper.ml" 84 2846 2862
+"htmlhelper.ml" 100 3284 3297 "htmlhelper.ml" 100 3284 3300
 type(
   string * string Config.element_type list -> string
 )
 ident(
   ext_ref Pervasives.fst
 )
-"htmlhelper.ml" 84 2846 2862 "htmlhelper.ml" 84 2846 2872
+"htmlhelper.ml" 100 3284 3300 "htmlhelper.ml" 100 3284 3310
 type(
   string * string Config.element_type list
 )
 ident(
-  int_ref tupleLst "htmlhelper.ml" 83 2815 2836 "htmlhelper.ml" 83 2815 2844
+  int_ref tupleLst "htmlhelper.ml" 99 3253 3274 "htmlhelper.ml" 99 3253 3282
 )
-"htmlhelper.ml" 84 2846 2859 "htmlhelper.ml" 84 2846 2872
+"htmlhelper.ml" 100 3284 3297 "htmlhelper.ml" 100 3284 3310
 type(
   string
 )
-"htmlhelper.ml" 85 2876 2884 "htmlhelper.ml" 85 2876 2887
+"htmlhelper.ml" 101 3314 3322 "htmlhelper.ml" 101 3314 3325
 type(
   string Config.element_type list
 )
 ident(
-  def lst "htmlhelper.ml" 86 2906 2910 "htmlhelper.ml" 86 2906 2930
+  def lst "htmlhelper.ml" 102 3344 3348 "htmlhelper.ml" 102 3344 3368
 )
-"htmlhelper.ml" 85 2876 2889 "htmlhelper.ml" 85 2876 2892
+"htmlhelper.ml" 101 3314 3327 "htmlhelper.ml" 101 3314 3330
 type(
   string * string Config.element_type list -> string Config.element_type list
 )
 ident(
   ext_ref Pervasives.snd
 )
-"htmlhelper.ml" 85 2876 2892 "htmlhelper.ml" 85 2876 2902
+"htmlhelper.ml" 101 3314 3330 "htmlhelper.ml" 101 3314 3340
 type(
   string * string Config.element_type list
 )
 ident(
-  int_ref tupleLst "htmlhelper.ml" 83 2815 2836 "htmlhelper.ml" 83 2815 2844
+  int_ref tupleLst "htmlhelper.ml" 99 3253 3274 "htmlhelper.ml" 99 3253 3282
 )
-"htmlhelper.ml" 85 2876 2889 "htmlhelper.ml" 85 2876 2902
+"htmlhelper.ml" 101 3314 3327 "htmlhelper.ml" 101 3314 3340
 type(
   string Config.element_type list
 )
-"htmlhelper.ml" 86 2906 2910 "htmlhelper.ml" 86 2906 2922
+"htmlhelper.ml" 102 3344 3348 "htmlhelper.ml" 102 3344 3360
 type(
   string -> string Config.element_type list -> string
 )
 ident(
-  int_ref make_html_ul "htmlhelper.ml" 68 2198 2202 "htmlhelper.ml" 68 2198 2214
+  int_ref make_html_ul "htmlhelper.ml" 84 2636 2640 "htmlhelper.ml" 84 2636 2652
 )
-"htmlhelper.ml" 86 2906 2923 "htmlhelper.ml" 86 2906 2926
+"htmlhelper.ml" 102 3344 3361 "htmlhelper.ml" 102 3344 3364
 type(
   string
 )
 ident(
-  int_ref var "htmlhelper.ml" 84 2846 2854 "htmlhelper.ml" 84 2846 2857
+  int_ref var "htmlhelper.ml" 100 3284 3292 "htmlhelper.ml" 100 3284 3295
 )
-"htmlhelper.ml" 86 2906 2927 "htmlhelper.ml" 86 2906 2930
+"htmlhelper.ml" 102 3344 3365 "htmlhelper.ml" 102 3344 3368
 type(
   string Config.element_type list
 )
 ident(
-  int_ref lst "htmlhelper.ml" 85 2876 2884 "htmlhelper.ml" 85 2876 2887
+  int_ref lst "htmlhelper.ml" 101 3314 3322 "htmlhelper.ml" 101 3314 3325
 )
-"htmlhelper.ml" 86 2906 2910 "htmlhelper.ml" 86 2906 2930
+"htmlhelper.ml" 102 3344 3348 "htmlhelper.ml" 102 3344 3368
 call(
   tail
 )
 type(
   string
 )
-"htmlhelper.ml" 85 2876 2880 "htmlhelper.ml" 86 2906 2930
+"htmlhelper.ml" 101 3314 3318 "htmlhelper.ml" 102 3344 3368
 type(
   string
 )
-"htmlhelper.ml" 84 2846 2850 "htmlhelper.ml" 86 2906 2930
+"htmlhelper.ml" 100 3284 3288 "htmlhelper.ml" 102 3344 3368
 type(
   string
 )
-"htmlhelper.ml" 100 3242 3246 "htmlhelper.ml" 100 3242 3265
+"htmlhelper.ml" 116 3680 3684 "htmlhelper.ml" 116 3680 3703
 type(
   (string * string Config.element_type list) list -> string
 )
 ident(
-  def mapLstToHtml_ul_Str "htmlhelper.ml" 102 3403 3442 "htmlhelper.ml" 1 0 -1
+  def mapLstToHtml_ul_Str "htmlhelper.ml" 118 3841 3880 "htmlhelper.ml" 1 0 -1
 )
-"htmlhelper.ml" 100 3242 3266 "htmlhelper.ml" 100 3242 3272
+"htmlhelper.ml" 116 3680 3704 "htmlhelper.ml" 116 3680 3710
 type(
   (string * string Config.element_type list) list
 )
 ident(
-  def mapLst "htmlhelper.ml" 100 3242 3274 "htmlhelper.ml" 102 3403 3442
+  def mapLst "htmlhelper.ml" 116 3680 3712 "htmlhelper.ml" 118 3841 3880
 )
-"htmlhelper.ml" 100 3242 3274 "htmlhelper.ml" 100 3242 3298
+"htmlhelper.ml" 116 3680 3712 "htmlhelper.ml" 116 3680 3736
 type(
   string
 )
-"htmlhelper.ml" 100 3242 3299 "htmlhelper.ml" 100 3242 3300
+"htmlhelper.ml" 116 3680 3737 "htmlhelper.ml" 116 3680 3738
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"htmlhelper.ml" 101 3302 3335 "htmlhelper.ml" 101 3302 3364
+"htmlhelper.ml" 117 3740 3773 "htmlhelper.ml" 117 3740 3802
 type(
   string list -> string
 )
 ident(
   ext_ref Contactshelper.listofStrToStr
 )
-"htmlhelper.ml" 101 3302 3366 "htmlhelper.ml" 101 3302 3374
+"htmlhelper.ml" 117 3740 3804 "htmlhelper.ml" 117 3740 3812
 type(
   (string * string Config.element_type list -> string) ->
   (string * string Config.element_type list) list -> string list
@@ -813,53 +921,53 @@ type(
 ident(
   ext_ref List.map
 )
-"htmlhelper.ml" 101 3302 3375 "htmlhelper.ml" 101 3302 3391
+"htmlhelper.ml" 117 3740 3813 "htmlhelper.ml" 117 3740 3829
 type(
   string * string Config.element_type list -> string
 )
 ident(
-  int_ref mapLstTo_html_ul "htmlhelper.ml" 83 2815 2819 "htmlhelper.ml" 83 2815 2835
+  int_ref mapLstTo_html_ul "htmlhelper.ml" 99 3253 3257 "htmlhelper.ml" 99 3253 3273
 )
-"htmlhelper.ml" 101 3302 3392 "htmlhelper.ml" 101 3302 3398
+"htmlhelper.ml" 117 3740 3830 "htmlhelper.ml" 117 3740 3836
 type(
   (string * string Config.element_type list) list
 )
 ident(
-  int_ref mapLst "htmlhelper.ml" 100 3242 3266 "htmlhelper.ml" 100 3242 3272
+  int_ref mapLst "htmlhelper.ml" 116 3680 3704 "htmlhelper.ml" 116 3680 3710
 )
-"htmlhelper.ml" 101 3302 3365 "htmlhelper.ml" 101 3302 3399
+"htmlhelper.ml" 117 3740 3803 "htmlhelper.ml" 117 3740 3837
 call(
   stack
 )
 type(
   string list
 )
-"htmlhelper.ml" 101 3302 3335 "htmlhelper.ml" 101 3302 3399
+"htmlhelper.ml" 117 3740 3773 "htmlhelper.ml" 117 3740 3837
 call(
   stack
 )
 type(
   string
 )
-"htmlhelper.ml" 101 3302 3400 "htmlhelper.ml" 101 3302 3401
+"htmlhelper.ml" 117 3740 3838 "htmlhelper.ml" 117 3740 3839
 type(
   string -> string -> string
 )
 ident(
   ext_ref Pervasives.( ^ )
 )
-"htmlhelper.ml" 102 3403 3435 "htmlhelper.ml" 102 3403 3442
+"htmlhelper.ml" 118 3841 3873 "htmlhelper.ml" 118 3841 3880
 type(
   string
 )
-"htmlhelper.ml" 101 3302 3335 "htmlhelper.ml" 102 3403 3442
+"htmlhelper.ml" 117 3740 3773 "htmlhelper.ml" 118 3841 3880
 call(
   stack
 )
 type(
   string
 )
-"htmlhelper.ml" 100 3242 3274 "htmlhelper.ml" 102 3403 3442
+"htmlhelper.ml" 116 3680 3712 "htmlhelper.ml" 118 3841 3880
 call(
   tail
 )

@@ -128,7 +128,7 @@ type(
   Config.tuple list
 )
 ident(
-  def policies "examples/contacts.ml" 92 2571 2571 "examples/contacts.ml" 1 0 -1
+  def policies "examples/contacts.ml" 91 2572 2572 "examples/contacts.ml" 1 0 -1
 )
 "examples/contacts.ml" 86 2491 2493 "examples/contacts.ml" 86 2491 2512
 type(
@@ -148,163 +148,152 @@ call(
 type(
   Config.tuple list
 )
-"examples/contacts.ml" 92 2571 2575 "examples/contacts.ml" 92 2571 2583
+"examples/contacts.ml" 91 2572 2576 "examples/contacts.ml" 91 2572 2584
 type(
   Config.tuple list list
 )
 ident(
-  def contacts "examples/contacts.ml" 96 2702 2702 "examples/contacts.ml" 1 0 -1
+  def contacts "examples/contacts.ml" 95 2703 2703 "examples/contacts.ml" 1 0 -1
 )
-"examples/contacts.ml" 92 2571 2588 "examples/contacts.ml" 92 2571 2591
+"examples/contacts.ml" 91 2572 2589 "examples/contacts.ml" 91 2572 2592
 type(
   Config.tuple list
 )
 ident(
   int_ref jon "examples/contacts.ml" 25 923 927 "examples/contacts.ml" 25 923 930
 )
-"examples/contacts.ml" 92 2571 2593 "examples/contacts.ml" 92 2571 2597
+"examples/contacts.ml" 91 2572 2594 "examples/contacts.ml" 91 2572 2598
 type(
   Config.tuple list
 )
 ident(
   int_ref amir "examples/contacts.ml" 39 1274 1278 "examples/contacts.ml" 39 1274 1282
 )
-"examples/contacts.ml" 92 2571 2599 "examples/contacts.ml" 92 2571 2603
+"examples/contacts.ml" 91 2572 2600 "examples/contacts.ml" 91 2572 2604
 type(
   Config.tuple list
 )
 ident(
   int_ref anil "examples/contacts.ml" 52 1587 1591 "examples/contacts.ml" 52 1587 1595
 )
-"examples/contacts.ml" 92 2571 2605 "examples/contacts.ml" 92 2571 2611
+"examples/contacts.ml" 91 2572 2606 "examples/contacts.ml" 91 2572 2612
 type(
   Config.tuple list
 )
 ident(
   int_ref carlos "examples/contacts.ml" 62 1872 1876 "examples/contacts.ml" 62 1872 1882
 )
-"examples/contacts.ml" 92 2571 2613 "examples/contacts.ml" 92 2571 2620
+"examples/contacts.ml" 91 2572 2614 "examples/contacts.ml" 91 2572 2621
 type(
   Config.tuple list
 )
 ident(
   int_ref richard "examples/contacts.ml" 73 2169 2173 "examples/contacts.ml" 73 2169 2180
 )
-"examples/contacts.ml" 92 2571 2586 "examples/contacts.ml" 92 2571 2622
+"examples/contacts.ml" 91 2572 2587 "examples/contacts.ml" 91 2572 2623
 type(
   Config.tuple list list
 )
-"examples/contacts.ml" 96 2702 2706 "examples/contacts.ml" 96 2702 2711
+"examples/contacts.ml" 95 2703 2707 "examples/contacts.ml" 95 2703 2709
 type(
   string
 )
 ident(
-  def oriq2 "examples/contacts.ml" 103 2797 2797 "examples/contacts.ml" 1 0 -1
+  def q2 "examples/contacts.ml" 103 2858 2858 "examples/contacts.ml" 1 0 -1
 )
-"examples/contacts.ml" 97 2714 2716 "examples/contacts.ml" 101 2792 2795
+"examples/contacts.ml" 96 2712 2714 "examples/contacts.ml" 100 2790 2793
 type(
   string
 )
-"examples/contacts.ml" 103 2797 2801 "examples/contacts.ml" 103 2797 2803
-type(
-  string
-)
-ident(
-  def q2 "examples/contacts.ml" 110 2943 2943 "examples/contacts.ml" 1 0 -1
-)
-"examples/contacts.ml" 104 2822 2824 "examples/contacts.ml" 107 2875 2878
-type(
-  string
-)
-"examples/contacts.ml" 110 2943 2947 "examples/contacts.ml" 110 2943 2949
+"examples/contacts.ml" 103 2858 2862 "examples/contacts.ml" 103 2858 2864
 type(
   string
 )
 ident(
-  def q1 "examples/contacts.ml" 119 3076 3076 "examples/contacts.ml" 1 0 -1
+  def q1 "examples/contacts.ml" 112 2991 2991 "examples/contacts.ml" 1 0 -1
 )
-"examples/contacts.ml" 111 2952 2954 "examples/contacts.ml" 116 3068 3071
+"examples/contacts.ml" 104 2867 2869 "examples/contacts.ml" 109 2983 2986
 type(
   string
 )
-"examples/contacts.ml" 119 3076 3080 "examples/contacts.ml" 119 3076 3084
+"examples/contacts.ml" 112 2991 2995 "examples/contacts.ml" 112 2991 2999
 type(
   unit list
 )
 ident(
-  def prnt "examples/contacts.ml" 120 3123 3123 "examples/contacts.ml" 1 0 -1
+  def prnt "examples/contacts.ml" 113 3038 3038 "examples/contacts.ml" 1 0 -1
 )
-"examples/contacts.ml" 119 3076 3087 "examples/contacts.ml" 119 3076 3111
+"examples/contacts.ml" 112 2991 3002 "examples/contacts.ml" 112 2991 3026
 type(
   Config.tuple list list -> unit list
 )
 ident(
   ext_ref Helper.print_tuples_list
 )
-"examples/contacts.ml" 119 3076 3112 "examples/contacts.ml" 119 3076 3120
+"examples/contacts.ml" 112 2991 3027 "examples/contacts.ml" 112 2991 3035
 type(
   Config.tuple list list
 )
 ident(
-  int_ref contacts "examples/contacts.ml" 92 2571 2575 "examples/contacts.ml" 92 2571 2583
+  int_ref contacts "examples/contacts.ml" 91 2572 2576 "examples/contacts.ml" 91 2572 2584
 )
-"examples/contacts.ml" 119 3076 3087 "examples/contacts.ml" 119 3076 3120
+"examples/contacts.ml" 112 2991 3002 "examples/contacts.ml" 112 2991 3035
 call(
   stack
 )
 type(
   unit list
 )
-"examples/contacts.ml" 120 3123 3127 "examples/contacts.ml" 120 3123 3134
+"examples/contacts.ml" 113 3038 3042 "examples/contacts.ml" 113 3038 3049
 type(
   Rete.rete_dataflow
 )
 ident(
-  def results "examples/contacts.ml" 122 3204 3204 "examples/contacts.ml" 1 0 -1
+  def results "examples/contacts.ml" 115 3119 3119 "examples/contacts.ml" 1 0 -1
 )
-"examples/contacts.ml" 120 3123 3138 "examples/contacts.ml" 120 3123 3151
+"examples/contacts.ml" 113 3038 3053 "examples/contacts.ml" 113 3038 3066
 type(
   string -> Config.tuple list -> Rete.rete_dataflow
 )
 ident(
   ext_ref Rete.exec_qry
 )
-"examples/contacts.ml" 120 3123 3152 "examples/contacts.ml" 120 3123 3154
+"examples/contacts.ml" 113 3038 3067 "examples/contacts.ml" 113 3038 3069
 type(
   string
 )
 ident(
-  int_ref q1 "examples/contacts.ml" 110 2943 2947 "examples/contacts.ml" 110 2943 2949
+  int_ref q1 "examples/contacts.ml" 103 2858 2862 "examples/contacts.ml" 103 2858 2864
 )
-"examples/contacts.ml" 120 3123 3156 "examples/contacts.ml" 120 3123 3168
+"examples/contacts.ml" 113 3038 3071 "examples/contacts.ml" 113 3038 3083
 type(
   Config.tuple list list -> Config.tuple list
 )
 ident(
   ext_ref List.flatten
 )
-"examples/contacts.ml" 120 3123 3169 "examples/contacts.ml" 120 3123 3177
+"examples/contacts.ml" 113 3038 3084 "examples/contacts.ml" 113 3038 3092
 type(
   Config.tuple list list
 )
 ident(
-  int_ref contacts "examples/contacts.ml" 92 2571 2575 "examples/contacts.ml" 92 2571 2583
+  int_ref contacts "examples/contacts.ml" 91 2572 2576 "examples/contacts.ml" 91 2572 2584
 )
-"examples/contacts.ml" 120 3123 3155 "examples/contacts.ml" 120 3123 3178
+"examples/contacts.ml" 113 3038 3070 "examples/contacts.ml" 113 3038 3093
 call(
   stack
 )
 type(
   Config.tuple list
 )
-"examples/contacts.ml" 120 3123 3137 "examples/contacts.ml" 120 3123 3179
+"examples/contacts.ml" 113 3038 3052 "examples/contacts.ml" 113 3038 3094
 call(
   stack
 )
 type(
   Rete.rete_dataflow
 )
-"examples/contacts.ml" 120 3123 3180 "examples/contacts.ml" 120 3123 3182
+"examples/contacts.ml" 113 3038 3095 "examples/contacts.ml" 113 3038 3097
 type(
   Rete.rete_dataflow ->
   (Rete.rete_dataflow -> Rete.rete_dataflow) -> Rete.rete_dataflow
@@ -312,65 +301,65 @@ type(
 ident(
   ext_ref Pervasives.( |> )
 )
-"examples/contacts.ml" 120 3123 3184 "examples/contacts.ml" 120 3123 3196
+"examples/contacts.ml" 113 3038 3099 "examples/contacts.ml" 113 3038 3111
 type(
   string -> Rete.rete_dataflow -> Rete.rete_dataflow
 )
 ident(
   ext_ref Rete.exec_bm
 )
-"examples/contacts.ml" 120 3123 3197 "examples/contacts.ml" 120 3123 3199
+"examples/contacts.ml" 113 3038 3112 "examples/contacts.ml" 113 3038 3114
 type(
   string
 )
 ident(
-  int_ref q2 "examples/contacts.ml" 103 2797 2801 "examples/contacts.ml" 103 2797 2803
+  int_ref q2 "examples/contacts.ml" 95 2703 2707 "examples/contacts.ml" 95 2703 2709
 )
-"examples/contacts.ml" 120 3123 3183 "examples/contacts.ml" 120 3123 3200
+"examples/contacts.ml" 113 3038 3098 "examples/contacts.ml" 113 3038 3115
 type(
   Rete.rete_dataflow -> Rete.rete_dataflow
 )
-"examples/contacts.ml" 120 3123 3137 "examples/contacts.ml" 120 3123 3200
+"examples/contacts.ml" 113 3038 3052 "examples/contacts.ml" 113 3038 3115
 call(
   stack
 )
 type(
   Rete.rete_dataflow
 )
-"examples/contacts.ml" 122 3204 3220 "examples/contacts.ml" 122 3204 3221
+"examples/contacts.ml" 115 3119 3135 "examples/contacts.ml" 115 3119 3136
 type(
   Rete.am
 )
-"examples/contacts.ml" 122 3204 3223 "examples/contacts.ml" 122 3204 3229
+"examples/contacts.ml" 115 3119 3138 "examples/contacts.ml" 115 3119 3144
 type(
   Rete.bm
 )
 ident(
-  def res_bm "examples/contacts.ml" 127 3369 3369 "examples/contacts.ml" 1 0 -1
+  def res_bm "examples/contacts.ml" 120 3284 3284 "examples/contacts.ml" 1 0 -1
 )
-"examples/contacts.ml" 122 3204 3231 "examples/contacts.ml" 122 3204 3232
+"examples/contacts.ml" 115 3119 3146 "examples/contacts.ml" 115 3119 3147
 type(
   Rete.rete_dataflow
 )
-"examples/contacts.ml" 122 3204 3208 "examples/contacts.ml" 122 3204 3234
+"examples/contacts.ml" 115 3119 3123 "examples/contacts.ml" 115 3119 3149
 type(
   Rete.rete_dataflow
 )
-"examples/contacts.ml" 122 3204 3237 "examples/contacts.ml" 122 3204 3244
+"examples/contacts.ml" 115 3119 3152 "examples/contacts.ml" 115 3119 3159
 type(
   Rete.rete_dataflow
 )
 ident(
-  int_ref results "examples/contacts.ml" 120 3123 3127 "examples/contacts.ml" 120 3123 3134
+  int_ref results "examples/contacts.ml" 113 3038 3042 "examples/contacts.ml" 113 3038 3049
 )
-"examples/contacts.ml" 127 3369 3373 "examples/contacts.ml" 127 3369 3378
+"examples/contacts.ml" 120 3284 3288 "examples/contacts.ml" 120 3284 3293
 type(
   Config.t Config.element_type list Helper.StringMap.t
 )
 ident(
-  def r_map "examples/contacts.ml" 129 3437 3437 "examples/contacts.ml" 1 0 -1
+  def r_map "examples/contacts.ml" 120 3284 3348 "examples/contacts.ml" 1 0 -1
 )
-"examples/contacts.ml" 127 3369 3381 "examples/contacts.ml" 127 3369 3397
+"examples/contacts.ml" 120 3284 3296 "examples/contacts.ml" 120 3284 3312
 type(
   Rete.rete_dataflow ->
   Helper.StringMap.key list ->
@@ -379,62 +368,33 @@ type(
 ident(
   ext_ref Rete.get_res_map
 )
-"examples/contacts.ml" 127 3369 3398 "examples/contacts.ml" 127 3369 3405
+"examples/contacts.ml" 120 3284 3313 "examples/contacts.ml" 120 3284 3320
 type(
   Rete.rete_dataflow
 )
 ident(
-  int_ref results "examples/contacts.ml" 120 3123 3127 "examples/contacts.ml" 120 3123 3134
+  int_ref results "examples/contacts.ml" 113 3038 3042 "examples/contacts.ml" 113 3038 3049
 )
-"examples/contacts.ml" 127 3369 3408 "examples/contacts.ml" 127 3369 3415
+"examples/contacts.ml" 120 3284 3323 "examples/contacts.ml" 120 3284 3330
 type(
   Helper.StringMap.key
 )
-"examples/contacts.ml" 127 3369 3417 "examples/contacts.ml" 127 3369 3421
+"examples/contacts.ml" 120 3284 3332 "examples/contacts.ml" 120 3284 3336
 type(
   Helper.StringMap.key
 )
-"examples/contacts.ml" 127 3369 3423 "examples/contacts.ml" 127 3369 3431
+"examples/contacts.ml" 120 3284 3338 "examples/contacts.ml" 120 3284 3346
 type(
   Helper.StringMap.key
 )
-"examples/contacts.ml" 127 3369 3406 "examples/contacts.ml" 127 3369 3433
+"examples/contacts.ml" 120 3284 3321 "examples/contacts.ml" 120 3284 3348
 type(
   Helper.StringMap.key list
 )
-"examples/contacts.ml" 127 3369 3381 "examples/contacts.ml" 127 3369 3433
+"examples/contacts.ml" 120 3284 3296 "examples/contacts.ml" 120 3284 3348
 call(
   stack
 )
 type(
   Config.t Config.element_type list Helper.StringMap.t
-)
-"examples/contacts.ml" 129 3437 3445 "examples/contacts.ml" 129 3437 3466
-type(
-  (Helper.StringMap.key -> Config.t Config.element_type list -> unit) ->
-  Config.t Config.element_type list Helper.StringMap.t -> unit
-)
-ident(
-  ext_ref Helper.StringMap.iter
-)
-"examples/contacts.ml" 129 3437 3467 "examples/contacts.ml" 129 3437 3483
-type(
-  Helper.StringMap.key -> Config.t Config.element_type list -> unit
-)
-ident(
-  ext_ref Helper.print_var
-)
-"examples/contacts.ml" 129 3437 3484 "examples/contacts.ml" 129 3437 3489
-type(
-  Config.t Config.element_type list Helper.StringMap.t
-)
-ident(
-  int_ref r_map "examples/contacts.ml" 127 3369 3373 "examples/contacts.ml" 127 3369 3378
-)
-"examples/contacts.ml" 129 3437 3445 "examples/contacts.ml" 129 3437 3489
-call(
-  stack
-)
-type(
-  unit
 )

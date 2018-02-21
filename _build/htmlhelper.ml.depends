@@ -1,1 +1,1 @@
-htmlhelper.ml: Config Contactshelper Helper List Str String
+htmlhelper.ml: Config Contactshelper List Printf Str String

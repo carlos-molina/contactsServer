@@ -6,7 +6,7 @@ with Moana [(see yansh/MoanaML)!](https://github.com/yansh/MoanaML)
 support for enforcing access control policies.
 
 ## 1. Installation
-1. Clone this repo.
+1. Clone this repository.
 
 2. % build.sh (* compilation *) 
 
